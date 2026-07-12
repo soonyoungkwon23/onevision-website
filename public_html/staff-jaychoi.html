@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jay Choi | OneVision Consulting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        --radius-lg: 4px;
+        --radius-xl: 12px;
+        --max-width: 1200px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background: var(--bg-main);
+        color: var(--text-on-dark);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      section {
+        padding: 4.2rem 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .hero-title,
+      .section-title .admit-title-main {
+        font-family: "Noto Serif KR", serif;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+        line-height: 1.3;
+      }
+
+      /* =========================
+       Header / Nav
+       ========================= */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #fff;
+        border-bottom: 1px solid var(--border-on-light);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92px;
+        position: relative;
+      }
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .logo-mark {
+        width: 220px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        opacity: 1;
+        flex-shrink: 0;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 1.08rem;
+      }
+      .logo-text-sub {
+        font-size: 0.78rem;
+        margin-top: 6px;
+        font-weight: 600;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--accent);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+      }
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        font-size: 1.4rem;
+        cursor: pointer;
+        padding: 0.35rem 0.45rem;
+        border-radius: 10px;
+      }
+      .nav-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      /* 헤더 텍스트는.. 검정 */
+      
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.68rem 1.35rem;
+        border-radius: 999px;
+        font-weight: 750;
+        font-size: 0.88rem;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease,
+          box-shadow 0.15s ease;
+        white-space: nowrap;
+        border: 1px solid transparent;
+      }
+      .btn-primary {
+        background: linear-gradient(
+          180deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: #fff !important;
+        box-shadow: none;
+      }
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .btn-outline {
+        background: rgba(255, 255, 255, 0.04);
+        color: #fff !important;
+        border-color: rgba(255, 255, 255, 0.35);
+      }
+      .btn-outline:hover {
+        background: rgba(255, 255, 255, 0.09);
+      }
+
+      @media (max-width: 1024px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto; /* 고정 너비 해제 */
+          padding: 0;
+        }
+        .nav-links {
+          display: none; /* 기본값 */
+          flex-direction: column;
+          width: 100%;
+          /* 애니메이션 효과를 원한다면 아래 설정 추가 */
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 100%;
+          background: #fff;
+          padding: 20px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .nav.nav-open .nav-cta {
+          display: none;
+        }
+
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+      /* =========================
+         상세 페이지 레이아웃
+         ========================= */
+      .detail-section {
+        padding: 5.4rem 0;
+      }
+      .detail-grid {
+        display: grid;
+        grid-template-columns: 380px 1fr;
+        gap: 4.5rem;
+        align-items: start;
+      }
+      .profile-aside {
+        position: sticky;
+        top: 140px;
+        text-align: center;
+      }
+      .profile-image-card {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 24px;
+        overflow: hidden;
+        background: #f8f8f8;
+        border: 1px solid var(--border-on-light);
+        margin-bottom: 1.8rem;
+      }
+      .profile-image-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .email-text {
+        color: var(--muted-on-dark);
+        font-size: 0.92rem;
+        font-weight: 600;
+      }
+      .social-row {
+        display: flex;
+        justify-content: center;
+        gap: 1.2rem;
+        margin-top: 1.5rem;
+      }
+      .social-row img {
+        width: 32px;
+        height: 32px;
+        transition: 0.2s;
+        opacity: 0.8;
+      }
+      .social-row img:hover {
+        transform: translateY(-3px);
+        opacity: 1;
+      }
+
+      .info-content h1 {
+        font-family: "Noto Serif KR", serif;
+        font-size: clamp(2.5rem, 5vw, 3.4rem);
+        margin-bottom: 0.5rem;
+      }
+      .role-badge {
+        display: inline-block;
+        color: var(--brand);
+        font-weight: 800;
+        font-size: 1.15rem;
+        margin-bottom: 3.2rem;
+      }
+      .content-block {
+        margin-bottom: 4.5rem;
+      }
+      .content-block h2 {
+        font-family: "Noto Serif KR", serif;
+        font-size: 1.8rem;
+        border-bottom: 2px solid var(--brand);
+        padding-bottom: 0.8rem;
+        margin-bottom: 1.8rem;
+      }
+      .spec-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.4rem;
+        list-style: none;
+      }
+      .spec-list li {
+        position: relative;
+        padding-left: 1.5rem;
+        font-size: 1rem;
+        color: var(--text-on-dark);
+        font-weight: 500;
+      }
+      .spec-list li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 11px;
+        width: 6px;
+        height: 6px;
+        background: var(--brand);
+        border-radius: 50%;
+      }
+      .full-width {
+        grid-column: 1 / -1;
+      }
+
+      @media (max-width: 1024px) {
+        .detail-grid {
+          grid-template-columns: 1fr;
+          gap: 3rem;
+        }
+        .profile-aside {
+          position: static;
+          max-width: 450px;
+          margin: 0 auto;
+        }
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <header></header>
+
+    <main class="detail-section">
+      <div class="container detail-grid">
+        <aside class="profile-aside">
+          <div class="profile-image-card">
+            <img
+              src="images/jay-choi.jpg"
+              alt="Jay Choi"
+              onerror="
+                this.nextElementSibling.style.display = 'flex';
+                this.style.display = 'none';
+              "
+            />
+            <div
+              style="
+                display: none;
+                font-size: 6rem;
+                font-weight: 800;
+                color: #ddd;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+              "
+            >
+              JC
+            </div>
+          </div>
+          <p class="email-text">jay.choi@onevisionconsulting.us</p>
+          <div class="social-row">
+            <a
+              href="https://www.linkedin.com/in/dr-jay-choi-dba-mba-mph-mha-ms-36288b1b6/"
+              target="_blank"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                alt="LinkedIn"
+              />
+            </a>
+            <a href="https://www.instagram.com/jtc0420/" target="_blank">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+        </aside>
+
+        <section class="info-content">
+          <h1>Jay Choi</h1>
+          <span class="role-badge"
+            >CEO | 미국 입시·진로 전략 총괄 컨설턴트</span
+          >
+
+          <div class="content-block">
+            <h2>인사말</h2>
+            <p
+              style="
+                font-size: 1.1rem;
+                color: var(--text-dark);
+                line-height: 1.8;
+              "
+            >
+              미국 대학의 문을 여는 열쇠, 그 안까지 안내하는 사람. 아이비리그
+              출신 미국 법무사 Jay Choi는 풍부한 실무 경험을 바탕으로 미국 대학
+              및 대학원 입시 컨설팅을 제공합니다.
+              <br /><br />
+              <strong
+                style="
+                  color: var(--brand);
+                  font-family: &quot;Noto Serif KR&quot;;
+                  font-size: 1.3rem;
+                "
+                >“입시는 정보가 아닌 전략입니다.”</strong
+              >
+            </p>
+          </div>
+
+          <div class="content-block">
+            <h2>주요 학력</h2>
+            <ul class="spec-list">
+              <li>Brown University &mdash; MPH (보건학 석사, 수료)</li>
+              <li>University of Southern California &mdash; B.A. Political Science &middot; B.A. East Asian Languages &amp; Cultures (정치학·동아시아언어문화 학사, 수료)</li>
+              <li>Seton Hall Law School &mdash; J.D. 1L 과정 수료</li>
+              <li>Johns Hopkins University &mdash; M.S. Real Estate &amp; Infrastructure (부동산·인프라 석사 과정)</li>
+              <li>Northwestern University &mdash; M.S. Communication (커뮤니케이션 석사, 2026년 가을 입학)</li>
+              <li>University of Illinois Urbana&ndash;Champaign &mdash; M.S. Accountancy (회계학 석사 과정)</li>
+              <li>Purdue Global Law School &mdash; J.D. (법학 박사 과정)</li>
+              <li>University of Dayton School of Law &mdash; LL.M. (법학 석사 과정)</li>
+              <li>Capella University &mdash; DBA Candidate &middot; M.S. Psychology (경영학 박사 후보 · 심리학 석사 과정)</li>
+              <li>South College &mdash; Ed.D. in Teaching &amp; Learning (교육학 박사 과정)</li>
+              <li>Walden University &mdash; MHA &middot; M.S. Criminal Justice (보건경영·형사사법 석사 과정)</li>
+              <li>WorldQuant University &mdash; M.S. Financial Engineering (금융공학 석사 과정)</li>
+              <li>University of the People &mdash; M.Ed. Advanced Teaching (교육학 석사 과정)</li>
+              <li class="full-width">Atlanta College of Liberal Arts &amp; Sciences &mdash; DBA &middot; MBA (경영학 박사·석사 과정)</li>
+              <li class="full-width">추가 인증: Harvard Law School &mdash; Negotiation &amp; Dispute Resolution &middot; Harvard Kennedy School &mdash; Public Leadership Credential &middot; UCLA &mdash; College Counseling Certification &middot; University of Oxford &mdash; ESG and Sustainable Financial Strategy</li>
+            </ul>
+          </div>
+
+          <div class="content-block">
+            <h2>주요 경력</h2>
+            <ul class="spec-list" style="grid-template-columns: 1fr">
+              <li>원비전 컨설팅 미국 본사 대표 (10년 경력)</li>
+              <li>미국 대학 입시 전문 컨설턴트 10년 경력</li>
+              <li>미국한인유학생협회 (미한유회) 부회장</li>
+              <li>미국 법무사 (캘리포니아) / 미국 공증인 (뉴저지)</li>
+              <li>미국 공인중개사 (일리노이, 뉴저지, 버지니아)</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="js/common.js"></script>
+    <script>
+      const menuBtn = document.getElementById("menuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+
+      if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener("click", () => {
+          const isActive = mobileMenu.classList.toggle("active");
+          menuBtn.textContent = isActive ? "✕" : "☰";
+          document.body.style.overflow = isActive ? "hidden" : "auto";
+        });
+        mobileMenu.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => {
+            mobileMenu.classList.remove("active");
+            menuBtn.textContent = "☰";
+            document.body.style.overflow = "auto";
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "baseUrl": "https://onevisionconsulting.us",
+  "siteName": "원비전컨설팅 | OneVision Consulting",
+  "blogPathPrefix": "blog",
+  "blogNavLabel": "입학 가이드",
+  "dripRate": 5,
+  "rssItemLimit": 50,
+  "indexPageSize": 12,
+  "categories": {
+    "bsn": { "label": "BSN 간호대학", "shortLabel": "BSN" },
+    "mba": { "label": "MBA", "shortLabel": "MBA" },
+    "column": { "label": "칼럼·후기", "shortLabel": "칼럼" }
+  },
+  "verification": {
+    "googleSiteVerification": "",
+    "naverSiteVerification": ""
+  },
+  "organization": {
+    "name": "OneVision Consulting",
+    "logo": "/images/Onevisionlogo.jpeg",
+    "ogImage": "/images/Onevisionlogo.jpeg",
+    "email": "onevisionconsulting.info@gmail.com",
+    "addressUS": "732 Ogden Ave., Downers Grove, IL 60515",
+    "addressKR": "경기도 성남시 분당구 황새울로319번길 8-4 비욘드워크 7층 734호",
+    "sameAs": [
+      "https://cafe.naver.com/onevisionconsulting",
+      "https://blog.naver.com/onevision_consulting",
+      "https://www.instagram.com/onevision_consulting",
+      "https://www.facebook.com/p/OneVision-Consulting-원비전컨설팅-61582774824246/"
+    ]
+  }
+}

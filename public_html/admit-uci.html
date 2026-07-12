@@ -1,0 +1,988 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OneVision | UC Irvine Business Administration 편입 합격 후기</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="UC Irvine Business Administration 편입 합격을 목표로 한 학생이 OneVision과 함께 준비한 과정과 합격 스토리입니다."
+    />
+
+    <!-- Fonts (Unified) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* ==================================================
+       OneVision Theme (Unified)
+       ================================================== */
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-main: #0b0e14;
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --text-on-dark: #f8fafc;
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        --radius-lg: 18px;
+        --radius-xl: 26px;
+
+        --max-width: 1200px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background:
+          radial-gradient(
+            1200px 600px at 18% -10%,
+            rgba(156, 26, 54, 0.14),
+            transparent 60%
+          ),
+          radial-gradient(
+            900px 500px at 92% 10%,
+            rgba(90, 11, 31, 0.12),
+            transparent 55%
+          ),
+          linear-gradient(180deg, #ffffff, #fbf9fa);
+        color: var(--text-on-light);
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      section {
+        padding: 3.8rem 0;
+      }
+
+      /* Serif headings */
+      h1,
+      h2,
+      h3,
+      h4,
+      .section-title {
+        font-family: "Noto Serif KR", serif;
+        letter-spacing: -0.02em;
+      }
+
+      /* ==================================================
+       Header / Nav 
+       ================================================== */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #ffffff;
+        border-bottom: 1px solid var(--border-on-light);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92px;
+        position: relative;
+        gap: 1rem;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+        flex-shrink: 0;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .logo-mark {
+        width: 220px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        flex-shrink: 0;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 1.08rem;
+        color: #000;
+      }
+      .logo-text-sub {
+        font-size: 0.78rem;
+        margin-top: 6px;
+        font-weight: 600;
+        color: #000;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--accent);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        flex-shrink: 0;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.68rem 1.25rem;
+        border-radius: 999px;
+        font-weight: 750;
+        font-size: 0.88rem;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease,
+          box-shadow 0.15s ease;
+        border: 1px solid transparent;
+        white-space: nowrap;
+      }
+      .btn-primary {
+        background: linear-gradient(
+          180deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: #fff;
+      }
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        color: #000;
+        font-size: 1.4rem;
+        cursor: pointer;
+        padding: 0.35rem 0.5rem;
+        border-radius: 10px;
+        line-height: 1;
+        min-width: 44px;
+        min-height: 44px;
+      }
+      .nav-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      header .logo,
+      header .logo *,
+      header .nav-links a,
+      header .nav-toggle {
+        color: #000 !important;
+      }
+
+      @media (max-width: 960px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto;
+          padding: 0;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+          position: relative;
+          z-index: 101;
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          padding: 10px 20px 40px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .nav-open .nav-toggle span {
+          color: #000 !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: grid;
+          position: absolute;
+          top: 92px;
+          left: 0;
+          right: 0;
+          gap: 0.55rem;
+          padding: 1rem 1.2rem 1.2rem;
+          background: #ffffff;
+          border-bottom: 1px solid var(--border-on-light);
+        }
+        .nav.nav-open .nav-cta {
+          display: none;
+        }
+      }
+      @media (max-width: 640px) {
+        .logo-mark {
+          width: 190px;
+          height: 68px;
+        }
+        section {
+          padding: 3.2rem 0;
+        }
+      }
+
+      /* ==================================================
+       Breadcrumb
+       ================================================== */
+      .breadcrumb {
+        font-size: 0.82rem;
+        color: #9ca3af;
+        margin-bottom: 1.15rem;
+      }
+      .breadcrumb a {
+        color: #6b7280;
+      }
+      .breadcrumb span {
+        margin: 0 0.3rem;
+      }
+
+      /* ==================================================
+       Hero Card
+       ================================================== */
+      .hero {
+        padding-top: 2.2rem;
+      }
+      .hero-card {
+        position: relative;
+        border-radius: var(--radius-xl);
+        overflow: hidden;
+        height: 330px;
+        background-image: url("images/ucicampus.jpeg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 24px 60px rgba(15, 23, 42, 0.45);
+        border: 1px solid rgba(10, 10, 10, 0.1);
+        margin-bottom: 2rem;
+      }
+      .hero-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.88)
+        );
+      }
+      .hero-card-inner {
+        position: relative;
+        height: 100%;
+        padding: 1.6rem 1.6rem 1.45rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+      }
+      .hero-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.22rem 0.8rem;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        width: fit-content;
+      }
+      .hero-pill-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: #ffd0d8;
+        box-shadow: 0 0 0 3px rgba(255, 208, 216, 0.18);
+      }
+      .hero-title-main {
+        font-size: 1.55rem;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        line-height: 1.35;
+      }
+      .hero-title-sub {
+        font-size: 0.95rem;
+        margin-top: 0.35rem;
+        color: rgba(255, 255, 255, 0.86);
+      }
+      .hero-meta {
+        font-size: 0.82rem;
+        color: rgba(255, 255, 255, 0.78);
+        line-height: 1.6;
+      }
+      .hero-meta span {
+        margin-right: 0.85rem;
+      }
+
+      @media (max-width: 768px) {
+        .hero-card {
+          height: 285px;
+        }
+      }
+
+      /* ==================================================
+       Content layout
+       ================================================== */
+      .content-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+        gap: 2rem;
+        align-items: flex-start;
+        margin-top: 0.2rem;
+      }
+      @media (max-width: 900px) {
+        .content-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+
+      .section-title-small {
+        font-size: 1.05rem;
+        font-weight: 900;
+        margin-bottom: 0.45rem;
+        color: var(--primary-dark);
+        letter-spacing: -0.02em;
+      }
+      .section-text {
+        font-size: 0.95rem;
+        color: #4b5563;
+        line-height: 1.9;
+      }
+      .content-block {
+        margin-bottom: 1.55rem;
+      }
+
+      /* Right column cards */
+      .info-card {
+        border-radius: 18px;
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+        padding: 1.05rem 1.05rem;
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.1);
+        font-size: 0.9rem;
+      }
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.8rem;
+        margin-bottom: 0.45rem;
+      }
+      .info-label {
+        color: #6b7280;
+        font-weight: 700;
+      }
+      .info-value {
+        font-weight: 900;
+        color: #111827;
+        text-align: right;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.55rem;
+      }
+      .tag {
+        font-size: 0.78rem;
+        padding: 0.18rem 0.6rem;
+        border-radius: 999px;
+        background: rgba(90, 11, 31, 0.08);
+        border: 1px solid rgba(90, 11, 31, 0.12);
+        color: var(--primary-dark);
+        font-weight: 850;
+      }
+
+      .quote-block {
+        margin-top: 1rem;
+        padding: 0.95rem 1rem;
+        border-left: 3px solid var(--primary);
+        background: rgba(90, 11, 31, 0.06);
+        border-radius: 14px;
+        font-size: 0.92rem;
+        color: #374151;
+        box-shadow: 0 14px 34px rgba(10, 10, 10, 0.06);
+        border: 1px solid rgba(10, 10, 10, 0.06);
+      }
+      .quote-label {
+        font-size: 0.78rem;
+        color: #6b7280;
+        margin-bottom: 0.25rem;
+        font-weight: 800;
+      }
+
+      /* =========================
+       Footer
+       ========================= */
+      footer {
+        background: #1a1a1a; /* 이미지 11의 짙은 배경색 반영 */
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 4rem 0 2rem;
+        font-size: 0.85rem;
+        line-height: 1.8;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2.5rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f8fafc;
+        font-weight: 700;
+        min-width: 80px;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f8fafc;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64748b;
+      }
+      /* =========================
+   Floating Social (Shared)
+   ========================= */
+      .floating-social {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 999;
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+      }
+
+      .floating-social-label {
+        font-size: 0.78rem;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.92);
+        background: rgba(26, 3, 8, 0.78);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        padding: 0.35rem 0.6rem;
+        border-radius: 999px;
+        backdrop-filter: blur(6px);
+      }
+
+      .floating-social .social-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
+        text-decoration: none;
+      }
+
+      .floating-social .social-icon img {
+        width: 26px;
+        height: 26px;
+        display: block;
+        transition:
+          transform 0.18s ease,
+          opacity 0.18s ease;
+      }
+
+      .floating-social .social-icon:hover img {
+        transform: translateY(-2px);
+        opacity: 0.9;
+      }
+
+      @media (max-width: 640px) {
+        .floating-social {
+          right: 12px;
+          bottom: 12px;
+        }
+        .floating-social .social-icon {
+          width: 44px;
+          height: 44px;
+        }
+        .floating-social .social-icon img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper" id="top">
+      <!-- Header (Unified) -->
+      <header></header>
+
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="breadcrumb">
+              <a href="index.html#top">홈</a><span>›</span>
+              <a href="admit-gallery.html">합격 후기</a><span>›</span>
+              <span>UC Irvine Business Administration 편입</span>
+            </div>
+
+            <div
+              class="hero-card"
+              role="img"
+              aria-label="UC Irvine 편입 합격 후기 커버 이미지"
+            >
+              <div class="hero-card-inner">
+                <div>
+                  <div class="hero-pill">
+                    <span class="hero-pill-dot"></span>
+                    CC → UC Transfer · Business
+                  </div>
+
+                  <div style="margin-top: 0.75rem">
+                    <div class="hero-title-main">
+                      UNIVERSITY OF CALIFORNIA, IRVINE
+                    </div>
+                    <div class="hero-title-sub">
+                      Business Administration 편입 합격 스토리
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hero-meta">
+                  <span>전형: CC 편입</span>
+                  <span>전공: Business Administration</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-layout">
+              <!-- Left -->
+              <div>
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    1. 왜 비즈니스 전공, 왜 UC Irvine이었나요?
+                  </h2>
+                  <p class="section-text">
+                    CC에서 건강한 공부 습관을 만들며 부담을 줄이고 싶었고,
+                    동시에 창업·사회적 영향력에 관심이 많아 Business
+                    Administration 전공을 선택했습니다. UC Irvine은 공대뿐
+                    아니라
+                    <strong>Business 프로그램과 커리어 지원이 강한 학교</strong
+                    >라 “현실적인 취업 + 내가 만들고 싶은 비즈니스”를 함께
+                    준비할 수 있는 곳이라고 느꼈다고 합니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    2. 수많은 편입 컨설팅 중 OneVision을 선택한 이유
+                  </h2>
+                  <p class="section-text">
+                    처음에는 카운슬러가 알려주는 기본 정보만으로 준비를
+                    시작했지만, 전공별 세부 편입 요건과 실제 사례를 찾기가 쉽지
+                    않았습니다. 그러던 중 Jay 대표의 인스타그램에서
+                    <strong>“CC에서 UC 편입 성공 사례”</strong> 영상을 보고 본인
+                    상황과 비슷하다고 느껴 상담을 신청했고, 개별 전공과 학교에
+                    맞춰 <strong>구체적인 편입 로드맵</strong>을 제시해 주는
+                    점이 마음에 들어 OneVision을 선택했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    3. 준비 과정에서 가장 어려웠던 부분
+                  </h2>
+                  <p class="section-text">
+                    높은 GPA를 유지하면서 동시에 비즈니스 관련 활동을 채우는
+                    것이 가장 힘들었습니다. 또 어떤 UC 캠퍼스가 본인과 잘 맞는지
+                    판단하는 것도 쉽지 않았습니다. “어디까지 도전하고, 어떤
+                    학교를 세이프티로 둘지”를 스스로 결정하기가 막막했다고
+                    말했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    4. OneVision이 도와준 핵심 – 전공별 로드맵 & 온라인 비즈니스
+                    프로젝트
+                  </h2>
+                  <p class="section-text">
+                    OneVision은 CC 재학 기간 전체를 기준으로
+                    <strong
+                      >학기별로 들어야 할 과목, GPA 관리 전략, 방학 활동</strong
+                    >을 한 번에 정리해 주었습니다. 특히 UC Irvine 비즈니스
+                    편입을 고려해 온라인 비즈니스 프로젝트와 실제 고객을
+                    대상으로 한 경험을 연결시켜 에세이에서 강점이 될 수 있도록
+                    도와준 점이 가장 큰 차별점이었다고 합니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    5. 준비 과정에서 가장 성장했다고 느낀 부분
+                  </h2>
+                  <p class="section-text">
+                    단순히 학점만 맞추는 학생이 아니라,
+                    <strong>스스로 목표를 세우고 실행하는 자기주도성</strong>이
+                    많이 성장했습니다. 매 학기마다 Jay 대표와 로드맵을 다시
+                    점검하면서 “이번 학기는 어디에 집중할지, 어떤 활동을
+                    줄일지”를 스스로 결정하는 연습을 했고, 그 과정에서 자신감도
+                    많이 생겼다고 이야기했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    6. 실제 지원 과정에서 기억에 남는 장면
+                  </h2>
+                  <p class="section-text">
+                    에세이를 쓰면서 “실패 속에서 배운 교훈”을 정리하던 순간이
+                    가장 기억에 남는다고 말했습니다. Jay 대표가 “실패
+                    이야기일수록, 어떻게 다시 일어섰는지가 핵심”이라고 조언해 준
+                    덕분에 단순히 힘들었다는 이야기가 아니라
+                    <strong>비즈니스 마인드셋과 책임감</strong>을 보여주는
+                    에세이로 완성할 수 있었습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">7. 합격 소식을 들었을 때</h2>
+                  <p class="section-text">
+                    UC Irvine 경영학과 편입 합격 메일을 받았을 때 “지금까지의
+                    선택이 모두 이어졌구나”라는 생각이 들었다고 합니다. CC에서
+                    시작한 여정이 자연스럽게 UC로 이어졌다는 사실에 부모님과
+                    함께 큰 안도감과 기쁨을 느꼈다고 이야기했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    8. 같은 전공을 준비하는 후배들에게
+                  </h2>
+                  <p class="section-text">
+                    후배들에게 해주고 싶은 말은
+                    <strong>GPA와 비즈니스 활동의 균형</strong>을 꼭 빨리
+                    잡으라는 것입니다. 전공별 필수 과목과 편입 요구사항을 미리
+                    확인한 뒤 그에 맞춰 로드맵을 먼저 세우면 마음이 훨씬 안정된
+                    상태에서 활동을 선택할 수 있다고 조언했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    9. 학생이 느낀 OneVision의 차별점
+                  </h2>
+                  <p class="section-text">
+                    학생은 OneVision을
+                    <strong>“CC 학생들을 위한 맞춤 솔루션”</strong>이라고
+                    표현했습니다. 단순히 어느 학교를 지원하라는 수준이 아니라,
+                    전공별 로드맵, 교수/멘토 연결, 에세이 첨삭, 모의 인터뷰까지
+                    편입 준비 과정 전체를 한 흐름으로 잡아준 점이 가장 큰
+                    장점이었다고 정리했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block" style="margin-bottom: 0">
+                  <h2 class="section-title-small">
+                    10. 마지막으로 남기고 싶은 말
+                  </h2>
+                  <p class="section-text">
+                    학생은 끝까지 믿고 응원해 준 부모님께 감사 인사를 전하며,
+                    이제는 학교 입학 후 학업과 커리어에 집중해 본인이 받은
+                    도움을 언젠가 후배 CC 학생들에게도 돌려주고 싶다고
+                    말했습니다. UC Irvine Business Administration 편입 합격은 그
+                    여정의 시작점이라고 이야기하며 후기를 마무리했습니다.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Right -->
+              <aside>
+                <div class="info-card">
+                  <div class="info-row">
+                    <span class="info-label">대학</span>
+                    <span class="info-value">UC Irvine</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">전공</span>
+                    <span class="info-value">Business Administration</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">전형</span>
+                    <span class="info-value">Community College → UC 편입</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">핵심 활동</span>
+                    <span class="info-value"
+                      >GPA 관리 · 비즈니스 프로젝트 · 온라인 비즈니스</span
+                    >
+                  </div>
+                  <div class="info-row" style="margin-bottom: 0">
+                    <span class="info-label">결과</span>
+                    <span class="info-value">UC Irvine 편입 합격</span>
+                  </div>
+
+                  <div style="margin-top: 0.9rem">
+                    <div class="info-label" style="margin-bottom: 0.35rem">
+                      키워드
+                    </div>
+                    <div class="tag-list">
+                      <span class="tag">CC Transfer</span>
+                      <span class="tag">Business</span>
+                      <span class="tag">로드맵</span>
+                      <span class="tag">프로젝트</span>
+                      <span class="tag">에세이 전략</span>
+                      <span class="tag">UC Irvine</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="quote-block">
+                  <div class="quote-label">학생이 느낀 OneVision의 장점</div>
+                  “학점, 과목, 활동, 에세이까지 하나의 플랜으로 연결해 준 덕분에
+                  편입 준비 내내 길을 잃지 않을 수 있었다”고 이야기했습니다.
+                </div>
+
+                <div class="quote-block" style="margin-top: 0.9rem">
+                  <div class="quote-label">학생의 다짐</div>
+                  UC Irvine에서 배운 지식과 경험을 바탕으로 사회에 긍정적인
+                  영향을 주는 비즈니스를 만들고 싶다는 다짐으로 합격 후기를
+                  마무리했습니다.
+                </div>
+
+                <div
+                  style="
+                    margin-top: 1.2rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 0.6rem;
+                  "
+                >
+                  <a
+                    href="admit-gallery.html"
+                    class="btn btn-primary"
+                    style="width: 100%"
+                    >다른 합격 후기 보기</a
+                  >
+                  <a
+                    href="index.html#contact"
+                    class="btn"
+                    style="
+                      width: 100%;
+                      background: #fff;
+                      color: #111827;
+                      border: 1px solid rgba(10, 10, 10, 0.12);
+                      box-shadow: 0 14px 30px rgba(10, 10, 10, 0.06);
+                    "
+                  >
+                    상담 신청하기
+                  </a>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer></footer>
+      <!-- 플로팅 SNS -->
+      <div class="floating-social">
+        <a
+          href="https://open.kakao.com/o/pw88Wn4h"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-kakao"
+          aria-label="카카오톡 오픈채팅"
+        >
+          <img src="icons/kakao.png" alt="KakaoTalk" />
+        </a>
+
+        <a
+          href="https://cafe.naver.com/onevisionconsulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-cafe"
+          aria-label="네이버 카페"
+        >
+          <img src="icons/naver-cafe.png" alt="Naver Cafe" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/onevision_consulting?igsh=NTc4MTIwNjQ2YQ=="
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-insta"
+          aria-label="인스타그램"
+        >
+          <img src="icons/instagram.png" alt="Instagram" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/p/OneVision-Consulting-원비전컨설팅-61582774824246/?hr=1&wtsid=rdr_0kaOLD4UDCcuhPGwV"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-fb"
+          aria-label="페이스북"
+        >
+          <img src="icons/facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://blog.naver.com/onevision_consulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-blog"
+          aria-label="네이버 블로그"
+        >
+          <img src="icons/naver-blog.png" alt="Naver Blog" />
+        </a>
+      </div>
+    </div>
+    <script src="js/common.js"></script>
+  </body>
+</html>

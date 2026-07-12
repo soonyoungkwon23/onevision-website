@@ -1,0 +1,1056 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      OneVision Academic Coaching & Study Lab | 성적 · 습관 · 멘탈 코칭 프로그램
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="성적, 공부 습관, 멘탈을 함께 잡아주는 Academic Coaching & Study Lab. 주간 코칭과 매일 체크로 미국 중·고·CC·대학교 학생의 공부 구조를 설계합니다."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-main: #0b0e14;
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --text-on-dark: #f8fafc;
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+        --max-width: 1100px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family:
+          "Noto Sans KR",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        color: var(--text-main);
+        background: #ffffff;
+        line-height: 1.6;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+        background: radial-gradient(
+          circle at top left,
+          #fdf2f8 0,
+          #ffffff 45%,
+          #f9fafb 100%
+        );
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      section {
+        padding: 4.2rem 0;
+      }
+
+      .section-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.8rem;
+        color: var(--primary-dark);
+        background: rgba(128, 0, 32, 0.08);
+        padding: 0.25rem 0.75rem;
+        border-radius: 999px;
+        font-weight: 600;
+        margin-bottom: 0.9rem;
+      }
+      .section-badge-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: var(--primary);
+      }
+      .section-title {
+        font-size: 2.1rem;
+        font-weight: 880;
+        letter-spacing: -0.03em;
+        margin-bottom: 0.5rem;
+      }
+      .section-subtitle {
+        font-size: 0.96rem;
+        color: var(--text-muted);
+        max-width: 620px;
+      }
+
+      /* Header */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 30;
+        backdrop-filter: blur(16px);
+        background: rgba(255, 255, 255, 0.93);
+        border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        flex-wrap: nowrap;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+      }
+      .logo-mark {
+        width: 160px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      .logo-text-main {
+        font-size: 1.05rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .logo-text-sub {
+        font-size: 0.7rem;
+        color: var(--text-muted);
+        margin-top: -0.1rem;
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        gap: 1.2rem;
+        font-size: 0.9rem;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--primary);
+      }
+      .nav-cta {
+        display: flex;
+        gap: 0.8rem;
+        align-items: center;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.6rem 1.2rem;
+        border-radius: 999px;
+        border: none;
+        cursor: pointer;
+        font-size: 0.85rem;
+        font-weight: 600;
+        transition:
+          transform 0.13s ease,
+          box-shadow 0.13s ease,
+          background 0.13s ease;
+        white-space: nowrap;
+      }
+      .btn-primary {
+        background: var(--primary);
+        color: #fff;
+      }
+      .btn-primary:hover {
+        background: var(--primary-dark);
+        transform: translateY(-1px);
+        box-shadow: 0 18px 40px rgba(64, 0, 16, 0.65);
+      }
+      .btn-outline {
+        background: #ffffff;
+        color: var(--text-main);
+        border: 1px solid #d1d5db;
+      }
+      .btn-outline:hover {
+        background: #f9fafb;
+        transform: translateY(-1px);
+      }
+      .nav-toggle {
+        display: none;
+      }
+
+      /* 히어로 */
+      .hero {
+        padding: 4.5rem 0 3.5rem;
+      }
+      .hero-inner {
+        display: grid;
+        grid-template-columns: minmax(0, 1.3fr) minmax(0, 1.1fr);
+        gap: 2.6rem;
+        align-items: center;
+      }
+      .hero-title {
+        font-size: 2.6rem;
+        font-weight: 900;
+        letter-spacing: -0.04em;
+        line-height: 1.22;
+        margin-bottom: 0.7rem;
+        color: var(--primary-dark);
+      }
+      .hero-title span {
+        color: var(--primary);
+      }
+      .hero-subtitle {
+        font-size: 0.96rem;
+        color: var(--text-muted);
+        max-width: 580px;
+        margin-bottom: 1.4rem;
+      }
+      .hero-subtitle strong {
+        color: var(--primary-dark);
+      }
+      .hero-stats-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.4rem;
+        margin-top: 1rem;
+      }
+      .hero-stat {
+        min-width: 140px;
+      }
+      .hero-stat-number {
+        font-size: 1.4rem;
+        font-weight: 840;
+        color: var(--primary-dark);
+      }
+      .hero-stat-label {
+        font-size: 0.8rem;
+        color: #6b7280;
+      }
+      .hero-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.8rem;
+      }
+      .hero-img {
+        border-radius: 22px;
+        overflow: hidden;
+        box-shadow: 0 16px 40px rgba(15, 23, 42, 0.35);
+        border: 1px solid rgba(148, 163, 184, 0.7);
+        height: 200px;
+      }
+      .hero-img.large {
+        grid-column: span 2;
+        height: 260px;
+      }
+      .hero-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1.02);
+      }
+
+      /* card/ grid */
+      .sections {
+        background: #ffffff;
+      }
+      .section-card-grid {
+        margin-top: 2.1rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.2rem;
+      }
+      .section-card {
+        border-radius: var(--radius-lg);
+        border: 1px solid #e5e7eb;
+        background: #fff;
+        box-shadow: 0 10px 24px rgba(148, 163, 184, 0.22);
+        padding: 1.1rem 1.1rem;
+        font-size: 0.82rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+      }
+      .section-card-tag {
+        font-size: 0.74rem;
+        color: var(--primary-dark);
+        background: rgba(128, 0, 32, 0.08);
+        padding: 0.14rem 0.5rem;
+        border-radius: 999px;
+        width: fit-content;
+      }
+      .section-card-title {
+        font-size: 0.96rem;
+        font-weight: 780;
+        color: var(--primary-dark);
+      }
+      .section-card-text {
+        font-size: 0.84rem;
+        color: #4b5563;
+      }
+
+      /* data*/
+      .data-section {
+        background: var(--bg-light);
+      }
+      .data-layout {
+        margin-top: 2.2rem;
+        display: grid;
+        grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.1fr);
+        gap: 2rem;
+        align-items: flex-start;
+      }
+      .data-card {
+        border-radius: var(--radius-xl);
+        border: 1px solid var(--border-subtle);
+        background: #fff;
+        padding: 1.6rem 1.5rem;
+        box-shadow: var(--shadow-soft);
+      }
+      .data-card-title {
+        font-size: 1rem;
+        font-weight: 780;
+        margin-bottom: 1rem;
+        color: var(--primary-dark);
+      }
+      .bar-row {
+        display: grid;
+        grid-template-columns: minmax(0, 2fr) minmax(0, 2.4fr) auto;
+        gap: 0.6rem;
+        align-items: center;
+        margin-bottom: 0.65rem;
+        font-size: 0.8rem;
+        color: #4b5563;
+      }
+      .bar {
+        height: 14px;
+        border-radius: 999px;
+        background: #e5e7eb;
+        overflow: hidden;
+      }
+      .bar-fill {
+        height: 100%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #800020, #f97373);
+      }
+      .percent {
+        font-size: 0.82rem;
+        font-weight: 750;
+        color: var(--primary-dark);
+      }
+      .data-note {
+        font-size: 0.75rem;
+        color: #9ca3af;
+        margin-top: 0.7rem;
+      }
+      .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.8rem;
+        margin-top: 0.6rem;
+      }
+      .mini-card {
+        border-radius: 16px;
+        border: 1px solid #e5e7eb;
+        background: #fff;
+        padding: 0.9rem 1rem;
+        font-size: 0.8rem;
+        box-shadow: 0 10px 24px rgba(148, 163, 184, 0.25);
+      }
+      .mini-num {
+        font-size: 1.15rem;
+        font-weight: 800;
+        color: var(--primary-dark);
+        margin-bottom: 0.2rem;
+      }
+      .mini-label {
+        font-size: 0.76rem;
+        color: #6b7280;
+      }
+
+      /* recome */
+      .testimonials {
+        background: #ffffff;
+      }
+      .testimonials-layout {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.1fr);
+        gap: 2rem;
+        align-items: flex-start;
+      }
+      .testimonial-card {
+        border-radius: 18px;
+        border: 1px solid #e5e7eb;
+        padding: 0.9rem 1rem;
+        background: #ffffff;
+        box-shadow: 0 12px 26px rgba(148, 163, 184, 0.22);
+        margin-bottom: 0.9rem;
+        font-size: 0.82rem;
+      }
+      .testimonial-tag {
+        font-size: 0.78rem;
+        color: var(--primary-dark);
+        font-weight: 650;
+        margin-bottom: 0.25rem;
+      }
+      .testimonial-text {
+        font-size: 0.8rem;
+        color: #4b5563;
+      }
+      .testimonial-highlight {
+        border-radius: 18px;
+        border: 1px solid rgba(128, 0, 32, 0.4);
+        background: #fef2f2;
+        padding: 1.1rem 1.1rem;
+        font-size: 0.8rem;
+      }
+      .testimonial-highlight strong {
+        color: var(--primary-dark);
+      }
+
+      /* timeline */
+      .logo-strip-section {
+        background: var(--bg-light);
+        border-top: 1px solid #f3e2ea;
+        border-bottom: 1px solid #f3e2ea;
+      }
+
+      /* =========================
+       Footer
+       ========================= */
+      footer {
+        background: #1a1a1a; /* 이미지 11의 짙은 배경색 반영 */
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 4rem 0 2rem;
+        font-size: 0.85rem;
+        line-height: 1.8;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2.5rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f8fafc;
+        font-weight: 700;
+        min-width: 80px;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f8fafc;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64748b;
+      }
+      /* media */
+      @media (max-width: 960px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto;
+          padding: 0;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+          position: relative;
+          z-index: 101;
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          padding: 10px 20px 40px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .nav-open .nav-toggle span {
+          color: #000 !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+      @media (max-width: 640px) {
+        section {
+          padding: 3.2rem 0;
+        }
+        .hero-title {
+          font-size: 2.1rem;
+        }
+        .section-title {
+          font-size: 1.7rem;
+        }
+        .section-card-grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-img {
+          height: 180px;
+        }
+        .hero-img.large {
+          height: 220px;
+        }
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- header -->
+      <header></header>
+
+      <main>
+        <!-- hero -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-inner">
+              <div>
+                <div class="section-badge">
+                  <span class="section-badge-dot"></span>
+                  Academic Coaching & Study Lab
+                </div>
+
+                <h1 class="hero-title">
+                  성적 · 공부 습관 · 멘탈을<br />
+                  <span>한 번에 잡는 코칭 프로그램</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                  단순 과외가 아니라,
+                  <strong>공부 구조를 설계해 주는 코칭 시스템</strong
+                  >입니다.<br />
+                  주간 계획 · 시험 대비 · 에세이 일정 · 멘탈 관리까지<br />
+                  학생이 스스로 공부 루틴을 만들 수 있도록 구조를 제공합니다.
+                </p>
+
+                <div class="hero-stats-row">
+                  <div class="hero-stat">
+                    <div class="hero-stat-number">87%</div>
+                    <div class="hero-stat-label">4주 후 성적 안정화</div>
+                  </div>
+                  <div class="hero-stat">
+                    <div class="hero-stat-number">92%</div>
+                    <div class="hero-stat-label">과제 누락률 감소</div>
+                  </div>
+                  <div class="hero-stat">
+                    <div class="hero-stat-number">78%</div>
+                    <div class="hero-stat-label">공부 루틴 정착</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-gallery">
+                <div class="hero-img large">
+                  <img
+                    src="images/harvardlecturehall.jpeg"
+                    alt="공부 코칭 이미지"
+                  />
+                </div>
+                <div class="hero-img">
+                  <img src="images/mitart.jpeg" alt="공부 환경" />
+                </div>
+                <div class="hero-img">
+                  <img src="images/schoolcampus.jpeg" alt="학생 캠퍼스" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 그래프 -->
+        <section class="data-section">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Program Results (예시)
+            </div>
+            <h2 class="section-title">
+              Academic Coaching, 어떤 변화가 있을까요?
+            </h2>
+            <p class="section-subtitle">
+              아래 수치는 원비전 내부 학생들을 바탕으로 한
+              <strong>데이터</strong>입니다. 실제 학생 데이터가 쌓이면, 우리
+              아이의 변화도 함께 그래프로 업데이트해 드립니다.
+            </p>
+
+            <div class="data-layout">
+              <div class="data-card">
+                <div class="data-card-title">성적 & 학습 효율</div>
+
+                <div class="bar-row">
+                  <span>과제 누락 감소</span>
+                  <div class="bar">
+                    <div class="bar-fill" style="width: 90%"></div>
+                  </div>
+                  <span class="percent">90%</span>
+                </div>
+
+                <div class="bar-row">
+                  <span>시험 대비 효율 증가</span>
+                  <div class="bar">
+                    <div class="bar-fill" style="width: 75%"></div>
+                  </div>
+                  <span class="percent">75%</span>
+                </div>
+
+                <div class="bar-row">
+                  <span>학습 루틴 정착</span>
+                  <div class="bar">
+                    <div class="bar-fill" style="width: 82%"></div>
+                  </div>
+                  <span class="percent">82%</span>
+                </div>
+
+                <p class="data-note"></p>
+              </div>
+
+              <div class="data-card">
+                <div class="data-card-title">멘탈 & 습관 변화</div>
+                <div class="mini-grid">
+                  <div class="mini-card">
+                    <div class="mini-num">-60%</div>
+                    <div class="mini-label">늦은 제출/미제출 감소</div>
+                  </div>
+                  <div class="mini-card">
+                    <div class="mini-num">+45%</div>
+                    <div class="mini-label">하루 평균 집중시간 증가</div>
+                  </div>
+                  <div class="mini-card">
+                    <div class="mini-num">+70%</div>
+                    <div class="mini-label">시험 전 멘탈 안정도</div>
+                  </div>
+                  <div class="mini-card">
+                    <div class="mini-num">+35%</div>
+                    <div class="mini-label">자기주도 학습 태도</div>
+                  </div>
+                </div>
+                <p class="data-note">
+                  * 코칭의 핵심은 “혼자 공부할 수 있는 힘”을 만드는 것입니다.
+                  성적보다 먼저,
+                  <strong>습관과 멘탈의 변화를 함께 기록</strong>합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 주간 코칭  -->
+        <section class="sections">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Coaching Structure
+            </div>
+            <h2 class="section-title">주 1회 코칭 + 매일 체크 시스템</h2>
+            <p class="section-subtitle">
+              Academic Coaching & Study Lab은 단순 과외가 아니라,
+              <strong>“한 주를 설계하고, 매일 점검하는 구조”</strong>를 만들어
+              주는 프로그램입니다.
+            </p>
+
+            <div class="section-card-grid">
+              <article class="section-card">
+                <div class="section-card-tag">Weekly Coaching</div>
+                <h3 class="section-card-title">1) 주간 1:1 온라인 코칭</h3>
+                <p class="section-card-text">
+                  한 주간의 과제·시험·프로젝트·에세이 일정을 모두 모아서
+                  정리합니다.<br />
+                  · 이번 주 꼭 해야 할 것 vs 미뤄도 되는 것 분류<br />
+                  · 과목별 공부 시간 배분<br />
+                  · 시험/에세이 대비 전략 세팅
+                </p>
+              </article>
+
+              <article class="section-card">
+                <div class="section-card-tag">Daily Check-in</div>
+                <h3 class="section-card-title">2) 매일 체크인 & 피드백</h3>
+                <p class="section-card-text">
+                  카카오톡/메신저를 통해 매일 간단 체크인:<br />
+                  · 오늘 공부 계획 & 실제 수행 내용<br />
+                  · 할 일 리스트 중 완료/미완료 항목 정리<br />
+                  · 미완료 이유와 다음날 보완 계획
+                </p>
+              </article>
+
+              <article class="section-card">
+                <div class="section-card-tag">Tracking</div>
+                <h3 class="section-card-title">3) 성적 · 습관 트래킹</h3>
+                <p class="section-card-text">
+                  시험 점수, 과제 제출 현황, 집중 시간 등을<br />
+                  간단한 표/그래프로 기록하여 학생과 학부모 모두
+                  <strong>변화 곡선</strong>을 확인할 수 있게 합니다.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- 어떤 학생에게 추천? -->
+        <section class="testimonials">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              For Whom?
+            </div>
+            <h2 class="section-title">이런 학생들에게 추천합니다</h2>
+
+            <div class="testimonials-layout">
+              <div>
+                <article class="testimonial-card">
+                  <div class="testimonial-tag">과제 누락이 잦은 학생</div>
+                  <p class="testimonial-text">
+                    · LMS에 과제가 계속 쌓이고, 제출 여부를 자주 놓침<br />
+                    · “해야 하는 건 아는데, 자꾸 뒤로 미루게 된다”는 패턴
+                  </p>
+                </article>
+
+                <article class="testimonial-card">
+                  <div class="testimonial-tag">멘탈 기복이 심한 학생</div>
+                  <p class="testimonial-text">
+                    · 시험 기간마다 스트레스/불안이 커서 공부 효율이 떨어짐<br />
+                    · 성적이 한번 떨어지면, 회복하는 데 시간이 오래 걸림
+                  </p>
+                </article>
+
+                <article class="testimonial-card">
+                  <div class="testimonial-tag">공부 루틴이 없는 학생</div>
+                  <p class="testimonial-text">
+                    · 하루 공부 시간·장소·순서가 매번 달라서 패턴이 없음<br />
+                    · 주말/방학마다 루틴이 무너져 다시 시작하기 힘들어함
+                  </p>
+                </article>
+              </div>
+
+              <div class="testimonial-highlight">
+                <p>
+                  <strong>특히 효과가 큰 케이스</strong><br /><br />
+                  · 미국 중·고등학교 재학생 (숙제·프로젝트 비율이 높은 학교)<br />
+                  · Community College 1–2학년 (편입 준비 + 학점 관리 동시
+                  진행)<br />
+                  · 전공/진로는 얼추 정했지만, 공부 습관/멘탈이 흔들리는 학생<br /><br />
+                  단기 성적 올리기보다, <strong>“공부하는 방식 자체”</strong>를
+                  고치고 싶은 학생에게 가장 적합합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 타임라인 예시 -->
+        <section class="logo-strip-section">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Timeline
+            </div>
+            <h2 class="section-title">4주 · 8주 · 12주 진행</h2>
+            <p class="section-subtitle">
+              Academic Coaching & Study Lab은 최소 4주 단위로 진행되며, 학생
+              상황에 따라 8주, 12주로 연장 가능합니다.
+            </p>
+
+            <div class="section-card-grid">
+              <article class="section-card">
+                <div class="section-card-tag">Step 1</div>
+                <h3 class="section-card-title">4주 – 루틴 만들기</h3>
+                <p class="section-card-text">
+                  · 현재 시간표/숙제 패턴 분석<br />
+                  · 주간/일간 체크리스트 구조 만들기<br />
+                  · “늦제출 줄이기”에 집중하는 기간<br />
+                  · 시험 대비 최소 패턴 학습
+                </p>
+              </article>
+
+              <article class="section-card">
+                <div class="section-card-tag">Step 2</div>
+                <h3 class="section-card-title">8주 – 성적 & 효율 안정화</h3>
+                <p class="section-card-text">
+                  · 중간/기말 시험 대비 플랜 정교화<br />
+                  · 과목별 공부법(수학/과학/인문) 튜닝<br />
+                  · 멘탈 흔들리는 구간 파악 & 보완<br />
+                  · 장기 과제/프로젝트 관리 연습
+                </p>
+              </article>
+
+              <article class="section-card">
+                <div class="section-card-tag">Step 3</div>
+                <h3 class="section-card-title">12주 – 자기주도 시스템 완성</h3>
+                <p class="section-card-text">
+                  · 학생이 직접 주간 계획을 짜고 코치는 조정만<br />
+                  · 전공/전형 플랜과 연결된 공부 구조 설계<br />
+                  · 다음 학기/학년 대비 장기 로드맵 초안 완성
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <!-- 가격 / 패키지 섹션 -->
+        <section class="pricing-section">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Packages & Tuition
+            </div>
+            <h2 class="section-title">기간별 패키지 구성</h2>
+            <p class="section-subtitle">
+              수강료는 학생의 학년, 현재 상황, 코칭 강도(주 1회 / 주 2회 등)에
+              따라 달라집니다. 아래 패키지는 <strong>구성 예시</strong>이며,
+              실제 금액은 1:1 상담 후 안내드립니다.
+            </p>
+
+            <div class="section-card-grid" style="margin-top: 2.1rem">
+              <!-- 4주 Starter -->
+              <article class="section-card price-card">
+                <div class="price-header">
+                  <div class="price-name">4주 Starter Lab</div>
+                  <div class="price-badge">첫 시작 추천</div>
+                </div>
+                <div class="price-amount">
+                  기본 4주 프로그램 · <span>수강료는 상담 후 개별 안내</span>
+                </div>
+                <p class="price-note">
+                  “우리 아이가 코칭과 잘 맞는지, 루틴이 잡히는지 먼저 확인하고
+                  싶어요” 하는 학부모님께 추천드리는 입문형 패키지입니다.
+                </p>
+                <ul class="price-list">
+                  <li>주 1회 1:1 온라인 코칭 (총 4회)</li>
+                  <li>주간 할 일 리스트 & 체크리스트 세팅</li>
+                  <li>과제/시험/프로젝트 일정 정리</li>
+                  <li>기본 공부 루틴 설계 및 피드백</li>
+                </ul>
+                <div class="price-bottom">
+                  <a href="index.html#contact" class="btn btn-outline"
+                    >4주 패키지 상담하기</a
+                  >
+                </div>
+              </article>
+
+              <!-- 8주 Standard -->
+              <article
+                class="section-card price-card"
+                style="
+                  border: 1.5px solid rgba(128, 0, 32, 0.35);
+                  box-shadow: 0 14px 32px rgba(148, 163, 184, 0.3);
+                "
+              >
+                <div class="price-header">
+                  <div class="price-name">8주 Standard Lab</div>
+                  <div class="price-badge">가장 많이 선택</div>
+                </div>
+                <div class="price-amount">
+                  8주 집중 프로그램 · <span>수강료는 상담 후 개별 안내</span>
+                </div>
+                <p class="price-note">
+                  한 학기 중간 지점에서
+                  <strong>성적 안정화 + 공부법 교정</strong>까지 함께 가져가고
+                  싶은 학생에게 가장 많이 권장되는 패키지입니다.
+                </p>
+                <ul class="price-list">
+                  <li>주 1회 1:1 온라인 코칭 (총 8회)</li>
+                  <li>시험/에세이 일정에 맞춘 맞춤 플래닝</li>
+                  <li>과목별 공부법 튜닝 (수학/과학/인문 등)</li>
+                  <li>멘탈 기복 구간 파악 & 대처 전략</li>
+                  <li>간단 성적/습관 변화 리포트 제공</li>
+                </ul>
+                <div class="price-bottom">
+                  <a href="index.html#contact" class="btn btn-primary"
+                    >8주 패키지 상담 신청</a
+                  >
+                </div>
+              </article>
+
+              <!-- 12주 Intensive -->
+              <article class="section-card price-card">
+                <div class="price-header">
+                  <div class="price-name">12주 Intensive Lab</div>
+                  <div class="price-badge">장기 관리형</div>
+                </div>
+                <div class="price-amount">
+                  12주 장기 프로그램 · <span>수강료는 상담 후 개별 안내</span>
+                </div>
+                <p class="price-note">
+                  한 학기 또는 중요한 학년(예: 11·12학년, CC 편입 준비)에
+                  <strong
+                    >장기적으로 루틴과 성적을 함께 끌어올리고 싶은 학생</strong
+                  >에게 적합합니다.
+                </p>
+                <ul class="price-list">
+                  <li>주 1회 1:1 온라인 코칭 (최소 12회 이상)</li>
+                  <li>장기 프로젝트/리서치/에세이 관리</li>
+                  <li>편입/전공/전형 플랜과 연계된 공부 구조 설계</li>
+                  <li>월별 성적·루틴 변화 리포트 제공</li>
+                  <li>학부모 대상 간단 브리핑(월 1회 내)</li>
+                </ul>
+                <div class="price-bottom">
+                  <a href="index.html#contact" class="btn btn-outline"
+                    >12주 패키지 상담하기</a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <p
+              class="section-subtitle"
+              style="margin-top: 1.6rem; font-size: 0.82rem; color: #9ca3af"
+            >
+              ※ 주 2회 코칭·시험기간 집중 케어·형제자매 동시 신청 등 상황에 맞춰
+              별도 패키지 구성도 가능합니다.
+            </p>
+          </div>
+        </section>
+
+        <!-- 마지막 CTA -->
+        <section>
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Start Now
+            </div>
+            <h2 class="section-title">
+              우리 아이의 공부 루틴, 함께 만들어볼까요?
+            </h2>
+            <p class="section-subtitle">
+              콘텐츠를 아무리 많이 봐도, 결국 중요한 건
+              <strong>“우리 아이에게 맞는 구조”</strong>입니다.<br />
+              간단한 정보만 남겨 주시면, Academic Coaching & Study Lab이 우리
+              아이에게 맞는지부터 1:1로 안내해 드립니다.
+            </p>
+
+            <div
+              style="
+                margin-top: 1.4rem;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.8rem;
+              "
+            >
+              <a href="index.html#contact" class="btn btn-primary"
+                >Academic Coaching 상담 신청</a
+              >
+              <a href="admit-gallery.html" class="btn btn-outline"
+                >합격 후기 먼저 보기</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer></footer>
+    </div>
+    <script src="js/common.js"></script>
+  </body>
+</html>

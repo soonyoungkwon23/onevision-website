@@ -1,0 +1,952 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OneVision | UIUC Gies College of Business Finance 합격 후기</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="UIUC Gies College of Business 금융학(Finance) 합격을 목표로 한 학생이 OneVision과 함께 준비한 과정과 합격 스토리입니다."
+    />
+
+    <!-- Fonts (Unified) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-main: #0b0e14;
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --text-on-dark: #f8fafc;
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        --radius-lg: 18px;
+        --radius-xl: 26px;
+        --max-width: 1200px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(
+            1200px 600px at 18% -10%,
+            rgba(156, 26, 54, 0.14),
+            transparent 60%
+          ),
+          radial-gradient(
+            900px 500px at 92% 10%,
+            rgba(90, 11, 31, 0.12),
+            transparent 55%
+          ),
+          linear-gradient(180deg, #ffffff, #fbf9fa);
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      section {
+        padding: 3.8rem 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .section-title {
+        font-family: "Noto Serif KR", serif;
+        letter-spacing: -0.02em;
+      }
+
+      /* =========================
+       Header 
+       ========================= */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #fff;
+        border-bottom: 1px solid var(--border);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92px;
+        position: relative;
+        gap: 1rem;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+        flex-shrink: 0;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .logo-mark {
+        width: 220px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        flex-shrink: 0;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 1.08rem;
+        color: #000;
+      }
+      .logo-text-sub {
+        font-size: 0.78rem;
+        margin-top: 6px;
+        font-weight: 600;
+        color: #000;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--accent);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        flex-shrink: 0;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.68rem 1.25rem;
+        border-radius: 999px;
+        font-weight: 750;
+        font-size: 0.88rem;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease,
+          box-shadow 0.15s ease;
+        border: 1px solid transparent;
+        white-space: nowrap;
+      }
+      .btn-primary {
+        background: linear-gradient(
+          180deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: #fff;
+      }
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        color: #000;
+        font-size: 1.4rem;
+        cursor: pointer;
+        padding: 0.35rem 0.5rem;
+        border-radius: 10px;
+        line-height: 1;
+        min-width: 44px;
+        min-height: 44px;
+      }
+      .nav-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      @media (max-width: 960px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto;
+          padding: 0;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+          position: relative;
+          z-index: 101;
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          padding: 10px 20px 40px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .nav-open .nav-toggle span {
+          color: #000 !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+      @media (max-width: 640px) {
+        .logo-mark {
+          width: 190px;
+          height: 68px;
+        }
+        section {
+          padding: 3.2rem 0;
+        }
+      }
+
+      /* Breadcrumb */
+      .breadcrumb {
+        font-size: 0.82rem;
+        color: #9ca3af;
+        margin-bottom: 1.15rem;
+      }
+      .breadcrumb a {
+        color: #6b7280;
+      }
+      .breadcrumb span {
+        margin: 0 0.3rem;
+      }
+
+      /* Hero */
+      .hero {
+        padding-top: 2.2rem;
+      }
+      .hero-card {
+        position: relative;
+        border-radius: var(--radius-xl);
+        overflow: hidden;
+        height: 330px;
+        background-image: url("images/illinoisurbanachampaign.jpeg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 24px 60px rgba(15, 23, 42, 0.45);
+        border: 1px solid rgba(10, 10, 10, 0.1);
+        margin-bottom: 2rem;
+      }
+      .hero-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.88)
+        );
+      }
+      .hero-card-inner {
+        position: relative;
+        height: 100%;
+        padding: 1.6rem 1.6rem 1.45rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+      }
+      .hero-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.22rem 0.8rem;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        width: fit-content;
+      }
+      .hero-pill-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: #ffd0d8;
+        box-shadow: 0 0 0 3px rgba(255, 208, 216, 0.18);
+      }
+      .hero-title-main {
+        font-size: 1.55rem;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        line-height: 1.35;
+      }
+      .hero-title-sub {
+        font-size: 0.95rem;
+        margin-top: 0.35rem;
+        color: rgba(255, 255, 255, 0.86);
+      }
+      .hero-meta {
+        font-size: 0.82rem;
+        color: rgba(255, 255, 255, 0.78);
+        line-height: 1.6;
+      }
+      .hero-meta span {
+        margin-right: 0.85rem;
+      }
+
+      @media (max-width: 768px) {
+        .hero-card {
+          height: 285px;
+        }
+      }
+
+      /* Layout */
+      .content-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+        gap: 2rem;
+        align-items: flex-start;
+        margin-top: 0.2rem;
+      }
+      @media (max-width: 900px) {
+        .content-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+
+      .section-title-small {
+        font-size: 1.05rem;
+        font-weight: 900;
+        margin-bottom: 0.45rem;
+        color: var(--primary-dark);
+        letter-spacing: -0.02em;
+      }
+      .section-text {
+        font-size: 0.95rem;
+        color: #4b5563;
+        line-height: 1.9;
+      }
+      .content-block {
+        margin-bottom: 1.55rem;
+      }
+
+      /* Right cards */
+      .info-card {
+        border-radius: 18px;
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+        padding: 1.05rem 1.05rem;
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.1);
+        font-size: 0.9rem;
+      }
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.8rem;
+        margin-bottom: 0.45rem;
+      }
+      .info-label {
+        color: #6b7280;
+        font-weight: 700;
+      }
+      .info-value {
+        font-weight: 900;
+        color: #111827;
+        text-align: right;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.55rem;
+      }
+      .tag {
+        font-size: 0.78rem;
+        padding: 0.18rem 0.6rem;
+        border-radius: 999px;
+        background: rgba(90, 11, 31, 0.08);
+        border: 1px solid rgba(90, 11, 31, 0.12);
+        color: var(--primary-dark);
+        font-weight: 850;
+      }
+
+      .quote-block {
+        margin-top: 1rem;
+        padding: 0.95rem 1rem;
+        border-left: 3px solid var(--primary);
+        background: rgba(90, 11, 31, 0.06);
+        border-radius: 14px;
+        font-size: 0.92rem;
+        color: #374151;
+        box-shadow: 0 14px 34px rgba(10, 10, 10, 0.06);
+        border: 1px solid rgba(10, 10, 10, 0.06);
+      }
+      .quote-label {
+        font-size: 0.78rem;
+        color: #6b7280;
+        margin-bottom: 0.25rem;
+        font-weight: 800;
+      }
+
+      /* =========================
+       Footer
+       ========================= */
+      footer {
+        background: #1a1a1a; /* 이미지 11의 짙은 배경색 반영 */
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 4rem 0 2rem;
+        font-size: 0.85rem;
+        line-height: 1.8;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2.5rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f8fafc;
+        font-weight: 700;
+        min-width: 80px;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f8fafc;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64748b;
+      }
+      /* =========================
+   Floating Social (Shared)
+   ========================= */
+      .floating-social {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 999;
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+      }
+
+      .floating-social-label {
+        font-size: 0.78rem;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.92);
+        background: rgba(26, 3, 8, 0.78);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        padding: 0.35rem 0.6rem;
+        border-radius: 999px;
+        backdrop-filter: blur(6px);
+      }
+
+      .floating-social .social-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
+        text-decoration: none;
+      }
+
+      .floating-social .social-icon img {
+        width: 26px;
+        height: 26px;
+        display: block;
+        transition:
+          transform 0.18s ease,
+          opacity 0.18s ease;
+      }
+
+      .floating-social .social-icon:hover img {
+        transform: translateY(-2px);
+        opacity: 0.9;
+      }
+
+      @media (max-width: 640px) {
+        .floating-social {
+          right: 12px;
+          bottom: 12px;
+        }
+        .floating-social .social-icon {
+          width: 44px;
+          height: 44px;
+        }
+        .floating-social .social-icon img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper" id="top">
+      <header></header>
+
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="breadcrumb">
+              <a href="index.html#top">홈</a><span>›</span>
+              <a href="admit-gallery.html">합격 후기</a><span>›</span>
+              <span>UIUC Gies College of Business Finance</span>
+            </div>
+
+            <div
+              class="hero-card"
+              role="img"
+              aria-label="UIUC Gies College of Business Finance 합격 후기 커버 이미지"
+            >
+              <div class="hero-card-inner">
+                <div>
+                  <div class="hero-pill">
+                    <span class="hero-pill-dot"></span>
+                    Business · Finance · Undergraduate
+                  </div>
+
+                  <div style="margin-top: 0.75rem">
+                    <div class="hero-title-main">
+                      UNIVERSITY OF ILLINOIS<br />URBANA-CHAMPAIGN
+                    </div>
+                    <div class="hero-title-sub">
+                      Gies College of Business · Finance 합격 스토리
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hero-meta">
+                  <span>전공: Finance</span>
+                  <span>키워드: 투자 동아리 · 국제경제올림피아드 · 장학금</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-layout">
+              <!-- Left -->
+              <div>
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    1. 왜 미국 비즈니스·파이낸스, 왜 UIUC였나요?
+                  </h2>
+                  <p class="section-text">
+                    숫자와 경제 흐름을 읽는 게 즐거웠고, 금융을 통해 사회 문제를
+                    해결하는 전문가가 되고 싶다는 목표가 있었던 학생입니다. UIUC
+                    Gies College of Business는 동문 네트워크가 탄탄하고, 학생
+                    개인의 커리어 방향을 빠르게 구체화할 수 있는 환경이라 “내가
+                    가고 싶은 1순위 학교”가 UIUC로 정리되었습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    2. 여러 유학원 중 OneVision을 선택한 이유
+                  </h2>
+                  <p class="section-text">
+                    다른 곳에서 받은 상담은 대부분 “일반적인 학교 리스트 + 조건
+                    설명” 수준이었다고 합니다. 반면 OneVision은 학생의
+                    성향·목표·현재 상황을 깊이 분석해, 파이낸스 진로에 맞는
+                    구체적인 로드맵을 설계해 준 점이 결정적이었습니다. “그냥
+                    정보 주는 곳이 아니라 나를 진짜 분석해 주는 곳”이라는 신뢰가
+                    생겨 함께 준비를 시작했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    3. 준비 과정에서 가장 힘들었던 부분
+                  </h2>
+                  <p class="section-text">
+                    학교 내신, SAT, 비교과(EC)를 동시에 챙기는
+                    <strong>시간 관리</strong>가 가장 큰 고민이었습니다. 특히
+                    금융 관련 활동 경험이 거의 없어서, 무엇으로 포트폴리오를
+                    채워야 할지 막막했던 상태였죠.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    4. OneVision과 함께 만든 전략
+                  </h2>
+                  <p class="section-text">
+                    OneVision은 “금융을 통해 사회적 가치를 만들고 싶다”는 학생의
+                    비전이 실제 경험으로 연결되도록 로드맵을 설계했습니다.
+                  </p>
+                  <ul
+                    class="section-text"
+                    style="margin-top: 0.55rem; padding-left: 1.1rem"
+                  >
+                    <li>
+                      학교에서 <strong>투자 동아리 설립</strong>을 기획하고 실제
+                      운영하면서 리더십과 투자 경험을 동시에 확보
+                    </li>
+                    <li>
+                      <strong>국제경제올림피아드</strong> 참가 준비를 통해
+                      거시경제·국제 금융 구조 이해를 심화
+                    </li>
+                    <li>
+                      에세이에서 “금융을 통해 사회적 가치를 만들고 싶다”는
+                      비전이 자연스럽게 드러나도록 구조 설계
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    5. 준비하면서 느낀 가장 큰 성장
+                  </h2>
+                  <p class="section-text">
+                    투자 동아리를 이끌면서 단순히 공부만 하는 학생에서, 팀을
+                    이끄는 <strong>리더</strong>로 성장했다고 이야기합니다.
+                    스스로 시장 분석을 하고 포트폴리오를 구성해 보며 금융
+                    이해도가 높아졌고, “숫자를 기반으로 의사결정하는 힘”을
+                    기르게 된 것이 가장 큰 변화였습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    6. 에세이 작업과 지원 과정에서 기억에 남는 순간
+                  </h2>
+                  <p class="section-text">
+                    UIUC 에세이를 쓰면서 한국과 미국 경제 구조의 차이를 분석해
+                    자신의 관점을 풀어낸 경험이 특히 기억에 남는다고 했습니다.
+                    Jay 대표의 피드백을 통해 “개인 경험과 사회적 관점”을
+                    연결하자 글의 깊이가 확 달라졌다고 합니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">7. 합격 소식을 들은 순간</h2>
+                  <p class="section-text">
+                    UIUC Finance 합격 메일을 확인하는 순간, 어머니와 함께
+                    울었다고 합니다. 단순 합격이 아니라
+                    <strong>장학금</strong>까지 함께 받게 되면서, 그동안의 모든
+                    시간이 보상받는 느낌이었다고 정리했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    8. 같은 전공을 준비하는 후배들에게
+                  </h2>
+                  <p class="section-text">
+                    “자신만의 금융 프로젝트를 꼭 만들어 보라”고 조언합니다.
+                    모의투자, 투자 동아리 운영, 작은 프로젝트 등 직접 움직이며
+                    배우는 과정이 중요하고, 그 경험들이 결국 합격 스토리를
+                    완성해 준다고 강조했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    9. OneVision과 함께 준비하면서 느낀 차별점
+                  </h2>
+                  <p class="section-text">
+                    학생은 OneVision을 “할 일만 던져주는 유학원”이 아니라,
+                    <strong>초개인화 로드맵 + 심리적 지원</strong>을 동시에
+                    제공해 주는 파트너로 기억하고 있습니다. 덕분에 과도한 압박감
+                    없이, 자기 페이스를 유지하며 끝까지 갈 수 있었다고 말합니다.
+                  </p>
+                </div>
+
+                <div class="content-block" style="margin-bottom: 0">
+                  <h2 class="section-title-small">
+                    10. 마지막으로 남기고 싶은 말
+                  </h2>
+                  <p class="section-text">
+                    언제나 본인의 선택을 존중하고 지원해 준 부모님께 감사 인사를
+                    전하며, “금융을 통해 사회 문제를 해결하는 전문성을 갖춘
+                    사람”이 되겠다는 다짐으로 후기를 마무리했습니다.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Right -->
+              <aside>
+                <div class="info-card">
+                  <div class="info-row">
+                    <span class="info-label">대학</span>
+                    <span class="info-value"
+                      >UIUC Gies College of Business</span
+                    >
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">전공</span>
+                    <span class="info-value">Finance</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">지원 유형</span>
+                    <span class="info-value">미국 학부 Direct</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">핵심 활동</span>
+                    <span class="info-value"
+                      >투자 동아리 · 국제경제올림피아드</span
+                    >
+                  </div>
+                  <div class="info-row" style="margin-bottom: 0">
+                    <span class="info-label">결과</span>
+                    <span class="info-value">UIUC Finance 합격 + 장학금</span>
+                  </div>
+
+                  <div style="margin-top: 0.9rem">
+                    <div class="info-label" style="margin-bottom: 0.35rem">
+                      키워드
+                    </div>
+                    <div class="tag-list">
+                      <span class="tag">Finance</span>
+                      <span class="tag">Gies</span>
+                      <span class="tag">투자 동아리</span>
+                      <span class="tag">국제경제올림피아드</span>
+                      <span class="tag">Decision-Making</span>
+                      <span class="tag">Scholarship</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="quote-block">
+                  <div class="quote-label">학생이 느낀 OneVision의 장점</div>
+                  “초개인화 로드맵과 심리적 지원까지 함께 해 줘서 압박감 대신
+                  ‘내 페이스’를 유지하며 끝까지 갈 수 있었다”고 정리했습니다.
+                </div>
+
+                <div class="quote-block" style="margin-top: 0.9rem">
+                  <div class="quote-label">학생의 다짐</div>
+                  앞으로 금융을 통해 사회 문제를 해결하는 전문가가 되겠다는
+                  본인의 비전을 다시 한 번 다짐하며 UIUC 합격 스토리를
+                  마무리했습니다.
+                </div>
+
+                <div
+                  style="
+                    margin-top: 1.2rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 0.6rem;
+                  "
+                >
+                  <a
+                    href="admit-gallery.html"
+                    class="btn btn-primary"
+                    style="width: 100%"
+                    >다른 합격 후기 보기</a
+                  >
+                  <a
+                    href="index.html#contact"
+                    class="btn"
+                    style="
+                      width: 100%;
+                      background: #fff;
+                      color: #111827;
+                      border: 1px solid rgba(10, 10, 10, 0.12);
+                      box-shadow: 0 14px 30px rgba(10, 10, 10, 0.06);
+                    "
+                  >
+                    상담 신청하기
+                  </a>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer></footer>
+      <!-- 플로팅 SNS -->
+      <div class="floating-social">
+        <a
+          href="https://open.kakao.com/o/pw88Wn4h"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-kakao"
+          aria-label="카카오톡 오픈채팅"
+        >
+          <img src="icons/kakao.png" alt="KakaoTalk" />
+        </a>
+
+        <a
+          href="https://cafe.naver.com/onevisionconsulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-cafe"
+          aria-label="네이버 카페"
+        >
+          <img src="icons/naver-cafe.png" alt="Naver Cafe" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/onevision_consulting?igsh=NTc4MTIwNjQ2YQ=="
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-insta"
+          aria-label="인스타그램"
+        >
+          <img src="icons/instagram.png" alt="Instagram" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/p/OneVision-Consulting-원비전컨설팅-61582774824246/?hr=1&wtsid=rdr_0kaOLD4UDCcuhPGwV"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-fb"
+          aria-label="페이스북"
+        >
+          <img src="icons/facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://blog.naver.com/onevision_consulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-blog"
+          aria-label="네이버 블로그"
+        >
+          <img src="icons/naver-blog.png" alt="Naver Blog" />
+        </a>
+      </div>
+    </div>
+
+    <script src="js/common.js"></script>
+  </body>
+</html>

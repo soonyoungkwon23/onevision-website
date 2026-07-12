@@ -1,0 +1,3167 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OneVision | 미국 유학 · 이민 올케어 컨설팅</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="미국 유학·이민 올케어 시스템, 원비전. 데이터 기반 성공률, 합격률, 학부모 후기와 함께 미국 유학·이민 플랜을 설계합니다."
+    />
+    <script src="js/common.js"></script>
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        /* Brand wine/burgundy — the unified accent across the site */
+        --brand: #9c1a36;
+        --brand-deep: #6e0f25;
+        --brand-soft: rgba(156, 26, 54, 0.12);
+        --brand-soft-2: rgba(156, 26, 54, 0.06);
+
+        --primary: #1a1a1f;
+        --primary-dark: #0f0f14;
+
+        --bg-main: #0b0c10;
+        --bg-deep: #06070a;
+
+        --surface: #ffffff;
+        --surface-2: #faf7f5;
+        --surface-3: #f3efec;
+
+        --text-on-dark: #f5f1ef;
+        --muted-on-dark: #a8a4a0;
+
+        --text-on-light: #1a1a1f;
+        --muted-on-light: #6b6864;
+
+        --border-on-dark: rgba(255, 255, 255, 0.08);
+        --border-on-light: rgba(20, 18, 18, 0.08);
+
+        --shadow-sm: 0 1px 2px rgba(15, 15, 20, 0.04), 0 1px 3px rgba(15, 15, 20, 0.06);
+        --shadow-md: 0 6px 18px rgba(15, 15, 20, 0.06), 0 2px 6px rgba(15, 15, 20, 0.04);
+        --shadow-lg: 0 22px 50px rgba(15, 15, 20, 0.10), 0 8px 20px rgba(15, 15, 20, 0.06);
+
+        --radius-sm: 10px;
+        --radius-md: 14px;
+        --radius-lg: 18px;
+        --radius-xl: 22px;
+
+        --max-width: 1240px;
+        --gutter: clamp(1.25rem, 3vw, 2.25rem);
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background: var(--bg-main);
+        color: var(--text-on-dark);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--gutter);
+      }
+      section {
+        padding: clamp(3.2rem, 6vw, 5.2rem) 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .hero-title,
+      .section-title .admit-title-main {
+        font-family: "Noto Serif KR", serif;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+        line-height: 1.3;
+      }
+
+      /* =========================
+       Header / Nav
+       ========================= */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #ffffff;
+        border-bottom: 1px solid rgba(20, 18, 18, 0.06);
+        transition: background 0.2s ease, box-shadow 0.2s ease,
+          border-color 0.2s ease;
+      }
+      header.is-scrolled {
+        background: #ffffff;
+        box-shadow: 0 6px 24px rgba(15, 15, 20, 0.06);
+        border-bottom-color: rgba(20, 18, 18, 0.08);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        gap: 1.5rem;
+      }
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 4px 0;
+        cursor: pointer;
+        color: var(--text-on-light);
+        min-width: 0;
+      }
+      .logo-img {
+        height: 60px;
+        width: auto;
+        flex-shrink: 0;
+        display: block;
+        object-fit: contain;
+      }
+      /* Hide any legacy divider / subline if an older cached header.html
+         is still in the browser — the JTC logo image already contains
+         "OneVision Consulting", so no extra text should sit beside it. */
+      .logo-divider,
+      .logo-text-sub {
+        display: none !important;
+      }
+      /* Styled fallback shown only if the JTC JPEG fails to load
+         (graduation-cap SVG + JTC / OneVision Consulting text). */
+      .logo-fallback {
+        display: none;
+        align-items: center;
+        gap: 0.55rem;
+        line-height: 1;
+      }
+      .logo-fallback-icon {
+        width: 44px;
+        height: auto;
+        flex-shrink: 0;
+      }
+      .logo-fallback-text {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 1;
+      }
+      .logo-fallback-mark {
+        font-family: "Noto Serif KR", serif;
+        font-size: 1.55rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: var(--brand);
+      }
+      .logo-fallback-sub {
+        font-family: "Pretendard Variable", system-ui, sans-serif;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        color: var(--brand-deep);
+        margin-top: 4px;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 0.25rem;
+        align-items: center;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        position: relative;
+        padding: 0.5rem 0.85rem;
+        border-radius: 8px;
+        font-size: 0.92rem;
+        font-weight: 600;
+        color: #3a3833;
+        letter-spacing: -0.005em;
+        transition: color 0.15s ease, background 0.15s ease;
+      }
+      .nav-links a:hover {
+        color: var(--brand);
+        background: var(--brand-soft-2);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+      }
+      .nav-cta .btn-primary {
+        padding: 0.6rem 1.15rem;
+        font-size: 0.88rem;
+      }
+      .nav-toggle {
+        display: none;
+        border: 1px solid rgba(20, 18, 18, 0.12);
+        background: #fff;
+        cursor: pointer;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+      }
+      .nav-toggle-bar {
+        width: 18px;
+        height: 1.5px;
+        background: #1a1a1f;
+        border-radius: 2px;
+      }
+
+      /* =========================
+       Buttons
+       ========================= */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        padding: 0.78rem 1.4rem;
+        border-radius: 999px;
+        font-weight: 600;
+        font-size: 0.92rem;
+        letter-spacing: -0.005em;
+        cursor: pointer;
+        transition: transform 0.15s ease, background 0.15s ease,
+          box-shadow 0.2s ease, border-color 0.15s ease;
+        white-space: nowrap;
+        border: 1px solid transparent;
+        font-family: inherit;
+      }
+      .btn-primary {
+        background: var(--brand);
+        color: #fff !important;
+        box-shadow: 0 6px 16px rgba(110, 15, 37, 0.25);
+      }
+      .btn-primary:hover {
+        background: var(--brand-deep);
+        transform: translateY(-1px);
+        box-shadow: 0 10px 22px rgba(110, 15, 37, 0.32);
+      }
+
+      .btn-outline {
+        background: rgba(255, 255, 255, 0.04);
+        color: #fff !important;
+        border-color: rgba(255, 255, 255, 0.28);
+      }
+      .btn-outline:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(255, 255, 255, 0.45);
+      }
+
+      /* =========================
+       Floating Social
+       ========================= */
+      .floating-social {
+        position: fixed;
+        right: 20px;
+        bottom: 22px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        z-index: 60;
+      }
+      .social-icon {
+        width: 42px;
+        height: 42px;
+        border-radius: 999px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(20, 18, 18, 0.7);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+        transition: transform 0.15s ease, background 0.15s ease,
+          border-color 0.15s ease;
+        overflow: hidden;
+      }
+      .social-icon:hover {
+        transform: translateY(-2px);
+        background: rgba(20, 18, 18, 0.92);
+        border-color: rgba(255, 255, 255, 0.22);
+      }
+      .social-icon img {
+        width: 56%;
+        height: 56%;
+        object-fit: contain;
+      }
+
+      /* =========================
+       Section Badge / Titles
+       ========================= */
+      .section-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.78rem;
+        color: rgba(245, 241, 239, 0.92);
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        padding: 0.38rem 0.9rem;
+        border-radius: 999px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+      .section-badge-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 999px;
+        background: var(--brand);
+        box-shadow: 0 0 0 3px rgba(156, 26, 54, 0.22);
+      }
+      .section-title {
+        font-size: clamp(1.85rem, 2.6vw, 2.4rem);
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 0.6rem;
+        letter-spacing: -0.02em;
+      }
+      .section-subtitle {
+        font-size: 1rem;
+        color: var(--muted-on-dark);
+        max-width: 620px;
+        line-height: 1.65;
+      }
+
+      /* =========================
+       Hero
+       ========================= */
+      .hero {
+        padding: clamp(3.6rem, 6vw, 5.4rem) 0 clamp(3rem, 5vw, 4.4rem);
+        background:
+          radial-gradient(900px 500px at 12% 10%, rgba(156, 26, 54, 0.12), transparent 60%),
+          radial-gradient(800px 500px at 95% 85%, rgba(156, 26, 54, 0.08), transparent 60%);
+      }
+      .hero-inner {
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.05fr);
+        gap: clamp(1.8rem, 4vw, 3.4rem);
+        align-items: center;
+      }
+      .hero-pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.2rem;
+      }
+      .hero-pill {
+        font-size: 0.78rem;
+        padding: 0.36rem 0.9rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        color: rgba(245, 241, 239, 0.86);
+        font-weight: 500;
+        letter-spacing: 0.005em;
+      }
+      .hero-pill strong {
+        color: #fff;
+        font-weight: 700;
+      }
+
+      .hero-title {
+        font-size: clamp(2rem, 4vw, 3.3rem);
+        font-weight: 500;
+        color: #ffffff;
+        letter-spacing: -0.03em;
+        line-height: 1.18;
+        margin-bottom: 1.4rem;
+      }
+      .hero-title span {
+        color: #f0c4cc;
+      }
+
+      .hero-subtitle {
+        font-size: 1rem;
+        color: var(--muted-on-dark);
+        max-width: 520px;
+        margin-bottom: 1.8rem;
+        line-height: 1.7;
+      }
+      .hero-subtitle strong {
+        color: #fff;
+        font-weight: 600;
+      }
+
+      .hero-cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+        align-items: center;
+        margin-bottom: 1.1rem;
+      }
+      .hero-note {
+        font-size: 0.82rem;
+        color: rgba(245, 241, 239, 0.6);
+        font-weight: 500;
+        line-height: 1.6;
+      }
+
+      .hero-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.85rem;
+      }
+      .hero-img {
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        box-shadow: 0 24px 48px rgba(0, 0, 0, 0.45);
+        height: 210px;
+        background: rgba(255, 255, 255, 0.04);
+      }
+      .hero-img.large {
+        grid-column: span 2;
+        height: 290px;
+      }
+      .hero-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.6s ease;
+      }
+      .hero-img:hover img {
+        transform: scale(1.04);
+      }
+
+      .hero-slide {
+        display: none;
+        animation: fadeHero 0.55s ease;
+      }
+      .hero-slide-active {
+        display: block;
+      }
+      @keyframes fadeHero {
+        from {
+          opacity: 0;
+          transform: translateY(6px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .hero-dots {
+        margin-top: 1.8rem;
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+      .hero-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.22);
+        border: none;
+        cursor: pointer;
+        transition: all 0.25s ease;
+      }
+      .hero-dot.active {
+        width: 24px;
+        background: var(--brand);
+      }
+
+      /* =========================
+       Logo Strip (Marquee)
+       ========================= */
+      .logo-strip-section {
+        background: transparent;
+        border: none;
+      }
+      .logo-title {
+        margin-bottom: 2rem;
+      }
+
+      .logo-marquee {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        border-radius: var(--radius-xl);
+        border: 1px solid rgba(20, 18, 18, 0.06);
+        background: var(--surface);
+        box-shadow: var(--shadow-md);
+        padding: 2rem 0;
+      }
+      .logo-marquee::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          90deg,
+          var(--surface) 0%,
+          rgba(255, 255, 255, 0) 8%,
+          rgba(255, 255, 255, 0) 92%,
+          var(--surface) 100%
+        );
+        pointer-events: none;
+        z-index: 2;
+      }
+      .logo-track {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: max-content;
+        animation: marquee 38s linear infinite;
+        will-change: transform;
+      }
+      .logo-set {
+        display: flex;
+        align-items: center;
+      }
+      @keyframes marquee {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+      .logo-item {
+        width: 150px;
+        height: 90px;
+        display: grid;
+        place-items: center;
+        background: transparent;
+        border: none;
+        opacity: 0.88;
+        transition: opacity 0.2s ease, transform 0.2s ease;
+      }
+      .logo-item img {
+        max-width: 130px;
+        max-height: 72px;
+        object-fit: contain;
+      }
+      .logo-item:hover {
+        opacity: 1;
+        transform: translateY(-2px);
+      }
+
+      /* =========================
+       Programs (Dark)
+       ========================= */
+      .sections {
+        background: transparent;
+      }
+
+      .section-card-grid {
+        margin-top: 2.4rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.2rem;
+      }
+      .section-card {
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--border-on-dark);
+        background: rgba(255, 255, 255, 0.03);
+        padding: 1.6rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+        color: var(--text-on-dark);
+        transition: border-color 0.2s ease, background 0.2s ease,
+          transform 0.2s ease;
+      }
+      .section-card:hover {
+        border-color: rgba(156, 26, 54, 0.5);
+        background: rgba(255, 255, 255, 0.045);
+        transform: translateY(-2px);
+      }
+      .section-card-tag {
+        font-size: 0.72rem;
+        font-weight: 600;
+        color: #f0c4cc;
+        background: var(--brand-soft);
+        border: 1px solid rgba(156, 26, 54, 0.28);
+        padding: 0.28rem 0.7rem;
+        border-radius: 999px;
+        width: fit-content;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .section-card-title {
+        font-family: "Noto Serif KR", serif;
+        font-size: 1.18rem;
+        font-weight: 500;
+        margin-bottom: 0.4rem;
+        color: #fff;
+        line-height: 1.4;
+      }
+      .section-card-text {
+        font-size: 0.92rem;
+        color: rgba(245, 241, 239, 0.74);
+        line-height: 1.7;
+      }
+      .section-card-link {
+        margin-top: auto;
+        padding-top: 0.6rem;
+      }
+      .section-card-link a {
+        font-size: 0.88rem;
+        font-weight: 600;
+        color: #f0c4cc;
+        letter-spacing: -0.005em;
+        transition: color 0.15s ease;
+      }
+      .section-card-link a:hover {
+        color: #fff;
+      }
+      .section-card-link a::after {
+        content: " →";
+        opacity: 0.85;
+        transition: transform 0.2s ease;
+        display: inline-block;
+        margin-left: 2px;
+      }
+      .section-card-link a:hover::after {
+        transform: translateX(3px);
+      }
+
+      /* =========================
+       Stats (White, with filter)
+       ========================= */
+      .stats-section {
+        background: var(--surface);
+        color: var(--text-on-light);
+      }
+      .stats-section .section-badge {
+        color: var(--brand-deep);
+        background: var(--brand-soft-2);
+        border: 1px solid rgba(156, 26, 54, 0.16);
+      }
+      .stats-section .section-title {
+        color: var(--text-on-light);
+      }
+      .stats-section .section-subtitle {
+        color: var(--muted-on-light);
+      }
+
+      .stats-layout {
+        margin-top: 2.4rem;
+        display: grid;
+        grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+        gap: 1.6rem;
+        align-items: flex-start;
+      }
+      .stats-card {
+        border-radius: var(--radius-xl);
+        border: 1px solid var(--border-on-light);
+        padding: 2rem 1.9rem;
+        background: var(--surface);
+        box-shadow: var(--shadow-md);
+        font-size: 0.92rem;
+      }
+      .stats-card-title {
+        font-size: 1.18rem;
+        font-weight: 700;
+        margin-bottom: 1.1rem;
+        color: var(--text-on-light);
+        letter-spacing: -0.01em;
+      }
+
+      .stats-filter-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0.75rem;
+        align-items: center;
+        margin-bottom: 1.1rem;
+      }
+      .stats-filter-label {
+        font-size: 0.78rem;
+        color: var(--muted-on-light);
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .stats-filter-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+      .chip {
+        border: 1px solid rgba(20, 18, 18, 0.1);
+        background: #fff;
+        padding: 0.42rem 0.95rem;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        cursor: pointer;
+        color: var(--muted-on-light);
+        transition: background 0.15s ease, border-color 0.15s ease,
+          color 0.15s ease;
+        user-select: none;
+        font-family: inherit;
+      }
+      .chip:hover {
+        border-color: rgba(156, 26, 54, 0.35);
+        color: var(--brand-deep);
+      }
+      .chip.active {
+        background: var(--brand);
+        border-color: var(--brand);
+        color: #fff;
+      }
+      .chip-small {
+        padding: 0.4rem 0.85rem;
+        font-size: 0.82rem;
+      }
+
+      .stats-search-row {
+        margin-bottom: 1.4rem;
+      }
+      .stats-search-row label {
+        display: block;
+        font-size: 0.74rem;
+        font-weight: 600;
+        color: var(--muted-on-light);
+        margin-bottom: 0.4rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      #statsKeyword {
+        width: 100%;
+        max-width: 320px;
+        border-radius: 10px;
+        border: 1px solid rgba(20, 18, 18, 0.12);
+        padding: 0.6rem 0.9rem;
+        font-size: 0.9rem;
+        font-family: inherit;
+        outline: none;
+        transition: border-color 0.15s ease, box-shadow 0.15s ease;
+        background: var(--surface-2);
+      }
+      #statsKeyword:focus {
+        border-color: var(--brand);
+        background: #fff;
+        box-shadow: 0 0 0 3px rgba(156, 26, 54, 0.12);
+      }
+
+      .stats-bars-wrap {
+        margin-bottom: 1.4rem;
+      }
+      .stats-bar-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1.8fr) minmax(0, 2.4fr) auto;
+        gap: 0.9rem;
+        align-items: center;
+        margin-bottom: 0.9rem;
+        font-size: 0.9rem;
+        color: #3a3833;
+        font-weight: 500;
+      }
+      .stats-bar {
+        height: 10px;
+        border-radius: 999px;
+        background: var(--surface-3);
+        overflow: hidden;
+        position: relative;
+      }
+      .stats-bar-fill {
+        height: 100%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, var(--brand-deep), var(--brand));
+        position: relative;
+        animation: barFill 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+      }
+      @keyframes barFill {
+        from { width: 0 !important; }
+      }
+      .stats-percent {
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: var(--brand-deep);
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .stats-table-wrap {
+        margin-top: 1.2rem;
+        border-radius: var(--radius-md);
+        border: 1px solid var(--border-on-light);
+        overflow: hidden;
+      }
+      #statsTable {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.85rem;
+      }
+      #statsTable th,
+      #statsTable td {
+        padding: 0.8rem 0.9rem;
+        border-top: 1px solid var(--border-on-light);
+        text-align: left;
+        vertical-align: top;
+      }
+      #statsTable thead tr th {
+        border-top: none;
+      }
+      #statsTable th {
+        background: var(--surface-2);
+        font-size: 0.78rem;
+        font-weight: 700;
+        color: var(--text-on-light);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      #statsTable td {
+        color: #3a3833;
+      }
+      .stats-note {
+        padding: 1rem 0.2rem 0;
+        font-size: 0.8rem;
+        color: var(--muted-on-light);
+      }
+
+      .stats-side-card {
+        border-radius: var(--radius-xl);
+        border: 1px solid var(--border-on-light);
+        padding: 1.8rem 1.7rem;
+        background: var(--surface-2);
+        font-size: 0.92rem;
+        color: #3a3833;
+        line-height: 1.7;
+      }
+      .stats-side-title {
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: var(--text-on-light);
+        margin-bottom: 0.9rem;
+        letter-spacing: -0.01em;
+      }
+      .stats-side-list {
+        list-style: none;
+        padding-left: 0;
+      }
+      .stats-side-list li {
+        margin-bottom: 0.85rem;
+        padding-left: 0.2rem;
+      }
+      .stats-side-list strong {
+        color: var(--brand-deep);
+      }
+
+      /* =========================
+       Admit slider (자체 섹션)
+       ========================= */
+      .admit-section-outer {
+        background: var(--surface);
+        color: var(--text-on-light);
+        padding-top: clamp(2.2rem, 4vw, 3.4rem);
+        padding-bottom: clamp(3.2rem, 6vw, 5rem);
+      }
+      .admit-inner-container {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--gutter);
+      }
+      .admit-title-main {
+        font-size: clamp(1.7rem, 2.4vw, 2.2rem);
+        font-weight: 600;
+        color: var(--text-on-light);
+        margin-bottom: 0.4rem;
+        font-family: "Noto Serif KR", serif;
+        letter-spacing: -0.02em;
+      }
+      .admit-subtitle-main {
+        font-size: 0.98rem;
+        color: var(--muted-on-light);
+        max-width: 640px;
+        line-height: 1.65;
+      }
+
+      .admit-section {
+        margin-top: 2.6rem;
+      }
+      .admit-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 0.4rem;
+        color: var(--text-on-light);
+        letter-spacing: -0.01em;
+      }
+      .admit-subtitle {
+        font-size: 0.9rem;
+        color: var(--muted-on-light);
+        margin-bottom: 1.4rem;
+        line-height: 1.65;
+      }
+
+      .admit-slider {
+        position: relative;
+        overflow: hidden;
+        margin-top: 1.2rem;
+        padding: 0 0.2rem;
+      }
+      .admit-track {
+        display: flex;
+        transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+        will-change: transform;
+      }
+
+      .admit-track {
+        display: flex;
+        gap: 1rem;
+        transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+        will-change: transform;
+      }
+
+      .admit-card {
+        position: relative;
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        height: 320px;
+        box-shadow: var(--shadow-md);
+        border: 1px solid var(--border-on-light);
+        display: flex;
+        align-items: flex-end;
+        color: #fff;
+        background-size: cover;
+        background-position: center;
+        flex: 0 0 calc((100% - 2rem) / 3);
+        max-width: calc((100% - 2rem) / 3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .admit-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-lg);
+      }
+      .admit-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-lg);
+      }
+      .admit-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.05) 0%,
+          rgba(0, 0, 0, 0.45) 55%,
+          rgba(0, 0, 0, 0.88) 100%
+        );
+      }
+      .admit-card-inner {
+        position: relative;
+        padding: 1.3rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.8rem;
+      }
+      .admit-school {
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.3;
+        letter-spacing: 0.01em;
+      }
+      .admit-tag {
+        font-size: 0.78rem;
+        font-weight: 500;
+        color: #f0c4cc;
+        margin-top: 0.4rem;
+        letter-spacing: 0.02em;
+      }
+      .admit-bottom {
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.86);
+        gap: 0.6rem;
+      }
+      .admit-bottom span:last-child {
+        font-weight: 600;
+        color: #fff;
+        white-space: nowrap;
+      }
+      .admit-nav {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+        pointer-events: none;
+      }
+      .admit-prev,
+      .admit-next {
+        pointer-events: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 999px;
+        border: none;
+        background: rgba(255, 255, 255, 0.95);
+        color: var(--text-on-light);
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: var(--shadow-md);
+        transition: transform 0.15s ease, background 0.15s ease;
+      }
+      .admit-prev:hover,
+      .admit-next:hover {
+        background: #fff;
+        transform: scale(1.06);
+      }
+      .admit-dots {
+        margin-top: 1.2rem;
+        display: flex;
+        justify-content: center;
+        gap: 0.4rem;
+      }
+      .admit-dots button {
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        border: none;
+        background: rgba(20, 18, 18, 0.12);
+        cursor: pointer;
+        transition: all 0.25s ease;
+        padding: 0;
+      }
+      .admit-dots button.active {
+        width: 22px;
+        background: var(--brand);
+      }
+
+      /* =========================
+       Reservation
+       ========================= */
+      .reservation-section {
+        background:
+          radial-gradient(700px 380px at 50% 0%, rgba(156, 26, 54, 0.10), transparent 70%);
+      }
+      .reservation-head {
+        text-align: center;
+        margin-bottom: 2.8rem;
+      }
+      .reservation-head .section-subtitle {
+        margin: 0 auto;
+      }
+      .cal-embed {
+        width: 100%;
+        min-height: 700px;
+        overflow: hidden;
+        border-radius: var(--radius-xl);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(255, 255, 255, 0.02);
+        box-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+      }
+
+      /* =========================
+       Mid Strip: Data + Process
+       ========================= */
+      .mid-strip {
+        padding: clamp(3rem, 5vw, 4.4rem) 0;
+      }
+
+      .mini-data-strip {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0;
+        padding: 1.6rem 1.5rem;
+        border-radius: var(--radius-xl);
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .mini-metric {
+        padding: 0.5rem 1rem;
+        border-left: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .mini-metric:first-child {
+        border-left: none;
+      }
+      .mini-metric-num {
+        font-family: "Noto Serif KR", serif;
+        font-size: clamp(1.8rem, 2.6vw, 2.4rem);
+        font-weight: 500;
+        color: #fff;
+        letter-spacing: -0.02em;
+        line-height: 1.05;
+      }
+      .mini-metric-label {
+        margin-top: 0.5rem;
+        font-size: 0.85rem;
+        color: rgba(245, 241, 239, 0.6);
+        font-weight: 500;
+        line-height: 1.4;
+      }
+
+      .process-strip {
+        margin-top: 1rem;
+        padding: 1.6rem 1.6rem 1.3rem;
+        border-radius: var(--radius-xl);
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .process-title {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: rgba(245, 241, 239, 0.6);
+        margin-bottom: 1.1rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .process-steps {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+      }
+      .process-step {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.6rem;
+        min-width: 165px;
+      }
+      .process-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        margin-top: 0.45rem;
+        background: var(--brand);
+        box-shadow: 0 0 0 4px rgba(156, 26, 54, 0.16);
+        flex-shrink: 0;
+      }
+      .process-step-title {
+        font-weight: 600;
+        color: #fff;
+        font-size: 0.92rem;
+        line-height: 1.2;
+        letter-spacing: -0.005em;
+      }
+      .process-step-sub {
+        margin-top: 0.25rem;
+        font-size: 0.82rem;
+        color: rgba(245, 241, 239, 0.6);
+        font-weight: 400;
+      }
+      .process-arrow {
+        color: rgba(255, 255, 255, 0.25);
+        font-size: 1.35rem;
+        line-height: 1;
+        margin: 0 0.15rem;
+        user-select: none;
+      }
+      .process-note {
+        margin-top: 1.1rem;
+        font-size: 0.82rem;
+        color: rgba(245, 241, 239, 0.55);
+        font-weight: 400;
+        line-height: 1.6;
+      }
+
+      /* =========================
+       Testimonials (White)
+       ========================= */
+      .testimonials {
+        background: var(--surface);
+        color: var(--text-on-light);
+      }
+      .testimonials .section-badge {
+        color: var(--brand-deep);
+        background: var(--brand-soft-2);
+        border: 1px solid rgba(156, 26, 54, 0.16);
+      }
+      .testimonials .section-title {
+        color: var(--text-on-light);
+      }
+      .testimonials .section-subtitle {
+        color: var(--muted-on-light);
+      }
+
+      .testimonials-layout {
+        margin-top: 2.4rem;
+        display: grid;
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+        gap: 1.6rem;
+        align-items: flex-start;
+      }
+      .testimonial-card {
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--border-on-light);
+        padding: 1.4rem 1.5rem;
+        background: var(--surface);
+        box-shadow: var(--shadow-sm);
+        margin-bottom: 1rem;
+        transition: box-shadow 0.2s ease, transform 0.2s ease;
+      }
+      .testimonial-card:hover {
+        box-shadow: var(--shadow-md);
+        transform: translateY(-2px);
+      }
+      .testimonial-tag {
+        font-size: 0.72rem;
+        color: var(--brand-deep);
+        font-weight: 600;
+        margin-bottom: 0.6rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .testimonial-text {
+        font-size: 0.95rem;
+        color: #3a3833;
+        margin-bottom: 0.7rem;
+        line-height: 1.65;
+      }
+      .testimonial-name {
+        font-size: 0.82rem;
+        color: var(--muted-on-light);
+        font-weight: 500;
+      }
+      .testimonial-highlight {
+        border-radius: var(--radius-lg);
+        border: 1px solid rgba(156, 26, 54, 0.16);
+        background: linear-gradient(160deg, #fdf6f7 0%, #faeff1 100%);
+        padding: 1.6rem 1.6rem;
+        font-size: 0.95rem;
+        line-height: 1.8;
+        color: #3a3833;
+      }
+      .testimonial-highlight strong {
+        color: var(--brand-deep);
+        font-weight: 600;
+      }
+
+      /* =========================
+       Footer
+       ========================= */
+      footer {
+        background: #0a0a0e;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+        color: rgba(245, 241, 239, 0.55);
+        padding: 4rem 0 2.4rem;
+        font-size: 0.88rem;
+        line-height: 1.7;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.4rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2rem;
+        gap: 2rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.2rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f5f1ef;
+        font-weight: 600;
+        min-width: 130px;
+        letter-spacing: 0.02em;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f5f1ef;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgba(245, 241, 239, 0.4);
+        font-size: 0.8rem;
+      }
+
+      /* =========================
+       Ultra wide desktop scaling
+       ========================= */
+      @media (min-width: 1440px) {
+        .hero-img {
+          height: 230px;
+        }
+        .hero-img.large {
+          height: 320px;
+        }
+        .admit-card {
+          height: 340px;
+        }
+      }
+
+      /* =========================
+       Responsive
+       ========================= */
+      @media (max-width: 960px) {
+        header {
+          background: rgba(255, 255, 255, 0.96);
+        }
+        .nav {
+          height: 68px;
+        }
+        .logo-img {
+          height: 48px;
+        }
+        .logo-fallback-icon { width: 36px; }
+        .logo-fallback-mark { font-size: 1.3rem; }
+        .logo-fallback-sub { font-size: 0.64rem; }
+        .logo-divider,
+        .logo-text-sub {
+          display: none;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.25s ease;
+        }
+        .nav-toggle {
+          display: flex;
+          position: relative;
+          z-index: 101;
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 68px;
+          left: 0;
+          width: 100%;
+          background: #fff;
+          padding: 1rem var(--gutter) 1.6rem;
+          box-shadow: 0 14px 28px rgba(15, 15, 20, 0.08);
+          border-bottom: 1px solid var(--border-on-light);
+          z-index: 100;
+          flex-direction: column;
+          gap: 0.4rem;
+          align-items: flex-start;
+        }
+        .nav.nav-open .nav-links a {
+          width: 100%;
+          padding: 0.75rem 1rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .mini-metric {
+          border-left: none;
+          padding: 0.75rem 0.5rem;
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .hero-img {
+          height: 180px;
+        }
+        .hero-img.large {
+          height: 230px;
+        }
+
+        .admit-card {
+          flex: 0 0 100%;
+          max-width: 100%;
+          height: 260px;
+        }
+        .logo-item {
+          width: 130px;
+          height: 80px;
+        }
+        .logo-track {
+          animation-duration: 28s;
+        }
+        .section-card-grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
+
+        .process-step {
+          min-width: 100%;
+        }
+        .footer-top {
+          flex-direction: column;
+        }
+        .footer-right {
+          text-align: left;
+        }
+      }
+
+      /* ===== ellipsis  ===== */
+      * {
+        text-overflow: clip !important;
+      }
+
+      /* =========================
+       Contact Modal
+       ========================= */
+      .contact-modal {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.65);
+        backdrop-filter: blur(4px);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 200;
+      }
+      .contact-modal.active {
+        display: flex;
+      }
+      .contact-modal-box {
+        width: 100%;
+        max-width: 720px;
+        max-height: 90vh;
+        overflow-y: auto;
+        background: #fff;
+        border-radius: 24px;
+        padding: 2rem 2rem 2.2rem;
+        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+        position: relative;
+        color: var(--text-on-light);
+      }
+      .contact-modal-close {
+        position: absolute;
+        top: 14px;
+        right: 16px;
+        font-size: 1.4rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #555;
+      }
+      .contact-modal .section-badge {
+        color: var(--brand-deep);
+        background: var(--brand-soft-2);
+        border: 1px solid rgba(156, 26, 54, 0.16);
+      }
+      .contact-modal .section-title {
+        color: var(--text-on-light);
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+      }
+      .contact-modal .section-subtitle {
+        color: var(--muted-on-light);
+        max-width: 620px;
+      }
+
+      .contact-card {
+        margin-top: 1.2rem;
+        border-radius: 22px;
+        border: 1px solid var(--border-on-light);
+        padding: 1.6rem 1.5rem;
+        box-shadow: 0 18px 40px rgba(10, 10, 10, 0.1);
+        background: #fff;
+      }
+      .form-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem 1.2rem;
+      }
+      .form-full {
+        grid-column: 1 / -1;
+      }
+      .form-group label {
+        display: block;
+        font-size: 0.88rem;
+        font-weight: 850;
+        margin-bottom: 0.35rem;
+        color: #374151;
+      }
+      .form-group input,
+      .form-group textarea,
+      .form-group select {
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid rgba(10, 10, 10, 0.12);
+        padding: 0.68rem 0.8rem;
+        font-size: 0.95rem;
+        font-family: inherit;
+        outline: none;
+        transition:
+          box-shadow 0.12s ease,
+          border-color 0.12s ease;
+        background: #fff;
+      }
+      .form-group input:focus,
+      .form-group textarea:focus,
+      .form-group select:focus {
+        border-color: var(--brand);
+        box-shadow: 0 0 0 3px rgba(156, 26, 54, 0.14);
+      }
+      .form-group textarea {
+        resize: vertical;
+        min-height: 96px;
+      }
+      .form-note {
+        font-size: 0.82rem;
+        color: #6b7280;
+        margin-top: 0.7rem;
+      }
+
+      @media (max-width: 640px) {
+        .contact-modal-box {
+          padding: 1.4rem 1.2rem 1.6rem;
+        }
+        .form-grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .contact-modal .section-title {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header></header>
+    <div class="page-wrapper">
+      <!-- Floating SNS -->
+      <div class="floating-social">
+        <a
+          href="https://open.kakao.com/o/pw88Wn4h"
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="카카오톡 오픈채팅"
+        >
+          <img src="icons/kakao.png" alt="KakaoTalk" />
+        </a>
+
+        <a
+          href="https://cafe.naver.com/onevisionconsulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="네이버 카페"
+        >
+          <img src="icons/naver-cafe.png" alt="Naver Cafe" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/onevision_consulting?igsh=NTc4MTowNjQ2YQ=="
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="인스타그램"
+        >
+          <img src="icons/instagram.png" alt="Instagram" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/p/OneVision-Consulting-원비전컨설팅-61582774824246/?hr=1&wtsid=rdr_0kaOLD4UDCcuhPGwV"
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="페이스북"
+        >
+          <img src="icons/facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://blog.naver.com/onevision_consulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="네이버 블로그"
+        >
+          <img src="icons/naver-blog.png" alt="Naver Blog" />
+        </a>
+      </div>
+
+      <main id="top">
+        <!-- Hero Slider -->
+        <section class="hero hero-slider">
+          <div class="container">
+            <!-- Slide 1 -->
+            <div class="hero-slide hero-slide-active" data-slide="1">
+              <div class="hero-inner">
+                <div>
+                  <div class="hero-pill-row">
+                    <span class="hero-pill"
+                      >미국 유학 · 편입 · 이민 · 주거
+                      <strong>한눈에 정리</strong></span
+                    >
+                  </div>
+                  <h1 class="hero-title">
+                    처음부터 끝까지<br />
+                    <span>미국 유학 큰 그림이 궁금하신가요?</span>
+                  </h1>
+                  <p class="hero-subtitle">
+                    “어느 나라/어느 전형이 우리 아이에게 맞을까?”라는 질문에서
+                    시작해<br />
+                    <strong>전공 · 대학 레벨 · 지역(주) · 이민 가능성</strong
+                    >까지 같이 보는
+                    <strong>원비전 올케어 플랜</strong>입니다.<br />
+                    첫 상담에서 학부모님 기준으로 전체 그림을 먼저 잡아드립니다.
+                  </p>
+
+                  <div class="hero-cta-row">
+                    <a href="#stats" class="btn btn-primary"
+                      >원비전 성과 데이터 먼저 보기</a
+                    >
+                    <a href="#sections" class="btn btn-outline"
+                      >프로그램·이민 플랜 한눈에 보기</a
+                    >
+                  </div>
+
+                  <p class="hero-note">
+                    ※ “우리 아이 수준에서 가능한 대학이 어딘지” 알고 싶으신
+                    학부모님께 추천드립니다.
+                  </p>
+                </div>
+
+                <div class="hero-gallery">
+                  <div class="hero-img large">
+                    <img src="images/mitart.jpeg" alt="MIT 캠퍼스 전경" />
+                  </div>
+                  <div class="hero-img">
+                    <img src="images/harvardcampus.jpeg" alt="하버드 캠퍼스" />
+                  </div>
+                  <div class="hero-img">
+                    <img
+                      src="images/princetontower.jpeg"
+                      alt="프린스턴 캠퍼스"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide" data-slide="2">
+              <div class="hero-inner">
+                <div>
+                  <div class="hero-pill-row">
+                    <span class="hero-pill"
+                      >Community College · 대학교 재학생
+                      <strong>편입 + 이민 동시 설계</strong></span
+                    >
+                  </div>
+                  <h1 class="hero-title">
+                    UC/주립대 편입과<br />
+                    <span>이민 · 주거 플랜을 함께 고민하신다면</span>
+                  </h1>
+                  <p class="hero-subtitle">
+                    단순히 “편입만”이 아니라,
+                    <strong>어느 주에 정착할지 · 렌트/집값 · 세금 · 치안</strong
+                    >까지 함께 봐야 현실적인 선택이 가능합니다.<br />
+                    원비전은 <strong>편입 전략표 + 지역별 주거 리서치</strong>를
+                    한 번에 제시해 가족이 더 쉽게 결정할 수 있도록 돕습니다.
+                  </p>
+
+                  <div class="hero-cta-row">
+                    <a href="admissions.html" class="btn btn-primary"
+                      >UC/주립대 편입 프로그램 보기</a
+                    >
+                    <a href="immigration.html" class="btn btn-outline"
+                      >이민 · 주거 리서치 보기</a
+                    >
+                  </div>
+
+                  <p class="hero-note">
+                    ※ 캘리포니아 vs 텍사스 vs 동부 등 지역 선택이 고민되시는
+                    학부모님께 특히 추천드립니다.
+                  </p>
+                </div>
+
+                <div class="hero-gallery">
+                  <div class="hero-img large">
+                    <img src="images/ucberk.jpeg" alt="UC Berkeley 캠퍼스" />
+                  </div>
+                  <div class="hero-img">
+                    <img src="images/cornell.jpeg" alt="코넬 캠퍼스" />
+                  </div>
+                  <div class="hero-img">
+                    <img src="images/schoolcampus.jpeg" alt="도시형 캠퍼스" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="hero-slide" data-slide="3">
+              <div class="hero-inner">
+                <div>
+                  <div class="hero-pill-row">
+                    <span class="hero-pill"
+                      >Academic Coaching & Study Lab
+                      <strong>주간 관리형 프로그램</strong></span
+                    >
+                  </div>
+                  <h1 class="hero-title">
+                    성적 · 공부 습관 · 멘탈까지<br />
+                    <span>아이 혼자 두지 않는 관리가 필요하신가요?</span>
+                  </h1>
+                  <p class="hero-subtitle">
+                    과제·시험·에세이 일정이 몰리면
+                    <strong>밀림 → 스트레스 → 미루기</strong> 패턴이 생길 수
+                    있습니다.<br />
+                    원비전 코칭은 <strong>주 1회 코칭 + 매일 체크</strong>로
+                    시간관리·우선순위·멘탈을 잡아드립니다.
+                  </p>
+
+                  <div class="hero-cta-row">
+                    <a href="coaching.html" class="btn btn-primary"
+                      >Academic Coaching 자세히 보기</a
+                    >
+                    <button
+                      class="btn btn-outline"
+                      type="button"
+                      onclick="openContact()"
+                    >
+                      코칭 상담 신청하기
+                    </button>
+                  </div>
+
+                  <p class="hero-note">
+                    ※ 성적은 괜찮지만 체력/멘탈/습관이 고민이신 학부모님께 가장
+                    적합한 프로그램입니다.
+                  </p>
+                </div>
+
+                <div class="hero-gallery">
+                  <div class="hero-img large">
+                    <img
+                      src="images/harvardlecturehall.jpeg"
+                      alt="하버드 강의실"
+                    />
+                  </div>
+                  <div class="hero-img">
+                    <img src="images/ucsdcampus.jpeg" alt="UCSD 캠퍼스" />
+                  </div>
+                  <div class="hero-img">
+                    <img src="images/uniofmichigancampus.jpeg" alt="캠퍼스" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-dots" id="heroDots">
+              <div class="hero-dot active" data-index="0"></div>
+              <div class="hero-dot" data-index="1"></div>
+              <div class="hero-dot" data-index="2"></div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="reservation-section"
+          id="reservation"
+        >
+          <div class="container">
+            <div class="reservation-head">
+              <div class="section-badge">
+                <span class="section-badge-dot"></span>
+                Direct Booking
+              </div>
+              <h2 class="section-title">1:1 무료 진학 전략 미팅 예약</h2>
+              <p class="section-subtitle reservation-subtitle">
+                외부 페이지 이동 없이 아래 캘린더에서 바로 날짜와 시간을
+                선택하실 수 있습니다.<br />
+                원하시는 일정을 클릭하여 상담을 확정해 주세요.
+              </p>
+            </div>
+
+            <div
+              id="cal-inline-embed"
+              class="cal-embed"
+            ></div>
+
+            <script type="text/javascript">
+              (function (C, A, L) {
+                let p = function (a, ar) {
+                  a.q.push(ar);
+                };
+                let d = C.document;
+                C.Cal =
+                  C.Cal ||
+                  function () {
+                    let cal = C.Cal;
+                    let ar = arguments;
+                    if (!cal.q) {
+                      cal.q = [];
+                      // [핵심] Object.entries 에러 방지용 초기화
+                      cal.ns = {};
+                    }
+                    p(cal, ar);
+                  };
+                let js = d.createElement("script");
+                js.async = true;
+                js.src = "https://app.cal.com/embed/embed.js";
+                d.head.appendChild(js);
+              })(window, document, "cal");
+
+              Cal("init", { origin: "https://cal.com" });
+
+              Cal("inline", {
+                elementOrSelector: "#cal-inline-embed",
+                calLink: "onevision-consulting-jzlpy9/free-meeting",
+                layout: "month_view",
+                config: {
+                  theme: "dark",
+                },
+              });
+
+              Cal("ui", {
+                theme: "dark",
+                styles: {
+                  branding: {
+                    brandColor: "#2563eb",
+                  },
+                },
+                hideEventTypeDetails: false,
+              });
+            </script>
+          </div>
+        </section>
+
+        <!-- 1. 합격·진학 대학 마퀴 -->
+        <section class="logo-strip-section" id="logos">
+          <div class="container" style="text-align: center">
+            <div class="section-badge" style="margin-bottom: 1.2rem">
+              <span class="section-badge-dot"></span>
+              OneVision College Highlights
+            </div>
+
+            <h2 class="section-title logo-title">
+              원비전 학생들의 합격 · 진학 대학
+            </h2>
+
+            <div class="logo-marquee" aria-label="합격·진학 대학 로고 마퀴">
+              <div class="logo-track">
+                <div class="logo-set">
+                  <div class="logo-item">
+                    <img src="images/logo-mit.svg" alt="MIT" />
+                  </div>
+                  <div class="logo-item">
+                    <img
+                      src="images/logo-bostoncollege.svg"
+                      alt="Boston College"
+                    />
+                  </div>
+                  <div class="logo-item">
+                    <img
+                      src="images/logo-cornell.svg"
+                      alt="Cornell University"
+                    />
+                  </div>
+                  <div class="logo-item">
+                    <img
+                      src="images/logo-columbia.svg"
+                      alt="Columbia University"
+                    />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-ucla.svg" alt="UCLA" />
+                  </div>
+                  <div class="logo-item">
+                    <img
+                      src="images/logo-harvard.svg"
+                      alt="Harvard University"
+                    />
+                  </div>
+                  <div class="logo-item">
+                    <img
+                      src="images/logo-texasanm.svg"
+                      alt="Texas A&amp;M University"
+                    />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-yale.svg" alt="Yale University" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-usc.svg" alt="USC" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-ucsd.svg" alt="UC San Diego" />
+                  </div>
+                </div>
+
+                <div class="logo-set" aria-hidden="true">
+                  <div class="logo-item">
+                    <img src="images/logo-mit.svg" alt="" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-bostoncollege.svg" alt="" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-cornell.svg" alt="" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-columbia.svg" alt="" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-ucla.svg" alt="" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-harvard.svg" alt="" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-texasanm.svg" alt="" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-yale.svg" alt="" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-usc.svg" alt="" />
+                  </div>
+                  <div class="logo-item">
+                    <img src="images/logo-ucsd.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. 프로그램 알아보기 -->
+        <section class="sections" id="sections">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Programs · Immigration · Data Lab
+            </div>
+            <h2 class="section-title">프로그램 알아보기</h2>
+
+            <div class="section-card-grid">
+              <article class="section-card">
+                <div class="section-card-tag">원비전 핵심 프로그램</div>
+                <h3 class="section-card-title">
+                  Future Scholars · Application Atelier · Transfer Intensive
+                </h3>
+                <p class="section-card-text">
+                  <strong>Future Scholars Pathway</strong> – 9–11학년 장기
+                  로드맵(과목·활동·방학 캘린더).<br /><br />
+                  <strong>Signature Application Atelier</strong> – 12학년·편입
+                  실전 원서(에세이·활동·추천서).<br /><br />
+                  <strong>Transfer Intensive</strong> – CC/대학생의
+                  UC·주립대·Top School 편입 집중(수업플랜·GPA·에세이).
+                </p>
+                <div class="section-card-link">
+                  <a href="admissions.html">프로그램 상세 보기</a>
+                </div>
+              </article>
+
+              <article class="section-card">
+                <div class="section-card-tag">이민 · 렌트 · 학군 데이터</div>
+                <h3 class="section-card-title">
+                  미국 이민 + 주거 올케어 · 지역별 렌트 시세
+                </h3>
+                <p class="section-card-text">
+                  <strong
+                    >UC/주립대 분포 · 렌트 시세 · 학군 · 치안 · 세금</strong
+                  >을 한 번에 비교해 “어느 주에 정착할지” 결정을 돕습니다.
+                </p>
+                <div class="section-card-link">
+                  <a href="housing.html">이민·주거 리서치 보기</a>
+                </div>
+              </article>
+
+              <article class="section-card">
+                <div class="section-card-tag">
+                  Academic Coaching & Study Lab
+                </div>
+                <h3 class="section-card-title">
+                  성적 · 공부 습관 · 멘탈을 함께 잡는 코칭
+                </h3>
+                <p class="section-card-text">
+                  <strong>주 1회 코칭 + 매일 체크</strong>로
+                  루틴·시간관리·멘탈까지 함께 잡는 관리형 프로그램입니다.
+                </p>
+                <div class="section-card-link">
+                  <a href="coaching.html">Academic Coaching 자세히 보기</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. 원비전 성과 데이터 (필터 ) -->
+        <section class="stats-section" id="stats">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              OneVision Data
+            </div>
+            <h2 class="section-title">원비전 성과 데이터</h2>
+            <p class="section-subtitle">
+              학부모님이 가장 많이 여쭤보시는
+              <strong>신입학 · 편입 · Academic Coaching</strong> 성과를
+              <strong>필터 + 그래프 + 표</strong>로 정리했습니다. 상단에서
+              프로그램을 바꾸면 숫자가 함께 바뀝니다.
+            </p>
+
+            <div class="stats-layout">
+              <!-- 왼쪽: 인터랙티브 카드 -->
+              <div class="stats-card">
+                <div class="stats-card-title">
+                  트랙별 합격률 · 유지율 한눈에
+                </div>
+
+                <div class="stats-filter-row">
+                  <span class="stats-filter-label">관심 프로그램 선택</span>
+                  <div class="stats-filter-chips">
+                    <button
+                      class="chip chip-small active"
+                      data-stats="all"
+                      onclick="changeStatsFilter('all', this)"
+                    >
+                      전체 보기
+                    </button>
+                    <button
+                      class="chip chip-small"
+                      data-stats="freshman"
+                      onclick="changeStatsFilter('freshman', this)"
+                    >
+                      신입학 (Freshman)
+                    </button>
+                    <button
+                      class="chip chip-small"
+                      data-stats="transfer"
+                      onclick="changeStatsFilter('transfer', this)"
+                    >
+                      편입 (Transfer)
+                    </button>
+                    <button
+                      class="chip chip-small"
+                      data-stats="coaching"
+                      onclick="changeStatsFilter('coaching', this)"
+                    >
+                      Academic Coaching
+                    </button>
+                  </div>
+                </div>
+
+                <div class="stats-search-row">
+                  <label for="statsKeyword">전공/학교 키워드 (선택)</label>
+                  <input
+                    id="statsKeyword"
+                    type="text"
+                    placeholder="예: 공대, UC, 예체능, Pre-med 등"
+                    oninput="renderStats(currentStatsType)"
+                  />
+                </div>
+
+                <div class="stats-bars-wrap" id="statsBars"></div>
+
+                <div class="stats-table-wrap">
+                  <table id="statsTable"></table>
+                </div>
+
+                <div class="stats-note" id="statsNote"></div>
+              </div>
+
+              <!-- 오른쪽: 설명 카드 -->
+              <aside class="stats-side-card">
+                <div class="stats-side-title">
+                  이 숫자를 어떻게 해석해야 할까요?
+                </div>
+                <ul class="stats-side-list">
+                  <li>
+                    <strong>1)</strong>
+                    <strong>목표 대학 리스트 기준</strong> 합격률입니다. “지원한
+                    모든 학교”가 아니라, 상담에서 함께 정한 현실적인 리스트를
+                    기준으로 합니다.
+                  </li>
+                  <li>
+                    <strong>2)</strong> 편입 트랙은
+                    <strong>UC/주립대 + 전공 변경</strong> 여부에 따라 난이도가
+                    달라지므로, 개별 상담에서 다시 미세 조정합니다.
+                  </li>
+                  <li>
+                    <strong>3)</strong> Academic Coaching 유지율은
+                    <strong>“3개월 이후에도 계속 이어가는 비율”</strong>을
+                    의미합니다. 아이가 혼자 하는 것보다 훨씬 안정적입니다.
+                  </li>
+                  <li>
+                    <strong>4)</strong> “우리 아이 케이스에서는 어느 쪽에 더
+                    가까운지”는, 간단한 정보만 주셔도 대략적인 구간을 안내해
+                    드릴 수 있습니다.
+                  </li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <!-- 4. 합격 후기 슬라이더 -->
+        <section class="admit-section-outer" id="admit">
+          <div class="admit-inner-container">
+            <h2 class="admit-title-main">합격 후기</h2>
+            <p class="admit-subtitle-main">
+              실제로 어떤 학교·전공에, 어떤 경로로 합격했는지 궁금하실 때
+              참고하실 수 있도록 다양한 케이스를 카드 형식으로 모았습니다.
+            </p>
+
+            <div class="admit-section">
+              <h3 class="admit-title">원비전 합격 스토리 모음</h3>
+              <p class="admit-subtitle">
+                아래 카드를 좌우로 넘기며 다양한 케이스를 확인해 보세요. (신입학
+                · 편입 · 전공 변경 · Pre-med 등)
+              </p>
+
+              <div class="admit-slider" id="admitSlider">
+                <div class="admit-track">
+                  <a
+                    href="admit-umich.html"
+                    class="admit-card"
+                    style="
+                      background-image: url(&quot;images/uniofmichigancampus.jpeg&quot;);
+                    "
+                  >
+                    <div class="admit-card-inner">
+                      <div>
+                        <div class="admit-school">
+                          UNIVERSITY<br />OF MICHIGAN
+                        </div>
+                        <div class="admit-tag">미국 학부 유학 합격후기</div>
+                      </div>
+                      <div class="admit-bottom">
+                        <span>1년 맞춤 컨설팅으로 완성한 합격 이야기</span>
+                        <span>합격후기 &gt;</span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="admit-ucla.html"
+                    class="admit-card"
+                    style="
+                      background-image: url(&quot;images/uclacampus.jpeg&quot;);
+                    "
+                  >
+                    <div class="admit-card-inner">
+                      <div>
+                        <div class="admit-school">
+                          UNIVERSITY OF<br />CALIFORNIA, LOS ANGELES
+                        </div>
+                        <div class="admit-tag">UC 편입 합격후기</div>
+                      </div>
+                      <div class="admit-bottom">
+                        <span>CC에서 UC로, 현실적인 편입 루트</span>
+                        <span>합격후기 &gt;</span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="admit-ucsd.html"
+                    class="admit-card"
+                    style="
+                      background-image: url(&quot;images/ucsdcampus.jpeg&quot;);
+                    "
+                  >
+                    <div class="admit-card-inner">
+                      <div>
+                        <div class="admit-school">
+                          UNIVERSITY OF<br />CALIFORNIA, SAN DIEGO
+                        </div>
+                        <div class="admit-tag">전공 변경 + 편입 성공</div>
+                      </div>
+                      <div class="admit-bottom">
+                        <span>Bioengineering, 편입</span>
+                        <span>합격후기 &gt;</span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="admit-uci.html"
+                    class="admit-card"
+                    style="
+                      background-image: url(&quot;images/ucicampus.jpeg&quot;);
+                    "
+                  >
+                    <div class="admit-card-inner">
+                      <div>
+                        <div class="admit-school">
+                          UNIVERSITY OF<br />CALIFORNIA, IRVINE
+                        </div>
+                        <div class="admit-tag">UC 입학 합격후기</div>
+                      </div>
+                      <div class="admit-bottom">
+                        <span>내신·활동·에세이를 균형 있게 설계한 케이스</span>
+                        <span>합격후기 &gt;</span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="admit-boston.html"
+                    class="admit-card"
+                    style="
+                      background-image: url(&quot;images/bostoncollege.jpeg&quot;);
+                    "
+                  >
+                    <div class="admit-card-inner">
+                      <div>
+                        <div class="admit-school">BOSTON<br />UNIVERSITY</div>
+                        <div class="admit-tag">
+                          Communication 전공 합격 스토리
+                        </div>
+                      </div>
+                      <div class="admit-bottom">
+                        <span>커뮤니케이션 전공 합격 스토리</span>
+                        <span>합격후기 &gt;</span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="admit-usc.html"
+                    class="admit-card"
+                    style="
+                      background-image: url(&quot;images/usccampus.jpeg&quot;);
+                    "
+                  >
+                    <div class="admit-card-inner">
+                      <div>
+                        <div class="admit-school">
+                          UNIVERSITY OF<br />SOUTHERN CALIFORNIA
+                        </div>
+                        <div class="admit-tag">도시형 캠퍼스 합격후기</div>
+                      </div>
+                      <div class="admit-bottom">
+                        <span>영화·미디어 관련 스토리</span>
+                        <span>합격후기 &gt;</span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="admit-columbia.html"
+                    class="admit-card"
+                    style="
+                      background-image: url(&quot;images/columbiacampus.jpeg&quot;);
+                    "
+                  >
+                    <div class="admit-card-inner">
+                      <div>
+                        <div class="admit-school">COLUMBIA<br />UNIVERSITY</div>
+                        <div class="admit-tag">Economics 합격 스토리</div>
+                      </div>
+                      <div class="admit-bottom">
+                        <span>데이터 분석 · 정책 키워드 중심</span>
+                        <span>합격후기 &gt;</span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="admit-northeastern.html"
+                    class="admit-card"
+                    style="
+                      background-image: url(&quot;images/northeasterncampus.jpeg&quot;);
+                    "
+                  >
+                    <div class="admit-card-inner">
+                      <div>
+                        <div class="admit-school">
+                          NORTHEASTERN<br />UNIVERSITY
+                        </div>
+                        <div class="admit-tag">
+                          Health Science, Pre-Med Track
+                        </div>
+                      </div>
+                      <div class="admit-bottom">
+                        <span>의대 준비 · 봉사 · 리서치</span>
+                        <span>합격후기 &gt;</span>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="admit-stonybrook.html"
+                    class="admit-card"
+                    style="
+                      background-image: url(&quot;images/stonybrookcampus.jpeg&quot;);
+                    "
+                  >
+                    <div class="admit-card-inner">
+                      <div>
+                        <div class="admit-school">
+                          STONY BROOK<br />UNIVERSITY
+                        </div>
+                        <div class="admit-tag">Computer Engineering</div>
+                      </div>
+                      <div class="admit-bottom">
+                        <span>개발 로드맵 기반 합격 스토리</span>
+                        <span>합격후기 &gt;</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="admit-nav">
+                  <button
+                    type="button"
+                    class="admit-prev"
+                    aria-label="이전 후기 보기"
+                  >
+                    ‹
+                  </button>
+                  <button
+                    type="button"
+                    class="admit-next"
+                    aria-label="다음 후기 보기"
+                  >
+                    ›
+                  </button>
+                </div>
+
+                <div class="admit-dots">
+                  <button type="button" class="active" data-page="0"></button>
+                  <button type="button" data-page="1"></button>
+                  <button type="button" data-page="2"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Mid Strip -->
+        <section class="mid-strip" id="mid-strip">
+          <div class="container">
+            <div class="mini-data-strip" aria-label="원비전 핵심 성과 요약">
+              <div class="mini-metric">
+                <div class="mini-metric-num">92%</div>
+                <div class="mini-metric-label">목표 대학 합격률</div>
+              </div>
+
+              <div class="mini-metric">
+                <div class="mini-metric-num">88%</div>
+                <div class="mini-metric-label">UC/주립대 편입 성공률</div>
+              </div>
+
+              <div class="mini-metric">
+                <div class="mini-metric-num">300+</div>
+                <div class="mini-metric-label">누적 컨설팅/코칭 세션</div>
+              </div>
+
+              <div class="mini-metric">
+                <div class="mini-metric-num">4 Track</div>
+                <div class="mini-metric-label">
+                  신입학 · 편입 · 코칭 · 이민 연계
+                </div>
+              </div>
+            </div>
+
+            <div class="process-strip" aria-label="원비전 진행 프로세스">
+              <div class="process-title">원비전 진행 흐름</div>
+
+              <div class="process-steps">
+                <div class="process-step">
+                  <div class="process-dot"></div>
+                  <div class="process-text">
+                    <div class="process-step-title">1: 상담</div>
+                    <div class="process-step-sub">현재 상황 정리</div>
+                  </div>
+                </div>
+
+                <div class="process-arrow">›</div>
+
+                <div class="process-step">
+                  <div class="process-dot"></div>
+                  <div class="process-text">
+                    <div class="process-step-title">2: 전략 설계</div>
+                    <div class="process-step-sub">학교·전공·주 선택</div>
+                  </div>
+                </div>
+
+                <div class="process-arrow">›</div>
+
+                <div class="process-step">
+                  <div class="process-dot"></div>
+                  <div class="process-text">
+                    <div class="process-step-title">3: 실행·관리</div>
+                    <div class="process-step-sub">에세이·GPA·일정</div>
+                  </div>
+                </div>
+
+                <div class="process-arrow">›</div>
+
+                <div class="process-step">
+                  <div class="process-dot"></div>
+                  <div class="process-text">
+                    <div class="process-step-title">4: 합격</div>
+                    <div class="process-step-sub">결과/대안 플랜</div>
+                  </div>
+                </div>
+
+                <div class="process-arrow">›</div>
+
+                <div class="process-step">
+                  <div class="process-dot"></div>
+                  <div class="process-text">
+                    <div class="process-step-title">5: 진학·정착</div>
+                    <div class="process-step-sub">주거·이민 연계</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="process-note">
+                * 유학/편입만이 아니라, 가족의 지역 선택과 정착까지 함께
+                설계합니다.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials" id="reviews">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Parents Voice
+            </div>
+            <h2 class="section-title">학부모 후기 & 성장 스토리</h2>
+            <p class="section-subtitle">
+              원비전은 “어디를 붙였다”보다,
+              <strong>가족이 어떤 결정을 내릴 수 있게 되었는지</strong>를 더
+              중요하게 생각합니다.
+            </p>
+
+            <div class="testimonials-layout">
+              <div>
+                <article class="testimonial-card">
+                  <div class="testimonial-tag">UC/주립대 편입 + 이민 플랜</div>
+                  <p class="testimonial-text">
+                    “아이의 UC 편입만 생각하고 있었는데, 컨설팅을 받으면서
+                    <strong>어느 도시에서 어떻게 살아야 할지</strong>까지 그림이
+                    잡혔어요.”
+                  </p>
+                  <div class="testimonial-name">
+                    – UC 편입 + 캘리포니아 정착 학부모
+                  </div>
+                </article>
+
+                <article class="testimonial-card">
+                  <div class="testimonial-tag">9–12학년 장기 관리</div>
+                  <p class="testimonial-text">
+                    “<strong>캘린더로 다 정리</strong>되어 있으니까 아이랑 싸울
+                    일 없이 체크만 하면 되더라고요.”
+                  </p>
+                  <div class="testimonial-name">
+                    – Future Scholars Pathway 학부모
+                  </div>
+                </article>
+
+                <article class="testimonial-card">
+                  <div class="testimonial-tag">멘탈 케어 & 생활 적응</div>
+                  <p class="testimonial-text">
+                    “매주 이야기하면서 <strong>멘탈 관리와 시간 관리</strong>를
+                    같이 잡아 준 게 제일 컸어요.”
+                  </p>
+                  <div class="testimonial-name">
+                    – Signature Application Atelier 학생
+                  </div>
+                </article>
+              </div>
+
+              <div class="testimonial-highlight">
+                <p>
+                  <strong>학부모님이 가장 만족하는 포인트</strong><br />
+                  · 유학·편입만이 아니라 <strong>이민·렌트·학군</strong>까지 한
+                  번에 정리되는 점<br />
+                  · <strong>데이터 + 실제 케이스</strong>를 함께 설명해 주는
+                  점<br />
+                  · <strong>장기 플랜 + 주간 체크</strong>가 동시에 이루어지는
+                  구조
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer></footer>
+    </div>
+
+    <!-- Contact Modal -->
+    <div
+      class="contact-modal"
+      id="contactModal"
+      role="dialog"
+      aria-modal="true"
+      aria-label="무료 사전 진단 신청"
+    >
+      <div class="contact-modal-box">
+        <button
+          class="contact-modal-close"
+          type="button"
+          aria-label="닫기"
+          onclick="closeContact()"
+        >
+          ×
+        </button>
+
+        <div id="stepDiagnosis">
+          <div class="section-badge" style="margin-bottom: 1rem">
+            <span class="section-badge-dot"></span>
+            Step 1. 사전 진단 설문
+          </div>
+          <h2
+            class="section-title"
+            style="color: var(--primary-dark); font-size: 1.8rem"
+          >
+            미국 유학 준비 상태 무료 진단
+          </h2>
+          <p
+            class="section-subtitle"
+            style="color: var(--muted-on-light); margin-bottom: 1.5rem"
+          >
+            정확한 전략 설계를 위해 현재 상황을 상세히 알려주세요. (제출 후 1:1
+            상담 예약으로 이어집니다.)
+          </p>
+
+          <div class="contact-card" style="margin-top: 0">
+            <form id="diagnosisForm" onsubmit="handleDiagnosisSubmit(event)">
+              <div class="form-grid">
+                <div class="form-full">
+                  <h4
+                    style="
+                      margin: 0.5rem 0;
+                      color: var(--brand);
+                      font-size: 0.9rem;
+                    "
+                  >
+                    1. 기본 정보
+                  </h4>
+                </div>
+                <div class="form-group">
+                  <label for="diagName">이름 (Name) *</label>
+                  <input
+                    type="text"
+                    id="diagName"
+                    required
+                    placeholder="예: 홍길동"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="diagGrade">학년/나이 (Grade) *</label>
+                  <input
+                    type="text"
+                    id="diagGrade"
+                    required
+                    placeholder="예: 11학년 / 고2"
+                  />
+                </div>
+                <div class="form-group form-full">
+                  <label for="diagContact"
+                    >연락처 (카카오톡 ID 또는 이메일) *</label
+                  >
+                  <input
+                    type="text"
+                    id="diagContact"
+                    required
+                    placeholder="연락 가능한 정보를 남겨주세요."
+                  />
+                </div>
+
+                <div class="form-full">
+                  <h4
+                    style="
+                      margin: 1rem 0 0.5rem;
+                      color: var(--brand);
+                      font-size: 0.9rem;
+                    "
+                  >
+                    2. 현재 준비 상태
+                  </h4>
+                </div>
+                <div class="form-group">
+                  <label for="diagEnglish">영어 점수 (TOEFL/IELTS)</label>
+                  <input
+                    type="text"
+                    id="diagEnglish"
+                    placeholder="예: TOEFL 95 / 없음"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="diagGPA">내신 수준 (GPA) *</label>
+                  <select id="diagGPA" required>
+                    <option value="">선택하세요</option>
+                    <option value="상">상 (Top Tier)</option>
+                    <option value="중">중 (Average)</option>
+                    <option value="하">하 (Below Average)</option>
+                  </select>
+                </div>
+
+                <div class="form-full">
+                  <h4
+                    style="
+                      margin: 1rem 0 0.5rem;
+                      color: var(--brand);
+                      font-size: 0.9rem;
+                    "
+                  >
+                    3. 목표 및 희망 사항
+                  </h4>
+                </div>
+                <div class="form-group">
+                  <label for="diagPath">희망 진학 과정 *</label>
+                  <select id="diagPath" required>
+                    <option value="">선택하세요</option>
+                    <option value="신입학">대학 신입학</option>
+                    <option value="편입">대학 편입</option>
+                    <option value="코칭">아카데믹 코칭</option>
+                    <option value="이민">이민/주거 연계</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="diagMajor">희망 전공 (Major)</label>
+                  <input
+                    type="text"
+                    id="diagMajor"
+                    placeholder="예: Computer Science"
+                  />
+                </div>
+                <div class="form-group form-full">
+                  <label for="diagTarget">가고 싶은 학교 또는 지역</label>
+                  <input
+                    type="text"
+                    id="diagTarget"
+                    placeholder="예: UC Berkeley / 캘리포니아 주"
+                  />
+                </div>
+
+                <div class="form-group form-full">
+                  <label for="diagMessage">가장 궁금한 점</label>
+                  <textarea
+                    id="diagMessage"
+                    style="min-height: 80px"
+                    placeholder="고민되는 내용을 자유롭게 적어주세요."
+                  ></textarea>
+                </div>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary"
+                style="
+                  width: 100%;
+                  margin-top: 1.5rem;
+                  padding: 1rem;
+                  font-size: 1rem;
+                "
+              >
+                진단 결과 제출하고 상담 예약하기
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div
+          id="stepSuccess"
+          style="display: none; text-align: center; padding: 3rem 1rem"
+        >
+          <div style="font-size: 4rem; margin-bottom: 1.5rem">✨</div>
+          <h2
+            class="section-title"
+            style="color: var(--primary-dark); font-size: 2.2rem"
+          >
+            진단이 접수되었습니다!
+          </h2>
+          <p
+            class="section-subtitle"
+            style="
+              margin: 1.5rem auto;
+              line-height: 1.8;
+              color: var(--muted-on-light);
+            "
+          >
+            입력해주신 내용을 바탕으로 보다 정확한 전략 상담을 위해<br />
+            <strong>전문 컨설턴트와 1:1 상담을 예약</strong>해주세요.<br />
+            아래에서 편한 시간을 선택하시면 상담이 확정됩니다.
+          </p>
+
+          <div
+            style="
+              margin-top: 2.5rem;
+              display: flex;
+              flex-direction: column;
+              gap: 1rem;
+              align-items: center;
+            "
+          >
+            <button
+              type="button"
+              onclick="scrollToReservation()"
+              class="btn btn-primary"
+              style="
+                padding: 1.2rem 3rem;
+                font-size: 1.1rem;
+                border-radius: 12px;
+              "
+            >
+              상담 일정 선택하기 (무료)
+            </button>
+            <p style="font-size: 0.85rem; color: #94a3b8">
+              * 버튼을 누르면 예약 달력으로 이동합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // 1. 진단 폼 제출 핸들러
+      function handleDiagnosisSubmit(event) {
+        event.preventDefault();
+
+        const btn = event.target.querySelector("button");
+        btn.innerText = "제출 중...";
+        btn.style.opacity = "0.7";
+
+        const formData = {
+          name: document.getElementById("diagName").value,
+          grade: document.getElementById("diagGrade").value,
+          contact: document.getElementById("diagContact").value,
+          path: document.getElementById("diagPath").value,
+        };
+        console.log("진단 데이터:", formData);
+
+        setTimeout(() => {
+          document.getElementById("stepDiagnosis").style.display = "none";
+          document.getElementById("stepSuccess").style.display = "block";
+        }, 800);
+      }
+
+      function scrollToReservation() {
+        closeContact();
+
+        setTimeout(() => {
+          const target = document.getElementById("reservation");
+          if (target) {
+            window.scrollTo({
+              top: target.offsetTop - 80,
+              behavior: "smooth",
+            });
+          }
+        }, 350);
+      }
+
+      function closeContact() {
+        document.getElementById("contactModal").classList.remove("active");
+        document.body.style.overflow = "";
+
+        setTimeout(() => {
+          document.getElementById("stepDiagnosis").style.display = "block";
+          document.getElementById("stepSuccess").style.display = "none";
+          document.getElementById("diagnosisForm").reset();
+        }, 400);
+      }
+    </script>
+
+    <script>
+      // Header scroll shadow
+      (function () {
+        const headerEl = document.querySelector("header");
+        if (!headerEl) return;
+        function onScroll() {
+          if (window.scrollY > 8) headerEl.classList.add("is-scrolled");
+          else headerEl.classList.remove("is-scrolled");
+        }
+        window.addEventListener("scroll", onScroll, { passive: true });
+        onScroll();
+      })();
+
+      // Smooth scroll for anchors
+      document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+        a.addEventListener("click", function (e) {
+          const href = this.getAttribute("href");
+          if (href.length > 1) {
+            const target = document.querySelector(href);
+            if (target) {
+              e.preventDefault();
+              window.scrollTo({
+                top: target.offsetTop - 80,
+                behavior: "smooth",
+              });
+            }
+          }
+        });
+      });
+
+      // Hero slider
+      (function () {
+        const slides = document.querySelectorAll(".hero-slide");
+        const dots = document.querySelectorAll(".hero-dot");
+        if (!slides.length) return;
+
+        let current = 0;
+
+        function goToSlide(index) {
+          slides[current].classList.remove("hero-slide-active");
+          if (dots[current]) dots[current].classList.remove("active");
+          current = index;
+          slides[current].classList.add("hero-slide-active");
+          if (dots[current]) dots[current].classList.add("active");
+        }
+
+        dots.forEach(function (dot, idx) {
+          dot.addEventListener("click", function () {
+            goToSlide(idx);
+          });
+        });
+
+        setInterval(function () {
+          goToSlide((current + 1) % slides.length);
+        }, 8000);
+      })();
+
+      // ===== Stats interactive data =====
+      const STATS_DATA = {
+        all: {
+          note: "전체 트랙(신입학 · 편입 · Academic Coaching)을 묶어서 본 기준입니다.",
+          bars: [
+            { label: "목표 대학(리스트 기준) 합격률", value: 92 },
+            { label: "UC/주립대 편입 성공률", value: 88 },
+            { label: "학부모 만족도(설문 응답)", value: 95 },
+            { label: "재등록 · 지인 추천 비율", value: 80 },
+          ],
+          rows: [
+            {
+              track: "신입학 (Freshman)",
+              rate: "합격률 90%+ (목표 리스트 기준)",
+              path: "미국/한국 고등학생 · 국제학교",
+              feature: "9–12학년 장기 로드맵 + 방학/EC 설계",
+            },
+            {
+              track: "편입 (Transfer)",
+              rate: "UC/주립대 편입 성공률 88% 내외",
+              path: "Community College · 4년제 재학생",
+              feature: "전공 변경·학점 전략 + 에세이 집중",
+            },
+            {
+              track: "Academic Coaching",
+              rate: "3개월 이상 유지율 약 85%",
+              path: "중·고·대학생 GPA/루틴 관리",
+              feature: "주 1회 코칭 + 매일 체크 · 습관/멘탈 케어",
+            },
+          ],
+        },
+        freshman: {
+          note: "신입학(Freshman) 학생들을 기준으로 본 지표입니다.",
+          bars: [
+            { label: "목표 대학 리스트 기준 합격률", value: 90 },
+            { label: "Reach(상향) 학교 합격률", value: 65 },
+            { label: "장학금/재정보조 수혜 비율", value: 72 },
+            { label: "재지원 없이 1년 내 진학률", value: 93 },
+          ],
+          rows: [
+            {
+              track: "Top 30 목표형",
+              rate: "상향 합격률 60–70%",
+              path: "공대·비즈·CS·인문 혼합",
+              feature: "AP/IB 과목 · 리서치/프로젝트 연계",
+            },
+            {
+              track: "균형형 리스트",
+              rate: "목표 리스트 내 1곳 이상 합격률 95% 내외",
+              path: "UC + 주립 + 사립 분산 지원",
+              feature: "안정/도전/상향 비율을 처음에 명확히 세팅",
+            },
+          ],
+        },
+        transfer: {
+          note: "Community College 및 4년제 재학생 편입 케이스 기준입니다.",
+          bars: [
+            { label: "UC/주립대 편입 성공률", value: 88 },
+            { label: "전공 변경 동반 편입 성공률", value: 81 },
+            { label: "지원 학교 중 최소 1곳 합격률", value: 94 },
+            { label: "편입 후 1년 내 적응도(설문)", value: 89 },
+          ],
+          rows: [
+            {
+              track: "UC 편입 (TAG 포함)",
+              rate: "목표 UC 내 합격률 85–90%",
+              path: "TAG + Non-TAG 혼합",
+              feature: "GPA · 과목 구성 · 에세이 타임라인 관리",
+            },
+            {
+              track: "미국/타국 4년제 → 미국 편입",
+              rate: "목표 리스트 기준 합격률 80%+",
+              path: "공대·경영·Art/Design 편입",
+              feature: "기존 학점 인정 + 포트폴리오/프로젝트 재구성",
+            },
+          ],
+        },
+        coaching: {
+          note: "Academic Coaching & Study Lab 참가 학생 기준입니다.",
+          bars: [
+            { label: "3개월 이상 프로그램 유지율", value: 85 },
+            { label: "평균 GPA 향상 (1년 기준)", value: 78 },
+            { label: "“시간 관리가 나아졌다” 응답", value: 92 },
+            { label: "멘탈/스트레스 지표 개선 응답", value: 88 },
+          ],
+          rows: [
+            {
+              track: "중·고등학생 코칭",
+              rate: "과제 누락·지각 비율 크게 감소",
+              path: "중학생 ~ 11학년",
+              feature: "주간 플래너 · 시험 전 집중 관리",
+            },
+            {
+              track: "대학생 Study Lab",
+              rate: "한 학기 이후 GPA 상승 비율 70%+",
+              path: "STEM · Business · Art 전공",
+              feature: "장기 프로젝트 · 팀플 일정 분해 코칭",
+            },
+          ],
+        },
+      };
+
+      let currentStatsType = "all";
+
+      function renderStats(type) {
+        const data = STATS_DATA[type];
+        if (!data) return;
+
+        const keywordInput = document.getElementById("statsKeyword");
+        const keyword = keywordInput
+          ? keywordInput.value.trim().toLowerCase()
+          : "";
+
+        const barsWrap = document.getElementById("statsBars");
+        const tableEl = document.getElementById("statsTable");
+        const noteEl = document.getElementById("statsNote");
+
+        // Bars
+        barsWrap.innerHTML = data.bars
+          .map(
+            (b) => `
+      <div class="stats-bar-row">
+        <span>${b.label}</span>
+        <div class="stats-bar"><div class="stats-bar-fill" style="width:${b.value}%;"></div></div>
+        <span class="stats-percent">${b.value}%</span>
+      </div>
+    `,
+          )
+          .join("");
+
+        // Table
+        let rows = data.rows;
+        if (keyword) {
+          rows = data.rows.filter((r) =>
+            Object.values(r).some((v) =>
+              String(v).toLowerCase().includes(keyword),
+            ),
+          );
+        }
+
+        const header = `
+      <thead>
+        <tr>
+          <th>트랙</th>
+          <th>합격/유지 지표</th>
+          <th>대표 전형/전공</th>
+          <th>특징 요약</th>
+        </tr>
+      </thead>
+    `;
+
+        const body = rows.length
+          ? `
+      <tbody>
+        ${rows
+          .map(
+            (r) => `
+          <tr>
+            <td>${r.track}</td>
+            <td>${r.rate}</td>
+            <td>${r.path}</td>
+            <td>${r.feature}</td>
+          </tr>
+        `,
+          )
+          .join("")}
+      </tbody>
+    `
+          : `
+      <tbody>
+        <tr>
+          <td colspan="4" style="text-align:center;color:#9ca3af;font-size:.85rem;padding:1.1rem 0;">
+            해당 키워드에 맞는 데이터가 없습니다. (다른 전공/학교 이름으로 검색해 보세요.)
+          </td>
+        </tr>
+      </tbody>
+    `;
+
+        tableEl.innerHTML = header + body;
+
+        noteEl.textContent =
+          data.note + (keyword ? ` · 검색 키워드: "${keyword}" 기준` : "");
+      }
+
+      function changeStatsFilter(type, el) {
+        currentStatsType = type;
+        document
+          .querySelectorAll("[data-stats]")
+          .forEach((btn) => btn.classList.remove("active"));
+        if (el) el.classList.add("active");
+        renderStats(type);
+      }
+
+      // 초기 렌더
+      renderStats("all");
+
+      // Admit slider
+      (function () {
+        const slider = document.getElementById("admitSlider");
+        if (!slider) return;
+
+        const track = slider.querySelector(".admit-track");
+        const slides = Array.from(slider.querySelectorAll(".admit-card"));
+        const dots = Array.from(slider.querySelectorAll(".admit-dots button"));
+        const prevBtn = slider.querySelector(".admit-prev");
+        const nextBtn = slider.querySelector(".admit-next");
+
+        const perPage = 3;
+        const totalPages = Math.ceil(slides.length / perPage);
+        let currentPage = 0;
+
+        function goToPage(page) {
+          if (page < 0) page = totalPages - 1;
+          if (page >= totalPages) page = 0;
+          currentPage = page;
+
+          const sliderWidth = slider.clientWidth;
+          const offsetPx = -(page * (sliderWidth + 16)); // include 1rem gap
+          track.style.transform = `translateX(${offsetPx}px)`;
+          dots.forEach((d, i) =>
+            d.classList.toggle("active", i === currentPage),
+          );
+        }
+
+        prevBtn.addEventListener("click", () => goToPage(currentPage - 1));
+        nextBtn.addEventListener("click", () => goToPage(currentPage + 1));
+        dots.forEach((dot, index) =>
+          dot.addEventListener("click", () => goToPage(index)),
+        );
+
+        setInterval(() => goToPage(currentPage + 1), 6000);
+        window.addEventListener("resize", () => goToPage(currentPage));
+        goToPage(0);
+      })();
+
+      // Contact Modal
+      function openContact() {
+        document.getElementById("contactModal").classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeContact() {
+        document.getElementById("contactModal").classList.remove("active");
+        document.body.style.overflow = "";
+      }
+
+      // 바깥 클릭 시 닫기
+      document
+        .getElementById("contactModal")
+        ?.addEventListener("click", function (e) {
+          if (e.target === this) closeContact();
+        });
+
+      // ESC 누르면 닫기
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+          const modal = document.getElementById("contactModal");
+          if (modal && modal.classList.contains("active")) closeContact();
+        }
+      });
+
+      // 모달 닫기

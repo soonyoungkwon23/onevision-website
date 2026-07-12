@@ -1,0 +1,59 @@
+name: Weekly Publish
+
+on:
+  schedule:
+    # Monday 00:00 UTC = Monday 09:00 KST
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Posts to publish this run (default = dripRate in site.config.json)"
+        required: false
+
+concurrency:
+  group: deploy-prod
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Promote next queue batch to published
+        run: node scripts/publish.js --count "${{ inputs.count }}"
+
+      - name: Build blog pages, sitemap, RSS
+        run: node scripts/build.js
+
+      - name: Commit publish state
+        run: |
+          git config user.name "onevision-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/guides
+          git diff --cached --quiet || git commit -m "publish: weekly batch $(date +%F) [skip ci]"
+          git push
+
+      - name: Deploy to Hostinger over FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./public_html/
+          server-dir: ./public_html/
+          state-name: .ftp-deploy-sync-state.json
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**

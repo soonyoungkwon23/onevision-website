@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Yun Lee | OneVision Consulting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        --radius-lg: 4px;
+        --radius-xl: 12px;
+        --max-width: 1200px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background: var(--bg-main);
+        color: var(--text-on-dark);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      section {
+        padding: 4.2rem 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .hero-title,
+      .section-title .admit-title-main {
+        font-family: "Noto Serif KR", serif;
+        font-weight: 500;
+        letter-spacing: -0.03em;
+        line-height: 1.3;
+      }
+
+      /* =========================
+       Header / Nav
+       ========================= */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #fff;
+        border-bottom: 1px solid var(--border-on-light);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92px;
+        position: relative;
+      }
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .logo-mark {
+        width: 220px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        opacity: 1;
+        flex-shrink: 0;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 1.08rem;
+      }
+      .logo-text-sub {
+        font-size: 0.78rem;
+        margin-top: 6px;
+        font-weight: 600;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--accent);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+      }
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        font-size: 1.4rem;
+        cursor: pointer;
+        padding: 0.35rem 0.45rem;
+        border-radius: 10px;
+      }
+      .nav-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.68rem 1.35rem;
+        border-radius: 999px;
+        font-weight: 750;
+        font-size: 0.88rem;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease,
+          box-shadow 0.15s ease;
+        white-space: nowrap;
+        border: 1px solid transparent;
+      }
+      .btn-primary {
+        background: linear-gradient(
+          180deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: #fff !important;
+        box-shadow: none;
+      }
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .btn-outline {
+        background: rgba(255, 255, 255, 0.04);
+        color: #fff !important;
+        border-color: rgba(255, 255, 255, 0.35);
+      }
+      .btn-outline:hover {
+        background: rgba(255, 255, 255, 0.09);
+      }
+
+      @media (max-width: 1024px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto;
+          padding: 0;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 100%;
+          background: #fff;
+          padding: 20px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .nav.nav-open .nav-cta {
+          display: none;
+        }
+
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+      /* =========================
+         상세 페이지 레이아웃
+         ========================= */
+      .detail-section {
+        padding: 5.4rem 0;
+      }
+      .detail-grid {
+        display: grid;
+        grid-template-columns: 380px 1fr;
+        gap: 4.5rem;
+        align-items: start;
+      }
+      .profile-aside {
+        position: sticky;
+        top: 140px;
+        text-align: center;
+      }
+      .profile-image-card {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 24px;
+        overflow: hidden;
+        background: #f8f8f8;
+        border: 1px solid var(--border-on-light);
+        margin-bottom: 1.8rem;
+      }
+      .profile-image-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .email-text {
+        color: var(--muted-on-dark);
+        font-size: 0.92rem;
+        font-weight: 600;
+      }
+      .cert-row {
+        display: flex;
+        justify-content: center;
+        gap: 0.6rem;
+        margin-top: 1.2rem;
+        flex-wrap: wrap;
+      }
+      .cert-badge {
+        font-size: 0.82rem;
+        font-weight: 800;
+        color: #ffffff;
+        background: var(--accent);
+        border: 1px solid var(--accent);
+        padding: 0.32rem 0.85rem;
+        border-radius: 999px;
+        letter-spacing: 0.02em;
+      }
+
+      .info-content h1 {
+        font-family: "Noto Serif KR", serif;
+        font-size: clamp(2.5rem, 5vw, 3.4rem);
+        margin-bottom: 0.5rem;
+      }
+      .role-badge {
+        display: inline-block;
+        color: var(--brand);
+        font-weight: 800;
+        font-size: 1.15rem;
+        margin-bottom: 3.2rem;
+      }
+      .content-block {
+        margin-bottom: 4.5rem;
+      }
+      .content-block h2 {
+        font-family: "Noto Serif KR", serif;
+        font-size: 1.8rem;
+        border-bottom: 2px solid var(--brand);
+        padding-bottom: 0.8rem;
+        margin-bottom: 1.8rem;
+      }
+      .spec-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.4rem;
+        list-style: none;
+      }
+      .spec-list li {
+        position: relative;
+        padding-left: 1.5rem;
+        font-size: 1rem;
+        color: var(--text-on-dark);
+        font-weight: 500;
+      }
+      .spec-list li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 11px;
+        width: 6px;
+        height: 6px;
+        background: var(--brand);
+        border-radius: 50%;
+      }
+      .full-width {
+        grid-column: 1 / -1;
+      }
+      .pending-note {
+        color: var(--muted-on-light);
+        font-style: italic;
+        font-weight: 500;
+      }
+
+      @media (max-width: 1024px) {
+        .detail-grid {
+          grid-template-columns: 1fr;
+          gap: 3rem;
+        }
+        .profile-aside {
+          position: static;
+          max-width: 450px;
+          margin: 0 auto;
+        }
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <header></header>
+
+    <main class="detail-section">
+      <div class="container detail-grid">
+        <aside class="profile-aside">
+          <div class="profile-image-card">
+            <img
+              src="images/yun-lee.jpeg"
+              alt="Yun Lee"
+              onerror="
+                this.nextElementSibling.style.display = 'flex';
+                this.style.display = 'none';
+              "
+            />
+            <div
+              style="
+                display: none;
+                font-size: 6rem;
+                font-weight: 800;
+                color: #ddd;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+              "
+            >
+              YL
+            </div>
+          </div>
+          <div class="cert-row">
+            <span class="cert-badge">CPA</span>
+            <span class="cert-badge">CCFC</span>
+          </div>
+        </aside>
+
+        <section class="info-content">
+          <h1>Yun Lee <span style="font-size: 1.6rem; color: var(--muted-on-dark); font-family: 'Noto Serif KR', serif;">(이윤재)</span></h1>
+          <span class="role-badge"
+            >Financial Aid Consultant | 사립 중·고등학교 &amp; 대학교 재정보조 컨설턴트</span
+          >
+
+          <div class="content-block">
+            <h2>인사말</h2>
+            <p
+              style="
+                font-size: 1.1rem;
+                color: var(--text-dark);
+                line-height: 1.8;
+              "
+            >
+              <span class="pending-note">추후 업데이트 예정입니다.</span>
+            </p>
+          </div>
+
+          <div class="content-block">
+            <h2>주요 자격</h2>
+            <ul class="spec-list">
+              <li>CPA &mdash; Certified Public Accountant (미국 공인회계사)</li>
+              <li>
+                CCFC &mdash; Certified College Financial Consultant (미국
+                공인 대학 재정 컨설턴트)
+              </li>
+            </ul>
+          </div>
+
+          <div class="content-block">
+            <h2>주요 학력</h2>
+            <p>
+              <span class="pending-note">추후 업데이트 예정입니다.</span>
+            </p>
+          </div>
+
+          <div class="content-block">
+            <h2>주요 경력</h2>
+            <p>
+              <span class="pending-note">추후 업데이트 예정입니다.</span>
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="js/common.js"></script>
+    <script>
+      const menuBtn = document.getElementById("menuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+
+      if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener("click", () => {
+          const isActive = mobileMenu.classList.toggle("active");
+          menuBtn.textContent = isActive ? "✕" : "☰";
+          document.body.style.overflow = isActive ? "hidden" : "auto";
+        });
+        mobileMenu.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => {
+            mobileMenu.classList.remove("active");
+            menuBtn.textContent = "☰";
+            document.body.style.overflow = "auto";
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,947 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      OneVision | University of Washington Computer Engineering 합격 후기
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="University of Washington 컴퓨터공학(Computer Engineering) 합격을 목표로 한 학생이 OneVision과 함께 준비한 과정과 합격 스토리입니다."
+    />
+
+    <!-- Fonts (Unified) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-main: #0b0e14;
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --text-on-dark: #f8fafc;
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        --radius-lg: 18px;
+        --radius-xl: 26px;
+        --max-width: 1200px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(
+            1200px 600px at 18% -10%,
+            rgba(156, 26, 54, 0.14),
+            transparent 60%
+          ),
+          radial-gradient(
+            900px 500px at 92% 10%,
+            rgba(90, 11, 31, 0.12),
+            transparent 55%
+          ),
+          linear-gradient(180deg, #ffffff, #fbf9fa);
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      section {
+        padding: 3.8rem 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .section-title {
+        font-family: "Noto Serif KR", serif;
+        letter-spacing: -0.02em;
+      }
+
+      /* =========================
+       Header 
+       ========================= */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #fff;
+        border-bottom: 1px solid var(--border);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92px;
+        position: relative;
+        gap: 1rem;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+        flex-shrink: 0;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .logo-mark {
+        width: 220px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        flex-shrink: 0;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 1.08rem;
+        color: #000;
+      }
+      .logo-text-sub {
+        font-size: 0.78rem;
+        margin-top: 6px;
+        font-weight: 600;
+        color: #000;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--accent);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        flex-shrink: 0;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.68rem 1.25rem;
+        border-radius: 999px;
+        font-weight: 750;
+        font-size: 0.88rem;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease,
+          box-shadow 0.15s ease;
+        border: 1px solid transparent;
+        white-space: nowrap;
+      }
+      .btn-primary {
+        background: linear-gradient(
+          180deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: #fff;
+      }
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        color: #000;
+        font-size: 1.4rem;
+        cursor: pointer;
+        padding: 0.35rem 0.5rem;
+        border-radius: 10px;
+        line-height: 1;
+        min-width: 44px;
+        min-height: 44px;
+      }
+      .nav-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      @media (max-width: 960px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto;
+          padding: 0;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+          position: relative;
+          z-index: 101;
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          padding: 10px 20px 40px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .nav-open .nav-toggle span {
+          color: #000 !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+      @media (max-width: 640px) {
+        .logo-mark {
+          width: 190px;
+          height: 68px;
+        }
+        section {
+          padding: 3.2rem 0;
+        }
+      }
+
+      /* Breadcrumb */
+      .breadcrumb {
+        font-size: 0.82rem;
+        color: #9ca3af;
+        margin-bottom: 1.15rem;
+      }
+      .breadcrumb a {
+        color: #6b7280;
+      }
+      .breadcrumb span {
+        margin: 0 0.3rem;
+      }
+
+      /* Hero */
+      .hero {
+        padding-top: 2.2rem;
+      }
+      .hero-card {
+        position: relative;
+        border-radius: var(--radius-xl);
+        overflow: hidden;
+        height: 330px;
+        background-image: url("images/universityofwashington.jpeg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 24px 60px rgba(15, 23, 42, 0.45);
+        border: 1px solid rgba(10, 10, 10, 0.1);
+        margin-bottom: 2rem;
+      }
+      .hero-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.88)
+        );
+      }
+      .hero-card-inner {
+        position: relative;
+        height: 100%;
+        padding: 1.6rem 1.6rem 1.45rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+      }
+      .hero-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.22rem 0.8rem;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        width: fit-content;
+      }
+      .hero-pill-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: #ffd0d8;
+        box-shadow: 0 0 0 3px rgba(255, 208, 216, 0.18);
+      }
+      .hero-title-main {
+        font-size: 1.45rem;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        line-height: 1.35;
+      }
+      .hero-title-sub {
+        font-size: 0.95rem;
+        margin-top: 0.35rem;
+        color: rgba(255, 255, 255, 0.86);
+      }
+      .hero-meta {
+        font-size: 0.82rem;
+        color: rgba(255, 255, 255, 0.78);
+        line-height: 1.6;
+      }
+      .hero-meta span {
+        margin-right: 0.85rem;
+      }
+
+      @media (max-width: 768px) {
+        .hero-card {
+          height: 285px;
+        }
+      }
+
+      /* Layout */
+      .content-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+        gap: 2rem;
+        align-items: flex-start;
+        margin-top: 0.2rem;
+      }
+      @media (max-width: 900px) {
+        .content-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+
+      .section-title-small {
+        font-size: 1.05rem;
+        font-weight: 900;
+        margin-bottom: 0.45rem;
+        color: var(--primary-dark);
+        letter-spacing: -0.02em;
+      }
+      .section-text {
+        font-size: 0.95rem;
+        color: #4b5563;
+        line-height: 1.9;
+      }
+      .content-block {
+        margin-bottom: 1.55rem;
+      }
+
+      /* Right cards */
+      .info-card {
+        border-radius: 18px;
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+        padding: 1.05rem 1.05rem;
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.1);
+        font-size: 0.9rem;
+      }
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.8rem;
+        margin-bottom: 0.45rem;
+      }
+      .info-label {
+        color: #6b7280;
+        font-weight: 700;
+      }
+      .info-value {
+        font-weight: 900;
+        color: #111827;
+        text-align: right;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.55rem;
+      }
+      .tag {
+        font-size: 0.78rem;
+        padding: 0.18rem 0.6rem;
+        border-radius: 999px;
+        background: rgba(90, 11, 31, 0.08);
+        border: 1px solid rgba(90, 11, 31, 0.12);
+        color: var(--primary-dark);
+        font-weight: 850;
+      }
+
+      .quote-block {
+        margin-top: 1rem;
+        padding: 0.95rem 1rem;
+        border-left: 3px solid var(--primary);
+        background: rgba(90, 11, 31, 0.06);
+        border-radius: 14px;
+        font-size: 0.92rem;
+        color: #374151;
+        box-shadow: 0 14px 34px rgba(10, 10, 10, 0.06);
+        border: 1px solid rgba(10, 10, 10, 0.06);
+      }
+      .quote-label {
+        font-size: 0.78rem;
+        color: #6b7280;
+        margin-bottom: 0.25rem;
+        font-weight: 800;
+      }
+
+      /* =========================
+       Footer
+       ========================= */
+      footer {
+        background: #1a1a1a; /* 이미지 11의 짙은 배경색 반영 */
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 4rem 0 2rem;
+        font-size: 0.85rem;
+        line-height: 1.8;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2.5rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f8fafc;
+        font-weight: 700;
+        min-width: 80px;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f8fafc;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64748b;
+      }
+      /* =========================
+   Floating Social (Shared)
+   ========================= */
+      .floating-social {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 999;
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+      }
+
+      .floating-social-label {
+        font-size: 0.78rem;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.92);
+        background: rgba(26, 3, 8, 0.78);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        padding: 0.35rem 0.6rem;
+        border-radius: 999px;
+        backdrop-filter: blur(6px);
+      }
+
+      .floating-social .social-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
+        text-decoration: none;
+      }
+
+      .floating-social .social-icon img {
+        width: 26px;
+        height: 26px;
+        display: block;
+        transition:
+          transform 0.18s ease,
+          opacity 0.18s ease;
+      }
+
+      .floating-social .social-icon:hover img {
+        transform: translateY(-2px);
+        opacity: 0.9;
+      }
+
+      @media (max-width: 640px) {
+        .floating-social {
+          right: 12px;
+          bottom: 12px;
+        }
+        .floating-social .social-icon {
+          width: 44px;
+          height: 44px;
+        }
+        .floating-social .social-icon img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper" id="top">
+      <header></header>
+
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="breadcrumb">
+              <a href="index.html#top">홈</a><span>›</span>
+              <a href="admit-gallery.html">합격 후기</a><span>›</span>
+              <span>University of Washington Computer Engineering</span>
+            </div>
+
+            <div
+              class="hero-card"
+              role="img"
+              aria-label="University of Washington 합격 후기 커버 이미지"
+            >
+              <div class="hero-card-inner">
+                <div>
+                  <div class="hero-pill">
+                    <span class="hero-pill-dot"></span>
+                    Computer Engineering · Big Data · AI
+                  </div>
+
+                  <div style="margin-top: 0.75rem">
+                    <div class="hero-title-main">UNIVERSITY OF WASHINGTON</div>
+                    <div class="hero-title-sub">
+                      Computer Engineering 합격 스토리
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hero-meta">
+                  <span>전공: Computer Engineering</span>
+                  <span>키워드: 빅데이터 · AI · 데이터 프로젝트 · 해커톤</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-layout">
+              <!-- Left: Story -->
+              <div>
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    1. 왜 컴퓨터공학, 왜 University of Washington이었나요?
+                  </h2>
+                  <p class="section-text">
+                    이 학생은 빅데이터와 AI의 가능성에 매료되면서 자연스럽게
+                    컴퓨터공학 전공을 선택했습니다. 특히 시애틀에 위치한
+                    University of Washington은 빅테크 기업들과의 연결, 연구
+                    환경, 인턴십 기회가 모두 뛰어나 “내가 상상하는 진로에 가장
+                    잘 맞는 학교”라고 판단해 1순위 목표 학교로 정했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    2. 여러 유학원 중 OneVision을 선택한 결정적인 이유
+                  </h2>
+                  <p class="section-text">
+                    커뮤니티에서 우연히 OneVision 후기를 읽고 Jay 대표의 글을
+                    찾아보게 되면서, 다른 곳과는 다르게
+                    <strong>실제 로드맵과 합격 전략을 구체적으로 공개</strong
+                    >하는 점이 눈에 들어왔습니다. “이 정도로 디테일하게 전략을
+                    공개하는 곳이라면 믿을 수 있겠다”는 생각이 들었고, 첫 상담
+                    이후 바로 함께 준비하기로 결정했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    3. 준비 과정에서 가장 어려웠던 부분
+                  </h2>
+                  <p class="section-text">
+                    미국 현지 고등학교 수업과 내신을 따라가면서 동시에 경쟁력
+                    있는 EC(비교과) 활동을 쌓는 것이 가장 큰 도전이었습니다.
+                    리더십 포지션을 맡을 기회도 많지 않아, “어떻게 나만의 차별화
+                    포인트를 만들 수 있을까?”가 계속된 고민이었습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    4. OneVision이 함께 만든 전략 – 데이터 사이언스 프로젝트
+                    &amp; 해커톤
+                  </h2>
+                  <p class="section-text">
+                    OneVision은 학생이 이미 해왔던 활동들을 다시 분석해
+                    <strong>데이터 사이언스 프로젝트로 확장</strong>할 수 있도록
+                    방향을 잡아주었습니다. 또한 Hackathon 참가를 제안해, 단순
+                    코딩 경험을 넘어 팀 프로젝트와 실제 문제 해결 경험으로
+                    스토리를 업그레이드했습니다. 전공 적합성을 기준으로 대학
+                    리스트를 정리해 준 덕분에, 학생은 “어디를 지원할지” 고민하는
+                    시간 대신 준비에 에너지를 집중할 수 있었습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    5. 준비 과정에서 느낀 가장 큰 성장
+                  </h2>
+                  <p class="section-text">
+                    스스로 연구 주제를 정하고 데이터를 모아 분석하는 과정을
+                    반복하면서
+                    <strong>논리적 사고력과 협업 능력</strong>이 크게 성장했다고
+                    말합니다. 무엇보다 “문제가 생겨도 피하지 않고, 해결하는
+                    과정을 즐기는 나”를 발견했다는 점이 학생이 스스로 꼽은 가장
+                    큰 변화였습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    6. 지원 과정에서 가장 기억에 남는 장면
+                  </h2>
+                  <p class="section-text">
+                    UW 에세이를 쓰면서 지역 교통 데이터 분석 프로젝트를 “사회적
+                    가치”와 어떻게 연결할지 고민이 많았습니다. 그때 Jay 대표가
+                    <strong>“데이터가 사람의 삶을 바꾼다”</strong>는 관점을
+                    넣어보라고 조언해 주었고, 그 한 문장 덕분에 에세이 전체의
+                    방향이 단번에 잡혔다고 합니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">7. 합격 소식을 들었을 때</h2>
+                  <p class="section-text">
+                    합격 메일을 처음 봤을 때는 믿기지 않아 몇 번이고 다시
+                    확인했다고 해요. 부모님과 함께 껴안고 울 정도로
+                    감격스러웠고, 그동안의 노력들이 한순간에 보상받는
+                    느낌이었다고 솔직하게 이야기했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    8. 같은 전공을 준비하는 후배들에게
+                  </h2>
+                  <p class="section-text">
+                    이 학생이 후배들에게 가장 강조하고 싶은 건 “<strong
+                      >자신만의 프로젝트를 한 가지는 꼭 만들어라</strong
+                    >”는 점입니다. 남들이 이미 하는 활동을 따라가는 것보다,
+                    스스로 주제를 정하고 실행해 본 경험이 결국 가장 큰 차별점이
+                    된다고 조언합니다. 크고 거창할 필요는 없지만, “내가 왜 이
+                    문제를 선택했고, 어떻게 해결하려고 했는지”를 설명할 수 있는
+                    프로젝트가 중요하다고 말해주고 싶다고 했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    9. OneVision과 함께 준비하면서 느낀 차별점
+                  </h2>
+                  <p class="section-text">
+                    학생은 OneVision을 “단순 대학 상담”이 아니라,
+                    <strong
+                      >전공 매칭 · 전략 수립 · 마음가짐 케어까지 전방위로
+                      도와주는 파트너</strong
+                    >라고 표현했습니다. 본인의 상황을 깊게 이해한 상태에서
+                    실질적인 전략을 세워 주기 때문에 불필요한 불안은 줄이고,
+                    공부에 집중할 수 있었다고 정리했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block" style="margin-bottom: 0">
+                  <h2 class="section-title-small">
+                    10. 마지막으로 남기고 싶은 말
+                  </h2>
+                  <p class="section-text">
+                    늘 믿어주고 응원해 준 부모님께 감사 인사를 전하며, 미래의
+                    자신에게는 “새로운 환경에서도 주저하지 말고 적극적으로
+                    도전하라”는 메시지를 남기며 University of Washington
+                    Computer Engineering 합격 스토리를 마무리했습니다.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Right: Summary -->
+              <aside>
+                <div class="info-card">
+                  <div class="info-row">
+                    <span class="info-label">대학</span>
+                    <span class="info-value">University of Washington</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">전공</span>
+                    <span class="info-value">Computer Engineering</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">지원 유형</span>
+                    <span class="info-value">미국 학부 Direct</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">핵심 활동</span>
+                    <span class="info-value">데이터 프로젝트 · Hackathon</span>
+                  </div>
+                  <div class="info-row" style="margin-bottom: 0">
+                    <span class="info-label">결과</span>
+                    <span class="info-value">UW 합격</span>
+                  </div>
+
+                  <div style="margin-top: 0.9rem">
+                    <div class="info-label" style="margin-bottom: 0.35rem">
+                      키워드
+                    </div>
+                    <div class="tag-list">
+                      <span class="tag">컴퓨터공학</span>
+                      <span class="tag">빅데이터</span>
+                      <span class="tag">AI</span>
+                      <span class="tag">데이터 프로젝트</span>
+                      <span class="tag">해커톤</span>
+                      <span class="tag">STEM</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="quote-block">
+                  <div class="quote-label">학생이 느낀 OneVision의 장점</div>
+                  “OneVision은 단순히 대학 리스트를 주는 곳이 아니라, 제 전공과
+                  성향에 맞게 로드맵과 전략을 같이 설계해 주고 마음가짐까지
+                  챙겨주는 곳이었습니다.” 라는 피드백을 남겼습니다.
+                </div>
+
+                <div class="quote-block" style="margin-top: 0.9rem">
+                  <div class="quote-label">학생의 다짐</div>
+                  새로운 환경에서도 도전을 멈추지 않고, 데이터를 통해 사람들의
+                  삶을 바꾸는 엔지니어가 되겠다는 다짐으로 이 합격 후기를
+                  마무리했습니다.
+                </div>
+
+                <div
+                  style="
+                    margin-top: 1.2rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 0.6rem;
+                  "
+                >
+                  <a
+                    href="admit-gallery.html"
+                    class="btn btn-primary"
+                    style="width: 100%"
+                    >다른 합격 후기 보기</a
+                  >
+                  <a
+                    href="index.html#contact"
+                    class="btn"
+                    style="
+                      width: 100%;
+                      background: #fff;
+                      color: #111827;
+                      border: 1px solid rgba(10, 10, 10, 0.12);
+                      box-shadow: 0 14px 30px rgba(10, 10, 10, 0.06);
+                    "
+                  >
+                    상담 신청하기
+                  </a>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer></footer>
+      <!-- 플로팅 SNS -->
+      <div class="floating-social">
+        <a
+          href="https://open.kakao.com/o/pw88Wn4h"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-kakao"
+          aria-label="카카오톡 오픈채팅"
+        >
+          <img src="icons/kakao.png" alt="KakaoTalk" />
+        </a>
+
+        <a
+          href="https://cafe.naver.com/onevisionconsulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-cafe"
+          aria-label="네이버 카페"
+        >
+          <img src="icons/naver-cafe.png" alt="Naver Cafe" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/onevision_consulting?igsh=NTc4MTIwNjQ2YQ=="
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-insta"
+          aria-label="인스타그램"
+        >
+          <img src="icons/instagram.png" alt="Instagram" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/p/OneVision-Consulting-원비전컨설팅-61582774824246/?hr=1&wtsid=rdr_0kaOLD4UDCcuhPGwV"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-fb"
+          aria-label="페이스북"
+        >
+          <img src="icons/facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://blog.naver.com/onevision_consulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-blog"
+          aria-label="네이버 블로그"
+        >
+          <img src="icons/naver-blog.png" alt="Naver Blog" />
+        </a>
+      </div>
+    </div>
+
+    <script src="js/common.js"></script>
+  </body>
+</html>

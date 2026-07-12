@@ -1,0 +1,2054 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OneVision | About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="원비전 팀 소개. 미국 유학·편입·이민·주거를 한 판에서 설계하는 컨설턴트들의 스토리와 가치관을 확인해 보세요."
+    />
+
+    <!-- Fonts (Unified) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-main: #0b0e14;
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --text-on-dark: #f8fafc;
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        --radius-lg: 18px;
+        --radius-xl: 26px;
+        --max-width: 1200px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background:
+          radial-gradient(
+            1200px 600px at 18% -10%,
+            rgba(156, 26, 54, 0.14),
+            transparent 60%
+          ),
+          radial-gradient(
+            900px 500px at 92% 10%,
+            rgba(90, 11, 31, 0.12),
+            transparent 55%
+          ),
+          linear-gradient(180deg, #ffffff, #fbf9fa);
+        color: var(--text-on-light);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .page-wrapper {
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      section {
+        padding: 4.2rem 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .section-title {
+        font-family: "Noto Serif KR", serif;
+        font-weight: 500; /* 너무 무겁지 않게 500 권장 */
+        letter-spacing: -0.03em;
+        line-height: 1.3;
+      }
+
+      /* ==================================================
+         Header / Nav (WHITE + ALWAYS BLACK TEXT) 
+         ================================================== */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #ffffff;
+        border-bottom: 1px solid var(--border-on-light);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92px;
+        position: relative;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+        flex-shrink: 0;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .logo-mark {
+        width: 220px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        flex-shrink: 0;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 1.08rem;
+        color: #000;
+      }
+      .logo-text-sub {
+        font-size: 0.78rem;
+        margin-top: 6px;
+        font-weight: 600;
+        color: #000;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--accent);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        flex-shrink: 0;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.68rem 1.35rem;
+        border-radius: 999px;
+        font-weight: 750;
+        font-size: 0.88rem;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease,
+          box-shadow 0.15s ease;
+        border: 1px solid transparent;
+        white-space: nowrap;
+      }
+      .btn-primary {
+        background: linear-gradient(
+          180deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: #fff;
+      }
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .btn-outline {
+        background: #fff;
+        color: #111827;
+        border: 1px solid rgba(10, 10, 10, 0.12);
+        box-shadow: 0 14px 30px rgba(10, 10, 10, 0.06);
+      }
+      .btn-outline:hover {
+        transform: translateY(-1px);
+        background: #fafafa;
+      }
+
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        color: #000;
+        font-size: 1.4rem;
+        cursor: pointer;
+        padding: 0.35rem 0.45rem;
+        border-radius: 10px;
+      }
+      .nav-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      
+
+      @media (max-width: 960px) {
+        .nav-links {
+          display: none;
+        }
+        .nav-toggle {
+          display: block;
+        }
+
+        .nav.nav-open .nav-links {
+          display: grid;
+          position: absolute;
+          top: 92px;
+          left: 0;
+          right: 0;
+          gap: 0.55rem;
+          padding: 1rem 1.2rem 1.2rem;
+          background: #ffffff;
+          border-bottom: 1px solid var(--border-on-light);
+        }
+        .nav.nav-open .nav-cta {
+          display: none;
+        }
+      }
+
+      /* ==================================================
+         Badges / Titles
+         ================================================== */
+      .section-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        font-size: 0.82rem;
+        color: var(--primary-dark);
+        background: rgba(90, 11, 31, 0.08);
+        border: 1px solid rgba(90, 11, 31, 0.14);
+        padding: 0.28rem 0.8rem;
+        border-radius: 999px;
+        font-weight: 800;
+        margin-bottom: 0.9rem;
+      }
+      .section-badge-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: var(--primary);
+        display: inline-block;
+      }
+      .section-title {
+        font-size: 2.15rem;
+        font-weight: 700;
+        color: var(--primary-dark);
+        margin-bottom: 0.55rem;
+      }
+      .section-subtitle {
+        font-size: 1rem;
+        color: var(--muted-on-light);
+        max-width: 760px;
+        line-height: 1.85;
+      }
+
+      /* ==================================================
+         Hero
+         ================================================== */
+      .hero {
+        padding: 4.6rem 0 3.7rem;
+      }
+      .hero-inner {
+        display: grid;
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+        gap: 2.6rem;
+        align-items: center;
+      }
+      .hero-title {
+        font-size: 2.7rem;
+        font-weight: 900;
+        letter-spacing: -0.04em;
+        line-height: 1.18;
+        margin-bottom: 0.85rem;
+        color: var(--primary-dark);
+      }
+      .hero-title span {
+        color: var(--primary);
+      }
+      .hero-subtitle {
+        font-size: 1rem;
+        color: var(--muted-on-light);
+        max-width: 640px;
+        margin-bottom: 1.25rem;
+        line-height: 1.9;
+      }
+      .hero-subtitle strong {
+        color: var(--primary-dark);
+      }
+
+      .hero-stats-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        margin-top: 1rem;
+      }
+      .hero-stat {
+        min-width: 160px;
+        padding: 0.75rem 0.9rem;
+        border-radius: 16px;
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+        box-shadow: 0 14px 34px rgba(10, 10, 10, 0.06);
+      }
+      .hero-stat-number {
+        font-size: 1.35rem;
+        font-weight: 900;
+        color: var(--primary-dark);
+        letter-spacing: -0.02em;
+      }
+      .hero-stat-label {
+        font-size: 0.82rem;
+        color: #6b7280;
+        margin-top: 0.1rem;
+        line-height: 1.4;
+      }
+
+      .hero-gallery {
+        display: grid;
+        gap: 0.9rem;
+      }
+      .hero-img {
+        border-radius: 22px;
+        overflow: hidden;
+        border: 1px solid rgba(10, 10, 10, 0.1);
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.14);
+        height: 280px;
+        background: #fff;
+      }
+      .hero-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      /* ==================================================
+         Cards / Grids
+         ================================================== */
+      .section-white {
+        background: #fff;
+        border-top: 1px solid rgba(10, 10, 10, 0.06);
+      }
+
+      .section-card-grid {
+        margin-top: 2.2rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.2rem;
+      }
+      .card {
+        border-radius: var(--radius-lg);
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.1);
+        padding: 1.15rem 1.15rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.45rem;
+      }
+      .card-tag {
+        font-size: 0.78rem;
+        color: var(--primary-dark);
+        background: rgba(90, 11, 31, 0.08);
+        border: 1px solid rgba(90, 11, 31, 0.12);
+        padding: 0.18rem 0.55rem;
+        border-radius: 999px;
+        width: fit-content;
+        font-weight: 900;
+      }
+      .card-title {
+        font-size: 1.05rem;
+        color: var(--primary-dark);
+        font-weight: 900;
+        letter-spacing: -0.02em;
+      }
+      .card-text {
+        font-size: 0.92rem;
+        color: #4b5563;
+        line-height: 1.8;
+      }
+
+      /* ==================================================
+         Team
+         ================================================== */
+      .team-grid {
+        margin-top: 2.2rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.2rem;
+      }
+      .team-card {
+        border-radius: 18px;
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .team-photo {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        background: #f5f5f5;
+      }
+      .team-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .team-body {
+        padding: 1rem 1.05rem 1.1rem;
+      }
+      .team-name {
+        font-size: 1.02rem;
+        font-weight: 900;
+        color: var(--primary-dark);
+        margin-bottom: 0.15rem;
+      }
+      .team-role {
+        font-size: 0.86rem;
+        color: #6b7280;
+        margin-bottom: 0.55rem;
+        font-weight: 700;
+      }
+      .team-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        margin-bottom: 0.65rem;
+      }
+      .team-tag {
+        font-size: 0.74rem;
+        padding: 0.18rem 0.55rem;
+        border-radius: 999px;
+        border: 1px solid rgba(90, 11, 31, 0.12);
+        background: rgba(90, 11, 31, 0.08);
+        color: var(--primary-dark);
+        font-weight: 850;
+      }
+      .team-text {
+        font-size: 0.92rem;
+        color: #4b5563;
+        line-height: 1.75;
+      }
+
+      /* ==================================================
+         Timeline
+         ================================================== */
+      .timeline {
+        margin-top: 2.2rem;
+        border-radius: var(--radius-xl);
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.1);
+        padding: 1.45rem 1.45rem;
+      }
+      .timeline-row {
+        display: grid;
+        grid-template-columns: 110px minmax(0, 1fr);
+        gap: 1rem;
+        align-items: flex-start;
+        padding: 0.6rem 0;
+        border-bottom: 1px dashed rgba(10, 10, 10, 0.12);
+      }
+      .timeline-row:last-child {
+        border-bottom: none;
+      }
+      .timeline-year {
+        font-weight: 900;
+        color: var(--primary-dark);
+        font-size: 0.92rem;
+        white-space: nowrap;
+      }
+      .timeline-text {
+        color: #4b5563;
+        font-size: 0.92rem;
+        line-height: 1.8;
+      }
+
+      /* ==================================================
+         Highlight
+         ================================================== */
+      .highlight {
+        border-radius: 18px;
+        border: 1px solid rgba(156, 26, 54, 0.22);
+        background: linear-gradient(
+          180deg,
+          rgba(156, 26, 54, 0.08),
+          rgba(90, 11, 31, 0.05)
+        );
+        padding: 1.2rem 1.2rem;
+        font-size: 0.95rem;
+        color: #3f3f46;
+        line-height: 1.85;
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.08);
+        margin-top: 2rem;
+      }
+      .highlight strong {
+        color: var(--primary-dark);
+      }
+
+      /* =========================
+       Footer
+       ========================= */
+      footer {
+        background: #1a1a1a; /* 이미지 11의 짙은 배경색 반영 */
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 4rem 0 2rem;
+        font-size: 0.85rem;
+        line-height: 1.8;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2.5rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f8fafc;
+        font-weight: 700;
+        min-width: 80px;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f8fafc;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64748b;
+      }
+
+      /* ==================================================
+         Responsive
+         ================================================== */
+      @media (max-width: 960px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto; /* 고정 너비 해제 */
+          padding: 0;
+        }
+        .nav-links {
+          display: none; /* 기본값 */
+          flex-direction: column;
+          width: 100%;
+          /* 애니메이션 효과를 원한다면 아래 설정 추가 */
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+          position: relative;
+          z-index: 101; /* 메뉴보다 위에 오도록 설정 */
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          padding: 10px 20px 40px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .nav-open .nav-toggle span {
+          color: #000 !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+      @media (max-width: 640px) {
+        .hero {
+          padding: 3.9rem 0 3.2rem;
+        }
+        .hero-title {
+          font-size: 1.95rem;
+        }
+        .section-title {
+          font-size: 1.75rem;
+        }
+
+        .section-card-grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .team-grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
+
+        .hero-img {
+          height: 230px;
+        }
+        .timeline-row {
+          grid-template-columns: 92px minmax(0, 1fr);
+        }
+      }
+      /* =========================
+     Floating Social (Shared)
+     ========================= */
+      .floating-social {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 999;
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+      }
+
+      .floating-social-label {
+        font-size: 0.78rem;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.92);
+        background: rgba(26, 3, 8, 0.78);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        padding: 0.35rem 0.6rem;
+        border-radius: 999px;
+        backdrop-filter: blur(6px);
+      }
+
+      .floating-social .social-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
+        text-decoration: none;
+      }
+
+      .floating-social .social-icon img {
+        width: 26px;
+        height: 26px;
+        display: block;
+        transition:
+          transform 0.18s ease,
+          opacity 0.18s ease;
+      }
+
+      .floating-social .social-icon:hover img {
+        transform: translateY(-2px);
+        opacity: 0.9;
+      }
+
+      @media (max-width: 640px) {
+        .floating-social {
+          right: 12px;
+          bottom: 12px;
+        }
+        .floating-social .social-icon {
+          width: 44px;
+          height: 44px;
+        }
+        .floating-social .social-icon img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+
+      /* [전체 섹션 설정] */
+      .staff-section {
+        background: #fff;
+        padding: 5rem 0;
+      }
+
+      /* [기본 스태프 카드 그리드] */
+      .staff-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem; /* 간격을 2.5rem에서 1.5rem으로 줄여 밀도 향상 */
+        margin-top: 1rem;
+      }
+
+      @media (min-width: 960px) {
+        .main-leadership {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      /* [카드 공통 디자인] */
+      .staff-card {
+        background: #fff;
+        border: 1px solid var(--border-on-light);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .staff-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        border-color: var(--primary);
+      }
+
+      /* [이미지 영역 - 높이 및 비율 축소] */
+      .staff-img-wrapper {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        overflow: hidden;
+        background: #f8f8f8;
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .staff-img-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+        transition: transform 0.6s ease;
+      }
+
+      .staff-card:hover .staff-img-wrapper img {
+        transform: scale(1.05);
+      }
+
+      /* 윤민식 컨설턴트 카드 전용 스타일 */
+      .minsik-card .staff-img-wrapper img {
+        object-fit: contain;
+
+        object-position: center;
+        background-color: #f8f8f8;
+      }
+
+      /* 호버 시 확대 효과가 입을 가리지 않도록 조정 */
+      .minsik-card:hover .staff-img-wrapper img {
+        transform: scale(1.02); /* 다른 카드(1.05)보다 작게 확대되도록 설정 */
+      }
+      /* [텍스트 정보 영역 - 여백 축소] */
+      .staff-info {
+        padding: 1.5rem 1.8rem;
+        text-align: left;
+      }
+
+      .staff-role {
+        font-size: 0.85rem; /* 미세 축소 */
+        color: var(--accent);
+        font-weight: 850;
+        margin-bottom: 0.4rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .staff-name {
+        font-size: 1.5rem; /* 1.8rem에서 축소 */
+        color: var(--primary-dark);
+        margin-bottom: 0.6rem;
+        font-family: "Noto Serif KR", serif;
+      }
+
+      .staff-desc {
+        font-size: 0.92rem; /* 1rem에서 축소 */
+        color: var(--muted-on-light);
+        line-height: 1.5;
+        margin-bottom: 1.2rem;
+        font-weight: 500;
+      }
+
+      .staff-line {
+        width: 35px; /* 선 길이 축소 */
+        height: 2px;
+        background: var(--primary);
+        margin-bottom: 1.2rem;
+      }
+
+      .staff-brief {
+        list-style: none;
+        padding: 0;
+      }
+      .staff-brief li {
+        position: relative;
+        padding-left: 1.1rem;
+        margin-bottom: 0.4rem;
+        font-size: 0.85rem; /* 0.92rem에서 축소 */
+        color: #4b5563;
+        font-weight: 500;
+      }
+      .staff-brief li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: var(--primary);
+        font-weight: bold;
+      }
+
+      /* [Mini 카드 디자인 (Advisors)] */
+      .staff-grid.mini {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.2rem;
+      }
+      .mini-card {
+        flex-direction: row !important;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+      }
+      .mini-img {
+        width: 60px; /* 70px에서 축소 */
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        flex-shrink: 0;
+        border: 1px solid var(--border-on-light);
+      }
+      .mini-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .mini-info h5 {
+        margin: 0 0 0.2rem 0;
+        font-size: 1rem;
+        color: var(--primary-dark);
+        font-weight: 800;
+      }
+      .mini-info span {
+        font-size: 0.8rem;
+        color: var(--muted-on-light);
+        line-height: 1.3;
+        display: block;
+      }
+
+      /* [텍스트 리스트 디자인] */
+      .text-staff-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 0.8rem;
+      }
+      .text-card {
+        background: #fbfbfc;
+        padding: 0.8rem 1rem;
+        border-radius: 10px;
+        font-size: 0.85rem;
+        border: 1px solid var(--border-on-light);
+      }
+
+      /* 반응형 모바일 */
+      @media (max-width: 640px) {
+        .staff-grid {
+          grid-template-columns: 1fr !important;
+        }
+        .staff-img-wrapper {
+          height: 200px;
+        }
+        .staff-info {
+          padding: 1.5rem;
+        }
+      }
+    
+/* compact tutor list */
+.tutor-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+}
+.tutor-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1.1rem;
+  background: #fff;
+  border: 1px solid var(--border-on-light);
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.tutor-row:hover {
+  border-color: var(--primary);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+.tutor-row .info { min-width: 0; flex: 1; }
+.tutor-row .info-role {
+  font-size: 0.72rem;
+  color: var(--accent);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.18rem;
+}
+.tutor-row .info-name {
+  font-family: "Noto Serif KR", serif;
+  font-size: 1.05rem;
+  color: var(--primary-dark);
+  font-weight: 600;
+  margin-bottom: 0.18rem;
+}
+.tutor-row .info-desc {
+  font-size: 0.82rem;
+  color: var(--muted-on-light);
+  line-height: 1.4;
+}
+.tutor-row .chev {
+  color: var(--muted-on-light);
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.tutor-row:hover .chev {
+  color: var(--primary);
+  transform: translateX(3px);
+}
+.tutor-group-label {
+  text-align: center;
+  font-family: "Noto Serif KR", serif;
+  margin-bottom: 0.4rem;
+  margin-top: 2.5rem;
+  color: var(--primary-dark);
+}
+.tutor-group-label:first-of-type { margin-top: 0; }
+.tutor-group-sub {
+  text-align: center;
+  color: var(--muted-on-light);
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+@media (max-width: 640px) {
+  .tutor-list { grid-template-columns: 1fr; }
+}
+
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- Header (Unified) -->
+      <header></header>
+
+      <main>
+        <section class="staff-section">
+          <div class="content-container">
+            <div
+              class="section-header"
+              style="text-align: center; margin-bottom: 4rem"
+            >
+              <div class="section-badge">
+                <span class="section-badge-dot"></span>OUR PEOPLE
+              </div>
+              <h2 class="section-title">회사소개</h2>
+              <p class="section-subtitle" style="margin: 0 auto">
+                원비전 컨설팅의 각 분야 전문가들이 혁신적인 교육 모델과 데이터
+                기반 전략으로 함께합니다.
+              </p>
+            </div>
+
+            <div class="staff-grid main-leadership">
+              <article
+                class="staff-card highlight-card"
+                onclick="location.href = 'staff-jaychoi.html'"
+              >
+                <div class="staff-img-wrapper">
+                  <img
+                    src="images/jay-choi.jpg"
+                    alt="Jay Choi"
+                    onerror="
+                      this.src =
+                        'https://ui-avatars.com/api/?name=Jay+Choi&background=5A0B1F&color=fff'
+                    "
+                  />
+                </div>
+                <div class="staff-info">
+                  <h3 class="staff-role">CEO</h3>
+                  <h4 class="staff-name">Jay Choi</h4>
+                  <p class="staff-desc">미국 입시·진로 전략 총괄 컨설턴트</p>
+                  <div class="staff-line"></div>
+                  <ul class="staff-brief" style="margin-top: 0.5rem">
+                    <li>Brown / Columbia / NWU 석사</li>
+                    <li>아이비리그 출신 10년 경력</li>
+                  </ul>
+                </div>
+              </article>
+
+              <!-- <article
+                class="staff-card highlight-card"
+                onclick="location.href = 'staff-charlottechoi.html'"
+              >
+                <div class="staff-img-wrapper">
+                  <img
+                    src="images/charlotte-choi.jpeg"
+                    alt="Charlotte Choi"
+                    onerror="
+                      this.src =
+                        'https://ui-avatars.com/api/?name=Charlotte+Choi&background=5A0B1F&color=fff'
+                    "
+                  />
+                </div>
+                <div class="staff-info">
+                  <h3 class="staff-role">Chief Education Officer</h3>
+                  <h4 class="staff-name">Charlotte Choi</h4>
+                  <p class="staff-desc">
+                    20년 경력 교육 전문가 & 영어 교육 컨설턴트
+                  </p>
+                  <div class="staff-line"></div>
+                  <ul class="staff-brief">
+                    <li>前 EBS 수능 영어 대표 강사</li>
+                    <li>UCL 석사 / 고려대 박사과정</li>
+                  </ul>
+                </div>
+              </article> -->
+
+              <article
+                class="staff-card highlight-card minsik-card"
+                onclick="location.href = 'staff-minsikyoon.html'"
+              >
+                <div class="staff-img-wrapper">
+                  <img
+                    src="images/minsik-yoon.png"
+                    alt="윤민식"
+                    onerror="
+                      this.src =
+                        'https://ui-avatars.com/api/?name=Minsik+Yoon&background=5A0B1F&color=fff'
+                    "
+                  />
+                </div>
+                <div class="staff-info">
+                  <h3 class="staff-role">Co-Founder</h3>
+                  <h4 class="staff-name">윤민식</h4>
+                  <p class="staff-desc">STEM & 비즈니스 융합 커리어 컨설턴트</p>
+                  <div class="staff-line"></div>
+                  <ul class="staff-brief">
+                    <li>UIUC BS Biology / MS Accounting</li>
+                    <li>글로벌 교육사업 기획 리드</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article
+                class="staff-card highlight-card"
+                onclick="location.href = 'staff-sarahlee.html'"
+              >
+                <div class="staff-img-wrapper">
+                  <img
+                    src="images/sarah-lee.jpeg"
+                    alt="Sarah Lee"
+                    onerror="
+                      this.src =
+                        'https://ui-avatars.com/api/?name=Sarah+Lee&background=5A0B1F&color=fff'
+                    "
+                  />
+                </div>
+                <div class="staff-info">
+                  <h3 class="staff-role">Program Operations Manager</h3>
+                  <h4 class="staff-name">Sarah Lee</h4>
+                  <p class="staff-desc">이공계 학업 기반 학생 지원 전문가</p>
+                  <div class="staff-line"></div>
+                  <ul class="staff-brief">
+                    <li>UC Riverside MS Bioengineering</li>
+                    <li>SAT / AP 과목 학습 전략 지도</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+
+            
+            <hr
+              style="
+                margin: 5rem 0;
+                border: 0;
+                border-top: 1px solid var(--border-on-light);
+              "
+            />
+
+            <div
+              class="section-header"
+              style="text-align:center;margin-bottom:2.5rem;"
+            >
+              <div class="section-badge">
+                <span class="section-badge-dot"></span>OUR TUTORS
+              </div>
+              <h2 class="section-title" style="margin-top:0.5rem;">Tutors</h2>
+              <p class="section-subtitle" style="margin:0 auto;">
+                원비전 공식 등록 튜터 — 과목별 전문가 8인이 학생들의 학습과 시험 준비를
+                지원합니다.
+              </p>
+            </div>
+
+            <h3 class="tutor-group-label">STEM Tutors</h3>
+            <p class="tutor-group-sub">
+              Biology · Chemistry · Physics · Math · Statistics · CS · Test Prep
+            </p>
+            <div class="tutor-list">
+              <a href="staff-donghyunkim.html" class="tutor-row">
+                <div class="info">
+                  <div class="info-role">Bio · Chem · Physics</div>
+                  <div class="info-name">김동현</div>
+                  <div class="info-desc">유펜 치대 재학 · 생물·화학·물리 통합 STEM 튜터</div>
+                </div>
+                <span class="chev" aria-hidden="true">›</span>
+              </a>
+              <a href="staff-jiyongyoon.html" class="tutor-row">
+                <div class="info">
+                  <div class="info-role">Statistics · CS · SAT</div>
+                  <div class="info-name">윤지용 (Lance Yoon)</div>
+                  <div class="info-desc">BU 수학·통계 전공 · 현직 데이터 엔지니어 출신 STEM 튜터</div>
+                </div>
+                <span class="chev" aria-hidden="true">›</span>
+              </a>
+              <a href="staff-yeeunjo.html" class="tutor-row">
+                <div class="info">
+                  <div class="info-role">SAT Math · AP Calculus</div>
+                  <div class="info-name">조예은 (Yeeun Jo)</div>
+                  <div class="info-desc">Johns Hopkins BME · 9년차 수학·과학 튜터</div>
+                </div>
+                <span class="chev" aria-hidden="true">›</span>
+              </a>
+              <a href="staff-seohyunhyun.html" class="tutor-row">
+                <div class="info">
+                  <div class="info-role">AP Chem · AP Physics 1</div>
+                  <div class="info-name">현서현 (Seohyun Hyun)</div>
+                  <div class="info-desc">UConn 분자세포생물학 우등생 · 화학·물리 전문 튜터</div>
+                </div>
+                <span class="chev" aria-hidden="true">›</span>
+              </a>
+              <a href="staff-jaeshinsun.html" class="tutor-row">
+                <div class="info">
+                  <div class="info-role">Math · SAT Math</div>
+                  <div class="info-name">선재신 (Jaeshin Sun)</div>
+                  <div class="info-desc">UIC 신경과학 전공 · 국제학교 출신 수학 튜터</div>
+                </div>
+                <span class="chev" aria-hidden="true">›</span>
+              </a>
+            </div>
+
+            <h3 class="tutor-group-label">Humanities &amp; Writing Tutors</h3>
+            <p class="tutor-group-sub">
+              AP US History · AP Government · Writing · English · TOEFL
+            </p>
+            <div class="tutor-list">
+              <a href="staff-janejeong.html" class="tutor-row">
+                <div class="info">
+                  <div class="info-role">Writing · English</div>
+                  <div class="info-name">정재현 (Jane Jeong)</div>
+                  <div class="info-desc">윌리엄스 영문학 학사 · 워싱턴주 영어교사 자격 보유</div>
+                </div>
+                <span class="chev" aria-hidden="true">›</span>
+              </a>
+              <a href="staff-sangwanhan.html" class="tutor-row">
+                <div class="info">
+                  <div class="info-role">APUSH · AP Gov · TOEFL</div>
+                  <div class="info-name">한상완 (Sangwan Han)</div>
+                  <div class="info-desc">이화여대 사회학 · Syracuse Law J.D. 진학 · AP 사회·작문</div>
+                </div>
+                <span class="chev" aria-hidden="true">›</span>
+              </a>
+              <a href="staff-timlee.html" class="tutor-row">
+                <div class="info">
+                  <div class="info-role">APUSH · Writing</div>
+                  <div class="info-name">Tim Lee (이승주)</div>
+                  <div class="info-desc">UC Berkeley 인지과학 · 한국학교 학생 교사 2년 경력</div>
+                </div>
+                <span class="chev" aria-hidden="true">›</span>
+              </a>
+            </div>
+
+            <h3 class="tutor-group-label">Financial Aid</h3>
+            <p class="tutor-group-sub">
+              사립 중·고등학교 &amp; 대학교 재정보조(Financial Aid) 설계
+            </p>
+            <div class="tutor-list">
+              <a href="staff-yunlee.html" class="tutor-row">
+                <div class="info">
+                  <div class="info-role">CPA · CCFC</div>
+                  <div class="info-name">Yun Lee (이윤재)</div>
+                  <div class="info-desc">사립 중·고등학교 &amp; 대학교 재정보조 컨설턴트</div>
+                </div>
+                <span class="chev" aria-hidden="true">›</span>
+              </a>
+            </div>
+
+            <hr
+              style="
+                margin: 5rem 0;
+                border: 0;
+                border-top: 1px solid var(--border-on-light);
+              "
+            />
+
+            <h3
+              style="
+                text-align: center;
+                font-family: &quot;Noto Serif KR&quot;;
+                margin-bottom: 2.5rem;
+                color: var(--primary-dark);
+              "
+            >
+              Lead Advisors & Support Team
+            </h3>
+            <div class="staff-grid mini">
+              <div class="staff-card mini-card">
+                <div class="mini-img">
+                  <img
+                    src="images/kwon.png"
+                    alt="Soon Young Kwon"
+                    onerror="
+                      this.src =
+                        'https://ui-avatars.com/api/?name=S+K&background=eee'
+                    "
+                  />
+                </div>
+                <div class="mini-info">
+                  <h5>Soon Young Kwon</h5>
+                  <span>Harvey Mudd College - Engineering</span>
+                </div>
+              </div>
+              <div class="staff-card mini-card">
+                <div class="mini-img">
+                  <img
+                    src="images/jihoo-kang.jpeg"
+                    alt="강지후"
+                    onerror="
+                      this.src =
+                        'https://ui-avatars.com/api/?name=Jihoo+Kang&background=eee'
+                    "
+                  />
+                </div>
+                <div class="mini-info">
+                  <h5>강지후</h5>
+                  <span>UCLA · Social Media Lead</span>
+                </div>
+              </div>
+              <div class="staff-card mini-card">
+                <div class="mini-img">
+                  <img
+                    src="images/park.jpg"
+                    alt="박경준"
+                    onerror="
+                      this.src =
+                        'https://ui-avatars.com/api/?name=K+P&background=eee'
+                    "
+                  />
+                </div>
+                <div class="mini-info">
+                  <h5>박경준</h5>
+                  <span>UC San Diego (UCSD)</span>
+                </div>
+              </div>
+              <div class="staff-card mini-card">
+                <div class="mini-img">
+                  <img
+                    src="images/park2.jpg"
+                    alt="박지안"
+                    onerror="
+                      this.src =
+                        'https://ui-avatars.com/api/?name=J+P&background=eee'
+                    "
+                  />
+                </div>
+                <div class="mini-info">
+                  <h5>박지안</h5>
+                  <span>Parsons School of Design</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-staff-container" style="margin-top: 5rem">
+              <h4
+                style="
+                  font-family: &quot;Noto Serif KR&quot;;
+                  margin-bottom: 1.5rem;
+                  border-left: 4px solid var(--primary);
+                  padding-left: 1rem;
+                  color: var(--primary-dark);
+                "
+              >
+                Admissions & Academic Support Team
+              </h4>
+              <div class="text-staff-grid">
+                <div class="text-card">
+                  <strong>김건우</strong> Kookmin University
+                </div>
+                <div class="text-card">
+                  <strong>채송이</strong> George Washington Univ.
+                </div>
+                <div class="text-card">
+                  <strong>강동혁</strong> University of Seoul
+                </div>
+                <div class="text-card">
+                  <strong>이승주</strong> UC Berkeley
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Hero -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-inner">
+              <div>
+                <div class="section-badge">
+                  <span class="section-badge-dot"></span>
+                  Our Story · Our Team
+                </div>
+
+                <h1 class="hero-title">
+                  유학, 편입, 이민, 주거까지<br />
+                  <span>한 가족 단위로 고민하는 팀</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                  원비전 팀은 모두
+                  <strong>미국에서 직접 공부하고, 일하고, 정착</strong>해 본
+                  사람들입니다. “어느 대학을 가야 하나”라는 질문 뒤에 숨은
+                  <strong>집, 비자, 커리어, 멘탈</strong>까지 함께 보는 것이
+                  우리의 역할이라고 생각합니다.
+                </p>
+
+                <div class="hero-stats-row">
+                  <div class="hero-stat">
+                    <div class="hero-stat-number">10+년</div>
+                    <div class="hero-stat-label">미국 유학/이민 동선 경험</div>
+                  </div>
+                  <div class="hero-stat">
+                    <div class="hero-stat-number">300+회</div>
+                    <div class="hero-stat-label">
+                      누적 컨설팅/코칭 세션 (예시)
+                    </div>
+                  </div>
+                  <div class="hero-stat">
+                    <div class="hero-stat-number">4 Track</div>
+                    <div class="hero-stat-label">
+                      입시 · 편입 · 코칭 · 이민 연계
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hero-gallery">
+                <div class="hero-img">
+                  <img src="images/studygroup.jpeg" alt="OneVision 팀 사진" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Team -->
+        <!-- <section class="section-white">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Our Team
+            </div>
+
+            <h2 class="section-title">원비전 컨설턴트 소개</h2>
+            <p class="section-subtitle">
+              학부모님이 실제로 상담하게 되실 컨설턴트들입니다. 각자 전공과
+              커리어는 다르지만, <strong>“가족 단위 플랜”</strong>이라는 같은
+              기준으로 움직입니다.
+            </p>
+
+            <div class="team-grid">
+              <article class="team-card">
+                <div class="team-photo">
+                  <img src="images/team1.jpeg" alt="Jay Choi" />
+                </div>
+                <div class="team-body">
+                  <div class="team-name">Jay Choi</div>
+                  <div class="team-role">
+                    Founder · US College &amp; Immigration Consultant
+                  </div>
+                  <div class="team-tags">
+                    <span class="team-tag">UC 편입</span>
+                    <span class="team-tag">입시 로드맵</span>
+                    <span class="team-tag">이민·주거 연계</span>
+                  </div>
+                  <p class="team-text">
+                    미국 커뮤니티컬리지 편입, UC 졸업, 이민·주거 이동까지 한
+                    번에 경험한 케이스를 바탕으로 “현실적으로 가능한 플랜”을
+                    함께 설계합니다.
+                  </p>
+                </div>
+              </article>
+
+              <article class="team-card">
+                <div class="team-photo">
+                  <img src="images/team2.jpeg" alt="Consultant A" />
+                </div>
+                <div class="team-body">
+                  <div class="team-name">Consultant A (예시)</div>
+                  <div class="team-role">
+                    Academic Coaching &amp; Study Lab Lead
+                  </div>
+                  <div class="team-tags">
+                    <span class="team-tag">공부 코칭</span>
+                    <span class="team-tag">멘탈 케어</span>
+                    <span class="team-tag">타임매니지먼트</span>
+                  </div>
+                  <p class="team-text">
+                    학생의 성적만이 아니라 습관과 루틴까지 함께 설계해 “지속
+                    가능한 성장”을 만드는 Academic Coaching을 이끌고 있습니다.
+                  </p>
+                </div>
+              </article>
+
+              <article class="team-card">
+                <div class="team-photo">
+                  <img src="images/team3.jpeg" alt="Consultant B" />
+                </div>
+                <div class="team-body">
+                  <div class="team-name">Consultant B (예시)</div>
+                  <div class="team-role">
+                    Immigration &amp; Housing Research
+                  </div>
+                  <div class="team-tags">
+                    <span class="team-tag">주별 세금</span>
+                    <span class="team-tag">렌트·시세</span>
+                    <span class="team-tag">학군·치안</span>
+                  </div>
+                  <p class="team-text">
+                    각 주(州)의 세금 구조, 렌트, 학군, 치안 데이터를 정리해
+                    “어디로 가는 게 우리 가족에게 맞는지”를 숫자로 보여드립니다.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section> -->
+
+        <!-- Timeline -->
+        <section class="section-white">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Timeline
+            </div>
+
+            <h2 class="section-title">원비전이 걸어온 길</h2>
+            <p class="section-subtitle">
+              유학, 편입, 이민, 주거 상담이 각각 따로 흩어져 있는 구조가
+              답답해서 원비전은
+              <strong>“한 번에 정리되는 패밀리 세션”</strong>이라는 형태를
+              만들었습니다.
+            </p>
+
+            <div class="timeline">
+              <div class="timeline-row">
+                <div class="timeline-year">2016–2019</div>
+                <div class="timeline-text">
+                  미국에서 커뮤니티컬리지 편입, UC/주립대 졸업, OPT·취업, 이민
+                  절차 등을 직접 경험하며 “학부모님들이 가장 어려워하는 구간”을
+                  체감.
+                </div>
+              </div>
+
+              <div class="timeline-row">
+                <div class="timeline-year">2020–2022</div>
+                <div class="timeline-text">
+                  주변 학생/가족 대상 소규모 입시·편입·주거 상담 진행. 여러
+                  가족이 반복하는 고민(주 선택, 집/학교 연결)을 보며 올케어
+                  컨설팅 필요성을 구체화.
+                </div>
+              </div>
+
+              <div class="timeline-row">
+                <div class="timeline-year">2023</div>
+                <div class="timeline-text">
+                  OneVision Consulting 정식 런칭.
+                  <strong
+                    >Future Scholars / Application Atelier / Transfer Intensive
+                    / Academic Coaching</strong
+                  >
+                  4개 메인 트랙과 이민·주거 Family Session을 구조화.
+                </div>
+              </div>
+
+              <div class="timeline-row">
+                <div class="timeline-year">2024–</div>
+                <div class="timeline-text">
+                  네이버 카페·블로그·홈페이지 기반 학부모 데이터 랩 확장. 더
+                  많은 가족이 “정보의 홍수”에서 벗어나 자신의 기준으로
+                  선택하도록 돕는 것이 목표.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About / Values -->
+        <section class="section-white" id="about-us">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              About OneVision
+            </div>
+
+            <h2 class="section-title">원비전은 이런 팀입니다</h2>
+            <p class="section-subtitle">
+              미국에서 직접 공부하고, 일하고, 정착까지 해 본 컨설턴트들이
+              <strong>유학 · 편입 · 이민 · 주거</strong>를 한 판에서 연결해
+              드립니다. “정보 전달”이 아니라, 각 가족이 실제로 움직일 수 있는
+              <strong>실행 플랜</strong>을 만드는 것이 목표입니다.
+            </p>
+
+            <div
+              style="
+                margin-top: 2.2rem;
+                display: grid;
+                grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+                gap: 2rem;
+                align-items: start;
+              "
+            >
+              <div
+                style="font-size: 0.95rem; color: #4b5563; line-height: 1.85"
+              >
+                <p style="margin-bottom: 0.85rem">
+                  원비전 컨설턴트들은 모두
+                  <strong>미국 학부/대학원 유학, 편입, 취업, 이민</strong>을
+                  실제로 경험했습니다. 그래서 “서류상 좋은 선택”이 아니라,
+                  <strong>현실에서 아이와 부모가 버틸 수 있는 선택</strong>을
+                  같이 고민합니다.
+                </p>
+                <p style="margin-bottom: 0.85rem">
+                  학부모님 입장에서는 입시, 이민, 집, 비자, 생활까지 한 번에
+                  고민해야 하지만 시장의 서비스는 대부분 한 조각씩만 다룹니다.
+                  원비전은 이 조각들을 모아
+                  <strong>가족 단위 시나리오</strong>로 보여드리기 위해
+                  시작되었습니다.
+                </p>
+                <p>
+                  첫 상담에서는 “당장 등록하세요”가 아니라,
+                  <strong>지금 단계에서 무엇을 정리해야 하는지</strong>부터 함께
+                  정리해 드립니다.
+                </p>
+              </div>
+
+              <div class="card" style="padding: 1.15rem 1.2rem">
+                <div class="card-title" style="font-size: 1.05rem">
+                  OneVision이 드리는 약속
+                </div>
+                <div class="card-text" style="margin-top: 0.3rem">
+                  <ul style="padding-left: 1.15rem; margin-top: 0.4rem">
+                    <li style="margin-bottom: 0.35rem">
+                      과장 없이 <strong>조건과 리스크</strong>를 그대로
+                      설명합니다.
+                    </li>
+                    <li style="margin-bottom: 0.35rem">
+                      유학·편입·이민·주거를 <strong>가족 플랜</strong>으로
+                      연결합니다.
+                    </li>
+                    <li style="margin-bottom: 0.35rem">
+                      인터넷 요약이 아닌 <strong>데이터+경험</strong>으로
+                      설계합니다.
+                    </li>
+                    <li>
+                      학부모님이 <strong>스스로 결정</strong>할 수 있게 선택지를
+                      투명하게 보여드립니다.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-card-grid" style="margin-top: 2.2rem">
+              <article class="card">
+                <div class="card-tag">Data · Experience</div>
+                <h3 class="card-title">데이터 + 실제 경험</h3>
+                <p class="card-text">
+                  합격률, 편입 성공률, 렌트 시세, 세금, 학군 등 숫자와 실제
+                  케이스를 함께 사용해 플랜을 설계합니다.
+                </p>
+              </article>
+
+              <article class="card">
+                <div class="card-tag">Family First</div>
+                <h3 class="card-title">가족 기준 의사결정</h3>
+                <p class="card-text">
+                  “남들이 다 가는 곳”이 아니라 우리 가족의 가치관·예산·성향에
+                  맞는 선택을 찾는 것이 우선입니다.
+                </p>
+              </article>
+
+              <article class="card">
+                <div class="card-tag">Long-term</div>
+                <h3 class="card-title">입시 이후까지 보는 시선</h3>
+                <p class="card-text">
+                  합격 통보로 끝나지 않고, 대학 생활·편입·이민·커리어까지
+                  이어지는 긴 흐름 속에서 조언드립니다.
+                </p>
+              </article>
+            </div>
+
+            <div
+              style="
+                margin-top: 2rem;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.85rem;
+              "
+            >
+              <a href="/#contact" class="btn btn-primary"
+                >컨설턴트와 1:1 상담 요청</a
+              >
+              <a
+                href="https://cafe.naver.com/onevisionconsulting"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-outline"
+                >네이버 카페에서 글 먼저 보기</a
+              >
+            </div>
+
+            <div class="highlight">
+              <strong>원비전이 생각하는 “좋은 선택”</strong><br /><br />
+              남들이 부러워하는 선택이 아니라,
+              <strong>우리 가족이 후회 없이 견딜 수 있는 선택</strong
+              >입니다.<br />
+              그 선택을 찾는 과정을, 데이터와 경험으로 옆에서 같이
+              걸어가겠습니다.
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section-white"
+          id="our-process"
+          style="border-top: 1px solid rgba(10, 10, 10, 0.06)"
+        >
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Our System
+            </div>
+
+            <h2 class="section-title">OneVision 설계 시스템</h2>
+            <p class="section-subtitle">
+              OneVision은 상담 한 번으로 끝나는 곳이 아니라,
+              <strong>가족의 상황에 맞는 결정을 설계하는 시스템</strong>으로
+              움직입니다. 모든 과정은 책임 기반 구조와 투명한 절차 위에서
+              진행됩니다.
+            </p>
+
+            <style>
+              .process-grid {
+                display: grid;
+                grid-template-columns: repeat(5, minmax(0, 1fr));
+                gap: 1rem;
+                margin-top: 2.5rem;
+              }
+              .process-card {
+                background: #fff;
+                border: 1px solid var(--border-on-light);
+                border-radius: var(--radius-lg);
+                padding: 1.5rem 1.2rem;
+                position: relative;
+                transition: transform 0.2s ease;
+              }
+              .process-card:hover {
+                transform: translateY(-5px);
+              }
+              .process-num {
+                font-size: 2rem;
+                font-weight: 900;
+                color: rgba(
+                  30,
+                  41,
+                  59,
+                  0.05
+                ); /* --primary 컬러의 아주 연한 버전 */
+                position: absolute;
+                top: 1rem;
+                right: 1.2rem;
+                line-height: 1;
+              }
+              .process-step-title {
+                font-size: 1.1rem;
+                font-weight: 800;
+                color: var(--primary-dark);
+                margin-bottom: 0.6rem;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+              }
+              .process-step-title::before {
+                content: "";
+                width: 4px;
+                height: 16px;
+                background: var(--accent);
+                border-radius: 2px;
+              }
+              .process-step-text {
+                font-size: 0.88rem;
+                color: var(--muted-on-light);
+                line-height: 1.6;
+              }
+
+              @media (max-width: 960px) {
+                .process-grid {
+                  grid-template-columns: repeat(3, minmax(0, 1fr));
+                }
+              }
+              @media (max-width: 640px) {
+                .staff-card:nth-of-type(4) .staff-img-wrapper img {
+                  width: 80% !important;
+                }
+                .staff-grid,
+                .team-grid,
+                .main-leadership {
+                  grid-template-columns: 1fr !important;
+                  gap: 1.5rem !important;
+                }
+
+                .staff-img-wrapper {
+                  height: 300px !important;
+                  aspect-ratio: auto !important;
+                }
+
+                .staff-img-wrapper img {
+                  object-fit: cover !important;
+                  object-position: top center !important;
+                }
+
+                .minsik-card .staff-img-wrapper img {
+                  object-fit: contain !important;
+                  background-color: #f8f8f8;
+                  padding: 10px;
+
+                  .hero-img {
+                    height: auto !important;
+                    max-height: 250px;
+                  }
+
+                  .staff-info {
+                    padding: 1.2rem !important;
+                  }
+
+                  .staff-name {
+                    font-size: 1.4rem !important;
+                    margin-bottom: 0.3rem !important;
+                  }
+
+                  .process-grid {
+                    grid-template-columns: 1fr !important;
+                    gap: 1rem !important;
+                  }
+                }
+              }
+
+              .operation-principle {
+                margin-top: 2rem;
+                padding: 1.25rem 1.5rem;
+                background: #f8fafc;
+                border-radius: 14px;
+                border: 1px solid var(--border-on-light);
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+              }
+              .operation-icon {
+                font-size: 1.4rem;
+                color: var(--accent);
+              }
+              .operation-text {
+                font-size: 0.92rem;
+                color: #475569;
+                line-height: 1.6;
+              }
+            </style>
+
+            <div class="process-grid">
+              <div class="process-card">
+                <span class="process-num">01</span>
+                <h3 class="process-step-title">진단</h3>
+                <p class="process-step-text">
+                  현재 상황과 목표를 객관적으로 분석합니다.
+                </p>
+              </div>
+              <div class="process-card">
+                <span class="process-num">02</span>
+                <h3 class="process-step-title">전략 설계</h3>
+                <p class="process-step-text">
+                  가족 기준에 맞는 실행 가능한 플랜을 설계합니다.
+                </p>
+              </div>
+              <div class="process-card">
+                <span class="process-num">03</span>
+                <h3 class="process-step-title">계약</h3>
+                <p class="process-step-text">
+                  서비스 범위와 조건을 명확하게 합의합니다.
+                </p>
+              </div>
+              <div class="process-card">
+                <span class="process-num">04</span>
+                <h3 class="process-step-title">실행</h3>
+                <p class="process-step-text">
+                  입시·편입·이민·주거 등 각 영역을 단계별로 진행합니다.
+                </p>
+              </div>
+              <div class="process-card">
+                <span class="process-num">05</span>
+                <h3 class="process-step-title">피드백</h3>
+                <p class="process-step-text">
+                  진행 과정을 점검하고, 다음 단계 전략을 조정합니다.
+                </p>
+              </div>
+            </div>
+
+            <div class="operation-principle">
+              <span class="operation-icon">🛡️</span>
+              <p class="operation-text">
+                <strong>고객 보호 및 운영 원칙:</strong> OneVision Consulting은
+                고객 보호를 위한 보증보험 가입 절차를 진행하고 있으며, 모든
+                서비스는 투명한 계약 구조와 책임 기반 운영 원칙 아래 제공됩니다.
+              </p>
+            </div>
+
+            <div class="highlight" style="margin-top: 2.5rem">
+              <strong>OneVision은 결과를 약속하지 않습니다.</strong><br /><br />
+              대신, 조건과 리스크를 투명하게 설명하고
+              <strong>가족이 스스로 납득할 수 있는 선택</strong>을 돕습니다.
+              이것이 원비전이 지키는 가장 중요한 책임입니다.
+            </div>
+          </div>
+        </section>
+
+        <!-- Bottom links -->
+        <section>
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Explore
+            </div>
+            <h2 class="section-title">원비전 서비스 더 보기</h2>
+            <p class="section-subtitle">
+              프로그램과 패밀리 세션을 먼저 훑어보고, 우리 가족에게 필요한지
+              확인해 보셔도 좋아요.
+            </p>
+
+            <div
+              style="
+                margin-top: 1.6rem;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.85rem;
+              "
+            >
+              <a href="admit-gallery.html" class="btn btn-outline"
+                >합격 후기 & 스토리 보기</a
+              >
+              <a href="immigration.html" class="btn btn-outline"
+                >이민 · 주거 패밀리 세션 보기</a
+              >
+              <a href="admissions.html" class="btn btn-primary"
+                >프로그램 3 Track 보기</a
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer></footer>
+    </div>
+    <!-- 플로팅 SNS -->
+    <div class="floating-social">
+      <a
+        href="https://open.kakao.com/o/pw88Wn4h"
+        target="_blank"
+        rel="noopener"
+        class="social-icon social-kakao"
+      >
+        <img src="icons/kakao.png" alt="KakaoTalk" />
+      </a>
+
+      <a
+        href="https://cafe.naver.com/onevisionconsulting"
+        target="_blank"
+        rel="noopener"
+        class="social-icon social-cafe"
+      >
+        <img src="icons/naver-cafe.png" alt="Naver Cafe" />
+      </a>
+
+      <a
+        href="https://www.instagram.com/onevision_consulting"
+        target="_blank"
+        rel="noopener"
+        class="social-icon social-insta"
+      >
+        <img src="icons/instagram.png" alt="Instagram" />
+      </a>
+
+      <a
+        href="https://www.facebook.com/..."
+        target="_blank"
+        rel="noopener"
+        class="social-icon social-fb"
+      >
+        <img src="icons/facebook.png" alt="Facebook" />
+      </a>
+
+      <a
+        href="https://blog.naver.com/onevision_consulting"
+        target="_blank"
+        rel="noopener"
+        class="social-icon social-blog"
+      >
+        <img src="icons/naver-blog.png" alt="Naver Blog" />
+      </a>
+    </div>
+    <script src="js/common.js"></script>
+    <script>
+      // Contact Modal 에러 방지 버전
+      function openContact() {
+        const modal = document.getElementById("contactModal");
+
+        if (modal) {
+          // 1. 페이지에 모달 HTML이 있으면 열기
+          modal.classList.add("active");
+          document.body.style.overflow = "hidden";
+        } else {
+          // 2. 모달 HTML이 없으면(지금 about 페이지 상태) 홈 화면의 상담 섹션으로 이동
+          // 'index.html#contact' 또는 '/' 로 경로를 맞춰주세요.
+          window.location.href = "index.html#contact";
+        }
+      }
+    </script>
+  </body>
+</html>

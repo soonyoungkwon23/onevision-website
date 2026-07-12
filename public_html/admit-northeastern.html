@@ -1,0 +1,995 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      OneVision | Northeastern University Health Science Pre-Med 합격 후기
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Northeastern University Health Science, Pre-Med Track 합격을 목표로 한 학생이 OneVision과 함께 준비한 과정과 합격 스토리입니다."
+    />
+
+    <!-- Fonts (Unified) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* ==================================================
+       OneVision Theme (Unified)
+       ================================================== */
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-main: #0b0e14;
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --text-on-dark: #f8fafc;
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        --radius-lg: 18px;
+        --radius-xl: 26px;
+
+        --max-width: 1200px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background:
+          radial-gradient(
+            1200px 600px at 18% -10%,
+            rgba(156, 26, 54, 0.14),
+            transparent 60%
+          ),
+          radial-gradient(
+            900px 500px at 92% 10%,
+            rgba(90, 11, 31, 0.12),
+            transparent 55%
+          ),
+          linear-gradient(180deg, #ffffff, #fbf9fa);
+        color: var(--text-on-light);
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      section {
+        padding: 3.8rem 0;
+      }
+
+      /* Serif headings */
+      h1,
+      h2,
+      h3,
+      h4,
+      .section-title {
+        font-family: "Noto Serif KR", serif;
+        letter-spacing: -0.02em;
+      }
+
+      /* ==================================================
+       Header / Nav 
+       ================================================== */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #ffffff;
+        border-bottom: 1px solid var(--border-on-light);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92px;
+        position: relative;
+        gap: 1rem;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+        flex-shrink: 0;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .logo-mark {
+        width: 220px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        flex-shrink: 0;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 1.08rem;
+        color: #000;
+      }
+      .logo-text-sub {
+        font-size: 0.78rem;
+        margin-top: 6px;
+        font-weight: 600;
+        color: #000;
+      }
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--accent);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        flex-shrink: 0;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.68rem 1.25rem;
+        border-radius: 999px;
+        font-weight: 750;
+        font-size: 0.88rem;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease,
+          box-shadow 0.15s ease;
+        border: 1px solid transparent;
+        white-space: nowrap;
+      }
+      .btn-primary {
+        background: linear-gradient(
+          180deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: #fff;
+      }
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        color: #000;
+        font-size: 1.4rem;
+        cursor: pointer;
+        padding: 0.35rem 0.5rem;
+        border-radius: 10px;
+        line-height: 1;
+        min-width: 44px;
+        min-height: 44px;
+      }
+      .nav-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      header .logo,
+      header .logo *,
+      header .nav-links a,
+      header .nav-toggle {
+        color: #000 !important;
+      }
+
+      @media (max-width: 960px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto;
+          padding: 0;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+          position: relative;
+          z-index: 101;
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          padding: 10px 20px 40px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .nav-open .nav-toggle span {
+          color: #000 !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: grid;
+          position: absolute;
+          top: 92px;
+          left: 0;
+          right: 0;
+          gap: 0.55rem;
+          padding: 1rem 1.2rem 1.2rem;
+          background: #ffffff;
+          border-bottom: 1px solid var(--border-on-light);
+        }
+        .nav.nav-open .nav-cta {
+          display: none;
+        }
+      }
+      @media (max-width: 640px) {
+        .logo-mark {
+          width: 190px;
+          height: 68px;
+        }
+        section {
+          padding: 3.2rem 0;
+        }
+      }
+
+      /* ==================================================
+       Breadcrumb
+       ================================================== */
+      .breadcrumb {
+        font-size: 0.82rem;
+        color: #9ca3af;
+        margin-bottom: 1.15rem;
+      }
+      .breadcrumb a {
+        color: #6b7280;
+      }
+      .breadcrumb span {
+        margin: 0 0.3rem;
+      }
+
+      /* ==================================================
+       Hero Card
+       ================================================== */
+      .hero {
+        padding-top: 2.2rem;
+      }
+      .hero-card {
+        position: relative;
+        border-radius: var(--radius-xl);
+        overflow: hidden;
+        height: 330px;
+        background-image: url("images/northeasterncampus.jpeg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 24px 60px rgba(15, 23, 42, 0.45);
+        border: 1px solid rgba(10, 10, 10, 0.1);
+        margin-bottom: 2rem;
+      }
+      .hero-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.88)
+        );
+      }
+      .hero-card-inner {
+        position: relative;
+        height: 100%;
+        padding: 1.6rem 1.6rem 1.45rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+      }
+      .hero-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.22rem 0.8rem;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        width: fit-content;
+      }
+      .hero-pill-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: #ffd0d8;
+        box-shadow: 0 0 0 3px rgba(255, 208, 216, 0.18);
+      }
+      .hero-title-main {
+        font-size: 1.55rem;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        line-height: 1.35;
+      }
+      .hero-title-sub {
+        font-size: 0.95rem;
+        margin-top: 0.35rem;
+        color: rgba(255, 255, 255, 0.86);
+      }
+      .hero-meta {
+        font-size: 0.82rem;
+        color: rgba(255, 255, 255, 0.78);
+        line-height: 1.6;
+      }
+      .hero-meta span {
+        margin-right: 0.85rem;
+      }
+
+      @media (max-width: 768px) {
+        .hero-card {
+          height: 285px;
+        }
+      }
+
+      /* ==================================================
+       Content layout
+       ================================================== */
+      .content-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+        gap: 2rem;
+        align-items: flex-start;
+        margin-top: 0.2rem;
+      }
+      @media (max-width: 900px) {
+        .content-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+
+      .section-title-small {
+        font-size: 1.05rem;
+        font-weight: 900;
+        margin-bottom: 0.45rem;
+        color: var(--primary-dark);
+        letter-spacing: -0.02em;
+      }
+      .section-text {
+        font-size: 0.95rem;
+        color: #4b5563;
+        line-height: 1.9;
+      }
+      .content-block {
+        margin-bottom: 1.55rem;
+      }
+
+      /* Right column cards */
+      .info-card {
+        border-radius: 18px;
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+        padding: 1.05rem 1.05rem;
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.1);
+        font-size: 0.9rem;
+      }
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.8rem;
+        margin-bottom: 0.45rem;
+      }
+      .info-label {
+        color: #6b7280;
+        font-weight: 700;
+      }
+      .info-value {
+        font-weight: 900;
+        color: #111827;
+        text-align: right;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.55rem;
+      }
+      .tag {
+        font-size: 0.78rem;
+        padding: 0.18rem 0.6rem;
+        border-radius: 999px;
+        background: rgba(90, 11, 31, 0.08);
+        border: 1px solid rgba(90, 11, 31, 0.12);
+        color: var(--primary-dark);
+        font-weight: 850;
+      }
+
+      .quote-block {
+        margin-top: 1rem;
+        padding: 0.95rem 1rem;
+        border-left: 3px solid var(--primary);
+        background: rgba(90, 11, 31, 0.06);
+        border-radius: 14px;
+        font-size: 0.92rem;
+        color: #374151;
+        box-shadow: 0 14px 34px rgba(10, 10, 10, 0.06);
+        border: 1px solid rgba(10, 10, 10, 0.06);
+      }
+      .quote-label {
+        font-size: 0.78rem;
+        color: #6b7280;
+        margin-bottom: 0.25rem;
+        font-weight: 800;
+      }
+      /* =========================
+       Footer
+       ========================= */
+      footer {
+        background: #1a1a1a; /* 이미지 11의 짙은 배경색 반영 */
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 4rem 0 2rem;
+        font-size: 0.85rem;
+        line-height: 1.8;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2.5rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f8fafc;
+        font-weight: 700;
+        min-width: 80px;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f8fafc;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64748b;
+      }
+      /* =========================
+   Floating Social (Shared)
+   ========================= */
+      .floating-social {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 999;
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+      }
+
+      .floating-social-label {
+        font-size: 0.78rem;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.92);
+        background: rgba(26, 3, 8, 0.78);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        padding: 0.35rem 0.6rem;
+        border-radius: 999px;
+        backdrop-filter: blur(6px);
+      }
+
+      .floating-social .social-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
+        text-decoration: none;
+      }
+
+      .floating-social .social-icon img {
+        width: 26px;
+        height: 26px;
+        display: block;
+        transition:
+          transform 0.18s ease,
+          opacity 0.18s ease;
+      }
+
+      .floating-social .social-icon:hover img {
+        transform: translateY(-2px);
+        opacity: 0.9;
+      }
+
+      @media (max-width: 640px) {
+        .floating-social {
+          right: 12px;
+          bottom: 12px;
+        }
+        .floating-social .social-icon {
+          width: 44px;
+          height: 44px;
+        }
+        .floating-social .social-icon img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper" id="top">
+      <!-- Header (Unified) -->
+      <header></header>
+
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="breadcrumb">
+              <a href="index.html#top">홈</a><span>›</span>
+              <a href="admit-gallery.html">합격 후기</a><span>›</span>
+              <span>Northeastern University Health Science Pre-Med</span>
+            </div>
+
+            <!-- Hero Card -->
+            <div
+              class="hero-card"
+              role="img"
+              aria-label="Northeastern University 합격 후기 커버 이미지"
+            >
+              <div class="hero-card-inner">
+                <div>
+                  <div class="hero-pill">
+                    <span class="hero-pill-dot"></span>
+                    Health Science · Pre-Med · Boston
+                  </div>
+
+                  <div style="margin-top: 0.75rem">
+                    <div class="hero-title-main">NORTHEASTERN UNIVERSITY</div>
+                    <div class="hero-title-sub">
+                      Health Science, Pre-Med Track 합격 스토리
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hero-meta">
+                  <span>전공: Health Science (Pre-Med Track)</span>
+                  <span>키워드: 의대 준비 · 환자 경험 · 봉사 &amp; 리서치</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div class="content-layout">
+              <!-- Left column -->
+              <div>
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    1. 왜 의대, 왜 Northeastern Health Science였나요?
+                  </h2>
+                  <p class="section-text">
+                    어릴 때부터 사람을 돕는 일을 하고 싶었고, 몸과 마음이 아픈
+                    사람들을 가까이에서 돕는
+                    <strong>의사라는 직업</strong>에 자연스럽게 꿈을 가지게
+                    되었습니다. 단순히 생물만 배우는 것이 아니라,
+                    병원·보건·연구가 실제로 어떻게 연결되는지 배우고 싶어
+                    보건·의료 연계가 강하고 보스턴 의료 허브에 위치한
+                    Northeastern의 Health Science, Pre-Med 트랙을 선택했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    2. 수많은 유학원 중 OneVision을 선택한 이유
+                  </h2>
+                  <p class="section-text">
+                    Pre-Med를 전문적으로 도와주는 곳을 찾기 쉽지 않았는데, Jay
+                    대표의 인스타그램에서 Northeastern·BU 등 보스턴권 Pre-Med
+                    학생들의 케이스를 보고 상담을 신청하게 되었습니다. 상담에서
+                    단순히 “의대 준비 열심히 하자”가 아니라,
+                    <strong
+                      >Health Science 전공 안에서 어떤 EC와 병원·봉사 경험을
+                      쌓아야 하는지</strong
+                    >를 아주 구체적으로 설계해 준 점이 결정적이었습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    3. 준비 과정에서 가장 어려웠던 부분
+                  </h2>
+                  <p class="section-text">
+                    Pre-Med 특성상 시간 배분이 가장 힘들었습니다. 내신·AP 과목,
+                    봉사, 병원 섀도잉, 시험 준비까지 동시에 챙기려다 보니 “어떤
+                    활동을 먼저 시작해야 할지, 무엇을 포기해도 되는지”가 항상
+                    고민이었습니다. MCAT 공부까지 염두에 두다 보니, 멘탈 관리가
+                    특히 중요했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    4. OneVision이 도와준 핵심 – Pre-Med 로드맵 &amp; 장기 플랜
+                  </h2>
+                  <p class="section-text">
+                    OneVision에서는 9–12학년을 한 번에 보는
+                    <strong>장기 로드맵</strong>을 먼저 만들고, 학년별로 어떤
+                    봉사·연구·의료 관련 경험을 언제까지 쌓아야 하는지 “캘린더”
+                    단위로 쪼개 주었습니다. 덕분에 학생은 “오늘 무엇을 해야
+                    하는지”에만 집중하면서도 전체 Pre-Med 플랜이 어떻게
+                    이어지는지 한눈에 볼 수 있었습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    5. 준비하면서 가장 크게 성장한 점
+                  </h2>
+                  <p class="section-text">
+                    예전에는 막연히 “의사가 되고 싶다”는 생각만 있었지만, 병원
+                    봉사와 환자 인터뷰를 경험하면서
+                    <strong
+                      >“어떤 환자를 위해 일하고 싶은 의사가 되고 싶은지”</strong
+                    >가 구체적으로 보이기 시작했습니다. Health Science 전공
+                    에세이에서도 이 실제 환자 이야기를 바탕으로 진심을 담아 글을
+                    썼고, 자신만의 이유가 생기면서 에세이의 톤과 깊이가 완전히
+                    달라졌다고 이야기했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">6. 가장 기억에 남는 순간</h2>
+                  <p class="section-text">
+                    Health Science 전공 에세이를 쓸 때, Jay 대표가 “의대 지원
+                    동기를 멋있게 포장하려고 하기보다,
+                    <strong>환자에게 느꼈던 솔직한 감정</strong>을 그대로
+                    쓰자”고 조언해 주었습니다. 그 한마디 덕분에 학생은 병원에서
+                    만났던 한 환자와의 대화를 있는 그대로 풀어 쓸 수 있었고, 그
+                    에세이가 본인도 가장 애정이 가는 글이 되었다고 합니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">7. 합격 소식을 들었을 때</h2>
+                  <p class="section-text">
+                    Northeastern 합격 메일을 받았을 때 한 번 믿기지 않아 몇
+                    번이고 다시 로그인을 반복했다고 합니다. 가족 모두가 함께
+                    기뻐했고, Pre-Med로 가는 첫 관문을 넘겼다는 안도감과 함께
+                    “이제 진짜 시작이구나”라는 책임감도 같이 느껴졌다고 합니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    8. 같은 전공을 준비하는 후배들에게
+                  </h2>
+                  <p class="section-text">
+                    후배들에게 가장 해주고 싶은 말은
+                    <strong>“Pre-Med 준비는 마라톤”</strong>이라는 것입니다.
+                    스펙을 한 번에 쌓으려고 하기보다, 봉사·연구·의료 경험을
+                    꾸준히 이어 가며 자신의 스토리를 쌓아가야 나중에 에세이와
+                    인터뷰에서 자연스럽게 연결된 이야기를 할 수 있다고
+                    조언합니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    9. 학생이 느낀 OneVision의 차별점
+                  </h2>
+                  <p class="section-text">
+                    학생은 OneVision을
+                    <strong
+                      >“일정을 잡아 주는 곳”이 아니라 “옆에서 끝까지 같이
+                      뛰어주는 곳”</strong
+                    >이라고 표현했습니다. 특히 Pre-Med의 특성상, 막히는 시기마다
+                    진로 고민과 생활 리듬을 함께 점검해 주어 번아웃을 크게 겪지
+                    않고 준비를 이어갈 수 있었다고 말했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block" style="margin-bottom: 0">
+                  <h2 class="section-title-small">
+                    10. 마지막으로 남기고 싶은 말
+                  </h2>
+                  <p class="section-text">
+                    학생은 “항상 믿고 기다려 준 부모님께 감사하다”고 전하며,
+                    앞으로도 환자와 그 가족의 이야기를 귀 기울여 듣는 따뜻한
+                    의사가 되고 싶다는 다짐을 남겼습니다. Northeastern Health
+                    Science, Pre-Med 합격은 그 꿈을 향한 첫 번째 큰 발걸음이라고
+                    이야기하며 후기를 마무리했습니다.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Right column -->
+              <aside>
+                <div class="info-card">
+                  <div class="info-row">
+                    <span class="info-label">대학</span>
+                    <span class="info-value">Northeastern University</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">전공</span>
+                    <span class="info-value"
+                      >Health Science (Pre-Med Track)</span
+                    >
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">지원 유형</span>
+                    <span class="info-value">미국 학부 Direct · Pre-Med</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">핵심 활동</span>
+                    <span class="info-value"
+                      >병원 봉사 · 환자 인터뷰 · Health Science 에세이</span
+                    >
+                  </div>
+                  <div class="info-row" style="margin-bottom: 0">
+                    <span class="info-label">결과</span>
+                    <span class="info-value"
+                      >NEU Health Science Pre-Med 합격</span
+                    >
+                  </div>
+
+                  <div style="margin-top: 0.9rem">
+                    <div class="info-label" style="margin-bottom: 0.35rem">
+                      키워드
+                    </div>
+                    <div class="tag-list">
+                      <span class="tag">Pre-Med</span>
+                      <span class="tag">Health Science</span>
+                      <span class="tag">병원 봉사</span>
+                      <span class="tag">환자 경험</span>
+                      <span class="tag">의대 준비</span>
+                      <span class="tag">Boston</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="quote-block">
+                  <div class="quote-label">학생이 느낀 OneVision의 장점</div>
+                  “스펙만 채우는 게 아니라, 내가 왜 의사가 되고 싶은지 끝까지
+                  함께 찾아 준 곳”이라고 OneVision을 정리하며 큰 감사 인사를
+                  전했습니다.
+                </div>
+
+                <div class="quote-block" style="margin-top: 0.9rem">
+                  <div class="quote-label">학생의 다짐</div>
+                  예비 의사로서 앞으로도 공부와 경험을 꾸준히 이어가 환자들에게
+                  신뢰받는 의사가 되겠다는 다짐으로 Northeastern University 합격
+                  후기를 마무리했습니다.
+                </div>
+
+                <div
+                  style="
+                    margin-top: 1.2rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 0.6rem;
+                  "
+                >
+                  <a
+                    href="admit-gallery.html"
+                    class="btn btn-primary"
+                    style="width: 100%"
+                    >다른 합격 후기 보기</a
+                  >
+                  <a
+                    href="index.html#contact"
+                    class="btn"
+                    style="
+                      width: 100%;
+                      background: #fff;
+                      color: #111827;
+                      border: 1px solid rgba(10, 10, 10, 0.12);
+                      box-shadow: 0 14px 30px rgba(10, 10, 10, 0.06);
+                    "
+                  >
+                    상담 신청하기
+                  </a>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer (Unified Dark) -->
+      <footer></footer>
+      <!-- 플로팅 SNS -->
+      <div class="floating-social">
+        <a
+          href="https://open.kakao.com/o/pw88Wn4h"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-kakao"
+          aria-label="카카오톡 오픈채팅"
+        >
+          <img src="icons/kakao.png" alt="KakaoTalk" />
+        </a>
+
+        <a
+          href="https://cafe.naver.com/onevisionconsulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-cafe"
+          aria-label="네이버 카페"
+        >
+          <img src="icons/naver-cafe.png" alt="Naver Cafe" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/onevision_consulting?igsh=NTc4MTIwNjQ2YQ=="
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-insta"
+          aria-label="인스타그램"
+        >
+          <img src="icons/instagram.png" alt="Instagram" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/p/OneVision-Consulting-원비전컨설팅-61582774824246/?hr=1&wtsid=rdr_0kaOLD4UDCcuhPGwV"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-fb"
+          aria-label="페이스북"
+        >
+          <img src="icons/facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://blog.naver.com/onevision_consulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-blog"
+          aria-label="네이버 블로그"
+        >
+          <img src="icons/naver-blog.png" alt="Naver Blog" />
+        </a>
+      </div>
+    </div>
+    <script src="js/common.js"></script>
+  </body>
+</html>

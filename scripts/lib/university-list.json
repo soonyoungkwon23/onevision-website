@@ -1,0 +1,638 @@
+[
+  {
+    "slug": "alabama-capstone",
+    "category": "bsn",
+    "universityEn": "The University of Alabama",
+    "schoolEn": "Capstone College of Nursing"
+  },
+  {
+    "slug": "arizona",
+    "category": "bsn",
+    "universityEn": "University of Arizona",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "asu-edson",
+    "category": "bsn",
+    "universityEn": "Arizona State University",
+    "schoolEn": "Edson College of Nursing and Health Innovation"
+  },
+  {
+    "slug": "auburn",
+    "category": "bsn",
+    "universityEn": "Auburn University",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "baylor",
+    "category": "bsn",
+    "universityEn": "Baylor University",
+    "schoolEn": "Louise Herrington School of Nursing"
+  },
+  {
+    "slug": "bostoncollege",
+    "category": "bsn",
+    "universityEn": "Boston College",
+    "schoolEn": "Connell School of Nursing"
+  },
+  {
+    "slug": "casewestern",
+    "category": "bsn",
+    "universityEn": "Case Western Reserve University",
+    "schoolEn": "Frances Payne Bolton School of Nursing"
+  },
+  {
+    "slug": "catholic",
+    "category": "bsn",
+    "universityEn": "The Catholic University of America",
+    "schoolEn": "Conway School of Nursing"
+  },
+  {
+    "slug": "cincinnati",
+    "category": "bsn",
+    "universityEn": "University of Cincinnati",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "clemson",
+    "category": "bsn",
+    "universityEn": "Clemson University",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "creighton",
+    "category": "bsn",
+    "universityEn": "Creighton University",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "cu-anschutz",
+    "category": "bsn",
+    "universityEn": "University of Colorado Anschutz Medical Campus",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "delaware",
+    "category": "bsn",
+    "universityEn": "University of Delaware",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "duke",
+    "category": "bsn",
+    "universityEn": "Duke University",
+    "schoolEn": "Duke University School of Nursing"
+  },
+  {
+    "slug": "emory",
+    "category": "bsn",
+    "universityEn": "Emory University",
+    "schoolEn": "Nell Hodgson Woodruff School of Nursing"
+  },
+  {
+    "slug": "florida",
+    "category": "bsn",
+    "universityEn": "University of Florida",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "gwu",
+    "category": "bsn",
+    "universityEn": "George Washington University",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "iowa",
+    "category": "bsn",
+    "universityEn": "University of Iowa",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "iuindianapolis",
+    "category": "bsn",
+    "universityEn": "Indiana University Indianapolis",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "kansas",
+    "category": "bsn",
+    "universityEn": "The University of Kansas",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "kentucky",
+    "category": "bsn",
+    "universityEn": "University of Kentucky",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "loyolachicago",
+    "category": "bsn",
+    "universityEn": "Loyola University Chicago",
+    "schoolEn": "Marcella Niehoff School of Nursing"
+  },
+  {
+    "slug": "marquette",
+    "category": "bsn",
+    "universityEn": "Marquette University",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "mgh-ihp",
+    "category": "bsn",
+    "universityEn": "MGH Institute of Health Professions",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "michiganstate",
+    "category": "bsn",
+    "universityEn": "Michigan State University",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "minnesota",
+    "category": "bsn",
+    "universityEn": "University of Minnesota-Twin Cities",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "musc",
+    "category": "bsn",
+    "universityEn": "Medical University of South Carolina",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "northeastern",
+    "category": "bsn",
+    "universityEn": "Northeastern University",
+    "schoolEn": "School of Nursing (Bouve College of Health Sciences)"
+  },
+  {
+    "slug": "nyu-rorymeyers",
+    "category": "bsn",
+    "universityEn": "New York University",
+    "schoolEn": "Rory Meyers College of Nursing"
+  },
+  {
+    "slug": "ohiostate",
+    "category": "bsn",
+    "universityEn": "The Ohio State University",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "ohsu",
+    "category": "bsn",
+    "universityEn": "Oregon Health and Science University",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "penn",
+    "category": "bsn",
+    "universityEn": "University of Pennsylvania",
+    "schoolEn": "Penn Nursing School of Nursing"
+  },
+  {
+    "slug": "pennstate",
+    "category": "bsn",
+    "universityEn": "The Pennsylvania State University–University Park",
+    "schoolEn": "Ross and Carol Nese College of Nursing"
+  },
+  {
+    "slug": "pittsburgh",
+    "category": "bsn",
+    "universityEn": "University of Pittsburgh",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "rochester",
+    "category": "bsn",
+    "universityEn": "University of Rochester",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "southcarolina",
+    "category": "bsn",
+    "universityEn": "University of South Carolina",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "uab",
+    "category": "bsn",
+    "universityEn": "University of Alabama at Birmingham",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "uci",
+    "category": "bsn",
+    "universityEn": "University of California, Irvine",
+    "schoolEn": "Sue & Bill Gross School of Nursing"
+  },
+  {
+    "slug": "ucla",
+    "category": "bsn",
+    "universityEn": "University of California–Los Angeles (UCLA)",
+    "schoolEn": "Joe C. Wen School of Nursing"
+  },
+  {
+    "slug": "uconn",
+    "category": "bsn",
+    "universityEn": "University of Connecticut",
+    "schoolEn": "Elisabeth DeLuca School of Nursing"
+  },
+  {
+    "slug": "uic",
+    "category": "bsn",
+    "universityEn": "University of Illinois Chicago",
+    "schoolEn": "UIC College of Nursing"
+  },
+  {
+    "slug": "umassamherst",
+    "category": "bsn",
+    "universityEn": "University of Massachusetts Amherst",
+    "schoolEn": "Elaine Marieb College of Nursing"
+  },
+  {
+    "slug": "umassboston",
+    "category": "bsn",
+    "universityEn": "University of Massachusetts Boston",
+    "schoolEn": "Manning College of Nursing and Health Sciences"
+  },
+  {
+    "slug": "umichigan",
+    "category": "bsn",
+    "universityEn": "University of Michigan-Ann Arbor",
+    "schoolEn": "U-M School of Nursing"
+  },
+  {
+    "slug": "umson",
+    "category": "bsn",
+    "universityEn": "University of Maryland, Baltimore",
+    "schoolEn": "School of Nursing (UMSON)"
+  },
+  {
+    "slug": "unc-chapelhill",
+    "category": "bsn",
+    "universityEn": "University of North Carolina at Chapel Hill",
+    "schoolEn": "UNC School of Nursing"
+  },
+  {
+    "slug": "unmc",
+    "category": "bsn",
+    "universityEn": "University of Nebraska Medical Center",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "usf",
+    "category": "bsn",
+    "universityEn": "University of San Francisco",
+    "schoolEn": "School of Nursing and Health Professions"
+  },
+  {
+    "slug": "utah",
+    "category": "bsn",
+    "universityEn": "University of Utah",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "utaustin",
+    "category": "bsn",
+    "universityEn": "The University of Texas at Austin",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "uthsc",
+    "category": "bsn",
+    "universityEn": "University of Tennessee Health Science Center",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "utknoxville",
+    "category": "bsn",
+    "universityEn": "University of Tennessee, Knoxville",
+    "schoolEn": "College of Nursing"
+  },
+  {
+    "slug": "uva",
+    "category": "bsn",
+    "universityEn": "University of Virginia",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "villanova",
+    "category": "bsn",
+    "universityEn": "Villanova University",
+    "schoolEn": "M. Louise Fitzpatrick College of Nursing"
+  },
+  {
+    "slug": "washington",
+    "category": "bsn",
+    "universityEn": "University of Washington",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "wisconsin-madison",
+    "category": "bsn",
+    "universityEn": "University of Wisconsin-Madison",
+    "schoolEn": "School of Nursing"
+  },
+  {
+    "slug": "alabama-manderson",
+    "category": "mba",
+    "universityEn": "University of Alabama – Manderson Graduate School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "american-kogod",
+    "category": "mba",
+    "universityEn": "American University – Kogod School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "arizona-eller",
+    "category": "mba",
+    "universityEn": "University of Arizona",
+    "schoolEn": "Eller College of Management"
+  },
+  {
+    "slug": "arkansas-walton",
+    "category": "mba",
+    "universityEn": "University of Arkansas – Sam M. Walton College of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "auburn-harbert",
+    "category": "mba",
+    "universityEn": "Auburn University",
+    "schoolEn": "Raymond J. Harbert College of Business"
+  },
+  {
+    "slug": "babson-olin",
+    "category": "mba",
+    "universityEn": "Babson College",
+    "schoolEn": "F.W. Olin Graduate School of Business"
+  },
+  {
+    "slug": "baruch-zicklin",
+    "category": "mba",
+    "universityEn": "CUNY Bernard M. Baruch College – Zicklin School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "baylor-hankamer",
+    "category": "mba",
+    "universityEn": "Baylor University Hankamer School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "bostoncollege-carroll",
+    "category": "mba",
+    "universityEn": "Boston College Carroll School of Management",
+    "schoolEn": ""
+  },
+  {
+    "slug": "bu-questrom",
+    "category": "mba",
+    "universityEn": "Boston University Questrom School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "buffalo-management",
+    "category": "mba",
+    "universityEn": "University at Buffalo–SUNY",
+    "schoolEn": "School of Management"
+  },
+  {
+    "slug": "byu-marriott",
+    "category": "mba",
+    "universityEn": "Brigham Young University",
+    "schoolEn": "Marriott School of Business"
+  },
+  {
+    "slug": "casewestern-weatherhead",
+    "category": "mba",
+    "universityEn": "Case Western Reserve University",
+    "schoolEn": "Weatherhead School of Management"
+  },
+  {
+    "slug": "chapman-argyros",
+    "category": "mba",
+    "universityEn": "Chapman University",
+    "schoolEn": "George L. Argyros College of Business and Economics"
+  },
+  {
+    "slug": "cincinnati-lindner",
+    "category": "mba",
+    "universityEn": "University of Cincinnati",
+    "schoolEn": "Carl H. Lindner College of Business"
+  },
+  {
+    "slug": "colorado-leeds",
+    "category": "mba",
+    "universityEn": "University of Colorado–Boulder",
+    "schoolEn": "Leeds School of Business"
+  },
+  {
+    "slug": "detroitmercy-cba",
+    "category": "mba",
+    "universityEn": "University of Detroit Mercy",
+    "schoolEn": "College of Business Administration"
+  },
+  {
+    "slug": "florida-warrington",
+    "category": "mba",
+    "universityEn": "University of Florida",
+    "schoolEn": "Warrington College of Business"
+  },
+  {
+    "slug": "fordham-gabelli",
+    "category": "mba",
+    "universityEn": "Fordham University – Gabelli School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "gwu-business",
+    "category": "mba",
+    "universityEn": "George Washington University – School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "iowastate-ivy",
+    "category": "mba",
+    "universityEn": "Iowa State University",
+    "schoolEn": "Ivy College of Business MBA"
+  },
+  {
+    "slug": "kansas-business",
+    "category": "mba",
+    "universityEn": "University of Kansas",
+    "schoolEn": "School of Business"
+  },
+  {
+    "slug": "kentucky-gatton",
+    "category": "mba",
+    "universityEn": "University of Kentucky – Gatton College of Business and Economics",
+    "schoolEn": ""
+  },
+  {
+    "slug": "lehigh-business",
+    "category": "mba",
+    "universityEn": "Lehigh University",
+    "schoolEn": "College of Business"
+  },
+  {
+    "slug": "loyolamd-sellinger",
+    "category": "mba",
+    "universityEn": "Loyola University Maryland",
+    "schoolEn": "Sellinger School of Business and Management"
+  },
+  {
+    "slug": "lsu-ourso",
+    "category": "mba",
+    "universityEn": "Louisiana State University–Baton Rouge",
+    "schoolEn": "E. J. Ourso College of Business"
+  },
+  {
+    "slug": "maryland-smith",
+    "category": "mba",
+    "universityEn": "University of Maryland Robert H. Smith School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "miami-herbert",
+    "category": "mba",
+    "universityEn": "University of Miami",
+    "schoolEn": "Miami Herbert Business School"
+  },
+  {
+    "slug": "minnesota-carlson",
+    "category": "mba",
+    "universityEn": "University of Minnesota",
+    "schoolEn": "Carlson School of Management"
+  },
+  {
+    "slug": "mississippi-business",
+    "category": "mba",
+    "universityEn": "University of Mississippi",
+    "schoolEn": "School of Business Administration"
+  },
+  {
+    "slug": "ncat-business",
+    "category": "mba",
+    "universityEn": "North Carolina A&T State University",
+    "schoolEn": "College of Business and Economics"
+  },
+  {
+    "slug": "northeastern-damoremckim",
+    "category": "mba",
+    "universityEn": "Northeastern University",
+    "schoolEn": "D'Amore-McKim School of Business"
+  },
+  {
+    "slug": "oklahoma-price",
+    "category": "mba",
+    "universityEn": "University of Oklahoma",
+    "schoolEn": "Michael F. Price College of Business"
+  },
+  {
+    "slug": "oklahomastate-spears",
+    "category": "mba",
+    "universityEn": "Oklahoma State University – Spears School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "pittsburgh-katz",
+    "category": "mba",
+    "universityEn": "University of Pittsburgh Katz Graduate School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "rutgers-rbs",
+    "category": "mba",
+    "universityEn": "Rutgers Business School",
+    "schoolEn": ""
+  },
+  {
+    "slug": "southcarolina-moore",
+    "category": "mba",
+    "universityEn": "University of South Carolina",
+    "schoolEn": "Darla Moore School of Business"
+  },
+  {
+    "slug": "stevens-business",
+    "category": "mba",
+    "universityEn": "Stevens Institute of Technology",
+    "schoolEn": "School of Business"
+  },
+  {
+    "slug": "syracuse-whitman",
+    "category": "mba",
+    "universityEn": "Syracuse University",
+    "schoolEn": "Martin J. Whitman School of Management"
+  },
+  {
+    "slug": "tcu-neeley",
+    "category": "mba",
+    "universityEn": "TCU Neeley School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "tennessee-haslam",
+    "category": "mba",
+    "universityEn": "University of Tennessee, Knoxville",
+    "schoolEn": "Haslam College of Business"
+  },
+  {
+    "slug": "texasam-mays",
+    "category": "mba",
+    "universityEn": "Texas A&M University Mays Business School",
+    "schoolEn": ""
+  },
+  {
+    "slug": "tulane-freeman",
+    "category": "mba",
+    "universityEn": "Tulane University",
+    "schoolEn": "A. B. Freeman School of Business"
+  },
+  {
+    "slug": "ucdavis-gsm",
+    "category": "mba",
+    "universityEn": "University of California, Davis",
+    "schoolEn": "Graduate School of Management"
+  },
+  {
+    "slug": "uci-merage",
+    "category": "mba",
+    "universityEn": "UC Irvine Paul Merage School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "ucsd-rady",
+    "category": "mba",
+    "universityEn": "University of California, San Diego",
+    "schoolEn": "Rady School of Management"
+  },
+  {
+    "slug": "umass-isenberg",
+    "category": "mba",
+    "universityEn": "University of Massachusetts Amherst",
+    "schoolEn": "Isenberg School of Management"
+  },
+  {
+    "slug": "utah-eccles",
+    "category": "mba",
+    "universityEn": "University of Utah",
+    "schoolEn": "David Eccles School of Business"
+  },
+  {
+    "slug": "williammary-mason",
+    "category": "mba",
+    "universityEn": "William & Mary – Raymond A. Mason School of Business",
+    "schoolEn": ""
+  },
+  {
+    "slug": "wisconsin-wsb",
+    "category": "mba",
+    "universityEn": "Wisconsin School of Business",
+    "schoolEn": ""
+  }
+]

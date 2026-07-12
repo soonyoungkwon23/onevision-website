@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# throwaway workflow scripts
+scripts/_tmp*
+
+# generated at build time (CI rebuilds these on every deploy)
+public_html/blog/
+public_html/sitemap.xml
+public_html/rss.xml
+
+# Hostinger placeholder — do not deploy
+public_html/default.php
+
+# local junk not part of the site
+Old files/
+*.zip
+zi2qOXvk
+_write_test_DELETEME.txt
+/Jay.jpg
+/Kang Jihoo.jpg
+tutor-info-sheet.md
+tutor-profile-instructions.md
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,1848 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>편입학 | OneVision</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="미국 UC/주립대 편입 컨설팅. 수업 플랜, GPA 전략, TAG/IGETC 체크, 에세이·활동 설계까지 데이터 기반으로 관리하는 OneVision Transfer Intensive."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-main: #0b0e14;
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --text-on-dark: #f8fafc;
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+        --radius-lg: 18px;
+        --radius-xl: 26px;
+        --max-width: 1200px;
+
+        --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background:
+          radial-gradient(
+            1200px 600px at 20% -10%,
+            rgba(156, 26, 54, 0.22),
+            transparent 60%
+          ),
+          radial-gradient(
+            900px 500px at 90% 10%,
+            rgba(90, 11, 31, 0.2),
+            transparent 55%
+          ),
+          linear-gradient(180deg, var(--bg-main), var(--bg-deep));
+        color: var(--text-on-dark);
+        line-height: 1.7;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      section {
+        padding: 4.8rem 0;
+      }
+
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .section-title {
+        font-family: "Noto Serif KR", serif;
+        letter-spacing: -0.02em;
+      }
+
+      /* Header */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #fff;
+        border-bottom: 1px solid var(--border-on-light);
+      }
+      
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92px;
+        position: relative;
+        gap: 1rem;
+      }
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .logo-mark {
+        width: 220px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        flex-shrink: 0;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 1.08rem;
+      }
+      .logo-text-sub {
+        font-size: 0.78rem;
+        margin-top: 6px;
+        font-weight: 600;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--accent);
+      }
+      .nav-links a.active {
+        color: var(--accent);
+        font-weight: 900;
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+      }
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        font-size: 1.4rem;
+        cursor: pointer;
+        padding: 0.35rem 0.45rem;
+        border-radius: 10px;
+      }
+      .nav-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      /* Buttons */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.68rem 1.35rem;
+        border-radius: 999px;
+        font-weight: 750;
+        font-size: 0.88rem;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease,
+          box-shadow 0.15s ease;
+        white-space: nowrap;
+        border: 1px solid transparent;
+      }
+      .btn-primary {
+        background: linear-gradient(
+          180deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: #fff !important;
+      }
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+      .btn-outline {
+        background: rgba(255, 255, 255, 0.04);
+        color: #fff;
+        border-color: rgba(255, 255, 255, 0.35);
+      }
+      .btn-outline:hover {
+        background: rgba(255, 255, 255, 0.09);
+      }
+
+      /* Floating Social */
+      .floating-social {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+        z-index: 60;
+      }
+      .floating-social-label {
+        font-size: 0.72rem;
+        color: rgba(244, 241, 239, 0.85);
+        text-align: center;
+        font-weight: 650;
+      }
+      .social-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 999px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
+        transition:
+          transform 0.12s ease,
+          background 0.12s ease;
+        overflow: hidden;
+      }
+      .social-icon:hover {
+        transform: translateY(-2px);
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .social-icon img {
+        width: 60%;
+        height: 60%;
+        object-fit: contain;
+        filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.22));
+      }
+
+      /* Badge / Titles */
+      .section-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        font-size: 0.82rem;
+        color: rgba(244, 241, 239, 0.92);
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        padding: 0.28rem 0.8rem;
+        border-radius: 999px;
+        font-weight: 700;
+        margin-bottom: 0.9rem;
+      }
+      .section-badge-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: var(--accent);
+        box-shadow: 0 0 0 3px rgba(156, 26, 54, 0.18);
+      }
+      .section-title {
+        font-size: 2.65rem;
+        font-weight: 800;
+        color: #fff;
+        margin-bottom: 0.45rem;
+      }
+      .section-subtitle {
+        font-size: 1.02rem;
+        color: var(--muted-on-dark);
+        max-width: 820px;
+      }
+
+      /* Transfer Hero */
+      .hero {
+        padding: 5.8rem 0 5.2rem;
+        background: linear-gradient(
+          180deg,
+          rgba(34, 4, 11, 0),
+          rgba(0, 0, 0, 0.18)
+        );
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+        gap: 2.3rem;
+        align-items: start;
+      }
+      .hero-title {
+        font-size: 3.05rem;
+        font-weight: 850;
+        line-height: 1.14;
+        letter-spacing: -0.03em;
+        margin-bottom: 1rem;
+        font-family: "Noto Serif KR", serif;
+      }
+      .hero-title span {
+        color: #ffd7de;
+      }
+      .hero-lead {
+        font-size: 1.08rem;
+        color: rgba(244, 241, 239, 0.82);
+        max-width: 680px;
+        margin-bottom: 1.25rem;
+      }
+      .hero-cta {
+        display: flex;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 0.4rem;
+      }
+
+      /* KPI strip */
+      .kpi-strip {
+        margin-top: 1.55rem;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+        padding: 1.15rem 1.15rem;
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
+        backdrop-filter: blur(10px);
+      }
+      .kpi {
+        padding: 0.25rem 0.3rem;
+      }
+      .kpi-num {
+        font-family: "Noto Serif KR", serif;
+        font-size: 2rem;
+        font-weight: 850;
+        color: #fff;
+        line-height: 1.05;
+      }
+      .kpi-label {
+        margin-top: 0.35rem;
+        font-size: 0.9rem;
+        color: rgba(244, 241, 239, 0.78);
+        font-weight: 650;
+      }
+      .kpi-note {
+        grid-column: 1/-1;
+        margin-top: 0.15rem;
+        font-size: 0.82rem;
+        color: rgba(244, 241, 239, 0.66);
+        font-weight: 600;
+        line-height: 1.55;
+      }
+
+      /* Right insights card */
+      .glass-card {
+        border-radius: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 0 18px 44px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        overflow: hidden;
+      }
+      .card-pad {
+        padding: 1.15rem 1.15rem 1.2rem;
+      }
+      .card-title {
+        font-size: 1.05rem;
+        font-weight: 950;
+        color: #fff;
+        margin-bottom: 0.55rem;
+      }
+      .muted {
+        color: rgba(244, 241, 239, 0.76);
+        font-size: 0.95rem;
+      }
+
+      /* Data board section */
+      .board {
+        padding: 0;
+      }
+      .board-wrap {
+        border-radius: 26px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        background:
+          radial-gradient(
+            900px 420px at 20% 20%,
+            rgba(156, 26, 54, 0.2),
+            transparent 60%
+          ),
+          radial-gradient(
+            900px 420px at 80% 40%,
+            rgba(90, 11, 31, 0.18),
+            transparent 60%
+          ),
+          linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.05),
+            rgba(255, 255, 255, 0.03)
+          );
+        box-shadow: 0 22px 60px rgba(0, 0, 0, 0.35);
+        padding: 1.4rem 1.3rem 1.25rem;
+        backdrop-filter: blur(10px);
+      }
+      .board-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+        gap: 1.2rem;
+        align-items: start;
+        margin-top: 1.35rem;
+      }
+
+      /* Bars  */
+      .bars-card {
+        border-radius: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(0, 0, 0, 0.12);
+        padding: 1.2rem 1.1rem;
+      }
+      .bars-title {
+        font-weight: 950;
+        color: #fff;
+        margin-bottom: 0.85rem;
+        font-size: 1.05rem;
+      }
+      .bar-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1.6fr) minmax(0, 2.4fr) auto;
+        gap: 0.9rem;
+        align-items: center;
+        margin-bottom: 0.85rem;
+        font-size: 0.95rem;
+        color: rgba(244, 241, 239, 0.86);
+        font-weight: 850;
+      }
+      .bar {
+        height: 18px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.1);
+        overflow: hidden;
+      }
+      .fill {
+        height: 100%;
+        border-radius: 999px;
+        background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0.9),
+          rgba(156, 26, 54, 0.95)
+        );
+        width: 0%;
+        transition: width 0.9s ease;
+      }
+      .pct {
+        font-weight: 950;
+        color: #fff;
+        white-space: nowrap;
+      }
+      .mini-bullets {
+        margin-top: 0.9rem;
+        display: grid;
+        gap: 0.55rem;
+        color: rgba(244, 241, 239, 0.75);
+        font-size: 0.9rem;
+        font-weight: 650;
+      }
+      .mini-bullets strong {
+        color: #fff;
+      }
+
+      /* Timeline */
+      .timeline-card {
+        border-radius: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(0, 0, 0, 0.1);
+        padding: 1.2rem 1.1rem;
+      }
+      .timeline-title {
+        font-weight: 950;
+        color: #fff;
+        margin-bottom: 0.85rem;
+        font-size: 1.05rem;
+      }
+      .timeline {
+        display: grid;
+        gap: 0.75rem;
+      }
+      .t-item {
+        display: grid;
+        grid-template-columns: 90px 12px minmax(0, 1fr);
+        gap: 0.75rem;
+        align-items: start;
+        padding: 0.65rem 0.6rem;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .t-month {
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.92);
+        font-size: 0.9rem;
+      }
+      .t-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        margin-top: 0.22rem;
+        background: var(--accent);
+        box-shadow: 0 0 0 4px rgba(156, 26, 54, 0.16);
+      }
+      .t-main {
+        font-weight: 900;
+        color: #fff;
+        font-size: 0.92rem;
+        line-height: 1.2;
+      }
+      .t-sub {
+        margin-top: 0.2rem;
+        color: rgba(244, 241, 239, 0.72);
+        font-size: 0.82rem;
+        font-weight: 650;
+        line-height: 1.5;
+      }
+
+      /* Reviews (case cards) */
+      .cases {
+        padding-top: 3.6rem;
+      }
+      .case-grid {
+        margin-top: 1.7rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.1rem;
+      }
+      .case {
+        border-radius: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 0 18px 44px rgba(0, 0, 0, 0.26);
+        backdrop-filter: blur(10px);
+        padding: 1.1rem 1.05rem;
+      }
+      .case-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        font-size: 0.78rem;
+        font-weight: 900;
+        padding: 0.22rem 0.65rem;
+        border-radius: 999px;
+        background: rgba(156, 26, 54, 0.18);
+        border: 1px solid rgba(156, 26, 54, 0.22);
+        color: rgba(255, 255, 255, 0.92);
+        margin-bottom: 0.7rem;
+        width: fit-content;
+      }
+      .case-title {
+        font-weight: 950;
+        font-size: 1.02rem;
+        color: #fff;
+        margin-bottom: 0.35rem;
+      }
+      .case-memo {
+        color: rgba(244, 241, 239, 0.78);
+        font-size: 0.92rem;
+        font-weight: 650;
+        line-height: 1.6;
+        margin-bottom: 0.75rem;
+      }
+      .case-metrics {
+        display: grid;
+        gap: 0.45rem;
+        font-size: 0.86rem;
+        color: rgba(244, 241, 239, 0.84);
+        font-weight: 700;
+      }
+      .case-metrics strong {
+        color: #fff;
+      }
+      .case-quote {
+        margin-top: 0.8rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 0.75rem;
+        color: rgba(244, 241, 239, 0.76);
+        font-size: 0.9rem;
+        font-weight: 650;
+      }
+
+      /* ===== NEW: FAQ (Transfer Students) ===== */
+      .faq2 {
+        padding-top: 1.6rem;
+      }
+      .faq2-wrap {
+        border-radius: 26px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 0 22px 60px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(10px);
+        padding: 1.35rem 1.25rem 1.25rem;
+      }
+      .faq2-top {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+      }
+      .faq2-title {
+        font-weight: 950;
+        color: #fff;
+        font-size: 1.35rem;
+        font-family: "Noto Serif KR", serif;
+        letter-spacing: -0.02em;
+      }
+      .faq2-sub {
+        margin-top: 0.35rem;
+        color: rgba(244, 241, 239, 0.74);
+        font-size: 0.95rem;
+        font-weight: 650;
+        max-width: 860px;
+        line-height: 1.65;
+      }
+      .faq2-actions {
+        display: flex;
+        gap: 0.55rem;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .btn-small {
+        padding: 0.5rem 0.95rem;
+        font-size: 0.86rem;
+        font-weight: 900;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        background: rgba(0, 0, 0, 0.1);
+        color: #fff;
+        cursor: pointer;
+        transition:
+          transform 0.12s ease,
+          background 0.12s ease,
+          border-color 0.12s ease;
+      }
+      .btn-small:hover {
+        transform: translateY(-1px);
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(255, 255, 255, 0.22);
+      }
+      .faq2-grid {
+        margin-top: 0.9rem;
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+        gap: 1.1rem;
+        align-items: start;
+      }
+      .faq2-list {
+        border-radius: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(0, 0, 0, 0.1);
+        padding: 1.05rem 1.05rem;
+      }
+      .faq2-side {
+        border-radius: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(0, 0, 0, 0.1);
+        padding: 1.05rem 1.05rem;
+      }
+      .faq2-side h3 {
+        font-size: 1.05rem;
+        color: #fff;
+        font-weight: 950;
+        margin-bottom: 0.6rem;
+      }
+      .faq2-side p {
+        color: rgba(244, 241, 239, 0.74);
+        font-size: 0.92rem;
+        font-weight: 650;
+        line-height: 1.65;
+      }
+      .faq2-points {
+        margin-top: 0.9rem;
+        display: grid;
+        gap: 0.55rem;
+        color: rgba(244, 241, 239, 0.78);
+        font-size: 0.92rem;
+        font-weight: 650;
+      }
+      .faq2-points strong {
+        color: #fff;
+      }
+
+      .faq2 details {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 16px;
+        padding: 0.85rem 0.9rem;
+        margin-bottom: 0.65rem;
+        transition:
+          border-color 0.12s ease,
+          background 0.12s ease;
+      }
+      .faq2 details[open] {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(255, 255, 255, 0.16);
+      }
+      .faq2 summary {
+        cursor: pointer;
+        font-weight: 950;
+        color: rgba(255, 255, 255, 0.92);
+        font-size: 0.95rem;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.8rem;
+      }
+      .faq2 summary::-webkit-details-marker {
+        display: none;
+      }
+      .faq2 summary .q {
+        display: flex;
+        gap: 0.55rem;
+        align-items: flex-start;
+      }
+      .faq2 summary .q .chip {
+        width: 22px;
+        height: 22px;
+        border-radius: 8px;
+        display: grid;
+        place-items: center;
+        font-weight: 950;
+        background: rgba(156, 26, 54, 0.18);
+        border: 1px solid rgba(156, 26, 54, 0.24);
+        color: #fff;
+        flex-shrink: 0;
+        margin-top: 0.05rem;
+      }
+      .faq2 summary .chev {
+        width: 28px;
+        height: 28px;
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        flex-shrink: 0;
+        transition: transform 0.15s var(--ease-out);
+      }
+      .faq2 details[open] summary .chev {
+        transform: rotate(180deg);
+      }
+      .faq2 details p {
+        margin-top: 0.6rem;
+        color: rgba(244, 241, 239, 0.76);
+        font-size: 0.92rem;
+        font-weight: 650;
+        line-height: 1.7;
+      }
+      .faq2 .hint {
+        margin-top: 0.65rem;
+        font-size: 0.82rem;
+        color: rgba(244, 241, 239, 0.64);
+        font-weight: 650;
+        line-height: 1.6;
+      }
+
+      /* =========================
+       Footer
+       ========================= */
+      footer {
+        background: #1a1a1a; /* 이미지 11의 짙은 배경색 반영 */
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 4rem 0 2rem;
+        font-size: 0.85rem;
+        line-height: 1.8;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2.5rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f8fafc;
+        font-weight: 700;
+        min-width: 80px;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f8fafc;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64748b;
+      }
+
+      /* Modal (Contact) */
+      .modal-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 80;
+        padding: 1.2rem;
+      }
+      .modal-overlay.open {
+        display: flex;
+      }
+      .modal {
+        width: 100%;
+        max-width: 860px;
+        border-radius: 22px;
+        background: #fff;
+        color: #111;
+        border: 1px solid rgba(10, 10, 10, 0.1);
+        box-shadow: 0 26px 80px rgba(0, 0, 0, 0.35);
+        overflow: hidden;
+      }
+      .modal-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.1rem 1.25rem;
+        border-bottom: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+      }
+      .modal-title {
+        font-weight: 950;
+        color: var(--primary-dark);
+        font-size: 1.05rem;
+      }
+      .modal-close {
+        border: none;
+        background: rgba(0, 0, 0, 0.06);
+        width: 36px;
+        height: 36px;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 1.1rem;
+      }
+      .modal-body {
+        padding: 1.2rem 1.25rem 1.3rem;
+      }
+      .form-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem 1.2rem;
+      }
+      .form-full {
+        grid-column: 1 / -1;
+      }
+      .form-group label {
+        display: block;
+        font-size: 0.88rem;
+        font-weight: 850;
+        margin-bottom: 0.35rem;
+        color: #374151;
+      }
+      .form-group input,
+      .form-group textarea,
+      .form-group select {
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid rgba(10, 10, 10, 0.12);
+        padding: 0.68rem 0.8rem;
+        font-size: 0.95rem;
+        font-family: inherit;
+        outline: none;
+        transition:
+          box-shadow 0.12s ease,
+          border-color 0.12s ease;
+        background: #fff;
+      }
+      .form-group input:focus,
+      .form-group textarea:focus,
+      .form-group select:focus {
+        border-color: rgba(156, 26, 54, 0.45);
+        box-shadow: 0 0 0 3px rgba(156, 26, 54, 0.12);
+      }
+      .form-group textarea {
+        resize: vertical;
+        min-height: 96px;
+      }
+      .form-note {
+        font-size: 0.82rem;
+        color: #6b7280;
+        margin-top: 0.7rem;
+      }
+      .modal-actions {
+        margin-top: 1.1rem;
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.6rem;
+      }
+
+      /* Responsive */
+      @media (max-width: 1100px) {
+        .board-grid {
+          grid-template-columns: 1fr;
+        }
+        .case-grid {
+          grid-template-columns: 1fr;
+        }
+        .faq2-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (max-width: 960px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto;
+          padding: 0;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+          position: relative;
+          z-index: 101;
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          padding: 10px 20px 40px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .nav-open .nav-toggle span {
+          color: #000 !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+      @media (max-width: 640px) {
+        section {
+          padding: 3.8rem 0;
+        }
+        .logo-mark {
+          width: 190px;
+          height: 68px;
+        }
+        .hero-title {
+          font-size: 2.1rem;
+        }
+        .kpi-num {
+          font-size: 1.75rem;
+        }
+        .section-title {
+          font-size: 2.15rem;
+        }
+      }
+
+      /* 이상한 말줄임..? */
+      * {
+        text-overflow: clip;
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <!-- Floating Social -->
+      <div class="floating-social">
+        <a
+          href="https://open.kakao.com/o/pw88Wn4h"
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="카카오톡 오픈채팅"
+        >
+          <img src="icons/kakao.png" alt="KakaoTalk" />
+        </a>
+        <a
+          href="https://cafe.naver.com/onevisionconsulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="네이버 카페"
+        >
+          <img src="icons/naver-cafe.png" alt="Naver Cafe" />
+        </a>
+        <a
+          href="https://www.instagram.com/onevision_consulting?igsh=NTc4MTowNjQ2YQ=="
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="인스타그램"
+        >
+          <img src="icons/instagram.png" alt="Instagram" />
+        </a>
+        <a
+          href="https://www.facebook.com/p/OneVision-Consulting-원비전컨설팅-61582774824246/?hr=1&wtsid=rdr_0kaOLD4UDCcuhPGwV"
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="페이스북"
+        >
+          <img src="icons/facebook.png" alt="Facebook" />
+        </a>
+        <a
+          href="https://blog.naver.com/onevision_consulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon"
+          aria-label="네이버 블로그"
+        >
+          <img src="icons/naver-blog.png" alt="Naver Blog" />
+        </a>
+      </div>
+
+      <!-- Header -->
+      <header></header>
+
+      <main id="top">
+        <!-- HERO -->
+        <section class="hero">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Transfer Intensive
+            </div>
+
+            <div class="hero-grid">
+              <div>
+                <h1 class="hero-title">
+                  UC/주립대 편입,<br />
+                  <span>‘계산 가능한 전략’으로 관리합니다</span>
+                </h1>
+
+                <p class="hero-lead">
+                  편입은 “열심히”보다
+                  <strong
+                    >요건 체크, 수업 플랜, GPA 시나리오, 에세이 타이밍</strong
+                  >이 승부입니다.<br />
+                  원비전은 <strong>TAG/IGETC/전공 프리렉</strong>을 체크리스트로
+                  관리하고, 주별로 “지금 해야 할 것”을 데이터처럼 쌓아 갑니다.
+                </p>
+
+                <div class="hero-cta">
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    onclick="openContact()"
+                  >
+                    편입 무료 상담 신청
+                  </button>
+                  <a class="btn btn-outline" href="#databoard"
+                    >편입 데이터 보드 보기</a
+                  >
+                  <a class="btn btn-outline" href="#transfer-faq"
+                    >편입 Q&A 보기</a
+                  >
+                </div>
+
+                <div class="kpi-strip" aria-label="편입 KPI">
+                  <div class="kpi">
+                    <div class="kpi-num">88%</div>
+                    <div class="kpi-label">UC/주립대 편입 성공률</div>
+                  </div>
+                  <div class="kpi">
+                    <div class="kpi-num">2.2x</div>
+                    <div class="kpi-label">요건 누락 리스크 감소</div>
+                  </div>
+                  <div class="kpi">
+                    <div class="kpi-num">+0.38</div>
+                    <div class="kpi-label">평균 GPA 개선(관리 케이스)</div>
+                  </div>
+                  <div class="kpi">
+                    <div class="kpi-num">12w</div>
+                    <div class="kpi-label">에세이/원서 집중 스프린트</div>
+                  </div>
+
+                  <div class="kpi-note">
+                    * 수치는 원비전 내부 케이스 집계/설문 기반 예시입니다.
+                    (표본·연도에 따라 달라질 수 있습니다)
+                  </div>
+                </div>
+              </div>
+
+              <div class="glass-card">
+                <img
+                  src="images/ucberk.jpeg"
+                  alt="UC 캠퍼스"
+                  style="width: 100%; height: 260px; object-fit: cover"
+                />
+                <div class="card-pad">
+                  <div class="card-title">
+                    편입에서 가장 흔한 실패 원인 TOP 3
+                  </div>
+                  <p class="muted">
+                    1) 전공 프리렉 과목이 1개 빠짐<br />
+                    2) IGETC/GE 구성이 불완전<br />
+                    3) 에세이 늦게 시작해서 “설득 구조”가 약함<br /><br />
+                    원비전은 위 3개를
+                    <strong>체크리스트 + 주간 리포트</strong>로 잡습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- DATA BOARD -->
+        <section class="board" id="databoard">
+          <div class="container">
+            <div class="board-wrap">
+              <div class="section-badge" style="margin-bottom: 0.75rem">
+                <span class="section-badge-dot"></span>
+                Transfer Data Board
+              </div>
+              <h2 class="section-title" style="margin-bottom: 0.25rem">
+                편입 데이터 보드
+              </h2>
+              <p class="section-subtitle">
+                “감”이 아니라 <strong>지표</strong>로 관리합니다: 요건 충족률,
+                에세이 진행률, GPA 시나리오, 제출 준비도.
+              </p>
+
+              <div class="board-grid">
+                <!-- Graph-like bars -->
+                <div class="bars-card" aria-label="편입 지표 그래프">
+                  <div class="bars-title">핵심 지표(예시)</div>
+
+                  <div class="bar-row">
+                    <span>요건 충족(전공 프리렉/IGETC)</span>
+                    <div class="bar">
+                      <div class="fill" data-fill="86"></div>
+                    </div>
+                    <span class="pct">86%</span>
+                  </div>
+
+                  <div class="bar-row">
+                    <span>GPA 목표 진척(플랜 대비)</span>
+                    <div class="bar">
+                      <div class="fill" data-fill="72"></div>
+                    </div>
+                    <span class="pct">72%</span>
+                  </div>
+
+                  <div class="bar-row">
+                    <span>에세이/PIQ 초안 완성도</span>
+                    <div class="bar">
+                      <div class="fill" data-fill="64"></div>
+                    </div>
+                    <span class="pct">64%</span>
+                  </div>
+
+                  <div class="bar-row">
+                    <span>원서 제출 준비도(서류/리스트)</span>
+                    <div class="bar">
+                      <div class="fill" data-fill="78"></div>
+                    </div>
+                    <span class="pct">78%</span>
+                  </div>
+
+                  <div class="mini-bullets">
+                    <div>
+                      • <strong>요건 누락</strong>은 “합격 가능성”을 바로
+                      깎습니다. 체크리스트로 매주 업데이트.
+                    </div>
+                    <div>
+                      • 에세이는 <strong>구조(논리)</strong>가 먼저, 디테일은 그
+                      다음.
+                    </div>
+                    <div>
+                      • GPA는 “현재”보다 <strong>시나리오</strong>(남은 학기
+                      설계)가 중요합니다.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Timeline -->
+                <div class="timeline-card" aria-label="편입 타임라인">
+                  <div class="timeline-title">편입 타임라인(권장)</div>
+
+                  <div class="timeline">
+                    <div class="t-item">
+                      <div class="t-month">3–6월</div>
+                      <div class="t-dot"></div>
+                      <div>
+                        <div class="t-main">요건 진단 + 수업플랜 확정</div>
+                        <div class="t-sub">
+                          전공 프리렉/IGETC/GE, TAG 가능성, 목표 스쿨 리스트업
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-item">
+                      <div class="t-month">7–8월</div>
+                      <div class="t-dot"></div>
+                      <div>
+                        <div class="t-main">에세이 구조 설계 + 초안</div>
+                        <div class="t-sub">
+                          PIQ/PS 핵심 메시지(전공 적합+성장), 활동 증거 정리
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-item">
+                      <div class="t-month">9–10월</div>
+                      <div class="t-dot"></div>
+                      <div>
+                        <div class="t-main">원서 제출 준비(서류/리스트)</div>
+                        <div class="t-sub">
+                          지원전략 최종, 에세이 다듬기, 제출 체크리스트
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-item">
+                      <div class="t-month">11–3월</div>
+                      <div class="t-dot"></div>
+                      <div>
+                        <div class="t-main">업데이트/보완 + 결과 플랜</div>
+                        <div class="t-sub">
+                          추가자료, 대안 플랜(주립/사립/전공변경)까지 동시에
+                          준비
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="muted" style="margin-top: 0.85rem">
+                    * 학교/전형/학기에 따라 달라질 수 있어요. 상담에서 “본인
+                    캘린더”로 바꿔드립니다.
+                  </div>
+                </div>
+              </div>
+
+              <!-- ===== NEW FAQ SECTION (Transfer Students) ===== -->
+              <section
+                class="faq2"
+                id="transfer-faq"
+                aria-label="편입 자주 묻는 질문"
+              >
+                <div class="faq2-wrap">
+                  <div class="faq2-top">
+                    <div>
+                      <div class="section-badge" style="margin-bottom: 0.5rem">
+                        <span class="section-badge-dot"></span>
+                        Transfer Q&amp;A
+                      </div>
+                      <div class="faq2-title">
+                        편입 자주 묻는 질문 (학생 Q&A)
+                      </div>
+                      <p class="faq2-sub">
+                        편입 상담에서 반복되는 질문들을 모았습니다. 학교마다
+                        디테일이 달라서, 원비전은 최종적으로
+                        <strong>전공/캠퍼스/학기 캘린더</strong> 기준으로 “내
+                        플랜”으로 바꿔드립니다.
+                      </p>
+                    </div>
+
+                    <div class="faq2-actions">
+                      <button class="btn-small" type="button" id="faqOpenAll">
+                        전체 열기
+                      </button>
+                      <button class="btn-small" type="button" id="faqCloseAll">
+                        전체 닫기
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="faq2-grid">
+                    <div class="faq2-list">
+                      <details class="faq-item">
+                        <summary>
+                          <span class="q"
+                            ><span class="chip">Q</span> TAG만 믿고 가도
+                            되나요?</span
+                          >
+                          <span class="chev">⌄</span>
+                        </summary>
+                        <p>
+                          TAG는 강력하지만 “전공/캠퍼스/요건”이 핵심이에요. TAG
+                          가능한 플랜을 기본으로 깔고,
+                          <strong>비TAG 상향 지원(안전·적정·상향)</strong>을
+                          함께 설계해서 확률을 분산하는 게 안정적입니다.
+                        </p>
+                      </details>
+
+                      <details class="faq-item">
+                        <summary>
+                          <span class="q"
+                            ><span class="chip">Q</span> IGETC는 무조건 해야
+                            하나요?</span
+                          >
+                          <span class="chev">⌄</span>
+                        </summary>
+                        <p>
+                          “무조건”은 아니고, 목표 캠퍼스/전공에 따라 달라요.
+                          IGETC가 유리한 경우가 많지만, 전공 프리렉이 더 중요한
+                          전공도 있고, 일정상 IGETC를 다 채우면 오히려 전공
+                          과목이 밀릴 수 있어요. 결론은
+                          <strong>목표 전공 프리렉 + GE 전략의 균형</strong
+                          >입니다.
+                        </p>
+                      </details>
+
+                      <details class="faq-item">
+                        <summary>
+                          <span class="q"
+                            ><span class="chip">Q</span> 전공 프리렉(Prereq)은
+                            어디서 확인하나요?</span
+                          >
+                          <span class="chev">⌄</span>
+                        </summary>
+                        <p>
+                          UC는 전공/캠퍼스마다 요구가 달라요. 보통
+                          <strong>Assist.org</strong> 기반으로 CC 과목 매칭을
+                          확인하고, 학교 사이트에서 “major prep” 요구를 교차
+                          체크해야 합니다. 원비전은 이걸 체크리스트로 묶어서
+                          “누락 0” 상태로 관리합니다.
+                        </p>
+                      </details>
+
+                      <details class="faq-item">
+                        <summary>
+                          <span class="q"
+                            ><span class="chip">Q</span> GPA가 낮으면 편입은
+                            끝인가요?</span
+                          >
+                          <span class="chev">⌄</span>
+                        </summary>
+                        <p>
+                          “현재 GPA”보다 <strong>남은 학기 시나리오</strong>가
+                          더 중요해요. 어떤 과목을 언제 듣고, 어떤 학기에
+                          고득점을 만들지 설계하면 그래프가 달라집니다. 필요 시
+                          리테이크/난이도 조절/학점 분배로 “상승 곡선”을 만들 수
+                          있어요.
+                        </p>
+                      </details>
+
+                      <details class="faq-item">
+                        <summary>
+                          <span class="q"
+                            ><span class="chip">Q</span> 편입 에세이는 언제
+                            시작해야 하나요?</span
+                          >
+                          <span class="chev">⌄</span>
+                        </summary>
+                        <p>
+                          최소 <strong>12주</strong> 권장합니다. 순서는 1)
+                          메시지(핵심 주장) 2) 증거(활동/성과) 3) 구조(논리) 4)
+                          문장(톤) 순으로 가야 “합격형”이 됩니다.
+                        </p>
+                      </details>
+
+                      <details class="faq-item">
+                        <summary>
+                          <span class="q"
+                            ><span class="chip">Q</span> 활동(EC)이 부족하면
+                            불리한가요?</span
+                          >
+                          <span class="chev">⌄</span>
+                        </summary>
+                        <p>
+                          활동의 “개수”보다
+                          <strong>전공 적합성 + 성장/임팩트</strong>가 중요해요.
+                          리서치/프로젝트/인턴/클럽이 아니어도, 전공 관련 개인
+                          프로젝트, 튜터링, 파트타임 경험을 “증거”로 재구성하면
+                          강해집니다.
+                        </p>
+                      </details>
+
+                      <details class="faq-item">
+                        <summary>
+                          <span class="q"
+                            ><span class="chip">Q</span> 원서 제출 전에 꼭
+                            체크해야 할 리스트는?</span
+                          >
+                          <span class="chev">⌄</span>
+                        </summary>
+                        <p>
+                          1) 전공 프리렉 누락 여부 2) IGETC/GE 구성 3)
+                          학점/과목명 일치(트랜스크립트) 4) 에세이 메시지 일관성
+                          5) 제출 후 업데이트 계획(추가 자료/성적)까지가
+                          핵심입니다.
+                        </p>
+                      </details>
+
+                      <details class="faq-item">
+                        <summary>
+                          <span class="q"
+                            ><span class="chip">Q</span> 전공 변경(메이저
+                            체인지)도 가능한가요?</span
+                          >
+                          <span class="chev">⌄</span>
+                        </summary>
+                        <p>
+                          가능합니다. 다만 전공 변경은 “스토리”만 바꾸는 게
+                          아니라
+                          <strong>프리렉 로드맵 + 활동 증거</strong>가 함께
+                          바뀌어야 설득력이 생겨요. 원비전은 전공 변경 케이스는
+                          최소 1학기 앞당겨 설계하는 걸 권합니다.
+                        </p>
+                      </details>
+
+                      <details class="faq-item">
+                        <summary>
+                          <span class="q"
+                            ><span class="chip">Q</span> 합격 후에도 해야 할 게
+                            있나요?</span
+                          >
+                          <span class="chev">⌄</span>
+                        </summary>
+                        <p>
+                          네. 합격은 “시작”이에요. 트랜스크립트 최종 제출,
+                          주거/기숙사/오리엔테이션, 수강신청 전략, 장학금/재정
+                          플랜까지 이어집니다. 원비전은 “편입 이후” 로드맵도
+                          같이 잡아드립니다.
+                        </p>
+                      </details>
+
+                      <div class="hint">
+                        * 위 내용은 일반적인 가이드입니다. 목표 캠퍼스/전공/CC에
+                        따라 디테일이 달라질 수 있어요.
+                      </div>
+                    </div>
+
+                    <div class="faq2-side">
+                      <h3>원비전 FAQ를 “플랜”으로 바꾸는 방식</h3>
+                      <p>
+                        질문은 누구나 같지만, 답은 학생마다 달라요. 원비전은
+                        상담에서 아래 3가지를 바로 정리합니다.
+                      </p>
+
+                      <div class="faq2-points">
+                        <div>
+                          • <strong>전공 프리렉/IGETC 체크</strong>: 누락 0로
+                          만드는 체크리스트
+                        </div>
+                        <div>
+                          • <strong>GPA 시나리오</strong>: 남은 학기별 목표
+                          점수/과목 조합
+                        </div>
+                        <div>
+                          • <strong>에세이 구조</strong>: “한 문장 핵심 주장” →
+                          증거 재배치
+                        </div>
+                      </div>
+
+                      <div style="margin-top: 1.05rem">
+                        <button
+                          class="btn btn-primary"
+                          type="button"
+                          onclick="openContact()"
+                        >
+                          내 상황으로 Q&A 진단받기
+                        </button>
+                      </div>
+
+                      <p class="muted" style="margin-top: 0.8rem">
+                        상담에서 “내 캘린더 기준”으로 1:1 로드맵으로 바꿔드려요.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- ===== /NEW FAQ SECTION ===== -->
+            </div>
+          </div>
+        </section>
+
+        <!-- CASES / REVIEWS -->
+        <section class="cases" id="cases">
+          <div class="container">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              Real Transfer Stories
+            </div>
+            <h2 class="section-title">편입 케이스 후기(숫자로 보는 스토리)</h2>
+            <p class="section-subtitle">
+              “감동 후기”도 좋지만, 학부모님은 <strong>숫자</strong>가 먼저
+              필요하죠. 아래는 편입 과정에서 자주 나오는 케이스를 데이터처럼
+              정리한 예시입니다.
+            </p>
+
+            <div class="case-grid">
+              <div class="case">
+                <div class="case-tag">
+                  <span
+                    class="section-badge-dot"
+                    style="width: 6px; height: 6px"
+                  ></span>
+                  CC → UC 편입
+                </div>
+                <div class="case-title">
+                  요건 누락 2개를 조기 발견해서 “살린” 케이스
+                </div>
+                <div class="case-memo">
+                  전공 프리렉 1개 + IGETC 1개가 빠져 있었는데, 1학기 전에
+                  수정해서 제출 가능 상태로 전환.
+                </div>
+                <div class="case-metrics">
+                  <div>• 요건 충족률: <strong>54% → 100%</strong></div>
+                  <div>• 에세이 초안: <strong>3주</strong> 내 완성</div>
+                  <div>• 제출 체크리스트: <strong>0 누락</strong></div>
+                </div>
+                <div class="case-quote">
+                  “몰랐으면 지원 자체가 불가능했을 뻔했어요. 체크리스트가
+                  진짜였어요.”
+                </div>
+              </div>
+
+              <div class="case">
+                <div class="case-tag">
+                  <span
+                    class="section-badge-dot"
+                    style="width: 6px; height: 6px"
+                  ></span>
+                  GPA 반등
+                </div>
+                <div class="case-title">
+                  GPA ‘현재’가 아니라 ‘시나리오’로 뒤집은 케이스
+                </div>
+                <div class="case-memo">
+                  낮은 시작점에서 “고득점 학기”를 설계하고, 과목 난이도/스케줄을
+                  재조정해서 상승 곡선 만들기.
+                </div>
+                <div class="case-metrics">
+                  <div>• GPA: <strong>3.12 → 3.50</strong></div>
+                  <div>• 고득점(3.7+) 학기: <strong>2학기</strong></div>
+                  <div>• 리테이크/전략 과목: <strong>핵심 4개</strong></div>
+                </div>
+                <div class="case-quote">
+                  “무작정 듣는 게 아니라 ‘이기는 과목표’가 있다는 느낌이었어요.”
+                </div>
+              </div>
+
+              <div class="case">
+                <div class="case-tag">
+                  <span
+                    class="section-badge-dot"
+                    style="width: 6px; height: 6px"
+                  ></span>
+                  에세이 구조
+                </div>
+                <div class="case-title">
+                  문장보다 “논리 구조” 먼저 잡아서 설득력 상승
+                </div>
+                <div class="case-memo">
+                  활동은 많았지만 연결이 약했는데, 전공 적합 스토리(Why major)를
+                  중심으로 증거를 재배치.
+                </div>
+                <div class="case-metrics">
+                  <div>• 에세이 개편: <strong>2회 구조 리라이트</strong></div>
+                  <div>
+                    • 메시지(핵심 주장): <strong>1문장</strong>으로 정리
+                  </div>
+                  <div>• 증거(활동/성과): <strong>6개</strong> 선별</div>
+                </div>
+                <div class="case-quote">
+                  “이제야 ‘내 얘기’가 한 줄로 정리돼서, 쓰는 속도가 달라졌어요.”
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 1.5rem">
+              <button
+                class="btn btn-primary"
+                type="button"
+                onclick="openContact()"
+              >
+                내 케이스로 진단받기
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer></footer>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal-overlay" id="contactModal" aria-hidden="true">
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="무료 상담 신청"
+      >
+        <div class="modal-head">
+          <div class="modal-title">무료 1:1 상담 신청</div>
+          <button
+            class="modal-close"
+            type="button"
+            aria-label="닫기"
+            onclick="closeContact()"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <form method="post" action="#">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="parentName">학부모 성함</label>
+                <input
+                  id="parentName"
+                  name="parentName"
+                  type="text"
+                  placeholder="예: 김OO 학부모님"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="studentName">학생 이름</label>
+                <input
+                  id="studentName"
+                  name="studentName"
+                  type="text"
+                  placeholder="예: 김OO"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="grade">학생 현재 학년</label>
+                <select id="grade" name="grade" required>
+                  <option value="">선택하세요</option>
+                  <option value="us-high">미국 High School</option>
+                  <option value="cc">Community College 재학</option>
+                  <option value="univ">대학교 재학/휴학</option>
+                  <option value="etc">기타</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contactInfo">연락처(카카오 ID 또는 이메일)</label>
+                <input
+                  id="contactInfo"
+                  name="contactInfo"
+                  type="text"
+                  placeholder="예: Kakao ID 또는 email"
+                  required
+                />
+              </div>
+
+              <div class="form-group form-full">
+                <label for="targetArea">목표 학교/전공 (선택)</label>
+                <input
+                  id="targetArea"
+                  name="targetArea"
+                  type="text"
+                  placeholder="예: UCLA Econ, UCSD Bio, CS 등"
+                />
+              </div>
+
+              <div class="form-group form-full">
+                <label for="message">상담 요청 내용</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="현재 GPA, 이수 과목, 목표 캠퍼스, 고민을 적어주세요."
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="modal-actions">
+              <button
+                class="btn btn-outline"
+                type="button"
+                onclick="closeContact()"
+              >
+                닫기
+              </button>
+              <button class="btn btn-primary" type="submit">
+                무료 상담 신청 보내기
+              </button>
+            </div>
+
+            <p class="form-note">
+              ※ 현재 폼 전송은 형식용입니다. Hostinger 폼 또는 Formspree 등으로
+              action을 연결하면 실제 전송됩니다.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/common.js"></script>
+    <script>
+      // Modal open/close
+      function openContact() {
+        const m = document.getElementById("contactModal");
+        if (!m) return;
+        m.classList.add("open");
+        m.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      }
+      function closeContact() {
+        const m = document.getElementById("contactModal");
+        if (!m) return;
+        m.classList.remove("open");
+        m.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+      }
+      document.getElementById("contactModal").addEventListener("click", (e) => {
+        if (e.target.id === "contactModal") closeContact();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeContact();
+      });
+
+      // Animate bars on load
+      (function () {
+        const fills = document.querySelectorAll(".fill[data-fill]");
+        const on = () =>
+          fills.forEach((f) => (f.style.width = (f.dataset.fill || "0") + "%"));
+        setTimeout(on, 250);
+      })();
+
+      // FAQ open/close all
+      (function () {
+        const openBtn = document.getElementById("faqOpenAll");
+        const closeBtn = document.getElementById("faqCloseAll");
+        const items = Array.from(
+          document.querySelectorAll("#transfer-faq details.faq-item"),
+        );
+
+        function openAll() {
+          items.forEach((d) => (d.open = true));
+        }
+        function closeAll() {
+          items.forEach((d) => (d.open = false));
+        }
+
+        openBtn?.addEventListener("click", openAll);
+        closeBtn?.addEventListener("click", closeAll);
+      })();
+    </script>
+  </body>
+</html>

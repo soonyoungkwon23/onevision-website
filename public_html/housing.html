@@ -1,0 +1,1046 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OneVision | 이민 · 주거 리서치 (Housing & Immigration Lab)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="미국 이민·주거 리서치: 주별 세금, 렌트 시세, 학군, 커뮤니티를 OneVision이 데이터 기준으로 비교 정리합니다."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-main: #0b0e14;
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --text-on-dark: #f8fafc;
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        --r-lg: 18px;
+        --r-xl: 26px;
+
+        --max: 1100px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family:
+          "Inter",
+          "Noto Sans KR",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.7;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .container {
+        width: 100%;
+        max-width: var(--max);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+
+      /* ===== Header ===== */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+      }
+      .nav {
+        height: 86px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+      }
+      .logo a {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+      }
+      .logo-mark {
+        width: 190px;
+        height: 64px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.12em;
+        font-size: 0.95rem;
+        color: #111827;
+        text-transform: uppercase;
+      }
+      .logo-text-sub {
+        font-size: 0.72rem;
+        color: #6b7280;
+        margin-top: -0.05rem;
+        white-space: nowrap;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--primary);
+      }
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        white-space: nowrap;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.62rem 1.2rem;
+        border-radius: 999px;
+        border: 1px solid transparent;
+        font-weight: 800;
+        font-size: 0.86rem;
+        cursor: pointer;
+        transition:
+          transform 0.13s ease,
+          box-shadow 0.13s ease,
+          background 0.13s ease;
+      }
+      .btn-primary {
+        background: var(--primary);
+        color: #fff;
+      }
+      .btn-primary:hover {
+        background: var(--primary-dark);
+        transform: translateY(-1px);
+        box-shadow: 0 18px 40px rgba(64, 0, 16, 0.45);
+      }
+      .btn-outline {
+        background: #fff;
+        color: var(--primary);
+        border-color: rgba(128, 0, 32, 0.25);
+      }
+      .btn-outline:hover {
+        transform: translateY(-1px);
+        background: rgba(128, 0, 32, 0.05);
+      }
+
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #111827;
+      }
+
+      /* ===== Hero ===== */
+      .hero {
+        padding: 3.6rem 0 2.2rem;
+        background: radial-gradient(
+          circle at top left,
+          var(--bg-tint) 0,
+          #ffffff 45%,
+          var(--bg-soft) 100%
+        );
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+        gap: 2.2rem;
+        align-items: center;
+      }
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.25rem 0.75rem;
+        border-radius: 999px;
+        border: 1px solid rgba(128, 0, 32, 0.18);
+        background: rgba(128, 0, 32, 0.06);
+        color: var(--primary-dark);
+        font-weight: 900;
+        font-size: 0.82rem;
+        margin-bottom: 0.85rem;
+      }
+      .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 99px;
+        background: var(--primary);
+      }
+      h1 {
+        font-size: 2.25rem;
+        line-height: 1.25;
+        letter-spacing: -0.03em;
+        margin-bottom: 0.75rem;
+        font-weight: 950;
+      }
+      .hero p {
+        color: var(--muted);
+        font-size: 0.98rem;
+        max-width: 640px;
+      }
+      .hero p strong {
+        color: #111827;
+      }
+
+      .hero-cards {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.9rem;
+      }
+      .mini-card {
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        border-radius: 20px;
+        padding: 1rem 1rem;
+        background: #fff;
+        box-shadow: var(--shadow);
+        min-height: 120px;
+      }
+      .mini-title {
+        font-weight: 900;
+        color: var(--primary-dark);
+        margin-bottom: 0.25rem;
+        font-size: 0.92rem;
+      }
+      .mini-text {
+        color: #4b5563;
+        font-size: 0.85rem;
+        line-height: 1.55;
+      }
+
+      /* ===== Section ===== */
+      section {
+        padding: 3.2rem 0;
+      }
+      .section-head {
+        margin-bottom: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.35rem;
+      }
+      .section-title {
+        font-size: 1.6rem;
+        font-weight: 950;
+        letter-spacing: -0.02em;
+      }
+      .section-sub {
+        color: var(--muted);
+        font-size: 0.92rem;
+        max-width: 820px;
+      }
+
+      /* ===== Filter chips ===== */
+      .selector {
+        display: flex;
+        gap: 0.6rem;
+        flex-wrap: wrap;
+        margin-top: 0.2rem;
+      }
+      .chip {
+        border: 1px solid rgba(15, 23, 42, 0.14);
+        background: #fff;
+        padding: 0.42rem 0.95rem;
+        border-radius: 999px;
+        font-size: 0.88rem;
+        font-weight: 900;
+        cursor: pointer;
+        transition:
+          transform 0.12s ease,
+          background 0.12s ease;
+        user-select: none;
+      }
+      .chip:hover {
+        transform: translateY(-1px);
+      }
+      .chip.active {
+        background: rgba(128, 0, 32, 0.08);
+        border-color: rgba(128, 0, 32, 0.35);
+        color: var(--primary-dark);
+      }
+
+      /* ===== Compare table ===== */
+      .compare-wrap {
+        border-radius: var(--r-xl);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        background: #fff;
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+      .table-wrap {
+        overflow-x: auto;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 860px;
+        font-size: 0.86rem;
+      }
+      thead {
+        background: #faf5f4;
+      }
+      th,
+      td {
+        padding: 0.95rem 0.85rem;
+        border-bottom: 1px solid var(--border);
+        text-align: left;
+        vertical-align: top;
+        color: #374151;
+      }
+      th {
+        font-weight: 950;
+        color: var(--primary-dark);
+        font-size: 0.9rem;
+      }
+      .row-label {
+        width: 170px;
+        white-space: nowrap;
+        color: #111827;
+        font-weight: 950;
+      }
+      .subnote {
+        padding: 0.85rem 1rem;
+        background: #f9fafb;
+        border-top: 1px solid var(--border);
+        color: #6b7280;
+        font-size: 0.84rem;
+      }
+
+      /* ===== Recommendations ===== */
+      .rec-grid {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+      }
+      .rec {
+        background: #fff;
+        border-radius: var(--r-lg);
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        box-shadow: var(--shadow);
+        padding: 1.05rem 1rem;
+      }
+      .rec-tag {
+        display: inline-flex;
+        font-size: 0.74rem;
+        font-weight: 950;
+        color: var(--primary-dark);
+        background: rgba(128, 0, 32, 0.07);
+        padding: 0.18rem 0.55rem;
+        border-radius: 999px;
+        margin-bottom: 0.45rem;
+      }
+      .rec-title {
+        font-weight: 950;
+        letter-spacing: -0.01em;
+        margin-bottom: 0.25rem;
+      }
+      .rec-desc {
+        color: #4b5563;
+        font-size: 0.85rem;
+        line-height: 1.55;
+      }
+
+      /* ===== CTA block ===== */
+      .cta {
+        background: radial-gradient(
+          circle at top left,
+          #fdf2f8 0,
+          #ffffff 55%,
+          #f8fafc 100%
+        );
+        border-top: 1px solid rgba(15, 23, 42, 0.06);
+        border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+      }
+      .cta-card {
+        border-radius: var(--r-xl);
+        background: #fff;
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        box-shadow: var(--shadow);
+        padding: 1.4rem 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      .cta-title {
+        font-weight: 950;
+        font-size: 1.1rem;
+        letter-spacing: -0.02em;
+      }
+      .cta-sub {
+        color: #6b7280;
+        font-size: 0.9rem;
+      }
+
+      /* ===== Floating Social ===== */
+      .floating-social {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 999;
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+      }
+      .floating-social-label {
+        font-size: 0.78rem;
+        font-weight: 950;
+        color: #111827;
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(15, 23, 42, 0.14);
+        padding: 0.35rem 0.6rem;
+        border-radius: 999px;
+        backdrop-filter: blur(6px);
+        box-shadow: 0 10px 26px rgba(15, 23, 42, 0.1);
+      }
+      .floating-social .social-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        background: #fff;
+        border: 1px solid rgba(15, 23, 42, 0.1);
+        box-shadow: 0 14px 32px rgba(15, 23, 42, 0.12);
+      }
+      .floating-social .social-icon img {
+        width: 26px;
+        height: 26px;
+        transition:
+          transform 0.18s ease,
+          opacity 0.18s ease;
+      }
+      .floating-social .social-icon:hover img {
+        transform: translateY(-2px);
+        opacity: 0.9;
+      }
+
+      /* =========================
+       Footer
+       ========================= */
+      footer {
+        background: #1a1a1a; /* 이미지 11의 짙은 배경색 반영 */
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 4rem 0 2rem;
+        font-size: 0.85rem;
+        line-height: 1.8;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2.5rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f8fafc;
+        font-weight: 700;
+        min-width: 80px;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f8fafc;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64748b;
+      }
+
+      /* ===== Responsive ===== */
+      @media (max-width: 960px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto;
+          padding: 0;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+          position: relative;
+          z-index: 101;
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          padding: 10px 20px 40px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .nav-open .nav-toggle span {
+          color: #000 !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 1.9rem;
+        }
+        .hero-cards {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .rec-grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .floating-social {
+          right: 12px;
+          bottom: 12px;
+        }
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+
+  <body>
+    <header></header>
+
+    <div class="floating-social">
+      <a
+        href="https://open.kakao.com/o/pw88Wn4h"
+        target="_blank"
+        rel="noopener"
+        class="social-icon"
+        aria-label="카카오톡 오픈채팅"
+      >
+        <img src="icons/kakao.png" alt="KakaoTalk" />
+      </a>
+
+      <a
+        href="https://cafe.naver.com/onevisionconsulting"
+        target="_blank"
+        rel="noopener"
+        class="social-icon"
+        aria-label="네이버 카페"
+      >
+        <img src="icons/naver-cafe.png" alt="Naver Cafe" />
+      </a>
+
+      <a
+        href="https://www.instagram.com/onevision_consulting?igsh=NTc4MTIwNjQ2YQ=="
+        target="_blank"
+        rel="noopener"
+        class="social-icon"
+        aria-label="인스타그램"
+      >
+        <img src="icons/instagram.png" alt="Instagram" />
+      </a>
+
+      <a
+        href="https://www.facebook.com/p/OneVision-Consulting-원비전컨설팅-61582774824246/?hr=1&wtsid=rdr_0kaOLD4UDCcuhPGwV"
+        target="_blank"
+        rel="noopener"
+        class="social-icon"
+        aria-label="페이스북"
+      >
+        <img src="icons/facebook.png" alt="Facebook" />
+      </a>
+
+      <a
+        href="https://blog.naver.com/onevision_consulting"
+        target="_blank"
+        rel="noopener"
+        class="social-icon"
+        aria-label="네이버 블로그"
+      >
+        <img src="icons/naver-blog.png" alt="Naver Blog" />
+      </a>
+    </div>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-grid">
+            <div>
+              <div class="badge">
+                <span class="dot"></span> Housing & Immigration Lab
+              </div>
+              <h1>
+                유학만이 아니라,<br />
+                <span style="color: var(--primary)"
+                  >어느 주에서 어떻게 살아갈지</span
+                >까지
+              </h1>
+              <p>
+                원비전의 주거·이민 리서치는 <strong>학교 선택</strong>을 넘어서
+                <strong>세금 · 렌트 · 학군 · 커뮤니티</strong>를 한 장의
+                로드맵으로 묶어 가족이 “살아갈 도시”를 결정할 수 있게 돕습니다.
+                <br /><br />
+                아래 표는 <strong>우선순위(비용/학군/둘다)</strong>에 따라
+                추천이 달라지도록 설계되어 있어요.
+              </p>
+            </div>
+
+            <div class="hero-cards">
+              <div class="mini-card">
+                <div class="mini-title">1) 우리 가족 우선순위 정의</div>
+                <div class="mini-text">
+                  비용, 학군, 안정성, 커뮤니티 중 무엇이 1순위인지 먼저
+                  정리해요.
+                </div>
+              </div>
+              <div class="mini-card">
+                <div class="mini-title">2) 주 비교 + 도시 후보 축소</div>
+                <div class="mini-text">
+                  세금/렌트/교육 환경을 표로 비교하고, 후보 주/도시를 빠르게
+                  줄여요.
+                </div>
+              </div>
+              <div class="mini-card">
+                <div class="mini-title">3) 학교·비자·주거 플랜 연결</div>
+                <div class="mini-text">
+                  입시/이민 타임라인과 주거 플랜이 충돌하지 않도록 한 번에
+                  설계해요.
+                </div>
+              </div>
+              <div class="mini-card">
+                <div class="mini-title">4) 실행 체크리스트 제공</div>
+                <div class="mini-text">
+                  현지 학군, 렌트, 계약, 생활 셋업까지 단계별 체크리스트로
+                  안내해요.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPARE -->
+      <section id="compare">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-title">주 비교 테이블</div>
+            <div class="section-sub">
+              버튼으로 “비용 우선 / 학군 우선 / 둘다(밸런스)”를 바꾸면 표와
+              추천이 같이 바뀝니다. 실제 상담에서는 이 표를 기반으로 도시
+              단위까지 내려가서 후보를 좁혀요.
+            </div>
+
+            <div class="selector">
+              <button class="chip active" onclick="applyFilter('cost', this)">
+                💰 비용 우선
+              </button>
+              <button class="chip" onclick="applyFilter('school', this)">
+                🏫 학군 우선
+              </button>
+              <button class="chip" onclick="applyFilter('balance', this)">
+                ⚖️ 둘다 (밸런스)
+              </button>
+            </div>
+          </div>
+
+          <div class="compare-wrap">
+            <div class="table-wrap">
+              <table id="stateTable"></table>
+            </div>
+            <div class="subnote" id="tableNote">
+              비용 우선 기준으로 정리된 표입니다.
+            </div>
+          </div>
+
+          <!-- Recommendation cards -->
+          <div class="section-head" style="margin-top: 2rem">
+            <div class="section-title">추천 시나리오</div>
+            <div class="section-sub" id="recSubtitle">
+              예산을 먼저 안정시키고, 학군은 “지역 선택”으로 보완하는 전략이
+              유리해요.
+            </div>
+          </div>
+
+          <div class="rec-grid" id="recGrid"></div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta">
+        <div class="container">
+          <div class="cta-card">
+            <div>
+              <div class="cta-title">
+                우리 가족 케이스로 “주 + 도시 + 학교”를 한 번에 정리해볼까요?
+              </div>
+              <div class="cta-sub">
+                비용·학군·이민 타임라인을 같이 맞춰서, 실행 가능한 플랜으로
+                연결해 드려요.
+              </div>
+            </div>
+            <div style="display: flex; gap: 0.7rem; flex-wrap: wrap">
+              <a href="index.html#contact" class="btn btn-primary"
+                >무료 상담 신청</a
+              >
+              <a href="immigration.html" class="btn btn-outline"
+                >이민/비자 페이지</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer></footer>
+    </main>
+    <script src="js/common.js"></script>
+    <script>
+      /* =========================
+       Data 
+       ========================= */
+      const DATA = {
+        cost: {
+          note: "비용을 가장 중요하게 보는 가정을 기준으로 정리된 표입니다. (세금/렌트/생활비 체감 중심)",
+          columns: ["Texas (TX)", "Indiana (IN)", "Wisconsin (WI)"],
+          rows: [
+            ["주 소득세", "없음", "낮은 편", "중간"],
+            [
+              "렌트 체감 (2B)",
+              "상대적으로 저렴 · 선택지 많음",
+              "College Town 기준 저렴",
+              "Madison 기준 중간",
+            ],
+            [
+              "생활비/이동",
+              "차량 필수 · 전체 비용 낮음",
+              "생활비 안정적",
+              "도시 규모 대비 합리적",
+            ],
+            [
+              "학군 접근",
+              "좋은 학군은 Suburb 선택이 핵심",
+              "학군 가성비 지역 다수",
+              "학군/도시 균형형",
+            ],
+            [
+              "추천 가족",
+              "예산 제한이 명확한 가정",
+              "장기 체류/안정형",
+              "가성비 + 교육 균형",
+            ],
+          ],
+          recSubtitle:
+            "예산을 먼저 안정시키고, 학군은 “지역 선택”으로 보완하는 전략이 유리해요.",
+          recs: [
+            {
+              tag: "전략",
+              title: "‘주’보다 ‘도시/카운티’가 승부",
+              desc: "같은 주 안에서도 학군/치안/렌트 격차가 커요. 예산형은 도시 단위로 정밀하게 고르는 게 핵심.",
+            },
+            {
+              tag: "포인트",
+              title: "차량 비용까지 포함해서 계산",
+              desc: "렌트가 싸도 차량 2대/보험/주차/통근 시간이 붙으면 체감 비용이 올라가요.",
+            },
+            {
+              tag: "실행",
+              title: "입시 일정과 계약 타이밍 맞추기",
+              desc: "학기 시작, 학교 배정, 렌트 계약 타이밍을 같이 맞춰서 ‘급하게 비싼 집’ 피하기.",
+            },
+          ],
+        },
+
+        school: {
+          note: "학군과 교육 환경을 최우선으로 보는 가정을 기준으로 정리된 표입니다. (학군 안정성/교육 생태계 중심)",
+          columns: ["California (CA)", "New Jersey (NJ)", "Massachusetts (MA)"],
+          rows: [
+            ["주 소득세", "높음", "중상", "중상"],
+            [
+              "렌트 체감 (2B)",
+              "학군 따라 편차 큼",
+              "좋은 학군 지역은 높음",
+              "보스턴 인근 높음",
+            ],
+            [
+              "학군/교육",
+              "전국 최상위 분포 폭 넓음",
+              "공립 학군 안정적",
+              "전통 명문 학군",
+            ],
+            [
+              "교육 생태계",
+              "UC/사립/연구 인프라",
+              "대학/사립 밀집",
+              "MIT/Harvard 인접",
+            ],
+            [
+              "추천 가족",
+              "교육 최우선 가정",
+              "학군 안정성 중시",
+              "학업 성취도 최우선",
+            ],
+          ],
+          recSubtitle:
+            "학군 우선이라면 ‘렌트 비용’보다 ‘학군 안정성 + 커뮤니티’가 장기적으로 더 큰 비용을 줄여요.",
+          recs: [
+            {
+              tag: "전략",
+              title: "학군은 ‘점수’보다 ‘변동성’ 체크",
+              desc: "학군은 해마다 변해요. 최근 3년 추세/전입 변화/신규 개발 여부까지 같이 봐야 안정적이에요.",
+            },
+            {
+              tag: "포인트",
+              title: "커뮤니티가 아이 적응 속도",
+              desc: "한인/국제학생 커뮤니티, 방과후, 튜터링 접근성이 실제 적응을 좌우해요.",
+            },
+            {
+              tag: "실행",
+              title: "학군형은 ‘대기/배정 규정’ 확인",
+              desc: "지역별로 배정 방식이 달라요. 주소만 있다고 끝이 아니라, 등록/서류/마감도 함께 체크해야 해요.",
+            },
+          ],
+        },
+
+        balance: {
+          note: "비용과 학군을 모두 고려하는 ‘밸런스형’ 기준입니다. (학군 안정 + 비용 효율 + 생활 편의)",
+          columns: ["Virginia (VA)", "Washington (WA)", "North Carolina (NC)"],
+          rows: [
+            ["주 소득세", "중간", "없음", "중간"],
+            [
+              "렌트 체감 (2B)",
+              "지역별 편차, DC 인근↑",
+              "시애틀권↑ · 외곽 조정 가능",
+              "Research Triangle 합리적",
+            ],
+            [
+              "학군/교육",
+              "우수 학군 다수",
+              "상위 학군 분포",
+              "상승세 강한 학군",
+            ],
+            [
+              "커리어/환경",
+              "연방/정책/테크 접근",
+              "테크/연구/인턴 기회",
+              "테크/바이오 성장축",
+            ],
+            ["추천 가족", "학군+안정형", "테크 연계형", "비용+성장형"],
+          ],
+          recSubtitle:
+            "둘 다 중요하다면 ‘미세 조정’이 답이에요. 주 선택 후, 도시/학군/통근을 동시에 맞추는 방식이 가장 안전합니다.",
+          recs: [
+            {
+              tag: "전략",
+              title: "‘통근/생활권’이 숨은 비용",
+              desc: "학군이 좋아도 출퇴근이 길면 가족 체력과 시간 비용이 커져요. 생활권 중심으로 설계해요.",
+            },
+            {
+              tag: "포인트",
+              title: "대학/인턴 생태계 연결",
+              desc: "고등학생 이후를 생각하면 지역 인턴십/리서치 기회가 장기적으로 강점이 돼요.",
+            },
+            {
+              tag: "실행",
+              title: "예산 상한선을 먼저 정하기",
+              desc: "학군형은 예산이 계속 올라가기 쉬워요. 월 상한선 + 비상금 기준을 먼저 박아두면 흔들림이 줄어요.",
+            },
+          ],
+        },
+      };
+
+      function renderTable(type) {
+        const data = DATA[type];
+        const table = document.getElementById("stateTable");
+        const note = document.getElementById("tableNote");
+
+        note.textContent = data.note;
+
+        let thead = `
+        <thead>
+          <tr>
+            <th class="row-label">비교 항목</th>
+            ${data.columns.map((c) => `<th>${c}</th>`).join("")}
+          </tr>
+        </thead>
+      `;
+
+        let tbody = `
+        <tbody>
+          ${data.rows
+            .map(
+              (r) => `
+            <tr>
+              <td class="row-label">${r[0]}</td>
+              ${r
+                .slice(1)
+                .map((cell) => `<td>${cell}</td>`)
+                .join("")}
+            </tr>
+          `,
+            )
+            .join("")}
+        </tbody>
+      `;
+
+        table.innerHTML = thead + tbody;
+      }
+
+      function renderRecs(type) {
+        const data = DATA[type];
+        document.getElementById("recSubtitle").textContent = data.recSubtitle;
+
+        const grid = document.getElementById("recGrid");
+        grid.innerHTML = data.recs
+          .map(
+            (item) => `
+        <div class="rec">
+          <div class="rec-tag">${item.tag}</div>
+          <div class="rec-title">${item.title}</div>
+          <div class="rec-desc">${item.desc}</div>
+        </div>
+      `,
+          )
+          .join("");
+      }
+
+      function applyFilter(type, el) {
+        document
+          .querySelectorAll(".chip")
+          .forEach((btn) => btn.classList.remove("active"));
+        el.classList.add("active");
+        renderTable(type);
+        renderRecs(type);
+      }
+
+      // init
+      renderTable("cost");
+      renderRecs("cost");
+    </script>
+  </body>
+</html>

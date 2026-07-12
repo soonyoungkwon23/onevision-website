@@ -1,0 +1,949 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OneVision | Illinois State University 컴퓨터공학 합격 후기</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Illinois State University 컴퓨터공학 전공 합격을 목표로 한 학생이 OneVision과 함께 준비한 과정과 합격 스토리입니다."
+    />
+
+    <!-- Fonts (Unified) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* ==================================================
+          OneVision Theme (Unified)
+          ================================================== */
+      :root {
+        --primary: #1e293b;
+        --primary-dark: #0f172a;
+        --accent: #2563eb;
+        --accent-light: #60a5fa;
+
+        --bg-main: #0b0e14;
+        --bg-deep: #05070a;
+
+        --surface: #ffffff;
+        --surface-2: #f1f5f9;
+
+        --text-on-dark: #f8fafc;
+        --muted-on-dark: #94a3b8;
+
+        --text-on-light: #1e293b;
+        --muted-on-light: #64748b;
+
+        --border-on-dark: rgba(255, 255, 255, 0.06);
+        --border-on-light: rgba(0, 0, 0, 0.05);
+
+        --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        --radius-lg: 18px;
+        --radius-xl: 26px;
+
+        --max-width: 1200px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          "Pretendard Variable",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        background:
+          radial-gradient(
+            1200px 600px at 18% -10%,
+            rgba(156, 26, 54, 0.14),
+            transparent 60%
+          ),
+          radial-gradient(
+            900px 500px at 92% 10%,
+            rgba(90, 11, 31, 0.12),
+            transparent 55%
+          ),
+          linear-gradient(180deg, #ffffff, #fbf9fa);
+        color: var(--text-on-light);
+        line-height: 1.75;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+      }
+      .container {
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      section {
+        padding: 3.8rem 0;
+      }
+
+      /* Serif headings */
+      h1,
+      h2,
+      h3,
+      h4,
+      .section-title {
+        font-family: "Noto Serif KR", serif;
+        letter-spacing: -0.02em;
+      }
+
+      /* ==================================================
+          Header / Nav
+          ================================================== */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        background: #ffffff;
+        border-bottom: 1px solid var(--border-on-light);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 92px;
+        position: relative;
+        gap: 1rem;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 260px;
+        flex-shrink: 0;
+        padding: 6px 4px;
+        cursor: pointer;
+      }
+      .logo-mark {
+        width: 220px;
+        height: 80px;
+        background: url("images/Onevisionlogo.jpeg") center/contain no-repeat;
+        flex-shrink: 0;
+      }
+      .logo-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.15;
+      }
+      .logo-text-main {
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        font-size: 1.08rem;
+        color: #000;
+      }
+      .logo-text-sub {
+        font-size: 0.78rem;
+        margin-top: 6px;
+        font-weight: 600;
+        color: #000;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 1.25rem;
+        font-size: 0.92rem;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+      .nav-links a {
+        transition: color 0.15s ease;
+        font-weight: 500;
+        color: #333 !important;
+        letter-spacing: -0.01em;
+      }
+      .nav-links a:hover {
+        color: var(--accent);
+      }
+
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        flex-shrink: 0;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.68rem 1.25rem;
+        border-radius: 999px;
+        font-weight: 750;
+        font-size: 0.88rem;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.15s ease,
+          box-shadow 0.15s ease;
+        border: 1px solid transparent;
+        white-space: nowrap;
+      }
+      .btn-primary {
+        background: linear-gradient(
+          180deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: #fff;
+      }
+      .btn-primary:hover {
+        transform: translateY(-1px);
+      }
+
+      .nav-toggle {
+        display: none;
+        border: none;
+        background: transparent;
+        color: #000;
+        font-size: 1.4rem;
+        cursor: pointer;
+        padding: 0.35rem 0.5rem;
+        border-radius: 10px;
+        line-height: 1;
+        min-width: 44px;
+        min-height: 44px;
+      }
+      .nav-toggle:hover {
+        background: rgba(0, 0, 0, 0.04);
+      }
+
+      header .logo,
+      header .logo *,
+      header .nav-links a,
+      header .nav-toggle {
+        color: #000 !important;
+      }
+
+      @media (max-width: 960px) {
+        .logo-mark {
+          display: none;
+        }
+        .logo {
+          min-width: auto;
+          padding: 0;
+        }
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+        .nav-toggle {
+          display: block;
+          position: relative;
+          z-index: 101;
+        }
+        .nav.nav-open .nav-cta .btn-primary {
+          display: none;
+        }
+
+        .nav.nav-open .nav-links {
+          display: flex !important;
+          opacity: 1;
+          position: absolute;
+          top: 85px;
+          left: 0;
+          width: 100%;
+          height: auto;
+          background: #fff;
+          padding: 10px 20px 40px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+          z-index: 100;
+          flex-direction: column;
+          gap: 1.5rem;
+        }
+        .nav.nav-open .nav-cta {
+          display: flex !important;
+        }
+        .nav-open .nav-toggle span {
+          color: #000 !important;
+        }
+        .hero-inner,
+        .stats-layout,
+        .testimonials-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .hero-gallery {
+          margin-top: 1.6rem;
+        }
+        .section-card-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .hero-title {
+          font-size: 2.55rem;
+        }
+
+        .mini-data-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .process-step {
+          min-width: 46%;
+        }
+        .process-arrow {
+          display: none;
+        }
+      }
+      .nav.nav-open .nav-links {
+        display: grid;
+        position: absolute;
+        top: 92px;
+        left: 0;
+        right: 0;
+        gap: 0.55rem;
+        padding: 1rem 1.2rem 1.2rem;
+        background: #ffffff;
+        border-bottom: 1px solid var(--border-on-light);
+      }
+      .nav.nav-open .nav-cta {
+        display: none;
+      }
+
+      @media (max-width: 640px) {
+        .logo-mark {
+          width: 190px;
+          height: 68px;
+        }
+        section {
+          padding: 3.2rem 0;
+        }
+      }
+
+      /* ==================================================
+          Breadcrumb
+          ================================================== */
+      .breadcrumb {
+        font-size: 0.82rem;
+        color: #9ca3af;
+        margin-bottom: 1.15rem;
+      }
+      .breadcrumb a {
+        color: #6b7280;
+      }
+      .breadcrumb span {
+        margin: 0 0.3rem;
+      }
+
+      /* ==================================================
+          Hero Card
+          ================================================== */
+      .hero {
+        padding-top: 2.2rem;
+      }
+      .hero-card {
+        position: relative;
+        border-radius: var(--radius-xl);
+        overflow: hidden;
+        height: 330px;
+        background-image: url("images/illinoisstateuniversity.jpeg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: 0 24px 60px rgba(15, 23, 42, 0.45);
+        border: 1px solid rgba(10, 10, 10, 0.1);
+        margin-bottom: 2rem;
+      }
+      .hero-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.88)
+        );
+      }
+      .hero-card-inner {
+        position: relative;
+        height: 100%;
+        padding: 1.6rem 1.6rem 1.45rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #fff;
+      }
+      .hero-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.22rem 0.8rem;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        width: fit-content;
+      }
+      .hero-pill-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: #ffd0d8;
+        box-shadow: 0 0 0 3px rgba(255, 208, 216, 0.18);
+      }
+      .hero-title-main {
+        font-size: 1.55rem;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        line-height: 1.35;
+      }
+      .hero-title-sub {
+        font-size: 0.95rem;
+        margin-top: 0.35rem;
+        color: rgba(255, 255, 255, 0.86);
+      }
+      .hero-meta {
+        font-size: 0.82rem;
+        color: rgba(255, 255, 255, 0.78);
+        line-height: 1.6;
+      }
+      .hero-meta span {
+        margin-right: 0.85rem;
+      }
+
+      @media (max-width: 768px) {
+        .hero-card {
+          height: 285px;
+        }
+      }
+
+      /* ==================================================
+          Content layout
+          ================================================== */
+      .content-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+        gap: 2rem;
+        align-items: flex-start;
+        margin-top: 0.2rem;
+      }
+      @media (max-width: 900px) {
+        .content-layout {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+
+      .section-title-small {
+        font-size: 1.05rem;
+        font-weight: 900;
+        margin-bottom: 0.45rem;
+        color: var(--primary-dark);
+        letter-spacing: -0.02em;
+      }
+      .section-text {
+        font-size: 0.95rem;
+        color: #4b5563;
+        line-height: 1.9;
+      }
+      .content-block {
+        margin-bottom: 1.55rem;
+      }
+
+      /* Right column cards */
+      .info-card {
+        border-radius: 18px;
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        background: #fff;
+        padding: 1.05rem 1.05rem;
+        box-shadow: 0 18px 45px rgba(10, 10, 10, 0.1);
+        font-size: 0.9rem;
+      }
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.8rem;
+        margin-bottom: 0.45rem;
+      }
+      .info-label {
+        color: #6b7280;
+        font-weight: 700;
+      }
+      .info-value {
+        font-weight: 900;
+        color: #111827;
+        text-align: right;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.55rem;
+      }
+      .tag {
+        font-size: 0.78rem;
+        padding: 0.18rem 0.6rem;
+        border-radius: 999px;
+        background: rgba(90, 11, 31, 0.08);
+        border: 1px solid rgba(90, 11, 31, 0.12);
+        color: var(--primary-dark);
+        font-weight: 850;
+      }
+
+      .quote-block {
+        margin-top: 1rem;
+        padding: 0.95rem 1rem;
+        border-left: 3px solid var(--primary);
+        background: rgba(90, 11, 31, 0.06);
+        border-radius: 14px;
+        font-size: 0.92rem;
+        color: #374151;
+        box-shadow: 0 14px 34px rgba(10, 10, 10, 0.06);
+        border: 1px solid rgba(10, 10, 10, 0.06);
+      }
+      .quote-label {
+        font-size: 0.78rem;
+        color: #6b7280;
+        margin-bottom: 0.25rem;
+        font-weight: 800;
+      }
+
+      /* =========================
+          Footer
+          ========================= */
+      footer {
+        background: #1a1a1a; /* 이미지 11의 짙은 배경색 반영 */
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 4rem 0 2rem;
+        font-size: 0.85rem;
+        line-height: 1.8;
+      }
+
+      .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        margin-bottom: 2.5rem;
+      }
+
+      .footer-info-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .footer-info-item {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .footer-info-item dt {
+        color: #f8fafc;
+        font-weight: 700;
+        min-width: 80px;
+      }
+
+      .footer-info-item dd {
+        margin: 0;
+      }
+
+      .footer-right {
+        text-align: right;
+      }
+
+      .footer-services {
+        color: #f8fafc;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #64748b;
+      }
+      /* =========================
+      Floating Social (Shared)
+      ========================= */
+      .floating-social {
+        position: fixed;
+        right: 18px;
+        bottom: 18px;
+        z-index: 999;
+        display: grid;
+        gap: 10px;
+        justify-items: center;
+      }
+
+      .floating-social-label {
+        font-size: 0.78rem;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.92);
+        background: rgba(26, 3, 8, 0.78);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        padding: 0.35rem 0.6rem;
+        border-radius: 999px;
+        backdrop-filter: blur(6px);
+      }
+
+      .floating-social .social-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 999px;
+        display: grid;
+        place-items: center;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(10, 10, 10, 0.08);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.14);
+        text-decoration: none;
+      }
+
+      .floating-social .social-icon img {
+        width: 26px;
+        height: 26px;
+        display: block;
+        transition:
+          transform 0.18s ease,
+          opacity 0.18s ease;
+      }
+
+      .floating-social .social-icon:hover img {
+        transform: translateY(-2px);
+        opacity: 0.9;
+      }
+
+      @media (max-width: 640px) {
+        .floating-social {
+          right: 12px;
+          bottom: 12px;
+        }
+        .floating-social .social-icon {
+          width: 44px;
+          height: 44px;
+        }
+        .floating-social .social-icon img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    </style>
+      <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper" id="top">
+      <!-- Header (Unified) -->
+      <header></header>
+
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="breadcrumb">
+              <a href="index.html#top">홈</a><span>›</span>
+              <a href="admit-gallery.html">합격 후기</a><span>›</span>
+              <span>Illinois State University 컴퓨터공학</span>
+            </div>
+
+            <!-- Hero Card -->
+            <div
+              class="hero-card"
+              role="img"
+              aria-label="Illinois State University 합격 후기 커버 이미지"
+            >
+              <div class="hero-card-inner">
+                <div>
+                  <div class="hero-pill">
+                    <span class="hero-pill-dot"></span>
+                    컴퓨터공학 · 미국 학부 유학
+                  </div>
+
+                  <div style="margin-top: 0.75rem">
+                    <div class="hero-title-main">ILLINOIS STATE UNIVERSITY</div>
+                    <div class="hero-title-sub">
+                      Computer Science 전공 합격 스토리
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hero-meta">
+                  <span>전공: Computer Science</span>
+                  <span>키워드: 프로젝트 · 포트폴리오 · 로드맵 설계</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div class="content-layout">
+              <!-- Left column -->
+              <div>
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    1. 왜 CS 전공, 왜 Illinois State였나요?
+                  </h2>
+                  <p class="section-text">
+                    이 학생은 중학교 때부터 컴퓨터를 다루는 것 자체가 즐거워
+                    자연스럽게 컴퓨터공학을 목표로 삼았습니다. Illinois State
+                    University는 탄탄한 커리큘럼과 학부 연구·프로젝트 기회가
+                    많아, “실제로 만들어 보고 싶다”는 성향과 잘 맞는 1지망
+                    학교로 선택되었습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    2. 여러 유학원 중 OneVision을 선택한 이유
+                  </h2>
+                  <p class="section-text">
+                    기존 상담에서는 “학교 리스트만 제안받는 느낌”이 커서 방향이
+                    잘 잡히지 않았습니다. 반면 OneVision은 학생마다 다른
+                    로드맵을 설계한다는 점이 인상적이었고, 실제 상담에서도 현재
+                    수준과 상황을 세밀하게 파악해 현실적인 전략을 함께 설계해 준
+                    점이 “정보 제공”을 넘어 “함께 고민해 주는 파트너”로
+                    느껴졌다고 합니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    3. 준비 과정에서 가장 힘들었던 부분
+                  </h2>
+                  <p class="section-text">
+                    학교 수업과 시험 준비, 그리고 CS 관련 비교과를 동시에 챙기는
+                    것이 쉽지 않았습니다. 특히 “어떤 프로젝트를 얼마나 해야
+                    하는지” 감이 안 잡혀 막막했고, 경험이 부족하다 보니 시작을
+                    미루게 되는 것이 가장 큰 어려움이었습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    4. OneVision이 도와준 핵심 포인트
+                  </h2>
+                  <p class="section-text">
+                    OneVision은 학생의 현재 수준에 맞춰 작은 코딩 프로젝트부터
+                    시작해 정식 포트폴리오 프로젝트로 확장하는 단계별 로드맵을
+                    제안했습니다. 또한 학생 성향과 현실적인 합격 가능성을 함께
+                    고려해 Illinois State가 왜 1지망으로 적합한지 논리를
+                    정리했고, 에세이도 기술 나열이 아니라 “왜 CS를 하고 싶은지”
+                    개인 스토리가 살아나도록 세밀한 피드백을 진행했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    5. 준비하면서 느낀 가장 큰 성장
+                  </h2>
+                  <p class="section-text">
+                    여러 프로젝트를 진행하며 에러가 나면 포기하던 태도가
+                    달라졌다고 합니다. 문제를 구조적으로 쪼개고 하나씩 실험해
+                    보는 습관이 생기면서 “공대생 같은 사고 방식”을 얻게 된 것이
+                    가장 큰 성장 포인트였습니다. 시간 관리도 함께 훈련되며
+                    공부·프로젝트·입시를 동시에 운영하는 힘이 길러졌습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    6. 지원 과정에서 기억에 남는 순간 &amp; 합격 소식
+                  </h2>
+                  <p class="section-text">
+                    Illinois State 에세이 초안을 보냈을 때, “기술 이야기
+                    위주라서 너만의 맥락과 이유가 더 드러나면 좋겠다”는 코멘트가
+                    특히 기억에 남았다고 합니다. 그 방향으로 수정한 뒤 글이 훨씬
+                    자연스럽고 설득력 있게 바뀌었다고 해요. 합격 메일에서
+                    ‘Congratulations’를 보고 바로 부모님께 달려가 소식을 전했을
+                    만큼, 1지망 합격은 정말 감격적인 순간이었습니다.
+                  </p>
+                </div>
+
+                <div class="content-block">
+                  <h2 class="section-title-small">
+                    7. 같은 전공을 준비하는 후배들에게
+                  </h2>
+                  <p class="section-text">
+                    “프로젝트 개수보다, 내가 한 일을 얼마나 논리적으로 설명할 수
+                    있는지가 더 중요하다”는 말을 남겼습니다. 아주 작은
+                    활동이라도 꾸준히 이어가며, 그 경험이 왜 의미 있었는지
+                    스스로 정리해 두면 입시에서 충분한 경쟁력이 된다고
+                    조언했습니다.
+                  </p>
+                </div>
+
+                <div class="content-block" style="margin-bottom: 0">
+                  <h2 class="section-title-small">8. 마지막 한마디</h2>
+                  <p class="section-text">
+                    끝까지 응원해 준 부모님께 감사하고, 앞으로도 지금처럼 꾸준히
+                    성장하는 사람이 되고 싶다는 메시지로 후기를 마무리했습니다.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Right column -->
+              <aside>
+                <div class="info-card">
+                  <div class="info-row">
+                    <span class="info-label">대학</span>
+                    <span class="info-value">Illinois State University</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">전공</span>
+                    <span class="info-value">Computer Science</span>
+                  </div>
+                  <div class="info-row">
+                    <span class="info-label">지원 유형</span>
+                    <span class="info-value">미국 학부 신입</span>
+                  </div>
+                  <div class="info-row" style="margin-bottom: 0">
+                    <span class="info-label">준비 포인트</span>
+                    <span class="info-value">CS 프로젝트 · 에세이 스토리</span>
+                  </div>
+
+                  <div style="margin-top: 0.9rem">
+                    <div class="info-label" style="margin-bottom: 0.35rem">
+                      키워드
+                    </div>
+                    <div class="tag-list">
+                      <span class="tag">컴퓨터공학</span>
+                      <span class="tag">코딩 프로젝트</span>
+                      <span class="tag">포트폴리오</span>
+                      <span class="tag">로드맵</span>
+                      <span class="tag">멘탈 케어</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="quote-block">
+                  <div class="quote-label">학생이 말하는 OneVision의 장점</div>
+                  “학생이 말한 정보만 듣고 학교를 추천하는 게 아니라, 데이터를
+                  바탕으로 상황을 분석해 주는 점이 가장 인상적이었다”는 피드백이
+                  있었습니다. 중간중간 멘탈 케어까지 해 준 덕분에 불안감이 크게
+                  줄었다고 합니다.
+                </div>
+
+                <div class="quote-block" style="margin-top: 0.9rem">
+                  <div class="quote-label">학생의 다짐</div>
+                  꾸준히 응원해 준 부모님께 감사하며, 앞으로도 “지금처럼
+                  규칙적으로 성장하는 사람”이 되고 싶다는 다짐으로 Illinois
+                  State 합격 스토리를 마무리했습니다.
+                </div>
+
+                <div
+                  style="
+                    margin-top: 1.2rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 0.6rem;
+                  "
+                >
+                  <a
+                    href="admit-gallery.html"
+                    class="btn btn-primary"
+                    style="width: 100%"
+                    >다른 합격 후기 보기</a
+                  >
+                  <a
+                    href="index.html#contact"
+                    class="btn"
+                    style="
+                      width: 100%;
+                      background: #fff;
+                      color: #111827;
+                      border: 1px solid rgba(10, 10, 10, 0.12);
+                      box-shadow: 0 14px 30px rgba(10, 10, 10, 0.06);
+                    "
+                  >
+                    상담 신청하기
+                  </a>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer (Unified Dark) -->
+      <footer></footer>
+      <!-- 플로팅 SNS -->
+      <div class="floating-social">
+        <a
+          href="https://open.kakao.com/o/pw88Wn4h"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-kakao"
+          aria-label="카카오톡 오픈채팅"
+        >
+          <img src="icons/kakao.png" alt="KakaoTalk" />
+        </a>
+
+        <a
+          href="https://cafe.naver.com/onevisionconsulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-cafe"
+          aria-label="네이버 카페"
+        >
+          <img src="icons/naver-cafe.png" alt="Naver Cafe" />
+        </a>
+
+        <a
+          href="https://www.instagram.com/onevision_consulting?igsh=NTc4MTIwNjQ2YQ=="
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-insta"
+          aria-label="인스타그램"
+        >
+          <img src="icons/instagram.png" alt="Instagram" />
+        </a>
+
+        <a
+          href="https://www.facebook.com/p/OneVision-Consulting-원비전컨설팅-61582774824246/?hr=1&wtsid=rdr_0kaOLD4UDCcuhPGwV"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-fb"
+          aria-label="페이스북"
+        >
+          <img src="icons/facebook.png" alt="Facebook" />
+        </a>
+
+        <a
+          href="https://blog.naver.com/onevision_consulting"
+          target="_blank"
+          rel="noopener"
+          class="social-icon social-blog"
+          aria-label="네이버 블로그"
+        >
+          <img src="icons/naver-blog.png" alt="Naver Blog" />
+        </a>
+      </div>
+    </div>
+    <script src="js/common.js"></script>
+  </body>
+</html>

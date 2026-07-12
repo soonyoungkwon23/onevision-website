@@ -1,0 +1,528 @@
+/* ============================================================
+   OneVision — Unified Site Styles
+   Loaded AFTER each page's inline <style> so it wins the cascade
+   for shared chrome: navbar, footer, buttons, badges, modal.
+   Also remaps legacy tokens so existing pages auto-inherit the
+   refined burgundy palette.
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   1. Design Tokens (override every page's :root)
+   ------------------------------------------------------------ */
+:root {
+  /* Brand wine / burgundy — the unified accent */
+  --brand: #9c1a36;
+  --brand-deep: #6e0f25;
+  --brand-soft: rgba(156, 26, 54, 0.12);
+  --brand-soft-2: rgba(156, 26, 54, 0.06);
+
+  /* Neutrals */
+  --ov-ink: #1a1a1f;
+  --ov-ink-deep: #0f0f14;
+
+  /* Dark surfaces */
+  --bg-main: #0b0c10;
+  --bg-deep: #06070a;
+
+  /* Light surfaces */
+  --surface: #ffffff;
+  --surface-2: #faf7f5;
+  --surface-3: #f3efec;
+
+  /* Text */
+  --text-on-dark: #f5f1ef;
+  --muted-on-dark: #a8a4a0;
+  --text-on-light: #1a1a1f;
+  --muted-on-light: #6b6864;
+
+  /* Borders */
+  --border-on-dark: rgba(255, 255, 255, 0.08);
+  --border-on-light: rgba(20, 18, 18, 0.08);
+
+  /* Legacy token remap — so existing var(--primary), var(--accent)
+     references in page CSS resolve to the new palette automatically. */
+  --primary: var(--ov-ink);
+  --primary-dark: var(--ov-ink-deep);
+  --accent: var(--brand);
+  --accent-light: #c75a78;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(15, 15, 20, 0.04), 0 1px 3px rgba(15, 15, 20, 0.06);
+  --shadow-md: 0 6px 18px rgba(15, 15, 20, 0.06), 0 2px 6px rgba(15, 15, 20, 0.04);
+  --shadow-lg: 0 22px 50px rgba(15, 15, 20, 0.10), 0 8px 20px rgba(15, 15, 20, 0.06);
+  --shadow-soft: var(--shadow-md);
+
+  /* Radii */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 22px;
+
+  /* Layout */
+  --max-width: 1240px;
+  --gutter: clamp(1.25rem, 3vw, 2.25rem);
+}
+
+/* ------------------------------------------------------------
+   2. Base
+   ------------------------------------------------------------ */
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Pretendard Variable", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+
+.container {
+  width: 100% !important;
+  max-width: var(--max-width) !important;
+  margin: 0 auto !important;
+  padding: 0 var(--gutter) !important;
+}
+
+/* ------------------------------------------------------------
+   3. Header / Nav (chrome — overrides every page's local nav CSS)
+   ------------------------------------------------------------ */
+header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 40 !important;
+  background: #ffffff !important;
+  border-bottom: 1px solid rgba(20, 18, 18, 0.06) !important;
+  transition: background 0.2s ease, box-shadow 0.2s ease,
+    border-color 0.2s ease;
+  color: var(--text-on-light) !important;
+}
+header.is-scrolled {
+  background: #ffffff !important;
+  box-shadow: 0 6px 24px rgba(15, 15, 20, 0.06) !important;
+  border-bottom-color: rgba(20, 18, 18, 0.08) !important;
+}
+
+header .nav {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: 80px !important;
+  gap: 1.5rem !important;
+  position: relative;
+}
+
+header .logo {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  padding: 4px 0 !important;
+  cursor: pointer;
+  color: var(--text-on-light) !important;
+  min-width: 0 !important;
+  background: none !important;
+}
+header .logo-img {
+  height: 60px !important;
+  width: auto !important;
+  flex-shrink: 0;
+  display: block;
+  background: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  object-fit: contain;
+}
+/* Styled fallback (graduation-cap icon + JTC/OneVision text).
+   Hidden by default — header.html's onerror flips display to inline-flex
+   only if the JTC JPEG fails to load. */
+header .logo-fallback {
+  display: none;
+  align-items: center;
+  gap: 0.55rem;
+  line-height: 1;
+  font-family: "Noto Serif KR", serif;
+}
+header .logo-fallback-icon {
+  width: 44px;
+  height: auto;
+  flex-shrink: 0;
+}
+header .logo-fallback-text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+}
+header .logo-fallback-mark {
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--brand);
+}
+header .logo-fallback-sub {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--brand-deep);
+  margin-top: 4px;
+  font-family: "Pretendard Variable", system-ui, sans-serif;
+}
+/* Legacy: pages may still render .logo-mark, .logo-text-main, .logo-divider,
+   or .logo-text-sub right next to the new <img class="logo-img">. The image
+   already says "OneVision Consulting", so the duplicate text and divider
+   clash with its typography. Hide every legacy slot inside the header. */
+header .logo-mark,
+header .logo-text-main,
+header .logo-text,
+header .logo-divider,
+header .logo-text-sub {
+  display: none !important;
+}
+
+header .nav-links {
+  display: flex !important;
+  gap: 0.25rem !important;
+  align-items: center !important;
+  white-space: nowrap;
+  font-size: 0.92rem;
+  font-weight: 600;
+  flex-direction: row !important;
+  position: static;
+  opacity: 1 !important;
+  background: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+header .nav-links a {
+  position: relative;
+  padding: 0.5rem 0.85rem !important;
+  border-radius: 8px !important;
+  font-size: 0.92rem !important;
+  font-weight: 600 !important;
+  color: #3a3833 !important;
+  letter-spacing: -0.005em !important;
+  background: none !important;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+header .nav-links a:hover {
+  color: var(--brand) !important;
+  background: var(--brand-soft-2) !important;
+}
+
+header .nav-cta {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+}
+header .nav-cta .btn-primary {
+  padding: 0.6rem 1.15rem !important;
+  font-size: 0.88rem !important;
+}
+
+header .nav-toggle {
+  display: none;
+  border: 1px solid rgba(20, 18, 18, 0.12) !important;
+  background: #fff !important;
+  cursor: pointer;
+  padding: 0 !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 10px !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: var(--text-on-light) !important;
+  font-size: 1rem;
+}
+header .nav-toggle .nav-toggle-bar {
+  width: 18px;
+  height: 1.5px;
+  background: var(--text-on-light);
+  border-radius: 2px;
+  display: block;
+}
+/* Legacy: pages render <span>☰</span> inside .nav-toggle — style that too */
+header .nav-toggle > span:not(.nav-toggle-bar) {
+  font-size: 1.2rem;
+  line-height: 1;
+  color: var(--text-on-light) !important;
+}
+
+/* ------------------------------------------------------------
+   4. Buttons (overrides every page's local .btn rules)
+   ------------------------------------------------------------ */
+.btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.4rem !important;
+  padding: 0.78rem 1.4rem !important;
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+  font-size: 0.92rem !important;
+  letter-spacing: -0.005em !important;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease,
+    box-shadow 0.2s ease, border-color 0.15s ease !important;
+  white-space: nowrap;
+  border: 1px solid transparent !important;
+  font-family: inherit !important;
+  text-decoration: none !important;
+}
+.btn-primary {
+  background: var(--brand) !important;
+  color: #fff !important;
+  box-shadow: 0 6px 16px rgba(110, 15, 37, 0.25) !important;
+}
+.btn-primary:hover {
+  background: var(--brand-deep) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(110, 15, 37, 0.32) !important;
+}
+.btn-outline {
+  background: #fff !important;
+  color: var(--text-on-light) !important;
+  border-color: rgba(20, 18, 18, 0.12) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+.btn-outline:hover {
+  background: var(--surface-2) !important;
+  border-color: rgba(156, 26, 54, 0.35) !important;
+  color: var(--brand-deep) !important;
+}
+/* If a page uses .btn-outline inside a dark hero, opt-in with .btn-outline-dark */
+.btn-outline-dark {
+  background: rgba(255, 255, 255, 0.04) !important;
+  color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.28) !important;
+  box-shadow: none !important;
+}
+.btn-outline-dark:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.45) !important;
+}
+
+/* ------------------------------------------------------------
+   5. Section Badge / Title / Subtitle
+   ------------------------------------------------------------ */
+.section-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  padding: 0.38rem 0.9rem !important;
+  border-radius: 999px !important;
+  margin-bottom: 1rem !important;
+  /* Light-page default (most pages have light bg) */
+  color: var(--brand-deep) !important;
+  background: var(--brand-soft-2) !important;
+  border: 1px solid rgba(156, 26, 54, 0.16) !important;
+}
+/* On a dark hero, opt in with .section-badge--dark */
+.section-badge--dark {
+  color: rgba(245, 241, 239, 0.92) !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+.section-badge-dot {
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 999px !important;
+  background: var(--brand) !important;
+  box-shadow: 0 0 0 3px rgba(156, 26, 54, 0.22) !important;
+}
+
+/* ------------------------------------------------------------
+   6. Floating Social
+   ------------------------------------------------------------ */
+.floating-social {
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 22px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.5rem !important;
+  z-index: 60 !important;
+  justify-items: initial !important;
+}
+.floating-social .social-icon {
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 999px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  background: rgba(20, 18, 18, 0.7) !important;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28) !important;
+  transition: transform 0.15s ease, background 0.15s ease,
+    border-color 0.15s ease !important;
+  overflow: hidden;
+  padding: 0 !important;
+}
+.floating-social .social-icon:hover {
+  transform: translateY(-2px);
+  background: rgba(20, 18, 18, 0.92) !important;
+  border-color: rgba(255, 255, 255, 0.22) !important;
+}
+.floating-social .social-icon img {
+  width: 56% !important;
+  height: 56% !important;
+  object-fit: contain !important;
+  filter: none !important;
+}
+.floating-social .floating-social-label {
+  display: none !important;
+}
+
+/* ------------------------------------------------------------
+   7. Footer
+   ------------------------------------------------------------ */
+footer {
+  background: #0a0a0e !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+  color: rgba(245, 241, 239, 0.55) !important;
+  padding: 4rem 0 2.4rem !important;
+  font-size: 0.88rem !important;
+  line-height: 1.7 !important;
+}
+footer .footer-top {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  padding-bottom: 2.4rem !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+  margin-bottom: 2rem !important;
+  gap: 2rem;
+}
+footer .footer-info-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+footer .footer-info-item {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+footer .footer-info-item dt {
+  color: #f5f1ef !important;
+  font-weight: 600 !important;
+  min-width: 130px;
+  letter-spacing: 0.02em;
+}
+footer .footer-info-item dd {
+  margin: 0;
+}
+footer .footer-right {
+  text-align: right;
+}
+footer .footer-services {
+  color: #f5f1ef !important;
+  font-weight: 500 !important;
+  margin-bottom: 1rem;
+  font-size: 0.9rem !important;
+}
+footer .footer-bottom {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  color: rgba(245, 241, 239, 0.4) !important;
+  font-size: 0.8rem !important;
+}
+
+/* ------------------------------------------------------------
+   8. Contact Modal — refine on each page
+   ------------------------------------------------------------ */
+.contact-modal .section-badge {
+  color: var(--brand-deep) !important;
+  background: var(--brand-soft-2) !important;
+  border: 1px solid rgba(156, 26, 54, 0.16) !important;
+}
+.contact-modal .section-title {
+  color: var(--text-on-light) !important;
+}
+.contact-modal .form-group input:focus,
+.contact-modal .form-group textarea:focus,
+.contact-modal .form-group select:focus {
+  border-color: var(--brand) !important;
+  box-shadow: 0 0 0 3px rgba(156, 26, 54, 0.14) !important;
+}
+
+/* ------------------------------------------------------------
+   9. Responsive header
+   ------------------------------------------------------------ */
+@media (max-width: 960px) {
+  header { background: rgba(255, 255, 255, 0.96) !important; }
+  header .nav { height: 68px !important; }
+  header .logo-img { height: 48px !important; }
+  header .logo-fallback-icon { width: 36px; }
+  header .logo-fallback-mark { font-size: 1.3rem; }
+  header .logo-fallback-sub { font-size: 0.64rem; }
+  /* legacy bits stay hidden (rules above already do display:none) */
+  header .nav-links {
+    display: none !important;
+    flex-direction: column !important;
+    width: 100%;
+    opacity: 0 !important;
+    transition: opacity 0.25s ease;
+  }
+  header .nav-toggle {
+    display: flex !important;
+    position: relative;
+    z-index: 101;
+  }
+  header .nav.nav-open .nav-cta .btn-primary { display: none !important; }
+  header .nav.nav-open .nav-links {
+    display: flex !important;
+    opacity: 1 !important;
+    position: absolute !important;
+    top: 68px !important;
+    left: 0 !important;
+    width: 100% !important;
+    background: #fff !important;
+    padding: 1rem var(--gutter) 1.6rem !important;
+    box-shadow: 0 14px 28px rgba(15, 15, 20, 0.08) !important;
+    border-bottom: 1px solid var(--border-on-light) !important;
+    z-index: 100;
+    flex-direction: column !important;
+    gap: 0.4rem !important;
+    align-items: flex-start !important;
+  }
+  header .nav.nav-open .nav-links a {
+    width: 100%;
+    padding: 0.75rem 1rem !important;
+  }
+  header .nav.nav-open .nav-cta { display: flex !important; }
+}
+
+/* ------------------------------------------------------------
+   10. Page-content polish — shared primitives that
+   gently align every page's cards, badges, sections.
+   These are NOT !important — pages can override locally.
+   ------------------------------------------------------------ */
+.section-title {
+  letter-spacing: -0.02em;
+}
+.section-subtitle {
+  max-width: 720px;
+  line-height: 1.7;
+}
+
+/* Default card primitive — pages with their own .card rules override this */
+.card,
+.section-card,
+.team-card,
+.staff-card {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-on-light);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s ease, transform 0.2s ease,
