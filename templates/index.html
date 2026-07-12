@@ -60,6 +60,41 @@
 
       .blog-main { padding: 2.6rem 0 4.5rem; }
 
+      .blog-search-wrap {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+        margin-bottom: 1.1rem;
+      }
+      #blogSearch {
+        flex: 1 1 340px;
+        min-width: 0;
+        font: inherit;
+        font-size: 0.98rem;
+        padding: 0.72rem 1.1rem;
+        border: 1px solid var(--border-on-light, rgba(20, 18, 18, 0.16));
+        border-radius: 999px;
+        background: var(--surface, #fff);
+        color: var(--text-on-light, #1a1a1f);
+        outline: none;
+        transition: border-color 0.15s ease, box-shadow 0.15s ease;
+      }
+      #blogSearch::placeholder { color: var(--muted-on-light, #9a9691); }
+      #blogSearch:focus {
+        border-color: var(--brand, #9c1a36);
+        box-shadow: 0 0 0 3px rgba(156, 26, 54, 0.16);
+      }
+      .blog-search-count {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--muted-on-light, #6b6864);
+        white-space: nowrap;
+      }
+      @media (max-width: 640px) {
+        #blogSearch { flex-basis: 100%; }
+      }
+
       .blog-filters {
         display: flex;
         flex-wrap: wrap;
@@ -165,10 +200,21 @@
 
     <main class="blog-main">
       <div class="container">
+        <div class="blog-search-wrap">
+          <input
+            type="search"
+            id="blogSearch"
+            autocomplete="off"
+            aria-label="가이드 검색"
+            placeholder="학교명·키워드 검색 (예: Duke, 듀크, 간호, MBA)"
+          />
+          <span class="blog-search-count" id="blogSearchCount" aria-live="polite"></span>
+        </div>
         {{{filtersHtml}}}
         <div class="post-grid" id="postGrid">
           {{{cardsHtml}}}
         </div>
+        <p class="empty-note search-empty" id="searchEmpty" hidden>검색 결과가 없습니다.</p>
         <div class="load-more-wrap">
           <button class="btn btn-outline" type="button" id="loadMoreBtn" onclick="loadMore()">더 보기</button>
         </div>
@@ -182,20 +228,38 @@
       var PAGE_SIZE = {{indexPageSize}};
       var shown = 0;
       var activeCat = "all";
+      var query = "";
 
-      function visibleCards() {
+      // Cards matching BOTH the active category filter and the search query
+      // (case-insensitive substring against each card's data-search haystack).
+      function matchingCards() {
         return Array.prototype.filter.call(
           document.querySelectorAll("#postGrid .post-card"),
-          function (c) { return activeCat === "all" || c.getAttribute("data-category") === activeCat; }
+          function (c) {
+            var catOk = activeCat === "all" || c.getAttribute("data-category") === activeCat;
+            if (!catOk) return false;
+            if (!query) return true;
+            return (c.getAttribute("data-search") || "").indexOf(query) !== -1;
+          }
         );
       }
       function refresh() {
         var cards = document.querySelectorAll("#postGrid .post-card");
         Array.prototype.forEach.call(cards, function (c) { c.classList.add("hidden"); });
-        var vis = visibleCards();
-        vis.slice(0, shown).forEach(function (c) { c.classList.remove("hidden"); });
+        var vis = matchingCards();
+        // With a query, show every match (bypass the load-more cap); otherwise
+        // page through PAGE_SIZE at a time.
+        var limit = query ? vis.length : shown;
+        vis.slice(0, limit).forEach(function (c) { c.classList.remove("hidden"); });
+
         var btn = document.getElementById("loadMoreBtn");
-        if (btn) btn.style.display = vis.length > shown ? "" : "none";
+        if (btn) btn.style.display = !query && vis.length > shown ? "" : "none";
+
+        var empty = document.getElementById("searchEmpty");
+        if (empty) empty.hidden = vis.length !== 0;
+
+        var count = document.getElementById("blogSearchCount");
+        if (count) count.textContent = vis.length + "개의 가이드";
       }
       function loadMore() {
         shown += PAGE_SIZE;
@@ -209,8 +273,19 @@
         });
         refresh();
       }
+      var searchTimer = null;
+      function onSearchInput(e) {
+        var v = e.target.value.trim().toLowerCase();
+        if (searchTimer) clearTimeout(searchTimer);
+        searchTimer = setTimeout(function () {
+          query = v;
+          refresh();
+        }, 150);
+      }
       document.addEventListener("DOMContentLoaded", function () {
         shown = PAGE_SIZE;
+        var input = document.getElementById("blogSearch");
+        if (input) input.addEventListener("input", onSearchInput);
         refresh();
       });
     </script>

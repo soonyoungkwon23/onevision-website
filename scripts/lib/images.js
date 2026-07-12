@@ -55,7 +55,9 @@ function heroSvg(post) {
   const nameLines = wrap(post.universityEn || post.title, 26, 3);
   const big = nameLines.length >= 3 ? 40 : 52;
   const lh = nameLines.length >= 3 ? 50 : 62;
-  const nameY = Math.round(214 - ((nameLines.length - 1) * lh) / 2);
+  // Center the name lower so the first line clears the kicker (y≈150) while the
+  // last line stays above the JTC lockup (y≈386).
+  const nameY = Math.max(206, Math.round(272 - ((nameLines.length - 1) * lh) / 2));
 
   return `<svg class="art-hero" viewBox="0 0 1200 420" width="1200" height="420" preserveAspectRatio="xMidYMid slice" role="img" aria-label="${escapeHtml(post.universityEn)} ${t.pill}" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -91,7 +93,11 @@ function thumbSvg(post) {
   const t = theme(post.category);
   const uid = `t-${post.category}-${post.slug}`;
   const nameLines = wrap(post.universityEn || post.title, 20, 3);
-  const nameY = 150 - (nameLines.length - 1) * 20;
+  // Flow the name DOWN from a fixed top that clears the category badge (y 52–88),
+  // shrinking type on 3-line names so the last line stays above the footer (y≈404).
+  const big = nameLines.length >= 3 ? 30 : 38;
+  const lh = nameLines.length >= 3 ? 38 : 46;
+  const nameY = 150;
   return `<svg class="art-thumb" viewBox="0 0 800 440" width="800" height="440" preserveAspectRatio="xMidYMid slice" role="img" aria-label="${escapeHtml(post.universityEn)}" xmlns="http://www.w3.org/2000/svg">
   <defs><linearGradient id="${uid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${t.g1}"/><stop offset="1" stop-color="${t.g2}"/></linearGradient>
   <clipPath id="c${uid}"><rect width="800" height="440"/></clipPath></defs>
@@ -103,7 +109,7 @@ function thumbSvg(post) {
     <rect x="54" y="52" width="${40 + t.pill.length * 16}" height="36" rx="18" fill="${t.accent}" opacity="0.24"/>
     <text x="74" y="76" font-family="'Pretendard Variable', system-ui, sans-serif" fill="${t.accent}" font-size="18" font-weight="700">${escapeHtml(t.pill)}</text>
     <g font-family="'Noto Serif KR', serif" fill="#ffffff">
-      ${nameLines.map((l, i) => `<text x="56" y="${nameY + i * 46}" font-size="40" font-weight="600">${escapeHtml(l)}</text>`).join("\n      ")}
+      ${nameLines.map((l, i) => `<text x="56" y="${nameY + i * lh}" font-size="${big}" font-weight="600">${escapeHtml(l)}</text>`).join("\n      ")}
     </g>
     <text x="56" y="404" font-family="'Pretendard Variable', system-ui, sans-serif" fill="#ffffff" opacity="0.62" font-size="17" font-weight="600" letter-spacing="1">OneVision 입학 전략 가이드</text>
   </g>

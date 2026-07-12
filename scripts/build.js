@@ -128,7 +128,17 @@ function verificationMeta(config) {
 
 function cardHtml(config, p) {
   const cat = config.categories[p.category];
-  return `<a class="post-card" data-category="${p.category}" href="/${config.blogPathPrefix}/${p.category}/${p.slug}.html">
+  // Lowercased haystack for the client-side live search: EN + KO university
+  // name, title, description, category label. Quotes stripped so the attribute
+  // stays well-formed.
+  const search = escapeHtml(
+    [p.universityEn, p.universityKo, p.title, p.description, cat.label]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase()
+      .replace(/"/g, " ")
+  );
+  return `<a class="post-card" data-category="${p.category}" data-search="${search}" href="/${config.blogPathPrefix}/${p.category}/${p.slug}.html">
     <span class="pc-thumb">${images.thumbSvg(p)}</span>
     <span class="pc-body">
       <span class="pc-cat">${escapeHtml(cat.shortLabel)}</span>
