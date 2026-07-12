@@ -45,13 +45,26 @@ Manual run: GitHub → Actions → Weekly Publish → Run workflow (optional `co
 
 ## One-time setup (after cloning / repo creation)
 
-1. **GitHub secrets** (repo → Settings → Secrets and variables → Actions):
-   `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` — from Hostinger hPanel →
-   Files → FTP Accounts. Check the FTP root: if the account already lands in
-   `public_html`, change `server-dir` in both workflow files to `./`.
-2. **First deploy**: Actions → Build & Deploy → Run workflow. First run uploads
-   the full site (~23 MB); later runs are incremental (state-file sync).
-   Afterwards delete Hostinger's placeholder `default.php` on the server once.
+1. **GitHub secrets** (repo → Settings → Secrets and variables → Actions →
+   New repository secret). Add three, from Hostinger hPanel → Files → FTP
+   Accounts:
+   - `FTP_SERVER` — the FTP IP/host (e.g. `82.180.172.67`)
+   - `FTP_USERNAME` — e.g. `u278143454`
+   - `FTP_PASSWORD` — the FTP password
+
+   The deploy uses `lftp` over TLS (FTPS) with `ssl:verify-certificate no`,
+   because Hostinger's FTP cert is `*.hstgr.io` and the account is only
+   reachable by IP (no PTR record), so strict hostname verification fails.
+   The connection is still encrypted. The server docroot is
+   `/domains/onevisionconsulting.us/public_html` (hardcoded in the workflows —
+   verified live; the FTP login lands one level above `domains/`).
+
+2. **First deploy**: Actions → Build & Deploy → Run workflow. `mirror --size-only`
+   uploads only files whose size differs, so the ~22 MB image set is sent once
+   and skipped thereafter. The deploy never deletes, so Hostinger's placeholder
+   `default.php` survives — delete it once from the server (hPanel File Manager
+   or FTP) after the first successful deploy.
+
 3. **Search consoles**: register the domain in Google Search Console and Naver
    Search Advisor (서치어드바이저), put the verification codes into
    `site.config.json` → `verification`, push. Then submit `sitemap.xml` to

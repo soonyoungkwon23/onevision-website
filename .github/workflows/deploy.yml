@@ -25,17 +25,26 @@ jobs:
       - name: Build blog pages, sitemap, RSS
         run: node scripts/build.js
 
+      # Hostinger's FTP cert is *.hstgr.io and the account is reachable only by
+      # IP (no PTR record), so strict TLS hostname verification fails. lftp keeps
+      # the connection TLS-encrypted (ssl-force) but skips the hostname check.
+      # --size-only avoids re-uploading the ~22 MB of unchanged images every run
+      # (fresh CI checkout timestamps would otherwise defeat time-based sync).
       - name: Deploy to Hostinger over FTPS
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          local-dir: ./public_html/
-          server-dir: ./public_html/
-          state-name: .ftp-deploy-sync-state.json
-          dangerous-clean-slate: false
-          exclude: |
-            **/.git*
-            **/.git*/**
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+          lftp -c "
+            set cmd:fail-exit yes;
+            set ftp:ssl-force true;
+            set ftp:ssl-protect-data true;
+            set ssl:verify-certificate no;
+            set net:max-retries 3;
+            set net:timeout 20;
+            open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" \"$FTP_SERVER\";
+            mirror -R --size-only --parallel=4 --exclude-glob .git* \
+              ./public_html /domains/onevisionconsulting.us/public_html;
+          "
