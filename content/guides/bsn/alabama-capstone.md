@@ -9,9 +9,9 @@ schoolEn: Capstone College of Nursing
 description: >-
   2026 U.S. News 학부 BSN 공동 22위, The University of Alabama Capstone College of
   Nursing 입학 가이드. 연간 학비 약 $34,542, TOEFL 79 요건, Schedule A 영주권 경로까지 한 번에 정리했습니다.
-status: ready
+status: published
 order: 1
-publishDate: null
+publishDate: '2026-07-12'
 updatedDate: null
 enhancedDate: '2026-07-12'
 ---

@@ -9,9 +9,9 @@ schoolEn: Duke University School of Nursing
 description: >-
   2026년 U.S. News 학부 BSN 랭킹 전국 1위 Duke University School of Nursing. 비간호 학사가
   16개월 만에 RN 면허에 도달하는 MN 프로그램의 학비·마감일·합격 전략과 EB-3 영주권 경로까지 정리했습니다.
-status: ready
+status: published
 order: 27
-publishDate: null
+publishDate: '2026-07-12'
 updatedDate: null
 enhancedDate: '2026-07-12'
 ---

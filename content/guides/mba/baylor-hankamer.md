@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   평균 65% 등록금 장학금과 52.74% 합격률, Test-Optional 정책까지. Texas Waco의 Baylor University
   Hankamer School of Business MBA를 한국 지원자 눈높이로 짚어드립니다.
-status: ready
+status: published
 order: 16
-publishDate: null
+publishDate: '2026-07-12'
 updatedDate: null
 enhancedDate: '2026-07-12'
 ---

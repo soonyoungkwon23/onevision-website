@@ -9,9 +9,9 @@ schoolEn: Rory Meyers College of Nursing
 description: >-
   합격률 약 3%, 2024년 NCLEX 첫 응시 합격률 91.71%의 NYU Rory Meyers BSN. 학비와 마감일부터 Schedule
   A EB-3 영주권 경로까지 한국 학생에게 필요한 전략만 정리했습니다.
-status: ready
+status: published
 order: 57
-publishDate: null
+publishDate: '2026-07-12'
 updatedDate: null
 enhancedDate: '2026-07-12'
 ---

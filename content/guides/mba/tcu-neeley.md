@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   합격률 75%, 취업률 96%의 TCU Neeley MBA. STEM 지정 소규모 코호트 프로그램의 학비와 장학금, GMAT 전략, 3년
   STEM OPT 혜택까지 지원 전 확인할 정보를 담았습니다.
-status: ready
+status: published
 order: 80
-publishDate: null
+publishDate: '2026-07-12'
 updatedDate: null
 enhancedDate: '2026-07-12'
 ---
