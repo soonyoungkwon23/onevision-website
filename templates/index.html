@@ -93,16 +93,23 @@
       .post-card {
         display: flex;
         flex-direction: column;
-        gap: 0.6rem;
         background: var(--surface, #fff);
         border: 1px solid var(--border-on-light, rgba(20, 18, 18, 0.08));
         border-radius: var(--radius-lg, 18px);
         box-shadow: var(--shadow-sm);
-        padding: 1.4rem 1.5rem 1.5rem;
+        overflow: hidden;
         transition: transform 0.15s ease, box-shadow 0.2s ease;
       }
       .post-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
       .post-card.hidden { display: none; }
+      .pc-thumb { display: block; line-height: 0; border-bottom: 1px solid var(--border-on-light, rgba(20, 18, 18, 0.06)); }
+      .pc-thumb svg { display: block; width: 100%; height: auto; }
+      .pc-body {
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+        padding: 1.25rem 1.4rem 1.4rem;
+      }
       .pc-cat {
         font-size: 0.72rem;
         font-weight: 700;

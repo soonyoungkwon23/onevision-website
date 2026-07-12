@@ -22,6 +22,7 @@ const {
   formatDateKo,
 } = require("./lib/template");
 const schema = require("./lib/schema");
+const images = require("./lib/images");
 
 const md = new MarkdownIt({ html: true, linkify: false });
 const CONTENT = path.join(ROOT, "content", "guides");
@@ -128,10 +129,13 @@ function verificationMeta(config) {
 function cardHtml(config, p) {
   const cat = config.categories[p.category];
   return `<a class="post-card" data-category="${p.category}" href="/${config.blogPathPrefix}/${p.category}/${p.slug}.html">
-    <span class="pc-cat">${escapeHtml(cat.shortLabel)}</span>
-    <span class="pc-title">${escapeHtml(p.title)}</span>
-    <span class="pc-desc">${escapeHtml(p.description)}</span>
-    <span class="pc-date">${formatDateKo(p.publishDate)}</span>
+    <span class="pc-thumb">${images.thumbSvg(p)}</span>
+    <span class="pc-body">
+      <span class="pc-cat">${escapeHtml(cat.shortLabel)}</span>
+      <span class="pc-title">${escapeHtml(p.title)}</span>
+      <span class="pc-desc">${escapeHtml(p.description)}</span>
+      <span class="pc-date">${formatDateKo(p.publishDate)}</span>
+    </span>
   </a>`;
 }
 
@@ -192,6 +196,8 @@ function buildPost(config, tpl, headerHtml, footerHtml, p, published) {
     blogNavLabel: config.blogNavLabel,
     category: p.category,
     categoryLabel: cat.label,
+    heroSvg: images.heroSvg(p),
+    bandSvg: images.bandSvg(p),
     leadHtml: md.render(leadMd),
     tocHtml: tocHtml(toc),
     bodyHtml,

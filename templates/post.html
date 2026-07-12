@@ -47,6 +47,23 @@
         margin: 0 auto;
       }
 
+      .post-hero {
+        margin: 0 0 1.9rem;
+        border-radius: var(--radius-lg, 18px);
+        overflow: hidden;
+        box-shadow: var(--shadow-md);
+        line-height: 0;
+      }
+      .post-hero svg,
+      .post-band svg { display: block; width: 100%; height: auto; }
+      .post-band {
+        margin: 2rem 0 0;
+        border-radius: var(--radius-lg, 18px);
+        overflow: hidden;
+        border: 1px solid var(--border-on-light, rgba(20, 18, 18, 0.08));
+        line-height: 0;
+      }
+
       /* Breadcrumb */
       .breadcrumb {
         display: flex;
@@ -357,6 +374,8 @@
           </nav>
 
           <article>
+            <figure class="post-hero">{{{heroSvg}}}</figure>
+
             <div class="post-head">
               <div class="section-badge"><span class="section-badge-dot"></span>{{categoryLabel}}</div>
               <h1 class="post-title">{{title}}</h1>
@@ -366,6 +385,8 @@
               </div>
               <div class="post-lead">{{{leadHtml}}}</div>
             </div>
+
+            <figure class="post-band">{{{bandSvg}}}</figure>
 
             <nav class="post-toc" aria-label="목차">
               <div class="post-toc-title">목차</div>

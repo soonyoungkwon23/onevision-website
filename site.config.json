@@ -3,13 +3,22 @@
   "siteName": "원비전컨설팅 | OneVision Consulting",
   "blogPathPrefix": "blog",
   "blogNavLabel": "입학 가이드",
-  "dripRate": 5,
+  "dripRate": 20,
   "rssItemLimit": 50,
   "indexPageSize": 12,
   "categories": {
-    "bsn": { "label": "BSN 간호대학", "shortLabel": "BSN" },
-    "mba": { "label": "MBA", "shortLabel": "MBA" },
-    "column": { "label": "칼럼·후기", "shortLabel": "칼럼" }
+    "bsn": {
+      "label": "BSN 간호대학",
+      "shortLabel": "BSN"
+    },
+    "mba": {
+      "label": "MBA",
+      "shortLabel": "MBA"
+    },
+    "column": {
+      "label": "칼럼·후기",
+      "shortLabel": "칼럼"
+    }
   },
   "verification": {
     "googleSiteVerification": "",
