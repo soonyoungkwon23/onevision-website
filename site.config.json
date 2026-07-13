@@ -18,6 +18,10 @@
     "column": {
       "label": "칼럼·후기",
       "shortLabel": "칼럼"
+    },
+    "visa": {
+      "label": "비자·이민",
+      "shortLabel": "비자"
     }
   },
   "verification": {

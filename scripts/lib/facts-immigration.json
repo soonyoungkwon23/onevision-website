@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "purpose": "Single source of truth for every number/fee/figure cited in the 비자·이민 (visa) guide cluster. Every numeric token in a visa draft must trace to a row here. Confidence tiers: GREEN = stable/well-established, YELLOW = correct but changes periodically (stamp 마지막 업데이트), RED = fast-moving/high-consequence, human-verify EVERY publish cycle.",
+    "lastReviewed": "2026-07-13",
+    "disclaimer": "개인 상황에 따라 다르며, 실제 신청 전 이민 변호사·전문가 상담을 권장합니다. 수수료·정책은 수시로 바뀝니다."
+  },
+
+  "sevis_i901_fee_usd": { "value": 350, "display": "$350", "tier": "GREEN", "note": "F/M 학생 SEVIS I-901 등록비 (2019년 6월 이후). J 교환방문자는 별도 금액.", "source": "ICE / FMJfee.com" },
+  "mrv_fee_usd": { "value": 185, "display": "$185", "tier": "YELLOW", "note": "비이민 비자 신청 수수료(MRV), F/M/J 포함 (2023년 6월 인상). 국가·비자유형 따라 상이 가능.", "source": "US Dept of State" },
+  "ds160_fee": { "value": null, "display": "별도 수수료 없음", "tier": "GREEN", "note": "DS-160은 온라인 신청서 자체. 비용은 MRV 수수료로 납부.", "source": "US Dept of State" },
+
+  "opt_months": { "value": 12, "display": "12개월", "tier": "GREEN", "note": "표준 OPT — 학위 단계별 12개월.", "source": "USCIS / SEVP" },
+  "stem_opt_extension_months": { "value": 24, "display": "24개월", "tier": "GREEN", "note": "STEM 학위 소지자 OPT 연장 24개월.", "source": "USCIS / SEVP" },
+  "stem_opt_total_months": { "value": 36, "display": "36개월(3년)", "tier": "GREEN", "note": "12개월 표준 OPT + 24개월 STEM 연장 = 총 36개월.", "source": "USCIS / SEVP" },
+  "opt_unemployment_days": { "value": 90, "display": "90일", "tier": "GREEN", "note": "표준 OPT 기간 중 누적 실업 허용 90일.", "source": "SEVP" },
+  "stem_opt_unemployment_days": { "value": 150, "display": "150일", "tier": "GREEN", "note": "STEM 연장 시 누적 실업 허용 총 150일.", "source": "SEVP" },
+  "stem_opt_requires_everify": { "value": true, "display": "E-Verify 필수", "tier": "GREEN", "note": "STEM OPT는 고용주가 E-Verify 등록 사업체여야 하고 Form I-983 훈련계획서 제출 필요.", "source": "USCIS" },
+  "cap_gap_end": { "value": "10/1", "display": "10월 1일", "tier": "GREEN", "note": "H-1B가 접수·선정되면 cap-gap으로 F-1 신분과 OPT 근로허가가 회계연도 시작 10월 1일까지 자동 연장.", "source": "USCIS" },
+
+  "h1b_cap_total": { "value": 85000, "display": "85,000", "tier": "GREEN", "note": "연간 H-1B 캡 총량.", "source": "USCIS" },
+  "h1b_cap_regular": { "value": 65000, "display": "65,000", "tier": "GREEN", "note": "일반 쿼터.", "source": "USCIS" },
+  "h1b_cap_masters": { "value": 20000, "display": "20,000", "tier": "GREEN", "note": "미국 석사 이상 학위 소지자 추가 쿼터(석사 면제 exemption).", "source": "USCIS" },
+  "h1b_validity_initial_years": { "value": 3, "display": "3년", "tier": "GREEN", "note": "H-1B 최초 승인 유효기간.", "source": "USCIS" },
+  "h1b_validity_max_years": { "value": 6, "display": "6년", "tier": "GREEN", "note": "H-1B 최대 체류(연장 포함). 영주권 진행 시 예외 연장 가능.", "source": "USCIS / AC21" },
+  "h1b_registration_fee_usd": { "value": 215, "display": "$215", "tier": "YELLOW", "note": "H-1B 전자 등록(registration) 수수료 (FY2026 시즌부터 인상, 이전 $10). 매년 확인.", "source": "USCIS fee rule 2024" },
+  "h1b_selection_odds_cumulative": { "value": [25, 44, 58], "display": "1년차 25% → 2년차 44% → 3년차 58%", "tier": "YELLOW", "note": "STEM OPT 3년 동안 매년 추첨에 참가할 때의 누적 선정 확률(모델 추정치, 연도별 지원자 수에 따라 변동). 실제 값 아님 — '이만큼 기회가 늘어난다'는 설명용.", "source": "modeled estimate" },
+
+  "h1b_new_fee_100k_usd": { "value": 100000, "display": "$100,000", "tier": "RED", "note": "2025년 9월 대통령 포고령이 신규 H-1B 청원에 부과한 $100,000 수수료. 핵심 뉘앙스: 미국 내에서 신분변경(change of status)하는 F-1 유학생 vs 해외 신규 발급의 적용 여부, 시행 시점, 소송·예외가 유동적. 반드시 최신 USCIS/변호사 확인 후 서술.", "source": "Presidential Proclamation 2025 — VERIFY" },
+
+  "eb3_category": { "value": "EB-3", "display": "EB-3", "tier": "GREEN", "note": "취업이민 3순위: 숙련직(Skilled Workers), 전문직(Professionals), 비숙련직(Other Workers).", "source": "USCIS" },
+  "eb3_requires_perm": { "value": true, "display": "PERM 노동인증 필요(원칙)", "tier": "GREEN", "note": "EB-3는 원칙적으로 PERM 노동인증(고용주 스폰서, 노동시장 테스트) 필요. Schedule A 직종은 예외.", "source": "DOL / USCIS" },
+  "green_card_steps": { "value": 3, "display": "PERM → I-140 → I-485(또는 영사수속)", "tier": "GREEN", "note": "취업이민 영주권 3단계.", "source": "USCIS" },
+
+  "schedule_a_group1": { "value": ["Registered Nurse", "Physical Therapist"], "display": "Schedule A Group I: 등록간호사(RN), 물리치료사", "tier": "GREEN", "note": "DOL이 인력부족 직종으로 사전인증한 Schedule A Group I. PERM 노동인증 생략 가능.", "source": "DOL 20 CFR 656.5" },
+  "nurse_visascreen": { "value": true, "display": "VisaScreen 인증 필요", "tier": "GREEN", "note": "외국 간호사는 CGFNS VisaScreen(자격·영어·면허 검증) 인증서 필요.", "source": "CGFNS / USCIS" },
+  "nurse_nclex": { "value": "NCLEX-RN", "display": "NCLEX-RN 합격", "tier": "GREEN", "note": "미국 RN 면허를 위해 주 간호위원회 요건 + NCLEX-RN 합격 필요.", "source": "NCSBN" },
+
+  "visa_bulletin_note": { "value": null, "display": "Visa Bulletin 문호(우선일자)는 매월 변동", "tier": "RED", "note": "EB-3 문호(priority date)는 국가별로 매월 바뀌며 인도·중국은 상당한 적체(retrogression). 한국(Rest of World)은 상대적으로 여유롭지만 시점에 따라 변동. 특정 날짜는 절대 하드코딩 금지 — 발행 시 국무부 Visa Bulletin 당월판 확인.", "source": "US Dept of State Visa Bulletin — VERIFY MONTHLY" }
+}

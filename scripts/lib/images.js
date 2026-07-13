@@ -9,6 +9,7 @@ const THEME = {
   bsn: { g1: "#8f1631", g2: "#490b1b", accent: "#f2acc0", kicker: "BSN · 미국 간호대학", pill: "BSN 간호대학", icon: "pulse" },
   mba: { g1: "#6d1228", g2: "#3a0e1e", accent: "#ecc888", kicker: "MBA · 미국 경영대학원", pill: "MBA", icon: "chart" },
   column: { g1: "#472742", g2: "#271327", accent: "#cdb4dc", kicker: "칼럼 · 유학 인사이트", pill: "칼럼", icon: "doc" },
+  visa: { g1: "#5a2748", g2: "#2a1024", accent: "#9fd8c8", kicker: "비자·이민 · 미국 취업 이민 루트", pill: "비자·이민", icon: "plane" },
 };
 
 // Line-icon path data drawn in a 0 0 24 24 box, stroked with currentColor.
