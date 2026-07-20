@@ -7,11 +7,11 @@ universityEn: George Washington University
 universityKo: 조지워싱턴대학교
 schoolEn: School of Nursing
 description: >-
-  Washington DC 권역 명문 사립대 GW의 간호대학. 2026 U.S. News BSN 공동 30위, NCLEX 합격률
-  94.2%. 한국 학사 보유자가 15개월 ABSN으로 RN과 EB-3 영주권 경로를 잡는 법을 정리했습니다.
-status: ready
+  Washington DC 권역 명문 사립대 GW의 간호대학. 2026 U.S. News BSN 공동 30위, NCLEX 합격률 94.2%.
+  한국 학사 보유자가 15개월 ABSN으로 RN과 EB-3 영주권 경로를 잡는 법을 정리했습니다.
+status: published
 order: 33
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

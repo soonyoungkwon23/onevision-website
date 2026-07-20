@@ -6,10 +6,12 @@ source: docx
 universityEn: Case Western Reserve University
 universityKo: 케이스웨스턴리저브대학교
 schoolEn: Weatherhead School of Management
-description: 약 45~50명 초소규모 코호트, GMAT 674, 학비 약 $96,720. Cleveland Clinic·KeyBank와 연결된 Weatherhead MBA 입학 전략을 정리했습니다.
-status: ready
+description: >-
+  약 45~50명 초소규모 코호트, GMAT 674, 학비 약 $96,720. Cleveland Clinic·KeyBank와 연결된
+  Weatherhead MBA 입학 전략을 정리했습니다.
+status: published
 order: 26
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

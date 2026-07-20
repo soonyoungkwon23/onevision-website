@@ -7,11 +7,11 @@ universityEn: Iowa State University
 universityKo: 아이오와주립대학교
 schoolEn: Ivy College of Business MBA
 description: >-
-  합격률 75%, 평균 GMAT 609점의 Iowa State Ivy College of Business MBA. 졸업 3개월 내
-  취업률 93.3%, STEM OPT 3년까지 노리는 한국 학생을 위한 입학 전략을 정리했습니다.
-status: ready
+  합격률 75%, 평균 GMAT 609점의 Iowa State Ivy College of Business MBA. 졸업 3개월 내 취업률
+  93.3%, STEM OPT 3년까지 노리는 한국 학생을 위한 입학 전략을 정리했습니다.
+status: published
 order: 42
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

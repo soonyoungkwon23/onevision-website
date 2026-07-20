@@ -9,11 +9,11 @@ universityEn: University of Colorado Anschutz Medical Campus
 universityKo: 콜로라도대학교 안슈츠
 schoolEn: College of Nursing
 description: >-
-  CU Anschutz BSN 완전 정리. 2025년 UCAN NCLEX 첫 응시 합격률 98.51%, in-state 학비
-  $40,062, Colorado RN 초임 $80,000~$90,000. upper-division 전용 구조와 지원 전략까지.
-status: ready
+  CU Anschutz BSN 완전 정리. 2025년 UCAN NCLEX 첫 응시 합격률 98.51%, in-state 학비 $40,062,
+  Colorado RN 초임 $80,000~$90,000. upper-division 전용 구조와 지원 전략까지.
+status: published
 order: 23
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

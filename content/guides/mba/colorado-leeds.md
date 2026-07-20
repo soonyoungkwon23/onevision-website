@@ -6,10 +6,12 @@ source: docx
 universityEn: University of Colorado–Boulder
 universityKo: 콜로라도대학교
 schoolEn: Leeds School of Business
-description: 록키 산맥이 보이는 캠퍼스에서 배우는 Leeds MBA. 평균 GMAT 622, 국제 학생 학비 연 $81,241, STEM Dual Degree로 36개월 OPT까지 한국 지원자 전략을 정리했습니다.
-status: ready
+description: >-
+  록키 산맥이 보이는 캠퍼스에서 배우는 Leeds MBA. 평균 GMAT 622, 국제 학생 학비 연 $81,241, STEM Dual
+  Degree로 36개월 OPT까지 한국 지원자 전략을 정리했습니다.
+status: published
 order: 32
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

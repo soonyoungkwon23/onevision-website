@@ -7,11 +7,11 @@ universityEn: University of Florida
 universityKo: 플로리다대학교
 schoolEn: College of Nursing
 description: >-
-  UF College of Nursing BSN 완전 분석. NCLEX 첫 응시 합격률 92~98%, 국제 학생 학비 약
-  $28,659/년, ABSN 12개월 경로와 Schedule A EB-3 영주권 전략까지 한 번에 정리했습니다.
-status: ready
+  UF College of Nursing BSN 완전 분석. NCLEX 첫 응시 합격률 92~98%, 국제 학생 학비 약 $28,659/년,
+  ABSN 12개월 경로와 Schedule A EB-3 영주권 전략까지 한 번에 정리했습니다.
+status: published
 order: 31
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

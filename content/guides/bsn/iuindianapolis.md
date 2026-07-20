@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   국제 학생 학비 약 $36,125, NCLEX 첫 응시 합격률 92~94%, U.S. News 전국 공동 13위. IU
   Indianapolis 간호대 BSN 입학부터 Schedule A EB-3 영주권까지 한 번에 짚어드립니다.
-status: ready
+status: published
 order: 37
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

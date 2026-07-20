@@ -7,11 +7,11 @@ universityEn: University of Kentucky
 universityKo: 켄터키대학교
 schoolEn: College of Nursing
 description: >-
-  U.S. News 학부 BSN 40위, NCLEX 첫 응시 합격률 98.4%. UK HealthCare 학술
-  의료센터와 통합된 University of Kentucky BSN의 direct admit부터 EB-3까지 한눈에.
-status: ready
+  U.S. News 학부 BSN 40위, NCLEX 첫 응시 합격률 98.4%. UK HealthCare 학술 의료센터와 통합된
+  University of Kentucky BSN의 direct admit부터 EB-3까지 한눈에.
+status: published
 order: 41
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

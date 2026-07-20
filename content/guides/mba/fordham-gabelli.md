@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   맨해튼 Lincoln Center의 약 60명 소규모 MBA. Finance 전국 16위, 합격률 47.6%, Test-Optional,
   졸업생 평균 기본급 $131,000. 한국 학생을 위한 Gabelli MBA 입학 전략을 정리했습니다.
-status: ready
+status: published
 order: 38
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

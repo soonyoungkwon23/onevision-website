@@ -7,11 +7,11 @@ universityEn: University of Florida
 universityKo: 플로리다대학교
 schoolEn: Warrington College of Business
 description: >-
-  Fortune 2025 MBA 전국 27위, 공립 9위. 32명 극소 코호트에 합격률 17.3%, 졸업생 평균 연봉
-  $118,991과 취업률 95.7%를 자랑하는 University of Florida Warrington MBA 입학 전략을 정리했습니다.
-status: ready
+  Fortune 2025 MBA 전국 27위, 공립 9위. 32명 극소 코호트에 합격률 17.3%, 졸업생 평균 연봉 $118,991과 취업률
+  95.7%를 자랑하는 University of Florida Warrington MBA 입학 전략을 정리했습니다.
+status: published
 order: 36
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

@@ -7,11 +7,11 @@ universityEn: Emory University
 universityKo: 에모리대학교
 schoolEn: Nell Hodgson Woodruff School of Nursing
 description: >-
-  2026년 U.S. News BSN 랭킹 공동 2위 Emory 간호대. GPA 3.0 보장 입학부터 1년 DABSN,
-  NCLEX 92% 합격률, Schedule A EB-3 영주권 경로까지 한국 학생 실전 전략을 정리했습니다.
-status: ready
+  2026년 U.S. News BSN 랭킹 공동 2위 Emory 간호대. GPA 3.0 보장 입학부터 1년 DABSN, NCLEX 92%
+  합격률, Schedule A EB-3 영주권 경로까지 한국 학생 실전 전략을 정리했습니다.
+status: published
 order: 29
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

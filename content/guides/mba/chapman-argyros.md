@@ -9,11 +9,11 @@ universityEn: Chapman University
 universityKo: 채프먼대학교
 schoolEn: George L. Argyros College of Business and Economics
 description: >-
-  약 30명 초소규모 코호트로 운영되는 Chapman Argyros MBA. 학점당 학비 $2,135, 합격률 약 54%,
-  Orange County 기업 네트워크와 장학금 전략까지 한국인 지원자 맞춤 가이드.
-status: ready
+  약 30명 초소규모 코호트로 운영되는 Chapman Argyros MBA. 학점당 학비 $2,135, 합격률 약 54%, Orange
+  County 기업 네트워크와 장학금 전략까지 한국인 지원자 맞춤 가이드.
+status: published
 order: 28
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

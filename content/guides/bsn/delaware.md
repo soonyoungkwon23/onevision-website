@@ -7,11 +7,11 @@ universityEn: University of Delaware
 universityKo: 델라웨어대학교
 schoolEn: School of Nursing
 description: >-
-  U.S. News 학부 BSN 공동 40위, 2024년 NCLEX 첫 응시 합격률 96.13%. Scholar Pipeline으로
-  재학 중 stipend와 졸업 시 guaranteed offer까지 확보하는 UD BSN 입학 전략을 정리했습니다.
-status: ready
+  U.S. News 학부 BSN 공동 40위, 2024년 NCLEX 첫 응시 합격률 96.13%. Scholar Pipeline으로 재학 중
+  stipend와 졸업 시 guaranteed offer까지 확보하는 UD BSN 입학 전략을 정리했습니다.
+status: published
 order: 25
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

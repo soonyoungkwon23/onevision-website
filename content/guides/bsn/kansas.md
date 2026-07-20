@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   KU School of Nursing BSN은 60 credit hours 이수 후 3학년 진입하는 upper-division 전용 모델.
   NCLEX 첫 응시 합격률 98.4%, U.S. News 전국 공동 40위. 한국 학생 지원 전략을 정리했습니다.
-status: ready
+status: published
 order: 39
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

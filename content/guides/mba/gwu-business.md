@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   합격률 약 40%, 평균 GMAT 642. 백악관 4블록 거리, STEM 지정에 36개월 OPT까지 갖춘 Washington, D.C.의
   George Washington University MBA를 정리했습니다.
-status: ready
+status: published
 order: 40
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

@@ -7,11 +7,11 @@ universityEn: University of Cincinnati
 universityKo: 신시내티대학교
 schoolEn: Carl H. Lindner College of Business
 description: >-
-  9~12개월 만에 끝나는 University of Cincinnati Lindner MBA. 비거주자 학비 $49,605,
-  졸업 평균 초봉 $96,846, 취업률 95.8%, GMAT Optional까지 핵심 정보를 정리했습니다.
-status: ready
+  9~12개월 만에 끝나는 University of Cincinnati Lindner MBA. 비거주자 학비 $49,605, 졸업 평균 초봉
+  $96,846, 취업률 95.8%, GMAT Optional까지 핵심 정보를 정리했습니다.
+status: published
 order: 30
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

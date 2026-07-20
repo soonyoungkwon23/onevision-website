@@ -9,9 +9,9 @@ schoolEn: Marcella Niehoff School of Nursing
 description: >-
   2026 U.S. News BSN 전국 공동 13위, NCLEX 첫 응시 96.36%. Jesuit 전통의 Loyola Chicago
   간호대학이 direct admit부터 Schedule A EB-3 영주권까지 한국 학생에게 왜 유리한지 정리했습니다.
-status: ready
+status: published
 order: 43
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

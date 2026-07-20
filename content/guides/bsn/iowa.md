@@ -7,11 +7,11 @@ universityEn: University of Iowa
 universityKo: 아이오와대학교
 schoolEn: College of Nursing
 description: >-
-  U.S. News 2026 BSN 랭킹 공동 8위, NCLEX 첫 응시 합격률 94~98%. University of Iowa
-  College of Nursing의 Direct Admission과 Schedule A EB-3 영주권 경로를 정리했습니다.
-status: ready
+  U.S. News 2026 BSN 랭킹 공동 8위, NCLEX 첫 응시 합격률 94~98%. University of Iowa College
+  of Nursing의 Direct Admission과 Schedule A EB-3 영주권 경로를 정리했습니다.
+status: published
 order: 35
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

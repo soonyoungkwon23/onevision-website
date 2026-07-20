@@ -7,11 +7,11 @@ universityEn: University of Detroit Mercy
 universityKo: 디트로이트머시대학교
 schoolEn: College of Business Administration
 description: >-
-  학점당 $936, GMAT 600 이상이면 반액 장학금. AACSB 인증(세계 상위 5%)과 U.S. News Management
-  상위 30위를 갖춘 Jesuit MBA를 최소 1년 만에 마치는 방법을 정리했습니다.
-status: ready
+  학점당 $936, GMAT 600 이상이면 반액 장학금. AACSB 인증(세계 상위 5%)과 U.S. News Management 상위
+  30위를 갖춘 Jesuit MBA를 최소 1년 만에 마치는 방법을 정리했습니다.
+status: published
 order: 34
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

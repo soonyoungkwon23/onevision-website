@@ -7,11 +7,11 @@ universityEn: Brigham Young University
 universityKo: BYU
 schoolEn: Marriott School of Business
 description: >-
-  BYU Marriott MBA는 비LDS 학비 연 $17,344에 졸업 평균 연봉 $120,881. STEM 트랙으로
-  36개월 OPT까지, 미국 최고 ROI MBA의 합격 전략을 정리했습니다.
-status: ready
+  BYU Marriott MBA는 비LDS 학비 연 $17,344에 졸업 평균 연봉 $120,881. STEM 트랙으로 36개월 OPT까지,
+  미국 최고 ROI MBA의 합격 전략을 정리했습니다.
+status: published
 order: 24
-publishDate: null
+publishDate: '2026-07-20'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---
