@@ -9,9 +9,9 @@ schoolEn: School of Business Administration
 description: >-
   거주자 학비 약 $25,914, Graduate Assistantship 75% 감면. AACSB 인증 14개월 가속 MBA를 미국에서 가장
   경제적으로 마치는 길을 안내합니다.
-status: ready
+status: published
 order: 60
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

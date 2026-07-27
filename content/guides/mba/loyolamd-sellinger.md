@@ -8,10 +8,12 @@ source: docx
 universityEn: Loyola University Maryland
 universityKo: 로욜라대학교 메릴랜드
 schoolEn: Sellinger School of Business and Management
-description: Sellinger MBA는 학비 약 $63,750, 합격률 약 98%, GMAT/GRE 비요구로 12개월 만에 끝나는 가속 MBA입니다. 예수회 윤리 리더십 교육의 실속을 짚어봅니다.
-status: ready
+description: >-
+  Sellinger MBA는 학비 약 $63,750, 합격률 약 98%, GMAT/GRE 비요구로 12개월 만에 끝나는 가속 MBA입니다.
+  예수회 윤리 리더십 교육의 실속을 짚어봅니다.
+status: published
 order: 50
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

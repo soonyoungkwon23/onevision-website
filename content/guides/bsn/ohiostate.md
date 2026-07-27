@@ -9,9 +9,9 @@ schoolEn: College of Nursing
 description: >-
   2026 U.S. News 학부 BSN 공동 4위, NCLEX 첫 응시 합격률 94%. Direct Enrollment로 4년 BSN
   seat를 보장받고 공립대 학비로 RN 면허와 EB-3 영주권까지 가는 Ohio State BSN 전략을 정리했습니다.
-status: ready
+status: published
 order: 59
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

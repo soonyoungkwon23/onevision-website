@@ -9,9 +9,9 @@ schoolEn: Penn Nursing School of Nursing
 description: >-
   2026년 U.S. News 학부 BSN 공동 2위, QS 세계 1위 University of Pennsylvania Penn
   Nursing. NCLEX 첫 응시 93%대, Schedule A EB-3 영주권 경로까지 담은 한국 학생 합격 전략.
-status: ready
+status: published
 order: 63
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

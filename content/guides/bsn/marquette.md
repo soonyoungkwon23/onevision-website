@@ -8,10 +8,11 @@ universityKo: 마켓대학교
 schoolEn: College of Nursing
 description: >-
   1학년부터 College of Nursing에 직접 입학하는 Marquette BSN. 2026 U.S. News 전국 공동 31위,
-  NCLEX-RN 첫 응시 합격률 약 93.9%, Milwaukee 대형 병원 임상과 Schedule A EB-3 경로까지 한 번에 정리했습니다.
-status: ready
+  NCLEX-RN 첫 응시 합격률 약 93.9%, Milwaukee 대형 병원 임상과 Schedule A EB-3 경로까지 한 번에
+  정리했습니다.
+status: published
 order: 45
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

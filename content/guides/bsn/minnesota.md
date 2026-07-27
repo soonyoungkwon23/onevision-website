@@ -7,11 +7,11 @@ universityEn: University of Minnesota-Twin Cities
 universityKo: 미네소타대학교
 schoolEn: School of Nursing
 description: >-
-  1909년 설립된 University of Minnesota School of Nursing BSN 완전 가이드. 2026년 U.S. News 전국 8위,
-  direct admit 구조, NCLEX 첫 응시 합격률 93%, Schedule A EB-3 영주권 경로까지.
-status: ready
+  1909년 설립된 University of Minnesota School of Nursing BSN 완전 가이드. 2026년 U.S.
+  News 전국 8위, direct admit 구조, NCLEX 첫 응시 합격률 93%, Schedule A EB-3 영주권 경로까지.
+status: published
 order: 51
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

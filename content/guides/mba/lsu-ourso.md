@@ -9,11 +9,11 @@ universityEn: Louisiana State University–Baton Rouge
 universityKo: 루이지애나주립대학교
 schoolEn: E. J. Ourso College of Business
 description: >-
-  커리큘럼 전체가 STEM으로 지정돼 36개월 OPT가 자동 적용되는 LSU Flores MBA. 비거주자 학비 약 $75,170, 졸업 3개월 내
-  취업률 90%. Baton Rouge Energy·Petrochemical 산업 직결 가이드.
-status: ready
+  커리큘럼 전체가 STEM으로 지정돼 36개월 OPT가 자동 적용되는 LSU Flores MBA. 비거주자 학비 약 $75,170, 졸업
+  3개월 내 취업률 90%. Baton Rouge Energy·Petrochemical 산업 직결 가이드.
+status: published
 order: 52
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

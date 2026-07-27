@@ -11,9 +11,9 @@ schoolEn: ''
 description: >-
   Bloomberg ROI 1위(10년 순 수익률 $486,000), 12개월 완성, 코호트 50% 이상 장학금. Gatton MBA 합격
   전략을 정리했습니다.
-status: ready
+status: published
 order: 46
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

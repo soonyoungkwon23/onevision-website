@@ -7,11 +7,11 @@ universityEn: University of Miami
 universityKo: 마이애미대학교
 schoolEn: Miami Herbert Business School
 description: >-
-  38명 극소규모 코호트, STEM 지정 21개월, 학생 92%가 장학금을 받는 Miami Herbert MBA.
-  합격률 38%, 취업률 96.6%까지 한국인 지원자를 위한 합격 전략을 정리했습니다.
-status: ready
+  38명 극소규모 코호트, STEM 지정 21개월, 학생 92%가 장학금을 받는 Miami Herbert MBA. 합격률 38%, 취업률
+  96.6%까지 한국인 지원자를 위한 합격 전략을 정리했습니다.
+status: published
 order: 56
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

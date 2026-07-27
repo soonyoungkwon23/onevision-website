@@ -6,10 +6,12 @@ source: docx
 universityEn: Lehigh University
 universityKo: 리하이대학교
 schoolEn: College of Business
-description: Lehigh 1-MBA는 12개월 STEM MBA로 졸업 후 36개월 OPT가 자동 적용됩니다. 학비 약 $61,740, 취업률 90%까지 한눈에 정리했습니다.
-status: ready
+description: >-
+  Lehigh 1-MBA는 12개월 STEM MBA로 졸업 후 36개월 OPT가 자동 적용됩니다. 학비 약 $61,740, 취업률 90%까지
+  한눈에 정리했습니다.
+status: published
 order: 48
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

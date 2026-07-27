@@ -6,10 +6,12 @@ source: docx
 universityEn: University of Maryland Robert H. Smith School of Business
 universityKo: 메릴랜드대학교
 schoolEn: ''
-description: 워싱턴 DC에서 8마일, 장학금 수혜율 99%에 STEM 지정으로 OPT 최대 3년. 평균 GMAT 655·연봉 $130,000의 Smith MBA 지원 전략을 정리했습니다.
-status: ready
+description: >-
+  워싱턴 DC에서 8마일, 장학금 수혜율 99%에 STEM 지정으로 OPT 최대 3년. 평균 GMAT 655·연봉 $130,000의 Smith
+  MBA 지원 전략을 정리했습니다.
+status: published
 order: 54
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

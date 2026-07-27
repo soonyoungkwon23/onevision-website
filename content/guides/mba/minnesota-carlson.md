@@ -10,9 +10,9 @@ description: >-
   Twin Cities에 Fortune 500 본사 19곳이 몰린 University of Minnesota Carlson School of
   Management. 졸업생 평균 연봉 $135,058, 국제 학생 학비 연 $62,280, STEM MBA 36개월 OPT까지
   정리했습니다.
-status: ready
+status: published
 order: 58
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

@@ -7,11 +7,11 @@ universityEn: Medical University of South Carolina
 universityKo: 사우스캐롤라이나의과대학교
 schoolEn: College of Nursing
 description: >-
-  MUSC College of Nursing의 16개월 ABSN은 총 학비 약 $34,069(SC 거주자)에 U.S. News BSN
-  공동 40위. 단, F-1 국제학생은 admit되지 않습니다. 지원 자격과 대안 경로까지 정리했습니다.
-status: ready
+  MUSC College of Nursing의 16개월 ABSN은 총 학비 약 $34,069(SC 거주자)에 U.S. News BSN 공동
+  40위. 단, F-1 국제학생은 admit되지 않습니다. 지원 자격과 대안 경로까지 정리했습니다.
+status: published
 order: 53
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

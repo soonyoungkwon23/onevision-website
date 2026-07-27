@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   Massachusetts General Hospital이 세운 MGH IHP의 ABSN은 12개월에 BSN을 끝내고 NCLEX 첫 응시
   합격률 91%, MGB 시스템 EB-3 후원까지 이어집니다. 학비 $85,000, Boston RN 초임 $90,000+.
-status: ready
+status: published
 order: 47
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

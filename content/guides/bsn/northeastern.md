@@ -9,11 +9,11 @@ universityEn: Northeastern University
 universityKo: 노스이스턴대학교
 schoolEn: School of Nursing (Bouve College of Health Sciences)
 description: >-
-  Boston 한복판에서 두 차례 유급 코업으로 실무를 쌓는 Northeastern BSN. U.S. News 33위, ABSN
-  NCLEX 첫 응시 91%, 학부 합격률 6%까지 한국 학생 진학 전략을 정리했습니다.
-status: ready
+  Boston 한복판에서 두 차례 유급 코업으로 실무를 쌓는 Northeastern BSN. U.S. News 33위, ABSN NCLEX 첫
+  응시 91%, 학부 합격률 6%까지 한국 학생 진학 전략을 정리했습니다.
+status: published
 order: 55
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

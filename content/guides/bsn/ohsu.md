@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   Oregon주 유일의 academic health center인 OHSU 간호대학. 15개월 ABSN으로 빠른 RN 진입, NCLEX 첫
   응시 약 91%(Portland ABSN 약 95%), Schedule A EB-3 영주권 경로까지 정리한 한국 학생 실전 가이드.
-status: ready
+status: published
 order: 61
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

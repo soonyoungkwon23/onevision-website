@@ -6,10 +6,12 @@ source: docx
 universityEn: University of Kansas
 universityKo: 캔자스대학교
 schoolEn: School of Business
-description: 공립대학 MBA 전국 25위, 비거주자 학비 약 $53,616, 취업률 95%. 16개월 KU MBA 지원 전략을 한국 학생 관점에서 정리했습니다.
-status: ready
+description: >-
+  공립대학 MBA 전국 25위, 비거주자 학비 약 $53,616, 취업률 95%. 16개월 KU MBA 지원 전략을 한국 학생 관점에서
+  정리했습니다.
+status: published
 order: 44
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

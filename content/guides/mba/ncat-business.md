@@ -11,9 +11,9 @@ schoolEn: College of Business and Economics
 description: >-
   졸업생 94%가 취업에 성공하고 평균 연봉 $101,000, in-state 학비는 약 $16,590. 미국 최대 HBCU의 가성비 MBA를
   정리했습니다.
-status: ready
+status: published
 order: 62
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

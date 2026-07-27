@@ -9,9 +9,9 @@ schoolEn: D'Amore-McKim School of Business
 description: >-
   6개월 유급 Corporate Residency와 별도의 1년 STEM MBA를 갖춘 D'Amore-McKim. 합격률 약 26.2%, 평균
   GMAT 623, 학비 $99,880. Boston 비즈니스 허브에서의 MBA 전략을 정리했습니다.
-status: ready
+status: published
 order: 64
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

@@ -7,11 +7,11 @@ universityEn: Michigan State University
 universityKo: 미시간주립대학교
 schoolEn: College of Nursing
 description: >-
-  Michigan State University College of Nursing BSN 완벽 가이드. 2026 U.S. News BSN 공동 32위,
-  NCLEX 첫 응시 약 89.87%, 15개월 ABSN까지 한국 학생 합격·영주권 전략 총정리.
-status: ready
+  Michigan State University College of Nursing BSN 완벽 가이드. 2026 U.S. News BSN 공동
+  32위, NCLEX 첫 응시 약 89.87%, 15개월 ABSN까지 한국 학생 합격·영주권 전략 총정리.
+status: published
 order: 49
-publishDate: null
+publishDate: '2026-07-27'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---
