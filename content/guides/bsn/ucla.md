@@ -11,9 +11,9 @@ schoolEn: Joe C. Wen School of Nursing
 description: >-
   합격률 약 0.9%, 5,790명 중 약 52명만 뽑는 UCLA Joe C. Wen School of Nursing BSN. 국제 학생
   학비와 California RN 연봉, Schedule A 영주권 경로까지 한눈에 정리한 전략 가이드입니다.
-status: ready
+status: published
 order: 77
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

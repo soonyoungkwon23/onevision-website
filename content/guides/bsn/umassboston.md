@@ -11,9 +11,9 @@ schoolEn: Manning College of Nursing and Health Sciences
 description: >-
   보스턴 명문 병원 채용으로 이어지는 공립 BSN. 2026 U.S. News 공동 40위, NCLEX 첫 응시 92.68%, 사립 대비 약
   40% 낮은 학비까지 핵심을 짚어드립니다.
-status: ready
+status: published
 order: 85
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

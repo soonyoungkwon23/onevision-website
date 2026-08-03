@@ -10,9 +10,9 @@ description: >-
   뉴잉글랜드 flagship University of Connecticut의 Elisabeth DeLuca School of Nursing
   BSN 가이드. NCLEX 첫 응시 합격률 94~100%, Connecticut RN 중위 $95,000, F-1 유학생의 유일한 경로인
   Storrs Traditional BSN 전략을 정리합니다.
-status: ready
+status: published
 order: 79
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

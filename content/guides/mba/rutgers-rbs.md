@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   맨해튼 30분 거리, STEM 지정 16개월 프로그램, 졸업 후 평균 166% 연봉 상승. 합격률 33.6%의 Rutgers Business
   School MBA 합격 로드맵을 정리했습니다.
-status: ready
+status: published
 order: 72
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

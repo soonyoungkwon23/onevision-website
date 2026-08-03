@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   합격률 47.66%, GMAT 560-700. Texas A&M Mays MBA의 강점부터 텍사스 거주자 등록금 약 $61,629, 50만
   Aggie Network 활용법까지 — 지원 전략과 비용·비자를 한자리에 정리했습니다.
-status: ready
+status: published
 order: 84
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

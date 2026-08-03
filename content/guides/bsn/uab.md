@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   국제 학생 학비 약 $1,264/학점, NCLEX-RN 첫 응시 합격률 약 93%. UAB Medicine 한복판의 University of
   Alabama at Birmingham School of Nursing BSN 입학과 영주권 전략을 정리했습니다.
-status: ready
+status: published
 order: 73
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

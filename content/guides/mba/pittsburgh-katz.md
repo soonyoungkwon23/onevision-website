@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   합격률 38%, Test-Optional로 GMAT 없이 지원 가능한 Katz MBA. STEM 전공 3년 OPT와 Pittsburgh의
   낮은 생활비로 실속을 챙기는 프로그램을 컨설턴트 시각으로 짚어드립니다.
-status: ready
+status: published
 order: 70
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

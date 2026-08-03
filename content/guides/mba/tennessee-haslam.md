@@ -9,9 +9,9 @@ schoolEn: Haslam College of Business
 description: >-
   Supply Chain 전국 1위 Haslam MBA를 16개월 만에. 합격률 51.56%, In-State 학비 연 $29,656에
   Knoxville 저렴한 생활비까지—한국 학생 합격 전략과 학부모 안내.
-status: ready
+status: published
 order: 82
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

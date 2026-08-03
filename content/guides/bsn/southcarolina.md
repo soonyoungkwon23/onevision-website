@@ -9,9 +9,9 @@ schoolEn: College of Nursing
 description: >-
   2026 U.S. News BSN 공동 22위(추정), out-of-state 약 $36,988, NCLEX-RN 5년 연속 95% 이상.
   Prisma Health 파트너십과 Schedule A 영주권 경로까지 담은 USC 간호 가이드.
-status: ready
+status: published
 order: 71
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

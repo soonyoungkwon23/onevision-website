@@ -9,9 +9,9 @@ schoolEn: UIC College of Nursing
 description: >-
   2026년 U.S. News BSN 공동 6위, 국제 학생 4년 약 $200,000~$220,000. 시카고 의료 클러스터와 Schedule
   A EB-3 영주권 경로까지, University of Illinois Chicago 간호 진학 전략을 정리했습니다.
-status: ready
+status: published
 order: 81
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

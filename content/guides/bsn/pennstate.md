@@ -11,9 +11,9 @@ schoolEn: Ross and Carol Nese College of Nursing
 description: >-
   University Park 신입생 direct admit BSN, U.S. News 공동 40위, NCLEX 첫 응시 약 94%. Penn
   State Nese College of Nursing 합격 전략과 Schedule A/EB-3 경로를 정리했습니다.
-status: ready
+status: published
 order: 65
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

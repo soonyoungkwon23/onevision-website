@@ -9,9 +9,9 @@ schoolEn: Michael F. Price College of Business
 description: >-
   비거주자 학비 약 $40,865, 합격률 약 73%. Oklahoma의 에너지 산업 한복판에서 16개월 만에 끝내는 University of
   Oklahoma Michael F. Price MBA 전략을 정리했습니다.
-status: ready
+status: published
 order: 66
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

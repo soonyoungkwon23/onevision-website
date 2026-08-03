@@ -9,9 +9,9 @@ schoolEn: Martin J. Whitman School of Management
 description: >-
   Bloomberg 사립대학 MBA ROI 1위에 98.7% 취업률. Marketing까지 STEM으로 지정된 Syracuse Whitman
   MBA를 한국 지원자·학부모 눈높이에서 합격 전략까지 정리했습니다.
-status: ready
+status: published
 order: 78
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

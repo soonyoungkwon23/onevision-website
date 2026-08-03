@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   U.S. News 전국 58위 MBA를 Out-of-State 총 학비 $13,000 미만, 3개월 내 취업률 98%로. 미국 에너지 산업
   심장부 Oklahoma의 Spears MBA 입학 전략을 정리했습니다.
-status: ready
+status: published
 order: 68
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

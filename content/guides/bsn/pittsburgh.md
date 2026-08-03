@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   펜실베이니아 피츠버그의 공립 간호 명문, University of Pittsburgh School of Nursing. 2026 U.S.
   News 학부 BSN 전국 공동 8위, direct admit과 UPMC 임상 연계까지 한눈에 정리했습니다.
-status: ready
+status: published
 order: 67
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

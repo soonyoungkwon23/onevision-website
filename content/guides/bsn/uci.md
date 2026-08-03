@@ -12,9 +12,9 @@ description: >-
   2026년 U.S. News 학부 BSN 전국 공동 35위, NCLEX-RN 첫 응시 합격률 약 91.3%. UC Irvine Sue &
   Bill Gross School of Nursing의 freshman direct admit BSN과 MEPN 경로를 한국 학생 관점에서
   정리했습니다.
-status: ready
+status: published
 order: 75
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

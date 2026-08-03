@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   이미 학사가 있다면 12개월이면 됩니다. 2026 U.S. News 대학원 간호 공동 22위 University of Rochester
   School of Nursing ABSN, NCLEX-RN 100% 합격 트랙 레코드와 RN 영주권 경로까지 정리했습니다.
-status: ready
+status: published
 order: 69
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

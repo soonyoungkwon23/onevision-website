@@ -9,9 +9,9 @@ schoolEn: Darla Moore School of Business
 description: >-
   U.S. News International MBA 부문 전국 1위, 국제 학생 총 학비 $60,384. IMBA와 해외 몰입으로 최고
   ROI를 노리는 한국 지원자용 전략 가이드.
-status: ready
+status: published
 order: 74
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

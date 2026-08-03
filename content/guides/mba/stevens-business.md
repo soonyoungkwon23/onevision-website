@@ -9,9 +9,9 @@ schoolEn: School of Business
 description: >-
   Hoboken에서 PATH로 Manhattan 15분, STEM 지정 MBA로 최대 36개월 OPT까지. 합격률 71%, 평균 GMAT
   594인 Stevens School of Business 입학 전략을 정리했습니다.
-status: ready
+status: published
 order: 76
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

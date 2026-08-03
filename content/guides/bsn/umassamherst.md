@@ -11,9 +11,9 @@ schoolEn: Elaine Marieb College of Nursing
 description: >-
   NCLEX-RN 첫 응시 93~94%, 졸업 6개월 내 취업률 98%. Massachusetts RN 중위 $105,000 임금과
   freshman direct admit 경로까지, UMass Amherst BSN 지원 전략을 정리했습니다.
-status: ready
+status: published
 order: 83
-publishDate: null
+publishDate: '2026-08-03'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---
