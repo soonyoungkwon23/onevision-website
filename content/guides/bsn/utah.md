@@ -9,9 +9,9 @@ schoolEn: College of Nursing
 description: >-
   2026 U.S. News 학부 BSN 전국 공동 40위, NCLEX-RN 첫 응시 합격률 약 93%. Salt Lake City 학술
   의료센터와 Intermountain Health 파트너십을 갖춘 University of Utah BSN 입학 전략을 정리했습니다.
-status: ready
+status: published
 order: 97
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

@@ -9,9 +9,9 @@ schoolEn: David Eccles School of Business
 description: >-
   유타대 David Eccles MBA: In-State 학비 $77,500, 졸업 3개월 내 취업률 84.8%, 중간 연봉 $111,000.
   Silicon Slopes 취업과 GMAT 선택 제출 전략까지 한 번에.
-status: ready
+status: published
 order: 96
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

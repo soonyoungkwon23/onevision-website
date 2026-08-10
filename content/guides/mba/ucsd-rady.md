@@ -9,9 +9,9 @@ schoolEn: Rady School of Management
 description: >-
   약 36명 초소규모 코호트에 STEM 지정으로 OPT 36개월까지. La Jolla 해안의 UC San Diego Rady MBA, 지원
   전략과 비용을 한눈에 정리했습니다.
-status: ready
+status: published
 order: 92
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   합격률 22%, 재학생 80%가 장학금을 받는 STEM 지정 UC Irvine Merage MBA. 40명 소규모 클래스와 졸업 평균 초봉
   $130,079, 한국 학생을 위한 합격 전략을 정리했습니다.
-status: ready
+status: published
 order: 90
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

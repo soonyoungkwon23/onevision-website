@@ -11,9 +11,9 @@ schoolEn: School of Nursing and Health Professions
 description: >-
   Bay Area RN 평균 연봉 약 $130,000~$150,000, RN은 Schedule A 직종으로 EB-3 영주권 직접 후원. USF
   School of Nursing and Health Professions BSN 입학과 취업·비자 전략을 정리합니다.
-status: ready
+status: published
 order: 95
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

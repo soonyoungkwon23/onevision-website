@@ -10,9 +10,9 @@ description: >-
   약 50명 소규모 코호트의 UC Davis GSM은 STEM 지정 MBA로 최대 36개월 OPT를 보장합니다.
   Wine·Agribusiness 등 독보적 Specialization과 Bay Area 네트워크, 평균 초봉 $96,482까지 한국 지원자
   전략을 짚었습니다.
-status: ready
+status: published
 order: 88
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

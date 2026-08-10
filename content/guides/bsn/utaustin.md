@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   텍사스 flagship UT Austin BSN 완전 가이드. NCLEX 첫 응시 합격률 약 94~95%, 국제학생 학비 약 $41,070,
   Schedule A EB-3 영주권 경로까지 컨설턴트가 짚어드립니다.
-status: ready
+status: published
 order: 99
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

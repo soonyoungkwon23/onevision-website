@@ -10,9 +10,9 @@ description: >-
   2026년 U.S. News 공동 22위 Villanova M. Louise Fitzpatrick College of Nursing BSN.
   1학년부터 간호 전공 확정 direct admit, CHOP·Penn Medicine 임상, Schedule A EB-3 영주권 경로까지
   정리했습니다.
-status: ready
+status: published
 order: 104
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

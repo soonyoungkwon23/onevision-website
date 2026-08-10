@@ -11,9 +11,9 @@ schoolEn: Isenberg School of Management
 description: >-
   비거주자 학비 약 $56,616, 합격률 약 30%. 40~45명 소규모 코호트로 운영되는 UMass Amherst Isenberg MBA
   지원 전략을 정리했습니다.
-status: ready
+status: published
 order: 94
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

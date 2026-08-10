@@ -11,9 +11,9 @@ schoolEn: UNC School of Nursing
 description: >-
   2024년 NCLEX-RN 첫 응시 합격률 98%, out-of-state 4년 약 $230,000. UNC Chapel Hill
   School of Nursing BSN의 트랙 선택부터 Schedule A 영주권 경로까지 정리했습니다.
-status: ready
+status: published
 order: 91
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

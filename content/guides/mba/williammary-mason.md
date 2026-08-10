@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   약 110명 소규모 코호트와 STEM 지정 3개 Concentration으로 최대 36개월 OPT까지. 졸업 3개월 내 취업률 91.2%,
   Out-of-State 학비 연 $49,471. William & Mary Mason MBA 합격 전략 총정리.
-status: ready
+status: published
 order: 98
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

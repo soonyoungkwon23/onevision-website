@@ -9,9 +9,9 @@ schoolEn: U-M School of Nursing
 description: >-
   NCLEX 첫 응시 합격률 97%, 2026년 U.S. News BSN 공동 6위. Big Ten 공립대 등록금과 Michigan
   Medicine 임상까지, 한국 학생을 위한 U-M School of Nursing 합격 전략을 정리했습니다.
-status: ready
+status: published
 order: 87
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

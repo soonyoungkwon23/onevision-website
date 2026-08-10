@@ -9,9 +9,9 @@ schoolEn: ''
 description: >-
   위스콘신 WSB MBA를 준비하는 한국 학생을 위한 전략 가이드. 주거주자 학비 연 $27,764, 졸업 3개월 내 취업률 89.9%,
   합격률 43.73%. 에세이·추천서·장학금까지 한 번에 정리했습니다.
-status: ready
+status: published
 order: 100
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

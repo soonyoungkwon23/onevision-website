@@ -9,9 +9,9 @@ schoolEn: College of Nursing
 description: >-
   UTHSC College of Nursing BSN 완벽 가이드. 2026 U.S. News 전국 공동 28위, 4년 평균 NCLEX
   92.5%, F-1 후원 없음. 영주권자 한국계 학생을 위한 Memphis 의료 단지 전략.
-status: ready
+status: published
 order: 101
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

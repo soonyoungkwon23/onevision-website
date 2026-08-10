@@ -9,9 +9,9 @@ schoolEn: A. B. Freeman School of Business
 description: >-
   2024·2025년 연속 100% 취업률에 평균 초봉 $109,746, 전 과정 STEM 지정. New Orleans의 Tulane
   Freeman MBA를 한국 지원자 눈높이에서 짚었습니다.
-status: ready
+status: published
 order: 86
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

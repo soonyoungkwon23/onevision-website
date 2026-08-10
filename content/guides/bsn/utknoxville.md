@@ -9,9 +9,9 @@ schoolEn: College of Nursing
 description: >-
   2026 U.S. News 학부 BSN 공동 28위, NCLEX 첫 응시 합격률 97%(2024). UTMC BSN Scholars로 학비
   지원과 졸업 후 3년 정직원 채용까지 잡는 UTK 간호대 전략 가이드입니다.
-status: ready
+status: published
 order: 102
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

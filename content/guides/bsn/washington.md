@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   QS 간호 세계 6위, 2026 U.S. News BSN 전국 top 10의 University of Washington.
   upper-division 모델과 RN Schedule A EB-3 영주권 경로까지 한국 학생 관점에서 짚어드립니다.
-status: ready
+status: published
 order: 105
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

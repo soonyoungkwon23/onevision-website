@@ -10,9 +10,9 @@ description: >-
   University of Nebraska Medical Center(UNMC) College of Nursing BSN 완전 분석. 2026
   U.S. News 전국 공동 40위, 2024 NCLEX-RN 첫 응시 합격률 97.64%, Schedule A EB-3 영주권 경로까지
   한국 학생 전략을 짚습니다.
-status: ready
+status: published
 order: 93
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---

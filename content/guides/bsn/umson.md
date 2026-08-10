@@ -9,9 +9,9 @@ schoolEn: School of Nursing (UMSON)
 description: >-
   1889년 설립, 2026년 U.S. News BSN 전국 공동 13위(공립 10위)의 UMSON. 2년 upper-division 모델과
   NCLEX 첫 응시 약 94% 합격률, RN Schedule A EB-3 영주권 경로까지 한국 학생 전략을 정리합니다.
-status: ready
+status: published
 order: 89
-publishDate: null
+publishDate: '2026-08-10'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---
