@@ -9,9 +9,9 @@ schoolEn: School of Nursing
 description: >-
   최근 3년 NCLEX-RN 첫 응시 합격률 약 98%, 2026년 U.S. News BSN 랭킹 전국 공동 8위. Big Ten 명문
   University of Wisconsin-Madison School of Nursing BSN 입학과 영주권 경로를 짚어 드립니다.
-status: ready
+status: published
 order: 106
-publishDate: null
+publishDate: '2026-08-17'
 updatedDate: null
 enhancedDate: '2026-07-13'
 ---
