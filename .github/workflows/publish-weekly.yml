@@ -51,17 +51,31 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq lftp
-          lftp -c "
-            set cmd:fail-exit yes;
-            set ftp:ssl-force true;
-            set ftp:ssl-protect-data true;
-            set ssl:verify-certificate no;
-            set net:max-retries 3;
-            set net:timeout 20;
-            open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" \"$FTP_SERVER\";
-            mirror -R --ignore-time --parallel=4 --exclude-glob .git* \
-              ./public_html /domains/onevisionconsulting.us/public_html;
-          "
+          # Shared hosting drops transfers under load, and a single dropped
+          # connection used to fail the entire run. Retry before giving up, and
+          # keep the parallel connection count low enough that Hostinger
+          # tolerates it (4 was enough to trip "max-retries exceeded").
+          for attempt in 1 2 3; do
+            if lftp -c "
+              set cmd:fail-exit yes;
+              set ftp:ssl-force true;
+              set ftp:ssl-protect-data true;
+              set ssl:verify-certificate no;
+              set net:max-retries 5;
+              set net:timeout 30;
+              set net:reconnect-interval-base 5;
+              open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" \"$FTP_SERVER\";
+              mirror -R --ignore-time --parallel=2 --exclude-glob .git* \
+                ./public_html /domains/onevisionconsulting.us/public_html;
+            "; then
+              echo "FTPS mirror succeeded on attempt $attempt."
+              exit 0
+            fi
+            echo "::warning::FTPS mirror attempt $attempt failed; retrying."
+            sleep $((attempt * 20))
+          done
+          echo "::error::FTPS mirror failed after 3 attempts."
+          exit 1
 
       # The mirror runs without --delete so that anything uploaded by hand in
       # hPanel survives CI. The trade-off: a page removed from the repo keeps
