@@ -59,6 +59,22 @@ jobs:
             set net:max-retries 3;
             set net:timeout 20;
             open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" \"$FTP_SERVER\";
-            mirror -R --size-only --parallel=4 --exclude-glob .git* \
+            mirror -R --ignore-time --parallel=4 --exclude-glob .git* \
               ./public_html /domains/onevisionconsulting.us/public_html;
           "
+
+      # A silent FTPS failure previously went unnoticed for six weeks: the bot
+      # kept promoting posts to `published` and pushing, while nothing reached
+      # the server. Fail loudly instead by comparing the live sitemap to the
+      # one we just built.
+      - name: Verify deploy landed on the live site
+        run: |
+          sleep 10
+          built=$(grep -c '<url>' public_html/sitemap.xml || true)
+          live=$(curl -sS --max-time 30 "https://onevisionconsulting.us/sitemap.xml?cb=$GITHUB_RUN_ID" | grep -c '<url>' || true)
+          echo "sitemap <url> count -- built: $built, live: $live"
+          if [ "$built" != "$live" ]; then
+            echo "::error::Deploy verification failed: live sitemap has $live URLs, build produced $built. The upload did not land."
+            exit 1
+          fi
+          echo "Deploy verified: $live URLs live."
