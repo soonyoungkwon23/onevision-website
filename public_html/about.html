@@ -845,18 +845,6 @@
         transform: scale(1.05);
       }
 
-      /* 윤민식 컨설턴트 카드 전용 스타일 */
-      .minsik-card .staff-img-wrapper img {
-        object-fit: contain;
-
-        object-position: center;
-        background-color: #f8f8f8;
-      }
-
-      /* 호버 시 확대 효과가 입을 가리지 않도록 조정 */
-      .minsik-card:hover .staff-img-wrapper img {
-        transform: scale(1.02); /* 다른 카드(1.05)보다 작게 확대되도록 설정 */
-      }
       /* [텍스트 정보 영역 - 여백 축소] */
       .staff-info {
         padding: 1.5rem 1.8rem;
@@ -1132,32 +1120,6 @@
                   </ul>
                 </div>
               </article> -->
-
-              <article
-                class="staff-card highlight-card minsik-card"
-                onclick="location.href = 'staff-minsikyoon.html'"
-              >
-                <div class="staff-img-wrapper">
-                  <img
-                    src="images/minsik-yoon.png"
-                    alt="윤민식"
-                    onerror="
-                      this.src =
-                        'https://ui-avatars.com/api/?name=Minsik+Yoon&background=5A0B1F&color=fff'
-                    "
-                  />
-                </div>
-                <div class="staff-info">
-                  <h3 class="staff-role">Co-Founder</h3>
-                  <h4 class="staff-name">윤민식</h4>
-                  <p class="staff-desc">STEM & 비즈니스 융합 커리어 컨설턴트</p>
-                  <div class="staff-line"></div>
-                  <ul class="staff-brief">
-                    <li>UIUC BS Biology / MS Accounting</li>
-                    <li>글로벌 교육사업 기획 리드</li>
-                  </ul>
-                </div>
-              </article>
 
               <article
                 class="staff-card highlight-card"
@@ -1846,29 +1808,23 @@
                   object-position: top center !important;
                 }
 
-                .minsik-card .staff-img-wrapper img {
-                  object-fit: contain !important;
-                  background-color: #f8f8f8;
-                  padding: 10px;
+                .hero-img {
+                  height: auto !important;
+                  max-height: 250px;
+                }
 
-                  .hero-img {
-                    height: auto !important;
-                    max-height: 250px;
-                  }
+                .staff-info {
+                  padding: 1.2rem !important;
+                }
 
-                  .staff-info {
-                    padding: 1.2rem !important;
-                  }
+                .staff-name {
+                  font-size: 1.4rem !important;
+                  margin-bottom: 0.3rem !important;
+                }
 
-                  .staff-name {
-                    font-size: 1.4rem !important;
-                    margin-bottom: 0.3rem !important;
-                  }
-
-                  .process-grid {
-                    grid-template-columns: 1fr !important;
-                    gap: 1rem !important;
-                  }
+                .process-grid {
+                  grid-template-columns: 1fr !important;
+                  gap: 1rem !important;
                 }
               }
 

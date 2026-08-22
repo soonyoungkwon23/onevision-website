@@ -50,6 +50,47 @@ jobs:
               ./public_html /domains/onevisionconsulting.us/public_html;
           "
 
+      # The mirror runs without --delete so that anything uploaded by hand in
+      # hPanel survives CI. The trade-off: a page removed from the repo keeps
+      # serving until it is listed in deploy/stale-paths.txt, which this step
+      # applies. Uses a separate lftp session with fail-exit off, so a path that
+      # is already gone can never break the deploy.
+      - name: Remove retired pages from the server
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          if [ ! -s deploy/stale-paths.txt ]; then
+            echo "No retired paths listed - nothing to remove."
+            exit 0
+          fi
+          RM=""
+          while IFS= read -r line || [ -n "$line" ]; do
+            p=$(printf '%s' "$line" | tr -d '\r' | sed 's/#.*//; s/^[[:space:]]*//; s/[[:space:]]*$//')
+            [ -z "$p" ] && continue
+            case "$p" in
+              /*|*..*) echo "::error::Refusing unsafe retired path: $p"; exit 1 ;;
+            esac
+            echo "removing: $p"
+            RM="$RM rm -f \"/domains/onevisionconsulting.us/public_html/$p\";"
+          done < deploy/stale-paths.txt
+          if [ -z "$RM" ]; then
+            echo "No retired paths after parsing - nothing to remove."
+            exit 0
+          fi
+          lftp -c "
+            set cmd:fail-exit no;
+            set ftp:ssl-force true;
+            set ftp:ssl-protect-data true;
+            set ssl:verify-certificate no;
+            set net:max-retries 3;
+            set net:timeout 20;
+            open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" \"$FTP_SERVER\";
+            $RM
+          "
+          echo "Retired paths processed."
+
       # A silent FTPS failure previously went unnoticed for six weeks: the bot
       # kept promoting posts to `published` and pushing, while nothing reached
       # the server. Fail loudly instead by comparing the live sitemap to the

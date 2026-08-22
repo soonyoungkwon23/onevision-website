@@ -1,0 +1,13 @@
+# Paths to DELETE from the Hostinger server on the next deploy.
+#
+# The FTPS mirror deliberately runs without --delete, so that anything uploaded
+# by hand in hPanel is never destroyed by CI. The trade-off is that a page
+# removed from this repo keeps serving on the live site until it is listed here.
+#
+# One path per line, relative to public_html/. Blank lines and # comments ignored.
+# Entries are safe to leave in place permanently: removal uses `rm -f`, so a path
+# that is already gone is a no-op on every later deploy.
+
+# 윤민식 컨설턴트 profile, retired 2026-08-22 (card also removed from about.html)
+staff-minsikyoon.html
+images/minsik-yoon.png
