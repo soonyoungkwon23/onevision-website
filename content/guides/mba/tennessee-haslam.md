@@ -8,7 +8,7 @@ universityKo: 테네시대학교
 schoolEn: Haslam College of Business
 description: >-
   Supply Chain 전국 1위 Haslam MBA를 16개월 만에. 합격률 51.56%, In-State 학비 연 $29,656에
-  Knoxville 저렴한 생활비까지—한국 학생 합격 전략과 학부모 안내.
+  Knoxville 저렴한 생활비까지. 한국 학생 합격 전략과 학부모 안내.
 status: published
 order: 82
 publishDate: '2026-08-03'
@@ -34,7 +34,7 @@ Haslam MBA가 내세우는 가치는 분명합니다. 강의실에 머무르지 
 
 ### b. 캠퍼스와 도시 환경
 
-**Knoxville, Tennessee — Affordable College Town과 Outdoor Paradise**
+**Knoxville, Tennessee: Affordable College Town과 Outdoor Paradise**
 
 Knoxville은 Tennessee주 동부에 자리한 인구 약 190,000명 규모의 도시로, Great Smoky Mountains National Park로 들어가는 관문 도시입니다. 미국에서 방문객이 가장 많은 이 국립공원이 차로 30분 거리에 있어 하이킹, 캠핑, 스키, 래프팅까지 사철 야외 활동이 끊이지 않습니다. 기후도 온화합니다. 여름 평균 30°C, 겨울 평균 3°C로 사계절이 또렷해 한국에서 온 학생에게는 오히려 익숙한 날씨입니다.
 
@@ -156,10 +156,10 @@ Haslam MBA는 Rolling Admission, 곧 수시 방식으로 지원자를 받습니�
 
 **일반적인 지원 라운드 구조 (참고용, 매년 변경 가능)**
 
--   Round 1: 10월 중순 마감 — 가장 많은 장학금 기회, 조기 지원자 우대
--   Round 2: 1월 중순 마감 — 국제 학생 권장 마감일
--   Round 3: 3월 중순 마감 — 마지막 주요 라운드
--   Round 4 (가능 시): 5월 마감 — 잔여 자리에 한해 추가 모집
+-   Round 1: 10월 중순 마감, 가장 많은 장학금 기회, 조기 지원자 우대
+-   Round 2: 1월 중순 마감, 국제 학생 권장 마감일
+-   Round 3: 3월 중순 마감, 마지막 주요 라운드
+-   Round 4 (가능 시): 5월 마감, 잔여 자리에 한해 추가 모집
 
 **국제 학생 참고 사항**
 
@@ -172,12 +172,12 @@ Haslam MBA는 Rolling Admission, 곧 수시 방식으로 지원자를 받습니�
 **필수 지원 서류**
 
 -   온라인 지원서 (Online Application)
--   공식 대학교 성적표 (Official Transcripts) — 모든 학부/대학원 과정
+-   공식 대학교 성적표 (Official Transcripts), 모든 학부/대학원 과정
 -   GMAT 또는 GRE 공식 점수 (Official Score Report)
 -   TOEFL, IELTS, 또는 Duolingo English Test 점수 (영어가 모국어가 아닌 경우)
 -   이력서/CV (Resume)
--   에세이 (Essays) — 보통 1-2개의 에세이 질문
--   추천서 (Letters of Recommendation) — 일반적으로 2통
+-   에세이 (Essays), 보통 1-2개의 에세이 질문
+-   추천서 (Letters of Recommendation), 일반적으로 2통
 -   지원비 (Application Fee)
 
 **영어 시험 최소 점수 (참고)**
@@ -251,7 +251,7 @@ Haslam MBA는 Rolling Admission, 곧 수시 방식으로 지원자를 받습니�
 
 **추천인 선택 전략**
 
--   최우선: 직속 상사 (Direct Supervisor) — 일상적인 업무 성과와 리더십을 가장 잘 아는 사람
+-   최우선: 직속 상사 (Direct Supervisor), 일상적인 업무 성과와 리더십을 가장 잘 아는 사람
 -   차선: 프로젝트 매니저, 시니어 동료, 클라이언트 측 담당자 등 실질적 업무 관계가 있는 사람
 -   학부 교수: 졸업 후 경력이 2년 미만인 경우, 학부 교수 1명을 포함할 수 있음
 -   피해야 할 추천인: 가족, 친구, 또는 지원자를 잘 모르는 고위 인사 (타이틀보다 관계의 깊이가 중요)
@@ -344,15 +344,15 @@ Knoxville은 야외 활동을 좋아하는 사람에게는 그야말로 낙원�
 
 **주요 채용 기업**
 
--   FedEx — Memphis 본사, 세계 최대 물류 기업. SCM 졸업생의 최대 채용처 중 하나
--   Eastman Chemical — Kingsport, TN 본사. 특수 화학/재료 글로벌 기업
--   Pilot Flying J — Knoxville 본사. Haslam 가문 소유, 북미 최대 트럭 정류장 체인
--   Roper Technologies — 다각화된 산업 기술 기업
--   TVA (Tennessee Valley Authority) — 미국 최대 공공 전력 기업
--   Oak Ridge National Laboratory — 세계적 연구 기관, 기술/분석 분야
--   Amazon — 물류/SCM 분야 대규모 채용
--   Deloitte, PwC, EY — 컨설팅/회계 Big 4 기업
--   General Mills, Procter & Gamble — 소비재 기업 SCM 부서
+-   FedEx, Memphis 본사, 세계 최대 물류 기업. SCM 졸업생의 최대 채용처 중 하나
+-   Eastman Chemical, Kingsport, TN 본사. 특수 화학/재료 글로벌 기업
+-   Pilot Flying J, Knoxville 본사. Haslam 가문 소유, 북미 최대 트럭 정류장 체인
+-   Roper Technologies, 다각화된 산업 기술 기업
+-   TVA (Tennessee Valley Authority), 미국 최대 공공 전력 기업
+-   Oak Ridge National Laboratory, 세계적 연구 기관, 기술/분석 분야
+-   Amazon, 물류/SCM 분야 대규모 채용
+-   Deloitte, PwC, EY: 컨설팅/회계 Big 4 기업
+-   General Mills, Procter & Gamble: 소비재 기업 SCM 부서
 
 **Career Services**
 

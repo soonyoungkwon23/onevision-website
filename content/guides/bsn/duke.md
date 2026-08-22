@@ -8,7 +8,7 @@ universityKo: 듀크대학교
 schoolEn: Duke University School of Nursing
 description: >-
   2026년 U.S. News 학부 BSN 랭킹 전국 1위 Duke University School of Nursing. 비간호 학사가
-  16개월 만에 RN 면허에 도달하는 MN 프로그램의 학비·마감일·합격 전략과 EB-3 영주권 경로까지 정리했습니다.
+  16개월 만에 RN 면허에 도달하는 MN 프로그램의 학비, 마감일, 합격 전략과 EB-3 영주권 경로까지 정리했습니다.
 status: published
 order: 27
 publishDate: '2026-07-12'
@@ -22,7 +22,7 @@ enhancedDate: '2026-07-12'
 
 ## 1\. 학교 특징
 
-Duke University School of Nursing의 역사는 1931년까지 거슬러 올라갑니다. 학부 간호 교육 영역에서 미국 내 가장 짧고 강도 높은 pre-licensure 프로그램을 운영하는 학교로 오래 각인되어 왔습니다. 학교가 자리한 Durham은 University of North Carolina at Chapel Hill, North Carolina State University와 함께 Research Triangle을 이루는 도시로, 미국 동남부 최대의 학문·의료 클러스터가 곧 학생들의 생활권입니다.
+Duke University School of Nursing의 역사는 1931년까지 거슬러 올라갑니다. 학부 간호 교육 영역에서 미국 내 가장 짧고 강도 높은 pre-licensure 프로그램을 운영하는 학교로 오래 각인되어 왔습니다. 학교가 자리한 Durham은 University of North Carolina at Chapel Hill, North Carolina State University와 함께 Research Triangle을 이루는 도시로, 미국 동남부 최대의 학문과 의료 클러스터가 곧 학생들의 생활권입니다.
 
 차별점을 하나만 꼽으라면 Duke University Health System과의 통합 구조입니다. U.S. News 노스캐롤라이나 1위 병원인 Duke University Hospital을 중심으로 Duke Regional Hospital, Duke Raleigh Hospital까지 시스템 전체가 학생들의 임상 실습 무대가 됩니다. 캠퍼스 안의 Duke Nursing Research Center와 시뮬레이션 센터에서는 최신 high-fidelity 매니킨과 가상현실 기술을 결합한 실습이 이루어집니다.
 

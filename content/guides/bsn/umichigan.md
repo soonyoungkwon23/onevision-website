@@ -284,7 +284,7 @@ University of Michigan-Ann Arbor School of Nursing은 1893년 문을 연 미국 
 
 **University of Michigan BSN 합격, 전문가의 전략이 결과를 바꾼다**
 
-U-M School of Nursing처럼 경쟁이 치열한 BSN 프로그램은 성적만으로는 결코 뚫리지 않습니다. First-Year Entry direct admit과 Sophomore Transfer 중 어느 트랙을 택할지, 선수과목을 언제 어떤 순서로 이수할지, 한국 학력을 어떻게 영문으로 평가받을지, healthcare 경험과 caring narrative를 어떻게 설계할지, 나아가 졸업 후 NCLEX와 Michigan Medicine cap-exempt H-1B/EB-3 영주권까지 — 이 모든 단계가 하나의 전략으로 이어져야 결과가 달라집니다.
+U-M School of Nursing처럼 경쟁이 치열한 BSN 프로그램은 성적만으로는 결코 뚫리지 않습니다. First-Year Entry direct admit과 Sophomore Transfer 중 어느 트랙을 택할지, 선수과목을 언제 어떤 순서로 이수할지, 한국 학력을 어떻게 영문으로 평가받을지, healthcare 경험과 caring narrative를 어떻게 설계할지, 나아가 졸업 후 NCLEX와 Michigan Medicine cap-exempt H-1B/EB-3 영주권까지. 이 모든 단계가 하나의 전략으로 이어져야 결과가 달라집니다.
 
 OneVision 컨설팅 팀은 미국 BSN 및 대학원 간호 프로그램 전문 팀으로, 학생 개개인의 강점과 한국 가정의 우선순위를 분석해 입학 전략부터 졸업 후 커리어 설계까지 1대1로 함께합니다.
 

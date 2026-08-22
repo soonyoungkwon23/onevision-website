@@ -7,7 +7,7 @@ universityEn: Case Western Reserve University
 universityKo: 케이스웨스턴리저브대학교
 schoolEn: Weatherhead School of Management
 description: >-
-  약 45~50명 초소규모 코호트, GMAT 674, 학비 약 $96,720. Cleveland Clinic·KeyBank와 연결된
+  약 45~50명 초소규모 코호트, GMAT 674, 학비 약 $96,720. Cleveland Clinic, KeyBank와 연결된
   Weatherhead MBA 입학 전략을 정리했습니다.
 status: published
 order: 26
@@ -18,7 +18,7 @@ enhancedDate: '2026-07-13'
 
 한 학년에 45~50명. 대형 MBA의 절반도 안 되는 이 규모가 Weatherhead School of Management의 출발점입니다. Ohio 주 Cleveland의 Case Western Reserve University 산하 비즈니스 스쿨로, AAU 회원 R1 연구중심 대학의 학문적 깊이 위에 'Manage by Design'이라는 독자적 철학을 얹은 곳입니다.
 
-한국 지원자가 이 학교를 눈여겨봐야 하는 이유는 크게 세 갈래입니다. 우선 초소규모 코호트입니다. 45~50명이라는 숫자는 교수와의 거리가 가깝다는 뜻이고, 커리어 코칭도 그만큼 개인화됩니다. 다음은 도시입니다. Cleveland Clinic, University Hospitals, KeyBank, Sherwin-Williams가 모두 이 권역에 있어 Healthcare·Finance·Manufacturing 인턴십과 정규직 문이 넓습니다. 마지막은 커리큘럼의 색깔입니다. Design and Innovation, Healthcare Management, FinTech 같은 특성화 트랙이 여느 종합 MBA와 확실히 구분됩니다.
+한국 지원자가 이 학교를 눈여겨봐야 하는 이유는 크게 세 갈래입니다. 우선 초소규모 코호트입니다. 45~50명이라는 숫자는 교수와의 거리가 가깝다는 뜻이고, 커리어 코칭도 그만큼 개인화됩니다. 다음은 도시입니다. Cleveland Clinic, University Hospitals, KeyBank, Sherwin-Williams가 모두 이 권역에 있어 Healthcare, Finance, Manufacturing 인턴십과 정규직 문이 넓습니다. 마지막은 커리큘럼의 색깔입니다. Design and Innovation, Healthcare Management, FinTech 같은 특성화 트랙이 여느 종합 MBA와 확실히 구분됩니다.
 
 ## 1\. 학교 특징
 
@@ -32,11 +32,11 @@ Weatherhead School of Management는 1936년 문을 열었고, AACSB Internationa
 
 ### b. 캠퍼스와 도시 환경
 
-먼저 생활비 얘기부터 하겠습니다. Cleveland의 월 렌트비는 $900~$1,400 선으로, New York이나 Chicago의 절반 남짓(50~60% 저렴)입니다. MBA 2년의 지출 부담이 여기서 크게 갈립니다. Cleveland는 Ohio 주 제2의 도시이자 인구 약 36만 명, 도시 권역으로는 약 200만 명이 사는 미국 중서부 산업·문화 거점입니다. Erie 호수를 끼고 있고, Rock and Roll Hall of Fame, Cleveland Orchestra, Cleveland Museum of Art가 도시의 문화적 두께를 보여줍니다.
+먼저 생활비 얘기부터 하겠습니다. Cleveland의 월 렌트비는 $900~$1,400 선으로, New York이나 Chicago의 절반 남짓(50~60% 저렴)입니다. MBA 2년의 지출 부담이 여기서 크게 갈립니다. Cleveland는 Ohio 주 제2의 도시이자 인구 약 36만 명, 도시 권역으로는 약 200만 명이 사는 미국 중서부 산업과 문화 거점입니다. Erie 호수를 끼고 있고, Rock and Roll Hall of Fame, Cleveland Orchestra, Cleveland Museum of Art가 도시의 문화적 두께를 보여줍니다.
 
 산업 구조도 탄탄합니다. Healthcare, Finance, Manufacturing, Polymer Industries, Aerospace가 두루 자리 잡았고, Cleveland Clinic(세계 최고 수준 의료기관), University Hospitals, KeyBank, Progressive Insurance, Sherwin-Williams, Parker Hannifin, Eaton, Goodyear, Forest City Realty 같은 Fortune 500 본사와 주요 연구기관이 몰려 있습니다. Cleveland Hopkins International Airport에서 미국 주요 도시로 직항이 연결됩니다.
 
-캠퍼스는 약 267에이커 규모로, University Circle이라 불리는 교육·문화·의료 클러스터 한복판에 있습니다. 상징적인 건물은 Peter B. Lewis Building(Frank Gehry 설계)입니다. 건축 명소이면서 동시에 Bloomberg Terminal Lab, Behavioral Lab, Innovation Lab, 팀 기반 학습 공간까지 갖춘 실전형 교육 시설입니다.
+캠퍼스는 약 267에이커 규모로, University Circle이라 불리는 교육, 문화, 의료 클러스터 한복판에 있습니다. 상징적인 건물은 Peter B. Lewis Building(Frank Gehry 설계)입니다. 건축 명소이면서 동시에 Bloomberg Terminal Lab, Behavioral Lab, Innovation Lab, 팀 기반 학습 공간까지 갖춘 실전형 교육 시설입니다.
 
 ### c. MBA 학위 유형
 
@@ -46,7 +46,7 @@ Weatherhead의 MBA는 하나가 아닙니다. 지원자의 상황에 맞춰 여�
 -   Part-time MBA: 직장인 대상의 야간/주말 프로그램, 42학점, 약 2~3년 소요됩니다.
 -   Executive MBA (EMBA): 시니어 매니저와 임원을 위한 18개월 주말 집중 프로그램입니다.
 -   MBA/MS-Healthcare Management: Cleveland Clinic 협력 의료 경영 복수 학위 프로그램입니다.
--   MBA/MS-Management: 분석·운영·조직 분야의 복수 학위 프로그램입니다.
+-   MBA/MS-Management: 분석, 운영, 조직 분야의 복수 학위 프로그램입니다.
 -   JD/MBA Dual Degree: CWRU School of Law와의 4년 복수 학위 프로그램입니다.
 -   MD/MBA Dual Degree: CWRU School of Medicine과의 의료 경영 복수 학위 프로그램입니다.
 
@@ -66,7 +66,7 @@ Weatherhead Full-time MBA의 60학점은 핵심 비즈니스 과목, 전공 선�
 -   Organizational Leadership: 조직 행동, 리더십 개발, 변화 관리를 다룹니다.
 -   Entrepreneurship: 창업, 신규 사업 개발, 벤처 캐피털을 학습합니다.
 
-여기에 Weatherhead Design Thinking Lab, Sears think\[box\](미국 최대 규모의 대학 혁신·창업 공간), Center for Business Analytics가 산업 연계 프로젝트와 기업 자문 경험을 열어 줍니다. 교실 밖에서 실제 기업 문제를 다뤄 볼 수 있는, 이 학교만의 교육 자산입니다.
+여기에 Weatherhead Design Thinking Lab, Sears think\[box\](미국 최대 규모의 대학 혁신과 창업 공간), Center for Business Analytics가 산업 연계 프로젝트와 기업 자문 경험을 열어 줍니다. 교실 밖에서 실제 기업 문제를 다뤄 볼 수 있는, 이 학교만의 교육 자산입니다.
 
 ### e. 비용과 투자 가치
 
@@ -74,12 +74,12 @@ Weatherhead Full-time MBA의 60학점은 핵심 비즈니스 과목, 전공 선�
 
 -   학점당 학비: 약 $1,612
 -   총 학비(60학점, 21개월): 약 $96,720
--   기숙사·생활비(21개월 기준): 약 $30,000~$36,000
+-   기숙사, 생활비(21개월 기준): 약 $30,000~$36,000
 -   교재 및 기타: 약 $3,000~$4,000
 -   건강보험: 약 $4,000~$5,000
 -   총 예상 비용(국제 학생, 21개월): 약 $135,000~$145,000
 
-$140,000 내외라는 총액은 사립 명문대 MBA 치고 무리한 숫자가 아닙니다. AAU 회원 사립 R1 대학의 명성, Cleveland Clinic·KeyBank·Sherwin-Williams로 대표되는 지역 산업 기회, 여기에 다양한 Merit-based 장학금까지 얹으면 투자 대비 회수(ROI)는 오히려 후한 편입니다.
+$140,000 내외라는 총액은 사립 명문대 MBA 치고 무리한 숫자가 아닙니다. AAU 회원 사립 R1 대학의 명성, Cleveland Clinic, KeyBank, Sherwin-Williams로 대표되는 지역 산업 기회, 여기에 다양한 Merit-based 장학금까지 얹으면 투자 대비 회수(ROI)는 오히려 후한 편입니다.
 
 ## 2\. 입학과정
 
@@ -116,7 +116,7 @@ $140,000 내외라는 총액은 사립 명문대 MBA 치고 무리한 숫자가 
 지원 시 준비해야 할 서류와 요건은 아래와 같습니다.
 
 -   4년제 학사 학위 (정식 인증 대학)
--   GMAT 또는 GRE 점수 (Waiver 가능 — 아래 조건 참조)
+-   GMAT 또는 GRE 점수 (Waiver 가능: 아래 조건 참조)
 -   공인 영어 시험 점수 (TOEFL iBT 90+, IELTS 7.0+ 또는 동등 시험)
 -   대학 성적 증명서
 -   Essays / Vision Statement / Video Essays
@@ -133,9 +133,9 @@ Weatherhead가 무게를 두는 건 학업 역량, 그리고 Manage by Design �
 
 입학생 평균 GPA는 3.1~3.3입니다. 이를 기준으로 경쟁력을 가늠하면 이렇습니다.
 
--   강력한 경쟁력: GPA 3.5 이상 — 학업 역량에서 확실한 강점을 보여줍니다.
--   충분히 경쟁력: GPA 3.2 이상 — 평균 수준으로 안정적인 경쟁력입니다.
--   보완 가능: GPA 3.0 이상 — 강한 GMAT 점수와 직무 경력으로 보완 가능합니다.
+-   강력한 경쟁력: GPA 3.5 이상. 학업 역량에서 확실한 강점을 보여줍니다.
+-   충분히 경쟁력: GPA 3.2 이상. 평균 수준으로 안정적인 경쟁력입니다.
+-   보완 가능: GPA 3.0 이상. 강한 GMAT 점수와 직무 경력으로 보완 가능합니다.
 
 눈여겨볼 대목은 정량적 과목입니다. 수학, 통계, 회계, 경제학 학점을 특히 꼼꼼히 봅니다. GPA가 아쉽더라도 GMAT/GRE 점수, 정량적 추가 과목 이수, 뚜렷한 직무 성과로 충분히 만회할 수 있습니다.
 
@@ -143,9 +143,9 @@ Weatherhead가 무게를 두는 건 학업 역량, 그리고 Manage by Design �
 
 평균 GMAT은 674. 이 숫자를 기준선으로 두면 위치가 이렇게 나뉩니다.
 
--   강력한 경쟁력: GMAT 720 이상 / GRE 325 이상 — 장학금 수혜 가능성이 높아집니다.
--   충분히 경쟁력: GMAT 670 이상 / GRE 320 이상 — 평균 수준으로 안정적입니다.
--   보완 가능: GMAT 620 이상 / GRE 310 이상 — 강한 GPA·경력으로 보완 가능합니다.
+-   강력한 경쟁력: GMAT 720 이상 / GRE 325 이상. 장학금 수혜 가능성이 높아집니다.
+-   충분히 경쟁력: GMAT 670 이상 / GRE 320 이상. 평균 수준으로 안정적입니다.
+-   보완 가능: GMAT 620 이상 / GRE 310 이상. 강한 GPA, 경력으로 보완 가능합니다.
 
 **GMAT/GRE Waiver 조건:**
 
@@ -161,8 +161,8 @@ GMAT Waiver 여부는 정량적 학위, 직무 경험, 전문 자격증을 묶�
 
 Weatherhead MBA 에세이는 다음 요소를 포함합니다.
 
--   Vision Statement: 단기·장기 커리어 목표, MBA가 필요한 이유, Weatherhead를 선택한 이유
--   Behavioral Essay: 리더십·팀워크·역경 극복 등 행동 사례
+-   Vision Statement: 단기와 장기 커리어 목표, MBA가 필요한 이유, Weatherhead를 선택한 이유
+-   Behavioral Essay: 리더십, 팀워크, 역경 극복 등 행동 사례
 -   Video Essays: 자기소개와 동기 부여를 영상으로 표현
 -   Optional Essay: 학업이나 경력에서 보충 설명이 필요한 사항이 있을 경우 별도 작성 가능
 
@@ -180,7 +180,7 @@ Weatherhead School of Management는 2통의 추천서를 요구합니다.
 
 ### e. 캠퍼스 방문과 인터뷰
 
-캠퍼스 방문은 학교가 오히려 반깁니다. Frank Gehry가 설계한 Peter B. Lewis Building 투어, MBA 재학생 미팅, 수업 참관, Cleveland Clinic·University Hospitals 견학까지 열려 있습니다. 직접 가기 어렵다면 온라인 정보 세션과 가상 투어도 정기적으로 돌아갑니다.
+캠퍼스 방문은 학교가 오히려 반깁니다. Frank Gehry가 설계한 Peter B. Lewis Building 투어, MBA 재학생 미팅, 수업 참관, Cleveland Clinic, University Hospitals 견학까지 열려 있습니다. 직접 가기 어렵다면 온라인 정보 세션과 가상 투어도 정기적으로 돌아갑니다.
 
 인터뷰는 Application-based 방식으로, 보통 입학사정관이나 동문과 30~45분 가상으로 진행됩니다. 대부분 행동 기반 질문(Behavioral Questions)이고, 'Why MBA?', 'Why Weatherhead?', 'Career Goals', 'Leadership Experience', 'Design Thinking Approach'가 단골 주제입니다.
 
@@ -205,7 +205,7 @@ Weatherhead School of Management는 다양한 장학금과 재정 지원을 제�
 
 45~50명이 21개월을 같은 강의실에서 부대끼며 Action Learning Project를 함께 굴리다 보면, 자연스레 촘촘한 학습 공동체가 됩니다. 유대감도, 글로벌 네트워크도 이 밀도에서 나옵니다. MBA Association, Net Impact Club, Finance Club, Healthcare Club, Consulting Club, Design Club 같은 학생 단체 활동도 꽤 활발합니다.
 
-도시 생활도 심심하지 않습니다. Erie 호수를 낀 Cleveland는 Rock and Roll Hall of Fame, Cleveland Orchestra, Cleveland Museum of Art, Playhouse Square로 문화적 갈증을 채워 줍니다. 캠퍼스가 자리한 University Circle은 미국 최대 규모의 도시 내 교육·문화·의료 클러스터라, MBA 생활 내내 학문·문화·산업 자원이 손 닿는 거리에 있습니다.
+도시 생활도 심심하지 않습니다. Erie 호수를 낀 Cleveland는 Rock and Roll Hall of Fame, Cleveland Orchestra, Cleveland Museum of Art, Playhouse Square로 문화적 갈증을 채워 줍니다. 캠퍼스가 자리한 University Circle은 미국 최대 규모의 도시 내 교육, 문화, 의료 클러스터라, MBA 생활 내내 학문, 문화, 산업 자원이 손 닿는 거리에 있습니다.
 
 ### b. 취업 성과와 주요 채용 기업
 
@@ -231,7 +231,7 @@ CWRU 동문은 약 130,000명 이상. Cleveland, Chicago, New York, San Francisc
 21개월 과정 전체를 놓고 보면 예상 비용은 다음과 같이 잡힙니다.
 
 -   학비(60학점): 약 $96,720
--   기숙사·생활비(21개월): 약 $30,000~$36,000
+-   기숙사, 생활비(21개월): 약 $30,000~$36,000
 -   교재 및 기타: 약 $3,000~$4,000
 -   건강보험: 약 $4,000~$5,000
 -   총 예상 비용: 약 $135,000~$145,000 (한화 약 1억 8,000만~1억 9,500만 원)
@@ -261,11 +261,11 @@ CWRU는 등록 학생 전원에게 Student Medical Plan 가입을 의무화합�
 
 지금까지 살펴본 Case Western Reserve University Weatherhead School of Management는 1936년 문을 연 AAU 회원 사립 명문대 산하 비즈니스 스쿨입니다. Manage by Design 철학과 45~50명 초소규모 코호트라는 두 축이 이 학교의 성격을 규정합니다.
 
-약 $96,720의 학비, 평균 GMAT 674, Dean's Fellowship과 Merit Scholarship으로 대표되는 두툼한 재정 지원, 그리고 Cleveland Clinic·KeyBank·Sherwin-Williams가 만들어 내는 지역 산업 기회. 이 조합이 한국 지원자에게 주는 가치는 결코 추상적이지 않습니다. 특히 Healthcare Management와 Design and Innovation 트랙은 미래형 커리어를 그리는 학생에게 매력적인 카드입니다.
+약 $96,720의 학비, 평균 GMAT 674, Dean's Fellowship과 Merit Scholarship으로 대표되는 두툼한 재정 지원, 그리고 Cleveland Clinic, KeyBank, Sherwin-Williams가 만들어 내는 지역 산업 기회. 이 조합이 한국 지원자에게 주는 가치는 결코 추상적이지 않습니다. 특히 Healthcare Management와 Design and Innovation 트랙은 미래형 커리어를 그리는 학생에게 매력적인 카드입니다.
 
-강점을 한자리에 모으면 이렇습니다. AACSB 인증, AAU 회원 사립 R1 대학, Manage by Design 철학, Cleveland Clinic과 손잡은 Healthcare Management, 미국 최대 대학 혁신 공간 Sears think\[box\], Frank Gehry가 설계한 Peter B. Lewis Building, Dean's Fellowship·Merit Scholarship의 재정 지원, 그리고 초소규모 코호트가 만드는 끈끈한 동문 유대.
+강점을 한자리에 모으면 이렇습니다. AACSB 인증, AAU 회원 사립 R1 대학, Manage by Design 철학, Cleveland Clinic과 손잡은 Healthcare Management, 미국 최대 대학 혁신 공간 Sears think\[box\], Frank Gehry가 설계한 Peter B. Lewis Building, Dean's Fellowship, Merit Scholarship의 재정 지원, 그리고 초소규모 코호트가 만드는 끈끈한 동문 유대.
 
-정리하자면, 디자인 사고와 시스템 사고 기반의 혁신 경영을 배우고 싶은 학생, Healthcare·Finance·Consulting에서 커리어를 쌓으려는 학생, 명문대의 학문적 명성과 넉넉한 재정 지원을 함께 원하는 학생에게 Weatherhead는 진지하게 저울에 올릴 만한 선택지입니다. 준비를 전략적으로 다듬어 원하는 결과를 만들어 내시기 바랍니다.
+정리하자면, 디자인 사고와 시스템 사고 기반의 혁신 경영을 배우고 싶은 학생, Healthcare, Finance, Consulting에서 커리어를 쌓으려는 학생, 명문대의 학문적 명성과 넉넉한 재정 지원을 함께 원하는 학생에게 Weatherhead는 진지하게 저울에 올릴 만한 선택지입니다. 준비를 전략적으로 다듬어 원하는 결과를 만들어 내시기 바랍니다.
 
 참고 링크:
 

@@ -138,9 +138,9 @@ GPA가 3.0 미만이라도 문은 닫히지 않습니다. 학부 마지막 2년�
 
 에세이는 지원자의 Career Goals와 프로그램 선택 이유, 개인적 강점을 드러내는 핵심 문서입니다. 소규모 프로그램이라 Admission Committee가 한 편 한 편을 꼼꼼히 읽습니다. 그러니 막연한 미사여구보다 진정성 있고 구체적인 내용이 훨씬 멀리 갑니다.
 
-핵심은 'Why Walton'에 대한 구체적인 답입니다. '좋은 프로그램이라서'로는 부족합니다. Supply Chain Management 커리큘럼, Walmart 생태계와의 연결, Northwest Arkansas 기업 커뮤니티, 소규모 클래스의 장점, 특정 교수의 연구까지 손에 잡히는 근거를 대야 합니다. 학교 웹사이트 심층 리서치, 재학생·졸업생과의 대화, 가능하다면 캠퍼스 방문이 이 답을 채워줍니다.
+핵심은 'Why Walton'에 대한 구체적인 답입니다. '좋은 프로그램이라서'로는 부족합니다. Supply Chain Management 커리큘럼, Walmart 생태계와의 연결, Northwest Arkansas 기업 커뮤니티, 소규모 클래스의 장점, 특정 교수의 연구까지 손에 잡히는 근거를 대야 합니다. 학교 웹사이트 심층 리서치, 재학생과 졸업생과의 대화, 가능하다면 캠퍼스 방문이 이 답을 채워줍니다.
 
-한국인 지원자라면 자신만의 무기가 있습니다. 한국의 산업 경험과 Walton College의 강점을 이어붙이는 것이지요. 한국 소매·유통 업계 경험을 Supply Chain Management 전공과 연결하거나, 한국 기업의 미국 시장 진출 경험을 Northwest Arkansas 기업 생태계와 엮거나, 글로벌 비즈니스 관점에서의 기여를 구체적으로 풀어낼 수 있습니다. Samsung, LG 같은 한국 기업이 이미 Northwest Arkansas에 사무소를 두고 있다는 점도 좋은 소재입니다.
+한국인 지원자라면 자신만의 무기가 있습니다. 한국의 산업 경험과 Walton College의 강점을 이어붙이는 것이지요. 한국 소매와 유통 업계 경험을 Supply Chain Management 전공과 연결하거나, 한국 기업의 미국 시장 진출 경험을 Northwest Arkansas 기업 생태계와 엮거나, 글로벌 비즈니스 관점에서의 기여를 구체적으로 풀어낼 수 있습니다. Samsung, LG 같은 한국 기업이 이미 Northwest Arkansas에 사무소를 두고 있다는 점도 좋은 소재입니다.
 
 ### d. 추천서 전략
 
@@ -207,7 +207,7 @@ Walton College의 Career Services Office는 이력서 작성과 인터뷰 준비
 
 ### c. 알럼나이 네트워크
 
-University of Arkansas의 전체 졸업생은 20만 명이 넘습니다. Walton College 동문 네트워크는 특히 Arkansas, Texas, Oklahoma 등 미국 남부·중부에서 강력합니다. Northwest Arkansas에서는 Walton College 졸업생이 기업과 정부, 비영리 단체까지 거의 모든 영역에서 요직을 맡고 있어 네트워킹의 실질적 가치가 큽니다.
+University of Arkansas의 전체 졸업생은 20만 명이 넘습니다. Walton College 동문 네트워크는 특히 Arkansas, Texas, Oklahoma 등 미국 남부와 중부에서 강력합니다. Northwest Arkansas에서는 Walton College 졸업생이 기업과 정부, 비영리 단체까지 거의 모든 영역에서 요직을 맡고 있어 네트워킹의 실질적 가치가 큽니다.
 
 지역 기업으로 눈을 돌려도 마찬가지입니다. Walmart, Tyson Foods, J.B. Hunt 같은 주요 기업 곳곳에 Walton College 졸업생이 포진해 있어, 재학 중 멘토링부터 졸업 후 취업까지 실질적인 도움을 받을 수 있습니다. Alumni Association은 정기 네트워킹 이벤트와 멘토링 프로그램, 온라인 플랫폼으로 졸업생을 이어줍니다. 소규모 MBA 특유의 끈끈함 덕분에, 졸업 후에도 서로의 커리어를 밀어주고 끌어주는 관계가 오래 이어집니다.
 
@@ -235,7 +235,7 @@ University of Arkansas의 전체 졸업생은 20만 명이 넘습니다. Walton 
 
 University of Arkansas 캠퍼스에는 24시간 운영되는 University Police Department가 있습니다. Blue Light Emergency Phone System, 야간 에스코트 서비스(Safe Walk), RAVE Alert System(긴급 알림 시스템)까지 안전 인프라가 촘촘합니다. 캠퍼스 건물은 카드키 출입 시스템으로 관리되고, 야간 조명도 잘 갖춰져 있습니다.
 
-주거 환경도 걱정을 덜어드립니다. 캠퍼스 인근 아파트 단지들은 관리가 잘 되어 있어 안전한 주거를 제공합니다. 무료로 운행되는 대중교통(Razorback Transit) 덕에 캠퍼스와 주요 상업 지역을 오가기 편하고, 자전거 인프라(Razorback Greenway)가 잘 발달해 있어 자전거 통학·통근도 인기 있는 선택입니다.
+주거 환경도 걱정을 덜어드립니다. 캠퍼스 인근 아파트 단지들은 관리가 잘 되어 있어 안전한 주거를 제공합니다. 무료로 운행되는 대중교통(Razorback Transit) 덕에 캠퍼스와 주요 상업 지역을 오가기 편하고, 자전거 인프라(Razorback Greenway)가 잘 발달해 있어 자전거 통학과 통근도 인기 있는 선택입니다.
 
 ### c. 건강보험과 학생 지원 서비스
 
@@ -259,7 +259,7 @@ Sam M. Walton College of Business MBA는 합리적인 비용과 독보적인 기
 
 숫자로 정리하면 더 분명합니다. In-state 기준 연간 약 $24,054의 학비, $500~$800의 월 렌트비, 졸업 후 평균 $79,911의 연봉. 미국 최고 수준의 ROI가 여기서 나옵니다. 합격률 64.18%와 GMAT 평균 557점은 문턱은 낮추면서 교육의 질은 지키는 균형을 보여주고, 2년 이상 직무 경험자에게 열리는 Test Waiver는 시험 준비의 부담을 통째로 덜어냅니다.
 
-한국인 지원자에게는 더더욱 매력적인 선택입니다. Samsung, LG 같은 한국 기업이 Northwest Arkansas에 이미 진출해 문화적 연결고리가 있고, Supply Chain Management와 Retail Strategy는 한국의 강력한 유통·소매 산업 경험과 곧바로 시너지를 냅니다. 소규모 클래스에서의 깊은 관계, 안전하고 아름다운 Fayetteville의 생활, 그리고 미국 남부의 따뜻한 환대까지. 오래 기억에 남을 MBA 경험이 될 것입니다.
+한국인 지원자에게는 더더욱 매력적인 선택입니다. Samsung, LG 같은 한국 기업이 Northwest Arkansas에 이미 진출해 문화적 연결고리가 있고, Supply Chain Management와 Retail Strategy는 한국의 강력한 유통과 소매 산업 경험과 곧바로 시너지를 냅니다. 소규모 클래스에서의 깊은 관계, 안전하고 아름다운 Fayetteville의 생활, 그리고 미국 남부의 따뜻한 환대까지. 오래 기억에 남을 MBA 경험이 될 것입니다.
 
 **유용한 링크:**
 

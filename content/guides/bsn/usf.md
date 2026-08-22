@@ -10,7 +10,7 @@ universityKo: 샌프란시스코대학교
 schoolEn: School of Nursing and Health Professions
 description: >-
   Bay Area RN 평균 연봉 약 $130,000~$150,000, RN은 Schedule A 직종으로 EB-3 영주권 직접 후원. USF
-  School of Nursing and Health Professions BSN 입학과 취업·비자 전략을 정리합니다.
+  School of Nursing and Health Professions BSN 입학과 취업과 비자 전략을 정리합니다.
 status: published
 order: 95
 publishDate: '2026-08-10'
@@ -268,7 +268,7 @@ University of San Francisco School of Nursing and Health Professions는 1948년�
 
 한국 학생에게 USF Nursing이 특히 잘 맞는 이유는, 고교 졸업과 동시에 2차 지원 없이 간호 전공으로 확정 입학하는 direct admit 모델의 명확성, Jesuit cura personalis 전통과 한국 가정 인성 교육 가치관의 궁합, UCSF Health와 Kaiser Permanente 등 한국 출신 영주권 후원 사례가 풍부한 California 대형 시스템과의 직접 임상 파트너십, 그리고 RN의 Schedule A EB-3 영주권 경로와 California RN 연봉 프리미엄(Bay Area 약 $130,000~$150,000)의 결합에 있습니다. 졸업 후에는 California 최대 RN 노동 시장과 미국 전체 1위 RN 연봉이 학비 회수와 장기 안정성을 든든하게 받쳐 줍니다.
 
-USF Nursing의 강점을 짧게 정리하면 이렇습니다. 1948년 설립의 76년 역사와 California 서부 명문 사립 간호대학 위상, 예수회 cura personalis 전통과 사회 정의 미션, UCSF Health·Stanford Health·Kaiser Permanente·Sutter Health로 이어지는 Bay Area 최상위 임상 파트너 네트워크, San Francisco와 Orange County 두 캠퍼스를 통한 California 전역 의료 시장 접근, RN의 Schedule A EB-3 영주권 경로와 UCSF/Stanford의 cap-exempt H-1B 듀얼 트랙, 비간호 학사 보유자를 위한 2년 MEPN(MSN 동시 취득), 그리고 California RN 연봉 미국 1위(Bay Area 약 $130,000~$150,000)와 강력한 노조 보호까지. 물론 사립대 4년 약 $320,000+(추정)의 비용, USF의 국제 학생 institutional aid 제한, San Francisco 고비용 생활비 같은 진입 장벽은 처음부터 분명히 인식하고 들어가야 합니다.
+USF Nursing의 강점을 짧게 정리하면 이렇습니다. 1948년 설립의 76년 역사와 California 서부 명문 사립 간호대학 위상, 예수회 cura personalis 전통과 사회 정의 미션, UCSF Health, Stanford Health, Kaiser Permanente, Sutter Health로 이어지는 Bay Area 최상위 임상 파트너 네트워크, San Francisco와 Orange County 두 캠퍼스를 통한 California 전역 의료 시장 접근, RN의 Schedule A EB-3 영주권 경로와 UCSF/Stanford의 cap-exempt H-1B 듀얼 트랙, 비간호 학사 보유자를 위한 2년 MEPN(MSN 동시 취득), 그리고 California RN 연봉 미국 1위(Bay Area 약 $130,000~$150,000)와 강력한 노조 보호까지. 물론 사립대 4년 약 $320,000+(추정)의 비용, USF의 국제 학생 institutional aid 제한, San Francisco 고비용 생활비 같은 진입 장벽은 처음부터 분명히 인식하고 들어가야 합니다.
 
 미국에서 안정적 전문직, 빠른 영주권 경로, 최고 수준의 RN 연봉, Jesuit 가치관 기반의 전인적 교육, 그리고 Bay Area라는 글로벌 의료 허브 입지를 한꺼번에 원하는 한국 학생에게 University of San Francisco School of Nursing and Health Professions는 미국 BSN 진학의 강력한 선택지입니다. 4년 후 RN 면허와 함께 California 의료 시장에 진입하는 길은 분명히 열려 있고, 그 출발점은 결국 잘 준비된 지원서입니다.
 

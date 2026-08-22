@@ -10,7 +10,7 @@ universityKo: 케이스웨스턴리저브대학교
 schoolEn: Frances Payne Bolton School of Nursing
 description: >-
   1923년 설립된 미국 최초의 대학 부설 간호대학. 2026년 U.S. News 학부 BSN 랭킹 전국 공동 13위, NCLEX 첫 응시
-  합격률 95%. 고교 졸업생 direct admit BSN 입학·비자 전략을 정리했습니다.
+  합격률 95%. 고교 졸업생 direct admit BSN 입학과 비자 전략을 정리했습니다.
 status: published
 order: 13
 publishDate: '2026-07-12'

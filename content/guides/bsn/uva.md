@@ -7,7 +7,7 @@ universityEn: University of Virginia
 universityKo: 버지니아대학교
 schoolEn: School of Nursing
 description: >-
-  1901년 설립, 2026년 U.S. News 학부 BSN 공동 13위. 학년당 약 75석·합격률 6~7%의 direct admit BSN과
+  1901년 설립, 2026년 U.S. News 학부 BSN 공동 13위. 학년당 약 75석, 합격률 6~7%의 direct admit BSN과
   RN Schedule A EB-3 영주권 경로를 한국 학생 관점에서 정리했습니다.
 status: published
 order: 103

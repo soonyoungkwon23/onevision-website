@@ -254,7 +254,7 @@ Emory University Nell Hodgson Woodruff School of Nursing은 1905년으로 이어
 
 한국 학생에게 이 학교가 잘 맞는 이유는 여러 조각이 맞물려 있기 때문입니다. Emory College나 Oxford 학생이라면 GPA 3.0으로 보장 입학되는 freshman option, 비간호 학사 보유자를 1년 만에 RN으로 바꿔 주는 DABSN, 92% 학생이 받는 폭넓은 재정 지원, 그리고 Atlanta 대형 의료 클러스터에서의 임상 경험이 한데 모입니다. 졸업 후에는 RN의 Schedule A 분류가 빠른 EB-3 영주권 경로를 열어 주고, BLS 중위 연봉 $86,070에 매년 19만 개가 넘는 신규 일자리라는 노동 시장이 학비 회수와 장기 안정성을 받쳐 줍니다.
 
-강점을 한 번 더 짚어 보면, 명확한 4년 경로인 GPA 3.0 보장 입학과 1년 DABSN·MN이라는 대안 트랙이 진입로를 넓혀 줍니다. NCLEX 첫 응시 합격률은 10년 평균 92%, 임상은 Children's Healthcare of Atlanta와 Grady Memorial 같은 최상위 specialty 병원에서 이뤄집니다. 여기에 92% 학생이 받는 재정 지원과 국제 학생까지 검토하는 Robert W. Woodruff Scholarship, RN 직종의 Schedule A EB-3 영주권 경로, 그리고 CDC와 Lillian Carter Center을 통한 글로벌 헬스·공중보건 노출이 더해집니다.
+강점을 한 번 더 짚어 보면, 명확한 4년 경로인 GPA 3.0 보장 입학과 1년 DABSN, MN이라는 대안 트랙이 진입로를 넓혀 줍니다. NCLEX 첫 응시 합격률은 10년 평균 92%, 임상은 Children's Healthcare of Atlanta와 Grady Memorial 같은 최상위 specialty 병원에서 이뤄집니다. 여기에 92% 학생이 받는 재정 지원과 국제 학생까지 검토하는 Robert W. Woodruff Scholarship, RN 직종의 Schedule A EB-3 영주권 경로, 그리고 CDC와 Lillian Carter Center을 통한 글로벌 헬스와 공중보건 노출이 더해집니다.
 
 안정적인 전문직과 빠른 영주권 경로, 그리고 의미 있는 caring profession을 한꺼번에 원하는 한국 학생에게 Emory Nell Hodgson Woodruff School of Nursing은 가장 균형 잡힌 출발점 중 하나입니다. 4년 뒤든 1~2년 뒤든 RN 면허를 들고 미국 의료 현장에 들어서는 길은 분명히 열려 있습니다. 그 시작은 결국 잘 준비된 지원서 한 장입니다.
 

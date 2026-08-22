@@ -257,7 +257,7 @@ UTHSC BSN 졸업생은 Memphis 의료 단지 학술의료시스템과 미국 남
 
 가장 크게 걸리는 지점은 역시 College of Nursing이 BSN 학생에게 F-1 비자 후원을 하지 않는다는 사실입니다. 그래서 이 프로그램은 (1) 미국 영주권자 또는 시민권을 보유한 한국계 학생, (2) DACA 등 다른 법적 체류 자격을 가진 학생, (3) F-1이 아닌 다른 비자(L-2, H-4 EAD 등)로 미국에 거주 중인 한국 학생에게 맞습니다. F-1 비자로 미국 유학 중인 한국 학생이라면 UT Knoxville, ASU Edson, UNMC, Alabama UAB 등 F-1 후원 BSN 프로그램을 대안으로 살펴봐야 합니다.
 
-강점을 한자리에 모아 보면 그림이 분명해집니다. 2026년 U.S. News 전국 공동 28위(공립 18위)라는 미국 BSN 상위 4% 위상, Methodist Le Bonheur·Regional One Health·St. Jude·Baptist Memorial이 한데 모인 Memphis 의료 단지의 차별적 specialty 임상 노출, 통합 헬스 사이언스 캠퍼스의 inter-professional education, 4년 평균 92.5%의 NCLEX-RN 첫 응시 합격률, 한국 학사 보유 영주권자에게 가장 빠른 12개월 ABSN, 동급 사립 BSN 대비 약 40~50% 낮은 주립대 학비와 Memphis의 낮은 생활비, 영주권자 학생의 Federal Direct Loans·Pell Grant·UT Promise 접근, 그리고 Tennessee RN 면허의 NLC 호환에 따른 다주 이동성입니다. 물론 F-1 비자 학생에게는 지원 자체가 막혀 있고, 과학 선수과목 5년 시효는 한국 학사 보유자가 미리 점검해야 할 요소로 남습니다.
+강점을 한자리에 모아 보면 그림이 분명해집니다. 2026년 U.S. News 전국 공동 28위(공립 18위)라는 미국 BSN 상위 4% 위상, Methodist Le Bonheur, Regional One Health, St. Jude, Baptist Memorial이 한데 모인 Memphis 의료 단지의 차별적 specialty 임상 노출, 통합 헬스 사이언스 캠퍼스의 inter-professional education, 4년 평균 92.5%의 NCLEX-RN 첫 응시 합격률, 한국 학사 보유 영주권자에게 가장 빠른 12개월 ABSN, 동급 사립 BSN 대비 약 40~50% 낮은 주립대 학비와 Memphis의 낮은 생활비, 영주권자 학생의 Federal Direct Loans, Pell Grant, UT Promise 접근, 그리고 Tennessee RN 면허의 NLC 호환에 따른 다주 이동성입니다. 물론 F-1 비자 학생에게는 지원 자체가 막혀 있고, 과학 선수과목 5년 시효는 한국 학사 보유자가 미리 점검해야 할 요소로 남습니다.
 
 미국 영주권을 이미 가진 한국계 학생, 또는 DACA나 가족 동반 비자로 미국에 거주 중인 한국 학생에게 UTHSC College of Nursing은 미국 BSN 상위 4% 프로그램과 Memphis 의료 단지 specialty 채용을 동시에 잡을 수 있는 강력한 카드입니다. Pre-nursing 2년 뒤 BSN 2년(또는 ABSN 12개월), 그리고 RN 면허와 함께 미국 남부 의료 시장에 진입하는 길이 분명하게 열려 있습니다. 그 출발점은 결국 잘 준비된 지원서 한 부입니다.
 

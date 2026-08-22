@@ -248,10 +248,10 @@ Carroll School MBA의 취업 성과는 매우 인상적입니다. 그 중심에�
 
 **산업별 취업 분포:**
 
--   Financial Services: 29% — Carroll School의 최대 강점 분야로, Investment Banking, Asset Management, Commercial Banking, Insurance 등 다양한 금융 분야로 취업합니다.
--   Pharma/Healthcare/Biotech: 17% — Boston 지역의 강력한 Healthcare 생태계를 활용하여 제약사, 바이오텍 기업, 의료기기 회사, 병원 경영 등으로 진출합니다.
--   Consulting: 13% — Strategy Consulting, Management Consulting, Technology Consulting 등 다양한 컨설팅 분야에 취업합니다.
--   Technology: 약 10-12% — Boston/Cambridge 지역의 Tech 기업과 Startup으로의 취업이 증가 추세입니다.
+-   Financial Services: 29%. Carroll School의 최대 강점 분야로, Investment Banking, Asset Management, Commercial Banking, Insurance 등 다양한 금융 분야로 취업합니다.
+-   Pharma/Healthcare/Biotech: 17%. Boston 지역의 강력한 Healthcare 생태계를 활용하여 제약사, 바이오텍 기업, 의료기기 회사, 병원 경영 등으로 진출합니다.
+-   Consulting: 13%. Strategy Consulting, Management Consulting, Technology Consulting 등 다양한 컨설팅 분야에 취업합니다.
+-   Technology: 약 10-12%. Boston/Cambridge 지역의 Tech 기업과 Startup으로의 취업이 증가 추세입니다.
 -   Consumer Products/Retail, Real Estate, Non-Profit 등: 나머지 비율을 차지합니다.
 
 **주요 채용 기업 (예시):**
@@ -337,7 +337,7 @@ Chestnut Hill은 Brookline, Newton과 맞닿은 부유한 주거 지역이라 �
 -   CPT (Curricular Practical Training): 재학 중 인턴십을 위해 CPT를 신청할 수 있으며, 여름 인턴십은 MBA 커리큘럼의 중요한 부분입니다.
 -   OPT (Optional Practical Training): 졸업 후 12개월의 OPT를 통해 미국 내에서 합법적으로 취업할 수 있습니다.
 
-**STEM OPT Extension — Carroll MBA의 핵심 이점:**
+**STEM OPT Extension, Carroll MBA의 핵심 이점:**
 
 Carroll School MBA의 STEM Designated Track (Statistical Modeling, Data Mining, Analytics)을 이수하면 추가 24개월의 STEM OPT Extension을 받을 수 있어, 총 36개월(3년)간 미국에서 취업이 가능합니다. 일반 MBA의 12개월 OPT와 비교하면 엄청난 이점이며, H-1B 비자 스폰서를 확보할 시간적 여유도 크게 늘어납니다.
 

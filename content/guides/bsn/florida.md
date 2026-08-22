@@ -189,7 +189,7 @@ Traditional BSN을 준비한다면 고교에서 AP Biology, AP Chemistry, AP Sta
 -   Waiver 조건: 영어권 국가에서 학위 취득자 또는 최근 4년간 영어권 국가 재학.
 -   ABSN 별도 요건: TOEFL iBT 80 이상, 각 섹션 최저치는 학교 지침 참조.
 
-UF의 TOEFL 80(iBT) 요건은 미국 flagship 학부치고 접근 가능한 수준입니다. 다만 nursing major와 ABSN을 실제로 소화하려면 TOEFL 95+, speaking 25+를 잡아두는 편이 안전합니다. UF Health Shands와 UF Health Jacksonville의 tertiary care 현장은 다국적·다인종·스페인어권을 아우르는 환자군을 만나기 때문에, speaking과 listening을 끌어올려 두는 게 필수입니다.
+UF의 TOEFL 80(iBT) 요건은 미국 flagship 학부치고 접근 가능한 수준입니다. 다만 nursing major와 ABSN을 실제로 소화하려면 TOEFL 95+, speaking 25+를 잡아두는 편이 안전합니다. UF Health Shands와 UF Health Jacksonville의 tertiary care 현장은 다국적, 다인종, 스페인어권을 아우르는 환자군을 만나기 때문에, speaking과 listening을 끌어올려 두는 게 필수입니다.
 
 ### e. 에세이 전략
 
@@ -200,7 +200,7 @@ UF의 TOEFL 80(iBT) 요건은 미국 flagship 학부치고 접근 가능한 수�
 
 UF essay가 보고 싶어 하는 것은 flagship AAU의 학문적 자원, 그리고 UF Health Shands의 임상 자원과 지원자 사이의 뚜렷한 fit입니다. 출발점은 왜 nursing인가입니다. 이 질문에 답하는 personal narrative가 흐릿하면 나머지 문단이 아무리 좋아도 흔들립니다.
 
-그다음, UF Health Shands의 tertiary care 자원(Level I Trauma, transplant, comprehensive cancer center, Children's Hospital) 가운데 특히 끌리는 practice 환경을 콕 집으면 fit 인상이 선명해집니다. 여기에 Florida의 급속한 인구 증가와 고령화가 만드는 healthcare access 이슈, 스페인어권·카리브해 이민 인구의 healthcare needs에 대한 관심을 얹으면 설득력이 붙습니다. ABSN 지원자라면 이전 학위 경험을 nursing으로 이어 붙이는 narrative가 반드시 있어야 합니다.
+그다음, UF Health Shands의 tertiary care 자원(Level I Trauma, transplant, comprehensive cancer center, Children's Hospital) 가운데 특히 끌리는 practice 환경을 콕 집으면 fit 인상이 선명해집니다. 여기에 Florida의 급속한 인구 증가와 고령화가 만드는 healthcare access 이슈, 스페인어권과 카리브해 이민 인구의 healthcare needs에 대한 관심을 얹으면 설득력이 붙습니다. ABSN 지원자라면 이전 학위 경험을 nursing으로 이어 붙이는 narrative가 반드시 있어야 합니다.
 
 ### f. 추천서 전략
 
@@ -216,7 +216,7 @@ nursing major 지원이라면 science teacher(Biology 또는 Chemistry) 1장에 
 -   ABSN: 인터뷰 진행 가능. 짧은 화상 면접 또는 짧은 group interview 형식.
 -   Merit Scholarship 심사: 상위 지원자 대상 별도 인터뷰 진행 가능.
 
-Traditional BSN은 인터뷰 없이 서류로 판가름 나므로 essay와 학업 성취가 결정을 좌우합니다. 반면 ABSN 지원자는 인터뷰를 준비해야 하고, healthcare exposure·teamwork·career transition motivation·resilience를 묻는 behavioral 질문에 답을 미리 다듬어 두는 게 좋습니다.
+Traditional BSN은 인터뷰 없이 서류로 판가름 나므로 essay와 학업 성취가 결정을 좌우합니다. 반면 ABSN 지원자는 인터뷰를 준비해야 하고, healthcare exposure, teamwork, career transition motivation, resilience를 묻는 behavioral 질문에 답을 미리 다듬어 두는 게 좋습니다.
 
 ### h. 재정 지원
 
@@ -284,7 +284,7 @@ BSN이 STEM designated가 아니라는 사실은 다른 STEM 학위와 비교하
 -   HCA Healthcare Florida EB-3 sponsorship 실적: Florida 최대 병원 시스템으로 국제 nurse EB-3 sponsorship 실적 매우 강력.
 -   UF Health EB-3 sponsorship 실적: 학술 의료센터로 sponsorship 사례 확인 필요.
 
-Schedule A는 RN이 쥔 가장 강력한 이민 카드입니다. 한국 학생의 표준 동선은 이렇습니다. UF BSN 졸업, NCLEX 응시와 합격, OPT 시작, UF Health·HCA Healthcare Florida·AdventHealth·BayCare 등에서 permanent offer 확보, 그리고 I-140과 VisaScreen 병행 신청. Florida는 HCA Healthcare가 대규모 국제 nurse EB-3 프로그램을 굴리는 대표 주라 sponsorship pool이 특히 넓습니다.
+Schedule A는 RN이 쥔 가장 강력한 이민 카드입니다. 한국 학생의 표준 동선은 이렇습니다. UF BSN 졸업, NCLEX 응시와 합격, OPT 시작, UF Health, HCA Healthcare Florida, AdventHealth, BayCare 등에서 permanent offer 확보, 그리고 I-140과 VisaScreen 병행 신청. Florida는 HCA Healthcare가 대규모 국제 nurse EB-3 프로그램을 굴리는 대표 주라 sponsorship pool이 특히 넓습니다.
 
 ### e. 주요 스폰서 병원
 
@@ -308,7 +308,7 @@ The University of Florida College of Nursing은 미국 남부 대표 flagship AA
 
 한국 학생과 가정에게 UF BSN이 특히 매력적인 대목은 Florida의 인구 유입이 만드는 방대한 RN 수요, 그리고 주 소득세 없음이라는 재정 이점이 함께 온다는 점입니다. HCA Healthcare, AdventHealth, BayCare, Baptist Health South Florida 같은 대형 시스템이 국제 nurse EB-3 sponsorship을 큰 규모로 운영하고, Miami/Tampa/Orlando 대도시권으로 커리어를 옮기기도 수월합니다. UF의 out-of-state 학비마저 미국 flagship 중 저렴한 편이라 재정적 진입장벽이 낮습니다.
 
-정리하면, UF Traditional Upper-Division BSN과 ABSN의 힘은 최상위 공립 flagship AAU의 학문적 자원, UF Health Shands의 tertiary care 임상 노출, 92~98%의 NCLEX 합격률, Florida의 방대한 RN 수요와 주 소득세 없음, 그리고 Schedule A/EB-3 sponsorship이 강한 HCA Healthcare·AdventHealth 등 대형 sponsor 네트워크가 한데 겹치는 데서 나옵니다. 물론 넘어야 할 벽도 있습니다. 학부 24% 합격률, nursing 본 과정 진입의 별도 심사, ABSN 5월 단일 시작의 빡빡한 timeline은 그냥 통과되지 않습니다.
+정리하면, UF Traditional Upper-Division BSN과 ABSN의 힘은 최상위 공립 flagship AAU의 학문적 자원, UF Health Shands의 tertiary care 임상 노출, 92~98%의 NCLEX 합격률, Florida의 방대한 RN 수요와 주 소득세 없음, 그리고 Schedule A/EB-3 sponsorship이 강한 HCA Healthcare, AdventHealth 등 대형 sponsor 네트워크가 한데 겹치는 데서 나옵니다. 물론 넘어야 할 벽도 있습니다. 학부 24% 합격률, nursing 본 과정 진입의 별도 심사, ABSN 5월 단일 시작의 빡빡한 timeline은 그냥 통과되지 않습니다.
 
 준비의 갈림길은 다시 학력입니다. 고교 졸업생은 11월 1일 학부 마감을 반드시 지키면서 HS GPA 3.9+, SAT 1400+ 또는 ACT 32+, TOEFL 95+를 확보하고 AP Biology/Chemistry/Statistics를 병행해야 합니다. 학사 소지자는 10월 15일 ABSN 마감에 맞춰 학사 GPA 3.5+, 선수과목 GPA 3.5+, healthcare exposure 포트폴리오, TOEFL 90+를 지원 12~18개월 전부터 쌓아야 합니다.
 

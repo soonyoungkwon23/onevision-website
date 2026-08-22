@@ -18,7 +18,7 @@ enhancedDate: '2026-07-13'
 
 백악관에서 걸어서 4블록. 그 자리에 Financial Times가 2024년 전 세계 MBA 프로그램 가운데 여성 학생 비율 1위로 꼽은 프로그램이 있습니다. George Washington University School of Business(GWSB)의 Global MBA입니다. STEM 지정 프로그램이라 AI, Analytics, Technology를 핵심 커리큘럼에 녹였고, 국제 학생은 최대 36개월의 OPT 취업 기간을 확보할 수 있습니다. 합격률은 약 40%, Global MBA 평균 GMAT은 642. 만만치 않은 프로필입니다. 여기에 Crisis Management, Sport Management, Energy Systems 같은 니치 전공을 포함해 18개 이상의 전공 분야를 열어 두었으니, 비즈니스와 정책이 만나는 지점에서 리더를 키우려는 학교의 방향이 분명히 드러납니다.
 
-GWSB MBA의 무기는 세 가지로 압축됩니다. D.C.라는 자리, STEM 지정, 그리고 정부·국제기구·컨설팅으로 이어지는 취업 파이프라인. IMF, World Bank, 수백 개의 연방 기관과 씽크탱크, Deloitte와 Booz Allen Hamilton 같은 D.C. 기반 컨설팅 기업이 지하철 몇 정거장 안에 몰려 있습니다. 시그니처 프로그램인 Consulting Abroad Program(CAP)은 국제 산업 파트너와 진행하는 실전 컨설팅 프로젝트를 아예 정규 과정에 넣어 글로벌 역량을 쌓게 합니다. 무엇보다 한국 지원자라면 Hyundai Scholarship처럼 한국인을 겨냥한 장학금이 따로 있다는 점을 놓치면 안 됩니다.
+GWSB MBA의 무기는 세 가지로 압축됩니다. D.C.라는 자리, STEM 지정, 그리고 정부, 국제기구, 컨설팅으로 이어지는 취업 파이프라인. IMF, World Bank, 수백 개의 연방 기관과 씽크탱크, Deloitte와 Booz Allen Hamilton 같은 D.C. 기반 컨설팅 기업이 지하철 몇 정거장 안에 몰려 있습니다. 시그니처 프로그램인 Consulting Abroad Program(CAP)은 국제 산업 파트너와 진행하는 실전 컨설팅 프로젝트를 아예 정규 과정에 넣어 글로벌 역량을 쌓게 합니다. 무엇보다 한국 지원자라면 Hyundai Scholarship처럼 한국인을 겨냥한 장학금이 따로 있다는 점을 놓치면 안 됩니다.
 
 이 가이드는 GWSB MBA를 준비하는 한국인 학생과 학부모를 위해 썼습니다. 학교의 뿌리와 특징에서 시작해 입학 요건과 전략, 캠퍼스 생활과 취업 성과, 비용 계획까지 하나씩 짚었습니다. STEM MBA를 어떻게 활용할지, Hyundai Scholarship을 비롯한 장학금 기회는 무엇인지, Test-Optional 정책을 어떻게 쓸지, D.C. 기반 취업은 어떻게 설계할지에 특히 무게를 실었습니다.
 
@@ -30,7 +30,7 @@ George Washington University(GW)는 1821년 미국 의회의 인가로 세워진
 
 GW School of Business(GWSB)는 AACSB International 인증을 받은 비즈니스 스쿨입니다. U.S. News & World Report 전국 51위, Bloomberg Businessweek 56위, QS Rankings 미국 내 38위. 여기에 Financial Times가 2024년 전 세계 MBA 프로그램 중 여성 학생 비율 1위로 선정한 사실은 다양성과 포용성을 향한 학교의 태도를 잘 보여줍니다. 2024년 기준 전체 학생의 50%가 여성이고, Global MBA는 47%가 국제 학생입니다. 교실 안 구성부터 다채롭습니다.
 
-최근 GWSB는 STEM 지정 MBA를 내놓으며 기술·데이터·AI를 커리큘럼 전반에 통합하는 방향으로 크게 틀었습니다. 53학점의 Global MBA는 Analytics/Technology 핵심 과목에 15개의 STEM 중심 선택 과목을 더해, 지금 비즈니스 리더에게 요구되는 기술 역량을 차근차근 길러 줍니다.
+최근 GWSB는 STEM 지정 MBA를 내놓으며 기술, 데이터, AI를 커리큘럼 전반에 통합하는 방향으로 크게 틀었습니다. 53학점의 Global MBA는 Analytics/Technology 핵심 과목에 15개의 STEM 중심 선택 과목을 더해, 지금 비즈니스 리더에게 요구되는 기술 역량을 차근차근 길러 줍니다.
 
 ### b. 캠퍼스와 도시 환경
 
@@ -66,7 +66,7 @@ GWSB MBA의 전공 분야(Concentration)는 18개 이상. 동급 프로그램 �
 -   Financial Management: 기업 재무, 투자 분석, 포트폴리오 관리를 배웁니다.
 -   Consulting 관련: Management & Leadership, Project Management 등이 컨설팅 커리어로 이어집니다.
 -   Digital Marketing & Analytics: 디지털 마케팅 전략과 데이터 기반 마케팅을 다룹니다.
--   Crisis Management: D.C.의 정부·국방·안보 산업과 맞물린 독특한 전공입니다.
+-   Crisis Management: D.C.의 정부, 국방, 안보 산업과 맞물린 독특한 전공입니다.
 -   Energy Systems Management: 에너지 정책과 비즈니스가 만나는 지점을 다룹니다.
 -   Environmental Systems Management: 환경 경영과 지속가능성 전략을 배웁니다.
 -   Sport Management: 스포츠 비즈니스 관리와 이벤트 경영을 다룹니다.
@@ -132,9 +132,9 @@ GWSB Global MBA 지원 요건을 정리하면 이렇습니다.
 
 GWSB Global MBA 합격자의 평균 GPA는 3.21입니다.
 
--   강력한 경쟁력: GPA 3.5 이상 — 장학금 확보에 유리합니다.
--   충분히 경쟁력: GPA 3.1~3.4 — 합격자 평균 범위 안입니다.
--   보완 가능: GPA 2.8~3.0 — GMAT/GRE 고득점과 탄탄한 직무 경험으로 메울 수 있습니다.
+-   강력한 경쟁력: GPA 3.5 이상. 장학금 확보에 유리합니다.
+-   충분히 경쟁력: GPA 3.1~3.4. 합격자 평균 범위 안입니다.
+-   보완 가능: GPA 2.8~3.0. GMAT/GRE 고득점과 탄탄한 직무 경험으로 메울 수 있습니다.
 
 한국 대학의 GPA는 WES 등을 통한 공식 환산을 권합니다.
 
@@ -142,19 +142,19 @@ GWSB Global MBA 합격자의 평균 GPA는 3.21입니다.
 
 GWSB는 Test-Optional이지만 Global MBA라면 점수 제출을 강력히 권장합니다. 합격자 평균 GMAT은 642(Global MBA), 평균 GRE는 V149/Q161입니다.
 
--   강력한 경쟁력: GMAT 680+ — 장학금(Merit Fellowship) 확보에 크게 유리합니다.
--   충분히 경쟁력: GMAT 630~679 — 합격자 평균 범위 안입니다.
--   보완 가능: GMAT 600~629 — 직무 경험과 에세이로 메울 수 있습니다.
+-   강력한 경쟁력: GMAT 680+. 장학금(Merit Fellowship) 확보에 크게 유리합니다.
+-   충분히 경쟁력: GMAT 630~679. 합격자 평균 범위 안입니다.
+-   보완 가능: GMAT 600~629. 직무 경험과 에세이로 메울 수 있습니다.
 
 점수를 내지 않는다면 Statement of Purpose에서 정량적 역량을 구체적으로 증명해야 합니다. 한국인 지원자는 대체로 Quantitative 섹션에서 강점을 보이는 만큼, GMAT/GRE 제출이 전략적으로 유리할 수 있습니다.
 
 ### c. 에세이 전략
 
-GWSB의 필수 에세이는 Statement of Purpose(500자) 하나입니다. 질문은 'Why do you want to pursue an MBA at the GW School of Business, and how does this program align with your career goals?'. 과거의 전문 경험과 GWSB의 학술적 기회를 이어 붙이고, 필요한 스킬·네트워크·지식을 분명히 제시하며, GWSB의 어떤 자원이 졸업 후 목표를 실현시킬지를 써야 합니다.
+GWSB의 필수 에세이는 Statement of Purpose(500자) 하나입니다. 질문은 'Why do you want to pursue an MBA at the GW School of Business, and how does this program align with your career goals?'. 과거의 전문 경험과 GWSB의 학술적 기회를 이어 붙이고, 필요한 스킬, 네트워크, 지식을 분명히 제시하며, GWSB의 어떤 자원이 졸업 후 목표를 실현시킬지를 써야 합니다.
 
 좋은 에세이의 관건은 하나입니다. D.C.라는 입지와 GWSB만의 강점을 자기 커리어 목표에 구체적으로 이어 붙이는 것. 예컨대 국제 개발에 뜻이 있다면 World Bank/IMF 접근성과 Global Management 전공을 묶고, 컨설팅을 노린다면 Consulting Abroad Program과 D.C. 기반 컨설팅 기업 네트워크를 짚으세요.
 
-한국인 지원자라면 한국에서 쌓은 직무 경험과 글로벌 시야가 47%의 국제 학생으로 이뤄진 GWSB의 다양성에 어떻게 보탬이 되는지 강조하는 게 좋습니다. 한국 기업의 미국 시장 진출, 한미 비즈니스 관계, 혹은 한국 특유의 기술·금융 경험을 D.C.의 정책·비즈니스 환경과 연결하면 인상이 남습니다.
+한국인 지원자라면 한국에서 쌓은 직무 경험과 글로벌 시야가 47%의 국제 학생으로 이뤄진 GWSB의 다양성에 어떻게 보탬이 되는지 강조하는 게 좋습니다. 한국 기업의 미국 시장 진출, 한미 비즈니스 관계, 혹은 한국 특유의 기술과 금융 경험을 D.C.의 정책과 비즈니스 환경과 연결하면 인상이 남습니다.
 
 ### d. 추천서 전략
 
@@ -195,7 +195,7 @@ D.C. 인근의 한인 커뮤니티, 특히 Virginia의 Annandale와 Centreville�
 GWSB MBA 졸업생의 취업 성과는 D.C.의 산업 구조를 그대로 닮았습니다. 졸업 시 취업률 60.3%, 3개월 이내 취업률 약 87~88%, 중위 기본급 $110,000입니다.
 
 -   Consulting: 졸업생의 22%가 이 길로 가며, Deloitte, Booz Allen Hamilton, Accenture Federal Services 같은 D.C. 기반 컨설팅 기업과의 파이프라인이 탄탄합니다.
--   Finance/Accounting: 졸업생 22%가 금융·회계로 진출합니다.
+-   Finance/Accounting: 졸업생 22%가 금융과 회계로 진출합니다.
 -   Marketing: 17%가 마케팅으로 갑니다.
 -   General Management: 17%가 종합 경영 역할에 자리 잡습니다.
 -   지역 분포: Mid-Atlantic(DC/MD/VA) 65%, South 13%, West 9%, Midwest 4%, Northeast 4%
@@ -232,7 +232,7 @@ International Student & Scholar Services(ISSS)가 비자, 문화 적응, 오리�
 
 국제 학생은 F-1 비자를 받고, CPT 인턴십과 OPT 취업이 가능합니다.
 
-**\*\*\* STEM OPT — GWSB MBA의 핵심 장점 \*\*\***
+**\*\*\* STEM OPT, GWSB MBA의 핵심 장점 \*\*\***
 
 GWSB Global MBA는 STEM 지정 프로그램입니다. 졸업 후 기본 OPT 12개월에 STEM OPT Extension 24개월을 더해 총 36개월간 미국에서 일할 수 있습니다. D.C. 지역에는 정부 계약 기업, 국제기구, 컨설팅 기업 등 H-1B 스폰서십 경험이 두터운 고용주가 밀집해 있습니다.
 
@@ -240,7 +240,7 @@ GWSB Global MBA는 STEM 지정 프로그램입니다. 졸업 후 기본 OPT 12�
 
 ## 6\. 결론
 
-George Washington University School of Business MBA는 Washington, D.C.의 독보적 입지, STEM 지정, 18개 이상의 전공 분야, 그리고 정부·국제기구·컨설팅으로 이어지는 취업 파이프라인을 하나로 묶은 프로그램입니다. 흔한 MBA와는 결이 다릅니다.
+George Washington University School of Business MBA는 Washington, D.C.의 독보적 입지, STEM 지정, 18개 이상의 전공 분야, 그리고 정부, 국제기구, 컨설팅으로 이어지는 취업 파이프라인을 하나로 묶은 프로그램입니다. 흔한 MBA와는 결이 다릅니다.
 
 합격률 약 40%, 평균 GMAT 642, Test-Optional 정책, 그리고 Hyundai Scholarship을 포함한 장학금들은 한국인 학생에게 특히 매력적인 문을 열어 줍니다. Financial Times 선정 여성 비율 세계 1위와 47%의 국제 학생 비율은 다양성과 글로벌 시야를 중시하는 학습 환경을 뒷받침합니다.
 

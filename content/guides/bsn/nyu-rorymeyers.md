@@ -87,7 +87,7 @@ BSN 자체는 generalist RN을 기르는 과정입니다. 다만 NYC라는 입�
 ### b. NCLEX 합격률과 졸업 성과
 
 -   NCLEX-RN 첫 응시 합격률: 2024년 91.71% (2022년 85.41%, 2023년 90.8%에서 이어진 상승 추세).
--   뉴욕주 평균 NCLEX 합격률: 약 88% — NYU Meyers는 이를 상회합니다.
+-   뉴욕주 평균 NCLEX 합격률: 약 88%. NYU Meyers는 이를 상회합니다.
 -   취업률: 졸업 후 6개월 내 풀타임 RN 채용률이 매우 높고, 신규 졸업 RN 평균 초임은 약 $75,000 (NYC는 더 높음).
 -   주요 채용 병원: NYU Langone Health (가장 강력한 파이프라인), Bellevue Hospital, Mount Sinai, Memorial Sloan Kettering, NewYork-Presbyterian.
 -   지역 정착: 졸업생 대다수가 NYC 대도시권에 남고, NYU 글로벌 동문 네트워크를 통한 전국 채용도 열려 있습니다.
@@ -109,7 +109,7 @@ BSN 자체는 generalist RN을 기르는 과정입니다. 다만 NYC라는 입�
 
 ## 3\. 지원 준비와 전략
 
-합격률 약 3%. 이 숫자를 전제로 전략을 짜야 합니다. 최상위권 성적과 가장 도전적인 고교 교과는 출발선일 뿐이고, 명확한 간호 동기와 NYC·NYU 글로벌 네트워크에 대한 구체적 비전이 지원서 전체를 관통해야 합니다.
+합격률 약 3%. 이 숫자를 전제로 전략을 짜야 합니다. 최상위권 성적과 가장 도전적인 고교 교과는 출발선일 뿐이고, 명확한 간호 동기와 NYC, NYU 글로벌 네트워크에 대한 구체적 비전이 지원서 전체를 관통해야 합니다.
 
 ### a. GPA 조건
 
@@ -178,7 +178,7 @@ TOEFL 100 / IELTS 7.0은 미국 명문 사립대 중에서도 엄격한 커트�
 
 ### h. 재정 지원
 
--   NYU 국제 학생 정책: need-aware admission — 재정 지원 요청이 합격 여부에 영향을 줄 수 있습니다.
+-   NYU 국제 학생 정책: need-aware admission. 재정 지원 요청이 합격 여부에 영향을 줄 수 있습니다.
 -   Merit-based 장학금: Tisch Scholarship, AnBryce Scholarship, Lewis-Roth Scholarship 등이 있으나 매우 경쟁적입니다.
 -   Need-based aid for international: 매우 제한적이며 전액을 보장하지 않습니다.
 -   Federal Direct Loans와 Pell Grant: 미국 시민이나 영주권자에 한정됩니다.
@@ -251,7 +251,7 @@ NYU Meyers 졸업생은 NYC라는 미국 최대 의료 시장은 물론 미국 �
 
 한국 학생 입장에서 이 학교의 매력은 하나의 연결 고리로 이어집니다. 맨해튼 Greenwich Village라는 미국 최고의 도시 입지와 30개 이상의 임상 사이트, 다민족 환자 인구가 글로벌 수준의 임상 경험을 만들고, NCLEX 첫 응시 합격률 91.71%가 안정적 학업 성과를 뒷받침하며, 미국 최대 신규 RN 채용 파이프라인인 NYU Langone Health Nurse Residency Program이 첫 커리어로 연결됩니다. NYC RN 평균 연봉 $100,000+의 강한 첫 보상, RN의 Schedule A EB-3 영주권 경로, NYU Langone과 Mount Sinai의 cap-exempt H-1B 가능성까지 더하면 학업-취업-정착이 한 줄로 이어지는 셈입니다. 졸업 후에는 BLS 중위 연봉 $86,070와 매년 19만 개 이상의 신규 일자리라는 안정적 노동 시장이 사립대 학비 회수와 장기 안정성을 뒷받침합니다.
 
-강점을 압축하면 이렇습니다. NYU에서 가장 경쟁적인 세 학부에 든다는 학술적 위상, 맨해튼 한복판이라는 입지와 NYU 글로벌 네트워크(Abu Dhabi, Shanghai, 12개+ 글로벌 사이트), NYU Langone·Bellevue·Mount Sinai·Memorial Sloan Kettering·NewYork-Presbyterian으로 이어지는 세계 최정상 임상 자원, 10,000 sq ft Joan K. Stout Clinical Simulation Learning Center와 simulated Epic EHR, RN의 Schedule A EB-3 영주권 경로와 NYC의 다수 cap-exempt H-1B 가능 시스템, 미국에서 가장 짧은 가속 과정 중 하나인 비간호 학사 대상 15개월 Accelerated BSN, 그리고 우수 학생을 자동으로 알아보는 LEAD Honors Program. 반대로 합격률 약 3%, 4년 약 $390,000+의 비용, need-aware 국제 학생 정책이라는 매우 높은 진입 장벽도 함께 보셔야 합니다.
+강점을 압축하면 이렇습니다. NYU에서 가장 경쟁적인 세 학부에 든다는 학술적 위상, 맨해튼 한복판이라는 입지와 NYU 글로벌 네트워크(Abu Dhabi, Shanghai, 12개+ 글로벌 사이트), NYU Langone, Bellevue, Mount Sinai, Memorial Sloan Kettering, NewYork-Presbyterian으로 이어지는 세계 최정상 임상 자원, 10,000 sq ft Joan K. Stout Clinical Simulation Learning Center와 simulated Epic EHR, RN의 Schedule A EB-3 영주권 경로와 NYC의 다수 cap-exempt H-1B 가능 시스템, 미국에서 가장 짧은 가속 과정 중 하나인 비간호 학사 대상 15개월 Accelerated BSN, 그리고 우수 학생을 자동으로 알아보는 LEAD Honors Program. 반대로 합격률 약 3%, 4년 약 $390,000+의 비용, need-aware 국제 학생 정책이라는 매우 높은 진입 장벽도 함께 보셔야 합니다.
 
 미국 최고 수준의 도시 임상 경험, 빠른 영주권 경로, 글로벌 네트워크, 그리고 NYC라는 다민족 환경에서의 caring profession. 이를 동시에 원하는 한국 학생에게 New York University Rory Meyers College of Nursing은 미국 BSN 진학의 최정상 선택지입니다. 문은 좁지만, 4년 후 RN 면허와 함께 미국 최대 의료 시장에 서는 길이 분명히 열려 있습니다. 그 출발점은 잘 준비된 지원서입니다.
 
@@ -268,7 +268,7 @@ NYU Meyers 졸업생은 NYC라는 미국 최대 의료 시장은 물론 미국 �
 
 **NYU Rory Meyers BSN 합격, 전문가의 전략이 결과를 바꾼다**
 
-New York University Rory Meyers College of Nursing 같은 최정상 BSN 프로그램은 성적만으로 뚫리지 않습니다. 합격률 약 3%라는 현실 인식, Early Decision 카드 사용 여부, need-aware 정책 아래에서의 재정 지원 신청 판단, 한국 학력의 영문 평가, NYC와 NYU 글로벌 네트워크에 정렬된 narrative 설계, 그리고 졸업 후 NCLEX와 Schedule A EB-3 영주권 경로까지 — 모든 단계가 하나의 전략으로 연결되어야 결과가 달라집니다.
+New York University Rory Meyers College of Nursing 같은 최정상 BSN 프로그램은 성적만으로 뚫리지 않습니다. 합격률 약 3%라는 현실 인식, Early Decision 카드 사용 여부, need-aware 정책 아래에서의 재정 지원 신청 판단, 한국 학력의 영문 평가, NYC와 NYU 글로벌 네트워크에 정렬된 narrative 설계, 그리고 졸업 후 NCLEX와 Schedule A EB-3 영주권 경로까지. 모든 단계가 하나의 전략으로 연결되어야 결과가 달라집니다.
 
 OneVision 컨설팅 팀은 미국 BSN 및 대학원 간호 프로그램 전문 팀으로, 학생 개개인의 강점과 한국 가정의 우선순위를 분석해 입학 전략부터 졸업 후 커리어 설계까지 1대1로 함께합니다.
 

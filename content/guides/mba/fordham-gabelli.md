@@ -20,7 +20,7 @@ enhancedDate: '2026-07-13'
 
 Gabelli MBA를 지원할 때 놓치면 아까운 지점이 몇 가지 있습니다. 우선 FinTech, Information Systems, Accounting 세 트랙이 STEM으로 지정돼 있어, 국제 학생은 졸업 후 최대 36개월까지 OPT로 미국에서 일할 수 있습니다. 여기에 Dean's Premier Scholarship은 학비 전액에 건강보험, $20,000 생활비 스티펜드까지 얹어 주는 파격적인 지원입니다. 그리고 미국 안에서 유일하게 존재하는 MBA/MSL(Master of Studies in Law) 듀얼 디그리는 컴플라이언스와 리스크 관리 전문가로 방향을 잡은 학생에게 특별한 카드가 됩니다. Wall Street와 글로벌 컨설팅 펌, 주요 기술 기업의 뉴욕 오피스가 지하철 몇 정거장 거리에 있다는 점은 두말할 필요가 없습니다.
 
-이 가이드는 Gabelli MBA를 목표로 삼은 한국 학생과 학부모를 위해 준비했습니다. 학교의 역사와 특징에서 시작해 입학 요건과 전략, 캠퍼스 생활과 취업 성과, 비용 계획까지 실제로 궁금한 순서대로 짚어 갑니다. STEM 트랙을 어떻게 고를지, Test-Optional을 어떻게 활용할지, 3분 비디오 에세이를 어떻게 준비할지, 장학금을 어떻게 최대한 끌어낼지 — 이 네 가지는 특히 자세히 다뤘습니다.
+이 가이드는 Gabelli MBA를 목표로 삼은 한국 학생과 학부모를 위해 준비했습니다. 학교의 역사와 특징에서 시작해 입학 요건과 전략, 캠퍼스 생활과 취업 성과, 비용 계획까지 실제로 궁금한 순서대로 짚어 갑니다. STEM 트랙을 어떻게 고를지, Test-Optional을 어떻게 활용할지, 3분 비디오 에세이를 어떻게 준비할지, 장학금을 어떻게 최대한 끌어낼지. 이 네 가지는 특히 자세히 다뤘습니다.
 
 ## 1\. 학교 특징
 
@@ -45,7 +45,7 @@ MBA 학생에게 뉴욕만큼 커리어가 촘촘하게 얽힌 도시는 드뭅�
 Gabelli School of Business는 학생의 상황에 맞춰 여러 형태의 MBA를 운영합니다.
 
 -   Full-Time MBA: 2년 과정의 풀타임 트랙으로, 약 60명의 소규모 코호트로 굴러갑니다. 9개 Primary Concentration과 5개 Secondary Concentration이 있고, 이 중 3개(FinTech, Information Systems, Accounting)가 STEM 지정입니다.
--   Professional (Part-Time) MBA: 직장과 병행할 수 있는 유연한 일정입니다. Rolling Admission으로 봄·가을 학기 모두 입학할 수 있습니다.
+-   Professional (Part-Time) MBA: 직장과 병행할 수 있는 유연한 일정입니다. Rolling Admission으로 봄과 가을 학기 모두 입학할 수 있습니다.
 -   Executive MBA: 경력이 풍부한 경영자를 위한 트랙으로, 입학 일정을 따로 운영합니다.
 -   JD/MBA Dual Degree: Fordham School of Law와 함께하는 프로그램으로, 약 4년에 법학 박사와 MBA를 동시에 마칩니다(따로 밟으면 5년, 즉 1년 단축).
 -   MBA/MSL Dual Degree: 미국에서 유일하게 MBA와 법학 석사(Master of Studies in Law)를 결합한 과정입니다. 52학점, 약 2년, 총 비용은 약 $105,664. 컴플라이언스와 리스크 관리 전문가를 겨냥한 흔치 않은 프로그램입니다.
@@ -137,9 +137,9 @@ Gabelli MBA 지원 시 챙겨야 할 서류는 다음과 같습니다.
 
 Gabelli MBA 합격자의 평균 GPA는 3.21~3.23입니다. 손에 닿는 수준이면서도 학업 역량을 가볍게 보지 않는다는 뜻입니다.
 
--   강력한 경쟁력: GPA 3.5 이상 — 학업 프로필이 확실히 강해지고, Dean's Premier Scholarship 같은 최상위 장학금을 노리기에 유리합니다.
--   충분히 경쟁력: GPA 3.1~3.4 — 합격자 평균 범위 안입니다. 다른 요소와 균형만 맞추면 충분합니다.
--   보완 가능: GPA 2.8~3.0 — 탄탄한 직무 경험, GMAT/GRE 고득점(제출 시), 설득력 있는 에세이로 만회할 수 있습니다. 특히 Quantitative Readiness Essay에서 정량적 역량을 보여 주는 것이 중요합니다.
+-   강력한 경쟁력: GPA 3.5 이상. 학업 프로필이 확실히 강해지고, Dean's Premier Scholarship 같은 최상위 장학금을 노리기에 유리합니다.
+-   충분히 경쟁력: GPA 3.1~3.4. 합격자 평균 범위 안입니다. 다른 요소와 균형만 맞추면 충분합니다.
+-   보완 가능: GPA 2.8~3.0. 탄탄한 직무 경험, GMAT/GRE 고득점(제출 시), 설득력 있는 에세이로 만회할 수 있습니다. 특히 Quantitative Readiness Essay에서 정량적 역량을 보여 주는 것이 중요합니다.
 
 한국 대학의 GPA는 미국 4.0 만점 체계로 환산됩니다. WES 같은 평가 기관의 공식 환산을 받아 두는 편이 안전합니다. 전공 GPA가 전체 GPA보다 높다면 그 점을 앞세우는 것도 좋은 전략입니다.
 
@@ -147,11 +147,11 @@ Gabelli MBA 합격자의 평균 GPA는 3.21~3.23입니다. 손에 닿는 수준�
 
 Gabelli MBA는 완전한 Test-Optional을 운영합니다. 합격자 평균 GMAT이 622이긴 하지만 제출 자체가 의무가 아니므로, 이 숫자는 어디까지나 참고 기준입니다.
 
--   강력한 경쟁력: GMAT 680+ — 장학금에 크게 유리하고 학업 역량을 확실히 보여 줍니다.
--   충분히 경쟁력: GMAT 620~679 — 합격자 평균 범위 안입니다.
--   보완 가능/미제출: GMAT 600 미만이거나 미제출 — Test-Optional을 살려 보충 자료로 승부합니다.
+-   강력한 경쟁력: GMAT 680+. 장학금에 크게 유리하고 학업 역량을 확실히 보여 줍니다.
+-   충분히 경쟁력: GMAT 620~679. 합격자 평균 범위 안입니다.
+-   보완 가능/미제출: GMAT 600 미만이거나 미제출. Test-Optional을 살려 보충 자료로 승부합니다.
 
-Test-Optional로 지원하면 보충 자료를 최대 5개까지 낼 수 있습니다. CFA, CPA, CMA, PMP, PHR, PE, Six Sigma 같은 전문 자격증, MCAT이나 LSAT 같은 다른 표준화 시험 점수, Coursera·edX·MBAMath·micro-masters 같은 비학위 수업 이수 증명이 여기에 해당합니다. 한국 지원자라면 CPA나 CFA Level 통과, 데이터 분석 온라인 과정 이수 같은 카드를 꺼낼 수 있습니다.
+Test-Optional로 지원하면 보충 자료를 최대 5개까지 낼 수 있습니다. CFA, CPA, CMA, PMP, PHR, PE, Six Sigma 같은 전문 자격증, MCAT이나 LSAT 같은 다른 표준화 시험 점수, Coursera, edX, MBAMath, micro-masters 같은 비학위 수업 이수 증명이 여기에 해당합니다. 한국 지원자라면 CPA나 CFA Level 통과, 데이터 분석 온라인 과정 이수 같은 카드를 꺼낼 수 있습니다.
 
 결국 GMAT/GRE 제출 여부는 전략의 문제입니다. 620 이상을 만들 수 있다면 내는 편이 장학금에 유리합니다. 반대로 점수가 기대에 못 미친다면, 미련 없이 Test-Optional로 가고 보충 자료로 실력을 증명하는 게 현명합니다.
 
@@ -173,7 +173,7 @@ Gabelli 커뮤니티에 왜 합류하려는지, 선택한 프로그램이 커리
 
 **Quantitative Readiness Essay**
 
-MBA 커리큘럼의 정량적 요구를 감당할 준비가 됐음을 증명합니다. 학부 수학·통계 과목, CFA·CPA 같은 전문 자격증, 데이터 분석 업무 경험, 온라인 과정 이수를 근거로 삼으세요. Test-Optional로 지원하는 사람에게는 이 에세이의 무게가 특히 큽니다.
+MBA 커리큘럼의 정량적 요구를 감당할 준비가 됐음을 증명합니다. 학부 수학과 통계 과목, CFA, CPA 같은 전문 자격증, 데이터 분석 업무 경험, 온라인 과정 이수를 근거로 삼으세요. Test-Optional로 지원하는 사람에게는 이 에세이의 무게가 특히 큽니다.
 
 **비디오 에세이 (3분)**
 
@@ -208,7 +208,7 @@ Gabelli MBA의 장학금은 규모 면에서 꽤 공격적입니다.
 
 약 60명이라는 규모는 그대로 분위기가 됩니다. 동기 관계가 긴밀하고 어딘가 가족적입니다. 예수회 전통의 'Cura Personalis(전인적 돌봄)' 정신은 학생 한 명 한 명을 챙기는 세심함으로 드러나고, Gabelli Launch 오리엔테이션에서 시작된 유대는 MBA 내내, 나아가 졸업 후까지 이어집니다.
 
-뉴욕이라는 도시 자체가 MBA 생활을 풍성하게 만듭니다. Lincoln Center 공연과 Central Park 산책, Broadway 무대, MoMA·Met·Whitney 같은 세계적 미술관이 일상의 배경이 됩니다. 학생 클럽과 조직도 다양하고, NYC의 비즈니스 이벤트, 게스트 스피커 세션, 기업 방문 같은 기회가 끊이지 않습니다.
+뉴욕이라는 도시 자체가 MBA 생활을 풍성하게 만듭니다. Lincoln Center 공연과 Central Park 산책, Broadway 무대, MoMA, Met, Whitney 같은 세계적 미술관이 일상의 배경이 됩니다. 학생 클럽과 조직도 다양하고, NYC의 비즈니스 이벤트, 게스트 스피커 세션, 기업 방문 같은 기회가 끊이지 않습니다.
 
 ### b. 취업 성과와 주요 채용 기업
 
@@ -223,7 +223,7 @@ STEM 지정 트랙(FinTech, Information Systems, Accounting)을 고른 국제 �
 
 Fordham University의 동문 네트워크는 뉴욕에서 특히 힘이 셉니다. 전체 동문이 200,000명을 넘고, 뉴욕의 금융과 법률, 미디어 분야에서 Fordham 출신의 영향력이 상당합니다. Georgetown, Boston College, Loyola 같은 예수회 대학 네트워크와의 연결도 든든한 네트워킹 자산입니다.
 
-MBA 코호트가 작다 보니 동기 간 유대가 유난히 강하고, 졸업 후에도 교류가 활발합니다. NYC에서 활동하는 Gabelli 동문들은 재학생 멘토링과 인턴십·취업 소개에 적극적으로 나섭니다.
+MBA 코호트가 작다 보니 동기 간 유대가 유난히 강하고, 졸업 후에도 교류가 활발합니다. NYC에서 활동하는 Gabelli 동문들은 재학생 멘토링과 인턴십과 취업 소개에 적극적으로 나섭니다.
 
 ## 5\. 학부모를 위한 안내
 
@@ -249,7 +249,7 @@ Fordham Lincoln Center 캠퍼스는 맨해튼 Upper West Side의 안전한 지�
 
 MBA에 입학하는 국제 학생은 F-1 학생 비자를 받습니다. F-1이면 캠퍼스 내 취업이 주당 20시간까지 허용되고, 여름 방학에는 CPT로 인턴십을 할 수 있습니다.
 
-**\*\*\* STEM OPT — Gabelli MBA의 핵심 장점 \*\*\***
+**\*\*\* STEM OPT, Gabelli MBA의 핵심 장점 \*\*\***
 
 Gabelli MBA에는 STEM 지정 트랙이 3개(FinTech, Information Systems, Accounting) 있습니다. 이 트랙을 고른 국제 학생은 졸업 후 기본 OPT 12개월에 STEM OPT Extension 24개월을 더해 총 36개월간 미국에서 일할 수 있습니다. 반대로 STEM이 아닌 Concentration을 고르면 기본 OPT 12개월이 전부입니다. 그러니 Concentration을 정할 때 이 차이를 반드시 계산에 넣어야 합니다.
 
@@ -261,7 +261,7 @@ Fordham University Gabelli School of Business MBA는 세 가지가 한자리에 
 
 약 60명의 소규모 코호트, 완전한 Test-Optional, 그리고 Dean's Premier Scholarship(전액 학비 + $20,000 스티펜드)까지 얹은 공격적인 장학금은 좋은 지원자에게 놓치기 아까운 기회입니다. Finance 전국 16위, International Business 12위, Marketing 14위라는 학과별 랭킹은 이 학교의 교육 수준을 숫자로 증명합니다.
 
-Barclays, Chase, Citigroup, Google, JP Morgan, Microsoft로 이어지는 취업 파이프라인, 졸업생 평균 기본급 $131,000, MBA/MSL 듀얼 디그리 같은 흔치 않은 선택지 — 이 모두가 Gabelli MBA를 학위 하나가 아니라 하나의 커리어 플랫폼으로 만듭니다. 특히 금융과 컨설팅, FinTech 분야에서 뉴욕을 무대로 커리어를 쌓고 싶은 한국 학생에게 Gabelli는 전략적으로 매우 영리한 선택입니다.
+Barclays, Chase, Citigroup, Google, JP Morgan, Microsoft로 이어지는 취업 파이프라인, 졸업생 평균 기본급 $131,000, MBA/MSL 듀얼 디그리 같은 흔치 않은 선택지. 이 모두가 Gabelli MBA를 학위 하나가 아니라 하나의 커리어 플랫폼으로 만듭니다. 특히 금융과 컨설팅, FinTech 분야에서 뉴욕을 무대로 커리어를 쌓고 싶은 한국 학생에게 Gabelli는 전략적으로 매우 영리한 선택입니다.
 
 예수회의 가치와 뉴욕의 기회가 만나는 곳, Gabelli School of Business에서 새로운 커리어의 문을 열어 보시기 바랍니다.
 

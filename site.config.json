@@ -16,11 +16,11 @@
       "shortLabel": "MBA"
     },
     "column": {
-      "label": "칼럼·후기",
+      "label": "칼럼과 후기",
       "shortLabel": "칼럼"
     },
     "visa": {
-      "label": "비자·이민",
+      "label": "비자와 이민",
       "shortLabel": "비자"
     }
   },

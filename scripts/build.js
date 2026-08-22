@@ -246,8 +246,8 @@ function buildIndexPage(config, tpl, headerHtml, footerHtml, opts) {
     ? "미국 대학 입학 전략 가이드"
     : `${config.categories[categoryKey].label} 입학 전략 가이드`;
   const description = isAll
-    ? "원비전컨설팅이 직접 리서치한 미국 대학 입학 전략 가이드 — BSN 간호대학, MBA 등 학교별 합격 전략, 비용, 비자·취업 경로까지 한눈에."
-    : `미국 ${config.categories[categoryKey].label} 프로그램 입학 전략 가이드 모음 — 학교별 합격 전략, 지원 요건, 비용, 비자·취업 경로 분석.`;
+    ? "원비전컨설팅이 직접 리서치한 미국 대학 입학 전략 가이드. BSN 간호대학, MBA 등 학교별 합격 전략, 비용, 비자와 취업 경로까지 한눈에."
+    : `미국 ${config.categories[categoryKey].label} 프로그램 입학 전략 가이드 모음. 학교별 합격 전략, 지원 요건, 비용, 비자와 취업 경로 분석.`;
 
   const jsonLd = schema.toScriptTag(schema.organization(config));
 
@@ -257,7 +257,7 @@ function buildIndexPage(config, tpl, headerHtml, footerHtml, opts) {
       pageTitle: `${heading} | 원비전컨설팅`,
       heading,
       subheading:
-        "합격 데이터, 지원 요건, 비용, 졸업 후 비자·취업 경로까지 — 원비전컨설팅 리서치팀이 학교별로 정리한 심층 가이드입니다.",
+        "합격 데이터, 지원 요건, 비용, 졸업 후 비자와 취업 경로까지, 원비전컨설팅 리서치팀이 학교별로 정리한 심층 가이드입니다.",
       description,
       canonicalUrl: url,
       siteName: config.siteName,
@@ -322,9 +322,9 @@ function buildRss(config, published) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title><![CDATA[${config.siteName} — ${config.blogNavLabel}]]></title>
+    <title><![CDATA[${config.siteName}: ${config.blogNavLabel}]]></title>
     <link>${config.baseUrl}/${config.blogPathPrefix}/index.html</link>
-    <description><![CDATA[미국 대학 입학 전략 가이드 — 원비전컨설팅]]></description>
+    <description><![CDATA[원비전컨설팅의 미국 대학 입학 전략 가이드]]></description>
     <language>ko</language>
 ${items}
   </channel>

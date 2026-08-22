@@ -8,7 +8,7 @@ universityKo: 미시간주립대학교
 schoolEn: College of Nursing
 description: >-
   Michigan State University College of Nursing BSN 완벽 가이드. 2026 U.S. News BSN 공동
-  32위, NCLEX 첫 응시 약 89.87%, 15개월 ABSN까지 한국 학생 합격·영주권 전략 총정리.
+  32위, NCLEX 첫 응시 약 89.87%, 15개월 ABSN까지 한국 학생 합격과 영주권 전략 총정리.
 status: published
 order: 49
 publishDate: '2026-07-27'
@@ -261,7 +261,7 @@ Michigan State University College of Nursing은 1855년 설립된 미국 최초�
 
 한국 학생에게 이 학교가 잘 맞는 이유는 한두 가지가 아닙니다. Big Ten 공립대학의 학비 효율과 인지도, 약 270개 임상 파트너와 360개 1대1 preceptor 매칭이 만드는 폭넓은 임상 노출, 2024년 약 89.87%와 2025년 1분기 약 92%로 안정적인 NCLEX-RN 합격률, conditional admission을 통한 upper-division 사전 확보, 한국 학사 보유자에게 최적화된 ABSN 15개월 진입로, 그리고 RN의 Schedule A EB-3 영주권 경로와 UM Health Sparrow, Michigan Medicine의 cap-exempt H-1B 조합까지. 졸업 후에는 BLS 중위 연봉 약 $86,070와 매년 19만 개 이상 쏟아지는 신규 일자리라는 든든한 시장이 학비 회수와 장기 안정성을 받쳐줍니다.
 
-핵심 강점을 한 번에 그려보면 이렇습니다. Big Ten 공립 명문 종합대의 인지도와 land-grant mission, East Lansing 본 캠퍼스를 축으로 미드 미시간·Detroit Metro·Grand Rapids까지 뻗은 약 270개 임상 파트너 네트워크, 360개 이상 1대1 preceptor 매칭이 열어주는 specialty 진로 탐색, ABSN 15개월의 빠른 진입 속도와 첫 학기 임상 시작 구조, RN의 Schedule A EB-3 영주권 경로와 Michigan Medicine·UM Health Sparrow의 cap-exempt H-1B 듀얼 트랙, Michigan의 Nurse Licensure Compact 참여로 확보되는 다주 근무 유연성, 그리고 공립대 학비 효율이 만드는 ROI 우위. 물론 그늘도 있습니다. upper-division 별도 경쟁(약 120명 선발), 비거주자 학비 부담, 미시간 겨울 기후 적응은 지원 전에 미리 각오해 두는 것이 좋습니다.
+핵심 강점을 한 번에 그려보면 이렇습니다. Big Ten 공립 명문 종합대의 인지도와 land-grant mission, East Lansing 본 캠퍼스를 축으로 미드 미시간, Detroit Metro, Grand Rapids까지 뻗은 약 270개 임상 파트너 네트워크, 360개 이상 1대1 preceptor 매칭이 열어주는 specialty 진로 탐색, ABSN 15개월의 빠른 진입 속도와 첫 학기 임상 시작 구조, RN의 Schedule A EB-3 영주권 경로와 Michigan Medicine, UM Health Sparrow의 cap-exempt H-1B 듀얼 트랙, Michigan의 Nurse Licensure Compact 참여로 확보되는 다주 근무 유연성, 그리고 공립대 학비 효율이 만드는 ROI 우위. 물론 그늘도 있습니다. upper-division 별도 경쟁(약 120명 선발), 비거주자 학비 부담, 미시간 겨울 기후 적응은 지원 전에 미리 각오해 두는 것이 좋습니다.
 
 안정적인 전문직, 빠른 영주권 경로, 대형 미시간 의료 시장으로의 직접 진입, 그리고 Big Ten 명문 공립 간호대학의 학술 위상을 한꺼번에 붙잡고 싶은 한국 학생에게, Michigan State University College of Nursing은 충분히 강력한 카드입니다. 4년 뒤(전통 BSN) 또는 1년 3개월 뒤(ABSN) RN 면허를 손에 쥐고 미시간 의료 시장에 발을 딛는 길이 이미 열려 있고, 그 출발점은 결국 잘 준비된 한 장의 지원서입니다.
 

@@ -19,7 +19,7 @@ enhancedDate: '2026-07-13'
 
 2026년 U.S. News 학부 BSN 랭킹 전국 공동 31위. 이것부터 짚고 시작하겠습니다. Marquette University College of Nursing은 위스콘신주 Milwaukee 다운타운의 명문 사립 Jesuit Catholic 간호대학이며, 1936년 문을 연 이래 위스콘신에서 가장 오래된 학사 간호 프로그램의 하나로 손꼽혀 왔습니다. CCNE(Commission on Collegiate Nursing Education) 인증을 갖췄고, 신입생이 1학년부터 곧바로 College of Nursing에 들어가는 direct admit 구조가 이 학교의 색깔을 규정합니다. Froedtert and the Medical College of Wisconsin, Children's Wisconsin, Advocate Aurora Health 같은 Milwaukee 의료 시장의 핵심 시스템과 임상을 함께하고, BSN 첫 응시 NCLEX-RN 합격률이 약 93.9%에 이르는 졸업 성과가 미국 중서부 명문 BSN이라는 평판을 뒷받침합니다.
 
-한국 학생과 가정이 이 학교를 눈여겨보는 이유는 분명합니다. direct admit 구조 덕에 입학 첫 학기부터 nursing 코어 과목과 임상 트랙이 열려, 4년 안에 BSN과 NCLEX-RN 응시 자격을 흔들림 없이 확보합니다. Milwaukee에서 Chicago 권역까지 뻗은 100개 이상의 임상 사이트는 그대로 졸업 후 채용 네트워크가 됩니다. 보상도 탄탄합니다. BLS 2024 기준 미국 RN 중위 연봉이 약 $86,070, 위스콘신 RN 평균은 약 $80,000~$90,000 수준입니다. 무엇보다 RN은 미국 노동부 Schedule A 직종이라 PERM 노동인증이 면제되어 EB-3 영주권을 병원이 직접 후원할 수 있고, 한국 출생자는 인도·중국 대비 EB-3 대기가 짧다는 구조적 이점까지 얹힙니다.
+한국 학생과 가정이 이 학교를 눈여겨보는 이유는 분명합니다. direct admit 구조 덕에 입학 첫 학기부터 nursing 코어 과목과 임상 트랙이 열려, 4년 안에 BSN과 NCLEX-RN 응시 자격을 흔들림 없이 확보합니다. Milwaukee에서 Chicago 권역까지 뻗은 100개 이상의 임상 사이트는 그대로 졸업 후 채용 네트워크가 됩니다. 보상도 탄탄합니다. BLS 2024 기준 미국 RN 중위 연봉이 약 $86,070, 위스콘신 RN 평균은 약 $80,000~$90,000 수준입니다. 무엇보다 RN은 미국 노동부 Schedule A 직종이라 PERM 노동인증이 면제되어 EB-3 영주권을 병원이 직접 후원할 수 있고, 한국 출생자는 인도와 중국 대비 EB-3 대기가 짧다는 구조적 이점까지 얹힙니다.
 
 ## 1\. 학교 특징
 
@@ -123,7 +123,7 @@ Marquette BSN direct admit 합격에는 안정적인 학업 성적, 탄탄한 �
 -   보완 가능: GPA 3.3+ 수준에서도 강력한 healthcare 경험과 service narrative로 보완 시도 가능.
 -   Direct Entry MSN과 ABSN 지원자: cumulative GPA 3.0 이상이 권장 기준이며 선수과목 GPA 3.0+가 핵심.
 
-holistic admission이라 GPA 하나로 결판나지는 않습니다. 다만 BSN direct admit 자리 경쟁이 일반 학부보다 빡빡하니, GPA 3.5+를 겨냥해 두는 편이 안전합니다. 한국 고교생이라면 내신을 미국 4.0 스케일로 환산한 값만이 아니라 생물·화학 같은 과학 과목 성적을 따로 부각하는 것이 관건입니다.
+holistic admission이라 GPA 하나로 결판나지는 않습니다. 다만 BSN direct admit 자리 경쟁이 일반 학부보다 빡빡하니, GPA 3.5+를 겨냥해 두는 편이 안전합니다. 한국 고교생이라면 내신을 미국 4.0 스케일로 환산한 값만이 아니라 생물과 화학 같은 과학 과목 성적을 따로 부각하는 것이 관건입니다.
 
 ### b. 표준화 시험 (SAT/ACT) 조건
 
@@ -132,7 +132,7 @@ holistic admission이라 GPA 하나로 결판나지는 않습니다. 다만 BSN 
 -   Test-optional이지만 강한 점수는 합격 경쟁력 향상에 도움이 됩니다. SAT 1300+ 또는 ACT 28+ 권장.
 -   ABSN과 Direct Entry MSN: 일반적으로 SAT/ACT를 요구하지 않습니다 (선수과목 GPA와 학사 GPA 중심 평가).
 
-test-optional 정책은 한국 학생에게 우호적인 환경입니다. SAT 1300+ 또는 ACT 28+가 나오는 학생은 제출이 플러스가 되고, 점수가 여의치 않은 학생은 GPA·추천서·에세이만으로도 승부를 볼 수 있습니다. 한국 학생은 영어 점수(TOEFL/IELTS)를 따로 평가받으니, SAT 영어 영역과 토플을 묶어서 균형을 맞추는 전략이 잘 통합니다.
+test-optional 정책은 한국 학생에게 우호적인 환경입니다. SAT 1300+ 또는 ACT 28+가 나오는 학생은 제출이 플러스가 되고, 점수가 여의치 않은 학생은 GPA, 추천서, 에세이만으로도 승부를 볼 수 있습니다. 한국 학생은 영어 점수(TOEFL/IELTS)를 따로 평가받으니, SAT 영어 영역과 토플을 묶어서 균형을 맞추는 전략이 잘 통합니다.
 
 ### c. 선수과목 (Prerequisites)
 
@@ -259,9 +259,9 @@ Marquette BSN 졸업생은 Milwaukee 권역 대형 병원부터 위스콘신 전
 
 Marquette University College of Nursing은 1936년에 시작해 위스콘신에서 가장 긴 역사를 이어온 명문 사립 Jesuit Catholic 간호대학입니다. Milwaukee 다운타운 캠퍼스에서 운영되고, 2026년 U.S. News 학부 BSN 랭킹 전국 공동 31위에 이름을 올렸습니다. CCNE 인증 BSN 프로그램은 전통 4년제 direct admit BSN, ABSN, RN-to-BSN, Direct Entry MSN까지 진입로를 폭넓게 열어 두고, Froedtert and the Medical College of Wisconsin, Children's Wisconsin, Advocate Aurora Health, Ascension Wisconsin을 임상 파트너로 삼습니다.
 
-한국 학생에게 이 학교가 특히 맞는 이유는 여러 갈래가 하나로 모이기 때문입니다. 1학년부터 College of Nursing에 직접 들어가는 direct admit 구조가 nursing 자리와 4년 안의 졸업을 보장하는 안정성, Milwaukee에서 Chicago 권역까지 이어지는 100개 이상의 임상 사이트, BSN·ABSN 모두 약 93.9%에 이르는 NCLEX-RN 첫 응시 합격률, Jesuit cura personalis에 뿌리를 둔 전인 간호 교육, 그리고 RN의 Schedule A EB-3 영주권 경로와 Froedtert의 cap-exempt H-1B 가능성이 맞물립니다. 졸업 후에는 BLS 중위 연봉 $86,070와 매년 19만 개 이상의 신규 일자리라는 탄탄한 노동 시장이 학비 회수와 장기 안정성을 떠받칩니다.
+한국 학생에게 이 학교가 특히 맞는 이유는 여러 갈래가 하나로 모이기 때문입니다. 1학년부터 College of Nursing에 직접 들어가는 direct admit 구조가 nursing 자리와 4년 안의 졸업을 보장하는 안정성, Milwaukee에서 Chicago 권역까지 이어지는 100개 이상의 임상 사이트, BSN, ABSN 모두 약 93.9%에 이르는 NCLEX-RN 첫 응시 합격률, Jesuit cura personalis에 뿌리를 둔 전인 간호 교육, 그리고 RN의 Schedule A EB-3 영주권 경로와 Froedtert의 cap-exempt H-1B 가능성이 맞물립니다. 졸업 후에는 BLS 중위 연봉 $86,070와 매년 19만 개 이상의 신규 일자리라는 탄탄한 노동 시장이 학비 회수와 장기 안정성을 떠받칩니다.
 
-강점을 짚어 보면 이렇습니다. 1936년 이래 90년 가까운 역사와 위스콘신 최고 사립 Jesuit Catholic 간호대학이라는 위상, Milwaukee 다운타운 입지가 안기는 중서부 핵심 의료 시장 직접 노출, 1학년 direct admit과 4년 안의 모든 nursing 과목·임상 시간 보장, Froedtert Scholars 프로그램과 Children's Wisconsin·Advocate Aurora·Ascension Wisconsin 등 40개 이상 헬스케어 조직과의 임상 파트너십, BSN·ABSN 모두 약 93.9%의 NCLEX 첫 응시 합격률, RN의 Schedule A EB-3 영주권 경로와 학술의료시스템의 cap-exempt H-1B 듀얼 트랙, 그리고 Jesuit cura personalis와 social justice가 녹아든 전인 간호 교육. 반대로 사립대 학비 부담, BSN 자리 경쟁의 강도, Jesuit Catholic mission과의 fit을 설득력 있게 풀어내야 한다는 숙제는 미리 각오해 두어야 할 대목입니다.
+강점을 짚어 보면 이렇습니다. 1936년 이래 90년 가까운 역사와 위스콘신 최고 사립 Jesuit Catholic 간호대학이라는 위상, Milwaukee 다운타운 입지가 안기는 중서부 핵심 의료 시장 직접 노출, 1학년 direct admit과 4년 안의 모든 nursing 과목과 임상 시간 보장, Froedtert Scholars 프로그램과 Children's Wisconsin, Advocate Aurora, Ascension Wisconsin 등 40개 이상 헬스케어 조직과의 임상 파트너십, BSN, ABSN 모두 약 93.9%의 NCLEX 첫 응시 합격률, RN의 Schedule A EB-3 영주권 경로와 학술의료시스템의 cap-exempt H-1B 듀얼 트랙, 그리고 Jesuit cura personalis와 social justice가 녹아든 전인 간호 교육. 반대로 사립대 학비 부담, BSN 자리 경쟁의 강도, Jesuit Catholic mission과의 fit을 설득력 있게 풀어내야 한다는 숙제는 미리 각오해 두어야 할 대목입니다.
 
 미국에서 안정적인 전문직과 빠른 영주권 경로, 중서부 핵심 의료 시장으로의 직접 진입, 그리고 명문 사립 Jesuit Catholic 간호대학의 학술 위상을 한꺼번에 노리는 한국 학생에게, Marquette University College of Nursing은 미국 BSN 진학의 유력한 선택지입니다. 4년 뒤 RN 면허를 손에 쥐고 Milwaukee와 Chicago를 아우르는 중서부 의료 시장으로 걸어 들어가는 길은 분명히 열려 있습니다. 그 첫 단추는 결국 잘 준비된 지원서입니다.
 

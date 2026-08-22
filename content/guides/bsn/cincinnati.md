@@ -46,7 +46,7 @@ UC College of Nursing은 학생의 학력 배경에 따라 진입 경로를 나�
 
 ### b. 간호 전공 트랙
 
-BSN 단계는 generalist RN 양성에 집중합니다. UC Health, Cincinnati Children's Hospital, Cincinnati VA 세 학술 의료센터의 Dedicated Education Units(DEU)를 활용해 미국에서 가장 강력한 소아·성인 임상 노출을 만들어 냅니다.
+BSN 단계는 generalist RN 양성에 집중합니다. UC Health, Cincinnati Children's Hospital, Cincinnati VA 세 학술 의료센터의 Dedicated Education Units(DEU)를 활용해 미국에서 가장 강력한 소아와 성인 임상 노출을 만들어 냅니다.
 
 -   성인 의료-외과 (Adult Med-Surg): University of Cincinnati Medical Center 각 unit, West Chester Hospital.
 -   중환자 간호 (Critical Care): UC Medical Center Adult ICU, Cardiac ICU, Neuro ICU.
@@ -298,7 +298,7 @@ Schedule A는 RN이 손에 쥔 가장 강력한 이민 카드입니다. 한국 �
 
 ## 5\. 결론
 
-The University of Cincinnati College of Nursing은 미국에서 가장 오래된 공립대학 중 하나가 운영하는 CCNE 인증 BSN 프로그램입니다. freshman direct admit 구조로 신입생 단계에서 nursing major에 직접 합격한 학생에게 4년 내 BSN 완성을 보장합니다. U.S. News 2026 학부 BSN 랭킹 전국 공동 40위, 최근 첫 응시 NCLEX-RN 합격률 94.74%로 Ohio 주 평균과 국가 평균을 웃돌며, UC Health·Cincinnati Children's Hospital·Cincinnati VA 세 학술 의료센터 파트너십과 Dedicated Education Units(DEU) 임상 모델이 학교를 확실히 차별화합니다.
+The University of Cincinnati College of Nursing은 미국에서 가장 오래된 공립대학 중 하나가 운영하는 CCNE 인증 BSN 프로그램입니다. freshman direct admit 구조로 신입생 단계에서 nursing major에 직접 합격한 학생에게 4년 내 BSN 완성을 보장합니다. U.S. News 2026 학부 BSN 랭킹 전국 공동 40위, 최근 첫 응시 NCLEX-RN 합격률 94.74%로 Ohio 주 평균과 국가 평균을 웃돌며, UC Health, Cincinnati Children's Hospital, Cincinnati VA 세 학술 의료센터 파트너십과 Dedicated Education Units(DEU) 임상 모델이 학교를 확실히 차별화합니다.
 
 한국 학생과 가정에게 UC BSN이 특히 매력적인 지점을 세 가지로 짚어 봅니다. 합격 경로가 단순합니다. freshman direct admit이 확정되면 첫해 GPA 3.0 유지만으로 clinical portion 진입이 자동 보장돼, 한국 가정이 선호하는 단일 합격 구조가 그대로 성립합니다. 임상 노출이 압도적입니다. Cincinnati Children's Hospital Medical Center는 U.S. News top 3 소아병원으로, UC BSN 학생에게 미국 최고 수준의 소아 임상 경험을 안기고 이는 훗날 소아 specialty 커리어의 자산으로 남습니다. 마지막으로 재정 예측이 쉽습니다. tuition rate guarantee(4년 학비 동결)가 국제 학생 가정의 재정 계획을 든든하게 받쳐 줍니다.
 

@@ -26,7 +26,7 @@ Harvard 다음으로 오래된 대학, 그리고 Thomas Jefferson과 James Monro
 
 ### a. 학교 소개와 역사
 
-College of William & Mary는 1693년 영국 국왕 William III와 여왕 Mary II가 내린 왕립 칙허장(Royal Charter)을 근거로 세워졌습니다. Harvard에 이어 미국에서 두 번째로 오래된 대학이고, 위치는 Virginia 주 Williamsburg입니다. 이 캠퍼스가 배출한 미국 대통령만 세 명 — Thomas Jefferson(제3대), James Monroe(제5대), John Tyler(제10대)입니다. 현재 약 9,500명이 재학하는 중규모 공립대이면서도 Public Ivy로 꼽힌다는 사실이, 이 학교의 위상을 잘 말해 줍니다.
+College of William & Mary는 1693년 영국 국왕 William III와 여왕 Mary II가 내린 왕립 칙허장(Royal Charter)을 근거로 세워졌습니다. Harvard에 이어 미국에서 두 번째로 오래된 대학이고, 위치는 Virginia 주 Williamsburg입니다. 이 캠퍼스가 배출한 미국 대통령만 세 명. Thomas Jefferson(제3대), James Monroe(제5대), John Tyler(제10대)입니다. 현재 약 9,500명이 재학하는 중규모 공립대이면서도 Public Ivy로 꼽힌다는 사실이, 이 학교의 위상을 잘 말해 줍니다.
 
 그 울타리 안의 비즈니스 스쿨이 Raymond A. Mason School of Business입니다. AACSB International 인증을 받았고, 학교 이름은 Raymond A. Mason(Legg Mason 설립자)의 기부에서 비롯했습니다. U.S. News & World Report 풀타임 MBA 랭킹에서 꾸준히 상위권을 지켜 왔으며, 소규모 코호트의 밀착 교육과 끈끈한 동문 네트워크, 그리고 Washington D.C.와 가깝다는 입지가 Mason School의 저력입니다.
 
@@ -98,10 +98,10 @@ Mason School MBA는 라운드제로 지원자를 받습니다.
 
 **2025-2026 입학 기준 (예상):**
 
--   Round 1: October 15 — 장학금 확보에 가장 유리한 라운드입니다.
--   Round 2: January 5 — 지원자가 가장 몰리는 핵심 라운드입니다.
--   Round 3: March 15 — 잔여 좌석 대상이며, 국제 학생은 비자 처리 시간을 감안해야 합니다.
--   Round 4: April 15 — 마지막 라운드로, 남은 장학금과 좌석이 빠듯합니다.
+-   Round 1: October 15. 장학금 확보에 가장 유리한 라운드입니다.
+-   Round 2: January 5. 지원자가 가장 몰리는 핵심 라운드입니다.
+-   Round 3: March 15. 잔여 좌석 대상이며, 국제 학생은 비자 처리 시간을 감안해야 합니다.
+-   Round 4: April 15. 마지막 라운드로, 남은 장학금과 좌석이 빠듯합니다.
 
 국제 학생이라면 Round 1이나 Round 2 안에 승부를 보길 권합니다. 일찍 낼수록 장학금과 비자, 두 마리 토끼를 함께 잡기 쉽습니다.
 
@@ -124,9 +124,9 @@ Mason School MBA에 원서를 넣으려면 아래 서류를 준비해야 합니�
 
 합격자 평균 GPA는 3.2~3.3에 형성돼 있습니다.
 
--   강력한 경쟁력: GPA 3.5 이상 — 장학금에 매우 유리하고, Mason Scholars Program 후보로도 검토됩니다.
--   충분히 경쟁력: GPA 3.2~3.4 — 합격자 평균대에 들어갑니다.
--   보완 가능: GPA 2.9~3.1 — GMAT 고득점과 4년+의 탄탄한 경력으로 메울 수 있습니다.
+-   강력한 경쟁력: GPA 3.5 이상. 장학금에 매우 유리하고, Mason Scholars Program 후보로도 검토됩니다.
+-   충분히 경쟁력: GPA 3.2~3.4. 합격자 평균대에 들어갑니다.
+-   보완 가능: GPA 2.9~3.1. GMAT 고득점과 4년+의 탄탄한 경력으로 메울 수 있습니다.
 
 한국 대학의 GPA는 WES 같은 기관을 통해 공식 환산해 두는 편이 안전합니다.
 
@@ -134,9 +134,9 @@ Mason School MBA에 원서를 넣으려면 아래 서류를 준비해야 합니�
 
 합격자 평균 GMAT은 620~629이며, GRE도 같은 무게로 받아들여집니다.
 
--   강력한 경쟁력: GMAT 680+ — 장학금에 크게 유리합니다. GRE Merit Scholarship을 노린다면 여기서도 고득점이 관건입니다.
--   충분히 경쟁력: GMAT 620~679 — 합격자 평균대입니다.
--   보완 가능: GMAT 580~619 — GPA 3.5+와 강한 경력으로 만회할 수 있습니다.
+-   강력한 경쟁력: GMAT 680+. 장학금에 크게 유리합니다. GRE Merit Scholarship을 노린다면 여기서도 고득점이 관건입니다.
+-   충분히 경쟁력: GMAT 620~679. 합격자 평균대입니다.
+-   보완 가능: GMAT 580~619. GPA 3.5+와 강한 경력으로 만회할 수 있습니다.
 
 Mason School은 GMAT과 GRE에 우열을 두지 않으니, 자신이 더 잘 나오는 시험을 고르면 됩니다. 한국인 지원자는 대체로 Quantitative에서 앞서는 편이라, 아낀 시간을 Verbal에 몰아주는 편이 전략적입니다.
 
@@ -152,7 +152,7 @@ Mason School MBA 에세이는 커리어 목표와 학교 선택 이유, 프로�
 
 Mason School MBA는 추천서 2통을 받습니다. 직속 상사든 교수든, 지원자의 실무 역량과 리더십 잠재력, 팀워크를 구체적 사례로 증언해 줄 사람을 골라야 합니다.
 
-한 통은 직속 상사(또는 가장 최근 상사), 다른 한 통은 프로젝트 리더나 타 부서 상사, 혹은 교수가 이상적입니다. 추천인에게는 Mason School이 중시하는 가치 — 리더십, 협업, 데이터 기반 의사결정 — 를 미리 귀띔하고, 그에 맞는 사례를 넣어 달라고 부탁해 두세요.
+한 통은 직속 상사(또는 가장 최근 상사), 다른 한 통은 프로젝트 리더나 타 부서 상사, 혹은 교수가 이상적입니다. 추천인에게는 Mason School이 중시하는 가치(리더십, 협업, 데이터 기반 의사결정)를 미리 귀띔하고, 그에 맞는 사례를 넣어 달라고 부탁해 두세요.
 
 ### e. 캠퍼스 방문과 인터뷰
 
@@ -167,7 +167,7 @@ Mason School의 장학금은 종류가 여럿인데, 대부분 Merit-Based라 �
 -   Mason Scholars Program: 학교 최고 등급의 장학금으로, 학업 성과와 리더십, 프로그램 기여 잠재력을 보고 선발합니다. 학비의 상당 부분을 덜어 줍니다.
 -   GRE Merit Scholarship: GRE 점수를 근거로, 높은 성적을 낸 지원자에게 돌아갑니다.
 -   Dean's Scholarship: 학업과 리더십이 두드러진 지원자에게 수여됩니다.
--   Graduate Assistantship: 일부 학생에게 수업료 감면과 연구·교육 보조 기회를 함께 줍니다.
+-   Graduate Assistantship: 일부 학생에게 수업료 감면과 연구와 교육 보조 기회를 함께 줍니다.
 
 장학금을 노린다면 Round 1 지원이 가장 유리합니다. GMAT/GRE 고득점과 높은 GPA, 그리고 설득력 있는 에세이가 결정을 좌우합니다. 한국 학생이라면 한국장학재단이나 풀브라이트, KFAS 같은 외부 장학금도 함께 두드려 보시길 권합니다.
 
@@ -188,7 +188,7 @@ Williamsburg 특유의 안전하고 고즈넉한 분위기는 공부에 몰입�
 -   Consulting: Deloitte, Booz Allen Hamilton, Accenture 등 D.C. 기반 컨설팅 펌이 주요 채용처입니다.
 -   Financial Services: Capital One(Richmond 본사)과 Bank of America, Wells Fargo가 졸업생을 데려갑니다.
 -   Technology: Amazon, Microsoft, Dell Technologies 같은 기술 기업의 MBA 트랙으로 진출합니다.
--   Defense/Government: D.C.가 가깝다는 이점을 살린 방위산업·정부 기관 취업이 강점입니다.
+-   Defense/Government: D.C.가 가깝다는 이점을 살린 방위산업과 정부 기관 취업이 강점입니다.
 
 Graduate Career Management Center(GCMC)가 커리어 코칭과 인터뷰 준비, 기업 네트워킹 행사를 촘촘하게 받쳐 줍니다. 여기에 Executive Partners Program의 1:1 멘토링이 취업 전략과 인맥 확장을 직접 거들고, STEM Concentration을 고르면 최대 36개월 OPT가 열려 국제 학생의 미국 취업 문이 크게 넓어집니다.
 
@@ -204,7 +204,7 @@ Mason School 출신들은 컨설팅과 금융, 기술 분야에서 특히 활발
 
 Mason School MBA 학비는 Out-of-State 기준 연 약 $49,471입니다. 2년이면 학비만 약 $98,942, 한화로 약 1억 2,800만 원 수준입니다.
 
-생활비까지 얹으면 Out-of-State 2년 총액은 이렇게 잡힙니다. 학비 $98,942, 렌트(월 $1,000 x 24개월) $24,000, 식비·기타 $20,000~$24,000, 건강보험 $5,000~$8,000, 교재 $4,000~$5,000을 합쳐 약 $151,942~$159,942(한화 약 1억 9,700만~2억 800만 원)입니다. Mason Scholars Program이나 GRE Merit Scholarship 등을 받으면 실제 부담은 이보다 한결 가벼워집니다.
+생활비까지 얹으면 Out-of-State 2년 총액은 이렇게 잡힙니다. 학비 $98,942, 렌트(월 $1,000 x 24개월) $24,000, 식비와 기타 $20,000~$24,000, 건강보험 $5,000~$8,000, 교재 $4,000~$5,000을 합쳐 약 $151,942~$159,942(한화 약 1억 9,700만~2억 800만 원)입니다. Mason Scholars Program이나 GRE Merit Scholarship 등을 받으면 실제 부담은 이보다 한결 가벼워집니다.
 
 ### b. 캠퍼스 안전과 생활 환경
 
@@ -228,7 +228,7 @@ STEM OPT는 한국인 MBA 졸업생이 H-1B 스폰서십을 확보하기까지 �
 
 College of William & Mary의 Raymond A. Mason School of Business MBA는, 미국에서 두 번째로 오래된 대학의 전통과 현대적 비즈니스 교육의 혁신이 한자리에서 만나는 프로그램입니다.
 
-약 110명의 소수 코호트, STEM으로 지정된 3개 Concentration(Business Analytics, Finance, Supply Chain Management), Sprint Week 체험 학습, Executive Partners Program의 1:1 경영진 멘토링, 그리고 Washington D.C.와의 근접성 — 이 조합이 Mason School MBA만의 색깔을 만듭니다.
+약 110명의 소수 코호트, STEM으로 지정된 3개 Concentration(Business Analytics, Finance, Supply Chain Management), Sprint Week 체험 학습, Executive Partners Program의 1:1 경영진 멘토링, 그리고 Washington D.C.와의 근접성. 이 조합이 Mason School MBA만의 색깔을 만듭니다.
 
 Out-of-State 학비 연 약 $49,471, 졸업 3개월 내 취업률 91.2%, 평균 기본급 $80,942, 그리고 STEM OPT로 확보하는 최대 36개월의 미국 취업 시간은 국제 학생에게 손에 잡히는 가치입니다. 여기에 Mason Scholars Program과 GRE Merit Scholarship이 우수 지원자의 재정 부담을 크게 덜어 줍니다.
 

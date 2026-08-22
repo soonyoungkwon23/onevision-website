@@ -24,7 +24,7 @@ enhancedDate: '2026-07-13'
 
 ## 1\. 학교 특징
 
-UNC School of Nursing은 1950년에 문을 열어 70년 넘게 미국 동남부 간호 교육의 중심에 있었습니다. 캠퍼스가 있는 Chapel Hill은 Duke University의 Durham, NC State의 Raleigh와 삼각형을 이루며 Research Triangle을 형성하는데, 이 권역은 미국 동남부 최대의 학문·의료 클러스터입니다.
+UNC School of Nursing은 1950년에 문을 열어 70년 넘게 미국 동남부 간호 교육의 중심에 있었습니다. 캠퍼스가 있는 Chapel Hill은 Duke University의 Durham, NC State의 Raleigh와 삼각형을 이루며 Research Triangle을 형성하는데, 이 권역은 미국 동남부 최대의 학문과 의료 클러스터입니다.
 
 다른 학교와 결정적으로 갈리는 지점은 UNC Health 시스템과의 직접 통합입니다. 메인 캠퍼스의 UNC Hospitals 안에는 UNC Medical Center, UNC Children's Hospital, UNC Cancer Hospital, UNC Neurosciences Hospital, UNC Women's Hospital이 나란히 들어서 있습니다. 여기에 UNC Rex Hospital(Raleigh), UNC Lenoir, UNC Caldwell을 비롯한 노스캐롤라이나 전역 12개 병원이 UNC Health 시스템으로 묶여 있어, BSN 학생은 한 곳에 머무르지 않고 서로 다른 환경을 오가며 임상을 경험합니다.
 
@@ -137,7 +137,7 @@ UNC BSN 지원의 승부처는 균형입니다. 학업 성적, 선수과목 이�
 
 ### c. 선수과목 (Prerequisites)
 
-UNC BSN은 5개의 과학·통계·심리 선수과목을 요구하고, 전부 lab을 포함해 letter grade로 이수해야 합니다. 타이밍이 관건입니다. Anatomy and Physiology I은 application deadline 시점까지 반드시 끝내야 하고, Microbiology와 통계는 입학 전까지 마무리하면 됩니다.
+UNC BSN은 5개의 과학, 통계, 심리 선수과목을 요구하고, 전부 lab을 포함해 letter grade로 이수해야 합니다. 타이밍이 관건입니다. Anatomy and Physiology I은 application deadline 시점까지 반드시 끝내야 하고, Microbiology와 통계는 입학 전까지 마무리하면 됩니다.
 
 -   BIOL 252/252L (Human Anatomy and Physiology I, lab 포함): 5년 이내 이수, application deadline 시점까지 완료 필수.
 -   BIOL 253/253L (Human Anatomy and Physiology II, lab 포함): 5년 이내 이수, application deadline 시점까지 완료 필수.
@@ -146,7 +146,7 @@ UNC BSN은 5개의 과학·통계·심리 선수과목을 요구하고, 전부 l
 -   STOR 151, 155, 또는 120 (Statistics): 10년 이내 이수.
 -   Application deadline 시점까지 최소 3개 선수과목 완료 필수, A&P I은 무조건 완료.
 
-한국 대학에서 들은 과목은 그대로 인정되지 않습니다. WES나 ECE를 통한 정식 학점 평가가 필수이고, BIOL/MCRO처럼 lab이 붙는 과목은 과목명이 달라도 syllabus를 제출하면 동등 인정을 받을 수 있습니다. 일반생물학에 해부학 일부만 얹힌 식으로 한국에서 통합 과목을 들었다면, 미국 community college에서 lab 포함 과목을 따로 보충하는 편이 안전합니다. 5년·10년 recency rule이 까다롭게 적용되므로, 한국 학사 졸업 후 시간이 꽤 지난 학생은 재이수 계획을 반드시 세워 두어야 합니다.
+한국 대학에서 들은 과목은 그대로 인정되지 않습니다. WES나 ECE를 통한 정식 학점 평가가 필수이고, BIOL/MCRO처럼 lab이 붙는 과목은 과목명이 달라도 syllabus를 제출하면 동등 인정을 받을 수 있습니다. 일반생물학에 해부학 일부만 얹힌 식으로 한국에서 통합 과목을 들었다면, 미국 community college에서 lab 포함 과목을 따로 보충하는 편이 안전합니다. 5년, 10년 recency rule이 까다롭게 적용되므로, 한국 학사 졸업 후 시간이 꽤 지난 학생은 재이수 계획을 반드시 세워 두어야 합니다.
 
 ### d. 영어 요건 (TOEFL/IELTS)
 
@@ -263,7 +263,7 @@ UNC 졸업생은 자교 시스템은 물론 동남부 전역의 대형 병원에
 
 University of North Carolina at Chapel Hill School of Nursing은 1950년에 세워진 미국 동남부의 대표적 공립 간호 학교로, 2026년 U.S. News 학부 BSN 공동 4위에 이름을 올렸습니다. CCNE 인증 BSN 프로그램은 5학기 Traditional BSN(first degree applicants)과 4학기 Accelerated BSN(학사 학위 보유자)에서 시작해 Master's Entry to Nursing(MEN), MSN/DNP/PhD까지 graduate 트랙으로 이어지고, UNC Health 시스템 12개 병원이 임상 실습 자원이 되어 줍니다.
 
-한국 학생에게 이 학교가 특히 잘 맞는 이유는 결국 몇 가지 지렛대로 압축됩니다. 학사 학위 보유자를 위한 14개월 ABSN 가속 트랙의 시간·비용 효율, 공립대 등록금이라는 가격 우위(out-of-state 4년 약 $230,000~$245,000), NCLEX 첫 응시 합격률 96~98%라는 검증된 성과, 그리고 UNC Health·Duke Health·WakeMed로 대표되는 Research Triangle의 임상 자원입니다. 졸업 이후에는 UNC Medical Center cap-exempt H-1B와 RN의 Schedule A EB-3 영주권 경로가 겹쳐지고, BLS 중위 연봉 $86,070와 매년 19만 개 이상의 신규 일자리라는 노동 시장이 학비 회수와 장기 안정성을 함께 떠받칩니다.
+한국 학생에게 이 학교가 특히 잘 맞는 이유는 결국 몇 가지 지렛대로 압축됩니다. 학사 학위 보유자를 위한 14개월 ABSN 가속 트랙의 시간과 비용 효율, 공립대 등록금이라는 가격 우위(out-of-state 4년 약 $230,000~$245,000), NCLEX 첫 응시 합격률 96~98%라는 검증된 성과, 그리고 UNC Health, Duke Health, WakeMed로 대표되는 Research Triangle의 임상 자원입니다. 졸업 이후에는 UNC Medical Center cap-exempt H-1B와 RN의 Schedule A EB-3 영주권 경로가 겹쳐지고, BLS 중위 연봉 $86,070와 매년 19만 개 이상의 신규 일자리라는 노동 시장이 학비 회수와 장기 안정성을 함께 떠받칩니다.
 
 정리하자면 UNC BSN의 강점은 이렇게 요약됩니다. NCLEX 첫 응시 합격률 2024년 98%, 3년 평균 96%라는 미국 최상위급 성과. 5학기 Traditional BSN과 14개월 ABSN으로 갈리는 명확한 진입 경로. UNC Lineberger Cancer Center, UNC Children's, UNC Neurosciences로 대표되는 specialty 임상의 다양성. 공립대 등록금이라는 가격 우위. RN의 Schedule A EB-3 영주권 경로와 UNC Medical Center cap-exempt H-1B의 듀얼 트랙. 노스캐롤라이나 NLC 면허로 39개 주에서 근무할 수 있는 이동성. 그리고 Research Triangle 지역의 합리적 생활비와 활발한 의료 시장까지.
 

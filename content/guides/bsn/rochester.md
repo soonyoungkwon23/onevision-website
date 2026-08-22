@@ -70,7 +70,7 @@ University of Rochester는 사립대라 in-state, out-of-state 구분 없이 학
 -   UR Nursing Scholars Program: 자격 조건 충족 시 학비 지원 + URMC 3년 근무 약정 옵션.
 -   Career Pathways Training Program: 일부 학생에게 학비 보조와 진로 지원 제공.
 
-Rochester ABSN의 ROI는 BSN 프로그램 중에서도 높은 축에 듭니다. 12개월이라는 압축된 기간, URMC Strong Memorial Hospital magnet 학술의료시스템의 임상·채용 연계, BLS 중위 RN 연봉 약 $86,070, 여기에 RN의 Schedule A EB-3 영주권 경로까지 겹쳐 보면, 약 $90,000~$110,000의 1년 투자로 미국 전문직 면허와 영주권 경로를 동시에 손에 쥐는 셈입니다. 물론 학습 강도가 높은 만큼, 사전 자금 계획과 학업에 집중할 수 있는 가족 지원 체계는 협상 불가의 전제입니다.
+Rochester ABSN의 ROI는 BSN 프로그램 중에서도 높은 축에 듭니다. 12개월이라는 압축된 기간, URMC Strong Memorial Hospital magnet 학술의료시스템의 임상과 채용 연계, BLS 중위 RN 연봉 약 $86,070, 여기에 RN의 Schedule A EB-3 영주권 경로까지 겹쳐 보면, 약 $90,000~$110,000의 1년 투자로 미국 전문직 면허와 영주권 경로를 동시에 손에 쥐는 셈입니다. 물론 학습 강도가 높은 만큼, 사전 자금 계획과 학업에 집중할 수 있는 가족 지원 체계는 협상 불가의 전제입니다.
 
 ## 2\. 입학과정
 
@@ -260,7 +260,7 @@ University of Rochester School of Nursing은 NIH 연구비 수주 상위권, 202
 
 한국 학생에게 이 학교가 유독 잘 맞는 근거는 이렇게 모입니다. 한국 학사를 그대로 살려 12개월 만에 BS in Nursing과 NCLEX-RN 응시 자격을 함께 확보하는 가속화 구조의 명료함, 2023년 Next Generation NCLEX-RN 100% 첫 응시 합격률이라는 학업 트랙 레코드, URMC magnet 학술의료시스템과 NIH 연구 노출이라는 남다른 학습 환경, 그리고 RN의 Schedule A EB-3 영주권 경로와 URMC의 cap-exempt H-1B 가능성이 맞물린 조합. 졸업 이후에는 BLS 중위 연봉 약 $86,070와 매년 19만 개 이상의 신규 일자리라는 든든한 노동 시장이 학비 회수와 장기 안정성을 받쳐 줍니다.
 
-강점을 한 번 더 정리하면 이렇습니다. 12개월 ABSN이라는 미국 최단 가속화 BSN 경로, 한국 학사 보유자가 SAT/ACT 없이 학부 GPA와 선수과목만으로 지원할 수 있는 진입 구조, URMC Strong Memorial Hospital(magnet, Level I Trauma)과 Golisano Children's Hospital로 대표되는 학술의료시스템의 통합 임상 자원, NIH 연구비 상위권 학교의 연구 노출과 학내 MS·DNP·PhD 연계, UR Nursing Scholars Program 같은 학비 보조 + URMC 근무 약정 트랙, 그리고 RN의 Schedule A EB-3 영주권 경로와 URMC cap-exempt H-1B의 듀얼 트랙까지. 반대로 ABSN의 매우 높은 학습 강도, 12개월 약 $90,000~$110,000의 압축 비용, New York주의 NLC 비참여(타주 근무 시 별도 면허 필요)는 미리 감안해 두어야 할 대목입니다.
+강점을 한 번 더 정리하면 이렇습니다. 12개월 ABSN이라는 미국 최단 가속화 BSN 경로, 한국 학사 보유자가 SAT/ACT 없이 학부 GPA와 선수과목만으로 지원할 수 있는 진입 구조, URMC Strong Memorial Hospital(magnet, Level I Trauma)과 Golisano Children's Hospital로 대표되는 학술의료시스템의 통합 임상 자원, NIH 연구비 상위권 학교의 연구 노출과 학내 MS, DNP, PhD 연계, UR Nursing Scholars Program 같은 학비 보조 + URMC 근무 약정 트랙, 그리고 RN의 Schedule A EB-3 영주권 경로와 URMC cap-exempt H-1B의 듀얼 트랙까지. 반대로 ABSN의 매우 높은 학습 강도, 12개월 약 $90,000~$110,000의 압축 비용, New York주의 NLC 비참여(타주 근무 시 별도 면허 필요)는 미리 감안해 두어야 할 대목입니다.
 
 미국에서의 안정적 전문직, 빠른 영주권 경로, 한국 학사를 활용한 가속화 진입, 그리고 NIH 연구비 상위권 사립 연구중심 간호대학의 학술 위상을 한꺼번에 노리는 한국 학생에게, University of Rochester School of Nursing은 미국 BSN 진학의 강력한 카드입니다. 12개월 뒤 RN 면허와 함께 미국 동북부 의료 시장에 발을 들이는 길이 분명히 열려 있고, 그 문을 여는 열쇠는 결국 잘 준비된 지원서입니다.
 

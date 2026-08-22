@@ -124,9 +124,9 @@ Rolling Admission인 만큼 일찍 낼수록 장학금과 입학 양쪽에서 �
 
 합격자 평균 GPA는 3.5입니다. 학업 역량을 그만큼 눈여겨본다는 뜻입니다.
 
--   강력한 경쟁력: GPA 3.7 이상 — 장학금 확보에 매우 유리하며, GMAT/GRE Waiver 자격(STEM/Business 전공 3.5+)도 충족합니다.
--   충분히 경쟁력: GPA 3.3~3.6 — 합격자 평균 범위 내입니다.
--   보완 가능: GPA 3.0~3.2 — GMAT/GRE 고득점, 직무 경험으로 보완 가능합니다. GPA 3.0 이상이면 직무 경험 1년+ 조건으로 GMAT Waiver 신청도 가능합니다.
+-   강력한 경쟁력: GPA 3.7 이상. 장학금 확보에 매우 유리하며, GMAT/GRE Waiver 자격(STEM/Business 전공 3.5+)도 충족합니다.
+-   충분히 경쟁력: GPA 3.3~3.6. 합격자 평균 범위 내입니다.
+-   보완 가능: GPA 3.0~3.2. GMAT/GRE 고득점, 직무 경험으로 보완 가능합니다. GPA 3.0 이상이면 직무 경험 1년+ 조건으로 GMAT Waiver 신청도 가능합니다.
 
 한국 대학의 GPA는 WES 등을 거쳐 공식 환산해 두는 편이 좋습니다.
 
@@ -134,9 +134,9 @@ Rolling Admission인 만큼 일찍 낼수록 장학금과 입학 양쪽에서 �
 
 합격자 평균 GMAT은 634이며, 중위 80% 범위는 560~710입니다. GRE는 Verbal 154 / Quantitative 156입니다.
 
--   강력한 경쟁력: GMAT 680+ — 장학금 확보에 매우 유리합니다.
--   충분히 경쟁력: GMAT 620~679 — 합격자 평균 범위 내입니다.
--   보완 가능: GMAT 560~619 — 중위 80% 범위 내이며, GPA와 에세이로 보완 가능합니다.
+-   강력한 경쟁력: GMAT 680+. 장학금 확보에 매우 유리합니다.
+-   충분히 경쟁력: GMAT 620~679. 합격자 평균 범위 내입니다.
+-   보완 가능: GMAT 560~619. 중위 80% 범위 내이며, GPA와 에세이로 보완 가능합니다.
 
 **GMAT/GRE Waiver 조건 (하나 이상 충족 시 신청 가능):**
 
@@ -233,7 +233,7 @@ University of Kentucky Gatton College of Business and Economics MBA는 Bloomberg
 
 12개월 가속형 One-Year MBA, Out-of-State 약 $48,794의 학비, 코호트 50% 이상의 장학금 수혜, 그리고 Project Connect 컨설팅 프랙티컴. 이 네 가지가 맞물려 시간과 비용은 아끼면서 실무 역량은 끌어올리는 Gatton만의 교육 모델을 완성합니다.
 
-17개 전공 분야와 JD/MBA·MD/MBA 듀얼 디그리, Servant Leadership 철학, 그리고 Manufacturing·Financial Services·Health Care로 이어지는 탄탄한 지역 취업 네트워크가 Gatton이 합리적 비용으로 깊이 있는 교육을 준다는 사실을 뒷받침합니다.
+17개 전공 분야와 JD/MBA, MD/MBA 듀얼 디그리, Servant Leadership 철학, 그리고 Manufacturing, Financial Services, Health Care로 이어지는 탄탄한 지역 취업 네트워크가 Gatton이 합리적 비용으로 깊이 있는 교육을 준다는 사실을 뒷받침합니다.
 
 미국 MBA 최고의 ROI로 12개월 만에 커리어를 바꾸고 싶다면, Gatton College MBA는 진지하게 고려할 만한 선택지입니다. 지금부터 차근차근 준비해 Kentucky에서 새 장을 열어 보시기 바랍니다.
 

@@ -8,7 +8,7 @@ universityKo: 크레이턴대학교
 schoolEn: College of Nursing
 description: >-
   Creighton University College of Nursing ABSN은 12개월 과정으로, Traditional BSN NCLEX
-  첫 응시 합격률 96.2%, ABSN 총 tuition 약 $55,425. Omaha·Phoenix 이중 캠퍼스와 F-1 January
+  첫 응시 합격률 96.2%, ABSN 총 tuition 약 $55,425. Omaha, Phoenix 이중 캠퍼스와 F-1 January
   코호트 제약까지 정리했습니다.
 status: published
 order: 21
@@ -144,7 +144,7 @@ F-1 비자로 ABSN에 가려는 한국 학생에게는 Spring(1월 시작) 코�
 -   ABSN 표준화 시험: 요구하지 않음. GRE도 필요 없음.
 -   TEAS(Test of Essential Academic Skills): 별도 요구하지 않음.
 
-한국 학생은 test-optional을 활용해 SAT/ACT 없이도 지원할 수 있습니다. 다만 TOEFL/IELTS 점수가 다소 약하다면, 탄탄한 SAT/ACT 점수가 학업 역량을 대신 증명해 줍니다. 특히 nursing이 요구하는 과학·수학 역량은 SAT Math 700+ 또는 ACT Math 28+로 보여 주는 것이 확실한 카드가 됩니다.
+한국 학생은 test-optional을 활용해 SAT/ACT 없이도 지원할 수 있습니다. 다만 TOEFL/IELTS 점수가 다소 약하다면, 탄탄한 SAT/ACT 점수가 학업 역량을 대신 증명해 줍니다. 특히 nursing이 요구하는 과학과 수학 역량은 SAT Math 700+ 또는 ACT Math 28+로 보여 주는 것이 확실한 카드가 됩니다.
 
 ### c. 선수과목 (Prerequisites)
 
@@ -256,7 +256,7 @@ BSN이 STEM designated가 아니라는 점은 다른 STEM 학위에 비하면 �
 -   VisaScreen 발급 시간: 통상 6~12개월. NCLEX 합격 직후 신청 권장.
 -   Employer의 permanent job offer 필수: sponsor 병원이 full-time permanent RN position offer 제공.
 
-Schedule A는 RN이 쥔 가장 강력한 이민 카드입니다. 한국 학생이 밟는 표준 경로는 이렇습니다. Creighton BSN 졸업 → NCLEX 응시와 합격 → OPT 시작 → sponsor 병원 permanent offer 확보 → I-140과 VisaScreen 병행 신청. 이 흐름대로 가면 OPT가 끝나기 전에 EB-3 절차가 상당 부분 진행됩니다. 게다가 한국 국적자는 EB-3 backlog가 짧은 편이라 인도·중국 국적자보다 유리한 자리에 섭니다.
+Schedule A는 RN이 쥔 가장 강력한 이민 카드입니다. 한국 학생이 밟는 표준 경로는 이렇습니다. Creighton BSN 졸업 → NCLEX 응시와 합격 → OPT 시작 → sponsor 병원 permanent offer 확보 → I-140과 VisaScreen 병행 신청. 이 흐름대로 가면 OPT가 끝나기 전에 EB-3 절차가 상당 부분 진행됩니다. 게다가 한국 국적자는 EB-3 backlog가 짧은 편이라 인도와 중국 국적자보다 유리한 자리에 섭니다.
 
 ### e. 주요 스폰서 병원
 

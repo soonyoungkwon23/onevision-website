@@ -16,7 +16,7 @@ updatedDate: null
 enhancedDate: '2026-07-12'
 ---
 
-합격률 75%. 숫자만 보면 문턱이 낮아 보이지만, 실상은 매년 약 40~50명만 뽑는 소수 정예 프로그램입니다. Texas Christian University(TCU)의 Neeley School of Business는 텍사스 포트워스(Fort Worth)에 자리한 AACSB 인증 비즈니스 스쿨로, 소규모 코호트 중심의 밀착형 MBA 교육으로 잘 알려져 있습니다. 미국에서 네 번째로 큰 메트로 지역인 Dallas-Fort Worth(DFW) 경제권 한복판에 있어 Lockheed Martin, American Airlines, BNSF Railway, Charles Schwab 본사 같은 Fortune 500 기업들과의 긴밀한 산학 협력이 일상적으로 이루어집니다. 교수진의 직접 멘토링, 동기들과의 깊은 유대감, 개인 맞춤형 커리어 지원 — 대규모 MBA 프로그램에서는 경험하기 어려운 것들이 이 규모에서는 자연스럽게 가능해집니다.
+합격률 75%. 숫자만 보면 문턱이 낮아 보이지만, 실상은 매년 약 40~50명만 뽑는 소수 정예 프로그램입니다. Texas Christian University(TCU)의 Neeley School of Business는 텍사스 포트워스(Fort Worth)에 자리한 AACSB 인증 비즈니스 스쿨로, 소규모 코호트 중심의 밀착형 MBA 교육으로 잘 알려져 있습니다. 미국에서 네 번째로 큰 메트로 지역인 Dallas-Fort Worth(DFW) 경제권 한복판에 있어 Lockheed Martin, American Airlines, BNSF Railway, Charles Schwab 본사 같은 Fortune 500 기업들과의 긴밀한 산학 협력이 일상적으로 이루어집니다. 교수진의 직접 멘토링, 동기들과의 깊은 유대감, 개인 맞춤형 커리어 지원. 대규모 MBA 프로그램에서는 경험하기 어려운 것들이 이 규모에서는 자연스럽게 가능해집니다.
 
 성과 지표도 탄탄합니다. 최근 졸업생의 96%가 취업에 성공했고, 평균 총 보상(Total Compensation)은 약 $155,000에 이릅니다. 투자 대비 수익률(ROI)이 증명된다는 이야기입니다. 게다가 Neeley MBA는 STEM 지정(STEM-designated) Full-Time MBA 프로그램이라, 국제 학생은 졸업 후 최대 3년간 OPT(Optional Practical Training) 기회를 얻습니다. 미국 취업 시장에서 장기적으로 경력을 쌓으려는 지원자에게 이 3년의 무게는 결코 가볍지 않습니다. 전공은 Supply Chain Management, Marketing, Finance, Accounting 등 핵심 비즈니스 분야의 전공 집중(Concentration)으로 운영되며, 학생이 실제 자금을 직접 운용하는 투자 펀드인 Educational Investment Fund(EIF)는 실무 중심 금융 교육의 대표 사례로 꼽힙니다.
 
@@ -36,7 +36,7 @@ Neeley School of Business는 TCU에서 가장 명성 높은 단과대학 중 하
 
 TCU 캠퍼스는 포트워스 중심부에서 약 5마일 거리, 272에이커(약 110만 제곱미터) 규모의 아름답게 관리된 부지에 자리합니다. 남서부 특유의 따뜻한 기후와 현대적인 시설이 어우러지고, Neeley School 건물에는 최첨단 강의실과 팀 프로젝트 공간, Bloomberg Terminal이 설치된 금융 연구실까지 갖춰져 있습니다.
 
-포트워스(Fort Worth)가 속한 Dallas-Fort Worth(DFW) 메트로폴리탄 지역은 미국에서 네 번째로 큰 대도시권이자 텍사스 경제의 중심지입니다. Lockheed Martin(방위산업), American Airlines(항공), BNSF Railway(물류/운송), Charles Schwab(금융 서비스, 2020년 본사 이전) 등 다양한 산업의 Fortune 500 기업들이 이곳에 본사를 두고 있고, 이들이 곧 Neeley MBA 학생들의 주요 인턴십·취업 파트너입니다.
+포트워스(Fort Worth)가 속한 Dallas-Fort Worth(DFW) 메트로폴리탄 지역은 미국에서 네 번째로 큰 대도시권이자 텍사스 경제의 중심지입니다. Lockheed Martin(방위산업), American Airlines(항공), BNSF Railway(물류/운송), Charles Schwab(금융 서비스, 2020년 본사 이전) 등 다양한 산업의 Fortune 500 기업들이 이곳에 본사를 두고 있고, 이들이 곧 Neeley MBA 학생들의 주요 인턴십과 취업 파트너입니다.
 
 생활비 이야기를 빼놓을 수 없습니다. 포트워스의 생활비는 미국 전국 평균보다 낮고, 원룸 기준 월 임대료는 약 $800~$1,200 선입니다. 뉴욕, 보스턴, 샌프란시스코 등 동부 및 서부 해안 도시의 절반 이하 주거비로 생활할 수 있다는 뜻입니다. 여기에 텍사스 주는 개인 소득세(State Income Tax)가 없어서, 졸업 후 텍사스에서 취업하면 실질 소득이 그만큼 더 높아집니다.
 
@@ -56,7 +56,7 @@ Neeley의 Full-Time MBA는 21개월(약 2년) 과정입니다. 가장 눈여겨�
 
 **Supply Chain Management**
 
-DFW 지역은 BNSF Railway, FedEx, UPS 같은 주요 물류 기업이 밀집한 미국 물류·운송의 핵심 허브입니다. 이 지역적 강점 위에서 글로벌 공급망 관리, 운영 효율화, 물류 전략을 깊이 있게 다루고, 실제 기업 프로젝트와 사례 연구로 실무 역량을 쌓습니다.
+DFW 지역은 BNSF Railway, FedEx, UPS 같은 주요 물류 기업이 밀집한 미국 물류와 운송의 핵심 허브입니다. 이 지역적 강점 위에서 글로벌 공급망 관리, 운영 효율화, 물류 전략을 깊이 있게 다루고, 실제 기업 프로젝트와 사례 연구로 실무 역량을 쌓습니다.
 
 **Marketing**
 
@@ -232,7 +232,7 @@ Neeley MBA는 우수한 지원자에게 다양한 장학금(Merit-based Scholars
 
 MBA Student Association을 비롯해 학생 클럽도 활발합니다. Finance Club, Marketing Club, Consulting Club, Entrepreneurship Club 같은 전공 관련 클럽과 International Student Association, Women in Business 같은 다양성 관련 클럽이 있습니다. 규모가 작으니 하나의 클럽에서도 리더십 역할을 맡을 기회가 그만큼 빨리 돌아오고, 이는 이력서와 네트워킹에 큰 자산이 됩니다.
 
-'카우타운(Cowtown)'이라는 별명을 가진 포트워스는 문화적으로도 풍성한 도시입니다. Kimbell Art Museum, Modern Art Museum of Fort Worth 같은 세계적인 미술관, 텍사스 카우보이 문화를 체험할 수 있는 Fort Worth Stockyards, 도심 쇼핑·레스토랑 지구인 Sundance Square까지. 텍사스 특유의 따뜻하고 친절한 문화 덕분에 국제 학생들도 빠르게 적응합니다.
+'카우타운(Cowtown)'이라는 별명을 가진 포트워스는 문화적으로도 풍성한 도시입니다. Kimbell Art Museum, Modern Art Museum of Fort Worth 같은 세계적인 미술관, 텍사스 카우보이 문화를 체험할 수 있는 Fort Worth Stockyards, 도심 쇼핑과 레스토랑 지구인 Sundance Square까지. 텍사스 특유의 따뜻하고 친절한 문화 덕분에 국제 학생들도 빠르게 적응합니다.
 
 주거는 크게 걱정할 것이 없습니다. TCU 주변에 학생들이 선호하는 다양한 아파트 단지가 있고, 캠퍼스에서 자동차로 5~15분 거리에 합리적인 가격의 주거 옵션이 풍부합니다. 텍사스는 차량이 필수적인 지역이지만 TCU 캠퍼스 내에서는 도보 이동이 가능하고, 포트워스의 대중교통(Trinity Metro)도 이용할 수 있습니다.
 

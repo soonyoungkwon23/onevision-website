@@ -18,7 +18,7 @@ enhancedDate: '2026-07-13'
 
 MBA를 알아보다 보면 대부분의 학교가 "이론과 실무를 결합한다"고 말합니다. 그런데 그 말을 6개월짜리 유급 근무로 커리큘럼에 못 박아 둔 학교는 많지 않습니다. Northeastern University는 1898년 Boston에서 설립된 이래 '체험 학습(Experiential Learning)'의 선구자로 불려 왔고, 그 뿌리인 Co-op(Cooperative Education) 전통을 MBA에 그대로 옮겨 놓은 것이 D'Amore-McKim School of Business의 6개월 Corporate Residency입니다. 이 시그니처 프로그램 하나로 D'Amore-McKim은 미국 MBA 지형에서 독보적인 자리를 지키고 있습니다.
 
-한국인 지원자 입장에서 이 학교를 봐야 할 이유는 세 가지로 압축됩니다. 우선 6개월 유급 Corporate Residency는 Boston 지역 유수 기업에서의 실제 근무 경험을 보장하고, 이 경력은 졸업 후 취업 시장에서 그 자체로 강력한 차별화 카드가 됩니다. 여기에 더해 Analytics·Innovation·Business Strategy를 묶은 별도의 1년 STEM MBA는 기술 집약적 커리큘럼과 최대 36개월 OPT를 제공합니다. 마지막으로, 교육·헬스케어·기술이 한데 모인 Boston이라는 도시 자체가 졸업 이후까지 이어지는 장기 자산이 됩니다.
+한국인 지원자 입장에서 이 학교를 봐야 할 이유는 세 가지로 압축됩니다. 우선 6개월 유급 Corporate Residency는 Boston 지역 유수 기업에서의 실제 근무 경험을 보장하고, 이 경력은 졸업 후 취업 시장에서 그 자체로 강력한 차별화 카드가 됩니다. 여기에 더해 Analytics, Innovation, Business Strategy를 묶은 별도의 1년 STEM MBA는 기술 집약적 커리큘럼과 최대 36개월 OPT를 제공합니다. 마지막으로, 교육, 헬스케어, 기술이 한데 모인 Boston이라는 도시 자체가 졸업 이후까지 이어지는 장기 자산이 됩니다.
 
 이 가이드는 D'Amore-McKim MBA를 준비하는 한국인 학생과 학부모를 위한 것입니다. 학교의 역사와 특징부터 입학 요건과 전략, 캠퍼스 생활과 취업 성과, 비용과 장학금까지 실제 지원에 필요한 순서대로 짚어 갑니다. 특히 Corporate Residency를 어떻게 활용할지, STEM MBA 옵션은 누구에게 맞는지, Boston 네트워크는 어떻게 쌓아야 하는지를 비중 있게 다룹니다.
 
@@ -45,7 +45,7 @@ D'Amore-McKim School of Business는 그 안에서 AACSB International 인증을 
 D'Amore-McKim은 지원자의 상황에 맞춰 여러 갈래의 MBA를 운영합니다.
 
 -   Full-time MBA: 24개월(55학점) 과정으로 코호트는 약 68명. 6개월 Corporate Residency가 포함된 시그니처 프로그램입니다. GMAT/GRE 선택 제출(optional).
--   STEM MBA: 1년 속성 STEM 지정 프로그램으로, Analytics·Innovation·Business Strategy를 결합한 집중 커리큘럼입니다. GMAT/GRE 필수 제출.
+-   STEM MBA: 1년 속성 STEM 지정 프로그램으로, Analytics, Innovation, Business Strategy를 결합한 집중 커리큘럼입니다. GMAT/GRE 필수 제출.
 -   Part-time MBA: 직장인을 위한 저녁/주말 프로그램으로, 자신의 속도에 맞춰 완료할 수 있습니다.
 -   Online MBA: 온라인으로 제공되는 유연한 MBA 프로그램입니다.
 -   Dual Degree Programs: MBA/MS 복수 학위 옵션이 가능합니다.
@@ -102,9 +102,9 @@ D'Amore-McKim의 입학 심사는 지원자의 프로필을 하나의 총체로 
 
 **Full-time MBA 2025-2026 지원 라운드:**
 
--   Round 1: 10월 중순 마감 — 장학금 우선 고려 라운드입니다.
--   Round 2: 1월 중순 마감 — 메인 라운드로 대부분의 합격자가 결정됩니다.
--   Round 3: 3월 중순 마감 — 잔여 좌석 선발.
+-   Round 1: 10월 중순 마감. 장학금 우선 고려 라운드입니다.
+-   Round 2: 1월 중순 마감. 메인 라운드로 대부분의 합격자가 결정됩니다.
+-   Round 3: 3월 중순 마감. 잔여 좌석 선발.
 -   국제 학생 최종 마감: 5월 1일 (F-1/J-1 비자 필요 시)
 
 국제 학생이라면 비자 처리에 걸리는 시간을 고려해 Round 1이나 Round 2에 지원하기를 강력히 권합니다. 게다가 2026년 시작 코호트는 원서 접수비가 면제되므로, 재정 부담 없이 일찍 승부를 걸 수 있습니다.
@@ -114,7 +114,7 @@ D'Amore-McKim의 입학 심사는 지원자의 프로필을 하나의 총체로 
 Full-time MBA 지원에 필요한 서류는 다음과 같습니다.
 
 -   4년제 대학 학사 학위
--   GMAT 또는 GRE 점수: 선택 제출(optional) — 미제출이 불이익으로 작용하지 않음
+-   GMAT 또는 GRE 점수: 선택 제출(optional), 미제출이 불이익으로 작용하지 않음
 -   공인 영어 시험 점수 (TOEFL, IELTS)
 -   대학교 성적 증명서
 -   에세이 (커리어 목표, 프로그램 적합성)
@@ -130,9 +130,9 @@ GMAT/GRE가 선택사항이라는 점은 곧 프로필 전체의 강점과 프�
 
 입학생 평균 GPA는 3.63입니다. 이를 기준으로 경쟁력을 가늠하면 다음과 같습니다.
 
--   강력한 경쟁력: GPA 3.8 이상 — 학업 역량에서 확실한 강점을 보여줍니다.
--   충분히 경쟁력: GPA 3.5 이상 — 평균에 근접하며 안정적인 경쟁력입니다.
--   보완 가능: GPA 3.2 이상 — GMAT 제출, 강한 경력, 또는 정량적 과목 성취로 보완 가능합니다.
+-   강력한 경쟁력: GPA 3.8 이상. 학업 역량에서 확실한 강점을 보여줍니다.
+-   충분히 경쟁력: GPA 3.5 이상. 평균에 근접하며 안정적인 경쟁력입니다.
+-   보완 가능: GPA 3.2 이상. GMAT 제출, 강한 경력, 또는 정량적 과목 성취로 보완 가능합니다.
 
 평균 GPA가 3.63으로 낮지 않은 만큼, 학업 역량을 확실히 입증하는 것이 관건입니다. 특히 GMAT을 내지 않기로 했다면 GPA의 무게가 그만큼 더 커지므로, 낮은 GPA를 메울 다른 학업 성취를 미리 준비해 두세요.
 
@@ -140,9 +140,9 @@ GMAT/GRE가 선택사항이라는 점은 곧 프로필 전체의 강점과 프�
 
 Full-time MBA의 GMAT/GRE는 선택사항(optional)이며, 내지 않아도 입학 심사에서 불이익이 없습니다. 다만 제출한다면 점수대별로 이렇게 활용됩니다.
 
--   강력한 경쟁력: GMAT 680 이상 — 장학금 수혜 가능성이 높아집니다.
--   충분히 경쟁력: GMAT 630 이상 — 학업 역량의 추가 증빙으로 효과적입니다.
--   보완 가능: GMAT 580 이상 — 제출 시 다른 요소와 함께 종합 평가됩니다.
+-   강력한 경쟁력: GMAT 680 이상. 장학금 수혜 가능성이 높아집니다.
+-   충분히 경쟁력: GMAT 630 이상. 학업 역량의 추가 증빙으로 효과적입니다.
+-   보완 가능: GMAT 580 이상. 제출 시 다른 요소와 함께 종합 평가됩니다.
 
 제출이 가장 크게 빛을 발하는 순간은 장학금 심사입니다. 점수가 있으면 추가 경쟁력을 확보할 수 있고, GPA가 평균에 못 미치는 경우 높은 GMAT이 학업 역량의 빈틈을 효과적으로 메워 줍니다. 단, STEM MBA는 GMAT/GRE가 필수 제출이라는 점을 반드시 기억하세요.
 
@@ -150,7 +150,7 @@ Full-time MBA의 GMAT/GRE는 선택사항(optional)이며, 내지 않아도 입�
 
 D'Amore-McKim MBA 에세이는 크게 두 축으로 나뉩니다.
 
--   커리어 목표 에세이: MBA 이후의 단기·장기 커리어 목표와 D'Amore-McKim이 이 목표에 어떻게 기여하는지 서술합니다.
+-   커리어 목표 에세이: MBA 이후의 단기와 장기 커리어 목표와 D'Amore-McKim이 이 목표에 어떻게 기여하는지 서술합니다.
 -   프로그램 적합성 에세이: Corporate Residency, 특정 Concentration, Boston 네트워크 등과 자신의 목표를 연결합니다.
 
 한국인 지원자라면 여기서 네 가지를 챙겨야 합니다. Corporate Residency에서 경험하고 싶은 산업이나 기업을 구체적으로 지목하고, Boston의 특정 산업 생태계(Healthcare, Tech, Finance)를 자신의 커리어 비전과 잇고, Northeastern의 체험 학습 전통이 본인의 학습 스타일과 어떻게 맞물리는지 보여 주며, 다양한 배경의 코호트에 한국인으로서 더할 수 있는 관점을 분명히 드러내는 것입니다.
@@ -188,7 +188,7 @@ D'Amore-McKim은 캠퍼스 방문을 적극 권합니다. Open House, 수업 참
 
 약 68명이라는 코호트 규모는 서로를 다 아는 밀착형 공동체를 만들면서도 그 안에 다양성이 촘촘하게 들어차 있습니다. 56%의 여성 비율과 30%의 국제 학생 비율이 만나 관점이 교차하는 역동적인 토론 환경이 형성되고, Corporate Residency를 함께 준비하고 겪어 내는 과정에서 코호트의 결속은 한층 단단해집니다.
 
-Boston에서의 학생 생활은 미국에서 가장 풍성한 문화·학술 경험을 안겨 줍니다. 80개 이상의 대학이 밀집한 도시이다 보니 타교 MBA 학생과의 교류가 자연스럽게 이뤄지고, Museum of Fine Arts와 Boston Symphony Orchestra, 그리고 Fenway Park(Red Sox 홈구장) 같은 문화·스포츠 명소가 모두 캠퍼스 가까이에 있습니다.
+Boston에서의 학생 생활은 미국에서 가장 풍성한 문화와 학술 경험을 안겨 줍니다. 80개 이상의 대학이 밀집한 도시이다 보니 타교 MBA 학생과의 교류가 자연스럽게 이뤄지고, Museum of Fine Arts와 Boston Symphony Orchestra, 그리고 Fenway Park(Red Sox 홈구장) 같은 문화와 스포츠 명소가 모두 캠퍼스 가까이에 있습니다.
 
 ### b. 취업 성과와 주요 채용 기업
 
@@ -213,7 +213,7 @@ Full-time MBA 2년 과정의 총 예상 비용을 항목별로 보면 다음과 
 
 -   학비(전체 프로그램): $99,880
 -   생활비(2년, Boston 기준): 약 $60,000~$80,000
--   교재·기타 비용(2년): 약 $4,000~$6,000
+-   교재와 기타 비용(2년): 약 $4,000~$6,000
 -   건강보험(2년): 약 $6,000~$8,000
 -   총 예상 비용: 약 $170,000~$194,000 (한화 약 2억 3,000만~2억 6,000만 원)
 -   Corporate Residency 급여 상쇄: 약 $15,000~$30,000 (6개월)
@@ -241,7 +241,7 @@ Northeastern은 등록 학생 전원에게 Student Health Insurance Plan을 제�
 
 ## 6\. 결론
 
-Northeastern University D'Amore-McKim School of Business의 정체성은 결국 세 단어로 요약됩니다. 6개월 Corporate Residency, 1년 STEM MBA, 그리고 Boston. 독보적인 체험 학습 프로그램과 STEM 옵션, 세계 최고의 교육·비즈니스 허브가 하나의 MBA에 담겨 있습니다.
+Northeastern University D'Amore-McKim School of Business의 정체성은 결국 세 단어로 요약됩니다. 6개월 Corporate Residency, 1년 STEM MBA, 그리고 Boston. 독보적인 체험 학습 프로그램과 STEM 옵션, 세계 최고의 교육과 비즈니스 허브가 하나의 MBA에 담겨 있습니다.
 
 약 68명의 다양한 코호트(56% 여성, 31% 국제 학생), GMAT/GRE 선택 제출 정책, 그리고 Corporate Residency를 통한 실질적인 근무 경험. 이 조합은 한국인 MBA 지원자에게 유난히 매력적으로 다가옵니다.
 

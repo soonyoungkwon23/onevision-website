@@ -22,7 +22,7 @@ enhancedDate: '2026-07-13'
 
 ## 1\. 학교 특징
 
-Penn Nursing의 뿌리는 1886년 Hospital of the University of Pennsylvania School of Nursing입니다. 1935년 University of Pennsylvania School of Nursing으로 통합되었고, 그 뒤로 100년 넘게 미국 간호 교육의 standards를 직접 써 내려왔습니다. evidence-based practice, nursing science research, global health leadership — 이 세 축에서 미국은 물론 세계 정상권을 유지해 온 기관입니다.
+Penn Nursing의 뿌리는 1886년 Hospital of the University of Pennsylvania School of Nursing입니다. 1935년 University of Pennsylvania School of Nursing으로 통합되었고, 그 뒤로 100년 넘게 미국 간호 교육의 standards를 직접 써 내려왔습니다. evidence-based practice, nursing science research, global health leadership. 이 세 축에서 미국은 물론 세계 정상권을 유지해 온 기관입니다.
 
 이 학교를 특별하게 만드는 건 Penn Medicine 시스템과의 물리적 immediacy입니다. Fagin Hall에서 HUP, CHOP, Penn Presbyterian Medical Center까지 모두 도보 5분 안쪽. 강의를 마친 학생이 곧장 임상 사이트로 걸어가 hands-on 학습으로 이어 가는 구조입니다. 시뮬레이션 쪽도 만만치 않습니다. Helene Fuld Pavilion for Innovative Learning and Simulation은 augmented reality와 high-fidelity 매니킨을 결합한 공간으로, 실제 환자를 만나기 전에 다양한 시나리오를 안전하게 반복 연습할 수 있게 해 줍니다.
 
@@ -169,7 +169,7 @@ Traditional BSN은 Penn 학부 common application essay와 Penn-specific supplem
 -   BSN Second Degree: 2통 (1통은 학업 추천인 필수, 1통은 자유 - healthcare/직장 supervisor 권장).
 -   이상적 조합: 과학/생물학 교수 + RN/의사/healthcare supervisor + (선택) 봉사 코디네이터.
 
-한국 학부 교수의 추천서도 물론 활용할 수 있지만, 영문 작성이 전제이고 미국식 추천서 문화에 맞춰 구체적 일화와 정량적 평가가 담겨야 합니다. 추천인에게는 최소 4~6주의 여유를 드리고, brag sheet(학생의 핵심 동기와 성취, 봉사 경험을 정리한 요약)를 함께 건네는 것 — 이것이 밋밋하지 않은 추천서를 얻는 실질적인 요령입니다.
+한국 학부 교수의 추천서도 물론 활용할 수 있지만, 영문 작성이 전제이고 미국식 추천서 문화에 맞춰 구체적 일화와 정량적 평가가 담겨야 합니다. 추천인에게는 최소 4~6주의 여유를 드리고, brag sheet(학생의 핵심 동기와 성취, 봉사 경험을 정리한 요약)를 함께 건네는 것. 이것이 밋밋하지 않은 추천서를 얻는 실질적인 요령입니다.
 
 ### g. 인터뷰
 
@@ -194,7 +194,7 @@ Penn의 financial aid가 미국 가정에 얼마나 관대한지는 숫자로 �
 
 ## 4\. 취업과 비자 전략
 
-미국 학사 이상 직종 가운데, 한국 학생이 가장 빠르고 선명하게 영주권 경로로 진입하는 분야가 바로 간호입니다. Penn Nursing의 Ivy League 학위, Penn Medicine 시스템의 cap-exempt H-1B 자격, 그리고 RN의 Schedule A 분류에 따른 EB-3 직접 후원 — 이 셋이 맞물리면 여느 미국 학사 졸업생은 갖지 못하는 이중 비자 경로가 열립니다.
+미국 학사 이상 직종 가운데, 한국 학생이 가장 빠르고 선명하게 영주권 경로로 진입하는 분야가 바로 간호입니다. Penn Nursing의 Ivy League 학위, Penn Medicine 시스템의 cap-exempt H-1B 자격, 그리고 RN의 Schedule A 분류에 따른 EB-3 직접 후원. 이 셋이 맞물리면 여느 미국 학사 졸업생은 갖지 못하는 이중 비자 경로가 열립니다.
 
 ### a. NCLEX-RN과 면허 취득
 
@@ -264,7 +264,7 @@ University of Pennsylvania Penn Nursing School of Nursing은 1886년에 뿌리�
 
 Penn Nursing이 가진 무기를 한 줄씩 꼽아 보겠습니다. U.S. News 학부 2위와 QS World 1위의 globally recognized brand. Penn Medicine과 CHOP를 도보 거리에 둔 임상 통합. NCLEX 첫 응시 합격률 93%대라는 검증된 학업 성과. 자교 MSN의 10개 specialty NP 트랙으로 뻗어 나가는 진로 확장성. RN 직종의 Schedule A EB-3 영주권 경로와 Penn Medicine cap-exempt H-1B를 함께 굴리는 듀얼 트랙. 미국 시민 가정을 위한 need-blind admissions와 강력한 institutional aid. 그리고 Hillman Scholars Program처럼 PhD까지 보장하는 elite 트랙까지.
 
-elite 학위와 안정적인 전문직, 빠른 영주권 경로, 그리고 caring profession의 보람 — 이 네 가지를 한꺼번에 손에 쥐고 싶은 한국 학생에게 Penn Nursing은 미국 BSN 진학의 정점입니다. Ivy League 합격이라는 문턱이 높은 건 사실이지만, 꾸준한 학업 성취와 탄탄한 healthcare 경험, "왜 Penn, 왜 nursing"이 분명한 personal narrative를 갖췄다면 충분히 겨눠 볼 만한 목표입니다.
+elite 학위와 안정적인 전문직, 빠른 영주권 경로, 그리고 caring profession의 보람. 이 네 가지를 한꺼번에 손에 쥐고 싶은 한국 학생에게 Penn Nursing은 미국 BSN 진학의 정점입니다. Ivy League 합격이라는 문턱이 높은 건 사실이지만, 꾸준한 학업 성취와 탄탄한 healthcare 경험, "왜 Penn, 왜 nursing"이 분명한 personal narrative를 갖췄다면 충분히 겨눠 볼 만한 목표입니다.
 
 참고 자료:
 
@@ -278,7 +278,7 @@ elite 학위와 안정적인 전문직, 빠른 영주권 경로, 그리고 carin
 
 **University of Pennsylvania BSN 합격, 전문가의 전략이 결과를 바꾼다**
 
-Penn Nursing 같은 Ivy League BSN 프로그램은 성적표 한 장으로 승부가 나지 않습니다. Traditional 4-year direct admit과 BSN Second Degree 중 본인의 학력과 목표에 맞는 트랙은 어느 쪽인지, 한국 학력의 영문 평가는 어떤 순서로 밟을지, healthcare 경험을 어떻게 진심이 담긴 caring narrative로 엮어낼지, 그리고 졸업 후 Penn Medicine cap-exempt H-1B와 EB-3 영주권 경로를 어떻게 하나의 설계로 묶을지 — 모든 단계가 일관된 전략선 위에 놓여야 합니다.
+Penn Nursing 같은 Ivy League BSN 프로그램은 성적표 한 장으로 승부가 나지 않습니다. Traditional 4-year direct admit과 BSN Second Degree 중 본인의 학력과 목표에 맞는 트랙은 어느 쪽인지, 한국 학력의 영문 평가는 어떤 순서로 밟을지, healthcare 경험을 어떻게 진심이 담긴 caring narrative로 엮어낼지, 그리고 졸업 후 Penn Medicine cap-exempt H-1B와 EB-3 영주권 경로를 어떻게 하나의 설계로 묶을지. 모든 단계가 일관된 전략선 위에 놓여야 합니다.
 
 OneVision 컨설팅 팀은 미국 BSN 및 대학원 간호 프로그램을 전담하는 팀으로, 학생 개개인의 강점과 한국 가정의 우선순위를 함께 짚어 가며 입학 전략부터 졸업 후 커리어 설계까지 1대1로 동행합니다.
 

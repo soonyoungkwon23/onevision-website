@@ -8,7 +8,7 @@ universityKo: UC 데이비스
 schoolEn: Graduate School of Management
 description: >-
   약 50명 소규모 코호트의 UC Davis GSM은 STEM 지정 MBA로 최대 36개월 OPT를 보장합니다.
-  Wine·Agribusiness 등 독보적 Specialization과 Bay Area 네트워크, 평균 초봉 $96,482까지 한국 지원자
+  Wine, Agribusiness 등 독보적 Specialization과 Bay Area 네트워크, 평균 초봉 $96,482까지 한국 지원자
   전략을 짚었습니다.
 status: published
 order: 88
@@ -17,7 +17,7 @@ updatedDate: null
 enhancedDate: '2026-07-13'
 ---
 
-자전거로 캠퍼스를 가로지르는 인구 약 70,000명의 대학 도시 Davis. 이곳에 자리 잡은 University of California, Davis의 Graduate School of Management(GSM)는 기술과 농업, 그리고 와인 산업이 만나는 독특한 교차점 위에 MBA를 세웠습니다. 약 50명 규모의 소규모 코호트, UC 시스템이라는 이름값, Silicon Valley·Sacramento·Napa Valley로 뻗어 나가는 지리적 이점이 한자리에 모여 있습니다.
+자전거로 캠퍼스를 가로지르는 인구 약 70,000명의 대학 도시 Davis. 이곳에 자리 잡은 University of California, Davis의 Graduate School of Management(GSM)는 기술과 농업, 그리고 와인 산업이 만나는 독특한 교차점 위에 MBA를 세웠습니다. 약 50명 규모의 소규모 코호트, UC 시스템이라는 이름값, Silicon Valley, Sacramento, Napa Valley로 뻗어 나가는 지리적 이점이 한자리에 모여 있습니다.
 
 한국인 지원자에게 이 프로그램이 매력적인 이유는 꽤 분명합니다. 우선 STEM 지정 MBA이기에 졸업 후 최대 36개월의 OPT가 열립니다. 여기에 Wine Industry, Agribusiness, Biotechnology처럼 다른 스쿨에서는 좀처럼 만나기 힘든 특화 분야가 준비돼 있어, 남들과 다른 커리어 경로를 설계할 수 있습니다. 그리고 Bay Area 기업들과 촘촘히 연결된 네트워크는 Technology, Healthcare, Finance 취업으로 이어지는 실질적인 통로가 됩니다.
 
@@ -53,7 +53,7 @@ UC Davis GSM은 경력 단계와 학습 방식에 따라 골라 담을 수 있�
 
 ### d. MBA 전공 분야와 커리큘럼
 
-UC Davis GSM Full-time MBA 커리큘럼은 총 72학점으로 짜여 있습니다. 1학년에는 회계·재무·마케팅·운영·전략 같은 핵심 비즈니스 과목을 다지고, 2학년에 Self-Guided Concentration과 Specialization으로 전문성을 끌어올립니다. 이 가운데 36학점 이상을 STEM 지정 과목으로 채우도록 설계돼, 프로그램 전체가 STEM 지정을 받았습니다.
+UC Davis GSM Full-time MBA 커리큘럼은 총 72학점으로 짜여 있습니다. 1학년에는 회계, 재무, 마케팅, 운영, 전략 같은 핵심 비즈니스 과목을 다지고, 2학년에 Self-Guided Concentration과 Specialization으로 전문성을 끌어올립니다. 이 가운데 36학점 이상을 STEM 지정 과목으로 채우도록 설계돼, 프로그램 전체가 STEM 지정을 받았습니다.
 
 **Concentrations:**
 
@@ -111,9 +111,9 @@ Technology, Consulting, Finance, Healthcare 등 다양한 산업에서 경력을
 
 **Full-time MBA 2025-2026 지원 라운드:**
 
--   Round 1: 9월 25일 마감 — 장학금을 먼저 고려하는 라운드입니다.
--   Round 2: 1월 8일 마감 — 지원자가 가장 몰리는 메인 라운드입니다.
--   Round 3: 4월 이후 Rolling 방식 — 남은 좌석에 한해 선발합니다.
+-   Round 1: 9월 25일 마감. 장학금을 먼저 고려하는 라운드입니다.
+-   Round 2: 1월 8일 마감. 지원자가 가장 몰리는 메인 라운드입니다.
+-   Round 3: 4월 이후 Rolling 방식. 남은 좌석에 한해 선발합니다.
 
 국제 학생이라면 비자 처리 기간을 감안해 Round 1이나 Round 2에 지원하기를 강력히 권합니다. Round 1 지원자는 장학금 배정에서 우선권을 얻고, 합격 통보도 가장 이릅니다.
 
@@ -123,8 +123,8 @@ UC Davis GSM Full-time MBA 지원에 필요한 서류를 한자리에 모았습�
 
 -   4년제 대학 학사 학위(또는 동등 학력)
 -   GMAT 또는 GRE 점수 (면제 조건 충족 시 waiver 가능)
--   공인 영어 시험 점수 (TOEFL, IELTS — 영어가 모국어가 아닌 지원자)
--   대학교 성적 증명서(모든 학부·대학원 과정)
+-   공인 영어 시험 점수 (TOEFL, IELTS: 영어가 모국어가 아닌 지원자)
+-   대학교 성적 증명서(모든 학부와 대학원 과정)
 -   에세이 2편 (커리어 목표, 프로그램 적합성)
 -   추천서 2통
 -   이력서/CV
@@ -139,19 +139,19 @@ GSM은 시험 점수만 들여다보지 않습니다. 지원자의 프로필을 
 
 입학생 평균 GPA는 3.41입니다. 구간별 경쟁력은 이렇게 나뉩니다.
 
--   강력한 경쟁력: GPA 3.7 이상 — 학업 역량에서 확실한 강점을 보여 줍니다.
--   충분히 경쟁력: GPA 3.4 이상 — 평균 수준으로, 다른 요소와 맞물리면 유리합니다.
--   보완 가능: GPA 3.0 이상 — GMAT 고득점, 탄탄한 경력, 상향 곡선의 GPA로 메울 수 있습니다.
+-   강력한 경쟁력: GPA 3.7 이상. 학업 역량에서 확실한 강점을 보여 줍니다.
+-   충분히 경쟁력: GPA 3.4 이상. 평균 수준으로, 다른 요소와 맞물리면 유리합니다.
+-   보완 가능: GPA 3.0 이상. GMAT 고득점, 탄탄한 경력, 상향 곡선의 GPA로 메울 수 있습니다.
 
-평균에 못 미친다면, 학부 마지막 2년의 상향 곡선이나 수학·통계 같은 정량 과목에서의 성취를 에세이에서 부각하는 편이 효과적입니다.
+평균에 못 미친다면, 학부 마지막 2년의 상향 곡선이나 수학과 통계 같은 정량 과목에서의 성취를 에세이에서 부각하는 편이 효과적입니다.
 
 ### b. GMAT/GRE 조건
 
 입학생 평균 GMAT은 667입니다. 점수대별 경쟁력을 살펴보겠습니다.
 
--   강력한 경쟁력: GMAT 710 이상 — 장학금 수혜 가능성이 높아집니다.
--   충분히 경쟁력: GMAT 670 이상 — 평균 수준으로 안정적인 경쟁력을 보여 줍니다.
--   보완 가능: GMAT 630 이상 — 강한 경력이나 높은 GPA로 메울 수 있습니다.
+-   강력한 경쟁력: GMAT 710 이상. 장학금 수혜 가능성이 높아집니다.
+-   충분히 경쟁력: GMAT 670 이상. 평균 수준으로 안정적인 경쟁력을 보여 줍니다.
+-   보완 가능: GMAT 630 이상. 강한 경력이나 높은 GPA로 메울 수 있습니다.
 -   GRE 환산: Verbal 158, Quantitative 158이 평균선입니다.
 
 학업이든 실무든 강한 배경을 갖췄다면 GMAT/GRE waiver를 노려 볼 만합니다. 신청은 지원서 안에서 가능하고, 승인 여부는 프로필 전체를 놓고 판단합니다.
@@ -160,7 +160,7 @@ GSM은 시험 점수만 들여다보지 않습니다. 지원자의 프로필을 
 
 UC Davis GSM MBA 지원 에세이는 커리어 비전과 프로그램 적합성, 이 두 축을 중심으로 돌아갑니다.
 
--   Essay 1 (커리어 목표): MBA 이후의 단기·장기 목표를 구체적으로 그리고, UC Davis GSM이 그 목표 달성에 왜 꼭 필요한지 연결합니다.
+-   Essay 1 (커리어 목표): MBA 이후의 단기와 장기 목표를 구체적으로 그리고, UC Davis GSM이 그 목표 달성에 왜 꼭 필요한지 연결합니다.
 -   Essay 2 (프로그램 적합성): GSM의 특정 리소스와 Concentration, 교수진, 프로그램을 짚으며 자신의 목표와 이어 붙입니다.
 
 한국인 지원자라면 세 가지를 기억하면 좋습니다. Wine Industry, Agribusiness, Biotechnology처럼 GSM에만 있는 Specialization을 자신의 커리어 목표와 촘촘히 엮으세요. Bay Area 기술 생태계나 Sacramento 비즈니스 환경에서 무엇을 하겠다는 구체적인 그림도 보여 주면 좋습니다. 마지막으로, 작은 코호트에 자신이 더할 수 있는 남다른 관점과 경험을 분명히 드러내세요.
@@ -201,7 +201,7 @@ UC Davis GSM은 여러 장학금과 재정 지원 프로그램으로 우수한 �
 
 약 50명이라는 작은 규모 덕분에 GSM 코호트는 가족에 가까운 밀착형 커뮤니티가 됩니다. 학생들은 1학년부터 팀 프로젝트와 케이스 경쟁, 산업 견학을 함께 겪으며 끈끈해지고, MBA Association은 네트워킹 이벤트와 사교 모임, 커리어 워크숍을 꾸준히 엽니다.
 
-대학 도시 Davis는 공부에 몰입하기 좋은 환경입니다. UC Davis 캠퍼스는 5,300에이커로 UC 시스템에서 가장 넓고, 자전거 문화가 자리 잡아 캠퍼스 이동도 수월합니다. 주말이면 Sacramento와 San Francisco, Napa Valley로 당일치기를 떠나 다양한 문화·여가를 즐길 수 있습니다.
+대학 도시 Davis는 공부에 몰입하기 좋은 환경입니다. UC Davis 캠퍼스는 5,300에이커로 UC 시스템에서 가장 넓고, 자전거 문화가 자리 잡아 캠퍼스 이동도 수월합니다. 주말이면 Sacramento와 San Francisco, Napa Valley로 당일치기를 떠나 다양한 문화와 여가를 즐길 수 있습니다.
 
 ### b. 취업 성과와 주요 채용 기업
 
@@ -227,7 +227,7 @@ UC Davis GSM Full-time MBA 2년 과정에 드는 총 예상 비용을 항목별�
 
 -   학비(2년, 국제 학생): 약 $127,084
 -   생활비(2년): 약 $50,000~$60,000
--   교재·기타 비용(2년): 약 $4,000~$6,000
+-   교재와 기타 비용(2년): 약 $4,000~$6,000
 -   건강보험(2년): 약 $6,000~$8,000
 -   총 예상 비용: 약 $187,000~$201,000 (한화 약 2억 5,000만~2억 7,000만 원)
 
@@ -239,7 +239,7 @@ Davis는 미국에서 가장 안전한 대학 도시로 자주 꼽힙니다. UC 
 
 ### c. 건강보험과 학생 지원 서비스
 
-UC Davis는 등록 학생 전원을 UC Student Health Insurance Plan(UC SHIP)에 자동 가입시키며, 의료·치과·안과 보험이 포함됩니다. Student Health and Counseling Services(SHCS)에서는 일반 진료와 정신건강 상담, 약국 서비스를 캠퍼스 안에서 받을 수 있습니다. 국제 학생을 위한 Services for International Students and Scholars(SISS)는 비자 문제와 문화 적응, 세무 지원까지 챙겨 줍니다.
+UC Davis는 등록 학생 전원을 UC Student Health Insurance Plan(UC SHIP)에 자동 가입시키며, 의료, 치과, 안과 보험이 포함됩니다. Student Health and Counseling Services(SHCS)에서는 일반 진료와 정신건강 상담, 약국 서비스를 캠퍼스 안에서 받을 수 있습니다. 국제 학생을 위한 Services for International Students and Scholars(SISS)는 비자 문제와 문화 적응, 세무 지원까지 챙겨 줍니다.
 
 ### d. 비자와 졸업 후 취업 경로
 
@@ -254,7 +254,7 @@ STEM OPT 36개월이면 H-1B 추첨에 최대 세 번까지 도전할 여유가 
 
 ## 6\. 결론
 
-UC Davis Graduate School of Management는 UC 시스템의 학문적 명성과 STEM 지정 MBA, 그리고 Wine Industry·Agribusiness·Biotechnology로 대표되는 독보적인 Specialization을 한데 묶어 냅니다.
+UC Davis Graduate School of Management는 UC 시스템의 학문적 명성과 STEM 지정 MBA, 그리고 Wine Industry, Agribusiness, Biotechnology로 대표되는 독보적인 Specialization을 한데 묶어 냅니다.
 
 약 50명의 소규모 코호트, Bay Area와 Sacramento로 열린 접근성, 합리적인 UC 공립 학비 구조, STEM OPT로 얻는 최대 36개월의 미국 근무 기회. 이 조합은 한국인 MBA 지원자에게 좀처럼 거절하기 어려운 카드입니다. 졸업 후 Technology, Healthcare, Agriculture, Wine Industry 분야에서 글로벌 커리어를 그리는 학생에게 특히 잘 맞습니다.
 

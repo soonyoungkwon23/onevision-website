@@ -114,7 +114,7 @@ Auburn BSN에 마음을 정한 학생이라면, Pre-Nursing major로 학부 Earl
 
 ## 3\. 지원 준비와 전략
 
-Auburn BSN 합격은 두 관문으로 나뉩니다. 하나는 Auburn University 학부 입학(Pre-Nursing major), 다른 하나는 sophomore 가을의 Professional Phase 입학입니다. 앞 단계가 GPA와 SAT/ACT 중심의 quantitative 평가라면, 뒤 단계는 학업·resume·인터뷰·personal essay를 함께 보는 holistic review입니다. 준비 전략도 그만큼 이원화해야 합니다.
+Auburn BSN 합격은 두 관문으로 나뉩니다. 하나는 Auburn University 학부 입학(Pre-Nursing major), 다른 하나는 sophomore 가을의 Professional Phase 입학입니다. 앞 단계가 GPA와 SAT/ACT 중심의 quantitative 평가라면, 뒤 단계는 학업, resume, 인터뷰, personal essay를 함께 보는 holistic review입니다. 준비 전략도 그만큼 이원화해야 합니다.
 
 ### a. GPA 조건
 

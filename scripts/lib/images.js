@@ -6,10 +6,10 @@ const { escapeHtml } = require("./template");
 
 // Per-category theming: shared burgundy family, distinct accent + icon.
 const THEME = {
-  bsn: { g1: "#8f1631", g2: "#490b1b", accent: "#f2acc0", kicker: "BSN · 미국 간호대학", pill: "BSN 간호대학", icon: "pulse" },
-  mba: { g1: "#6d1228", g2: "#3a0e1e", accent: "#ecc888", kicker: "MBA · 미국 경영대학원", pill: "MBA", icon: "chart" },
-  column: { g1: "#472742", g2: "#271327", accent: "#cdb4dc", kicker: "칼럼 · 유학 인사이트", pill: "칼럼", icon: "doc" },
-  visa: { g1: "#5a2748", g2: "#2a1024", accent: "#9fd8c8", kicker: "비자·이민 · 미국 취업 이민 루트", pill: "비자·이민", icon: "plane" },
+  bsn: { g1: "#8f1631", g2: "#490b1b", accent: "#f2acc0", kicker: "BSN 미국 간호대학", pill: "BSN 간호대학", icon: "pulse" },
+  mba: { g1: "#6d1228", g2: "#3a0e1e", accent: "#ecc888", kicker: "MBA 미국 경영대학원", pill: "MBA", icon: "chart" },
+  column: { g1: "#472742", g2: "#271327", accent: "#cdb4dc", kicker: "칼럼, 유학 인사이트", pill: "칼럼", icon: "doc" },
+  visa: { g1: "#5a2748", g2: "#2a1024", accent: "#9fd8c8", kicker: "비자와 이민, 미국 취업 루트", pill: "비자와 이민", icon: "plane" },
 };
 
 // Line-icon path data drawn in a 0 0 24 24 box, stroked with currentColor.
@@ -83,7 +83,7 @@ function heroSvg(post) {
     </g>
     <g font-family="'Pretendard Variable', system-ui, sans-serif">
       <text x="72" y="386" fill="${t.accent}" font-size="18" font-weight="700" letter-spacing="1">JTC</text>
-      <text x="112" y="386" fill="#ffffff" opacity="0.6" font-size="16" font-weight="500">OneVision Consulting · 미국 유학·이민 컨설팅</text>
+      <text x="112" y="386" fill="#ffffff" opacity="0.6" font-size="16" font-weight="500">OneVision Consulting, 미국 유학과 이민 컨설팅</text>
     </g>
   </g>
 </svg>`;
@@ -122,9 +122,9 @@ function bandSvg(post) {
   const t = theme(post.category);
   const uid = `b-${post.category}-${post.slug}`;
   const pillars = [
-    { icon: "target", title: "합격 전략", sub: "GPA · 시험 · 에세이 · 마감" },
-    { icon: "coin", title: "비용 · 재정", sub: "학비 · 장학금 · 총비용" },
-    { icon: "plane", title: "비자 · 취업 경로", sub: "OPT · 스폰서 · 영주권" },
+    { icon: "target", title: "합격 전략", sub: "GPA, 시험, 에세이, 마감" },
+    { icon: "coin", title: "비용과 재정", sub: "학비, 장학금, 총비용" },
+    { icon: "plane", title: "비자와 취업 경로", sub: "OPT, 스폰서, 영주권" },
   ];
   const col = (p, cx) => `
     <g transform="translate(${cx} 0)">

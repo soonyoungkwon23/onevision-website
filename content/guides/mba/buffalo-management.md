@@ -64,7 +64,7 @@ UB Full-time MBA 커리큘럼은 51학점으로 짜여 있습니다. 핵심 비�
 -   Health Care Management: 의료 산업의 경영과 정책을 학습합니다.
 -   Supply Chain Management: 글로벌 공급망과 물류 최적화를 다룹니다.
 -   International Management: 글로벌 비즈니스 전략과 다문화 경영을 학습합니다.
--   Life Science Entrepreneurship: 바이오테크·제약 산업의 창업과 경영을 다룹니다.
+-   Life Science Entrepreneurship: 바이오테크와 제약 산업의 창업과 경영을 다룹니다.
 
 LeaderCORE는 2년에 걸쳐 진행되는 리더십 자격 인증 과정입니다. 특정 학생만 골라 참여시키는 것이 아니라 MBA 학생 전원에게 체계적인 리더십 개발 기회를 열어 둡니다. Center for Entrepreneurial Leadership과 Center for Global Health Equity는 산업 연계 프로젝트와 기업 자문 기회가 실제로 굴러가는 핵심 플랫폼입니다.
 
@@ -74,12 +74,12 @@ Full-time MBA의 2025-2026 비용을 항목별로 살펴보겠습니다.
 
 -   연 학비(New York 거주자): 약 $24,390
 -   연 학비(비거주자/국제 학생): 약 $41,096
--   기숙사·생활비(2년 기준): 약 $32,000~$36,000
+-   기숙사, 생활비(2년 기준): 약 $32,000~$36,000
 -   교재 및 기타: 약 $3,000~$4,000
 -   건강보험: 약 $3,500~$4,500
 -   총 예상 비용(국제 학생, 2년): 약 $115,000~$130,000
 
-정리하면 총 $120,000 안팎입니다. STEM-designated MBA 프로그램 중에서는 가장 경제적인 수준에 해당합니다. 여기에 STEM 지정이 가져오는 24개월 추가 OPT의 가치, 그리고 Buffalo Niagara·Toronto·New York City 권역의 다양한 산업 기회까지 셈에 넣으면, UB MBA가 한국인 지원자에게 안기는 ROI는 상당합니다.
+정리하면 총 $120,000 안팎입니다. STEM-designated MBA 프로그램 중에서는 가장 경제적인 수준에 해당합니다. 여기에 STEM 지정이 가져오는 24개월 추가 OPT의 가치, 그리고 Buffalo Niagara, Toronto, New York City 권역의 다양한 산업 기회까지 셈에 넣으면, UB MBA가 한국인 지원자에게 안기는 ROI는 상당합니다.
 
 ## 2\. 입학과정
 
@@ -116,7 +116,7 @@ UB School of Management의 심사는 어느 한 지표에 매달리지 않습니
 UB School of Management Full-time MBA 지원에 필요한 서류와 요건은 다음과 같습니다.
 
 -   4년제 학사 학위 (정식 인증 대학)
--   GMAT 또는 GRE 점수 (Waiver 가능 — 아래 조건 참조)
+-   GMAT 또는 GRE 점수 (Waiver 가능: 아래 조건 참조)
 -   공인 영어 시험 점수 (TOEFL iBT 79+, IELTS 6.5+ 또는 동등 시험)
 -   대학 성적 증명서 및 WES 평가서(국제 학생)
 -   Statement of Purpose / Personal Essay
@@ -126,15 +126,15 @@ UB School of Management Full-time MBA 지원에 필요한 서류와 요건은 �
 
 ## 3\. 지원 준비와 전략
 
-이 학교가 지원자에게서 보고자 하는 것은 학업 역량과 STEM-지향 분석력, 그 두 가지의 균형입니다. SUNY 시스템 최초의 STEM-designated MBA라는 정체성에 걸맞게, 데이터·분석·기술을 향한 커리어 비전을 얼마나 설득력 있게 그려내느냐가 당락을 가릅니다.
+이 학교가 지원자에게서 보고자 하는 것은 학업 역량과 STEM-지향 분석력, 그 두 가지의 균형입니다. SUNY 시스템 최초의 STEM-designated MBA라는 정체성에 걸맞게, 데이터, 분석, 기술을 향한 커리어 비전을 얼마나 설득력 있게 그려내느냐가 당락을 가릅니다.
 
 ### a. GPA 조건
 
 입학생 평균 GPA는 3.39입니다. 경쟁력을 가늠하는 기준선은 다음과 같습니다.
 
--   강력한 경쟁력: GPA 3.6 이상 — 학업 역량에서 확실한 강점을 보여줍니다.
--   충분히 경쟁력: GPA 3.4 이상 — 평균 수준으로 안정적인 경쟁력입니다.
--   보완 가능: GPA 3.0 이상 — 강한 GMAT 점수와 직무 경력으로 보완 가능합니다.
+-   강력한 경쟁력: GPA 3.6 이상. 학업 역량에서 확실한 강점을 보여줍니다.
+-   충분히 경쟁력: GPA 3.4 이상. 평균 수준으로 안정적인 경쟁력입니다.
+-   보완 가능: GPA 3.0 이상. 강한 GMAT 점수와 직무 경력으로 보완 가능합니다.
 
 특히 눈여겨보는 것은 정량적 과목의 성적입니다. 수학, 통계, 회계, 경제학, 컴퓨터 과학에서 받은 학점을 유심히 살핍니다. STEM-MBA인 만큼 분석 능력을 입증하라는 요구가 강하기 때문에, 이런 과목에서 좋은 성적을 남기지 못한 지원자라면 GMAT 점수나 직무 경험으로 분석력을 대신 증명해야 합니다.
 
@@ -142,9 +142,9 @@ UB School of Management Full-time MBA 지원에 필요한 서류와 요건은 �
 
 입학생 평균 GMAT은 599입니다. 목표를 잡을 때 참고할 구간은 다음과 같습니다.
 
--   강력한 경쟁력: GMAT 650 이상 / GRE 320 이상 — 장학금 수혜 가능성이 높아집니다.
--   충분히 경쟁력: GMAT 600 이상 / GRE 310 이상 — 평균 수준으로 안정적입니다.
--   보완 가능: GMAT 550 이상 / GRE 300 이상 — 강한 GPA·경력으로 보완 가능합니다.
+-   강력한 경쟁력: GMAT 650 이상 / GRE 320 이상. 장학금 수혜 가능성이 높아집니다.
+-   충분히 경쟁력: GMAT 600 이상 / GRE 310 이상. 평균 수준으로 안정적입니다.
+-   보완 가능: GMAT 550 이상 / GRE 300 이상. 강한 GPA, 경력으로 보완 가능합니다.
 
 **GMAT/GRE Waiver 조건:**
 
@@ -159,10 +159,10 @@ UB School of Management Full-time MBA 지원에 필요한 서류와 요건은 �
 
 UB School of Management MBA 에세이는 다음 요소로 구성됩니다.
 
--   Statement of Purpose / Personal Essay (500~750 단어): 단기·장기 커리어 목표, MBA가 필요한 이유, UB School of Management를 선택한 이유, STEM 지향성과의 적합성
+-   Statement of Purpose / Personal Essay (500~750 단어): 단기와 장기 커리어 목표, MBA가 필요한 이유, UB School of Management를 선택한 이유, STEM 지향성과의 적합성
 -   Optional Essay: 학업이나 경력에서 보충 설명이 필요한 사항이 있을 경우 별도 작성 가능
 
-한국인 지원자에게 권하는 전략은 네 갈래입니다. 먼저 UB MBA의 STEM 지정과 LeaderCORE 프로그램에 대한 관심을 두루뭉술하지 않게, 구체적으로 표현하세요. 다음으로 한국에서 쌓은 직무 경험 속에서 데이터·분석·기술 지향적 역량을 끄집어내 강조하세요. 그리고 Buffalo Niagara·Toronto·New York City 권역의 산업 환경과 자신의 커리어 목표를 촘촘하게 연결하세요. 마지막으로 Health Care Management, Information Systems, Life Science Entrepreneurship처럼 UB만의 차별화된 STEM 트랙을 발판 삼아 졸업 후 커리어 비전을 또렷하게 제시하세요.
+한국인 지원자에게 권하는 전략은 네 갈래입니다. 먼저 UB MBA의 STEM 지정과 LeaderCORE 프로그램에 대한 관심을 두루뭉술하지 않게, 구체적으로 표현하세요. 다음으로 한국에서 쌓은 직무 경험 속에서 데이터, 분석, 기술 지향적 역량을 끄집어내 강조하세요. 그리고 Buffalo Niagara, Toronto, New York City 권역의 산업 환경과 자신의 커리어 목표를 촘촘하게 연결하세요. 마지막으로 Health Care Management, Information Systems, Life Science Entrepreneurship처럼 UB만의 차별화된 STEM 트랙을 발판 삼아 졸업 후 커리어 비전을 또렷하게 제시하세요.
 
 ### d. 추천서 전략
 
@@ -227,7 +227,7 @@ University at Buffalo 동문 네트워크는 규모부터 압도적입니다. �
 Full-time MBA 2년 과정의 총 예상 비용을 정리했습니다.
 
 -   학비(국제 학생, 2년): 약 $82,000
--   기숙사·생활비(2년): 약 $32,000~$36,000
+-   기숙사, 생활비(2년): 약 $32,000~$36,000
 -   교재 및 기타: 약 $3,000~$4,000
 -   건강보험: 약 $3,500~$4,500
 -   총 예상 비용: 약 $120,000~$130,000 (한화 약 1억 6,000만~1억 7,000만 원)
@@ -250,7 +250,7 @@ University at Buffalo는 등록 학생 전원에게 Student Health Insurance Pla
 -   STEM OPT: UB MBA는 STEM-designated이므로 24개월 추가 OPT가 자동 적용됩니다(총 36개월).
 -   H-1B Visa: STEM OPT 36개월 동안 고용주 스폰서를 통해 취업 비자 전환 가능.
 -   CPT: 재학 중 인턴십(여름 인턴십 등)을 위한 취업 허가.
--   TN Visa(캐나다): Toronto·캐나다 취업 시 활용 가능한 NAFTA 비자입니다.
+-   TN Visa(캐나다): Toronto, 캐나다 취업 시 활용 가능한 NAFTA 비자입니다.
 
 핵심은 36개월이라는 시간입니다. STEM 지정으로 확보되는 36개월의 OPT 기간은 국제 학생이 H-1B 추첨에 여러 번 도전할 수 있는 여유를 만들어 줍니다. 여기에 Buffalo Niagara와 Toronto 권역의 두터운 산업 기반까지 더해지니, 미국과 캐나다 양쪽에 커리어를 뿌리내리기에 이만한 환경도 드뭅니다.
 
@@ -258,9 +258,9 @@ University at Buffalo는 등록 학생 전원에게 Student Health Insurance Pla
 
 University at Buffalo School of Management는 1923년에 문을 열어 100년 넘게 이어져 온 비즈니스 스쿨입니다. AAU 회원 R1 연구중심 대학교의 학문적 깊이와 SUNY 시스템 최초 STEM-designated MBA의 실용적 가치, 이 둘을 한데 묶은 프로그램을 내놓습니다.
 
-비거주자 기준 약 $41,096의 학비, 약 66%의 합리적 합격률, 그리고 STEM 지정으로 따라오는 36개월 OPT. 이 세 가지만으로도 한국인 MBA 지원자에게는 실질적인 값어치가 충분합니다. 무엇보다 Buffalo Niagara·Toronto·New York City 권역의 다양한 산업 기반과 글로벌 접근성은 다른 학교가 쉽게 흉내 낼 수 없는 UB MBA만의 강점입니다.
+비거주자 기준 약 $41,096의 학비, 약 66%의 합리적 합격률, 그리고 STEM 지정으로 따라오는 36개월 OPT. 이 세 가지만으로도 한국인 MBA 지원자에게는 실질적인 값어치가 충분합니다. 무엇보다 Buffalo Niagara, Toronto, New York City 권역의 다양한 산업 기반과 글로벌 접근성은 다른 학교가 쉽게 흉내 낼 수 없는 UB MBA만의 강점입니다.
 
-강점을 한 줄로 압축하면 이렇습니다. AACSB 인증, AAU 회원 공립 R1 연구중심 대학, SUNY 최초 STEM-designated MBA, LeaderCORE 리더십 프로그램, Out-of-State Tuition Waiver, GA/GTA, Niagara Falls·Toronto·NYC 글로벌 접근성, 100년 동문 유대감, 24개월 STEM OPT 자동 적용.
+강점을 한 줄로 압축하면 이렇습니다. AACSB 인증, AAU 회원 공립 R1 연구중심 대학, SUNY 최초 STEM-designated MBA, LeaderCORE 리더십 프로그램, Out-of-State Tuition Waiver, GA/GTA, Niagara Falls, Toronto, NYC 글로벌 접근성, 100년 동문 유대감, 24개월 STEM OPT 자동 적용.
 
 STEM 지향 커리어를 세우려는 학생, 비용 대비 효율이 좋은 미국 MBA를 찾는 학생, 미국과 캐나다를 아우르는 글로벌 커리어를 그리는 학생. UB MBA는 이 세 부류 모두에게 최적의 선택지입니다. 전략적인 준비로 여러분의 MBA 목표를 이루시기 바랍니다.
 

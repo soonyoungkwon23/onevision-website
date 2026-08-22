@@ -244,7 +244,7 @@ Loyola University Chicago Marcella Niehoff School of Nursing은 미국 28개 Jes
 
 한국 학생에게 이 학교가 잘 맞는 이유는 결국 몇 가지로 모입니다. 고교 졸업과 동시에 2차 지원 없이 전공이 확정되는 direct admit의 명확함, 96.36%라는 NCLEX 첫 응시 합격률, Lake Shore Campus와 Maywood Health Sciences Campus를 오가는 dual-campus 학습 환경, 신규 RN 평균 초임 $76,869라는 든든한 첫 보상, 그리고 RN의 Schedule A EB-3 영주권 경로와 Loyola University Medical Center의 cap-exempt H-1B 가능성이 맞물린다는 점입니다. 졸업 이후에는 BLS 중위 연봉 $86,070와 매년 19만 개 이상 열리는 신규 일자리가 사립대 학비 회수와 장기 안정성을 받쳐 줍니다.
 
-강점을 다시 압축하면 이렇습니다. 미국 Jesuit 가톨릭 28개 종합대학 중 하나라는 가치 기반 정체성과 cura personalis 철학, NCLEX 첫 응시 96.36%와 신규 평균 초임 $76,869, Loyola Medicine·Lurie Children's·Northwestern·Rush로 이어지는 시카고 대도시권 최고 임상 자원, Lake Shore와 Health Sciences 두 캠퍼스를 잇는 통합 학습, RN의 Schedule A EB-3 영주권 경로와 Loyola Medicine의 cap-exempt H-1B 듀얼 트랙, 자동 심사되는 Loyola Chicago Merit Scholarship $20,000~$34,000, 그리고 비간호 학사 보유자를 위한 16개월 Accelerated BSN. 한 가지 유의할 점은, 국제 학생에게 need-based 지원이 제한적인 만큼 merit 장학금 확보 전략을 반드시 챙겨야 한다는 것입니다.
+강점을 다시 압축하면 이렇습니다. 미국 Jesuit 가톨릭 28개 종합대학 중 하나라는 가치 기반 정체성과 cura personalis 철학, NCLEX 첫 응시 96.36%와 신규 평균 초임 $76,869, Loyola Medicine, Lurie Children's, Northwestern, Rush로 이어지는 시카고 대도시권 최고 임상 자원, Lake Shore와 Health Sciences 두 캠퍼스를 잇는 통합 학습, RN의 Schedule A EB-3 영주권 경로와 Loyola Medicine의 cap-exempt H-1B 듀얼 트랙, 자동 심사되는 Loyola Chicago Merit Scholarship $20,000~$34,000, 그리고 비간호 학사 보유자를 위한 16개월 Accelerated BSN. 한 가지 유의할 점은, 국제 학생에게 need-based 지원이 제한적인 만큼 merit 장학금 확보 전략을 반드시 챙겨야 한다는 것입니다.
 
 안정적인 전문직, 빠른 영주권 경로, Jesuit 가치에 뿌리를 둔 service-oriented 교육, 그리고 사람을 돌보는 의미 있는 caring profession. 이 네 가지를 한꺼번에 원하는 한국 학생에게 Loyola University Chicago Marcella Niehoff School of Nursing은 미국 BSN 진학의 유력한 답이 됩니다. 4년 뒤 RN 면허를 손에 쥐고 미국 의료 현장에 발을 들이는 길은 분명히 열려 있습니다. 그 첫 단추가 바로 잘 준비된 지원서입니다.
 

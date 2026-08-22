@@ -34,7 +34,7 @@ School of Business Administration은 AACSB International 인증을 보유한 미
 
 Oxford는 Mississippi 주 북부에 위치한 인구 약 27,000명의 대학 도시로, Memphis(Tennessee)에서 남쪽으로 차로 약 1시간 거리입니다. USA Today, Forbes, Travel + Leisure가 '미국 최고의 대학 도시' 중 하나로 자주 꼽는 곳이며, 활기찬 다운타운 광장(The Square), 독립 서점, 남부 요리 레스토랑, 라이브 음악 문화가 어우러집니다. 월 렌트비가 $700~$1,100 수준으로 미국 평균을 크게 밑돌아, MBA 기간 내내 생활비 부담을 눌러줍니다.
 
-Memphis 대도시권은 인구 약 130만 명의 미국 중남부 핵심 경제 거점입니다. FedEx 본사를 비롯해 AutoZone, International Paper, ServiceMaster, First Horizon Bank 같은 Fortune 500 기업이 이곳에 자리합니다. Mississippi 주 안에도 Sanderson Farms, Cal-Maine Foods 등 주요 식품·농업 기업이 포진해 있습니다. Memphis International Airport와 Tupelo Regional Airport를 통해 미국 주요 도시로 연결됩니다.
+Memphis 대도시권은 인구 약 130만 명의 미국 중남부 핵심 경제 거점입니다. FedEx 본사를 비롯해 AutoZone, International Paper, ServiceMaster, First Horizon Bank 같은 Fortune 500 기업이 이곳에 자리합니다. Mississippi 주 안에도 Sanderson Farms, Cal-Maine Foods 등 주요 식품과 농업 기업이 포진해 있습니다. Memphis International Airport와 Tupelo Regional Airport를 통해 미국 주요 도시로 연결됩니다.
 
 캠퍼스는 약 1,200에이커에 이르는 넓은 부지 위에 펼쳐지며, 그 중심에 최첨단 비즈니스 교육 시설을 갖춘 Holman Hall이 있습니다. Bloomberg Terminal Lab, Behavioral Lab, 팀 기반 학습 공간 등 실무형 교육에 최적화된 인프라가 마련되어 있습니다. 우아한 남부 건축 양식의 건물들과, 미국 최고의 캠퍼스 명소로 꼽히는 The Grove가 이곳만의 분위기를 완성합니다.
 
@@ -71,7 +71,7 @@ Full-time MBA의 2025-2026 비용은 다음과 같습니다.
 
 -   총 학비(Mississippi 거주자, 36학점): 약 $25,914
 -   총 학비(비거주자/국제 학생, 36학점): 약 $40,000~$45,000
--   기숙사·생활비(14개월 기준): 약 $14,000~$18,000
+-   기숙사, 생활비(14개월 기준): 약 $14,000~$18,000
 -   교재 및 기타: 약 $2,000~$3,000
 -   건강보험: 약 $2,500~$3,500
 -   총 예상 비용(국제 학생, 14개월): 약 $58,000~$70,000
@@ -111,7 +111,7 @@ Ole Miss MBA는 Fall 학기에만 신입생을 받습니다. 장학금과 Gradua
 Full-time MBA 지원에 필요한 서류와 요건은 다음과 같습니다.
 
 -   4년제 학사 학위 (정식 인증 대학)
--   GMAT 또는 GRE 점수 (Waiver 가능 — 아래 조건 참조)
+-   GMAT 또는 GRE 점수 (Waiver 가능: 아래 조건 참조)
 -   공인 영어 시험 점수 (TOEFL iBT 79+ 또는 IELTS 6.5+)
 -   대학 성적 증명서
 -   Personal Statement / Statement of Purpose
@@ -127,9 +127,9 @@ Full-time MBA 지원에 필요한 서류와 요건은 다음과 같습니다.
 
 입학생 평균 GPA는 3.16입니다. 경쟁력을 구간별로 나눠 보면 다음과 같습니다.
 
--   강력한 경쟁력: GPA 3.5 이상 — GMAT/GRE Waiver 자격을 자동 충족합니다.
--   충분히 경쟁력: GPA 3.2 이상 — 평균 수준으로 안정적인 경쟁력입니다.
--   보완 가능: GPA 3.0 이상 — 강한 GMAT 점수와 직무 경력으로 보완 가능합니다.
+-   강력한 경쟁력: GPA 3.5 이상. GMAT/GRE Waiver 자격을 자동 충족합니다.
+-   충분히 경쟁력: GPA 3.2 이상. 평균 수준으로 안정적인 경쟁력입니다.
+-   보완 가능: GPA 3.0 이상. 강한 GMAT 점수와 직무 경력으로 보완 가능합니다.
 
 특히 수학, 통계, 회계, 경제학 같은 정량적 과목의 학점이 무겁게 평가됩니다. 최근 60학점 GPA가 3.5 이상이면 GMAT/GRE Waiver 자격이 자동으로 충족되므로, 학부 후반에 성적을 끌어올린 지원자라면 그 흐름을 전면에 내세우는 편이 유리합니다.
 
@@ -137,15 +137,15 @@ Full-time MBA 지원에 필요한 서류와 요건은 다음과 같습니다.
 
 입학생 평균 GMAT은 532입니다. 구간별 경쟁력은 다음과 같습니다.
 
--   강력한 경쟁력: GMAT 600 이상 / GRE 310 이상 — 장학금 수혜 가능성이 높아집니다.
--   충분히 경쟁력: GMAT 530 이상 / GRE 305 이상 — 평균 수준으로 안정적입니다.
+-   강력한 경쟁력: GMAT 600 이상 / GRE 310 이상. 장학금 수혜 가능성이 높아집니다.
+-   충분히 경쟁력: GMAT 530 이상 / GRE 305 이상. 평균 수준으로 안정적입니다.
 -   최소 요건: GMAT 485 이상 / GRE 302(Verbal+Quantitative 합계) 이상
 
 **GMAT/GRE Waiver 조건:**
 
 -   학부 전체 GPA 3.5 이상
 -   최근 60학점의 GPA 3.5 이상
--   기타 사례별 검토(예: 직무 경험·전문 자격증)
+-   기타 사례별 검토(예: 직무 경험과 전문 자격증)
 
 이 Waiver의 유연함이 Ole Miss MBA의 큰 매력입니다. 학부 GPA가 3.5 이상이면 Waiver 자격이 자동 충족되므로, 한국인 지원자는 영어권 시험 부담 없이 지원할 수 있습니다. 다만 장학금을 노린다면 GMAT 600점 이상의 점수를 제출하는 편이 유리할 수 있다는 점은 기억해 두시기 바랍니다.
 
@@ -153,7 +153,7 @@ Full-time MBA 지원에 필요한 서류와 요건은 다음과 같습니다.
 
 Ole Miss MBA Personal Statement는 다음 두 요소로 구성됩니다.
 
--   Personal Statement / Statement of Purpose (500~750 단어): 단기·장기 커리어 목표, MBA가 필요한 이유, Ole Miss를 선택한 이유
+-   Personal Statement / Statement of Purpose (500~750 단어): 단기와 장기 커리어 목표, MBA가 필요한 이유, Ole Miss를 선택한 이유
 -   Optional Essay: 학업이나 경력에서 보충 설명이 필요한 사항이 있을 경우 별도 작성 가능
 
 한국인 지원자가 붙잡아야 할 핵심은 네 갈래입니다. 먼저 14개월 가속 과정과 합리적 비용에 대한 구체적 관심을 분명히 드러내십시오. 이어 한국에서 쌓은 직무 경험이 Ole Miss MBA 코호트에 어떤 다양성과 글로벌 관점을 더할 수 있는지 짚어주십시오. 그리고 Memphis-Mississippi 권역의 산업 환경(FedEx, AutoZone, Sanderson Farms 등)과 자신의 졸업 후 커리어 비전을 구체적으로 이어 붙이십시오. 마지막으로 MBA/MAcc나 MBA/MS-Engineering 같은 Ole Miss만의 복수 학위 옵션을 활용한 커리어 계획을 또렷하게 제시하시기 바랍니다.
@@ -205,9 +205,9 @@ Ole Miss MBA 졸업생의 취업 성과는 다음과 같습니다.
 -   주요 취업 산업: Finance, Logistics, Consumer Goods, Healthcare, Manufacturing
 -   주요 채용 지역: Memphis, Atlanta, Nashville, Dallas, 전국
 
-Memphis-Mississippi 권역의 Fortune 500 기업인 FedEx, AutoZone, International Paper, ServiceMaster, First Horizon Bank, Sanderson Farms, Cal-Maine Foods, Renasant Bank, BancorpSouth가 정기적으로 Ole Miss MBA를 채용합니다. 여기에 Deloitte, EY, KPMG 같은 회계·컨설팅 펌과 Bank of America, Wells Fargo 같은 금융 기관도 채용 대열에 함께합니다.
+Memphis-Mississippi 권역의 Fortune 500 기업인 FedEx, AutoZone, International Paper, ServiceMaster, First Horizon Bank, Sanderson Farms, Cal-Maine Foods, Renasant Bank, BancorpSouth가 정기적으로 Ole Miss MBA를 채용합니다. 여기에 Deloitte, EY, KPMG 같은 회계와 컨설팅 펌과 Bank of America, Wells Fargo 같은 금융 기관도 채용 대열에 함께합니다.
 
-Career Services Office는 1:1 Career Coaching, 이력서·커버레터 컨설팅, 모의 인터뷰, 산업별 채용 박람회를 제공합니다. 특히 SEC Conference 동문 네트워크는 미국 남부 전역에 걸친 풍부한 산업 기회로 이어집니다.
+Career Services Office는 1:1 Career Coaching, 이력서와 커버레터 컨설팅, 모의 인터뷰, 산업별 채용 박람회를 제공합니다. 특히 SEC Conference 동문 네트워크는 미국 남부 전역에 걸친 풍부한 산업 기회로 이어집니다.
 
 ### c. 알럼나이 네트워크
 
@@ -220,7 +220,7 @@ University of Mississippi 동문 네트워크는 약 130,000명 이상 규모로
 Full-time MBA 14개월 과정의 총 예상 비용은 다음과 같습니다.
 
 -   학비(국제 학생, 36학점): 약 $40,000~$45,000
--   기숙사·생활비(14개월): 약 $14,000~$18,000
+-   기숙사, 생활비(14개월): 약 $14,000~$18,000
 -   교재 및 기타: 약 $2,000~$3,000
 -   건강보험: 약 $2,500~$3,500
 -   총 예상 비용: 약 $58,000~$70,000 (한화 약 8,000만~9,500만 원)
@@ -250,11 +250,11 @@ Memphis 권역의 FedEx, AutoZone, International Paper 같은 대형 기업들�
 
 University of Mississippi School of Business Administration은 1848년 설립된 미국 남부 대표 공립 R1 연구중심 대학교 산하의 비즈니스 스쿨입니다. AACSB 인증의 14개월 가속 MBA와 남부 특유의 따뜻한 환대 문화가 만나, 다른 학교에서 보기 힘든 조합을 만들어 냅니다.
 
-거주자 기준 약 $25,914의 학비, 75% 감면을 안겨주는 Graduate Assistantship, 유연한 GMAT/GRE Waiver, 그리고 Memphis-Mississippi 권역의 풍부한 산업 기회까지 — 이 모든 것이 한국인 MBA 지원자에게 실질적인 가치로 돌아옵니다. 졸업 후 약 $110,000의 Median 연봉은 이 프로그램의 탁월한 ROI를 숫자로 보여줍니다.
+거주자 기준 약 $25,914의 학비, 75% 감면을 안겨주는 Graduate Assistantship, 유연한 GMAT/GRE Waiver, 그리고 Memphis-Mississippi 권역의 풍부한 산업 기회까지. 이 모든 것이 한국인 MBA 지원자에게 실질적인 가치로 돌아옵니다. 졸업 후 약 $110,000의 Median 연봉은 이 프로그램의 탁월한 ROI를 숫자로 보여줍니다.
 
-강점을 한자리에 모으면 이렇게 됩니다. AACSB 인증, R1 연구중심 대학, 기회 비용을 최소화하는 14개월 가속 MBA, 75% 학비 감면 GA, 유연한 GMAT/GRE Waiver, Out-of-State Tuition Waiver, FedEx·AutoZone·Sanderson Farms 산업 연계, Hotty Toddy 동문 네트워크, 그리고 합리적 학비와 ROI입니다.
+강점을 한자리에 모으면 이렇게 됩니다. AACSB 인증, R1 연구중심 대학, 기회 비용을 최소화하는 14개월 가속 MBA, 75% 학비 감면 GA, 유연한 GMAT/GRE Waiver, Out-of-State Tuition Waiver, FedEx, AutoZone, Sanderson Farms 산업 연계, Hotty Toddy 동문 네트워크, 그리고 합리적 학비와 ROI입니다.
 
-정리하면 Ole Miss MBA는 비용 효율적인 미국 MBA를 원하는 학생, Logistics·Finance·Consumer Goods 분야로 커리어를 설계하려는 학생, 남부의 따뜻한 환대 속에서 안정적인 학업과 가족 생활을 병행하고자 하는 학생에게 최적의 선택지입니다. 전략적인 준비로 여러분의 MBA 목표를 이뤄 나가시기 바랍니다.
+정리하면 Ole Miss MBA는 비용 효율적인 미국 MBA를 원하는 학생, Logistics, Finance, Consumer Goods 분야로 커리어를 설계하려는 학생, 남부의 따뜻한 환대 속에서 안정적인 학업과 가족 생활을 병행하고자 하는 학생에게 최적의 선택지입니다. 전략적인 준비로 여러분의 MBA 목표를 이뤄 나가시기 바랍니다.
 
 참고 링크:
 

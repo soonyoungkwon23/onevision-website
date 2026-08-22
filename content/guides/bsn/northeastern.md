@@ -265,7 +265,7 @@ Northeastern BSN 졸업생은 Boston 권역 학술의료시스템과 New England
 
 한국 학생에게 잘 맞는 이유는 결국 몇 가지로 수렴합니다. 미국 최대 학술의료 클러스터라는 Boston의 입지, 다른 BSN에는 없는 두 번의 6개월 유급 코업, Mass General Brigham과 Boston Children's Hospital 같은 Harvard 부속 학술의료시스템의 cap-exempt H-1B 활용 가능성, 매사추세츠 RN 전국 최상위권 실수령액, 그리고 RN의 Schedule A EB-3 영주권 경로가 한데 묶인다는 점입니다. 졸업 후에는 BLS 중위 연봉 $86,070와 매사추세츠 RN 평균 $104,000+의 안정적 노동 시장이 학비 회수와 장기 안정성을 떠받칩니다.
 
-무기를 한눈에 꼽자면 이렇습니다. 1898년 설립 사립 종합대학의 위상과 2026년 U.S. News 전국 33위, Boston 입지로 미국 최대 학술의료 클러스터에 곧바로 노출되는 환경, 다른 BSN에 없는 두 번의 6개월 유급 코업, Mass General Brigham·Boston Children's·Beth Israel Deaconess·Dana-Farber 등 Harvard 부속 시스템과의 임상 파트너십, ABSN 4개 캠퍼스(Boston, Charlotte, Burlington, Fall River)라는 선택지와 Charlotte $27,500·Burlington $16,500 자동 장학금, ABSN 약 91% NCLEX 첫 응시 합격률, RN의 Schedule A EB-3와 cap-exempt H-1B 듀얼 트랙, 그리고 매사추세츠 RN 전국 최상위 연봉입니다. 물론 그늘도 있습니다. 학부 합격률 약 6%의 살인적 경쟁률, Boston의 높은 생활비, 사립대 학비 부담은 미리 각오해 둬야 합니다.
+무기를 한눈에 꼽자면 이렇습니다. 1898년 설립 사립 종합대학의 위상과 2026년 U.S. News 전국 33위, Boston 입지로 미국 최대 학술의료 클러스터에 곧바로 노출되는 환경, 다른 BSN에 없는 두 번의 6개월 유급 코업, Mass General Brigham, Boston Children's, Beth Israel Deaconess, Dana-Farber 등 Harvard 부속 시스템과의 임상 파트너십, ABSN 4개 캠퍼스(Boston, Charlotte, Burlington, Fall River)라는 선택지와 Charlotte $27,500, Burlington $16,500 자동 장학금, ABSN 약 91% NCLEX 첫 응시 합격률, RN의 Schedule A EB-3와 cap-exempt H-1B 듀얼 트랙, 그리고 매사추세츠 RN 전국 최상위 연봉입니다. 물론 그늘도 있습니다. 학부 합격률 약 6%의 살인적 경쟁률, Boston의 높은 생활비, 사립대 학비 부담은 미리 각오해 둬야 합니다.
 
 안정적 전문직, 빠른 영주권 경로, 세계적 학술의료 시장으로의 직행, 명문 사립대의 학술 위상을 한꺼번에 손에 쥐고 싶은 한국 학생에게 Northeastern University School of Nursing은 미국 BSN 진학의 강력한 카드입니다. 재학 중 코업으로 이미 Boston 학술의료시스템과 인연을 만들어 두고, 졸업할 때 RN 면허와 영주권 경로를 동시에 챙기는 길이 분명히 열려 있습니다. 그 출발점은 결국 잘 다듬어진 지원서 한 부입니다.
 

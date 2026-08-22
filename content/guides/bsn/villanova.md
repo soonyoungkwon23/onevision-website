@@ -8,7 +8,7 @@ universityKo: 빌라노바대학교
 schoolEn: M. Louise Fitzpatrick College of Nursing
 description: >-
   2026년 U.S. News 공동 22위 Villanova M. Louise Fitzpatrick College of Nursing BSN.
-  1학년부터 간호 전공 확정 direct admit, CHOP·Penn Medicine 임상, Schedule A EB-3 영주권 경로까지
+  1학년부터 간호 전공 확정 direct admit, CHOP, Penn Medicine 임상, Schedule A EB-3 영주권 경로까지
   정리했습니다.
 status: published
 order: 104
@@ -17,7 +17,7 @@ updatedDate: null
 enhancedDate: '2026-07-13'
 ---
 
-한국 가정이 미국 BSN 진학에서 가장 두려워하는 시나리오는 '입학은 했는데 정작 간호 전공에는 못 들어가는' 상황입니다. Villanova University M. Louise Fitzpatrick College of Nursing은 이 위험을 구조적으로 없앴습니다. 1학년부터 별도의 2차 전공 선발 없이 간호 전공으로 확정 입학하는 direct admit 모델이기 때문입니다. Philadelphia에서 서쪽으로 약 20km 떨어진 Villanova(PA)에 자리한 이 학교는 1842년 Augustinian 수도회가 세운 사립 가톨릭 명문대의 핵심 단과대학으로, 2026년 U.S. News National Universities 랭킹에서 공동 22위권에 올라 있습니다. 시그니처 가치인 Veritas, Unitas, Caritas(진리, 일치, 사랑)의 Augustinian 철학은 한국 가정이 중시하는 학문 윤리·인성 교육과 결이 맞고, 미국 학부 BSN 중에서도 가족 친화적 분위기로 정평이 나 있습니다.
+한국 가정이 미국 BSN 진학에서 가장 두려워하는 시나리오는 '입학은 했는데 정작 간호 전공에는 못 들어가는' 상황입니다. Villanova University M. Louise Fitzpatrick College of Nursing은 이 위험을 구조적으로 없앴습니다. 1학년부터 별도의 2차 전공 선발 없이 간호 전공으로 확정 입학하는 direct admit 모델이기 때문입니다. Philadelphia에서 서쪽으로 약 20km 떨어진 Villanova(PA)에 자리한 이 학교는 1842년 Augustinian 수도회가 세운 사립 가톨릭 명문대의 핵심 단과대학으로, 2026년 U.S. News National Universities 랭킹에서 공동 22위권에 올라 있습니다. 시그니처 가치인 Veritas, Unitas, Caritas(진리, 일치, 사랑)의 Augustinian 철학은 한국 가정이 중시하는 학문 윤리와 인성 교육과 결이 맞고, 미국 학부 BSN 중에서도 가족 친화적 분위기로 정평이 나 있습니다.
 
 그렇다면 한국 학생과 가정이 왜 이 학교에 주목해야 할까요. 우선 임상 자원의 깊이가 남다릅니다. Children's Hospital of Philadelphia(CHOP), Penn Medicine, Main Line Health, Jefferson Health, Temple Health 등 Philadelphia 권역 최상위 학술의료시스템 5곳 이상에 학부 시절부터 실습으로 접근할 수 있습니다. 커리어 안정성도 강력한 무기입니다. RN은 미국 노동부 Schedule A 직종이라 PERM 노동인증 없이 EB-3 영주권 후원이 가능하고, BLS 2024년 RN 중위 연봉 약 $86,070, Philadelphia 권역 RN 평균 $85,000~$95,000(추정)의 탄탄한 노동 시장이 학비 회수를 뒷받침합니다. 무엇보다 현실적입니다. Penn 등 Ivy에 비해 합격률과 국제 학생 접근성이 상대적으로 높아, 명문 인근 사립 BSN 중 실제로 도전해볼 만한 최상위권 옵션입니다.
 
@@ -25,7 +25,7 @@ enhancedDate: '2026-07-13'
 
 Villanova University는 1842년 Augustinian 수도회가 설립한 사립 가톨릭 명문대학이고, M. Louise Fitzpatrick College of Nursing은 1953년에 문을 연 70년 이상 역사의 간호 단과대학입니다. 2026년 U.S. News National Universities 랭킹 공동 22위권, 학부 BSN 분야에서도 미국 동부 사립 BSN 중 손꼽히는 명문으로 통합니다. 학위 트랙은 BSN에서 시작해 ABSN(Second Degree Accelerated BSN), RN-BSN, MSN, DNP, PhD까지 전 과정을 아우릅니다.
 
-차별점을 딱 두 가지로 압축하면, Augustinian 철학에 뿌리를 둔 학생 개별 케어 문화와 Philadelphia 권역 학술의료시스템과의 광범위한 임상 파트너십입니다. Veritas(진리), Unitas(일치), Caritas(사랑)는 벽에 걸린 모토가 아니라 커리큘럼 설계, 학생 멘토링, 임상 윤리 교육에 실제로 녹아 있어, 한국 가정이 중시하는 도덕성·학문적 성실성 교육과 자연스럽게 맞물립니다. 임상 쪽으로 눈을 돌리면 Children's Hospital of Philadelphia(CHOP), Penn Medicine(Hospital of the University of Pennsylvania 포함), Main Line Health, Jefferson Health, Temple Health 같은 미국 최상위권 병원에 학부 시절부터 노출됩니다.
+차별점을 딱 두 가지로 압축하면, Augustinian 철학에 뿌리를 둔 학생 개별 케어 문화와 Philadelphia 권역 학술의료시스템과의 광범위한 임상 파트너십입니다. Veritas(진리), Unitas(일치), Caritas(사랑)는 벽에 걸린 모토가 아니라 커리큘럼 설계, 학생 멘토링, 임상 윤리 교육에 실제로 녹아 있어, 한국 가정이 중시하는 도덕성과 학문적 성실성 교육과 자연스럽게 맞물립니다. 임상 쪽으로 눈을 돌리면 Children's Hospital of Philadelphia(CHOP), Penn Medicine(Hospital of the University of Pennsylvania 포함), Main Line Health, Jefferson Health, Temple Health 같은 미국 최상위권 병원에 학부 시절부터 노출됩니다.
 
 BSN 프로그램은 CCNE(Commission on Collegiate Nursing Education) 인증을 받았고, 졸업생은 자동으로 NCLEX-RN 응시 자격을 얻습니다. 학교는 Sigma Theta Tau International의 Alpha Nu 챕터를 운영하는데, 학부 후보생은 간호 커리큘럼 절반 이상 이수와 GPA 3.0 이상을 충족하면 가입할 수 있습니다. high-fidelity simulation 시설과 nursing skills lab에서 임상 진입 전 실습을 충분히 쌓을 수 있고, 학년당 코호트가 크지 않아 친밀한 학습 공동체가 만들어집니다.
 
@@ -35,7 +35,7 @@ Villanova Nursing은 학력 배경에 따라 진입 경로를 여러 갈래로 �
 
 -   전통 4년제 BSN (Direct Admit, 4년): 고교 졸업생이 Common App으로 Villanova M. Louise Fitzpatrick College of Nursing에 직접 입학하는 경로. 1학년부터 간호 전공으로 확정되어 2차 전공 선발 절차가 없습니다.
 -   Second Degree Accelerated BSN (ABSN, 14개월 Express): 비간호 학사 학위 보유자를 위한 14개월 집중 프로그램. 매년 5월 셋째 주 월요일에 시작해 다음 해 8월에 끝납니다. Pennsylvania State Board of Nursing 승인과 CCNE 인증을 보유합니다.
--   Second Degree BSN (23개월 트랙): 14개월 트랙보다 호흡을 여유롭게 가져가는 second-degree 옵션. 학업과 가정·근무를 병행하는 학생에게 적합합니다.
+-   Second Degree BSN (23개월 트랙): 14개월 트랙보다 호흡을 여유롭게 가져가는 second-degree 옵션. 학업과 가정과 근무를 병행하는 학생에게 적합합니다.
 -   RN-to-BSN: 미국 RN 면허 보유자를 위한 BSN 완료 트랙. 온라인 또는 hybrid로 운영됩니다.
 -   MSN: Nurse Practitioner(NP, Adult-Gerontology, Family, Pediatric, Psychiatric Mental Health 등), Nurse Educator, Nursing Administration 트랙.
 -   DNP: Doctor of Nursing Practice. Nurse Anesthesia(Post-Baccalaureate DNP, CRNA) 트랙 포함.
@@ -76,7 +76,7 @@ Villanova는 사립 가톨릭 명문대라 in-state와 out-of-state 학비 구�
 
 ## 2\. 입학과정
 
-전통 4년제 BSN은 Common App과 Villanova 자체 supplemental application으로 지원하고, 학업 성적·도전적 교과·에세이·추천서를 종합해 보는 holistic admission이 적용됩니다. Villanova 학부 전체 합격률은 약 23~27%, 간호대는 이보다 경쟁이 치열하지만 Penn 등 Ivy에 비하면 국제 학생 접근성이 한결 낫습니다.
+전통 4년제 BSN은 Common App과 Villanova 자체 supplemental application으로 지원하고, 학업 성적과 도전적 교과, 에세이, 추천서를 종합해 보는 holistic admission이 적용됩니다. Villanova 학부 전체 합격률은 약 23~27%, 간호대는 이보다 경쟁이 치열하지만 Penn 등 Ivy에 비하면 국제 학생 접근성이 한결 낫습니다.
 
 ### a. 합격률
 
@@ -165,7 +165,7 @@ Villanova Nursing 지원자는 Common App 메인 에세이와 Villanova 자체 s
 -   Villanova supplemental essay: 'Why Villanova', Augustinian 가치와의 연결, 본인의 community service 경험 등을 다루는 짧은 답변.
 -   ABSN Second Degree: 비간호 전공에서 간호로 전환하는 이유, 인생 경험, 진로 목표를 다루는 별도 personal statement.
 
-잘 쓴 에세이는 추상적 수사 대신 구체적 사건과 reflection을 엮습니다. 한국 학생이라면 한국에서의 헬스케어 경험이나 봉사 활동을 Veritas(진리 추구), Unitas(공동체 형성), Caritas(사랑과 돌봄)에 하나씩 못 박아 연결할 때 차별화가 선명해집니다. Villanova의 Catholic Augustinian 정체성과 cura personalis(전인적 돌봄) 정신, 그리고 Philadelphia의 CHOP·Penn Medicine 임상 환경에서 무엇을 배우고 어떻게 봉사하고 싶은지를 구체적인 그림으로 보여줘야 합니다.
+잘 쓴 에세이는 추상적 수사 대신 구체적 사건과 reflection을 엮습니다. 한국 학생이라면 한국에서의 헬스케어 경험이나 봉사 활동을 Veritas(진리 추구), Unitas(공동체 형성), Caritas(사랑과 돌봄)에 하나씩 못 박아 연결할 때 차별화가 선명해집니다. Villanova의 Catholic Augustinian 정체성과 cura personalis(전인적 돌봄) 정신, 그리고 Philadelphia의 CHOP, Penn Medicine 임상 환경에서 무엇을 배우고 어떻게 봉사하고 싶은지를 구체적인 그림으로 보여줘야 합니다.
 
 ### f. 추천서 전략
 
@@ -258,9 +258,9 @@ Villanova Nursing 졸업생은 Philadelphia 권역과 mid-Atlantic, 나아가 �
 
 Villanova University M. Louise Fitzpatrick College of Nursing은 1953년에 출발해 70년 넘는 역사를 쌓은 사립 가톨릭 Augustinian 명문 간호 단과대학으로, 2026년 U.S. News National Universities 랭킹 공동 22위권에 자리합니다. CCNE 인증 BSN 프로그램은 direct admit 방식의 전통 4년제 BSN, 14개월 ABSN(Second Degree Express), 23개월 Second Degree BSN, RN-to-BSN, MSN, DNP(CRNA Nurse Anesthesia 포함), PhD까지 진입 경로를 폭넓게 열어두고, CHOP, Penn Medicine, Main Line Health, Jefferson Health, Temple Health 등 Philadelphia 권역 최상위 학술의료시스템을 임상 파트너로 삼습니다.
 
-이 학교가 한국 학생과 특히 잘 맞는 이유를 짚어보면 이렇습니다. 고교 졸업과 동시에 2차 지원 없이 간호 전공으로 확정 입학하는 direct admit 모델의 명확성, Augustinian의 Veritas-Unitas-Caritas 가치 체계가 한국 가정의 인성·도덕 교육 우선순위와 맞물린다는 점, CHOP과 Penn Medicine 같은 미국 최상위 병원에 학부부터 임상 노출되는 자원, 그리고 RN의 Schedule A EB-3 영주권 경로와 Penn Medicine의 cap-exempt H-1B 가능성이 결합한다는 점입니다. Penn 등 Ivy 대비 합격률과 국제 학생 접근성이 상대적으로 높아, 현실적으로 도전 가능한 동부 최상위 사립 BSN 옵션이기도 합니다.
+이 학교가 한국 학생과 특히 잘 맞는 이유를 짚어보면 이렇습니다. 고교 졸업과 동시에 2차 지원 없이 간호 전공으로 확정 입학하는 direct admit 모델의 명확성, Augustinian의 Veritas-Unitas-Caritas 가치 체계가 한국 가정의 인성과 도덕 교육 우선순위와 맞물린다는 점, CHOP과 Penn Medicine 같은 미국 최상위 병원에 학부부터 임상 노출되는 자원, 그리고 RN의 Schedule A EB-3 영주권 경로와 Penn Medicine의 cap-exempt H-1B 가능성이 결합한다는 점입니다. Penn 등 Ivy 대비 합격률과 국제 학생 접근성이 상대적으로 높아, 현실적으로 도전 가능한 동부 최상위 사립 BSN 옵션이기도 합니다.
 
-강점을 한 줄씩 정리하면 이렇습니다. 2026년 U.S. News 공동 22위권의 학술 위상과 70년 이상의 간호 교육 전통, Augustinian Veritas-Unitas-Caritas 가치 체계와 cura personalis 전인 교육, CHOP·Penn Medicine·Main Line Health·Jefferson Health·Temple Health 등 Philadelphia 권역 5곳 이상 최상위 학술의료시스템 임상 파트너, 2차 전공 선발 부담이 없는 direct admit 모델, RN의 Schedule A EB-3 영주권 경로와 Penn Medicine 같은 cap-exempt H-1B 듀얼 트랙, 비간호 학사 보유자를 위한 14개월 ABSN(Express), 그리고 Pennsylvania의 NLC compact 참여로 다수 주에서 인정되는 면허. 물론 합격률, 4년 약 $350,000+(추정)의 비용, 국제 학생 institutional aid 제한이라는 진입 장벽은 처음부터 또렷이 인식하고 들어가야 합니다.
+강점을 한 줄씩 정리하면 이렇습니다. 2026년 U.S. News 공동 22위권의 학술 위상과 70년 이상의 간호 교육 전통, Augustinian Veritas-Unitas-Caritas 가치 체계와 cura personalis 전인 교육, CHOP, Penn Medicine, Main Line Health, Jefferson Health, Temple Health 등 Philadelphia 권역 5곳 이상 최상위 학술의료시스템 임상 파트너, 2차 전공 선발 부담이 없는 direct admit 모델, RN의 Schedule A EB-3 영주권 경로와 Penn Medicine 같은 cap-exempt H-1B 듀얼 트랙, 비간호 학사 보유자를 위한 14개월 ABSN(Express), 그리고 Pennsylvania의 NLC compact 참여로 다수 주에서 인정되는 면허. 물론 합격률, 4년 약 $350,000+(추정)의 비용, 국제 학생 institutional aid 제한이라는 진입 장벽은 처음부터 또렷이 인식하고 들어가야 합니다.
 
 안정적 전문직, 빠른 영주권 경로, 가톨릭 가치 기반의 학습 환경, Philadelphia 권역 최상위 학술의료시스템 임상 경험. 이 넷을 동시에 노리는 한국 학생에게 Villanova University M. Louise Fitzpatrick College of Nursing은 미국 BSN 진학의 강력한 카드입니다. 4년 뒤 RN 면허를 손에 쥐고 미국 동부 의료 시장에 진입하는 길은 분명히 열려 있고, 그 출발점은 언제나 잘 준비된 지원서입니다.
 
@@ -278,13 +278,13 @@ Villanova University M. Louise Fitzpatrick College of Nursing은 1953년에 출�
 
 **Villanova University BSN 합격, 전문가의 전략이 결과를 바꾼다**
 
-Villanova M. Louise Fitzpatrick College of Nursing과 같은 사립 명문 BSN 프로그램은 단순한 성적 이상의 전략이 필요합니다. Augustinian 가치(Veritas, Unitas, Caritas)와 정렬된 narrative 설계, Early Decision vs Early Action 시기 판단, 한국 학력의 영문 평가, healthcare 봉사 경험과 community service 결합, 그리고 졸업 후 NCLEX와 Penn Medicine·CHOP nurse residency, Schedule A EB-3 영주권 경로까지 모든 단계가 일관된 전략으로 연결되어야 합니다.
+Villanova M. Louise Fitzpatrick College of Nursing과 같은 사립 명문 BSN 프로그램은 단순한 성적 이상의 전략이 필요합니다. Augustinian 가치(Veritas, Unitas, Caritas)와 정렬된 narrative 설계, Early Decision vs Early Action 시기 판단, 한국 학력의 영문 평가, healthcare 봉사 경험과 community service 결합, 그리고 졸업 후 NCLEX와 Penn Medicine, CHOP nurse residency, Schedule A EB-3 영주권 경로까지 모든 단계가 일관된 전략으로 연결되어야 합니다.
 
 OneVision 컨설팅 팀은 미국 BSN 및 대학원 간호 프로그램 전문 팀으로, 학생 개개인의 강점과 한국 가정의 우선순위를 분석해 입학 전략부터 졸업 후 커리어 설계까지 1대1로 함께합니다.
 
 -   전통 BSN(direct admit) vs ABSN(14개월 Express) vs 23개월 Second Degree BSN 경로 분석.
 -   도전적 교과 이수 로드맵과 weighted GPA 4.0+ 관리 전략 (한국 학력 WES 평가 포함).
 -   의료 봉사 경험과 Augustinian Veritas-Unitas-Caritas 정렬 narrative 설계.
--   졸업 후 NCLEX, Penn Medicine·CHOP nurse residency, Schedule A, EB-3 영주권 경로 통합 컨설팅.
+-   졸업 후 NCLEX, Penn Medicine, CHOP nurse residency, Schedule A, EB-3 영주권 경로 통합 컨설팅.
 
 지금 상담을 예약하고, Villanova University M. Louise Fitzpatrick College of Nursing 합격과 미국 안착의 첫 걸음을 시작하세요.

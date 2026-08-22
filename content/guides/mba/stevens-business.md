@@ -45,7 +45,7 @@ School of Business의 심장부는 Babbio Center for Technology Management입니
 Stevens School of Business의 MBA는 하나가 아닙니다. 목적에 따라 골라 들어갈 수 있습니다.
 
 -   Full-time MBA: 21개월 과정의 STEM 지정 프로그램. Concentration에 따라 24개월 OPT Extension이 가능합니다.
--   Part-time MBA: 직장인을 위한 저녁·주말 프로그램으로 2~3년 안에 마칩니다. GMAT/GRE waiver가 열려 있습니다.
+-   Part-time MBA: 직장인을 위한 저녁과 주말 프로그램으로 2~3년 안에 마칩니다. GMAT/GRE waiver가 열려 있습니다.
 -   Online MBA: 시간과 장소에 얽매이지 않는 온라인 과정입니다.
 -   Accelerated Master's (NMIMS): NMIMS 학부생이 5년 만에 학사와 MBA를 함께 끝내는 특별 트랙입니다.
 
@@ -92,15 +92,15 @@ Stevens MBA의 심사는 학업 역량과 실무 경험, 기술적 적성을 두
 -   여성 비율: 약 39%
 -   남성 비율: 약 61%
 
-71%라는 합격률에 GMAT·GPA 기준도 무리가 없어, 배경이 제각각인 지원자에게 문이 넓게 열려 있습니다. 눈에 띄는 건 GRE Quantitative 평균 160입니다. 공대다운 정량 중시 성향이 이 숫자에 고스란히 드러납니다.
+71%라는 합격률에 GMAT, GPA 기준도 무리가 없어, 배경이 제각각인 지원자에게 문이 넓게 열려 있습니다. 눈에 띄는 건 GRE Quantitative 평균 160입니다. 공대다운 정량 중시 성향이 이 숫자에 고스란히 드러납니다.
 
 ### b. 지원 마감일
 
 **MBA 지원 마감일:**
 
--   Priority Round 1: 11월 중순 마감 — 장학금 우선 고려.
--   Priority Round 2: 2월 중순 마감 — 주요 선발 라운드.
--   Regular/Rolling: 5월까지 — 잔여 좌석에 한해 선발.
+-   Priority Round 1: 11월 중순 마감. 장학금 우선 고려.
+-   Priority Round 2: 2월 중순 마감. 주요 선발 라운드.
+-   Regular/Rolling: 5월까지. 잔여 좌석에 한해 선발.
 
 Stevens는 Rolling Admissions 방식이라 일찍 낼수록 유리합니다. 국제 학생이라면 비자 처리에 걸리는 시간까지 계산해 Priority Round 안에 승부를 보는 편이 안전합니다.
 
@@ -125,9 +125,9 @@ Stevens MBA 지원에 필요한 서류와 요건을 한자리에 모으면 다�
 
 입학생 평균 GPA는 3.0입니다. 구간별로 경쟁력을 가늠하면 이렇습니다.
 
--   강력한 경쟁력: GPA 3.4 이상 — 장학금 수혜 가능성이 높아집니다.
--   충분히 경쟁력: GPA 3.0 이상 — 평균 수준으로 안정적인 경쟁력입니다.
--   보완 가능: GPA 2.7 이상 — 강한 GMAT 점수나 경력으로 보완 가능합니다.
+-   강력한 경쟁력: GPA 3.4 이상. 장학금 수혜 가능성이 높아집니다.
+-   충분히 경쟁력: GPA 3.0 이상. 평균 수준으로 안정적인 경쟁력입니다.
+-   보완 가능: GPA 2.7 이상. 강한 GMAT 점수나 경력으로 보완 가능합니다.
 
 GPA 문턱이 비교적 낮아, 학부 성적이 조금 아쉬운 지원자에게도 길이 있습니다. 다만 장학금까지 노린다면 GPA 3.4 이상은 확보해 두는 편이 좋습니다.
 
@@ -135,9 +135,9 @@ GPA 문턱이 비교적 낮아, 학부 성적이 조금 아쉬운 지원자에�
 
 입학생 평균 GMAT은 594입니다. 여기서도 구간을 나눠 보겠습니다.
 
--   강력한 경쟁력: GMAT 650 이상 — 장학금 수혜 가능성이 높아집니다.
--   충분히 경쟁력: GMAT 600 이상 — 평균 이상의 경쟁력을 보여줍니다.
--   보완 가능: GMAT 550 이상 — 다른 요소가 강하면 충분히 경쟁 가능합니다.
+-   강력한 경쟁력: GMAT 650 이상. 장학금 수혜 가능성이 높아집니다.
+-   충분히 경쟁력: GMAT 600 이상. 평균 이상의 경쟁력을 보여줍니다.
+-   보완 가능: GMAT 550 이상. 다른 요소가 강하면 충분히 경쟁 가능합니다.
 -   GRE: Quantitative 160 이상이면 경쟁력이 있으며, 기술적 역량을 잘 보여줍니다.
 
 풀타임 국제 지원자에게 GMAT/GRE는 선택이 아닌 필수입니다. 파트타임이면서 경력이 충분하다면 waiver를 신청할 수 있습니다.
@@ -146,7 +146,7 @@ GPA 문턱이 비교적 낮아, 학부 성적이 조금 아쉬운 지원자에�
 
 Stevens MBA 지원 에세이가 던지는 질문은 두 갈래입니다.
 
--   커리어 목표 에세이: MBA 이후의 단기·장기 커리어 목표를 서술합니다.
+-   커리어 목표 에세이: MBA 이후의 단기와 장기 커리어 목표를 서술합니다.
 -   Why Stevens 에세이: Stevens MBA를 선택한 이유와 기대하는 학습 경험을 설명합니다.
 
 한국인 지원자가 붙잡아야 할 핵심은 세 가지입니다. Stevens의 STEM 색채를 자신의 기술적 배경이나 기술 리더십 목표와 자연스럽게 이어 붙이는 것, NYC 메트로 지역의 특정 산업이나 기업을 겨냥한 구체적인 커리어 플랜을 내미는 것, 그리고 PMI 인증 Project Management나 Business Analytics처럼 Stevens에만 있는 프로그램을 이름까지 짚어가며 언급하는 것입니다.
@@ -194,7 +194,7 @@ Stevens MBA 졸업생의 취업 성과에는 NYC 메트로 지역의 힘이 그�
 -   주요 채용 지역: NYC Metropolitan Area(Manhattan, NJ, CT)
 -   주요 채용 기업: Goldman Sachs, JPMorgan, Amazon, Deloitte, Johnson & Johnson, Honeywell
 
-NYC 금융·기술 산업이 가깝다는 점은 Finance와 Technology Concentration 졸업생에게 특히 유리하게 작용합니다. PMI 인증 Project Management를 마친 졸업생은 산업을 가리지 않고 높은 수요를 누립니다.
+NYC 금융과 기술 산업이 가깝다는 점은 Finance와 Technology Concentration 졸업생에게 특히 유리하게 작용합니다. PMI 인증 Project Management를 마친 졸업생은 산업을 가리지 않고 높은 수요를 누립니다.
 
 ### c. 알럼나이 네트워크
 
@@ -208,7 +208,7 @@ Stevens MBA에 드는 비용 전체를 항목별로 정리했습니다.
 
 -   학비(전체 프로그램, 21개월): 약 $88,000~$93,000
 -   생활비(21개월): 약 $40,000~$55,000
--   교재·기타 비용: 약 $3,000~$5,000
+-   교재와 기타 비용: 약 $3,000~$5,000
 -   건강보험: 약 $4,000~$6,000
 -   총 예상 비용: 약 $135,000~$159,000 (한화 약 1억 8,000만~2억 1,000만 원)
 
@@ -239,7 +239,7 @@ Stevens Institute of Technology School of Business는 150년 STEM 전통 위에 
 
 PMI 인증 Project Management와 Business Intelligence & Analytics로 대표되는 기술 집약적 Concentrations, 접근 가능한 입학 기준, NYC 메트로 지역의 풍부한 취업 기회까지. 이 조합은 한국인 지원자에게 실용적이면서도 값어치 있는 선택지입니다.
 
-강점을 한 줄로 압축하면 이렇습니다. STEM 지정 MBA, PMI 인증 Project Management, NYC 15분 접근성, 기술 중심 커리큘럼, 합리적 학비, 그리고 강한 금융·기술 산업 취업 네트워크.
+강점을 한 줄로 압축하면 이렇습니다. STEM 지정 MBA, PMI 인증 Project Management, NYC 15분 접근성, 기술 중심 커리큘럼, 합리적 학비, 그리고 강한 금융과 기술 산업 취업 네트워크.
 
 기술과 경영의 교차점에서 커리어를 쌓으려는 학생, NYC 메트로 지역 취업을 노리는 학생, STEM OPT로 미국에 오래 머물 계획인 학생이라면 Stevens MBA는 손에 꼽을 만한 선택이 됩니다. 전략을 제대로 세워 여러분의 MBA 꿈에 한 발 더 다가서시길 바랍니다.
 

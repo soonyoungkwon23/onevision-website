@@ -26,7 +26,7 @@ Boston이라는 도시 자체가 하나의 커리큘럼입니다. 미국 동북�
 
 ### a. 학교 소개와 역사
 
-Boston University(BU)의 뿌리는 1839년으로 거슬러 올라갑니다. 현재 약 36,000명이 재학하는 대규모 사립 연구중심 종합대학이며, 미국에서 네 번째로 큰 독립 사립대학입니다. Association of American Universities(AAU) 회원교로 연구 역량을 공인받았고, 캠퍼스는 Boston 중심부 Charles River를 따라 도시의 문화적·학문적 자원과 촘촘히 얽혀 있습니다.
+Boston University(BU)의 뿌리는 1839년으로 거슬러 올라갑니다. 현재 약 36,000명이 재학하는 대규모 사립 연구중심 종합대학이며, 미국에서 네 번째로 큰 독립 사립대학입니다. Association of American Universities(AAU) 회원교로 연구 역량을 공인받았고, 캠퍼스는 Boston 중심부 Charles River를 따라 도시의 문화적과 학문적 자원과 촘촘히 얽혀 있습니다.
 
 Questrom School of Business는 1913년 College of Business Administration이라는 이름으로 출발해 100년 넘는 세월을 쌓아 왔습니다. 지금의 이름을 얻은 것은 2015년, Allen Questrom과 부인 Kelli의 대규모 기부 덕분입니다. J.C. Penney와 Federated Department Stores를 이끈 경영인 Allen Questrom의 비전이 학교의 방향에 깊이 새겨져 있습니다. Questrom은 AACSB 인증 비즈니스 스쿨로 MBA, MS, PhD 등 다양한 학위 과정을 운영합니다.
 
@@ -36,9 +36,9 @@ Questrom School of Business는 1913년 College of Business Administration이라�
 
 Boston University의 메인 캠퍼스는 시내 Commonwealth Avenue를 따라 약 2.6km에 걸쳐 펼쳐져 있습니다. Charles River를 끼고 있어 도시형 캠퍼스 특유의 풍경이 인상적입니다. Questrom School of Business의 본거지는 캠퍼스 중앙의 현대적 건물 Rafik B. Hariri Building으로, 최첨단 강의실과 팀 프로젝트룸, 커리어 센터, 학생 라운지를 갖추고 있습니다. MBTA Green Line(지하철 B Line)이 캠퍼스를 관통해 시내 어디로든 이동이 수월합니다.
 
-MBA 학생에게 Boston이 최고의 도시로 꼽히는 이유는 산업 클러스터의 밀도입니다. 바이오테크와 제약의 세계적 중심지 Kendall Square와 Cambridge에는 Moderna, Takeda, Vertex Pharmaceuticals, Sanofi 같은 글로벌 기업의 본사와 R&D 센터가 빼곡합니다. 금융 쪽으로는 Fidelity Investments, State Street Corporation, Wellington Management 등 자산운용·금융서비스 기업이 이 도시에 뿌리를 두고 있습니다. 테크 산업의 성장세도 가팔라 Amazon, Microsoft, Google, HubSpot이 Boston 지역에 대규모 오피스를 두고 있습니다.
+MBA 학생에게 Boston이 최고의 도시로 꼽히는 이유는 산업 클러스터의 밀도입니다. 바이오테크와 제약의 세계적 중심지 Kendall Square와 Cambridge에는 Moderna, Takeda, Vertex Pharmaceuticals, Sanofi 같은 글로벌 기업의 본사와 R&D 센터가 빼곡합니다. 금융 쪽으로는 Fidelity Investments, State Street Corporation, Wellington Management 등 자산운용과 금융서비스 기업이 이 도시에 뿌리를 두고 있습니다. 테크 산업의 성장세도 가팔라 Amazon, Microsoft, Google, HubSpot이 Boston 지역에 대규모 오피스를 두고 있습니다.
 
-헬스케어에서는 Boston을 따라올 도시가 드뭅니다. Massachusetts General Hospital, Brigham and Women's Hospital, Dana-Farber Cancer Institute, Boston Children's Hospital 같은 세계적 의료기관이 한자리에 모여 있어, Healthcare 전공 학생에게는 비할 데 없는 학습·네트워킹 무대가 됩니다. 게다가 Harvard, MIT, Tufts, Northeastern을 비롯한 60여 개 대학이 밀집한 교육 도시라, 학교 간 교류와 네트워킹 이벤트도 끊이지 않습니다.
+헬스케어에서는 Boston을 따라올 도시가 드뭅니다. Massachusetts General Hospital, Brigham and Women's Hospital, Dana-Farber Cancer Institute, Boston Children's Hospital 같은 세계적 의료기관이 한자리에 모여 있어, Healthcare 전공 학생에게는 비할 데 없는 학습과 네트워킹 무대가 됩니다. 게다가 Harvard, MIT, Tufts, Northeastern을 비롯한 60여 개 대학이 밀집한 교육 도시라, 학교 간 교류와 네트워킹 이벤트도 끊이지 않습니다.
 
 한국인 학생에게도 Boston은 정착하기 좋은 곳입니다. 한인 커뮤니티가 활발하고, Allston과 Brookline 일대에는 한국 식당과 마켓, 교회가 있어 일상이 편합니다. Boston Logan International Airport에서 인천국제공항으로 직항편이 뜬다는 점도 한국과의 거리를 한결 좁혀 줍니다.
 
@@ -98,7 +98,7 @@ Questrom Full-Time MBA의 커리큘럼은 Core Curriculum과 Concentration(전�
 
 2년 총 예상 비용은 대략 $170,000-$220,000 선입니다. 큰돈이지만, 졸업 후 평균 연봉 $99,955와 91.7%의 취업률을 놓고 보면 회수 가능한 투자입니다. 특히 Digital Technology 전공이라면 STEM OPT로 최대 3년간 미국에서 일할 수 있어, 회수 기간이 눈에 띄게 짧아집니다.
 
-재정 지원 통로도 열려 있습니다. Questrom은 성적 우수 장학금, 다양성 장학금, Graduate Assistantship 등을 제공하며, 상당수 장학금은 별도 신청 없이 입학 지원서만으로 자동 심사됩니다. 금액은 부분 장학금부터 상당 부분을 커버하는 규모까지 폭이 넓습니다. Federal Loan(미국 시민·영주권자 대상)과 Private Loan(국제 학생 가능) 옵션도 함께 고려할 수 있습니다.
+재정 지원 통로도 열려 있습니다. Questrom은 성적 우수 장학금, 다양성 장학금, Graduate Assistantship 등을 제공하며, 상당수 장학금은 별도 신청 없이 입학 지원서만으로 자동 심사됩니다. 금액은 부분 장학금부터 상당 부분을 커버하는 규모까지 폭이 넓습니다. Federal Loan(미국 시민과 영주권자 대상)과 Private Loan(국제 학생 가능) 옵션도 함께 고려할 수 있습니다.
 
 ## 2\. 입학과정
 

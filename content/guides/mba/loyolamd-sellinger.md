@@ -58,7 +58,7 @@ Emerging Leaders MBA 커리큘럼은 12개월 동안 약 36~45학점을 소화�
 
 **주요 Concentrations:**
 
--   Finance: 기업 금융, 투자 분석, 포트폴리오 관리를 다룹니다. T. Rowe Price·Legg Mason 권역의 시그니처 분야입니다.
+-   Finance: 기업 금융, 투자 분석, 포트폴리오 관리를 다룹니다. T. Rowe Price, Legg Mason 권역의 시그니처 분야입니다.
 -   Accounting: 재무 회계, 관리 회계, 감사를 학습합니다. CPA 시험 준비에 유리합니다.
 -   Marketing: 디지털 마케팅, 소비자 행동, 브랜드 전략을 다룹니다.
 -   Management Information Systems: IT 전략과 비즈니스 시스템 관리를 학습합니다.
@@ -75,7 +75,7 @@ Sellinger 커리큘럼을 다른 곳과 갈라놓는 지점은 기업 견학(Cor
 
 -   총 학비(Emerging Leaders MBA, 12개월): 약 $63,750
 -   학점당 학비(Part-time MBA): $1,155/학점
--   기숙사·생활비(12개월 기준): 약 $20,000~$25,000
+-   기숙사, 생활비(12개월 기준): 약 $20,000~$25,000
 -   교재 및 기타: 약 $2,000~$3,000
 -   건강보험: 약 $3,000~$4,000
 -   총 예상 비용(국제 학생, 12개월): 약 $90,000~$96,000
@@ -118,7 +118,7 @@ Emerging Leaders MBA 지원에 필요한 서류와 요건을 챙겨 보겠습니
 
 -   4년제 학사 학위 (정식 인증 대학)
 -   GMAT 또는 GRE 점수: 비요구 (Test-Optional)
--   공인 영어 시험 점수 (TOEFL iBT 80+ 또는 IELTS 6.5+ — 영어가 모국어가 아닌 지원자)
+-   공인 영어 시험 점수 (TOEFL iBT 80+ 또는 IELTS 6.5+: 영어가 모국어가 아닌 지원자)
 -   대학 성적 증명서
 -   Personal Statement / Statement of Purpose
 -   추천서 2통
@@ -134,9 +134,9 @@ Sellinger가 특히 눈여겨보는 건 학업 역량, 그리고 Jesuit 가치�
 
 입학생 평균 GPA는 3.34(25th-75th: 3.08-3.61)입니다. 본인 위치를 가늠할 수 있도록 구간별로 나눠 보겠습니다.
 
--   강력한 경쟁력: GPA 3.6 이상 — 학업 역량에서 확실한 강점을 보여줍니다.
--   충분히 경쟁력: GPA 3.3 이상 — 평균 수준으로 안정적인 경쟁력입니다.
--   보완 가능: GPA 3.0 이상 — 직무 경력과 추천서로 보완 가능합니다.
+-   강력한 경쟁력: GPA 3.6 이상. 학업 역량에서 확실한 강점을 보여줍니다.
+-   충분히 경쟁력: GPA 3.3 이상. 평균 수준으로 안정적인 경쟁력입니다.
+-   보완 가능: GPA 3.0 이상. 직무 경력과 추천서로 보완 가능합니다.
 
 GMAT/GRE를 보지 않는 만큼 GPA의 비중은 오히려 커졌습니다. 특히 수학, 통계, 회계, 경제학 같은 정량 과목의 학점, 그리고 학부 전공이 얼마나 학문적으로 빡빡했는지를 눈여겨봅니다. GPA가 낮다면 탄탄한 직무 성과, 정량 과목 추가 이수, 혹은 GMAT/GRE 자발적 제출로 메울 수 있습니다.
 
@@ -147,7 +147,7 @@ Emerging Leaders MBA, Professional MBA, Executive MBA 모두 이제 GMAT/GRE 점
 **자발적 GMAT/GRE 제출이 유리한 경우:**
 
 -   학부 GPA가 3.0 미만인 경우: 학업 역량 입증을 위한 보완 자료
--   정량적 학위(STEM·Business)가 아닌 경우: 분석력 입증
+-   정량적 학위(STEM, Business)가 아닌 경우: 분석력 입증
 -   Merit Scholarship 확보를 원하는 경우: 700+ GMAT은 장학금 가능성을 높일 수 있음
 -   최근 학업 성과가 부족한 경우: 학습 동기와 준비도 입증
 
@@ -157,7 +157,7 @@ Emerging Leaders MBA, Professional MBA, Executive MBA 모두 이제 GMAT/GRE 점
 
 Sellinger MBA Personal Statement는 다음 요소로 구성됩니다.
 
--   Personal Statement / Statement of Purpose (500~750 단어): 단기·장기 커리어 목표, MBA가 필요한 이유, Sellinger를 선택한 이유, Jesuit 가치관과의 적합성
+-   Personal Statement / Statement of Purpose (500~750 단어): 단기와 장기 커리어 목표, MBA가 필요한 이유, Sellinger를 선택한 이유, Jesuit 가치관과의 적합성
 -   Optional Essay: 학업이나 경력에서 보충 설명이 필요한 사항이 있을 경우 별도 작성 가능
 
 한국인 지원자라면 다음 네 가지를 축으로 잡으시기 바랍니다. 먼저 Sellinger의 시그니처 가치인 Jesuit Values(Cura Personalis, Magis, Reflective Leadership)에 진심 어린 관심을 드러내야 합니다. 그다음 한국에서 쌓은 직무 경험 속에서 윤리적 리더십, 사회적 책임감, 성찰적 의사결정이 드러난 순간을 끄집어내세요. 이어서 Baltimore-Washington DC 권역의 Finance(T. Rowe Price), Defense(Northrop Grumman), Healthcare(Johns Hopkins) 산업 지형과 졸업 후 커리어 비전을 구체적으로 이어 붙이고, 마지막으로 12개월 가속 과정의 효율성이 왜 자신의 커리어 계획과 딱 맞는지를 분명히 설명하는 겁니다.
@@ -211,9 +211,9 @@ Sellinger MBA 졸업생의 취업 성과를 숫자로 확인해 보겠습니다.
 -   주요 취업 산업: Finance, Consulting, Healthcare, Marketing, Government, Defense
 -   주요 채용 지역: Baltimore, Washington DC, Philadelphia, New York
 
-T. Rowe Price, Legg Mason, Under Armour, Northrop Grumman, Marriott International, Lockheed Martin, Johns Hopkins Medicine, M&T Bank, Constellation Energy, McCormick & Company 같은 Baltimore-Washington DC 권역 Fortune 500 기업은 물론, Deloitte, EY, KPMG, PwC, Booz Allen Hamilton 등 주요 컨설팅·회계 펌도 Sellinger MBA 졸업생을 꾸준히 채용합니다.
+T. Rowe Price, Legg Mason, Under Armour, Northrop Grumman, Marriott International, Lockheed Martin, Johns Hopkins Medicine, M&T Bank, Constellation Energy, McCormick & Company 같은 Baltimore-Washington DC 권역 Fortune 500 기업은 물론, Deloitte, EY, KPMG, PwC, Booz Allen Hamilton 등 주요 컨설팅과 회계 펌도 Sellinger MBA 졸업생을 꾸준히 채용합니다.
 
-Career Center는 1:1 Career Coaching, 이력서·커버레터 컨설팅, 모의 인터뷰, 산업별 채용 박람회를 지원합니다. 여기에 Jesuit Universities 동문 네트워크가 미국 전역과 해외로 뻗어 있어, 다른 학교에서 쉽게 얻기 어려운 커리어 기회의 문을 열어 줍니다.
+Career Center는 1:1 Career Coaching, 이력서와 커버레터 컨설팅, 모의 인터뷰, 산업별 채용 박람회를 지원합니다. 여기에 Jesuit Universities 동문 네트워크가 미국 전역과 해외로 뻗어 있어, 다른 학교에서 쉽게 얻기 어려운 커리어 기회의 문을 열어 줍니다.
 
 ### c. 알럼나이 네트워크
 
@@ -226,7 +226,7 @@ Loyola University Maryland 동문은 약 60,000명 이상입니다. Baltimore, W
 Emerging Leaders MBA 12개월 과정에 드는 총 예상 비용을 한눈에 정리하면 이렇습니다.
 
 -   학비(Emerging Leaders MBA): 약 $63,750
--   기숙사·생활비(12개월): 약 $20,000~$25,000
+-   기숙사, 생활비(12개월): 약 $20,000~$25,000
 -   교재 및 기타: 약 $2,000~$3,000
 -   건강보험: 약 $3,000~$4,000
 -   총 예상 비용: 약 $90,000~$96,000 (한화 약 1억 2,000만~1억 3,000만 원)
@@ -250,7 +250,7 @@ Sellinger MBA를 마친 국제 학생이 밟게 되는 취업 경로를 정리�
 -   CPT: 재학 중 인턴십(여름 인턴십 등)을 위한 취업 허가.
 -   MBA/MS-Finance Dual Degree: STEM 인증 가능 시 24개월 추가 OPT 가능.
 
-Baltimore-Washington DC 권역의 대형 기업과 정부기관, 국방 분야는 H-1B 스폰서십에 적극적인 편입니다. 특히 Finance(T. Rowe Price), Healthcare(Johns Hopkins), Defense·Federal Contracting 쪽은 국제 인재 채용에 호의적입니다. 다만 Defense 분야는 미국 시민권을 요구하는 직무가 많으니 지원 전에 반드시 확인해 두셔야 합니다.
+Baltimore-Washington DC 권역의 대형 기업과 정부기관, 국방 분야는 H-1B 스폰서십에 적극적인 편입니다. 특히 Finance(T. Rowe Price), Healthcare(Johns Hopkins), Defense, Federal Contracting 쪽은 국제 인재 채용에 호의적입니다. 다만 Defense 분야는 미국 시민권을 요구하는 직무가 많으니 지원 전에 반드시 확인해 두셔야 합니다.
 
 ## 6\. 결론
 
@@ -260,7 +260,7 @@ Loyola University Maryland Sellinger School of Business and Management는 1852�
 
 강점을 한 줄로 압축하면 이렇습니다. AACSB 인증, 예수회 사립대학 소속, Jesuit Values 기반 윤리적 리더십 교육, 기회 비용을 최소화하는 12개월 Emerging Leaders MBA, GMAT/GRE 비요구, 지원자 전원 자동 심사되는 Sellinger Merit Scholarship, Baltimore-Washington DC 산업 권역과의 직접 연계, Jesuit Universities 글로벌 동문 네트워크, 그리고 98% 취업률.
 
-빠르고 효율적인 미국 MBA를 원하는 분, Finance·Consulting·Healthcare 분야에 커리어를 세우려는 분, 윤리적 리더십과 사회적 책임감을 중히 여기는 분이라면 Sellinger MBA는 충분히 승부를 걸어 볼 만한 선택지입니다. 전략적으로 준비해 목표하는 결과를 손에 쥐시길 바랍니다.
+빠르고 효율적인 미국 MBA를 원하는 분, Finance, Consulting, Healthcare 분야에 커리어를 세우려는 분, 윤리적 리더십과 사회적 책임감을 중히 여기는 분이라면 Sellinger MBA는 충분히 승부를 걸어 볼 만한 선택지입니다. 전략적으로 준비해 목표하는 결과를 손에 쥐시길 바랍니다.
 
 참고 링크:
 

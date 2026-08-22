@@ -8,7 +8,7 @@ universityKo: 위스콘신대학교
 schoolEn: ''
 description: >-
   위스콘신 WSB MBA를 준비하는 한국 학생을 위한 전략 가이드. 주거주자 학비 연 $27,764, 졸업 3개월 내 취업률 89.9%,
-  합격률 43.73%. 에세이·추천서·장학금까지 한 번에 정리했습니다.
+  합격률 43.73%. 에세이, 추천서, 장학금까지 한 번에 정리했습니다.
 status: published
 order: 100
 publishDate: '2026-08-10'
@@ -36,7 +36,7 @@ University of Wisconsin-Madison은 1848년에 세워진 미국의 손꼽히는 �
 
 실무 교육을 앞서 이끌어 온 역사는 특히 Applied Security Analysis Program(ASAP)에 압축돼 있습니다. 선발된 학생들이 2,500만 달러 이상의 실제 포트폴리오를 직접 운용하며 월스트리트에 준하는 투자 경험을 쌓는 프로그램으로, 전 세계 MBA를 통틀어 규모와 역사 양면에서 손꼽히는 학생 운용 펀드입니다.
 
-연구 성과도 만만치 않습니다. A.C. Nielsen Center for Marketing Research는 마케팅 리서치 분야에서 세계적 명성을 쌓아 왔고, Bolz Center for Arts Administration은 예술 경영을 선도합니다. Erdman Center for Operations & Technology Management는 기업과 맞물린 협업으로 운영·기술 관리 교육을 현장 가까이 끌고 갑니다.
+연구 성과도 만만치 않습니다. A.C. Nielsen Center for Marketing Research는 마케팅 리서치 분야에서 세계적 명성을 쌓아 왔고, Bolz Center for Arts Administration은 예술 경영을 선도합니다. Erdman Center for Operations & Technology Management는 기업과 맞물린 협업으로 운영과 기술 관리 교육을 현장 가까이 끌고 갑니다.
 
 ### b. 캠퍼스와 도시 환경
 
@@ -57,14 +57,14 @@ WSB는 여러 갈래의 MBA를 운영합니다. 중심에 있는 Full-Time MBA�
 WSB MBA는 커리어 방향에 맞춰 고를 수 있는 전공(Specialization)의 폭이 넓습니다. 대표적인 갈래를 짚어 보면 이렇습니다.
 
 -   Analytics: 데이터 분석과 비즈니스 인텔리전스로 의사결정 역량을 키웁니다
--   Consulting: 전략·운영 컨설팅 등 컨설팅 커리어를 체계적으로 준비합니다
+-   Consulting: 전략과 운영 컨설팅 등 컨설팅 커리어를 체계적으로 준비합니다
 -   Finance: Applied Security Analysis Program을 포함한 심층 금융 교육
 -   Marketing: A.C. Nielsen Center를 축으로 한 마케팅 리서치와 전략
--   Operations & Technology Management: Erdman Center 기반의 공급망·기술 관리
+-   Operations & Technology Management: Erdman Center 기반의 공급망과 기술 관리
 -   Technology Strategy & Product Management: 기술 기업에서의 제품 관리와 전략
--   Real Estate: 부동산 투자·개발·관리에 특화된 과정
+-   Real Estate: 부동산 투자, 개발, 관리에 특화된 과정
 
-1학년은 재무, 마케팅, 회계, 운영관리, 전략, 리더십을 아우르는 핵심 과목(Core Curriculum)으로 다집니다. 2학년에는 고른 전공의 심화·선택 과목으로 전문성을 끌어올리고요. 그 사이 여름에 진행되는 인턴십은 실무를 몸으로 익히는 결정적 구간입니다.
+1학년은 재무, 마케팅, 회계, 운영관리, 전략, 리더십을 아우르는 핵심 과목(Core Curriculum)으로 다집니다. 2학년에는 고른 전공의 심화와 선택 과목으로 전문성을 끌어올리고요. 그 사이 여름에 진행되는 인턴십은 실무를 몸으로 익히는 결정적 구간입니다.
 
 WSB를 대표하는 차별점은 역시 Applied Security Analysis Program(ASAP)입니다. 뽑힌 학생들은 $25M 이상의 자산을 실제로 운용하며 기업 분석, 포트폴리오 구성, 투자 의사결정을 실전으로 겪습니다. 이 과정 출신들은 Goldman Sachs, JP Morgan, Baird 등 주요 금융기관으로 뻗어 나가며 성과를 증명해 왔습니다.
 
@@ -127,7 +127,7 @@ WSB의 심사는 Holistic Review입니다. 어느 한 요소만으로 당락이 
 
 입학생 평균 GPA는 3.38입니다. Top 20위권(평균 3.5~3.7)보다는 여유 있어 보이지만, 이걸 'GPA가 덜 중요하다'로 읽으면 오산입니다. WSB가 GPA 바깥의 요소들까지 균형 있게 본다는 뜻에 가깝습니다.
 
-한국 대학 기준으로는 4.0 만점에 3.3, 4.5 만점에 3.7 이상이면 경쟁력이 붙습니다. 평균에 못 미친다면 GMAT 고득점, 탄탄한 직장 경력, 또는 지원 전 온라인 비즈니스 과목 이수로 학업 역량을 메울 수 있습니다. 특히 수학·통계 과목 성적이 좋으면 Quantitative 역량을 증명하는 데 큰 힘이 됩니다.
+한국 대학 기준으로는 4.0 만점에 3.3, 4.5 만점에 3.7 이상이면 경쟁력이 붙습니다. 평균에 못 미친다면 GMAT 고득점, 탄탄한 직장 경력, 또는 지원 전 온라인 비즈니스 과목 이수로 학업 역량을 메울 수 있습니다. 특히 수학과 통계 과목 성적이 좋으면 Quantitative 역량을 증명하는 데 큰 힘이 됩니다.
 
 ### b. GMAT/GRE 조건
 
@@ -142,7 +142,7 @@ GRE로 간다면 Quantitative Reasoning 165 이상을 노리면 좋습니다. WS
 WSB 에세이는 지원자의 커리어 목표와 학교를 향한 관심, 그리고 개인적 가치관을 읽어 내려는 장치입니다. 쓸 때 반드시 챙겨야 할 축은 셋입니다.
 
 -   명확한 커리어 목표: 단기(졸업 후 3~5년)와 장기(10년 이상) 목표를 구체적으로 제시
--   Why WSB: WSB만의 프로그램·센터·교수·커뮤니티가 목표 달성에 어떻게 맞물리는지 설명
+-   Why WSB: WSB만의 프로그램, 센터, 교수, 커뮤니티가 목표 달성에 어떻게 맞물리는지 설명
 -   개인적 스토리: 나만의 경험과 가치관이 WSB 커뮤니티에 더할 수 있는 것을 보여주기
 
 'Why WSB' 에세이에서는 학교를 깊이 파고든 흔적을 보여줘야 합니다. 예컨대 Finance가 목표라면 Applied Security Analysis Program의 실제 운영 방식과 본인의 투자 경험을 잇고, Marketing이라면 A.C. Nielsen Center의 특정 연구 프로젝트나 기업 파트너십을 짚어 주는 식이 통합니다.
@@ -173,7 +173,7 @@ WSB는 추천서 2통을 요구합니다. 추천인은 지원자의 업무 역�
 WSB는 Merit-Based 장학금을 운영하고, 별도 지원서를 요구하지 않습니다. 지원하는 순간 모두가 자동으로 심사 대상에 오르죠. 규모는 학비 일부 면제부터 전액까지 폭넓고, 기회가 가장 몰리는 쪽은 Round 1 지원자입니다.
 
 -   Dean's Scholarship: 탁월한 학업 성적과 리더십을 보여준 지원자에게 수여
--   Graduate Assistantship: 교내 연구·교육 보조 역할 수행 시 학비 감면과 생활비 지원
+-   Graduate Assistantship: 교내 연구와 교육 보조 역할 수행 시 학비 감면과 생활비 지원
 -   외부 장학금: Fulbright, KOTRA 장학금, 기업 후원 장학금 등 다양한 외부 기회 활용
 
 국제 학생은 미국 연방 학자금 대출(Federal Loans)을 쓸 수 없지만, Prodigy Finance나 MPOWER Financing 같은 국제 학생 전용 대출로 길을 열 수 있습니다. 원래 낮은 WSB 학비에 장학금을 얹으면 총비용은 눈에 띄게 내려갑니다.
@@ -184,7 +184,7 @@ WSB는 Merit-Based 장학금을 운영하고, 별도 지원서를 요구하지 �
 
 WSB MBA가 가장 자랑스러워하는 대목은 긴밀하고 협력적인 커뮤니티입니다. 약 145명의 작은 클래스라 동기 전원과 깊이 얽히고, 교수진과의 1:1 멘토링도 활발하죠. 'Wisconsin Badgers'라는 강한 정체성 아래 학생과 교수, 알럼나이가 하나로 묶입니다.
 
-학생 클럽과 조직도 다채롭습니다. Finance Club, Consulting Club, Marketing Club, Tech Club 같은 커리어 클럽부터 Wine Club, Outdoor Club, International Business Club 같은 취미·문화 모임까지 선택지가 넓고, MBA Olympics와 Charity Auction 같은 전통 행사도 생활에 활기를 더합니다.
+학생 클럽과 조직도 다채롭습니다. Finance Club, Consulting Club, Marketing Club, Tech Club 같은 커리어 클럽부터 Wine Club, Outdoor Club, International Business Club 같은 취미와 문화 모임까지 선택지가 넓고, MBA Olympics와 Charity Auction 같은 전통 행사도 생활에 활기를 더합니다.
 
 Madison의 생활 자체도 평이 좋습니다. State Street의 레스토랑과 카페, Capitol Square 앞 Farmers' Market, 호수에서의 카약과 세일링, 겨울 스포츠까지 계절마다 즐길 거리가 바뀝니다. 한국 식당과 아시안 식료품점도 여럿이라 한국 학생의 적응을 한결 수월하게 해 줍니다.
 
@@ -200,13 +200,13 @@ Madison의 생활 자체도 평이 좋습니다. State Street의 레스토랑과
 -   소비재/제조: General Mills, SC Johnson, Kimberly-Clark, Kohler
 -   헬스케어: Abbott, Medtronic, GE Healthcare
 
-WSB의 Career Management Center(CMC)는 입학 직후부터 졸업까지 커리어를 촘촘히 받쳐 줍니다. 개인별 코칭, 이력서·커버레터 리뷰, 모의 면접, 기업 네트워킹 이벤트가 이어지고, 특히 중서부 기업들과의 두터운 네트워크는 WSB 졸업생에게만 열리는 기회를 만들어 냅니다.
+WSB의 Career Management Center(CMC)는 입학 직후부터 졸업까지 커리어를 촘촘히 받쳐 줍니다. 개인별 코칭, 이력서와 커버레터 리뷰, 모의 면접, 기업 네트워킹 이벤트가 이어지고, 특히 중서부 기업들과의 두터운 네트워크는 WSB 졸업생에게만 열리는 기회를 만들어 냅니다.
 
-한국 학생에게도 WSB MBA의 가치는 미국 취업(컨설팅·금융·테크)에 그치지 않습니다. 귀국 후에도 인정받아, 삼성·LG·현대 같은 대기업과 글로벌 컨설팅 펌의 한국 오피스에서 WSB 졸업생들이 활약하고 있습니다.
+한국 학생에게도 WSB MBA의 가치는 미국 취업(컨설팅, 금융, 테크)에 그치지 않습니다. 귀국 후에도 인정받아, 삼성, LG, 현대 같은 대기업과 글로벌 컨설팅 펌의 한국 오피스에서 WSB 졸업생들이 활약하고 있습니다.
 
 ### c. 알럼나이 네트워크
 
-University of Wisconsin-Madison은 전 세계 약 50만 명이 넘는 동문을 품고 있고, 이는 세계에서 손꼽히는 규모입니다. 그중 WSB MBA 알럼나이는 특히 중서부와 금융·컨설팅·기술 산업에서 존재감이 큽니다.
+University of Wisconsin-Madison은 전 세계 약 50만 명이 넘는 동문을 품고 있고, 이는 세계에서 손꼽히는 규모입니다. 그중 WSB MBA 알럼나이는 특히 중서부와 금융, 컨설팅, 기술 산업에서 존재감이 큽니다.
 
 WSB Alumni Association은 전 세계 주요 도시에 지역 챕터를 두고 정기 네트워킹, 멘토링, 커리어 지원을 이어 갑니다. 'Badger 정신'으로 불리는 끈끈한 유대 덕에 재학생과 졸업생 사이의 연결도 활발합니다.
 
@@ -219,7 +219,7 @@ WSB Alumni Association은 전 세계 주요 도시에 지역 챕터를 두고 �
 비거주자 기준 2년 총비용을 항목별로 뜯어보면 이렇습니다.
 
 -   학비(Out-of-State, 2년): 약 $102,826
--   생활비(주거·식비·교통 등, 2년): 약 $40,000~$50,000
+-   생활비(주거, 식비, 교통 등, 2년): 약 $40,000~$50,000
 -   건강보험(2년): 약 $6,000~$8,000
 -   교재 및 기타 비용(2년): 약 $4,000~$6,000
 -   총 예상 비용(2년): 약 $152,826~$166,826
@@ -242,7 +242,7 @@ University of Wisconsin-Madison은 전 학생에게 건강보험 가입을 의�
 
 -   University Health Services(UHS): 캠퍼스 내 종합 의료 서비스 제공
 -   정신건강 서비스: 상담센터를 통한 심리 상담과 정신건강 지원
--   치과 및 안과 서비스: 기본적인 치과·안과 진료 지원
+-   치과 및 안과 서비스: 기본적인 치과와 안과 진료 지원
 -   24시간 간호사 핫라인: 긴급 의료 상담 서비스
 
 MBA 프로그램 차원의 지원도 탄탄합니다. Academic Advising, Career Coaching, International Student Services를 통해 학업과 커리어, 생활 전반을 아우르는 도움을 받을 수 있고요. 특히 International Student Services(ISS)는 비자 상담, 문화 적응 프로그램, 세금 신고 지원까지 국제 학생에게 특화된 서비스를 챙깁니다.
@@ -253,7 +253,7 @@ MBA 프로그램 차원의 지원도 탄탄합니다. Academic Advising, Career 
 
 재학 중 인턴십은 Curricular Practical Training(CPT)으로 합법적으로 수행하고, 졸업 후에는 Optional Practical Training(OPT)으로 최대 12개월간 미국에서 일할 수 있습니다. STEM 지정 MBA라면 24개월 연장(STEM OPT Extension)이 붙어 총 36개월까지 늘어나고요. WSB MBA의 일부 전공이 STEM 지정을 받은 만큼, 해당 전공을 고르면 이 혜택을 누릴 수 있습니다.
 
-길게 보아 미국 취업을 노린다면 H-1B 비자 스폰서십이 되는 기업을 겨냥하는 게 관건입니다. WSB의 Career Management Center는 H-1B 스폰서 가능 기업 목록을 제공하며 국제 학생의 미국 취업을 적극 돕습니다. 컨설팅·기술·금융 대기업은 대체로 H-1B를 스폰서하니, 이들 산업을 목표로 삼는 편이 유리합니다.
+길게 보아 미국 취업을 노린다면 H-1B 비자 스폰서십이 되는 기업을 겨냥하는 게 관건입니다. WSB의 Career Management Center는 H-1B 스폰서 가능 기업 목록을 제공하며 국제 학생의 미국 취업을 적극 돕습니다. 컨설팅, 기술, 금융 대기업은 대체로 H-1B를 스폰서하니, 이들 산업을 목표로 삼는 편이 유리합니다.
 
 ## 6\. 결론
 

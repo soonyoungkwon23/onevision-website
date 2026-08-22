@@ -10,7 +10,7 @@ universityKo: 루이지애나주립대학교
 schoolEn: E. J. Ourso College of Business
 description: >-
   커리큘럼 전체가 STEM으로 지정돼 36개월 OPT가 자동 적용되는 LSU Flores MBA. 비거주자 학비 약 $75,170, 졸업
-  3개월 내 취업률 90%. Baton Rouge Energy·Petrochemical 산업 직결 가이드.
+  3개월 내 취업률 90%. Baton Rouge Energy, Petrochemical 산업 직결 가이드.
 status: published
 order: 52
 publishDate: '2026-07-27'
@@ -28,7 +28,7 @@ enhancedDate: '2026-07-13'
 
 LSU의 뿌리는 1860년으로 거슬러 올라갑니다. Louisiana 주를 대표하는 공립 연구중심 대학교로, Baton Rouge 캠퍼스에만 약 38,000명이 재학합니다. 미국 R1 연구중심 대학으로 분류되며 Land-grant, Sea-grant, Space-grant 인증을 모두 갖춘 곳은 손에 꼽습니다. 남부 특유의 학문적 전통 위에 활기찬 SEC Conference 문화가 얹혀 있습니다.
 
-E. J. Ourso College of Business는 1928년에 설립돼 AACSB International 인증을 받은 비즈니스 스쿨입니다. U.S. News & World Report와 Bloomberg Businessweek에서 꾸준히 미국 톱 100 비즈니스 스쿨로 이름을 올립니다. 학교 이름은 1959년 졸업생 Edward J. Ourso 동문의 기부에서 따왔고, Internal Audit·Energy·Sports Business 같은 산업 특화 분야에서 전국 최상위권 명성을 쌓아 왔습니다.
+E. J. Ourso College of Business는 1928년에 설립돼 AACSB International 인증을 받은 비즈니스 스쿨입니다. U.S. News & World Report와 Bloomberg Businessweek에서 꾸준히 미국 톱 100 비즈니스 스쿨로 이름을 올립니다. 학교 이름은 1959년 졸업생 Edward J. Ourso 동문의 기부에서 따왔고, Internal Audit, Energy, Sports Business 같은 산업 특화 분야에서 전국 최상위권 명성을 쌓아 왔습니다.
 
 Flores라는 이름은 LSU 동문 Joseph S. Flores와 부인 Cherie Flores가 1996년 기부하며 붙었습니다. 프로그램의 미션은 명확합니다. STEM-designated 커리큘럼 전체를 통해 데이터에 기반한 의사결정을 내릴 줄 아는 21세기 글로벌 리더를 길러 내는 것. MBA 프로그램 전체가 STEM 인증을 받은 사례는 미국에서도 흔치 않습니다.
 
@@ -36,7 +36,7 @@ Flores라는 이름은 LSU 동문 Joseph S. Flores와 부인 Cherie Flores가 19
 
 Baton Rouge는 Louisiana 주의 주도(Capital City)이자 주 안에서 두 번째로 큰 도시입니다. 인구 약 22만 명, 도시 권역까지 넓히면 약 87만 명이 삽니다. New Orleans에서 북서쪽으로 약 1.5시간, Houston(Texas)에서 동쪽으로 약 4시간이면 닿을 만큼 남부 핵심 경제권 한가운데 놓여 있습니다. 무엇보다 월 렌트비가 $800~$1,200 수준입니다. 미국 평균을 한참 밑도는 이 물가는 MBA 재학 내내 든든한 완충 장치가 됩니다.
 
-이 대도시권은 Petrochemical, Energy, Healthcare, Government·Public Sector로 산업 축이 다변화돼 있습니다. ExxonMobil(Baton Rouge 정유공장은 미국 최대 규모 중 하나입니다), Dow Chemical, BASF, Shell, Marathon Petroleum, Albemarle, Blue Cross Blue Shield Louisiana, Louisiana State Government 같은 Fortune 500 기업과 정부기관이 몰려 있습니다. Baton Rouge Metropolitan Airport와 New Orleans Louis Armstrong International Airport를 이용하면 미국 주요 도시와 직항으로 연결됩니다.
+이 대도시권은 Petrochemical, Energy, Healthcare, Government, Public Sector로 산업 축이 다변화돼 있습니다. ExxonMobil(Baton Rouge 정유공장은 미국 최대 규모 중 하나입니다), Dow Chemical, BASF, Shell, Marathon Petroleum, Albemarle, Blue Cross Blue Shield Louisiana, Louisiana State Government 같은 Fortune 500 기업과 정부기관이 몰려 있습니다. Baton Rouge Metropolitan Airport와 New Orleans Louis Armstrong International Airport를 이용하면 미국 주요 도시와 직항으로 연결됩니다.
 
 캠퍼스는 약 2,000에이커에 걸쳐 펼쳐집니다. 그 안의 Business Education Complex(BEC)에는 Bloomberg Terminal Lab, Behavioral Lab, Trading Floor, 팀 학습 공간까지 비즈니스 교육에 필요한 시설이 빠짐없이 들어차 있습니다. 남부 특유의 Live Oak 고목이 둘러싼 캠퍼스 풍경은 LSU만의 정취입니다.
 
@@ -63,7 +63,7 @@ LSU Flores Full-time MBA는 51학점을 핵심 비즈니스 과목, 12개 STEM-d
 -   Healthcare: 의료 산업의 경영 전략과 행정을 다룹니다.
 -   Sports Business: SEC Conference 환경의 독특한 스포츠 비즈니스 트랙입니다.
 -   Internal Audit: LSU의 시그니처 분야로 미국 내 톱 클래스 트랙입니다.
--   Energy: Petrochemical과 전통·재생에너지 비즈니스 전략을 다룹니다. Louisiana의 산업 특성과 연계됩니다.
+-   Energy: Petrochemical과 전통과 재생에너지 비즈니스 전략을 다룹니다. Louisiana의 산업 특성과 연계됩니다.
 -   Finance: 기업 금융, 투자 분석, 재무 전략을 학습합니다.
 -   Marketing: 디지털 마케팅, 소비자 행동, 브랜드 전략을 다룹니다.
 -   Supply Chain Management: 글로벌 공급망과 물류 최적화를 학습합니다.
@@ -79,12 +79,12 @@ Stephenson Department of Entrepreneurship & Information Systems, LSU Health Care
 
 -   총 학비(Louisiana 거주자, 51학점): 약 $40,437
 -   총 학비(비거주자/국제 학생): 약 $75,170
--   기숙사·생활비(21개월 기준): 약 $24,000~$30,000
+-   기숙사, 생활비(21개월 기준): 약 $24,000~$30,000
 -   교재 및 기타: 약 $3,000~$4,000
 -   건강보험: 약 $3,500~$4,500
 -   총 예상 비용(국제 학생, 21개월): 약 $105,000~$115,000
 
-$110,000 안팎이라는 총액은 STEM-designated MBA 중에서 부담이 덜한 편에 속합니다. 여기에 36개월 OPT의 가치, Baton Rouge 권역 Petrochemical·Energy 산업과의 직접 연계, 90%에 이르는 졸업 후 3개월 내 취업률까지 얹으면 한국인 지원자 입장에서 ROI가 상당히 매력적입니다.
+$110,000 안팎이라는 총액은 STEM-designated MBA 중에서 부담이 덜한 편에 속합니다. 여기에 36개월 OPT의 가치, Baton Rouge 권역 Petrochemical, Energy 산업과의 직접 연계, 90%에 이르는 졸업 후 3개월 내 취업률까지 얹으면 한국인 지원자 입장에서 ROI가 상당히 매력적입니다.
 
 ## 2\. 입학과정
 
@@ -132,14 +132,14 @@ $110,000 안팎이라는 총액은 STEM-designated MBA 중에서 부담이 덜�
 
 ## 3\. 지원 준비와 전략
 
-이 프로그램은 학업 역량과 STEM 지향 분석력 사이의 균형을 봅니다. 커리큘럼 전체가 STEM-designated인 만큼, 데이터·분석·기술 쪽으로 향한 커리어 비전을 얼마나 설득력 있게 그려 내느냐가 결국 당락을 좌우합니다.
+이 프로그램은 학업 역량과 STEM 지향 분석력 사이의 균형을 봅니다. 커리큘럼 전체가 STEM-designated인 만큼, 데이터, 분석, 기술 쪽으로 향한 커리어 비전을 얼마나 설득력 있게 그려 내느냐가 결국 당락을 좌우합니다.
 
 ### a. GPA 조건
 
 입학생 평균 GPA는 약 3.3~3.4입니다. 구간별로 경쟁력을 가늠하면 이렇습니다.
 
--   강력한 경쟁력: GPA 3.6 이상 — 학업 역량에서 확실한 강점을 보여줍니다.
--   충분히 경쟁력: GPA 3.3 이상 — 평균 수준으로 안정적인 경쟁력입니다.
+-   강력한 경쟁력: GPA 3.6 이상. 학업 역량에서 확실한 강점을 보여줍니다.
+-   충분히 경쟁력: GPA 3.3 이상. 평균 수준으로 안정적인 경쟁력입니다.
 -   최소 요건: 학부 전체 GPA 3.0 이상 또는 학부 후반 절반 GPA 3.0 이상
 
 여기서 특히 무게가 실리는 건 정량 과목(수학, 통계, 회계, 경제학, 컴퓨터 과학) 성적입니다. STEM-MBA는 분석 능력 입증을 강하게 요구하기 때문입니다. 관련 과목 학점이 아쉬운 지원자라면 GMAT 점수나 직무 경험으로 그 공백을 메워야 합니다.
@@ -148,15 +148,15 @@ $110,000 안팎이라는 총액은 STEM-designated MBA 중에서 부담이 덜�
 
 입학생 평균 GMAT은 약 580~620입니다. 점수대별로 보면 다음과 같습니다.
 
--   강력한 경쟁력: GMAT 650 이상 / GRE 320 이상 — 장학금 수혜 가능성이 높아집니다.
--   충분히 경쟁력: GMAT 600 이상 / GRE 310 이상 — 평균 수준으로 안정적입니다.
--   보완 가능: GMAT 550 이상 / GRE 300 이상 — 강한 GPA·경력으로 보완 가능합니다.
+-   강력한 경쟁력: GMAT 650 이상 / GRE 320 이상. 장학금 수혜 가능성이 높아집니다.
+-   충분히 경쟁력: GMAT 600 이상 / GRE 310 이상. 평균 수준으로 안정적입니다.
+-   보완 가능: GMAT 550 이상 / GRE 300 이상. 강한 GPA, 경력으로 보완 가능합니다.
 
 **GMAT/GRE Waiver 조건 (Online MBA의 경우, Full-time MBA는 일부 사례별 검토):**
 
 -   기타 인증된 석사 학위 보유
 -   정량적 학사 학위 + GPA 3.5 이상
--   최소 5년 이상의 풀타임 경영·관리 직무 경험
+-   최소 5년 이상의 풀타임 경영과 관리 직무 경험
 -   CPA, CFA 등 전문 자격증 보유자
 
 Full-time MBA의 Waiver는 사례별 심사로 갈리고, Online MBA는 상대적으로 문이 넓습니다. 한국 대학의 STEM 학위와 직무 경력이 있다면 Waiver 신청을 저울질해 볼 만합니다. 다만 장학금까지 노린다면 오히려 GMAT을 내는 쪽이 유리할 때가 많습니다.
@@ -165,10 +165,10 @@ Full-time MBA의 Waiver는 사례별 심사로 갈리고, Online MBA는 상대�
 
 LSU Flores MBA 에세이는 다음 요소를 포함합니다.
 
--   Personal Statement / Statement of Purpose (500~750 단어): 단기·장기 커리어 목표, MBA가 필요한 이유, LSU Flores를 선택한 이유, STEM 지향성과의 적합성
+-   Personal Statement / Statement of Purpose (500~750 단어): 단기와 장기 커리어 목표, MBA가 필요한 이유, LSU Flores를 선택한 이유, STEM 지향성과의 적합성
 -   Optional Essay: 학업이나 경력에서 보충 설명이 필요한 사항이 있을 경우 별도 작성 가능
 
-한국인 지원자가 에세이에서 놓치지 말아야 할 지점들을 짚어 보겠습니다. STEM-designated 커리큘럼과 12개 특성화 분야 중 어디에 왜 끌리는지를 구체적으로 적으세요. 한국 직장에서 쌓은 데이터·분석·기술 역량은 추상적 표현이 아니라 실제 사례로 풀어야 힘이 실립니다. 그리고 Baton Rouge-New Orleans 권역의 Petrochemical·Energy·Healthcare 산업과 본인의 졸업 후 진로를 눈에 보이듯 연결하는 것이 좋습니다. 여기에 Internal Audit, Sports Business, IE/MBA 같은 LSU만의 트랙을 어떻게 활용할지까지 명확히 밝히면 설득력이 한층 올라갑니다.
+한국인 지원자가 에세이에서 놓치지 말아야 할 지점들을 짚어 보겠습니다. STEM-designated 커리큘럼과 12개 특성화 분야 중 어디에 왜 끌리는지를 구체적으로 적으세요. 한국 직장에서 쌓은 데이터, 분석, 기술 역량은 추상적 표현이 아니라 실제 사례로 풀어야 힘이 실립니다. 그리고 Baton Rouge-New Orleans 권역의 Petrochemical, Energy, Healthcare 산업과 본인의 졸업 후 진로를 눈에 보이듯 연결하는 것이 좋습니다. 여기에 Internal Audit, Sports Business, IE/MBA 같은 LSU만의 트랙을 어떻게 활용할지까지 명확히 밝히면 설득력이 한층 올라갑니다.
 
 ### d. 추천서 전략
 
@@ -219,9 +219,9 @@ Baton Rouge는 Cajun Culture와 Creole Cuisine으로 이름난 남부 문화의 
 -   주요 취업 산업: Energy(Petrochemical), Healthcare, Finance, Internal Audit, Consulting, Sports Business
 -   주요 채용 지역: Baton Rouge, New Orleans, Houston, Dallas, 전국
 
-채용 무대에는 ExxonMobil, Dow Chemical, BASF, Shell, Marathon Petroleum, Albemarle, Blue Cross Blue Shield Louisiana, Entergy, Hancock Whitney Bank, Postlethwaite & Netterville 같은 Baton Rouge-New Orleans 권역 Fortune 500 기업이 오릅니다. 여기에 Deloitte, EY, KPMG, PwC 등 주요 회계·컨설팅 펌도 LSU Flores MBA를 꾸준히 찾습니다. 그중에서도 Internal Audit은 다른 학교가 흉내 내기 힘든 LSU만의 채용 파이프라인입니다.
+채용 무대에는 ExxonMobil, Dow Chemical, BASF, Shell, Marathon Petroleum, Albemarle, Blue Cross Blue Shield Louisiana, Entergy, Hancock Whitney Bank, Postlethwaite & Netterville 같은 Baton Rouge-New Orleans 권역 Fortune 500 기업이 오릅니다. 여기에 Deloitte, EY, KPMG, PwC 등 주요 회계와 컨설팅 펌도 LSU Flores MBA를 꾸준히 찾습니다. 그중에서도 Internal Audit은 다른 학교가 흉내 내기 힘든 LSU만의 채용 파이프라인입니다.
 
-Career Resource Center는 1:1 Career Coaching, 이력서·커버레터 컨설팅, 모의 인터뷰, 산업별 채용 박람회를 지원합니다. 그리고 무엇보다, STEM-designated 프로그램이 주는 36개월 OPT는 국제 학생이 미국에서 풀타임으로 자리 잡는 데 결정적인 무기가 됩니다.
+Career Resource Center는 1:1 Career Coaching, 이력서와 커버레터 컨설팅, 모의 인터뷰, 산업별 채용 박람회를 지원합니다. 그리고 무엇보다, STEM-designated 프로그램이 주는 36개월 OPT는 국제 학생이 미국에서 풀타임으로 자리 잡는 데 결정적인 무기가 됩니다.
 
 ### c. 알럼나이 네트워크
 
@@ -234,7 +234,7 @@ LSU 동문 네트워크는 약 270,000명을 넘어섭니다. Baton Rouge, New O
 21개월 과정을 마치는 데 드는 총 예상 비용을 정리해 드립니다.
 
 -   학비(국제 학생, 51학점): 약 $75,170
--   기숙사·생활비(21개월): 약 $24,000~$30,000
+-   기숙사, 생활비(21개월): 약 $24,000~$30,000
 -   교재 및 기타: 약 $3,000~$4,000
 -   건강보험: 약 $3,500~$4,500
 -   총 예상 비용: 약 $105,000~$115,000 (한화 약 1억 4,000만~1억 5,500만 원)
@@ -257,19 +257,19 @@ LSU는 등록 학생 전원에게 Student Health Insurance Plan 가입을 의무
 -   STEM OPT: LSU Flores MBA는 전체 커리큘럼이 STEM-designated이므로 24개월 추가 OPT가 자동 적용됩니다(총 36개월).
 -   H-1B Visa: STEM OPT 36개월 동안 고용주 스폰서를 통해 취업 비자 전환 가능.
 -   CPT: 재학 중 인턴십(여름 인턴십 등)을 위한 취업 허가.
--   IE/MBA Dual Degree: 공학·비즈니스 복합 분야의 차별화된 커리어 경로 가능.
+-   IE/MBA Dual Degree: 공학과 비즈니스 복합 분야의 차별화된 커리어 경로 가능.
 
-36개월이라는 OPT 기간이 왜 중요할까요. H-1B 추첨을 한 번이 아니라 여러 번 시도할 시간을 벌어 주기 때문입니다. 게다가 Baton Rouge-New Orleans-Houston을 잇는 Petrochemical·Energy 산업 벨트는 국제 학생이 미국에 뿌리내리기에 더없이 좋은 토양입니다. ExxonMobil, Dow Chemical 같은 대형 기업이 H-1B 스폰서십에 적극적이라는 점도 큰 힘이 됩니다.
+36개월이라는 OPT 기간이 왜 중요할까요. H-1B 추첨을 한 번이 아니라 여러 번 시도할 시간을 벌어 주기 때문입니다. 게다가 Baton Rouge-New Orleans-Houston을 잇는 Petrochemical, Energy 산업 벨트는 국제 학생이 미국에 뿌리내리기에 더없이 좋은 토양입니다. ExxonMobil, Dow Chemical 같은 대형 기업이 H-1B 스폰서십에 적극적이라는 점도 큰 힘이 됩니다.
 
 ## 6\. 결론
 
 지금까지 살펴본 Louisiana State University E. J. Ourso College of Business의 Flores MBA Program을 정리해 보겠습니다. 1928년 문을 연 남부 대표 공립 R1 대학교 소속 비즈니스 스쿨로, 미국에서 드문 STEM-designated 전체 커리큘럼과 12개 특성화 분야를 엮어 데이터 지향형 경영 교육을 펼칩니다.
 
-비거주자 학비 약 $75,170, 졸업 3개월 내 취업률 90%, Out-of-State Tuition Waiver와 Graduate Assistantship으로 이어지는 넉넉한 재정 지원, 그리고 Baton Rouge-New Orleans 권역의 Petrochemical·Energy·Healthcare 산업 생태계. 이 조합이 한국인 지원자에게 건네는 가치는 결코 작지 않습니다. 특히 자동으로 붙는 36개월 OPT는 미국 정착을 노리는 지원자에게 결정적인 한 수입니다.
+비거주자 학비 약 $75,170, 졸업 3개월 내 취업률 90%, Out-of-State Tuition Waiver와 Graduate Assistantship으로 이어지는 넉넉한 재정 지원, 그리고 Baton Rouge-New Orleans 권역의 Petrochemical, Energy, Healthcare 산업 생태계. 이 조합이 한국인 지원자에게 건네는 가치는 결코 작지 않습니다. 특히 자동으로 붙는 36개월 OPT는 미국 정착을 노리는 지원자에게 결정적인 한 수입니다.
 
-강점을 한눈에 모으면 이렇습니다. AACSB 인증, R1 연구중심 대학, STEM-designated 전체 커리큘럼, 12개 특성화 분야(Internal Audit·Energy·Sports Business 등 시그니처), IE/MBA·MBA/MS-Analytics 복수 학위, Out-of-State Tuition Waiver, Petrochemical·Energy 산업 직접 연계, Forever LSU·SEC Conference 동문 네트워크, 그리고 36개월 STEM OPT 자동 적용.
+강점을 한눈에 모으면 이렇습니다. AACSB 인증, R1 연구중심 대학, STEM-designated 전체 커리큘럼, 12개 특성화 분야(Internal Audit, Energy, Sports Business 등 시그니처), IE/MBA, MBA/MS-Analytics 복수 학위, Out-of-State Tuition Waiver, Petrochemical, Energy 산업 직접 연계, Forever LSU, SEC Conference 동문 네트워크, 그리고 36개월 STEM OPT 자동 적용.
 
-결국 이 프로그램은 STEM 지향 커리어를 다지려는 학생, Energy·Petrochemical·Internal Audit 같은 특정 산업에 뿌리를 내리려는 학생, 합리적인 비용으로 STEM-designated MBA의 36개월 OPT를 손에 넣으려는 학생에게 가장 잘 맞습니다. 준비를 전략적으로 다듬어 목표하는 자리에 반드시 닿으시길 바랍니다.
+결국 이 프로그램은 STEM 지향 커리어를 다지려는 학생, Energy, Petrochemical, Internal Audit 같은 특정 산업에 뿌리를 내리려는 학생, 합리적인 비용으로 STEM-designated MBA의 36개월 OPT를 손에 넣으려는 학생에게 가장 잘 맞습니다. 준비를 전략적으로 다듬어 목표하는 자리에 반드시 닿으시길 바랍니다.
 
 참고 링크:
 

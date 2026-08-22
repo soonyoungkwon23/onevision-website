@@ -16,7 +16,7 @@ updatedDate: null
 enhancedDate: '2026-07-13'
 ---
 
-MBA를 딱 1년 만에, 그것도 STEM-designated로 끝낼 수 있다면 어떨까요. Lehigh University College of Business의 1-MBA(One-Year MBA)가 바로 그 프로그램입니다. Pennsylvania 주 Bethlehem에 자리한 이 학교는 1865년 세워진 미국 동부의 대표 사립 연구중심 대학이고, College of Business는 그 산하에서 초기·중기 경력자를 위한 12개월 가속 풀타임 STEM-MBA 경로를 운영합니다.
+MBA를 딱 1년 만에, 그것도 STEM-designated로 끝낼 수 있다면 어떨까요. Lehigh University College of Business의 1-MBA(One-Year MBA)가 바로 그 프로그램입니다. Pennsylvania 주 Bethlehem에 자리한 이 학교는 1865년 세워진 미국 동부의 대표 사립 연구중심 대학이고, College of Business는 그 산하에서 초기와 중기 경력자를 위한 12개월 가속 풀타임 STEM-MBA 경로를 운영합니다.
 
 한국인 지원자 입장에서 이 프로그램이 매력적인 이유는 분명합니다. 우선 12개월 풀타임 STEM-designated MBA라 학업을 위해 커리어를 비우는 기간이 짧고, 졸업 후에는 36개월 OPT가 자동으로 붙어 미국 내 정착에 큰 힘이 됩니다. 여기에 NYC와 Philadelphia가 각각 1.5시간 거리라는 점도 무시할 수 없습니다. Wall Street 금융권과 동부 핵심 산업 클러스터로 곧장 진입할 수 있는 위치니까요. 전공 트랙도 실무 흐름에 맞춰 Financial Management, Marketing, STEM Business Analytics, STEM Supply Chain Management 네 갈래로 짜여 있습니다.
 
@@ -24,7 +24,7 @@ MBA를 딱 1년 만에, 그것도 STEM-designated로 끝낼 수 있다면 어떨
 
 ### a. 학교 소개와 역사
 
-Lehigh University는 1865년 사업가 Asa Packer가 세운 미국 동부의 대표 사립 연구중심 대학입니다. Bethlehem 캠퍼스에는 약 7,500명이 재학 중이고, 미국 R1 연구중심 대학으로 분류됩니다. 공학·비즈니스·과학에서 쌓아온 학문적 명성 덕분에 U.S. News & World Report 미국 톱 50 사립 대학에 이름을 올리고 있습니다.
+Lehigh University는 1865년 사업가 Asa Packer가 세운 미국 동부의 대표 사립 연구중심 대학입니다. Bethlehem 캠퍼스에는 약 7,500명이 재학 중이고, 미국 R1 연구중심 대학으로 분류됩니다. 공학, 비즈니스, 과학에서 쌓아온 학문적 명성 덕분에 U.S. News & World Report 미국 톱 50 사립 대학에 이름을 올리고 있습니다.
 
 College of Business는 AACSB International 인증을 받은 학교입니다. 이 인증은 전 세계 비즈니스 스쿨 중 상위 5%만 보유하는 품질 기준으로, 아무 학교나 받는 게 아닙니다. U.S. News & World Report와 Bloomberg Businessweek 모두 미국 톱 80 비즈니스 스쿨로 평가하며, 특히 Supply Chain Management, Business Analytics, Finance 세 분야에서 미국 내 톱 클래스로 통합니다.
 
@@ -32,9 +32,9 @@ College of Business는 AACSB International 인증을 받은 학교입니다. 이
 
 ### b. 캠퍼스와 도시 환경
 
-Bethlehem은 Pennsylvania 주 동부 Lehigh Valley의 핵심 도시입니다. 인구 약 75,000명의 도시 권역에 약 87만 명이 살고, New York City와 Philadelphia가 각각 1.5시간 거리라 동부 핵심 경제 거점에 바로 닿습니다. 무엇보다 월 렌트비가 $1,000~$1,500 선으로 NYC·Boston 대비 50~60% 저렴합니다. MBA 1년 동안 주거비 부담이 확연히 가벼워지는 셈이죠.
+Bethlehem은 Pennsylvania 주 동부 Lehigh Valley의 핵심 도시입니다. 인구 약 75,000명의 도시 권역에 약 87만 명이 살고, New York City와 Philadelphia가 각각 1.5시간 거리라 동부 핵심 경제 거점에 바로 닿습니다. 무엇보다 월 렌트비가 $1,000~$1,500 선으로 NYC, Boston 대비 50~60% 저렴합니다. MBA 1년 동안 주거비 부담이 확연히 가벼워지는 셈이죠.
 
-Lehigh Valley는 Manufacturing, Healthcare, Logistics, Finance, Technology까지 산업 기반이 두텁습니다. Air Products and Chemicals(Fortune 500), PPL Corporation, B. Braun Medical, Olympus Corporation of the Americas, St. Luke's University Health Network, Lehigh Valley Health Network 같은 대기업과 의료기관이 인근에 포진해 있죠. 공항 접근성도 좋아 Newark Liberty International Airport(NJ)와 Philadelphia International Airport를 거치면 한국·아시아·유럽 직항편을 쉽게 이용할 수 있습니다.
+Lehigh Valley는 Manufacturing, Healthcare, Logistics, Finance, Technology까지 산업 기반이 두텁습니다. Air Products and Chemicals(Fortune 500), PPL Corporation, B. Braun Medical, Olympus Corporation of the Americas, St. Luke's University Health Network, Lehigh Valley Health Network 같은 대기업과 의료기관이 인근에 포진해 있죠. 공항 접근성도 좋아 Newark Liberty International Airport(NJ)와 Philadelphia International Airport를 거치면 한국, 아시아, 유럽 직항편을 쉽게 이용할 수 있습니다.
 
 캠퍼스는 약 2,350에이커에 달합니다. 이 안의 Rauch Business Center에는 Bloomberg Terminal Lab, Behavioral Lab, Trading Floor, 팀 기반 학습 공간 등 비즈니스 교육에 딱 맞춘 시설이 갖춰져 있습니다. South Mountain의 자연과 역사적인 캠퍼스 건축물이 어우러진 풍경은 Lehigh만의 색깔이라 할 만합니다.
 
@@ -47,7 +47,7 @@ Lehigh College of Business의 MBA는 한 종류가 아닙니다. 목적에 따�
 -   Online MBA: 100% 온라인 유연 프로그램으로 AACSB 인증을 받았습니다.
 -   MBA/MS-Engineering Dual Degree: Lehigh P.C. Rossin College of Engineering과의 복수 학위 프로그램입니다.
 -   MBA/MS-Healthcare Systems Engineering Dual Degree: 의료 시스템 공학 분야 복수 학위 프로그램입니다.
--   MBA/JD Dual Degree: 법무·비즈니스 복수 학위 프로그램(외부 로스쿨 협력).
+-   MBA/JD Dual Degree: 법무와 비즈니스 복수 학위 프로그램(외부 로스쿨 협력).
 
 ### d. MBA 전공 분야와 커리큘럼
 
@@ -69,12 +69,12 @@ Lehigh College of Business의 MBA는 한 종류가 아닙니다. 목적에 따�
 -   학점당 학비(1-MBA): 약 $1,470/학점
 -   총 학비(1-MBA, 42학점, 12개월): 약 $61,740
 -   학점당 학비(FLEX MBA): 약 $1,400/학점
--   기숙사·생활비(12개월 기준): 약 $20,000~$26,000
+-   기숙사, 생활비(12개월 기준): 약 $20,000~$26,000
 -   교재 및 기타: 약 $2,500~$3,500
 -   건강보험: 약 $3,000~$4,000
 -   총 예상 비용(국제 학생, 12개월): 약 $90,000~$95,000
 
-12개월에 총 $90,000 안팎이면 STEM-designated 사립 비즈니스 스쿨 치고는 꽤 경제적인 편입니다. 2년제 대비 커리어 공백에서 오는 기회 비용도 절반 수준이죠. 여기에 STEM 지정으로 따라오는 36개월 OPT의 가치, NYC·Philadelphia 권역의 두터운 산업 기회까지 더하면 한국인 지원자에게 돌아오는 ROI는 상당합니다.
+12개월에 총 $90,000 안팎이면 STEM-designated 사립 비즈니스 스쿨 치고는 꽤 경제적인 편입니다. 2년제 대비 커리어 공백에서 오는 기회 비용도 절반 수준이죠. 여기에 STEM 지정으로 따라오는 36개월 OPT의 가치, NYC, Philadelphia 권역의 두터운 산업 기회까지 더하면 한국인 지원자에게 돌아오는 ROI는 상당합니다.
 
 ## 2\. 입학과정
 
@@ -133,9 +133,9 @@ Lehigh College of Business가 눈여겨보는 건 학업 역량과 STEM 지향 �
 
 입학생 평균 GPA는 3.36입니다. 본인 점수가 어디쯤 서 있는지 아래에서 가늠해 보세요.
 
--   강력한 경쟁력: GPA 3.6 이상 — 학업 역량에서 확실한 강점을 보여줍니다.
--   충분히 경쟁력: GPA 3.3 이상 — 평균 수준으로 안정적인 경쟁력입니다.
--   보완 가능: GPA 3.0 이상 — 강한 GMAT 점수와 직무 경력으로 보완 가능합니다.
+-   강력한 경쟁력: GPA 3.6 이상. 학업 역량에서 확실한 강점을 보여줍니다.
+-   충분히 경쟁력: GPA 3.3 이상. 평균 수준으로 안정적인 경쟁력입니다.
+-   보완 가능: GPA 3.0 이상. 강한 GMAT 점수와 직무 경력으로 보완 가능합니다.
 
 특히 수학, 통계, 회계, 경제학, 컴퓨터 과학 같은 정량 과목 성적이 무겁게 반영됩니다. STEM-MBA라 분석 능력을 입증하라는 요구가 강하기 때문이죠. 이 과목들에서 성적이 아쉬웠다면 GMAT 점수나 실무 경험으로 분석력을 메워야 합니다.
 
@@ -143,9 +143,9 @@ Lehigh College of Business가 눈여겨보는 건 학업 역량과 STEM 지향 �
 
 입학생 평균 GMAT은 600 이상, 백분위로는 70th 수준입니다. 구간별 경쟁력은 이렇게 나뉩니다.
 
--   강력한 경쟁력: GMAT 660 이상 / GRE 320 이상 — 장학금 수혜 가능성이 높아집니다.
--   충분히 경쟁력: GMAT 600 이상 / GRE 310 이상 — 평균 수준으로 안정적입니다.
--   보완 가능: GMAT 560 이상 / GRE 305 이상 — 강한 GPA·경력으로 보완 가능합니다.
+-   강력한 경쟁력: GMAT 660 이상 / GRE 320 이상. 장학금 수혜 가능성이 높아집니다.
+-   충분히 경쟁력: GMAT 600 이상 / GRE 310 이상. 평균 수준으로 안정적입니다.
+-   보완 가능: GMAT 560 이상 / GRE 305 이상. 강한 GPA, 경력으로 보완 가능합니다.
 
 **GMAT/GRE Waiver 조건 (FLEX MBA의 경우, 1-MBA는 필수):**
 
@@ -160,11 +160,11 @@ Lehigh College of Business가 눈여겨보는 건 학업 역량과 STEM 지향 �
 
 Lehigh 1-MBA Personal Essays는 크게 세 갈래로 구성됩니다.
 
--   Statement of Purpose (500~750 단어): 단기·장기 커리어 목표, MBA가 필요한 이유, Lehigh 1-MBA를 선택한 이유, STEM 특성화와의 적합성
--   Behavioral Essay: 리더십·팀워크·역경 극복 사례
+-   Statement of Purpose (500~750 단어): 단기와 장기 커리어 목표, MBA가 필요한 이유, Lehigh 1-MBA를 선택한 이유, STEM 특성화와의 적합성
+-   Behavioral Essay: 리더십, 팀워크, 역경 극복 사례
 -   Optional Essay: 학업이나 경력에서 보충 설명이 필요한 사항이 있을 경우 별도 작성 가능
 
-한국인 지원자라면 에세이에서 이런 점들을 챙기시길 권합니다. 먼저 12개월 가속 STEM-designated 커리큘럼에 왜 끌렸는지를 구체적으로 풀어내세요. 그다음 한국에서의 직무 경험 중 데이터·분석·기술 지향적인 대목을 부각하고, 자신이 고른 특성화 분야(Financial Management, Marketing, STEM Business Analytics, STEM Supply Chain Management)와 곧바로 이어지도록 연결해야 합니다. 여기에 NYC·Philadelphia 권역의 산업 환경과 졸업 후 커리어 비전을 촘촘히 엮고, MBA/MS-Engineering 같은 Lehigh만의 복수 학위 옵션을 커리어 계획에 어떻게 녹일지도 분명히 제시하면 설득력이 한층 올라갑니다.
+한국인 지원자라면 에세이에서 이런 점들을 챙기시길 권합니다. 먼저 12개월 가속 STEM-designated 커리큘럼에 왜 끌렸는지를 구체적으로 풀어내세요. 그다음 한국에서의 직무 경험 중 데이터, 분석, 기술 지향적인 대목을 부각하고, 자신이 고른 특성화 분야(Financial Management, Marketing, STEM Business Analytics, STEM Supply Chain Management)와 곧바로 이어지도록 연결해야 합니다. 여기에 NYC, Philadelphia 권역의 산업 환경과 졸업 후 커리어 비전을 촘촘히 엮고, MBA/MS-Engineering 같은 Lehigh만의 복수 학위 옵션을 커리어 계획에 어떻게 녹일지도 분명히 제시하면 설득력이 한층 올라갑니다.
 
 ### d. 추천서 전략
 
@@ -174,7 +174,7 @@ Lehigh 1-MBA Personal Essays는 크게 세 갈래로 구성됩니다.
 -   나머지 1통은 또 다른 직장 상사, 멘토, 또는 학부 교수가 가능합니다.
 -   추천인은 지원자의 분석력, 리더십, 팀워크, 데이터 기반 의사결정 능력을 구체적 사례로 증명해야 합니다.
 
-추천인에게는 1-MBA가 STEM-designated 12개월 가속 과정이라는 점을 미리 설명하고, 지원자의 정량적 역량과 빠른 학습·적응력을 구체적 일화로 담아달라고 부탁하세요. 미국 입학사정관은 한국 직장의 위계 문화를 잘 모를 수 있으니, 추천인이 사례를 글로벌 비즈니스 맥락에 맞춰 풀어주도록 귀띔하는 것이 효과적입니다.
+추천인에게는 1-MBA가 STEM-designated 12개월 가속 과정이라는 점을 미리 설명하고, 지원자의 정량적 역량과 빠른 학습과 적응력을 구체적 일화로 담아달라고 부탁하세요. 미국 입학사정관은 한국 직장의 위계 문화를 잘 모를 수 있으니, 추천인이 사례를 글로벌 비즈니스 맥락에 맞춰 풀어주도록 귀띔하는 것이 효과적입니다.
 
 ### e. 캠퍼스 방문과 인터뷰
 
@@ -214,7 +214,7 @@ Bethlehem은 Lehigh Valley의 활기찬 대학 도시입니다. 역사적 다운
 -   주요 취업 산업: Finance, Consulting, Technology, Manufacturing, Healthcare, Supply Chain
 -   주요 채용 지역: New York, Philadelphia, Lehigh Valley, Boston, 전국
 
-채용 기업 면면도 탄탄합니다. Air Products and Chemicals, PPL Corporation, B. Braun Medical, Olympus Corporation of the Americas, St. Luke's University Health Network, Lehigh Valley Health Network, Crayola, Just Born, Lutron Electronics, Mack Trucks 같은 Lehigh Valley 권역 기업은 물론, JPMorgan Chase, Goldman Sachs, Morgan Stanley, Deloitte, EY, PwC, KPMG, McKinsey 같은 NYC·Philadelphia 권역 글로벌 기업이 Lehigh MBA를 꾸준히 뽑아갑니다.
+채용 기업 면면도 탄탄합니다. Air Products and Chemicals, PPL Corporation, B. Braun Medical, Olympus Corporation of the Americas, St. Luke's University Health Network, Lehigh Valley Health Network, Crayola, Just Born, Lutron Electronics, Mack Trucks 같은 Lehigh Valley 권역 기업은 물론, JPMorgan Chase, Goldman Sachs, Morgan Stanley, Deloitte, EY, PwC, KPMG, McKinsey 같은 NYC, Philadelphia 권역 글로벌 기업이 Lehigh MBA를 꾸준히 뽑아갑니다.
 
 Center for Career and Professional Development는 1:1 Career Coaching, 이력서/커버레터 컨설팅, 모의 인터뷰, 산업별 채용 박람회를 지원합니다. 그중에서도 STEM-designated 1-MBA의 36개월 OPT는 국제 학생이 미국에서 풀타임으로 자리 잡는 데 결정적인 밑천이 됩니다.
 
@@ -229,7 +229,7 @@ Lehigh University 동문은 약 84,000명 이상입니다. New York, Philadelphi
 1-MBA 12개월 과정의 총 예상 비용을 항목별로 짚어보겠습니다.
 
 -   학비(42학점): 약 $61,740
--   기숙사·생활비(12개월): 약 $20,000~$26,000
+-   기숙사, 생활비(12개월): 약 $20,000~$26,000
 -   교재 및 기타: 약 $2,500~$3,500
 -   건강보험: 약 $3,000~$4,000
 -   총 예상 비용: 약 $90,000~$95,000 (한화 약 1억 2,000만~1억 3,000만 원)
@@ -254,17 +254,17 @@ Lehigh University는 등록 학생 전원에게 Student Health Insurance Plan �
 -   CPT: 재학 중 인턴십(여름 인턴십 등)을 위한 취업 허가.
 -   MBA/MS-Engineering Dual Degree: 추가 STEM 학위로 커리어 옵션 확대 가능.
 
-STEM 지정으로 주어지는 36개월 OPT는 국제 학생이 H-1B 추첨에 여러 번 도전할 수 있게 해준다는 점에서 특히 값집니다. NYC·Philadelphia·Lehigh Valley 권역에 Finance·Consulting·Technology·Supply Chain 산업이 두텁게 깔려 있어 미국 내 커리어 정착에도 유리하죠. 실제로 JPMorgan Chase, Goldman Sachs 같은 월스트리트 금융 기관과 Air Products, B. Braun 같은 Lehigh Valley 대형 기업들은 H-1B 스폰서십에 적극적입니다.
+STEM 지정으로 주어지는 36개월 OPT는 국제 학생이 H-1B 추첨에 여러 번 도전할 수 있게 해준다는 점에서 특히 값집니다. NYC, Philadelphia, Lehigh Valley 권역에 Finance, Consulting, Technology, Supply Chain 산업이 두텁게 깔려 있어 미국 내 커리어 정착에도 유리하죠. 실제로 JPMorgan Chase, Goldman Sachs 같은 월스트리트 금융 기관과 Air Products, B. Braun 같은 Lehigh Valley 대형 기업들은 H-1B 스폰서십에 적극적입니다.
 
 ## 6\. 결론
 
 Lehigh University College of Business는 1865년 세워진 미국 동부의 대표 사립 R1 연구중심 대학 산하 비즈니스 스쿨입니다. 그 안에서 12개월 STEM-designated 1-MBA와 산업 흐름에 맞춘 4개 특성화 분야를 엮어 남다른 가속 MBA를 운영하고 있습니다.
 
-한국인 지원자 입장에서 이 학교가 주는 실익은 여러 갈래입니다. 약 $61,740의 합리적인 학비, 졸업 후 3개월 내 약 90%에 이르는 취업률, Lehigh Merit Scholarship과 Dean's Fellowship으로 대표되는 두터운 재정 지원, 그리고 NYC·Philadelphia 권역의 풍부한 산업 기회까지. 여기에 STEM 지정으로 36개월 OPT가 자동으로 붙고 12개월 만에 학위를 끝낼 수 있다는 점은 다른 학교에서 쉽게 찾기 힘든 Lehigh만의 무기입니다.
+한국인 지원자 입장에서 이 학교가 주는 실익은 여러 갈래입니다. 약 $61,740의 합리적인 학비, 졸업 후 3개월 내 약 90%에 이르는 취업률, Lehigh Merit Scholarship과 Dean's Fellowship으로 대표되는 두터운 재정 지원, 그리고 NYC, Philadelphia 권역의 풍부한 산업 기회까지. 여기에 STEM 지정으로 36개월 OPT가 자동으로 붙고 12개월 만에 학위를 끝낼 수 있다는 점은 다른 학교에서 쉽게 찾기 힘든 Lehigh만의 무기입니다.
 
-강점을 한 줄로 꿰어보면 이렇습니다. AACSB 인증을 받은 사립 R1 연구중심 대학, 기회 비용을 최소화하는 12개월 STEM-designated 1-MBA, STEM Business Analytics·Supply Chain Management 시그니처 트랙, 전원 자동 심사되는 Lehigh Merit Scholarship, NYC·Philadelphia 1.5시간 접근성, Air Products·JPMorgan·Goldman Sachs로 이어지는 산업 연계, 월스트리트 동문 네트워크, 그리고 36개월 STEM OPT 자동 적용.
+강점을 한 줄로 꿰어보면 이렇습니다. AACSB 인증을 받은 사립 R1 연구중심 대학, 기회 비용을 최소화하는 12개월 STEM-designated 1-MBA, STEM Business Analytics, Supply Chain Management 시그니처 트랙, 전원 자동 심사되는 Lehigh Merit Scholarship, NYC, Philadelphia 1.5시간 접근성, Air Products, JPMorgan, Goldman Sachs로 이어지는 산업 연계, 월스트리트 동문 네트워크, 그리고 36개월 STEM OPT 자동 적용.
 
-그래서 이 프로그램은 이런 분들에게 잘 맞습니다. MBA를 빠르고 효율적으로 STEM 트랙에서 마치고 싶은 분, Finance·Supply Chain·Business Analytics 쪽으로 커리어를 세우려는 분, NYC·Philadelphia 권역의 산업 기회와 사립 명문대의 학문적 무게를 함께 잡고 싶은 분. 준비만 전략적으로 한다면 목표한 MBA는 충분히 손에 잡힙니다.
+그래서 이 프로그램은 이런 분들에게 잘 맞습니다. MBA를 빠르고 효율적으로 STEM 트랙에서 마치고 싶은 분, Finance, Supply Chain, Business Analytics 쪽으로 커리어를 세우려는 분, NYC, Philadelphia 권역의 산업 기회와 사립 명문대의 학문적 무게를 함께 잡고 싶은 분. 준비만 전략적으로 한다면 목표한 MBA는 충분히 손에 잡힙니다.
 
 참고 링크:
 
