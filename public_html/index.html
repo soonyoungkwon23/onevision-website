@@ -3083,7 +3083,7 @@
         tableEl.innerHTML = header + body;
 
         noteEl.textContent =
-          data.note + (keyword ? ` · 검색 키워드: "${keyword}" 기준` : "");
+          data.note + (keyword ? ` (검색 키워드: "${keyword}" 기준)` : "");
       }
 
       function changeStatsFilter(type, el) {
