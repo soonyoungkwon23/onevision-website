@@ -2,11 +2,12 @@
 title: 미국 학생비자(F-1) 신청 절차 총정리 (DS-160, SEVIS, 비용)
 slug: f1-visa-process-ds160-sevis
 category: visa
+ymyl: true
 source: authored
 universityEn: F-1 신청 절차와 DS-160, SEVIS
 description: >-
   I-20 수령부터 SEVIS $350 납부, DS-160 작성, MRV $185와 인터뷰 예약까지 F-1 신청 다섯 단계를 정리했습니다. 2026년 신설된 수수료와 바뀐 체류 규정도 함께 담았습니다.
-status: draft
+status: ready
 order: 4
 publishDate: null
 updatedDate: null

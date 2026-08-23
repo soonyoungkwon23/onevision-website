@@ -29,6 +29,12 @@ jobs:
 
       - run: npm ci
 
+      # Surfaces a stale YMYL fact table in the run summary. publish.js does the
+      # actual gating; this step only makes the reason visible without failing
+      # the run, so non-YMYL posts still ship.
+      - name: Check YMYL fact freshness
+        run: node scripts/check-freshness.js --warn
+
       - name: Promote next queue batch to published
         run: node scripts/publish.js --count "${{ inputs.count }}"
 

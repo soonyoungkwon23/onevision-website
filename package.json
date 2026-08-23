@@ -8,6 +8,7 @@
     "build": "node scripts/build.js",
     "publish-posts": "node scripts/publish.js",
     "check-facts": "node scripts/check-facts.js",
+    "check-freshness": "node scripts/check-freshness.js",
     "serve": "npx serve public_html"
   },
   "dependencies": {

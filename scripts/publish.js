@@ -11,6 +11,7 @@ const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
 const { ROOT, readConfig, todaySeoul } = require("./lib/template");
+const { auditFacts } = require("./lib/freshness");
 
 const CONTENT = path.join(ROOT, "content", "guides");
 
@@ -32,9 +33,31 @@ function main() {
   }
   ready.sort((a, b) => (a.fm.data.order || 0) - (b.fm.data.order || 0));
 
+  // YMYL posts (비자·이민) cite a fact table that goes out of date on its own,
+  // with no edit to the post to signal it. Hold them back rather than let the
+  // unattended Monday cron ship immigration advice nobody has re-checked.
+  // Everything else in the queue still publishes normally.
+  const audit = auditFacts();
+  if (!audit.ok) {
+    const held = ready.filter((r) => r.fm.data.ymyl);
+    for (const p of audit.problems) {
+      console.log(`::warning::근거표 확인 필요 [${p.kind}] ${p.key}: ${p.message}`);
+    }
+    if (held.length) {
+      console.log(
+        `::error::YMYL 글 ${held.length}건을 보류합니다: ` +
+          held.map((r) => r.fm.data.slug).join(", ")
+      );
+      console.log("근거표를 다시 확인하고 lastReviewed 와 verified 날짜를 갱신하세요.");
+    }
+    for (let i = ready.length - 1; i >= 0; i--) {
+      if (ready[i].fm.data.ymyl) ready.splice(i, 1);
+    }
+  }
+
   if (ready.length === 0) {
     // GitHub Actions warning annotation — visible in the run summary.
-    console.log("::warning::Publish queue is empty — run a local convert+enhance batch to refill it.");
+    console.log("::warning::Publish queue is empty. Run a local convert and enhance batch to refill it.");
     console.log("Nothing to publish.");
     return;
   }

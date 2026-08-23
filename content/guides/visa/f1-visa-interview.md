@@ -2,11 +2,12 @@
 title: F-1 학생비자 인터뷰 질문과 답변 요령 (실제 후기 정리)
 slug: f1-visa-interview
 category: visa
+ymyl: true
 source: authored
 universityEn: F-1 학생비자 인터뷰
 description: >-
   F-1 인터뷰에서 실제로 나오는 질문을 학업, 재정, 졸업 후 계획 세 갈래로 정리했습니다. 214(b) 비이민 의도를 어떻게 입증하고 어떤 표현을 피해야 하는지까지 담았습니다.
-status: draft
+status: ready
 order: 3
 publishDate: null
 updatedDate: null

@@ -2,11 +2,12 @@
 title: 미국 유학 후 취업과 이민 전체 루트 (F-1에서 영주권까지)
 slug: visa-route-hub
 category: visa
+ymyl: true
 source: authored
 universityEn: 미국 유학 후 취업 이민 루트
 description: >-
   F-1 입국부터 OPT, STEM OPT, H-1B, 영주권까지 이어지는 경로를 한 장으로 정리했습니다. 2026년에 바뀐 F-1 체류 규정과 임금 가중 추첨까지 반영한 최신판입니다.
-status: draft
+status: ready
 order: 1
 publishDate: null
 updatedDate: null

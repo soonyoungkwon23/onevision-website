@@ -2,11 +2,12 @@
 title: H-1B $10만 수수료는 지금 어떻게 됐나 (2026년 8월 기준)
 slug: h1b-100k-fee-explained
 category: visa
+ymyl: true
 source: authored
 universityEn: H-1B 10만 달러 수수료
 description: >-
   2025년 발표된 H-1B $100,000 수수료의 현재 상태를 정리했습니다. 법원의 무효화 결정과 포고령 만료, 그리고 유학생이 애초에 적용 대상이었는지까지 사실관계 중심으로 짚습니다.
-status: draft
+status: ready
 order: 5
 publishDate: null
 updatedDate: null

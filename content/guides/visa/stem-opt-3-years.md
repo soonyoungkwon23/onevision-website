@@ -2,11 +2,12 @@
 title: STEM OPT 3년 완벽 가이드 (12개월 + 24개월 연장)
 slug: stem-opt-3-years
 category: visa
+ymyl: true
 source: authored
 universityEn: STEM OPT 연장
 description: >-
   STEM 전공이면 졸업 후 미국에서 일할 수 있는 기간이 12개월에서 36개월로 늘어납니다. CIP 코드 확인법, E-Verify와 I-983 요건, 실업일수 150일 관리까지 정리했습니다.
-status: draft
+status: ready
 order: 2
 publishDate: null
 updatedDate: null
