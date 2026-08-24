@@ -6,10 +6,11 @@ ymyl: true
 source: authored
 universityEn: EB-3 취업이민 영주권
 description: >-
-  EB-3의 세 갈래 분류와 PERM에서 I-140, I-485로 이어지는 3단계 절차, Schedule A 특례, 그리고 한국 출생자가 문호 앞에서 실제로 어디에 서 있는지를 정리했습니다.
-status: ready
+  EB-3의 세 갈래 분류와 PERM에서 I-140, I-485로 이어지는 3단계 절차, Schedule A 특례, 그리고 한국 출생자가 문호
+  앞에서 실제로 어디에 서 있는지를 정리했습니다.
+status: published
 order: 7
-publishDate: null
+publishDate: '2026-08-24'
 updatedDate: null
 enhancedDate: '2026-08-22'
 ---

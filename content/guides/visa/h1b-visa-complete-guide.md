@@ -1,15 +1,16 @@
 ---
-title: H-1B 취업비자 완벽 가이드 (캡, 임금 가중 추첨, 절차)
+title: 'H-1B 취업비자 완벽 가이드 (캡, 임금 가중 추첨, 절차)'
 slug: h1b-visa-complete-guide
 category: visa
 ymyl: true
 source: authored
 universityEn: H-1B 취업비자
 description: >-
-  H-1B 캡 85,000의 구조와 2026년부터 바뀐 임금 가중 추첨, 유효기간 3년과 최대 6년, cap-gap과 cap-exempt까지 유학생 관점에서 정리한 가이드입니다.
-status: ready
+  H-1B 캡 85,000의 구조와 2026년부터 바뀐 임금 가중 추첨, 유효기간 3년과 최대 6년, cap-gap과 cap-exempt까지
+  유학생 관점에서 정리한 가이드입니다.
+status: published
 order: 6
-publishDate: null
+publishDate: '2026-08-24'
 updatedDate: null
 enhancedDate: '2026-08-22'
 ---

@@ -6,10 +6,11 @@ ymyl: true
 source: authored
 universityEn: STEM OPT 연장
 description: >-
-  STEM 전공이면 졸업 후 미국에서 일할 수 있는 기간이 12개월에서 36개월로 늘어납니다. CIP 코드 확인법, E-Verify와 I-983 요건, 실업일수 150일 관리까지 정리했습니다.
-status: ready
+  STEM 전공이면 졸업 후 미국에서 일할 수 있는 기간이 12개월에서 36개월로 늘어납니다. CIP 코드 확인법, E-Verify와
+  I-983 요건, 실업일수 150일 관리까지 정리했습니다.
+status: published
 order: 2
-publishDate: null
+publishDate: '2026-08-24'
 updatedDate: null
 enhancedDate: '2026-08-22'
 ---

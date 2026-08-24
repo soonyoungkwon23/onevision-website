@@ -6,10 +6,11 @@ ymyl: true
 source: authored
 universityEn: 간호사 Schedule A 이민
 description: >-
-  등록간호사는 Schedule A Group I 직종이라 PERM 노동인증을 건너뜁니다. NCLEX-RN과 VisaScreen 요건, 병원 스폰서 확보, 문호 현황까지 간호 유학생 관점에서 정리했습니다.
-status: ready
+  등록간호사는 Schedule A Group I 직종이라 PERM 노동인증을 건너뜁니다. NCLEX-RN과 VisaScreen 요건, 병원
+  스폰서 확보, 문호 현황까지 간호 유학생 관점에서 정리했습니다.
+status: published
 order: 8
-publishDate: null
+publishDate: '2026-08-24'
 updatedDate: null
 enhancedDate: '2026-08-22'
 ---
