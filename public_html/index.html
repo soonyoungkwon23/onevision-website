@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="미국 유학과 이민 올케어 시스템, 원비전. 데이터 기반 성공률, 합격률, 학부모 후기와 함께 미국 유학과 이민 플랜을 설계합니다.">
     <meta name="google-site-verification" content="BN_8QQ0rcCIkLPZBtn98s2-zQ8gHQ9ZbQX0hfTEgkck">
-    <script src="js/common.js?v=20260927"></script>
+    <script src="js/common.js?v=20260928"></script>
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;500;700&amp;display=swap" rel="stylesheet">
@@ -459,21 +459,29 @@
         transform: scale(1.04);
       }
 
+      /* Slides share one grid cell and cross-fade: the next slide fades in
+         as the current one fades out, instead of the section going blank
+         between them. The cell is as tall as the tallest slide, so the page
+         below does not jump when the slide changes. */
+      .hero-slider > .container {
+        display: grid;
+      }
       .hero-slide {
-        display: none;
-        animation: fadeHero 0.55s ease;
+        grid-area: 1 / 1;
+        min-width: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s ease-in-out, visibility 0s linear 1s;
       }
       .hero-slide-active {
-        display: block;
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 1s ease-in-out, visibility 0s;
       }
-      @keyframes fadeHero {
-        from {
-          opacity: 0;
-          transform: translateY(6px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
+      @media (prefers-reduced-motion: reduce) {
+        .hero-slide,
+        .hero-slide-active {
+          transition: none;
         }
       }
 

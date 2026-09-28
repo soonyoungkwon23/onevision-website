@@ -67,10 +67,17 @@ stay as written in both languages.
 People's names:
 - A name already written in both forms, such as "윤지용 (Lance Yoon)", stays
   exactly as written in both languages.
-- A Korean-only name becomes the English name in the glossary on the English
-  version.
+- A Korean-only name that has an English form elsewhere on the site (a staff
+  page, a URL) becomes that English name, as listed in the glossary.
+- Any other Korean-only name (tutors, interns, students) stays in Hangul on the
+  English version. Do not romanize it. These names are in the glossary `keep`
+  list.
 - An English-only name (Jay Choi, Charlotte Choi, Sarah Lee) stays in English on
   the Korean version.
+
+Organization names: use the organization's own official English name. If none
+can be found, keep the Korean name in Hangul rather than inventing one, and add
+it to the glossary `keep` list.
 
 ### A5. Markers, numbers and data
 

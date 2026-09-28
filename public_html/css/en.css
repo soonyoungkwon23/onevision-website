@@ -59,6 +59,16 @@ html[lang="en"] body {
   html[lang="en"] .t-month {
     grid-column: 1 / -1;
   }
+  /* Footer: the right-hand column is squeezed to about 80px on phones, too
+     narrow for the English service line. Stack the two columns instead. */
+  html[lang="en"] footer .footer-top {
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+  html[lang="en"] footer .footer-right {
+    min-width: 0;
+    text-align: left !important;
+  }
   /* Immigration state comparison: four columns of English cannot fit a phone
      without cutting words, so the table scrolls sideways inside its card. */
   html[lang="en"] .compare-table {

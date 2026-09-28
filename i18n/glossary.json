@@ -9,7 +9,9 @@
     "KakaoTalk", "Instagram", "Facebook",
     "SAT", "ACT", "AP", "IB", "GPA", "TOEFL", "IELTS", "GRE", "GMAT", "SOP",
     "TAG", "IGETC", "UC", "CSU", "CC", "STEM", "OPT", "CPT", "H-1B", "F-1", "I-20", "EB-3",
-    "Jay Choi", "Charlotte Choi", "Sarah Lee"
+    "Jay Choi", "Charlotte Choi", "Sarah Lee",
+    "강지후", "박경준", "박지안", "김건우", "채송이", "강동혁",
+    "미국한인유학생협회", "미한유회", "엘코리아에듀그룹", "이피유"
   ],
 
   "terms": [
@@ -64,6 +66,8 @@
 
     { "ko": "미국 본사", "en": "U.S. Headquarters", "strict": false },
     { "ko": "한국 사무소", "en": "Korea Office", "strict": false },
-    { "ko": "경기도 성남시 분당구 황새울로319번길 8-4 비욘드워크 7층 734호 (서현동)", "en": "Suite 734, 7F, Beyondwork, 8-4 Hwangsaeul-ro 319beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (Seohyeon-dong)", "strict": true }
+    { "ko": "경기도 성남시 분당구 황새울로319번길 8-4 비욘드워크 7층 734호 (서현동)", "en": "Suite 734, 7F, Beyondwork, 8-4 Hwangsaeul-ro 319beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (Seohyeon-dong)", "strict": true },
+    { "ko": "해커스 어학원", "en": "Hackers Academia", "strict": true, "note": "Official English name (facebook.com/HackersAcademia)." },
+    { "ko": "이타미준 건축문화재단", "en": "ITAMI JUN Architecture & Culture Foundation", "strict": true, "note": "Official English name, as the foundation writes it." }
   ]
 }

@@ -82,6 +82,64 @@
   header .lang-switch-short {
     display: none;
   }
+  /* Desktop menu: the logo never shrinks, and a label that does not fit
+     wraps onto two lines ("Freshman / Admissions") instead of squeezing the
+     logo or pushing the page wider than the screen. */
+  header .logo { flex-shrink: 0; }
+  @media (min-width: 961px) {
+    header .nav { gap: 1rem; }
+    header .nav-links {
+      flex: 0 1 auto;
+      min-width: 0;
+      flex-wrap: nowrap !important;
+      gap: 0 !important;
+      white-space: normal !important;
+    }
+    header .nav-links a {
+      padding: 0.4rem 0.6rem !important;
+      line-height: 1.2;
+      text-align: center;
+      white-space: normal;
+      word-break: keep-all;
+      text-wrap: balance;
+    }
+    header .nav-cta { flex-shrink: 0; }
+    html[lang="en"] header .nav-links a { font-size: 0.86rem !important; }
+    html[lang="en"] header .nav-cta .btn-primary {
+      max-width: 9.5rem;
+      padding: 0.4rem 0.9rem !important;
+      line-height: 1.2 !important;
+      text-align: center;
+      white-space: normal !important;
+    }
+  }
+  /* English labels are longer: even on two lines the full menu needs about
+     1180px. Below that, English pages use the menu button, as phones do. */
+  @media (min-width: 961px) and (max-width: 1180px) {
+    html[lang="en"] header .nav-links { display: none !important; }
+    html[lang="en"] header .nav-toggle { display: flex !important; }
+    html[lang="en"] header .nav.nav-open .nav-links {
+      display: flex !important;
+      opacity: 1 !important;
+      position: absolute !important;
+      top: 80px !important;
+      left: 0 !important;
+      width: 100% !important;
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 0.4rem !important;
+      padding: 1rem 2rem 1.6rem !important;
+      background: #fff !important;
+      border-bottom: 1px solid rgba(20, 18, 18, 0.08);
+      box-shadow: 0 14px 28px rgba(15, 15, 20, 0.08);
+      z-index: 100;
+    }
+    html[lang="en"] header .nav.nav-open .nav-links a {
+      width: 100%;
+      padding: 0.75rem 1rem !important;
+      text-align: left;
+    }
+  }
   @media (max-width: 960px) {
     header .lang-switch { height: 36px; padding: 0 0.7rem; }
   }
@@ -104,5 +162,10 @@
       white-space: normal !important;
       text-align: center;
     }
+  }
+  @media (max-width: 400px) {
+    header .logo-img { height: 32px !important; }
+    header .lang-switch { padding: 0 0.5rem; }
+    header .nav-cta .btn-primary { padding: 0.35rem 0.5rem !important; }
   }
 </style>

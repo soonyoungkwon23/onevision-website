@@ -101,6 +101,9 @@ function check(entry) {
   if (toEnglish) {
     let rest = tgt;
     for (const n of koNames) if (tgt.includes(n.en)) rest = rest.split(n.ko).join("");
+    // Names on the keep list stay in Hangul on the English site (tutors,
+    // organizations with no official English name).
+    for (const k of glossary.keep) if (HANGUL.test(k)) rest = rest.split(k).join("");
     if (HANGUL.test(rest)) errors.push("Korean left in the English target");
   } else if (!HANGUL.test(tgt)) {
     errors.push("English source not translated into Korean (use action keep if it is proper nouns only)");
