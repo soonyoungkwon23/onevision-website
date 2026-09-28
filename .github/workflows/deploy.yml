@@ -95,8 +95,7 @@ jobs:
           # deploy-id.txt is rewritten every run, so it proves this run's files
           # are the ones being served.
           expected="run=$GITHUB_RUN_ID sha=$GITHUB_SHA"
-          live_id=$(curl -sS --max-time 30 "https://onevisionconsulting.us/deploy-id.txt?cb=$GITHUB_RUN_ID" | tr -d '
-' || true)
+          live_id=$(curl -sS --max-time 30 "https://onevisionconsulting.us/deploy-id.txt?cb=$GITHUB_RUN_ID" | tr -d '\r\n' || true)
           if [ "$live_id" != "$expected" ]; then
             echo "::error::Deploy verification failed: live deploy-id is '$live_id', expected '$expected'."
             exit 1
