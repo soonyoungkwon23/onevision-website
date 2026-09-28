@@ -11,3 +11,6 @@
 # 윤민식 컨설턴트 profile, retired 2026-08-22 (card also removed from about.html)
 staff-minsikyoon.html
 images/minsik-yoon.png
+
+# theme layer, reverted 2026-09-28 at the user's request
+css/theme.css
