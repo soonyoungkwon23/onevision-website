@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T03:56:34.181Z",
+  "generated": "2026-09-28T06:59:50.735Z",
   "pages": [
     "header.html",
     "footer.html",
@@ -261,6 +261,48 @@
       ]
     },
     {
+      "id": "ba539bffa2",
+      "key": "캘리포니아 법인",
+      "src": "ko",
+      "kinds": [
+        "block"
+      ],
+      "markers": 0,
+      "pages": [
+        "footer.html"
+      ],
+      "contexts": [
+        {
+          "page": "footer.html",
+          "kind": "block",
+          "tag": "dt",
+          "cls": "",
+          "section": ""
+        }
+      ]
+    },
+    {
+      "id": "7b9130e715",
+      "key": "1202 S Bronson Ave., Los Angeles, CA 90019",
+      "src": "en",
+      "kinds": [
+        "block"
+      ],
+      "markers": 0,
+      "pages": [
+        "footer.html"
+      ],
+      "contexts": [
+        {
+          "page": "footer.html",
+          "kind": "block",
+          "tag": "dd",
+          "cls": "",
+          "section": ""
+        }
+      ]
+    },
+    {
       "id": "94a9973adb",
       "key": "한국 사무소",
       "src": "ko",
@@ -303,9 +345,9 @@
       ]
     },
     {
-      "id": "459d16ed0e",
-      "key": "EMAIL: onevisionconsulting.info@gmail.com | TEL: (미국 본사 번호 혹은 한국 번호)",
-      "src": "ko",
+      "id": "8886e0a4ad",
+      "key": "EMAIL: onevisionconsulting.info@gmail.com | TEL: +1 (949) 572-0807",
+      "src": "en",
       "kinds": [
         "block"
       ],

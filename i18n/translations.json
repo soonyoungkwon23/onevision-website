@@ -2969,11 +2969,6 @@
         "staff-donghyunkim.html"
       ]
     },
-    "EMAIL: onevisionconsulting.info@gmail.com | TEL: (미국 본사 번호 혹은 한국 번호)": {
-      "src": "ko",
-      "ko": "EMAIL: onevisionconsulting.info@gmail.com | TEL: (미국 본사 번호 혹은 한국 번호)",
-      "en": "EMAIL: onevisionconsulting.info@gmail.com | TEL: (U.S. headquarters number or Korean number)"
-    },
     "Economics 합격 스토리": {
       "src": "ko",
       "ko": "Economics 합격 스토리",
@@ -10334,6 +10329,41 @@
       "src": "ko",
       "ko": "💰 비용 우선",
       "en": "💰 Cost First"
+    },
+    "캘리포니아 법인": {
+      "src": "ko",
+      "ko": "캘리포니아 법인",
+      "en": "California Office",
+      "kinds": [
+        "block"
+      ],
+      "pages": [
+        "footer.html"
+      ]
+    },
+    "1202 S Bronson Ave., Los Angeles, CA 90019": {
+      "src": "en",
+      "ko": "1202 S Bronson Ave., Los Angeles, CA 90019",
+      "en": "1202 S Bronson Ave., Los Angeles, CA 90019",
+      "keep": true,
+      "kinds": [
+        "block"
+      ],
+      "pages": [
+        "footer.html"
+      ]
+    },
+    "EMAIL: onevisionconsulting.info@gmail.com | TEL: +1 (949) 572-0807": {
+      "src": "en",
+      "ko": "EMAIL: onevisionconsulting.info@gmail.com | TEL: +1 (949) 572-0807",
+      "en": "EMAIL: onevisionconsulting.info@gmail.com | TEL: +1 (949) 572-0807",
+      "keep": true,
+      "kinds": [
+        "block"
+      ],
+      "pages": [
+        "footer.html"
+      ]
     }
   }
 }

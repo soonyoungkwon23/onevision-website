@@ -30,3 +30,6 @@ desktop.ini
 
 # translation work files (inputs, drafts, review logs)
 i18n/work/
+
+# written by deploy/ftps-upload.sh in CI
+public_html/deploy-id.txt

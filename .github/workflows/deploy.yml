@@ -12,6 +12,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -25,44 +26,14 @@ jobs:
       - name: Build blog pages, sitemap, RSS
         run: node scripts/build.js
 
-      # Hostinger's FTP cert is *.hstgr.io and the account is reachable only by
-      # IP (no PTR record), so strict TLS hostname verification fails. lftp keeps
-      # the connection TLS-encrypted (ssl-force) but skips the hostname check.
-      # --ignore-time compares by size alone, avoiding re-upload of the ~22 MB of
-      # unchanged images every run
-      # (fresh CI checkout timestamps would otherwise defeat time-based sync).
+      # Two-pass FTPS upload; see deploy/ftps-upload.sh for why a single
+      # size-compared mirror is not enough.
       - name: Deploy to Hostinger over FTPS
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
-          # Shared hosting drops transfers under load, and a single dropped
-          # connection used to fail the entire run. Retry before giving up, and
-          # keep the parallel connection count low enough that Hostinger
-          # tolerates it (4 was enough to trip "max-retries exceeded").
-          for attempt in 1 2 3; do
-            if lftp -c "
-              set cmd:fail-exit yes;
-              set ftp:ssl-force true;
-              set ftp:ssl-protect-data true;
-              set ssl:verify-certificate no;
-              set net:max-retries 5;
-              set net:timeout 30;
-              set net:reconnect-interval-base 5;
-              open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" \"$FTP_SERVER\";
-              mirror -R --ignore-time --parallel=2 --exclude-glob .git* \
-                ./public_html /domains/onevisionconsulting.us/public_html;
-            "; then
-              echo "FTPS mirror succeeded on attempt $attempt."
-              exit 0
-            fi
-            echo "::warning::FTPS mirror attempt $attempt failed; retrying."
-            sleep $((attempt * 20))
-          done
-          echo "::error::FTPS mirror failed after 3 attempts."
-          exit 1
+        run: bash deploy/ftps-upload.sh
 
       # The mirror runs without --delete so that anything uploaded by hand in
       # hPanel survives CI. The trade-off: a page removed from the repo keeps
@@ -120,3 +91,14 @@ jobs:
             exit 1
           fi
           echo "Deploy verified: $live URLs live."
+          # The sitemap count cannot see a same-size edit that failed to upload.
+          # deploy-id.txt is rewritten every run, so it proves this run's files
+          # are the ones being served.
+          expected="run=$GITHUB_RUN_ID sha=$GITHUB_SHA"
+          live_id=$(curl -sS --max-time 30 "https://onevisionconsulting.us/deploy-id.txt?cb=$GITHUB_RUN_ID" | tr -d '
+' || true)
+          if [ "$live_id" != "$expected" ]; then
+            echo "::error::Deploy verification failed: live deploy-id is '$live_id', expected '$expected'."
+            exit 1
+          fi
+          echo "Deploy id verified: $live_id"
