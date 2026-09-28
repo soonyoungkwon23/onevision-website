@@ -1,0 +1,69 @@
+{
+  "_about": "Binding term list for Korean/English translation. `strict: true` entries are enforced by scripts/i18n/check.js: when the source contains one side, the target must contain the other side (or one of its alternates). `keep` terms are never translated in either direction.",
+
+  "keep": [
+    "OneVision", "OneVision Consulting", "JTC",
+    "Future Scholars", "Application Atelier", "Transfer Intensive",
+    "Academic Coaching & Study Lab", "Academic Coaching", "Study Lab",
+    "Immigration & Housing Family Session", "Immigration & Housing Research",
+    "KakaoTalk", "Instagram", "Facebook",
+    "SAT", "ACT", "AP", "IB", "GPA", "TOEFL", "IELTS", "GRE", "GMAT", "SOP",
+    "TAG", "IGETC", "UC", "CSU", "CC", "STEM", "OPT", "CPT", "H-1B", "F-1", "I-20", "EB-3",
+    "Jay Choi", "Charlotte Choi", "Sarah Lee"
+  ],
+
+  "terms": [
+    { "ko": "원비전컨설팅", "en": "OneVision Consulting", "strict": true, "alts_ko": ["OneVision Consulting"], "note": "The brand is on the keep list, so a Korean target for an English source keeps 'OneVision Consulting' in Latin script, as the Korean site does. 원비전컨설팅 in a Korean source still becomes 'OneVision Consulting' in English." },
+    { "ko": "원비전", "en": "OneVision", "strict": true, "alts_ko": ["OneVision"], "note": "Same as above: Korean targets keep 'OneVision' (the Korean site writes OneVision about 2.5 times as often as 원비전). 원비전 in a Korean source becomes 'OneVision'." },
+    { "ko": "올케어", "en": "All-Care", "strict": true, "note": "Brand term. 원비전 올케어 플랜 = OneVision All-Care Plan. 올케어 컨설팅 = All-Care Consulting." },
+
+    { "ko": "회사소개", "en": "About Us", "strict": true, "note": "Navigation label." },
+    { "ko": "신입학", "en": "Freshman Admissions", "strict": true, "alts_en": ["freshman admission", "freshman admissions", "Freshman"], "note": "Navigation label is 'Freshman Admissions'. In running text 'freshman admission'." },
+    { "ko": "편입학", "en": "Transfer Admissions", "strict": true, "alts_en": ["transfer admission", "transfer admissions", "Transfer"] },
+    { "ko": "편입", "en": "transfer", "strict": true, "alts_en": ["Transfer"], "ignore_ko": ["편입니다"], "note": "편입니다 is the ending ~한 편입니다 ('tends to be'), not 편입 (transfer)." },
+    { "ko": "대학원", "en": "Graduate School", "strict": true, "alts_en": ["graduate school", "graduate", "Graduate"] },
+    { "ko": "입학 가이드", "en": "Admissions Guides", "strict": true, "alts_en": ["admissions guide", "Admissions Guide"] },
+    { "ko": "합격 후기", "en": "Acceptance Stories", "strict": true, "alts_en": ["acceptance story", "acceptance stories", "Acceptance Story"] },
+    { "ko": "무료 상담 신청", "en": "Request a Free Consultation", "strict": true, "alts_en": ["free consultation"] },
+    { "ko": "상담 예약", "en": "Book a Consultation", "strict": false, "alts_en": ["book a consultation", "consultation"] },
+    { "ko": "자세히 보기", "en": "View Details", "strict": true, "alts_en": ["view details"] },
+    { "ko": "메뉴 열기", "en": "Open Menu", "strict": false },
+    { "ko": "메인 메뉴", "en": "Main Menu", "strict": false },
+
+    { "ko": "카카오톡", "en": "KakaoTalk", "strict": true },
+    { "ko": "오픈채팅", "en": "Open Chat", "strict": true, "alts_en": ["open chat"] },
+    { "ko": "네이버 카페", "en": "Naver Cafe", "strict": true },
+    { "ko": "네이버 블로그", "en": "Naver Blog", "strict": true },
+    { "ko": "인스타그램", "en": "Instagram", "strict": true },
+
+    { "ko": "학부모", "en": "parents", "strict": false, "note": "학부모님 is also 'parents'. The honorific is not translated." },
+    { "ko": "합격", "en": "admission", "strict": false, "note": "Means being admitted to a school, never passing a test. 합격했습니다 = was admitted / got in. 합격률 = admission rate." },
+    { "ko": "에세이", "en": "essay", "strict": false },
+    { "ko": "추천서", "en": "recommendation letter", "strict": false },
+    { "ko": "전공", "en": "major", "strict": false },
+    { "ko": "로드맵", "en": "roadmap", "strict": false },
+    { "ko": "주립대", "en": "state university", "strict": false },
+    { "ko": "커뮤니티 칼리지", "en": "community college", "strict": false },
+    { "ko": "학군", "en": "school district", "strict": false },
+    { "ko": "주거", "en": "housing", "strict": false },
+    { "ko": "주 소득세", "en": "state income tax", "strict": false },
+    { "ko": "영주권", "en": "green card", "strict": false, "note": "'permanent residency' is also correct where the source means the status rather than the card." },
+    { "ko": "튜터", "en": "tutor", "strict": false },
+    { "ko": "컨설턴트", "en": "consultant", "strict": false },
+    { "ko": "미국 유학", "en": "studying in the U.S.", "strict": false, "note": "Or 'study in the U.S.' depending on grammar. Not 'studying abroad in America'." },
+
+    { "ko": "김동현", "en": "Donghyun Kim", "strict": true },
+    { "ko": "윤지용", "en": "Lance Yoon", "strict": true },
+    { "ko": "조예은", "en": "Yeeun Jo", "strict": true },
+    { "ko": "현서현", "en": "Seohyun Hyun", "strict": true },
+    { "ko": "선재신", "en": "Jaeshin Sun", "strict": true },
+    { "ko": "정재현", "en": "Jane Jeong", "strict": true },
+    { "ko": "한상완", "en": "Sangwan Han", "strict": true },
+    { "ko": "이승주", "en": "Tim Lee", "strict": true },
+    { "ko": "이윤재", "en": "Yun Lee", "strict": true },
+
+    { "ko": "미국 본사", "en": "U.S. Headquarters", "strict": false },
+    { "ko": "한국 사무소", "en": "Korea Office", "strict": false },
+    { "ko": "경기도 성남시 분당구 황새울로319번길 8-4 비욘드워크 7층 734호 (서현동)", "en": "Suite 734, 7F, Beyondwork, 8-4 Hwangsaeul-ro 319beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (Seohyeon-dong)", "strict": true }
+  ]
+}

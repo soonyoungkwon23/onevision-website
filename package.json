@@ -12,6 +12,7 @@
     "serve": "npx serve public_html"
   },
   "dependencies": {
+    "cheerio": "1.0.0",
     "gray-matter": "4.0.3",
     "mammoth": "1.11.0",
     "markdown-it": "14.1.0",
