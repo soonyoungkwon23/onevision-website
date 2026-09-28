@@ -1,0 +1,69 @@
+/* English pages only (injected by scripts/i18n/build-en.js).
+   English labels run longer than the Korean they replace, and the page layouts
+   were sized around Korean text. On narrow screens, let long button labels,
+   table headers and unbroken words wrap instead of pushing the page wider than
+   the screen. */
+html[lang="en"] body {
+  overflow-wrap: break-word;
+}
+@media (max-width: 720px) {
+  html[lang="en"] .btn {
+    white-space: normal !important;
+    height: auto !important;
+    line-height: 1.3 !important;
+    text-align: center;
+  }
+  html[lang="en"] th,
+  html[lang="en"] td {
+    white-space: normal !important;
+  }
+}
+@media (max-width: 640px) {
+  /* Several pages keep a two-column hero on phones. Korean headlines wrap
+     between syllables and fit; English headline words are far longer and would
+     be cut mid-word. Stack any grid that holds the page headline. */
+  html[lang="en"] :has(> h1, > * > h1) {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  /* About page: the two-column "who we are" block (inline grid) stays side by
+     side on phones; English needs the full width. */
+  html[lang="en"] [style*="grid-template-columns: minmax(0, 1.25fr)"] {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+@media (max-width: 640px) {
+  /* Four-across KPI tiles and side-by-side mini charts leave columns of about
+     60px on a phone, narrower than many single English words. Two across (or
+     one, for the charts) keeps every label on whole words. */
+  html[lang="en"] .kpi-grid,
+  html[lang="en"] .kpi-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  html[lang="en"] .mini-charts,
+  html[lang="en"] .data-layout {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  /* Progress bars: label on its own line, then the bar and its percentage. */
+  html[lang="en"] .bar-row,
+  html[lang="en"] .data-bar-row {
+    grid-template-columns: minmax(0, 1fr) auto !important;
+  }
+  html[lang="en"] .bar-row > :first-child,
+  html[lang="en"] .data-bar-row > :first-child {
+    grid-column: 1 / -1;
+  }
+  /* Transfer timeline: month above the step instead of in a 90px column. */
+  html[lang="en"] .t-item {
+    grid-template-columns: 12px minmax(0, 1fr) !important;
+  }
+  html[lang="en"] .t-month {
+    grid-column: 1 / -1;
+  }
+  /* Immigration state comparison: four columns of English cannot fit a phone
+     without cutting words, so the table scrolls sideways inside its card. */
+  html[lang="en"] .compare-table {
+    display: block;
+    overflow-x: auto;
+    font-size: 0.82rem !important;
+  }
+}

@@ -49,8 +49,11 @@ function markers(s) {
 function digits(s, isEnglish) {
   let t = s.replace(/<\/?t\d+\/?>/g, " ").replace(/(\d),(?=\d{3}\b)/g, "$1");
   if (isEnglish) {
+    // Full month names always count; three-letter abbreviations only when a
+    // number follows ("Jun 5"), so a name like "Itami Jun" is not read as June.
     MONTHS.forEach((m, i) => {
-      t = t.replace(new RegExp(`\\b(${m}|${m.slice(0, 3)})\\b\\.?`, "gi"), ` ${i + 1} `);
+      t = t.replace(new RegExp(`\\b${m}\\b`, "gi"), ` ${i + 1} `);
+      t = t.replace(new RegExp(`\\b${m.slice(0, 3)}\\.?(?=\\s*\\d)`, "gi"), ` ${i + 1} `);
     });
   }
   return (t.match(/\d+(?:\.\d+)?/g) || []).sort().join(" ");

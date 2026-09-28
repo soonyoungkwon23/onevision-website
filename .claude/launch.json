@@ -4,8 +4,25 @@
     {
       "name": "onevision-site",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["serve", "public_html", "-l", "3456"],
+      "runtimeArgs": [
+        "serve",
+        "public_html",
+        "-l",
+        "3456"
+      ],
       "port": 3456
+    },
+    {
+      "name": "onevision-site-py",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "3457",
+        "--directory",
+        "public_html"
+      ],
+      "port": 3457
     }
   ]
 }

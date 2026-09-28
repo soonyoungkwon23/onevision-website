@@ -1,14 +1,32 @@
+// Points the Korean/English switch at this page's counterpart. Every static page
+// exists at /page.html (Korean) and /en/page.html (English). The blog is Korean
+// only, so from the blog the switch goes to the English home page.
+function setLangSwitch() {
+  const link = document.querySelector(".lang-switch");
+  if (!link) return;
+  const path = location.pathname;
+  let target;
+  if (/^\/blog(\/|$)/.test(path)) target = "/en/";
+  else if (/^\/en(\/|$)/.test(path)) target = path.replace(/^\/en/, "") || "/";
+  else target = "/en" + (path === "/" ? "/" : path);
+  link.setAttribute("href", target + location.hash);
+}
+
 function loadHeader() {
   const headerElement = document.querySelector("header");
   // Blog pages ship with the header baked into the HTML (SEO: crawlers see
   // real links). Skip fetching so a relative 404 never replaces it.
   if (headerElement && headerElement.children.length === 0) {
-    fetch("header.html?v=20260520")
+    fetch("header.html?v=20260927")
       .then((response) => response.text())
       .then((data) => {
         headerElement.innerHTML = data;
+        setLangSwitch();
       });
+  } else {
+    setLangSwitch();
   }
+  window.addEventListener("hashchange", setLangSwitch);
   // Scroll-shadow: add .is-scrolled when the page has scrolled
   const onScroll = () => {
     const h = document.querySelector("header");
@@ -29,7 +47,7 @@ function loadFooter() {
     return;
   }
   if (footerElement) {
-    fetch("footer.html?v=20260520")
+    fetch("footer.html?v=20260927")
       .then((response) => response.text())
       .then((data) => {
         footerElement.innerHTML = data;
@@ -69,10 +87,113 @@ function closeContact() {
   }
 }
 
+// ---- Consultation forms --------------------------------------------------
+// Forms marked data-consult="<name>" post to /api/consult.php, which logs each
+// request and emails it to the OneVision inbox. Messages follow the page
+// language (<html lang>).
+const CONSULT_TEXT = {
+  ko: {
+    sending: "보내는 중...",
+    sent: "상담 신청이 접수되었습니다. 확인 후 연락드리겠습니다.",
+    failed: "전송하지 못했습니다. 잠시 후 다시 시도하시거나 onevisionconsulting.info@gmail.com으로 연락해 주세요.",
+  },
+  en: {
+    sending: "Sending...",
+    sent: "Your consultation request has been received. We will contact you after reviewing it.",
+    failed: "We could not send your request. Please try again shortly, or contact onevisionconsulting.info@gmail.com.",
+  },
+};
+
+function pageLang() {
+  return document.documentElement.lang === "en" ? "en" : "ko";
+}
+
+function consultText(key) {
+  return CONSULT_TEXT[pageLang()][key];
+}
+
+// A field real visitors never see; bots that fill it in are dropped server-side.
+function addHoneypot(form) {
+  if (!form || form.querySelector('input[name="_hp"]')) return;
+  const hp = document.createElement("input");
+  hp.type = "text";
+  hp.name = "_hp";
+  hp.tabIndex = -1;
+  hp.autocomplete = "off";
+  hp.setAttribute("aria-hidden", "true");
+  hp.style.cssText = "position:absolute;left:-9999px;width:1px;height:1px;opacity:0";
+  form.appendChild(hp);
+}
+
+async function submitConsult(form, name) {
+  const fields = [];
+  form.querySelectorAll("input, select, textarea").forEach((el) => {
+    if (["submit", "button", "hidden"].includes(el.type) || el.name === "_hp") return;
+    const labelEl = el.id ? form.querySelector(`label[for="${el.id}"]`) : null;
+    const label = ((labelEl && labelEl.textContent) || el.getAttribute("aria-label") || el.placeholder || el.name || el.id || "")
+      .replace(/\s+/g, " ")
+      .trim();
+    const value = el.tagName === "SELECT" ? (el.value ? el.options[el.selectedIndex].text : "") : el.value;
+    fields.push({ key: el.name || el.id, label, value: (value || "").trim() });
+  });
+  const hp = form.querySelector('input[name="_hp"]');
+  const res = await fetch("/api/consult.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ form: name, lang: pageLang(), page: location.pathname, fields, _hp: hp ? hp.value : "" }),
+  });
+  let json = {};
+  try {
+    json = await res.json();
+  } catch (e) {}
+  if (!res.ok || !json.ok) throw new Error("consult request failed");
+  return json;
+}
+
+function bindConsultForms() {
+  addHoneypot(document.getElementById("diagnosisForm"));
+  document.querySelectorAll("form[data-consult]").forEach((form) => {
+    addHoneypot(form);
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('button[type="submit"]');
+      let status = form.querySelector(".consult-status");
+      if (!status) {
+        status = document.createElement("p");
+        status.className = "consult-status";
+        status.setAttribute("role", "status");
+        form.appendChild(status);
+      }
+      const label = btn ? btn.textContent : "";
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = consultText("sending");
+      }
+      status.textContent = "";
+      delete status.dataset.state;
+      try {
+        await submitConsult(form, form.dataset.consult);
+        form.reset();
+        status.textContent = consultText("sent");
+        status.dataset.state = "sent";
+      } catch (err) {
+        status.textContent = consultText("failed");
+        status.dataset.state = "failed";
+      } finally {
+        if (btn) {
+          btn.disabled = false;
+          btn.textContent = label;
+        }
+      }
+    });
+  });
+}
+
 // 페이지 로드 시 실행
 document.addEventListener("DOMContentLoaded", () => {
   loadHeader();
   loadFooter();
+  bindConsultForms();
 
   // 모달 바깥 클릭 시 닫기 이벤트 등록
   const modal = document.getElementById("contactModal");

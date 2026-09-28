@@ -31,6 +31,13 @@
       <a href="immigration.html">이민과 비자</a>
     </nav>
     <div class="nav-cta">
+      <!-- Korean/English switch. js/common.js points it at this page's counterpart;
+           the English build swaps the label. data-i18n="skip" keeps it out of translation. -->
+      <a class="lang-switch" href="/en/" hreflang="en" lang="en" aria-label="English" data-i18n="skip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>
+        <span class="lang-switch-label">English</span>
+        <span class="lang-switch-short" aria-hidden="true">EN</span>
+      </a>
       <button class="btn btn-primary" type="button" onclick="openContact()">
         무료 상담 신청
       </button>
@@ -42,3 +49,60 @@
     </div>
   </div>
 </div>
+<style>
+  /* Language switch. Lives with the header so it is styled on every page,
+     including the homepage, which does not load css/site.css. */
+  header .lang-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    height: 40px;
+    padding: 0 0.8rem;
+    border: 1px solid rgba(20, 18, 18, 0.14);
+    border-radius: 999px;
+    background: #fff;
+    color: #1a1a1f;
+    font-size: 0.84rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  header .lang-switch:hover,
+  header .lang-switch:focus-visible {
+    border-color: #9c1a36;
+    color: #9c1a36;
+  }
+  header .lang-switch svg {
+    width: 15px;
+    height: 15px;
+    flex: none;
+  }
+  header .lang-switch-short {
+    display: none;
+  }
+  @media (max-width: 960px) {
+    header .lang-switch { height: 36px; padding: 0 0.7rem; }
+  }
+  /* Small phones: keep the header on one line. The switch shows a short
+     label, the logo steps down a size, and the call-to-action may wrap to two
+     lines, because the English label is much longer than the Korean one. */
+  @media (max-width: 520px) {
+    header .nav-cta { gap: 0.4rem !important; }
+    header .logo { flex-shrink: 0; }
+    header .logo-img { height: 38px !important; }
+    header .lang-switch { padding: 0 0.6rem; font-size: 0.8rem; }
+    header .lang-switch svg,
+    header .lang-switch-label { display: none; }
+    header .lang-switch-short { display: inline; }
+    header .nav-cta .btn-primary {
+      max-width: 104px;
+      padding: 0.35rem 0.6rem !important;
+      font-size: 0.76rem !important;
+      line-height: 1.2 !important;
+      white-space: normal !important;
+      text-align: center;
+    }
+  }
+</style>
