@@ -543,3 +543,366 @@ footer .footer-bottom {
   background: var(--surface);
   box-shadow: var(--shadow-sm);
   transition: box-shadow 0.2s ease, transform 0.2s ease,
+    border-color 0.2s ease;
+}
+/* ------------------------------------------------------------
+   11. Charts for sourced figures (2026-09-28)
+   Horizontal bar charts that show real, dated, sourced numbers.
+   Colours were checked with the dataviz palette validator: on light
+   surfaces the accent #9c1a36 with the de-emphasis grey #a9a39e, on dark
+   surfaces #e0647f with #5f5b57. Every bar carries its value as text,
+   and each chart has a table or note with the same figures, so nothing
+   depends on colour or hover alone.
+   ------------------------------------------------------------ */
+.ovc {
+  --ovc-accent: #9c1a36;
+  --ovc-muted-bar: #a9a39e;
+  --ovc-grid: rgba(10, 10, 10, 0.09);
+  --ovc-axis: rgba(10, 10, 10, 0.35);
+  --ovc-ink: var(--text-on-light);
+  --ovc-sub: #6b7280;
+  --ovc-body: #4b5563;
+  margin: 0;
+}
+.ovc--dark {
+  --ovc-accent: #e0647f;
+  --ovc-muted-bar: #5f5b57;
+  --ovc-grid: rgba(255, 255, 255, 0.1);
+  --ovc-axis: rgba(255, 255, 255, 0.35);
+  --ovc-ink: #f5f1ef;
+  --ovc-sub: #a8a4a0;
+  --ovc-body: #cfcac5;
+}
+.ovc-title {
+  margin: 0;
+  font-size: 1.12rem;
+  font-weight: 800;
+  line-height: 1.45;
+  letter-spacing: -0.01em;
+  color: var(--ovc-ink);
+}
+.ovc-sub {
+  margin: 0.25rem 0 0;
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--ovc-sub);
+}
+.ovc-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.1rem;
+  margin-top: 0.85rem;
+  font-size: 0.82rem;
+  color: var(--ovc-body);
+}
+.ovc-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.ovc-legend i {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background: var(--ovc-accent);
+}
+.ovc-legend i.muted {
+  background: var(--ovc-muted-bar);
+}
+.ovc-grid {
+  margin-top: 1rem;
+}
+.ovc-group {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--ovc-ink);
+}
+.ovc-group:first-child {
+  margin-top: 0;
+}
+.ovc-group span {
+  margin-left: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ovc-sub);
+}
+.ovc-row {
+  display: grid;
+  grid-template-columns: var(--ovc-label-w, 6.2rem) minmax(0, 1fr) var(--ovc-value-w, 8.4rem);
+  align-items: center;
+  column-gap: 0.75rem;
+  margin-top: 0.45rem;
+  border-radius: 4px;
+}
+.ovc-row:focus-visible {
+  outline: 2px solid var(--ovc-accent);
+  outline-offset: 3px;
+}
+.ovc-label {
+  font-size: 0.82rem;
+  color: var(--ovc-body);
+}
+.ovc-track {
+  position: relative;
+  height: 14px;
+  background-image: linear-gradient(90deg, var(--ovc-grid) 1px, transparent 1px);
+  background-size: var(--ovc-tick, 33.333%) 100%;
+  border-left: 1px solid var(--ovc-axis);
+}
+.ovc-bar,
+.ovc-range {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 4px 4px 0;
+}
+.ovc-bar {
+  background: var(--ovc-accent);
+}
+.ovc-bar.muted {
+  background: var(--ovc-muted-bar);
+}
+.ovc-bar:has(+ .ovc-range) {
+  border-radius: 0;
+}
+.ovc-range {
+  background: var(--ovc-accent);
+  opacity: 0.35;
+}
+.ovc-range.muted {
+  background: var(--ovc-muted-bar);
+  opacity: 0.45;
+}
+.ovc-row:hover .ovc-bar,
+.ovc-row:focus-visible .ovc-bar {
+  filter: brightness(1.15);
+}
+.ovc-value {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--ovc-ink);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.ovc-axis-row {
+  margin-top: 0.3rem;
+}
+.ovc-axis {
+  position: relative;
+  height: 1.4rem;
+}
+.ovc-axis span {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  font-size: 0.74rem;
+  color: var(--ovc-sub);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.ovc-axis span:first-child {
+  transform: none;
+}
+.ovc-axis span:last-child {
+  transform: translateX(-100%);
+}
+.ovc-notes {
+  margin: 1rem 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.84rem;
+  line-height: 1.7;
+  color: var(--ovc-body);
+}
+.ovc-source {
+  margin: 0.6rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--ovc-sub);
+}
+/* Data tables that sit beside the charts. */
+.ovt-wrap {
+  overflow-x: auto;
+  margin-top: 0.9rem;
+}
+.ovt {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+}
+.ovt th,
+.ovt td {
+  padding: 0.6rem 0.65rem;
+  border-bottom: 1px solid var(--ovc-grid, rgba(10, 10, 10, 0.09));
+  text-align: left;
+  vertical-align: top;
+  color: var(--ovc-ink, var(--text-on-light));
+}
+.ovt thead th {
+  font-weight: 800;
+  font-size: 0.82rem;
+  color: var(--ovc-sub, #6b7280);
+  white-space: nowrap;
+}
+.ovt td.num,
+.ovt th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.ovt td:first-child {
+  font-weight: 700;
+}
+/* Tooltip shared by every chart row (js/common.js). */
+.ovc-tip {
+  position: fixed;
+  z-index: 60;
+  max-width: 280px;
+  padding: 0.45rem 0.6rem;
+  border-radius: 8px;
+  background: #1a1a1f;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  pointer-events: none;
+  box-shadow: 0 6px 18px rgba(15, 15, 20, 0.2);
+}
+@media (max-width: 640px) {
+  .ovc-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    row-gap: 0.25rem;
+    margin-top: 0.55rem;
+  }
+  .ovc-row .ovc-track,
+  .ovc-row .ovc-axis {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  .ovc-axis-row .ovc-label,
+  .ovc-axis-row .ovc-value {
+    display: none;
+  }
+  .ovt th,
+  .ovt td {
+    padding: 0.55rem 0.35rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* ------------------------------------------------------------
+   12. One-stop partner block (2026-09-28)
+   OneVision (schools and admissions) → KL Legal Services (visa and
+   green card) → EZ이민 (EB-3 employment immigration). The same markup
+   appears on the home, about, first-year, transfer, graduate and
+   immigration pages. .onestop--dark is for the dark transfer page.
+   ------------------------------------------------------------ */
+.onestop {
+  margin-top: 2rem;
+  padding: 1.6rem 1.5rem;
+  border: 1px solid var(--border-on-light);
+  border-radius: var(--radius-lg, 18px);
+  background: #fff;
+  color: var(--text-on-light);
+}
+.onestop-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+.onestop-sub {
+  margin: 0.4rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--muted-on-light);
+}
+.onestop-steps {
+  list-style: none;
+  margin: 1.2rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  counter-reset: onestop;
+}
+.onestop-steps li {
+  position: relative;
+  padding: 1rem 1rem 1rem 1.05rem;
+  border-radius: 12px;
+  background: var(--surface-2, #faf7f5);
+  counter-increment: onestop;
+}
+.onestop-steps li::before {
+  content: counter(onestop);
+  display: inline-grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 999px;
+  background: var(--brand, #9c1a36);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.onestop-org {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--brand, #9c1a36);
+  font-weight: 700;
+}
+.onestop-what {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.onestop-detail {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--muted-on-light);
+}
+.onestop-note {
+  margin: 1rem 0 0;
+  font-size: 0.86rem;
+  line-height: 1.7;
+  color: var(--muted-on-light);
+}
+.onestop-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.2rem;
+  margin-top: 0.8rem;
+  font-size: 0.88rem;
+}
+.onestop-links a {
+  color: var(--brand, #9c1a36);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.onestop--dark {
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  color: #f5f1ef;
+}
+.onestop--dark .onestop-sub,
+.onestop--dark .onestop-detail,
+.onestop--dark .onestop-note {
+  color: rgba(245, 241, 239, 0.72);
+}
+.onestop--dark .onestop-steps li {
+  background: rgba(255, 255, 255, 0.05);
+}
+.onestop--dark .onestop-org,
+.onestop--dark .onestop-links a {
+  color: #f0b3c1;
+}
+@media (max-width: 760px) {
+  .onestop-steps {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

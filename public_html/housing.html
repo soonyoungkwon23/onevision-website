@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <title>OneVision | 이민과 주거 리서치 (Housing &amp; Immigration Lab)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="미국 이민과 주거 리서치: 주별 세금, 렌트 시세, 학군, 커뮤니티를 OneVision이 데이터 기준으로 비교 정리합니다.">
+    <meta name="description" content="미국 이민과 주거 리서치: 주별 세금, 월세, 학군, 커뮤니티를 공개 자료로 비교합니다.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -621,11 +621,11 @@
       }
     </style>
       <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
-    <link rel="stylesheet" href="css/site.css?v=20260927">
-      <link rel="canonical" href="https://onevisionconsulting.us/housing.html" />
-    <link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/housing.html" />
-    <link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/en/housing.html" />
-    <link rel="alternate" hreflang="x-default" href="https://onevisionconsulting.us/housing.html" />
+    <link rel="stylesheet" href="css/site.css?v=20260928b">
+      <link rel="canonical" href="https://onevisionconsulting.us/housing.html">
+    <link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/housing.html">
+    <link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/en/housing.html">
+    <link rel="alternate" hreflang="x-default" href="https://onevisionconsulting.us/housing.html">
   </head>
 
   <body>
@@ -662,18 +662,8 @@
               <div class="badge">
                 <span class="dot"></span> Housing &amp; Immigration Lab
               </div>
-              <h1>
-                유학만이 아니라,<br>
-                <span style="color: var(--primary)">어느 주에서 어떻게 살아갈지</span>까지
-              </h1>
-              <p>
-                원비전의 주거와 이민 리서치는 <strong>학교 선택</strong>을 넘어서
-                <strong>세금, 렌트, 학군, 커뮤니티</strong>를 한 장의
-                로드맵으로 묶어 가족이 “살아갈 도시”를 결정할 수 있게 돕습니다.
-                <br><br>
-                아래 표는 <strong>우선순위(비용/학군/둘다)</strong>에 따라
-                추천이 달라지도록 설계되어 있어요.
-              </p>
+              <h1>유학과 함께,<br> <span style="color: var(--primary)">어느 주에서 어떻게 살아갈지</span>까지</h1>
+              <p>원비전의 주거와 이민 리서치는 <strong>학교 선택</strong>에 더해 <strong>세금, 렌트, 학군, 커뮤니티</strong>를 함께 보고, 가족이 살 도시를 정하도록 돕습니다. <br><br> 아래 표는 <strong>우선순위(비용, 학군, 둘 다)</strong>에 따라 비교 대상이 바뀝니다.</p>
             </div>
 
             <div class="hero-cards">
@@ -693,10 +683,7 @@
               </div>
               <div class="mini-card">
                 <div class="mini-title">3) 학교, 비자, 주거 플랜 연결</div>
-                <div class="mini-text">
-                  입시/이민 타임라인과 주거 플랜이 충돌하지 않도록 한 번에
-                  설계해요.
-                </div>
+                <div class="mini-text">입시와 이민 일정, 주거 계획이 서로 어긋나지 않게 함께 짭니다.</div>
               </div>
               <div class="mini-card">
                 <div class="mini-title">4) 실행 체크리스트 제공</div>
@@ -715,11 +702,7 @@
         <div class="container">
           <div class="section-head">
             <div class="section-title">주 비교 테이블</div>
-            <div class="section-sub">
-              버튼으로 “비용 우선 / 학군 우선 / 둘다(밸런스)”를 바꾸면 표와
-              추천이 같이 바뀝니다. 실제 상담에서는 이 표를 기반으로 도시
-              단위까지 내려가서 후보를 좁혀요.
-            </div>
+            <div class="section-sub">버튼으로 비용 우선, 학군 우선, 둘 다를 바꾸면 표와 추천이 함께 바뀝니다. 실제 상담에서는 이 표를 바탕으로 도시 단위까지 후보를 좁힙니다.</div>
 
             <div class="selector">
               <button class="chip active" onclick="applyFilter('cost', this)">
@@ -746,10 +729,7 @@
           <!-- Recommendation cards -->
           <div class="section-head" style="margin-top: 2rem">
             <div class="section-title">추천 시나리오</div>
-            <div class="section-sub" id="recSubtitle">
-              예산을 먼저 안정시키고, 학군은 “지역 선택”으로 보완하는 전략이
-              유리해요.
-            </div>
+            <div class="section-sub" id="recSubtitle">예산을 먼저 정하고, 학군은 지역 선택으로 보완하는 편이 유리합니다.</div>
           </div>
 
           <div class="rec-grid" id="recGrid"></div>
@@ -761,9 +741,7 @@
         <div class="container">
           <div class="cta-card">
             <div>
-              <div class="cta-title">
-                우리 가족 케이스로 “주 + 도시 + 학교”를 한 번에 정리해볼까요?
-              </div>
+              <div class="cta-title">우리 가족 상황에 맞춰 주, 도시, 학교를 함께 정리해 볼까요?</div>
               <div class="cta-sub">
                 비용, 학군, 이민 타임라인을 같이 맞춰서, 실행 가능한 플랜으로
                 연결해 드려요.
@@ -779,23 +757,19 @@
 
       <footer></footer>
     </main>
-    <script src="js/common.js?v=20260928"></script>
+    <script src="js/common.js?v=20260928b"></script>
     <script>
       /* =========================
        Data 
        ========================= */
       const DATA = {
         cost: {
-          note: "비용을 가장 중요하게 보는 가정을 기준으로 정리된 표입니다. (세금/렌트/생활비 체감 중심)",
+          note: "비용을 가장 중요하게 보는 가정을 기준으로 정리된 표입니다. (세금/렌트/생활비 체감 중심) 세금은 Tax Foundation 2026년 자료(판매세는 2026년 7월 1일 기준), 월세는 미국 인구조사국 ACS 2024년 1년 추정치입니다.",
           columns: ["Texas (TX)", "Indiana (IN)", "Wisconsin (WI)"],
           rows: [
-            ["주 소득세", "없음", "낮은 편", "중간"],
-            [
-              "렌트 체감 (2B)",
-              "상대적으로 저렴, 선택지 많음",
-              "College Town 기준 저렴",
-              "Madison 기준 중간",
-            ],
+            ["주 소득세 (2026)", "없음", "2.95% 단일 + 카운티 소득세", "3.5~7.65% 누진"],
+            ["판매세 (주 + 지역 평균)", "8.20%", "7.00%", "5.72%"],
+            ["월세 중간값 (주 전체, 공과금 포함)", "$1,475", "$1,104", "$1,142"],
             [
               "생활비/이동",
               "차량 필수, 전체 비용 낮음",
@@ -816,11 +790,11 @@
             ],
           ],
           recSubtitle:
-            "예산을 먼저 안정시키고, 학군은 “지역 선택”으로 보완하는 전략이 유리해요.",
+            "예산을 먼저 정하고, 학군은 지역 선택으로 보완하는 편이 유리합니다.",
           recs: [
             {
               tag: "전략",
-              title: "‘주’보다 ‘도시/카운티’가 승부",
+              title: "주보다 도시와 카운티가 중요",
               desc: "같은 주 안에서도 학군/치안/렌트 격차가 커요. 예산형은 도시 단위로 정밀하게 고르는 게 핵심.",
             },
             {
@@ -831,22 +805,18 @@
             {
               tag: "실행",
               title: "입시 일정과 계약 타이밍 맞추기",
-              desc: "학기 시작, 학교 배정, 렌트 계약 타이밍을 같이 맞춰서 ‘급하게 비싼 집’ 피하기.",
+              desc: "학기 시작, 학교 배정, 렌트 계약 시점을 맞춰 급하게 비싼 집을 구하지 않도록 합니다.",
             },
           ],
         },
 
         school: {
-          note: "학군과 교육 환경을 최우선으로 보는 가정을 기준으로 정리된 표입니다. (학군 안정성/교육 생태계 중심)",
+          note: "학군과 교육 환경을 최우선으로 보는 가정을 기준으로 정리된 표입니다. (학군 안정성/교육 생태계 중심) 세금은 Tax Foundation 2026년 자료(판매세는 2026년 7월 1일 기준), 월세는 미국 인구조사국 ACS 2024년 1년 추정치입니다.",
           columns: ["California (CA)", "New Jersey (NJ)", "Massachusetts (MA)"],
           rows: [
-            ["주 소득세", "높음", "중상", "중상"],
-            [
-              "렌트 체감 (2B)",
-              "학군 따라 편차 큼",
-              "좋은 학군 지역은 높음",
-              "보스턴 인근 높음",
-            ],
+            ["주 소득세 (2026)", "1~13.3% 누진", "1.4~10.75% 누진", "5% (고소득 부가세 포함 최고 9%)"],
+            ["판매세 (주 + 지역 평균)", "9.03%", "6.60%", "6.25%"],
+            ["월세 중간값 (주 전체, 공과금 포함)", "$2,104", "$1,800", "$1,848"],
             [
               "학군/교육",
               "전국 최상위 분포 폭 넓음",
@@ -867,11 +837,11 @@
             ],
           ],
           recSubtitle:
-            "학군 우선이라면 ‘렌트 비용’보다 ‘학군 안정성 + 커뮤니티’가 장기적으로 더 큰 비용을 줄여요.",
+            "학군을 우선한다면 렌트 비용보다 학군의 안정성과 커뮤니티를 먼저 보는 편이 길게 보면 비용이 적게 듭니다.",
           recs: [
             {
               tag: "전략",
-              title: "학군은 ‘점수’보다 ‘변동성’ 체크",
+              title: "학군은 점수와 함께 변화 추세를 확인",
               desc: "학군은 해마다 변해요. 최근 3년 추세/전입 변화/신규 개발 여부까지 같이 봐야 안정적이에요.",
             },
             {
@@ -881,23 +851,19 @@
             },
             {
               tag: "실행",
-              title: "학군형은 ‘대기/배정 규정’ 확인",
-              desc: "지역별로 배정 방식이 달라요. 주소만 있다고 끝이 아니라, 등록/서류/마감도 함께 체크해야 해요.",
+              title: "학교 배정 규정 확인",
+              desc: "지역마다 배정 방식이 다릅니다. 주소와 함께 등록 서류와 마감일도 확인해야 합니다.",
             },
           ],
         },
 
         balance: {
-          note: "비용과 학군을 모두 고려하는 ‘밸런스형’ 기준입니다. (학군 안정 + 비용 효율 + 생활 편의)",
+          note: "비용과 학군을 모두 고려하는 가정을 기준으로 정리한 표입니다. 세금은 Tax Foundation 2026년 자료(판매세는 2026년 7월 1일 기준), 월세는 미국 인구조사국 ACS 2024년 1년 추정치입니다.",
           columns: ["Virginia (VA)", "Washington (WA)", "North Carolina (NC)"],
           rows: [
-            ["주 소득세", "중간", "없음", "중간"],
-            [
-              "렌트 체감 (2B)",
-              "지역별 편차, DC 인근↑",
-              "시애틀권↑, 외곽 조정 가능",
-              "Research Triangle 합리적",
-            ],
+            ["주 소득세 (2026)", "2~5.75% 누진", "없음 (고액 자본이득만 과세)", "3.99% 단일"],
+            ["판매세 (주 + 지역 평균)", "5.77%", "9.57%", "7.10%"],
+            ["월세 중간값 (주 전체, 공과금 포함)", "$1,646", "$1,824", "$1,338"],
             [
               "학군/교육",
               "우수 학군 다수",
@@ -913,11 +879,11 @@
             ["추천 가족", "학군+안정형", "테크 연계형", "비용+성장형"],
           ],
           recSubtitle:
-            "둘 다 중요하다면 ‘미세 조정’이 답이에요. 주 선택 후, 도시/학군/통근을 동시에 맞추는 방식이 가장 안전합니다.",
+            "둘 다 중요하다면 주를 먼저 고른 뒤 도시, 학군, 통근 거리를 함께 맞추는 방식이 안전합니다.",
           recs: [
             {
               tag: "전략",
-              title: "‘통근/생활권’이 숨은 비용",
+              title: "통근 거리도 비용입니다",
               desc: "학군이 좋아도 출퇴근이 길면 가족 체력과 시간 비용이 커져요. 생활권 중심으로 설계해요.",
             },
             {

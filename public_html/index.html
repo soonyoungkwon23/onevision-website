@@ -2,9 +2,9 @@
     <meta charset="UTF-8">
     <title>OneVision | 미국 유학과 이민 올케어 컨설팅</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="미국 유학과 이민 올케어 시스템, 원비전. 데이터 기반 성공률, 합격률, 학부모 후기와 함께 미국 유학과 이민 플랜을 설계합니다.">
+    <meta name="description" content="원비전 컨설팅. 미국 대학 신입학, 편입, 대학원 입시와 졸업 후 비자, 영주권까지 이어지는 유학과 이민 컨설팅입니다.">
     <meta name="google-site-verification" content="BN_8QQ0rcCIkLPZBtn98s2-zQ8gHQ9ZbQX0hfTEgkck">
-    <script src="js/common.js?v=20260928"></script>
+    <script src="js/common.js?v=20260928b"></script>
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;500;700&amp;display=swap" rel="stylesheet">
@@ -1599,11 +1599,198 @@
           font-size: 1.8rem;
         }
       }
+      /* 2026-09-28: public-data tiles and the UC calendar. */
+      .fact-tiles {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.8rem;
+      }
+      .fact-tile {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+        padding: 1rem 1.05rem;
+        border: 1px solid var(--border-on-light);
+        border-radius: var(--radius-md);
+        background: #fff;
+        transition: border-color 0.15s ease;
+      }
+      .fact-tile:hover,
+      .fact-tile:focus-visible {
+        border-color: var(--brand);
+      }
+      .fact-num {
+        font-size: 1.9rem;
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        color: var(--text-on-light);
+      }
+      .fact-label {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--text-on-light);
+      }
+      .fact-meta {
+        font-size: 0.8rem;
+        color: var(--muted-on-light);
+      }
+      .fact-source {
+        margin-top: 0.9rem;
+        font-size: 0.76rem;
+        line-height: 1.6;
+        color: var(--muted-on-light);
+      }
+      .date-list {
+        list-style: none;
+        margin: 0.6rem 0 0;
+        padding: 0;
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
+      .date-list li {
+        padding: 0.55rem 0;
+        border-bottom: 1px solid var(--border-on-light);
+      }
+      .date-list strong {
+        display: inline-block;
+        min-width: 6.2rem;
+        color: var(--brand);
+      }
+      @media (max-width: 520px) {
+        .fact-tiles {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+      /* One-stop block, copied from css/site.css section 12 */
+      /* ------------------------------------------------------------
+         12. One-stop partner block (2026-09-28)
+         OneVision (schools and admissions) → KL Legal Services (visa and
+         green card) → EZ이민 (EB-3 employment immigration). The same markup
+         appears on the home, about, first-year, transfer, graduate and
+         immigration pages. .onestop--dark is for the dark transfer page.
+         ------------------------------------------------------------ */
+      .onestop {
+        margin-top: 2rem;
+        padding: 1.6rem 1.5rem;
+        border: 1px solid var(--border-on-light);
+        border-radius: var(--radius-lg, 18px);
+        background: #fff;
+        color: var(--text-on-light);
+      }
+      .onestop-title {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 800;
+        line-height: 1.4;
+        letter-spacing: -0.01em;
+      }
+      .onestop-sub {
+        margin: 0.4rem 0 0;
+        font-size: 0.92rem;
+        line-height: 1.7;
+        color: var(--muted-on-light);
+      }
+      .onestop-steps {
+        list-style: none;
+        margin: 1.2rem 0 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.8rem;
+        counter-reset: onestop;
+      }
+      .onestop-steps li {
+        position: relative;
+        padding: 1rem 1rem 1rem 1.05rem;
+        border-radius: 12px;
+        background: var(--surface-2, #faf7f5);
+        counter-increment: onestop;
+      }
+      .onestop-steps li::before {
+        content: counter(onestop);
+        display: inline-grid;
+        place-items: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 0.5rem;
+        border-radius: 999px;
+        background: var(--brand, #9c1a36);
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+      .onestop-org {
+        display: block;
+        font-size: 0.82rem;
+        color: var(--brand, #9c1a36);
+        font-weight: 700;
+      }
+      .onestop-what {
+        display: block;
+        margin-top: 0.15rem;
+        font-size: 1rem;
+        font-weight: 800;
+      }
+      .onestop-detail {
+        display: block;
+        margin-top: 0.3rem;
+        font-size: 0.86rem;
+        line-height: 1.6;
+        color: var(--muted-on-light);
+      }
+      .onestop-note {
+        margin: 1rem 0 0;
+        font-size: 0.86rem;
+        line-height: 1.7;
+        color: var(--muted-on-light);
+      }
+      .onestop-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1.2rem;
+        margin-top: 0.8rem;
+        font-size: 0.88rem;
+      }
+      .onestop-links a {
+        color: var(--brand, #9c1a36);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+      .onestop--dark {
+        border-color: rgba(255, 255, 255, 0.14);
+        background: rgba(255, 255, 255, 0.04);
+        color: #f5f1ef;
+      }
+      .onestop--dark .onestop-sub,
+      .onestop--dark .onestop-detail,
+      .onestop--dark .onestop-note {
+        color: rgba(245, 241, 239, 0.72);
+      }
+      .onestop--dark .onestop-steps li {
+        background: rgba(255, 255, 255, 0.05);
+      }
+      .onestop--dark .onestop-org,
+      .onestop--dark .onestop-links a {
+        color: #f0b3c1;
+      }
+      @media (max-width: 760px) {
+        .onestop-steps {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+      .onestop-section {
+        padding: 3.4rem 0;
+        background: var(--surface);
+      }
+      .onestop-section .onestop {
+        margin-top: 0;
+      }
     </style>
-      <link rel="canonical" href="https://onevisionconsulting.us/" />
-    <link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/" />
-    <link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/en/" />
-    <link rel="alternate" hreflang="x-default" href="https://onevisionconsulting.us/" />
+      <link rel="canonical" href="https://onevisionconsulting.us/">
+    <link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/">
+    <link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/en/">
+    <link rel="alternate" hreflang="x-default" href="https://onevisionconsulting.us/">
   </head>
   <body>
     <!-- Header -->
@@ -1640,31 +1827,16 @@
             <div class="hero-slide hero-slide-active" data-slide="1">
               <div class="hero-inner">
                 <div>
-                  <div class="hero-pill-row">
-                    <span class="hero-pill">미국 유학, 편입, 이민, 주거
-                      <strong>한눈에 정리</strong></span>
-                  </div>
+                  <div class="hero-pill-row"><span class="hero-pill">미국 유학, 편입, 이민, 주거를 <strong>함께 상담</strong></span></div>
                   <h1 class="hero-title">
                     처음부터 끝까지<br>
                     <span>미국 유학 큰 그림이 궁금하신가요?</span>
                   </h1>
-                  <p class="hero-subtitle">
-                    “어느 나라/어느 전형이 우리 아이에게 맞을까?”라는 질문에서
-                    시작해<br>
-                    <strong>전공, 대학 레벨, 지역(주), 이민 가능성</strong>까지 같이 보는
-                    <strong>원비전 올케어 플랜</strong>입니다.<br>
-                    첫 상담에서 학부모님 기준으로 전체 그림을 먼저 잡아드립니다.
-                  </p>
+                  <p class="hero-subtitle">어느 나라, 어느 전형이 우리 아이에게 맞는지부터 시작해<br> <strong>전공, 대학 수준, 지역(주), 이민 가능성</strong>까지 함께 보는 <strong>원비전 올케어 플랜</strong>입니다.<br> 첫 상담에서 가족의 상황부터 정리합니다.</p>
 
-                  <div class="hero-cta-row">
-                    <a href="#stats" class="btn btn-primary">원비전 성과 데이터 먼저 보기</a>
-                    <a href="#sections" class="btn btn-outline">프로그램과 이민 플랜 한눈에 보기</a>
-                  </div>
+                  <div class="hero-cta-row"><a href="#stats" class="btn btn-primary">입시 자료 먼저 보기</a> <a href="#sections" class="btn btn-outline">프로그램과 이민 플랜 보기</a></div>
 
-                  <p class="hero-note">
-                    ※ “우리 아이 수준에서 가능한 대학이 어딘지” 알고 싶으신
-                    학부모님께 추천드립니다.
-                  </p>
+                  <p class="hero-note">※ 우리 아이 수준에서 가능한 대학이 어디인지 알고 싶으신 학부모님께 권합니다.</p>
                 </div>
 
                 <div class="hero-gallery">
@@ -1693,12 +1865,7 @@
                     UC/주립대 편입과<br>
                     <span>이민과 주거 플랜을 함께 고민하신다면</span>
                   </h1>
-                  <p class="hero-subtitle">
-                    단순히 “편입만”이 아니라,
-                    <strong>어느 주에 정착할지, 렌트/집값, 세금, 치안</strong>까지 함께 봐야 현실적인 선택이 가능합니다.<br>
-                    원비전은 <strong>편입 전략표 + 지역별 주거 리서치</strong>를
-                    한 번에 제시해 가족이 더 쉽게 결정할 수 있도록 돕습니다.
-                  </p>
+                  <p class="hero-subtitle">편입과 함께 <strong>어느 주에 정착할지, 렌트와 집값, 세금, 치안</strong>까지 봐야 현실적인 선택이 가능합니다.<br> 원비전은 <strong>편입 전략표와 지역별 주거 자료</strong>를 함께 드립니다.</p>
 
                   <div class="hero-cta-row">
                     <a href="admissions.html" class="btn btn-primary">UC/주립대 편입 프로그램 보기</a>
@@ -1737,13 +1904,7 @@
                     성적, 공부 습관, 멘탈까지<br>
                     <span>아이 혼자 두지 않는 관리가 필요하신가요?</span>
                   </h1>
-                  <p class="hero-subtitle">
-                    과제, 시험, 에세이 일정이 몰리면
-                    <strong>밀림 → 스트레스 → 미루기</strong> 패턴이 생길 수
-                    있습니다.<br>
-                    원비전 코칭은 <strong>주 1회 코칭 + 매일 체크</strong>로
-                    시간관리, 우선순위, 멘탈을 잡아드립니다.
-                  </p>
+                  <p class="hero-subtitle">과제, 시험, 에세이 일정이 몰리면 <strong>일이 밀리고 미루는</strong> 패턴이 생기기 쉽습니다.<br> 원비전 코칭은 <strong>주 1회 코칭과 매일 체크</strong>로 시간 관리와 우선순위를 함께 잡습니다.</p>
 
                   <div class="hero-cta-row">
                     <a href="coaching.html" class="btn btn-primary">Academic Coaching 자세히 보기</a>
@@ -1953,9 +2114,7 @@
                 <h3 class="section-card-title">
                   미국 이민 + 주거 올케어와 지역별 렌트 시세
                 </h3>
-                <p class="section-card-text">
-                  <strong>UC/주립대 분포, 렌트 시세, 학군, 치안, 세금</strong>을 한 번에 비교해 “어느 주에 정착할지” 결정을 돕습니다.
-                </p>
+                <p class="section-card-text"><strong>UC와 주립대 분포, 렌트 시세, 학군, 치안, 세금</strong>을 비교해 어느 주에 정착할지 결정하도록 돕습니다.</p>
                 <div class="section-card-link">
                   <a href="housing.html">이민과 주거 리서치 보기</a>
                 </div>
@@ -1980,85 +2139,83 @@
           </div>
         </section>
 
+        <!-- One-stop partners -->
+        <section class="onestop-section" id="onestop">
+          <div class="container">
+            <div class="onestop">
+              <h3 class="onestop-title">입학부터 졸업 후 비자, 영주권까지 한 곳에서</h3>
+              <p class="onestop-sub">
+                원비전이 학교 선택과 입시를 맡고, 졸업 후 비자와 영주권은 파트너
+                이민법 로펌과 이민 전문 기관이 이어서 진행합니다.
+              </p>
+              <ol class="onestop-steps">
+                <li><span class="onestop-org">원비전 컨설팅</span><span class="onestop-what">학교 선택과 입시</span><span class="onestop-detail">신입학, 편입, 대학원 지원과 학업 관리</span></li>
+                <li><span class="onestop-org">KL Legal Services (이민법 로펌)</span><span class="onestop-what">비자와 영주권 신청</span><span class="onestop-detail">졸업 후 신분 변경, 취업 비자, 영주권 진행. 최경규 변호사가 원비전의 이민법 고문입니다.</span></li>
+                <li><span class="onestop-org">EZ이민</span><span class="onestop-what">EB-3 등 취업이민 영주권</span><span class="onestop-detail">취업이민 영주권 절차 진행</span></li>
+              </ol>
+              <p class="onestop-note">
+                원비전 대표 Jay Choi는 KL Legal Services에서 사무장(법무사)으로 일하고
+                있어, 입시 단계부터 졸업 후 신분까지 함께 계획합니다. 이민 법률 업무는
+                KL Legal Services가 맡습니다.
+              </p>
+              <div class="onestop-links"><a href="immigration.html#partners">이민과 비자 서비스 자세히 보기</a><a href="https://iminstory.com/" target="_blank" rel="noopener">KL Legal Services</a><a href="https://ezimmin.com/" target="_blank" rel="noopener">EZ이민</a></div>
+            </div>
+          </div>
+        </section>
+
         <!-- 3. 원비전 성과 데이터 (필터 ) -->
         <section class="stats-section" id="stats">
           <div class="container">
-            <div class="section-badge"><span class="section-badge-dot"></span> OneVision 데이터</div>
-            <h2 class="section-title">원비전 성과 데이터</h2>
+            <div class="section-badge"><span class="section-badge-dot"></span> 공개 자료로 본 미국 입시</div>
+            <h2 class="section-title">2026–27 입시, 먼저 확인할 숫자</h2>
             <p class="section-subtitle">
-              학부모님이 가장 많이 여쭤보시는
-              <strong>신입학, 편입, Academic Coaching</strong> 성과를
-              <strong>필터 + 그래프 + 표</strong>로 정리했습니다. 상단에서
-              프로그램을 바꾸면 숫자가 함께 바뀝니다.
+              UC와 주 정부, 미국 인구조사국이 발표한 최신 자료입니다. 각 항목을
+              누르면 자세한 표와 출처를 볼 수 있습니다.
             </p>
 
             <div class="stats-layout">
-              <!-- 왼쪽: 인터랙티브 카드 -->
               <div class="stats-card">
-                <div class="stats-card-title">
-                  트랙별 합격률과 유지율 한눈에
+                <div class="fact-tiles">
+                  <a class="fact-tile" href="freshman.html#board">
+                    <span class="fact-num">5%</span>
+                    <span class="fact-label">UC Berkeley 유학생 합격률</span>
+                    <span class="fact-meta">2026 가을 신입생, UCLA는 8%</span>
+                  </a>
+                  <a class="fact-tile" href="freshman.html#board">
+                    <span class="fact-num">67%</span>
+                    <span class="fact-label">UC Davis 유학생 합격률</span>
+                    <span class="fact-meta">캘리포니아 거주민(35%)보다 높음</span>
+                  </a>
+                  <a class="fact-tile" href="transfer.html#databoard">
+                    <span class="fact-num">77%</span>
+                    <span class="fact-label">UC 편입 합격률</span>
+                    <span class="fact-meta">커뮤니티 칼리지 출신, 2026 가을</span>
+                  </a>
+                  <a class="fact-tile" href="immigration.html#stateData">
+                    <span class="fact-num">$15,588</span>
+                    <span class="fact-label">UC 거주민 등록금 (2026–27)</span>
+                    <span class="fact-meta">비거주민은 $54,848</span>
+                  </a>
                 </div>
-
-                <div class="stats-filter-row">
-                  <span class="stats-filter-label">관심 프로그램 선택</span>
-                  <div class="stats-filter-chips">
-                    <button class="chip chip-small active" data-stats="all" onclick="changeStatsFilter('all', this)">
-                      전체 보기
-                    </button>
-                    <button class="chip chip-small" data-stats="freshman" onclick="changeStatsFilter('freshman', this)">
-                      신입학 (Freshman)
-                    </button>
-                    <button class="chip chip-small" data-stats="transfer" onclick="changeStatsFilter('transfer', this)">
-                      편입 (Transfer)
-                    </button>
-                    <button class="chip chip-small" data-stats="coaching" onclick="changeStatsFilter('coaching', this)">
-                      Academic Coaching
-                    </button>
-                  </div>
-                </div>
-
-                <div class="stats-search-row">
-                  <label for="statsKeyword">전공/학교 키워드 (선택)</label>
-                  <input id="statsKeyword" type="text" placeholder="예: 공대, UC, 예체능, Pre-med 등" oninput="renderStats(currentStatsType)">
-                </div>
-
-                <div class="stats-bars-wrap" id="statsBars"></div>
-
-                <div class="stats-table-wrap">
-                  <table id="statsTable"></table>
-                </div>
-
-                <div class="stats-note" id="statsNote"></div>
+                <p class="fact-source">
+                  출처: UC 총장실(UCOP) 2026 가을 잠정 입학 자료, UC 이사회
+                  2026–27 등록금 (캘리포니아 입법분석처 LAO 보고서)
+                </p>
               </div>
 
-              <!-- 오른쪽: 설명 카드 -->
               <aside class="stats-side-card">
-                <div class="stats-side-title">
-                  이 숫자를 어떻게 해석해야 할까요?
-                </div>
-                <ul class="stats-side-list">
-                  <li>
-                    <strong>1)</strong>
-                    <strong>목표 대학 리스트 기준</strong> 합격률입니다. “지원한
-                    모든 학교”가 아니라, 상담에서 함께 정한 현실적인 리스트를
-                    기준으로 합니다.
-                  </li>
-                  <li>
-                    <strong>2)</strong> 편입 트랙은
-                    <strong>UC/주립대 + 전공 변경</strong> 여부에 따라 난이도가
-                    달라지므로, 개별 상담에서 다시 미세 조정합니다.
-                  </li>
-                  <li>
-                    <strong>3)</strong> Academic Coaching 유지율은
-                    <strong>“3개월 이후에도 계속 이어가는 비율”</strong>을
-                    의미합니다. 아이가 혼자 하는 것보다 훨씬 안정적입니다.
-                  </li>
-                  <li>
-                    <strong>4)</strong> “우리 아이 케이스에서는 어느 쪽에 더
-                    가까운지”는, 간단한 정보만 주셔도 대략적인 구간을 안내해
-                    드릴 수 있습니다.
-                  </li>
+                <div class="stats-side-title">2027 가을 입학 주요 일정</div>
+                <ul class="date-list">
+                  <li><strong>9월 1일~30일</strong> UC 편입 TAG 신청</li>
+                  <li><strong>10월 1일</strong> UC 원서 제출 시작, FAFSA 신청 시작</li>
+                  <li><strong>11월 30일</strong> UC 원서 마감 (신입생, 편입생)</li>
+                  <li><strong>1월 31일</strong> 편입생 성적 업데이트(TAU) 마감</li>
+                  <li><strong>3월</strong> 신입생 합격 발표</li>
+                  <li><strong>5월 1일</strong> 신입생 등록 의사(SIR) 마감</li>
                 </ul>
+                <p class="fact-source">
+                  출처: UC Admissions Dates &amp; deadlines 2026–27, UC TAG 안내
+                </p>
               </aside>
             </div>
           </div>
@@ -2255,86 +2412,24 @@
         <!-- Mid Strip -->
         <section class="mid-strip" id="mid-strip">
           <div class="container">
-            <div class="mini-data-strip" aria-label="원비전 핵심 성과 요약">
+            <div class="mini-data-strip" aria-label="원비전 소개">
               <div class="mini-metric">
-                <div class="mini-metric-num">92%</div>
-                <div class="mini-metric-label">목표 대학 합격률</div>
+                <div class="mini-metric-num">17개</div>
+                <div class="mini-metric-label">공개된 합격 후기</div>
               </div>
-
-              <div class="mini-metric">
-                <div class="mini-metric-num">88%</div>
-                <div class="mini-metric-label">UC/주립대 편입 성공률</div>
-              </div>
-
-              <div class="mini-metric">
-                <div class="mini-metric-num">300+</div>
-                <div class="mini-metric-label">누적 컨설팅/코칭 세션</div>
-              </div>
-
               <div class="mini-metric">
                 <div class="mini-metric-num">4개 트랙</div>
                 <div class="mini-metric-label">
                   신입학, 편입, 코칭, 이민 연계
                 </div>
               </div>
-            </div>
-
-            <div class="process-strip" aria-label="원비전 진행 프로세스">
-              <div class="process-title">원비전 진행 흐름</div>
-
-              <div class="process-steps">
-                <div class="process-step">
-                  <div class="process-dot"></div>
-                  <div class="process-text">
-                    <div class="process-step-title">1: 상담</div>
-                    <div class="process-step-sub">현재 상황 정리</div>
-                  </div>
-                </div>
-
-                <div class="process-arrow">›</div>
-
-                <div class="process-step">
-                  <div class="process-dot"></div>
-                  <div class="process-text">
-                    <div class="process-step-title">2: 전략 설계</div>
-                    <div class="process-step-sub">학교, 전공, 주 선택</div>
-                  </div>
-                </div>
-
-                <div class="process-arrow">›</div>
-
-                <div class="process-step">
-                  <div class="process-dot"></div>
-                  <div class="process-text">
-                    <div class="process-step-title">3: 실행과 관리</div>
-                    <div class="process-step-sub">에세이, GPA, 일정</div>
-                  </div>
-                </div>
-
-                <div class="process-arrow">›</div>
-
-                <div class="process-step">
-                  <div class="process-dot"></div>
-                  <div class="process-text">
-                    <div class="process-step-title">4: 합격</div>
-                    <div class="process-step-sub">결과/대안 플랜</div>
-                  </div>
-                </div>
-
-                <div class="process-arrow">›</div>
-
-                <div class="process-step">
-                  <div class="process-dot"></div>
-                  <div class="process-text">
-                    <div class="process-step-title">5: 진학과 정착</div>
-                    <div class="process-step-sub">주거와 이민 연계</div>
-                  </div>
-                </div>
+              <div class="mini-metric">
+                <div class="mini-metric-num">2023년</div>
+                <div class="mini-metric-label">정식 출범</div>
               </div>
-
-              <div class="process-note">
-                * 유학/편입만이 아니라, 가족의 지역 선택과 정착까지 함께
-                설계합니다.
+              <div class="mini-metric">
+                <div class="mini-metric-num">3곳</div>
+                <div class="mini-metric-label">일리노이, 캘리포니아, 분당 사무소</div>
               </div>
             </div>
           </div>
@@ -2345,11 +2440,7 @@
           <div class="container">
             <div class="section-badge"><span class="section-badge-dot"></span> 학부모의 목소리</div>
             <h2 class="section-title">학부모 후기 &amp; 성장 스토리</h2>
-            <p class="section-subtitle">
-              원비전은 “어디를 붙였다”보다,
-              <strong>가족이 어떤 결정을 내릴 수 있게 되었는지</strong>를 더
-              중요하게 생각합니다.
-            </p>
+            <p class="section-subtitle">합격한 학교와 함께, <strong>가족이 어떤 결정을 내릴 수 있었는지</strong>를 후기로 모았습니다.</p>
 
             <div class="testimonials-layout">
               <div>
@@ -2389,15 +2480,7 @@
               </div>
 
               <div class="testimonial-highlight">
-                <p>
-                  <strong>학부모님이 가장 만족하는 포인트</strong><br>
-                  • 유학, 편입만이 아니라 <strong>이민, 렌트, 학군</strong>까지 한
-                  번에 정리되는 점<br>
-                  • <strong>데이터 + 실제 케이스</strong>를 함께 설명해 주는
-                  점<br>
-                  • <strong>장기 플랜 + 주간 체크</strong>가 동시에 이루어지는
-                  구조
-                </p>
+                <p><strong>학부모님이 자주 말씀하시는 점</strong><br> • 유학, 편입과 함께 <strong>이민, 렌트, 학군</strong>까지 같이 정리된다는 점<br> • <strong>공개 자료와 실제 사례</strong>로 설명한다는 점<br> • <strong>장기 계획과 주간 체크</strong>를 함께 한다는 점</p>
               </div>
             </div>
           </div>
@@ -2671,202 +2754,6 @@
           goToSlide((current + 1) % slides.length);
         }, 8000);
       })();
-
-      // ===== Stats interactive data =====
-      const STATS_DATA = {
-        all: {
-          note: "전체 트랙(신입학, 편입, Academic Coaching)을 묶어서 본 기준입니다.",
-          bars: [
-            { label: "목표 대학(리스트 기준) 합격률", value: 92 },
-            { label: "UC/주립대 편입 성공률", value: 88 },
-            { label: "학부모 만족도(설문 응답)", value: 95 },
-            { label: "재등록, 지인 추천 비율", value: 80 },
-          ],
-          rows: [
-            {
-              track: "신입학 (Freshman)",
-              rate: "합격률 90%+ (목표 리스트 기준)",
-              path: "미국/한국 고등학생, 국제학교",
-              feature: "9–12학년 장기 로드맵 + 방학/EC 설계",
-            },
-            {
-              track: "편입 (Transfer)",
-              rate: "UC/주립대 편입 성공률 88% 내외",
-              path: "Community College, 4년제 재학생",
-              feature: "전공 변경, 학점 전략 + 에세이 집중",
-            },
-            {
-              track: "Academic Coaching",
-              rate: "3개월 이상 유지율 약 85%",
-              path: "중, 고, 대학생 GPA/루틴 관리",
-              feature: "주 1회 코칭 + 매일 체크, 습관/멘탈 케어",
-            },
-          ],
-        },
-        freshman: {
-          note: "신입학(Freshman) 학생들을 기준으로 본 지표입니다.",
-          bars: [
-            { label: "목표 대학 리스트 기준 합격률", value: 90 },
-            { label: "Reach(상향) 학교 합격률", value: 65 },
-            { label: "장학금/재정보조 수혜 비율", value: 72 },
-            { label: "재지원 없이 1년 내 진학률", value: 93 },
-          ],
-          rows: [
-            {
-              track: "Top 30 목표형",
-              rate: "상향 합격률 60–70%",
-              path: "공대, 비즈, CS, 인문 혼합",
-              feature: "AP/IB 과목, 리서치/프로젝트 연계",
-            },
-            {
-              track: "균형형 리스트",
-              rate: "목표 리스트 내 1곳 이상 합격률 95% 내외",
-              path: "UC + 주립 + 사립 분산 지원",
-              feature: "안정/도전/상향 비율을 처음에 명확히 세팅",
-            },
-          ],
-        },
-        transfer: {
-          note: "Community College 및 4년제 재학생 편입 케이스 기준입니다.",
-          bars: [
-            { label: "UC/주립대 편입 성공률", value: 88 },
-            { label: "전공 변경 동반 편입 성공률", value: 81 },
-            { label: "지원 학교 중 최소 1곳 합격률", value: 94 },
-            { label: "편입 후 1년 내 적응도(설문)", value: 89 },
-          ],
-          rows: [
-            {
-              track: "UC 편입 (TAG 포함)",
-              rate: "목표 UC 내 합격률 85–90%",
-              path: "TAG + Non-TAG 혼합",
-              feature: "GPA, 과목 구성, 에세이 타임라인 관리",
-            },
-            {
-              track: "미국/타국 4년제 → 미국 편입",
-              rate: "목표 리스트 기준 합격률 80%+",
-              path: "공대, 경영, Art/Design 편입",
-              feature: "기존 학점 인정 + 포트폴리오/프로젝트 재구성",
-            },
-          ],
-        },
-        coaching: {
-          note: "Academic Coaching & Study Lab 참가 학생 기준입니다.",
-          bars: [
-            { label: "3개월 이상 프로그램 유지율", value: 85 },
-            { label: "평균 GPA 향상 (1년 기준)", value: 78 },
-            { label: "“시간 관리가 나아졌다” 응답", value: 92 },
-            { label: "멘탈/스트레스 지표 개선 응답", value: 88 },
-          ],
-          rows: [
-            {
-              track: "중, 고등학생 코칭",
-              rate: "과제 누락, 지각 비율 크게 감소",
-              path: "중학생 ~ 11학년",
-              feature: "주간 플래너, 시험 전 집중 관리",
-            },
-            {
-              track: "대학생 Study Lab",
-              rate: "한 학기 이후 GPA 상승 비율 70%+",
-              path: "STEM, Business, Art 전공",
-              feature: "장기 프로젝트, 팀플 일정 분해 코칭",
-            },
-          ],
-        },
-      };
-
-      let currentStatsType = "all";
-
-      function renderStats(type) {
-        const data = STATS_DATA[type];
-        if (!data) return;
-
-        const keywordInput = document.getElementById("statsKeyword");
-        const keyword = keywordInput
-          ? keywordInput.value.trim().toLowerCase()
-          : "";
-
-        const barsWrap = document.getElementById("statsBars");
-        const tableEl = document.getElementById("statsTable");
-        const noteEl = document.getElementById("statsNote");
-
-        // Bars
-        barsWrap.innerHTML = data.bars
-          .map(
-            (b) => `
-      <div class="stats-bar-row">
-        <span>${b.label}</span>
-        <div class="stats-bar"><div class="stats-bar-fill" style="width:${b.value}%;"></div></div>
-        <span class="stats-percent">${b.value}%</span>
-      </div>
-    `,
-          )
-          .join("");
-
-        // Table
-        let rows = data.rows;
-        if (keyword) {
-          rows = data.rows.filter((r) =>
-            Object.values(r).some((v) =>
-              String(v).toLowerCase().includes(keyword),
-            ),
-          );
-        }
-
-        const header = `
-      <thead>
-        <tr>
-          <th>트랙</th>
-          <th>합격/유지 지표</th>
-          <th>대표 전형/전공</th>
-          <th>특징 요약</th>
-        </tr>
-      </thead>
-    `;
-
-        const body = rows.length
-          ? `
-      <tbody>
-        ${rows
-          .map(
-            (r) => `
-          <tr>
-            <td>${r.track}</td>
-            <td>${r.rate}</td>
-            <td>${r.path}</td>
-            <td>${r.feature}</td>
-          </tr>
-        `,
-          )
-          .join("")}
-      </tbody>
-    `
-          : `
-      <tbody>
-        <tr>
-          <td colspan="4" style="text-align:center;color:#9ca3af;font-size:.85rem;padding:1.1rem 0;">
-            해당 키워드에 맞는 데이터가 없습니다. (다른 전공/학교 이름으로 검색해 보세요.)
-          </td>
-        </tr>
-      </tbody>
-    `;
-
-        tableEl.innerHTML = header + body;
-
-        noteEl.textContent =
-          data.note + (keyword ? ` (검색 키워드: "${keyword}" 기준)` : "");
-      }
-
-      function changeStatsFilter(type, el) {
-        currentStatsType = type;
-        document
-          .querySelectorAll("[data-stats]")
-          .forEach((btn) => btn.classList.remove("active"));
-        if (el) el.classList.add("active");
-        renderStats(type);
-      }
-
-      // 초기 렌더
-      renderStats("all");
 
       // Admit slider
       (function () {

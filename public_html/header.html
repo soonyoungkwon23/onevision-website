@@ -3,7 +3,7 @@
     <a href="index.html" class="logo" aria-label="OneVision Consulting 홈으로">
       <img
         class="logo-img"
-        src="images/Onevisionlogo.jpeg"
+        src="images/onevision-logo.png"
         alt="OneVision Consulting"
         onerror="this.style.display='none'; var f=this.parentNode.querySelector('.logo-fallback'); if(f){f.style.display='inline-flex';}"
       />
@@ -87,6 +87,7 @@
      logo or pushing the page wider than the screen. */
   header .logo { flex-shrink: 0; }
   @media (min-width: 961px) {
+    header .logo-img { height: 66px !important; }
     header .nav { gap: 1rem; }
     header .nav-links {
       flex: 0 1 auto;

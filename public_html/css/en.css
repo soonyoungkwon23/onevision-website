@@ -77,3 +77,15 @@ html[lang="en"] body {
     font-size: 0.82rem !important;
   }
 }
+/* Date and number tiles (2026-09-28): English dates are longer than the
+   Korean ("11월 30일" vs "Nov 30"), so the tile figures run a size smaller. */
+html[lang="en"] .fresh-hero .kpi-num,
+html[lang="en"] .kpi-strip .kpi-num,
+html[lang="en"] .program-hero-stat-number {
+  font-size: 1.45rem !important;
+}
+@media (max-width: 1180px) {
+  html[lang="en"] .fresh-hero .kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}

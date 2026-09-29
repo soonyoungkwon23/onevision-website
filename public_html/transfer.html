@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <title>편입학 | OneVision</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="미국 UC/주립대 편입 컨설팅. 수업 플랜, GPA 전략, TAG/IGETC 체크, 에세이와 활동 설계까지 데이터 기반으로 관리하는 OneVision Transfer Intensive.">
+    <meta name="description" content="미국 UC/주립대 편입 컨설팅. 수업 계획, GPA, TAG와 Cal-GETC 확인, 에세이와 활동 설계까지 학기별로 관리하는 OneVision Transfer Intensive.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1055,13 +1055,23 @@
       * {
         text-overflow: clip;
       }
+      /* 2026-09-28: sourced chart and TAG table on the dark board. */
+      .board .ovc-title {
+        color: #fff;
+      }
+      .tag-card {
+        margin-top: 1rem;
+      }
+      .tag-card .ovt td:first-child {
+        white-space: nowrap;
+      }
     </style>
       <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
-    <link rel="stylesheet" href="css/site.css?v=20260927">
-      <link rel="canonical" href="https://onevisionconsulting.us/transfer.html" />
-    <link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/transfer.html" />
-    <link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/en/transfer.html" />
-    <link rel="alternate" hreflang="x-default" href="https://onevisionconsulting.us/transfer.html" />
+    <link rel="stylesheet" href="css/site.css?v=20260928b">
+      <link rel="canonical" href="https://onevisionconsulting.us/transfer.html">
+    <link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/transfer.html">
+    <link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/en/transfer.html">
+    <link rel="alternate" hreflang="x-default" href="https://onevisionconsulting.us/transfer.html">
   </head>
 
   <body>
@@ -1101,45 +1111,45 @@
               <div>
                 <h1 class="hero-title">
                   UC/주립대 편입,<br>
-                  <span>‘계산 가능한 전략’으로 관리합니다</span>
+                  <span>계산 가능한 전략으로 관리합니다</span>
                 </h1>
 
                 <p class="hero-lead">
-                  편입은 “열심히”보다
-                  <strong>요건 체크, 수업 플랜, GPA 시나리오, 에세이 타이밍</strong>이 승부입니다.<br>
-                  원비전은 <strong>TAG/IGETC/전공 프리렉</strong>을 체크리스트로
-                  관리하고, 주별로 “지금 해야 할 것”을 데이터처럼 쌓아 갑니다.
+                  편입은 <strong>요건 확인, 수업 계획, GPA, 에세이 일정</strong>에서
+                  결과가 갈립니다.<br>
+                  원비전은 <strong>TAG, Cal-GETC, 전공 선수과목</strong>을 학기별
+                  체크리스트로 관리합니다.
                 </p>
 
                 <div class="hero-cta">
                   <button class="btn btn-primary" type="button" onclick="openContact()">
                     편입 무료 상담 신청
                   </button>
-                  <a class="btn btn-outline" href="#databoard">편입 데이터 보드 보기</a>
+                  <a class="btn btn-outline" href="#databoard">편입 합격률 보기</a>
                   <a class="btn btn-outline" href="#transfer-faq">편입 Q&amp;A 보기</a>
                 </div>
 
-                <div class="kpi-strip" aria-label="편입 KPI">
+                <div class="kpi-strip" aria-label="UC 편입 기본 정보">
                   <div class="kpi">
-                    <div class="kpi-num">88%</div>
-                    <div class="kpi-label">UC/주립대 편입 성공률</div>
+                    <div class="kpi-num">77%</div>
+                    <div class="kpi-label">UC 편입 합격률 (CCC 출신, 2026 가을)</div>
                   </div>
                   <div class="kpi">
-                    <div class="kpi-num">2.2배</div>
-                    <div class="kpi-label">요건 누락 리스크 감소</div>
+                    <div class="kpi-num">6곳</div>
+                    <div class="kpi-label">TAG로 합격을 보장받을 수 있는 UC 캠퍼스</div>
                   </div>
                   <div class="kpi">
-                    <div class="kpi-num">+0.38</div>
-                    <div class="kpi-label">평균 GPA 개선(관리 케이스)</div>
+                    <div class="kpi-num">9월</div>
+                    <div class="kpi-label">TAG 신청 기간 (1일~30일)</div>
                   </div>
                   <div class="kpi">
-                    <div class="kpi-num">12주</div>
-                    <div class="kpi-label">에세이/원서 집중 스프린트</div>
+                    <div class="kpi-num">11월 30일</div>
+                    <div class="kpi-label">UC 편입 원서 마감 (2027 가을 입학)</div>
                   </div>
 
                   <div class="kpi-note">
-                    * 수치는 원비전 내부 케이스 집계/설문 기반 예시입니다.
-                    (표본, 연도에 따라 달라질 수 있습니다)
+                    출처: UC 총장실(UCOP) 2026 가을 잠정 입학 자료, UC TAG 안내
+                    (2026년 6월 9일 기준)
                   </div>
                 </div>
               </div>
@@ -1148,14 +1158,14 @@
                 <img src="images/ucberk.jpeg" alt="UC 캠퍼스" style="width: 100%; height: 260px; object-fit: cover">
                 <div class="card-pad">
                   <div class="card-title">
-                    편입에서 가장 흔한 실패 원인 TOP 3
+                    상담에서 자주 보는 문제 세 가지
                   </div>
                   <p class="muted">
-                    1) 전공 프리렉 과목이 1개 빠짐<br>
-                    2) IGETC/GE 구성이 불완전<br>
-                    3) 에세이 늦게 시작해서 “설득 구조”가 약함<br><br>
-                    원비전은 위 3개를
-                    <strong>체크리스트 + 주간 리포트</strong>로 잡습니다.
+                    1) 전공 선수과목 한 과목이 빠짐<br>
+                    2) Cal-GETC(또는 IGETC) 이수 계획이 불완전<br>
+                    3) 에세이를 늦게 시작해 구성이 약함<br><br>
+                    원비전은 위 세 가지를
+                    <strong>체크리스트와 주간 리포트</strong>로 관리합니다.
                   </p>
                 </div>
               </div>
@@ -1167,124 +1177,202 @@
         <section class="board" id="databoard">
           <div class="container">
             <div class="board-wrap">
-              <div class="section-badge" style="margin-bottom: 0.75rem"><span class="section-badge-dot"></span> 편입 데이터 보드</div>
+              <div class="section-badge" style="margin-bottom: 0.75rem"><span class="section-badge-dot"></span> UC 편입 데이터</div>
               <h2 class="section-title" style="margin-bottom: 0.25rem">
-                편입 데이터 보드
+                UC 캠퍼스별 편입 합격률과 일정
               </h2>
               <p class="section-subtitle">
-                “감”이 아니라 <strong>지표</strong>로 관리합니다: 요건 충족률,
-                에세이 진행률, GPA 시나리오, 제출 준비도.
+                UC가 발표한 2026년 가을 지원자 수와 합격자 수, 2027년 가을
+                편입 일정입니다.
               </p>
 
               <div class="board-grid">
-                <!-- Graph-like bars -->
-                <div class="bars-card" aria-label="편입 지표 그래프">
-                  <div class="bars-title">핵심 지표(예시)</div>
-
-                  <div class="bar-row">
-                    <span>요건 충족(전공 프리렉/IGETC)</span>
-                    <div class="bar">
-                      <div class="fill" data-fill="86"></div>
+                <figure class="bars-card ovc ovc--dark" aria-labelledby="xferTitle" style="--ovc-tick: 25%; --ovc-label-w: 8.2rem; --ovc-value-w: 3rem">
+                  <figcaption>
+                    <h3 class="ovc-title" id="xferTitle">
+                      UC 편입 합격률은 캠퍼스에 따라 23%에서 82%까지 차이 납니다
+                    </h3>
+                    <p class="ovc-sub">
+                      2026년 가을, 캘리포니아 커뮤니티 칼리지(CCC) 출신 지원자 기준. 합격자 수를 지원자 수로 나눈 값입니다.
+                    </p>
+                  </figcaption>
+                  <div class="ovc-grid">
+                    <div class="ovc-row" data-n="4,895 / 20,915">
+                      <span class="ovc-label">UC Berkeley</span>
+                      <div class="ovc-track"><div class="ovc-bar" style="width: 23.4%"></div></div>
+                      <span class="ovc-value">23%</span>
                     </div>
-                    <span class="pct">86%</span>
+                    <div class="ovc-row" data-n="6,282 / 24,751">
+                      <span class="ovc-label">UCLA</span>
+                      <div class="ovc-track"><div class="ovc-bar" style="width: 25.4%"></div></div>
+                      <span class="ovc-value">25%</span>
+                    </div>
+                    <div class="ovc-row" data-n="9,408 / 23,400">
+                      <span class="ovc-label">UC Irvine</span>
+                      <div class="ovc-track"><div class="ovc-bar" style="width: 40.2%"></div></div>
+                      <span class="ovc-value">40%</span>
+                    </div>
+                    <div class="ovc-row" data-n="11,134 / 21,964">
+                      <span class="ovc-label">UC San Diego</span>
+                      <div class="ovc-track"><div class="ovc-bar" style="width: 50.7%"></div></div>
+                      <span class="ovc-value">51%</span>
+                    </div>
+                    <div class="ovc-row" data-n="9,456 / 15,117">
+                      <span class="ovc-label">UC Davis</span>
+                      <div class="ovc-track"><div class="ovc-bar" style="width: 62.6%"></div></div>
+                      <span class="ovc-value">63%</span>
+                    </div>
+                    <div class="ovc-row" data-n="10,718 / 16,444">
+                      <span class="ovc-label">UC Santa Barbara</span>
+                      <div class="ovc-track"><div class="ovc-bar" style="width: 65.2%"></div></div>
+                      <span class="ovc-value">65%</span>
+                    </div>
+                    <div class="ovc-row" data-n="8,824 / 12,462">
+                      <span class="ovc-label">UC Santa Cruz</span>
+                      <div class="ovc-track"><div class="ovc-bar" style="width: 70.8%"></div></div>
+                      <span class="ovc-value">71%</span>
+                    </div>
+                    <div class="ovc-row" data-n="9,969 / 13,805">
+                      <span class="ovc-label">UC Riverside</span>
+                      <div class="ovc-track"><div class="ovc-bar" style="width: 72.2%"></div></div>
+                      <span class="ovc-value">72%</span>
+                    </div>
+                    <div class="ovc-row" data-n="4,917 / 6,032">
+                      <span class="ovc-label">UC Merced</span>
+                      <div class="ovc-track"><div class="ovc-bar" style="width: 81.5%"></div></div>
+                      <span class="ovc-value">82%</span>
+                    </div>
+                    <div class="ovc-row" data-n="29,372 / 38,264">
+                      <span class="ovc-label">UC 전체</span>
+                      <div class="ovc-track"><div class="ovc-bar muted" style="width: 76.8%"></div></div>
+                      <span class="ovc-value">77%</span>
+                    </div>
+                    <div class="ovc-row ovc-axis-row" aria-hidden="true">
+                      <span class="ovc-label"></span>
+                      <div class="ovc-axis">
+                        <span style="left: 0%">0%</span>
+                        <span style="left: 25%">25%</span>
+                        <span style="left: 50%">50%</span>
+                        <span style="left: 75%">75%</span>
+                        <span style="left: 100%">100%</span>
+                      </div>
+                      <span class="ovc-value"></span>
+                    </div>
                   </div>
-
-                  <div class="bar-row">
-                    <span>GPA 목표 진척(플랜 대비)</span>
-                    <div class="bar">
-                      <div class="fill" data-fill="72"></div>
-                    </div>
-                    <span class="pct">72%</span>
-                  </div>
-
-                  <div class="bar-row">
-                    <span>에세이/PIQ 초안 완성도</span>
-                    <div class="bar">
-                      <div class="fill" data-fill="64"></div>
-                    </div>
-                    <span class="pct">64%</span>
-                  </div>
-
-                  <div class="bar-row">
-                    <span>원서 제출 준비도(서류/리스트)</span>
-                    <div class="bar">
-                      <div class="fill" data-fill="78"></div>
-                    </div>
-                    <span class="pct">78%</span>
-                  </div>
-
-                  <div class="mini-bullets">
-                    <div>
-                      • <strong>요건 누락</strong>은 “합격 가능성”을 바로
-                      깎습니다. 체크리스트로 매주 업데이트.
-                    </div>
-                    <div>
-                      • 에세이는 <strong>구조(논리)</strong>가 먼저, 디테일은 그
-                      다음.
-                    </div>
-                    <div>
-                      • GPA는 “현재”보다 <strong>시나리오</strong>(남은 학기
-                      설계)가 중요합니다.
-                    </div>
-                  </div>
-                </div>
+                  <ul class="ovc-notes">
+                    <li>UC 전체는 한 곳 이상 합격한 비율입니다.</li>
+                    <li>합격자 수는 2026년 6월 17일 기준 잠정치이며, 대기자 합격 등으로 최종 수치는 달라질 수 있습니다.</li>
+                  </ul>
+                  <p class="ovc-source">출처: UC 총장실(UCOP) Fall 2026 Preliminary Applications 표 1a, Fall 2026 Admissions Fact Sheet 표 1a (2026년 7월 29일)</p>
+                </figure>
 
                 <!-- Timeline -->
                 <div class="timeline-card" aria-label="편입 타임라인">
-                  <div class="timeline-title">편입 타임라인(권장)</div>
+                  <div class="timeline-title">2027 가을 편입 일정</div>
 
                   <div class="timeline">
                     <div class="t-item">
-                      <div class="t-month">3–6월</div>
+                      <div class="t-month">3–8월</div>
                       <div class="t-dot"></div>
                       <div>
-                        <div class="t-main">요건 진단 + 수업플랜 확정</div>
+                        <div class="t-main">요건 확인과 수업 계획</div>
                         <div class="t-sub">
-                          전공 프리렉/IGETC/GE, TAG 가능성, 목표 스쿨 리스트업
+                          전공 선수과목, Cal-GETC(또는 IGETC), TAG 조건, 목표 캠퍼스 정리
                         </div>
                       </div>
                     </div>
 
                     <div class="t-item">
-                      <div class="t-month">7–8월</div>
+                      <div class="t-month">9월</div>
                       <div class="t-dot"></div>
                       <div>
-                        <div class="t-main">에세이 구조 설계 + 초안</div>
+                        <div class="t-main">TAG 신청 (9월 1일~30일)</div>
                         <div class="t-sub">
-                          PIQ/PS 핵심 메시지(전공 적합+성장), 활동 증거 정리
+                          UC TAP에서 신청, 6개 캠퍼스 중 1곳 선택
                         </div>
                       </div>
                     </div>
 
                     <div class="t-item">
-                      <div class="t-month">9–10월</div>
+                      <div class="t-month">10–11월</div>
                       <div class="t-dot"></div>
                       <div>
-                        <div class="t-main">원서 제출 준비(서류/리스트)</div>
+                        <div class="t-main">UC 원서 제출 (10월 1일~11월 30일)</div>
                         <div class="t-sub">
-                          지원전략 최종, 에세이 다듬기, 제출 체크리스트
+                          에세이(PIQ) 4편, TAG 전공과 원서 전공 일치 확인
                         </div>
                       </div>
                     </div>
 
                     <div class="t-item">
-                      <div class="t-month">11–3월</div>
+                      <div class="t-month">1월</div>
                       <div class="t-dot"></div>
                       <div>
-                        <div class="t-main">업데이트/보완 + 결과 플랜</div>
+                        <div class="t-main">성적 업데이트 TAU (1월 31일까지)</div>
                         <div class="t-sub">
-                          추가자료, 대안 플랜(주립/사립/전공변경)까지 동시에
-                          준비
+                          가을학기 성적 입력. 2026년에는 4월 30일까지 결과가 나왔습니다.
                         </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="muted" style="margin-top: 0.85rem">
-                    * 학교/전형/학기에 따라 달라질 수 있어요. 상담에서 “본인
-                    캘린더”로 바꿔드립니다.
+                    * 날짜는 UC 공식 안내 기준입니다. 준비 시작 시점은 학생마다
+                    다릅니다.
                   </div>
                 </div>
+              </div>
+
+              <div class="bars-card ovc ovc--dark tag-card">
+                <h3 class="ovc-title">TAG 캠퍼스별 최소 GPA와 제외 전공 (2027 가을)</h3>
+                <div class="ovt-wrap">
+                  <table class="ovt">
+                    <thead>
+                      <tr>
+                        <th>캠퍼스</th>
+                        <th>TAG 최소 GPA</th>
+                        <th>TAG에서 제외되는 전공</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>UC Davis</td>
+                        <td>3.2 (공대 3.5)</td>
+                        <td>비즈니스, 컴퓨터과학, 데이터사이언스, 전공 미정</td>
+                      </tr>
+                      <tr>
+                        <td>UC Irvine</td>
+                        <td>3.4</td>
+                        <td>비즈니스, 간호학, 미술, 무용, 음악, 정보컴퓨터과학대 전 전공</td>
+                      </tr>
+                      <tr>
+                        <td>UC Merced</td>
+                        <td>2.8~3.0 (단과대별)</td>
+                        <td>없음</td>
+                      </tr>
+                      <tr>
+                        <td>UC Riverside</td>
+                        <td>2.7~3.6 (컴퓨터과학 3.6)</td>
+                        <td>Art Studio</td>
+                      </tr>
+                      <tr>
+                        <td>UC Santa Barbara</td>
+                        <td>3.4</td>
+                        <td>공대 전 전공, Creative Studies 전 전공, 일부 무용, 음악, 연극</td>
+                      </tr>
+                      <tr>
+                        <td>UC Santa Cruz</td>
+                        <td>3.0</td>
+                        <td>없음</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <ul class="ovc-notes">
+                  <li>UC에 합격한 편입생의 약 3분의 2는 TAG 없이 합격합니다. TAG는 안전장치이고, 다른 캠퍼스 지원도 함께 계획합니다.</li>
+                  <li>전공별로 선수과목 성적 기준이 따로 있는 경우가 많습니다.</li>
+                </ul>
+                <p class="ovc-source">출처: UC Transfer Admission Guarantee 안내, 2027 가을 및 2028 봄 입학용 (2026년 6월 9일 기준)</p>
               </div>
 
               <!-- ===== NEW FAQ SECTION (Transfer Students) ===== -->
@@ -1296,12 +1384,7 @@
                       <div class="faq2-title">
                         편입 자주 묻는 질문 (학생 Q&amp;A)
                       </div>
-                      <p class="faq2-sub">
-                        편입 상담에서 반복되는 질문들을 모았습니다. 학교마다
-                        디테일이 달라서, 원비전은 최종적으로
-                        <strong>전공/캠퍼스/학기 캘린더</strong> 기준으로 “내
-                        플랜”으로 바꿔드립니다.
-                      </p>
+                      <p class="faq2-sub">편입 상담에서 자주 나오는 질문입니다. 학교마다 세부 조건이 달라서, 원비전은 <strong>전공, 캠퍼스, 학기 일정</strong>에 맞춘 개인 계획으로 다시 정리해 드립니다.</p>
                     </div>
 
                     <div class="faq2-actions">
@@ -1323,25 +1406,29 @@
                           <span class="chev">⌄</span>
                         </summary>
                         <p>
-                          TAG는 강력하지만 “전공/캠퍼스/요건”이 핵심이에요. TAG
-                          가능한 플랜을 기본으로 깔고,
-                          <strong>비TAG 상향 지원(안전, 적정, 상향)</strong>을
-                          함께 설계해서 확률을 분산하는 게 안정적입니다.
+                          TAG는 여섯 캠퍼스 중 한 곳의 합격을 보장받는 제도라
+                          든든하지만, 전공과 캠퍼스가 제한됩니다. UC에 합격한
+                          편입생의 약 3분의 2는 TAG 없이 합격하므로, TAG를 기본으로
+                          두고 <strong>다른 캠퍼스 지원(안전, 적정, 상향)</strong>을
+                          함께 계획합니다.
                         </p>
                       </details>
 
                       <details class="faq-item">
                         <summary>
-                          <span class="q"><span class="chip">Q</span> IGETC는 무조건 해야
-                            하나요?</span>
+                          <span class="q"><span class="chip">Q</span> Cal-GETC(구 IGETC)는
+                            꼭 끝내야 하나요?</span>
                           <span class="chev">⌄</span>
                         </summary>
                         <p>
-                          “무조건”은 아니고, 목표 캠퍼스/전공에 따라 달라요.
-                          IGETC가 유리한 경우가 많지만, 전공 프리렉이 더 중요한
-                          전공도 있고, 일정상 IGETC를 다 채우면 오히려 전공
-                          과목이 밀릴 수 있어요. 결론은
-                          <strong>목표 전공 프리렉 + GE 전략의 균형</strong>입니다.
+                          2025년 가을 이후 커뮤니티 칼리지에 입학한 학생은
+                          Cal-GETC(11과목, 34학점)가 유일한 교양 과정입니다. 그
+                          전에 입학해 계속 재학 중이면 IGETC를 쓸 수 있습니다.
+                          TAG 캠퍼스는 대부분 Cal-GETC 완료를 요구하지 않지만(UC
+                          Merced 공중보건 전공 제외), 전공 선수과목은 반드시
+                          챙겨야 합니다. 그래서
+                          <strong>전공 선수과목과 교양 과목의 균형</strong>이
+                          중요합니다.
                         </p>
                       </details>
 
@@ -1351,13 +1438,7 @@
                             어디서 확인하나요?</span>
                           <span class="chev">⌄</span>
                         </summary>
-                        <p>
-                          UC는 전공/캠퍼스마다 요구가 달라요. 보통
-                          <strong>Assist.org</strong> 기반으로 CC 과목 매칭을
-                          확인하고, 학교 사이트에서 “major prep” 요구를 교차
-                          체크해야 합니다. 원비전은 이걸 체크리스트로 묶어서
-                          “누락 0” 상태로 관리합니다.
-                        </p>
+                        <p>UC는 전공과 캠퍼스마다 요구가 다릅니다. <strong>ASSIST.org</strong>에서 CC 과목 대응을 확인하고, 학교 사이트의 전공 준비(major prep) 요건과 비교해야 합니다. 원비전은 이를 체크리스트로 만들어 빠진 과목이 없게 관리합니다.</p>
                       </details>
 
                       <details class="faq-item">
@@ -1366,13 +1447,7 @@
                             끝인가요?</span>
                           <span class="chev">⌄</span>
                         </summary>
-                        <p>
-                          “현재 GPA”보다 <strong>남은 학기 시나리오</strong>가
-                          더 중요해요. 어떤 과목을 언제 듣고, 어떤 학기에
-                          고득점을 만들지 설계하면 그래프가 달라집니다. 필요 시
-                          리테이크/난이도 조절/학점 분배로 “상승 곡선”을 만들 수
-                          있어요.
-                        </p>
+                        <p>지금의 GPA보다 <strong>남은 학기 계획</strong>이 더 중요합니다. 어떤 과목을 언제 듣고 어느 학기에 성적을 올릴지 설계하면 결과가 달라집니다. 필요하면 재수강, 과목 난이도 조절, 학점 배분으로 성적을 올려 갑니다.</p>
                       </details>
 
                       <details class="faq-item">
@@ -1381,11 +1456,7 @@
                             시작해야 하나요?</span>
                           <span class="chev">⌄</span>
                         </summary>
-                        <p>
-                          최소 <strong>12주</strong> 권장합니다. 순서는 1)
-                          메시지(핵심 주장) 2) 증거(활동/성과) 3) 구조(논리) 4)
-                          문장(톤) 순으로 가야 “합격형”이 됩니다.
-                        </p>
+                        <p>최소 <strong>12주</strong> 전에 시작하기를 권합니다. 1) 핵심 주장 2) 근거가 될 활동과 성과 3) 구성 4) 문장 순서로 다듬습니다.</p>
                       </details>
 
                       <details class="faq-item">
@@ -1394,13 +1465,7 @@
                             불리한가요?</span>
                           <span class="chev">⌄</span>
                         </summary>
-                        <p>
-                          활동의 “개수”보다
-                          <strong>전공 적합성 + 성장/임팩트</strong>가 중요해요.
-                          리서치/프로젝트/인턴/클럽이 아니어도, 전공 관련 개인
-                          프로젝트, 튜터링, 파트타임 경험을 “증거”로 재구성하면
-                          강해집니다.
-                        </p>
+                        <p>활동의 개수보다 <strong>전공 적합성과 성장</strong>이 중요합니다. 리서치, 인턴, 클럽이 아니어도 전공 관련 개인 프로젝트, 튜터링, 파트타임 경험을 근거로 정리하면 충분히 강해집니다.</p>
                       </details>
 
                       <details class="faq-item">
@@ -1410,7 +1475,7 @@
                           <span class="chev">⌄</span>
                         </summary>
                         <p>
-                          1) 전공 프리렉 누락 여부 2) IGETC/GE 구성 3)
+                          1) 전공 선수과목 누락 여부 2) Cal-GETC(또는 IGETC) 이수 계획 3)
                           학점/과목명 일치(트랜스크립트) 4) 에세이 메시지 일관성
                           5) 제출 후 업데이트 계획(추가 자료/성적)까지가
                           핵심입니다.
@@ -1423,13 +1488,7 @@
                             체인지)도 가능한가요?</span>
                           <span class="chev">⌄</span>
                         </summary>
-                        <p>
-                          가능합니다. 다만 전공 변경은 “스토리”만 바꾸는 게
-                          아니라
-                          <strong>프리렉 로드맵 + 활동 증거</strong>가 함께
-                          바뀌어야 설득력이 생겨요. 원비전은 전공 변경 케이스는
-                          최소 1학기 앞당겨 설계하는 걸 권합니다.
-                        </p>
+                        <p>가능합니다. 다만 에세이 내용만 바꿔서는 부족하고 <strong>선수과목 계획과 활동 근거</strong>가 함께 바뀌어야 설득력이 있습니다. 전공을 바꾸는 경우 최소 1학기 먼저 계획을 세우기를 권합니다.</p>
                       </details>
 
                       <details class="faq-item">
@@ -1438,12 +1497,7 @@
                             있나요?</span>
                           <span class="chev">⌄</span>
                         </summary>
-                        <p>
-                          네. 합격은 “시작”이에요. 트랜스크립트 최종 제출,
-                          주거/기숙사/오리엔테이션, 수강신청 전략, 장학금/재정
-                          플랜까지 이어집니다. 원비전은 “편입 이후” 로드맵도
-                          같이 잡아드립니다.
-                        </p>
+                        <p>네. 최종 성적표 제출, 주거와 기숙사, 오리엔테이션, 수강 신청, 장학금과 재정 계획이 이어집니다. 원비전은 편입 이후 계획도 함께 잡아 드립니다.</p>
                       </details>
 
                       <div class="hint">
@@ -1453,7 +1507,7 @@
                     </div>
 
                     <div class="faq2-side">
-                      <h3>원비전 FAQ를 “플랜”으로 바꾸는 방식</h3>
+                      <h3>상담에서 정리해 드리는 세 가지</h3>
                       <p>
                         질문은 누구나 같지만, 답은 학생마다 달라요. 원비전은
                         상담에서 아래 3가지를 바로 정리합니다.
@@ -1461,16 +1515,16 @@
 
                       <div class="faq2-points">
                         <div>
-                          • <strong>전공 프리렉/IGETC 체크</strong>: 누락 0로
-                          만드는 체크리스트
+                          • <strong>전공 선수과목과 Cal-GETC 확인</strong>: 빠진
+                          과목이 없도록 만드는 체크리스트
                         </div>
                         <div>
                           • <strong>GPA 시나리오</strong>: 남은 학기별 목표
                           점수/과목 조합
                         </div>
                         <div>
-                          • <strong>에세이 구조</strong>: “한 문장 핵심 주장” →
-                          증거 재배치
+                          • <strong>에세이 구조</strong>: 핵심 주장을 한 문장으로
+                          정하고 근거를 배치
                         </div>
                       </div>
 
@@ -1480,9 +1534,7 @@
                         </button>
                       </div>
 
-                      <p class="muted" style="margin-top: 0.8rem">
-                        상담에서 “내 캘린더 기준”으로 1:1 로드맵으로 바꿔드려요.
-                      </p>
+                      <p class="muted" style="margin-top: 0.8rem">상담에서 학생의 일정에 맞춘 1:1 계획으로 정리해 드립니다.</p>
                     </div>
                   </div>
                 </div>
@@ -1492,91 +1544,92 @@
           </div>
         </section>
 
-        <!-- CASES / REVIEWS -->
+        <!-- COMMON PROBLEMS -->
         <section class="cases" id="cases">
           <div class="container">
-            <div class="section-badge"><span class="section-badge-dot"></span> 실제 편입 스토리</div>
-            <h2 class="section-title">편입 케이스 후기(숫자로 보는 스토리)</h2>
+            <div class="section-badge"><span class="section-badge-dot"></span> 자주 막히는 부분</div>
+            <h2 class="section-title">편입 준비에서 자주 막히는 세 가지</h2>
             <p class="section-subtitle">
-              “감동 후기”도 좋지만, 학부모님은 <strong>숫자</strong>가 먼저
-              필요하죠. 아래는 편입 과정에서 자주 나오는 케이스를 데이터처럼
-              정리한 예시입니다.
+              상담에서 가장 자주 확인하는 부분입니다. 기준은 2027년 가을 편입
+              요건입니다.
             </p>
 
             <div class="case-grid">
               <div class="case">
                 <div class="case-tag">
                   <span class="section-badge-dot" style="width: 6px; height: 6px"></span>
-                  CC → UC 편입
+                  전공 선수과목
                 </div>
-                <div class="case-title">
-                  요건 누락 2개를 조기 발견해서 “살린” 케이스
-                </div>
+                <div class="case-title">빠진 선수과목 한 과목</div>
                 <div class="case-memo">
-                  전공 프리렉 1개 + IGETC 1개가 빠져 있었는데, 1학기 전에
-                  수정해서 제출 가능 상태로 전환.
+                  UC는 전공마다 선수과목이 다르고, 선발 전공은 선수과목을 모두
+                  마쳐야 경쟁력이 있습니다.
                 </div>
                 <div class="case-metrics">
-                  <div>• 요건 충족률: <strong>54% → 100%</strong></div>
-                  <div>• 에세이 초안: <strong>3주</strong> 내 완성</div>
-                  <div>• 제출 체크리스트: <strong>0 누락</strong></div>
-                </div>
-                <div class="case-quote">
-                  “몰랐으면 지원 자체가 불가능했을 뻔했어요. 체크리스트가
-                  진짜였어요.”
+                  <div>• 확인할 곳: <strong>ASSIST.org</strong> (다니는 CC와 목표 UC의 과목 대응표)</div>
+                  <div>• 함께 볼 것: 목표 캠퍼스 전공 페이지의 편입 요건</div>
                 </div>
               </div>
 
               <div class="case">
                 <div class="case-tag">
                   <span class="section-badge-dot" style="width: 6px; height: 6px"></span>
-                  GPA 반등
+                  TAG
                 </div>
-                <div class="case-title">
-                  GPA ‘현재’가 아니라 ‘시나리오’로 뒤집은 케이스
-                </div>
+                <div class="case-title">9월 한 달뿐인 TAG 신청</div>
                 <div class="case-memo">
-                  낮은 시작점에서 “고득점 학기”를 설계하고, 과목 난이도/스케줄을
-                  재조정해서 상승 곡선 만들기.
+                  TAG는 9월 1일부터 30일까지만 신청할 수 있고, 캠퍼스마다 최소
+                  GPA와 제외 전공이 다릅니다.
                 </div>
                 <div class="case-metrics">
-                  <div>• GPA: <strong>3.12 → 3.50</strong></div>
-                  <div>• 고득점(3.7+) 학기: <strong>2학기</strong></div>
-                  <div>• 리테이크/전략 과목: <strong>핵심 4개</strong></div>
-                </div>
-                <div class="case-quote">
-                  “무작정 듣는 게 아니라 ‘이기는 과목표’가 있다는 느낌이었어요.”
+                  <div>• 예: UC Davis는 컴퓨터과학과 비즈니스를 TAG에서 제외</div>
+                  <div>• 신청 시점까지 UC 인정 학점 30학점 이상 필요</div>
                 </div>
               </div>
 
               <div class="case">
                 <div class="case-tag">
                   <span class="section-badge-dot" style="width: 6px; height: 6px"></span>
-                  에세이 구조
+                  지원 후 성적
                 </div>
-                <div class="case-title">
-                  문장보다 “논리 구조” 먼저 잡아서 설득력 상승
-                </div>
+                <div class="case-title">원서를 낸 뒤에도 남는 조건</div>
                 <div class="case-memo">
-                  활동은 많았지만 연결이 약했는데, 전공 적합 스토리(Why major)를
-                  중심으로 증거를 재배치.
+                  지원 후 학기 성적도 중요합니다. TAG는 C 미만 성적이 없어야
+                  하고, 1월 31일까지 성적 업데이트(TAU)를 제출해야 합니다.
                 </div>
                 <div class="case-metrics">
-                  <div>• 에세이 개편: <strong>2회 구조 리라이트</strong></div>
-                  <div>
-                    • 메시지(핵심 주장): <strong>1문장</strong>으로 정리
-                  </div>
-                  <div>• 증거(활동/성과): <strong>6개</strong> 선별</div>
-                </div>
-                <div class="case-quote">
-                  “이제야 ‘내 얘기’가 한 줄로 정리돼서, 쓰는 속도가 달라졌어요.”
+                  <div>• 봄학기까지 편입 필수 과목 이수 완료</div>
+                  <div>• 60학점(Junior standing) 충족 여부 확인</div>
                 </div>
               </div>
             </div>
 
+            <p class="muted" style="margin-top: 1rem">
+              출처: UC Transfer Admission Guarantee 안내 (2027 가을), UC Admissions Cal-GETC 안내
+            </p>
+
+            <div class="onestop onestop--dark">
+              <h3 class="onestop-title">입학부터 졸업 후 비자, 영주권까지 한 곳에서</h3>
+              <p class="onestop-sub">
+                원비전이 학교 선택과 입시를 맡고, 졸업 후 비자와 영주권은 파트너
+                이민법 로펌과 이민 전문 기관이 이어서 진행합니다.
+              </p>
+              <ol class="onestop-steps">
+                <li><span class="onestop-org">원비전 컨설팅</span><span class="onestop-what">학교 선택과 입시</span><span class="onestop-detail">신입학, 편입, 대학원 지원과 학업 관리</span></li>
+                <li><span class="onestop-org">KL Legal Services (이민법 로펌)</span><span class="onestop-what">비자와 영주권 신청</span><span class="onestop-detail">졸업 후 신분 변경, 취업 비자, 영주권 진행. 최경규 변호사가 원비전의 이민법 고문입니다.</span></li>
+                <li><span class="onestop-org">EZ이민</span><span class="onestop-what">EB-3 등 취업이민 영주권</span><span class="onestop-detail">취업이민 영주권 절차 진행</span></li>
+              </ol>
+              <p class="onestop-note">
+                원비전 대표 Jay Choi는 KL Legal Services에서 사무장(법무사)으로 일하고
+                있어, 입시 단계부터 졸업 후 신분까지 함께 계획합니다. 이민 법률 업무는
+                KL Legal Services가 맡습니다.
+              </p>
+              <div class="onestop-links"><a href="immigration.html#partners">이민과 비자 서비스 자세히 보기</a><a href="https://iminstory.com/" target="_blank" rel="noopener">KL Legal Services</a><a href="https://ezimmin.com/" target="_blank" rel="noopener">EZ이민</a></div>
+            </div>
+
             <div style="margin-top: 1.5rem">
               <button class="btn btn-primary" type="button" onclick="openContact()">
-                내 케이스로 진단받기
+                내 상황으로 진단받기
               </button>
             </div>
           </div>
@@ -1647,7 +1700,7 @@
         </div>
       </div>
     </div>
-    <script src="js/common.js?v=20260928"></script>
+    <script src="js/common.js?v=20260928b"></script>
     <script>
       // Modal open/close
       function openContact() {
@@ -1670,14 +1723,6 @@
       document.addEventListener("keydown", (e) => {
         if (e.key === "Escape") closeContact();
       });
-
-      // Animate bars on load
-      (function () {
-        const fills = document.querySelectorAll(".fill[data-fill]");
-        const on = () =>
-          fills.forEach((f) => (f.style.width = (f.dataset.fill || "0") + "%"));
-        setTimeout(on, 250);
-      })();
 
       // FAQ open/close all
       (function () {

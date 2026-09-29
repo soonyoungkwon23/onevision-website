@@ -17,7 +17,7 @@ function loadHeader() {
   // Blog pages ship with the header baked into the HTML (SEO: crawlers see
   // real links). Skip fetching so a relative 404 never replaces it.
   if (headerElement && headerElement.children.length === 0) {
-    fetch("header.html?v=20260928")
+    fetch("header.html?v=20260928b")
       .then((response) => response.text())
       .then((data) => {
         headerElement.innerHTML = data;
@@ -47,7 +47,7 @@ function loadFooter() {
     return;
   }
   if (footerElement) {
-    fetch("footer.html?v=20260928")
+    fetch("footer.html?v=20260928b")
       .then((response) => response.text())
       .then((data) => {
         footerElement.innerHTML = data;
@@ -189,11 +189,58 @@ function bindConsultForms() {
   });
 }
 
+// Chart rows (.ovc-row, css/site.css): show the row's own text, plus the
+// counts behind a rate (data-n), in a tooltip on hover and keyboard focus.
+// Built from the visible text, so it is already in the page's language.
+function bindChartTips() {
+  const rows = document.querySelectorAll(".ovc-row:not(.ovc-axis-row)");
+  if (!rows.length) return;
+  const tip = document.createElement("div");
+  tip.className = "ovc-tip";
+  tip.setAttribute("role", "tooltip");
+  tip.hidden = true;
+  document.body.appendChild(tip);
+
+  const textOf = (row) => {
+    let group = row.previousElementSibling;
+    while (group && !group.classList.contains("ovc-group")) group = group.previousElementSibling;
+    const part = (sel) => {
+      const el = row.querySelector(sel);
+      return el ? el.textContent.trim() : "";
+    };
+    const head = group ? group.firstChild.textContent.trim() : "";
+    const bits = [head, part(".ovc-label")].filter(Boolean).join(", ");
+    const n = row.getAttribute("data-n");
+    return `${bits}: ${part(".ovc-value")}${n ? ` (${n})` : ""}`;
+  };
+  const place = (x, y) => {
+    const w = tip.offsetWidth;
+    tip.style.left = `${Math.min(x + 14, window.innerWidth - w - 8)}px`;
+    tip.style.top = `${y + 16}px`;
+  };
+  rows.forEach((row) => {
+    row.tabIndex = 0;
+    const show = (x, y) => {
+      tip.textContent = textOf(row);
+      tip.hidden = false;
+      place(x, y);
+    };
+    row.addEventListener("pointermove", (e) => show(e.clientX, e.clientY));
+    row.addEventListener("pointerleave", () => (tip.hidden = true));
+    row.addEventListener("focus", () => {
+      const r = row.getBoundingClientRect();
+      show(r.left + r.width / 2, r.bottom - 8);
+    });
+    row.addEventListener("blur", () => (tip.hidden = true));
+  });
+}
+
 // 페이지 로드 시 실행
 document.addEventListener("DOMContentLoaded", () => {
   loadHeader();
   loadFooter();
   bindConsultForms();
+  bindChartTips();
 
   // 모달 바깥 클릭 시 닫기 이벤트 등록
   const modal = document.getElementById("contactModal");

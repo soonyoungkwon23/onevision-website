@@ -20,7 +20,7 @@ const MEMORY = path.join(ROOT, "i18n", "translations.json");
 
 // Orphan duplicate of staff-sangwanhan.html; canonicalised to it in both languages.
 const CANONICAL_OVERRIDE = { "staff-sangwonhan.html": "staff-sangwanhan.html" };
-const EN_CSS_VERSION = "20260928";
+const EN_CSS_VERSION = "20260928b";
 
 function staticPages() {
   return fs.readdirSync(PUBLIC).filter((f) => f.endsWith(".html") && !f.startsWith("naver")).sort();

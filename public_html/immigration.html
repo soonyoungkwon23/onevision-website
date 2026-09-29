@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <title>OneVision Immigration &amp; Housing | 이민, 비자, 주거 플랜</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="미국 이민, 비자 플랜과 자녀 유학, 주거, 학군, 세금을 한 번에 설계하는 OneVision Immigration &amp; Housing Family Session. 가족별 시나리오 A/B/C를 제안합니다.">
+    <meta name="description" content="미국 이민과 비자 계획, 자녀 유학, 주거, 학군, 세금을 함께 설계하는 OneVision Immigration &amp; Housing Family Session. 이민법 로펌 KL Legal Services, EZ이민과 함께 졸업 후 비자와 영주권까지 이어갑니다.">
 
     <!-- Fonts (Unified) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1212,13 +1212,92 @@
           grid-template-columns: 1fr;
         }
       }
+      /* State facts (2026-09-28): real, sourced figures. The chart itself uses
+         the shared .ovc component in css/site.css. */
+      .state-facts {
+        margin-top: 1.6rem;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1.2rem;
+      }
+      .state-facts .data-card {
+        margin: 0;
+        min-width: 0;
+      }
+      /* 2026-09-28: partner cards. */
+      .partner-grid {
+        margin-top: 1.2rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+      .partner-card {
+        padding: 1.3rem 1.25rem;
+        border: 1px solid var(--border-on-light);
+        border-radius: 18px;
+        background: #fff;
+        min-width: 0;
+      }
+      .partner-kind {
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--brand, #9c1a36);
+      }
+      .partner-name {
+        margin: 0.2rem 0 0.8rem;
+        font-size: 1.1rem;
+        font-weight: 800;
+        color: var(--text-on-light);
+      }
+      .partner-facts {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 6.5rem minmax(0, 1fr);
+        gap: 0.45rem 0.8rem;
+        font-size: 0.88rem;
+        line-height: 1.6;
+      }
+      .partner-facts dt {
+        color: #6b7280;
+        font-weight: 600;
+      }
+      .partner-facts dd {
+        margin: 0;
+        color: #374151;
+      }
+      .partner-link {
+        display: inline-block;
+        margin-top: 0.9rem;
+        font-size: 0.88rem;
+        color: var(--brand, #9c1a36);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+      .section-note {
+        margin-top: 1rem;
+        font-size: 0.86rem;
+        line-height: 1.7;
+        color: #6b7280;
+      }
+      @media (max-width: 760px) {
+        .partner-grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        .partner-facts {
+          grid-template-columns: minmax(0, 1fr);
+          gap: 0.1rem;
+        }
+        .partner-facts dd {
+          margin-bottom: 0.45rem;
+        }
+      }
     </style>
       <!-- OneVision unified site styles (loaded last so it overrides legacy chrome) -->
-    <link rel="stylesheet" href="css/site.css?v=20260927">
-      <link rel="canonical" href="https://onevisionconsulting.us/immigration.html" />
-    <link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/immigration.html" />
-    <link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/en/immigration.html" />
-    <link rel="alternate" hreflang="x-default" href="https://onevisionconsulting.us/immigration.html" />
+    <link rel="stylesheet" href="css/site.css?v=20260928b">
+      <link rel="canonical" href="https://onevisionconsulting.us/immigration.html">
+    <link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/immigration.html">
+    <link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/en/immigration.html">
+    <link rel="alternate" hreflang="x-default" href="https://onevisionconsulting.us/immigration.html">
   </head>
 
   <body>
@@ -1234,19 +1313,9 @@
               <div>
                 <div class="section-badge"><span class="section-badge-dot"></span> 이민, 비자, 주거 플랜</div>
 
-                <h1 class="hero-title">
-                  이민과 비자 플랜과<br>
-                  <span>자녀 유학을 한 판에서 설계합니다</span>
-                </h1>
+                <h1 class="hero-title">이민과 비자 계획,<br> <span>자녀 유학까지 함께 설계합니다</span></h1>
 
-                <p class="hero-subtitle">
-                  “아이 유학은 유학대로, 이민은 이민대로” 따로 고민하면 시간도
-                  비용도 두 배로 들어갑니다.<br>
-                  원비전 이민과 주거 플랜은
-                  <strong>자녀의 전공/대학/진로</strong>와
-                  <strong>부모님의 거주, 비자, 주거 전략</strong>을 한 번에
-                  맞추는 구조입니다.
-                </p>
+                <p class="hero-subtitle">아이 유학과 가족 이민을 따로 고민하면 시간과 비용이 더 듭니다.<br> 원비전 이민과 주거 플랜은 <strong>자녀의 전공, 대학, 진로</strong>와 <strong>부모님의 거주, 비자, 주거 계획</strong>을 함께 맞춥니다.</p>
 
                 <!--숫자에 카운트업 추가 -->
                 <div class="hero-stats-row">
@@ -1296,12 +1365,7 @@
 
                 <div class="hero-img">
                   <h3>3. 투자와 부동산 + 교육 플랜</h3>
-                  <p>
-                    • 주택/콘도 투자 또는 렌트 위주인지<br>
-                    • 자녀가 어느 학년부터 미국에 올지에 따라<br>
-                    • “언제, 어디에, 얼마짜리 집이 맞는지”를 그림으로
-                    보여드립니다.
-                  </p>
+                  <p>• 주택이나 콘도를 살지, 렌트를 할지<br> • 자녀가 몇 학년부터 미국에 올지에 따라<br> • 언제, 어디에, 어느 가격대의 집이 맞는지 정리해 드립니다.</p>
                 </div>
               </div>
             </div>
@@ -1322,218 +1386,200 @@
               어느 주(STATE)가 우리 가족에게 맞을까요?
             </h2>
             <p class="section-subtitle">
-              실제 상담에서는 <strong>자녀 목표 대학 + 이민/주거 조건</strong>을
-              기준으로 캘리포니아, 텍사스, 워싱턴, 동부 주요 주 등을 비교합니다.
+              세금, 월세, 주립대 등록금을 공개된 최신 자료로 비교했습니다. 실제
+              상담에서는 여기에 가족의 체류 신분과 자녀의 목표 대학을 더해 봅니다.
             </p>
 
-            <!-- 생동감 Data Board  -->
-            <div class="motion-block" id="motionBoard">
-              <div class="motion-head">
-                <div>
-                  <div class="motion-title">
-                    State Data Board (움직이는 지표)
+            <div class="state-facts">
+              <figure class="data-card ovc" aria-labelledby="tuitionTitle">
+                <figcaption>
+                  <h3 class="ovc-title" id="tuitionTitle">
+                    같은 주립대라도 거주민 등록금은 비거주민의 3분의 1이 안 됩니다
+                  </h3>
+                  <p class="ovc-sub">
+                    2026–27학년도 학부 1년 등록금 (미국 달러), 주별 대표 주립대 기준
+                  </p>
+                </figcaption>
+                <div class="ovc-legend"><span><i></i>거주민</span><span><i class="muted"></i>비거주민</span></div>
+                <div class="ovc-grid">
+                  <div class="ovc-group">캘리포니아 <span>UC 계열</span></div>
+                  <div class="ovc-row">
+                    <span class="ovc-label">거주민</span>
+                    <div class="ovc-track"><div class="ovc-bar" style="width: 25.98%"></div></div>
+                    <span class="ovc-value">$15,588</span>
                   </div>
-                  <div class="motion-sub">
-                    주(州)를 선택하면 숫자, 그래프, 표가 함께 바뀝니다 (CA/TX/WA)
+                  <div class="ovc-row">
+                    <span class="ovc-label">비거주민</span>
+                    <div class="ovc-track"><div class="ovc-bar muted" style="width: 91.41%"></div></div>
+                    <span class="ovc-value">$54,848</span>
                   </div>
-                </div>
-                <div class="state-switch" aria-label="주 선택">
-                  <button class="state-btn active" type="button" data-state="CA">
-                    CA
-                  </button>
-                  <button class="state-btn" type="button" data-state="TX">
-                    TX
-                  </button>
-                  <button class="state-btn" type="button" data-state="WA">
-                    WA
-                  </button>
-                </div>
-              </div>
-
-              <!-- KPI -->
-              <div class="kpi-grid">
-                <div class="kpi">
-                  <div class="kpi-num">
-                    <span data-kpi="cost" data-count="0">0</span><span>%</span>
+                  <div class="ovc-group">텍사스 <span>UT Austin</span></div>
+                  <div class="ovc-row">
+                    <span class="ovc-label">거주민</span>
+                    <div class="ovc-track"><div class="ovc-bar" style="width: 18.1%"></div><div class="ovc-range" style="left: 18.1%; width: 4.53%"></div></div>
+                    <span class="ovc-value">$10,858~13,576</span>
                   </div>
-                  <div class="kpi-label">생활비 지수(상대)</div>
-                </div>
-                <div class="kpi">
-                  <div class="kpi-num">
-                    <span data-kpi="tax" data-count="0">0</span><span>%</span>
+                  <div class="ovc-row">
+                    <span class="ovc-label">비거주민</span>
+                    <div class="ovc-track"><div class="ovc-bar muted" style="width: 70.92%"></div><div class="ovc-range muted" style="left: 70.92%; width: 14.25%"></div></div>
+                    <span class="ovc-value">$42,554~51,106</span>
                   </div>
-                  <div class="kpi-label">세금 부담(상대)</div>
-                </div>
-                <div class="kpi">
-                  <div class="kpi-num">
-                    <span data-kpi="rent" data-count="0">0</span><span>%</span>
+                  <div class="ovc-group">워싱턴 <span>University of Washington</span></div>
+                  <div class="ovc-row">
+                    <span class="ovc-label">거주민</span>
+                    <div class="ovc-track"><div class="ovc-bar" style="width: 21.11%"></div></div>
+                    <span class="ovc-value">$12,664</span>
                   </div>
-                  <div class="kpi-label">렌트 체감(상대)</div>
-                </div>
-                <div class="kpi">
-                  <div class="kpi-num">
-                    <span data-kpi="edu" data-count="0">0</span><span>%</span>
+                  <div class="ovc-row">
+                    <span class="ovc-label">비거주민</span>
+                    <div class="ovc-track"><div class="ovc-bar muted" style="width: 74.3%"></div></div>
+                    <span class="ovc-value">$44,580</span>
                   </div>
-                  <div class="kpi-label">학군 안정성(상대)</div>
-                </div>
-              </div>
-
-              <!-- Charts -->
-              <div class="chart-grid">
-                <div class="chart-box">
-                  <div class="chart-title">도시별 “체감 비용 ”</div>
-                  <svg class="line-svg" viewBox="0 0 520 180" role="img" aria-label="비용 추이 라인차트">
-                    <defs>
-                      <linearGradient id="gLine" x1="0" x2="1">
-                        <stop offset="0%" stop-color="#5A0B1F"></stop>
-                        <stop offset="100%" stop-color="#ff8aa0"></stop>
-                      </linearGradient>
-                    </defs>
-                    <path class="line-area" id="areaPath" d=""></path>
-                    <path class="line-path" id="linePath" d="" style="stroke: url(#gLine)"></path>
-                  </svg>
-                  <div class="data-note" id="lineNote">
-                    * 상담 시에는 “우리 가족 예산 기준”으로 도시 단위로 다시
-                    계산합니다.
-                  </div>
-                </div>
-
-                <div class="chart-box">
-                  <div class="chart-title">상담 선택 비중</div>
-                  <div class="donut-wrap">
-                    <div class="donut" id="donut" style="--donutDeg: 260deg">
-                      <div class="donut-center" id="donutText">72%</div>
+                  <div class="ovc-row ovc-axis-row" aria-hidden="true">
+                    <span class="ovc-label"></span>
+                    <div class="ovc-axis">
+                      <span style="left: 0%">$0</span>
+                      <span style="left: 33.33%">$20,000</span>
+                      <span style="left: 66.67%">$40,000</span>
+                      <span style="left: 100%">$60,000</span>
                     </div>
-                    <div class="donut-desc" id="donutDesc">
-                      상담 가정의 72%가 이 주를 후보로 검토
-                    </div>
-                  </div>
-
-                  <div style="margin-top: 0.9rem">
-                    <div class="chart-title" style="margin-bottom: 0.35rem">
-                      빠른 비교 스파크 표
-                    </div>
-                    <table class="spark-table" aria-label="주별 빠른 비교">
-                      <tbody><tr>
-                        <th style="width: 120px">지표</th>
-                        <th>현재 선택 주</th>
-                      </tr>
-                      <tr>
-                        <td>비용</td>
-                        <td>
-                          <div class="spark"><i id="spCost"></i></div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>세금</td>
-                        <td>
-                          <div class="spark"><i id="spTax"></i></div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>렌트</td>
-                        <td>
-                          <div class="spark"><i id="spRent"></i></div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>학군</td>
-                        <td>
-                          <div class="spark"><i id="spEdu"></i></div>
-                        </td>
-                      </tr>
-                    </tbody></table>
+                    <span class="ovc-value"></span>
                   </div>
                 </div>
+                <ul class="ovc-notes">
+                  <li>UC는 9개 학부 캠퍼스에 공통으로 적용되는 등록금이며, 캠퍼스별 부담금은 별도입니다.</li>
+                  <li>UT Austin은 전공에 따라 금액이 달라 범위로 표시했습니다.</li>
+                  <li>거주민 등록금을 받으려면 보통 그 주에서 1년 이상 거주해야 하고, 부모와 학생의 체류 신분에 따라 자격이 달라집니다. 이 부분은 가족마다 상담에서 확인합니다.</li>
+                </ul>
+                <p class="ovc-source">출처: UC 이사회 2026–27 등록금 (캘리포니아 입법분석처 LAO 보고서), UT Austin Texas One Stop 2026–27 예상 비용, University of Washington 2026–27 학비 안내</p>
+              </figure>
+
+              <div class="data-card ovc">
+                <h3 class="ovc-title">세금과 월세</h3>
+                <div class="ovt-wrap">
+                  <table class="ovt">
+                    <thead>
+                      <tr>
+                        <th>항목</th>
+                        <th class="num">캘리포니아</th>
+                        <th class="num">텍사스</th>
+                        <th class="num">워싱턴</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>주 소득세 (근로소득)</td>
+                        <td class="num">1~13.3% 누진</td>
+                        <td class="num">없음</td>
+                        <td class="num">없음*</td>
+                      </tr>
+                      <tr>
+                        <td>판매세 (주 + 지역 평균)</td>
+                        <td class="num">9.03%</td>
+                        <td class="num">8.20%</td>
+                        <td class="num">9.57%</td>
+                      </tr>
+                      <tr>
+                        <td>월세 중간값 (공과금 포함)</td>
+                        <td class="num">$2,104</td>
+                        <td class="num">$1,475</td>
+                        <td class="num">$1,824</td>
+                      </tr>
+                      <tr>
+                        <td>대표 주립대 거주민 등록금</td>
+                        <td class="num">$15,588</td>
+                        <td class="num">$10,858~<wbr>13,576</td>
+                        <td class="num">$12,664</td>
+                      </tr>
+                      <tr>
+                        <td>대표 주립대 비거주민 등록금</td>
+                        <td class="num">$54,848</td>
+                        <td class="num">$42,554~<wbr>51,106</td>
+                        <td class="num">$44,580</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <ul class="ovc-notes">
+                  <li>캘리포니아 최고세율 13.3%는 과세소득 100만 달러 초과분에만 적용됩니다.</li>
+                  <li>* 워싱턴은 근로소득세가 없지만 고액의 자본이득에는 세금을 매깁니다. 텍사스는 소득세가 없는 대신 재산세 부담이 높은 편입니다.</li>
+                  <li>미국 전체 월세 중간값은 $1,487입니다. 같은 주 안에서도 도시에 따라 차이가 커서, 상담에서는 후보 도시 단위로 다시 봅니다.</li>
+                </ul>
+                <p class="ovc-source">출처: Tax Foundation 2026년 주 소득세 자료와 판매세 자료 (판매세는 2026년 7월 1일 기준), 미국 인구조사국 ACS 2024년 1년 추정치 (월세)</p>
               </div>
             </div>
-            <!-- -->
+          </div>
+        </section>
 
-            <div class="data-layout">
-              <div class="data-card">
-                <div class="data-card-title">
-                  주별 대략적인 생활 비용 &amp; 세금
-                </div>
-
-                <!-- 기존 바 유지 +-->
-                <div class="bar-row">
-                  <span id="barLabel1">CA – 학군/대학은 좋지만, 렌트와 세금 높음</span>
-                  <div class="bar">
-                    <div class="bar-fill" id="barFill1" style="width: 90%"></div>
-                  </div>
-                  <span class="percent" id="barText1">비용 ↑</span>
-                </div>
-
-                <div class="bar-row">
-                  <span id="barLabel2">TX – 집값과 세금 상대적으로 낮은 편</span>
-                  <div class="bar">
-                    <div class="bar-fill" id="barFill2" style="width: 65%"></div>
-                  </div>
-                  <span class="percent" id="barText2">균형형</span>
-                </div>
-
-                <div class="bar-row">
-                  <span id="barLabel3">WA – 소득세 없음, 생활비와 렌트 중간~높음</span>
-                  <div class="bar">
-                    <div class="bar-fill" id="barFill3" style="width: 75%"></div>
-                  </div>
-                  <span class="percent" id="barText3">세금 ↓</span>
-                </div>
-
-                <p class="data-note">
-                  * 원비전 이민 세션에서는, “우리 가족 예산 기준”으로 다시
-                  계산해 드립니다.
-                </p>
-              </div>
-
-              <div class="data-card">
-                <div class="data-card-title">
-                  캘리포니아 vs 텍사스 vs 워싱턴
-                </div>
-
-                <table class="compare-table" id="compareTable">
-                  <thead>
-                    <tr>
-                      <th>항목</th>
-                      <th data-col="CA">CA</th>
-                      <th data-col="TX">TX</th>
-                      <th data-col="WA">WA</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>주요 대학 밀집도</td>
-                      <td data-col="CA">UC 계열과 사립 Top 多</td>
-                      <td data-col="TX">주립대, 공대, 비즈니스 강세</td>
-                      <td data-col="WA">주립대 + 테크 기업 인접</td>
-                    </tr>
-                    <tr>
-                      <td>세금 구조</td>
-                      <td data-col="CA">소득세와 세금 전반 높음</td>
-                      <td data-col="TX">소득세 無, 재산세 比 높음</td>
-                      <td data-col="WA">소득세 無, 기타세 중간</td>
-                    </tr>
-                    <tr>
-                      <td>평균 렌트 수준</td>
-                      <td data-col="CA">주요 도시 매우 높음</td>
-                      <td data-col="TX">대도시 중간~높음</td>
-                      <td data-col="WA">도시 기준 중간~높음</td>
-                    </tr>
-                    <tr>
-                      <td>학군/교육 환경</td>
-                      <td data-col="CA">우수 학군 많으나 경쟁 치열</td>
-                      <td data-col="TX">지역별 편차 큼</td>
-                      <td data-col="WA">안정적인 학군 다수</td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <p class="data-note">
-                  * 상담 시에는 학부모님이 고민하시는 2~3개 주를 골라, 실제
-                  렌트, 학군, 치안 지도와 함께 비교해 드립니다.
-                </p>
-              </div>
+        <!-- Partners -->
+        <section class="section-white" id="partners">
+          <div class="container">
+            <div class="section-badge"><span class="section-badge-dot"></span> 이민 파트너</div>
+            <h2 class="section-title">졸업 후 비자와 영주권은 파트너와 함께</h2>
+            <p class="section-subtitle">
+              원비전의 이민과 비자 서비스는 이민법 로펌 KL Legal Services, 취업이민
+              전문 기관 EZ이민과 함께 진행합니다.
+            </p>
+            <div class="onestop">
+              <h3 class="onestop-title">입학부터 졸업 후 비자, 영주권까지 한 곳에서</h3>
+              <p class="onestop-sub">
+                원비전이 학교 선택과 입시를 맡고, 졸업 후 비자와 영주권은 파트너
+                이민법 로펌과 이민 전문 기관이 이어서 진행합니다.
+              </p>
+              <ol class="onestop-steps">
+                <li><span class="onestop-org">원비전 컨설팅</span><span class="onestop-what">학교 선택과 입시</span><span class="onestop-detail">신입학, 편입, 대학원 지원과 학업 관리</span></li>
+                <li><span class="onestop-org">KL Legal Services (이민법 로펌)</span><span class="onestop-what">비자와 영주권 신청</span><span class="onestop-detail">졸업 후 신분 변경, 취업 비자, 영주권 진행. 최경규 변호사가 원비전의 이민법 고문입니다.</span></li>
+                <li><span class="onestop-org">EZ이민</span><span class="onestop-what">EB-3 등 취업이민 영주권</span><span class="onestop-detail">취업이민 영주권 절차 진행</span></li>
+              </ol>
+              <p class="onestop-note">
+                원비전 대표 Jay Choi는 KL Legal Services에서 사무장(법무사)으로 일하고
+                있어, 입시 단계부터 졸업 후 신분까지 함께 계획합니다. 이민 법률 업무는
+                KL Legal Services가 맡습니다.
+              </p>
+              <div class="onestop-links"><a href="https://iminstory.com/" target="_blank" rel="noopener">KL Legal Services</a><a href="https://ezimmin.com/" target="_blank" rel="noopener">EZ이민</a></div>
             </div>
+
+            <div class="partner-grid">
+              <article class="partner-card">
+                <div class="partner-kind">이민법 로펌</div>
+                <h3 class="partner-name">KL Legal Services, Professional Corporation</h3>
+                <dl class="partner-facts">
+                  <dt>이민법 고문</dt>
+                  <dd>
+                    최경규 변호사: 뉴욕주 변호사, 미국 이민 변호사 협회(AILA) 회원,
+                    위스콘신 대학교 로스쿨 J.D. 경찰대학교 겸임교수, 뉴욕대학교(NYU)
+                    법학대학원 방문교수 역임
+                  </dd>
+                  <dt>원비전과의 관계</dt>
+                  <dd>원비전 대표 Jay Choi가 사무장(법무사)으로 일하고 있습니다.</dd>
+                  <dt>업무</dt>
+                  <dd>비자 신청, 신분 변경과 회복, 취업이민, 결혼 영주권, 투자이민(EB-5, E-2), 상법과 가정법</dd>
+                  <dt>주소</dt>
+                  <dd>6131 Orangethorpe Ave. Ste 480, Buena Park, CA 90620</dd>
+                </dl>
+                <a class="partner-link" href="https://iminstory.com/" target="_blank" rel="noopener">iminstory.com</a>
+              </article>
+
+              <article class="partner-card">
+                <div class="partner-kind">취업이민, 투자이민</div>
+                <h3 class="partner-name">EZ이민</h3>
+                <dl class="partner-facts">
+                  <dt>업무</dt>
+                  <dd>취업이민(EB-3), EB-1, EB-2 NIW, 투자이민(EB-5, E-2), 간호사 이민, J-1 비자</dd>
+                  <dt>미국 사무소</dt>
+                  <dd>6131 Orangethorpe Ave. Ste 480, Buena Park, CA 90620</dd>
+                  <dt>한국 사무소</dt>
+                  <dd>서울시 강남구 테헤란로 126 GT 대공빌딩 4층</dd>
+                </dl>
+                <a class="partner-link" href="https://ezimmin.com/" target="_blank" rel="noopener">ezimmin.com</a>
+              </article>
+            </div>
+
+            <p class="section-note">
+              이민 법률 자문과 신청은 KL Legal Services의 변호사가 맡습니다. 원비전은
+              입시 단계부터 가족의 체류 계획을 함께 정리하고, 필요한 시점에 파트너와
+              연결해 드립니다.
+            </p>
           </div>
         </section>
 
@@ -1564,82 +1610,21 @@
                   <div class="testimonial-tag">
                     2단계 – 주별 시나리오 A/B/C 제안
                   </div>
-                  <p class="testimonial-text">
-                    • 캘리포니아 / 텍사스 / 워싱턴 / 동부 주요 주 등 중에서
-                    현실적으로 가능한 후보 주를 2~3곳 선정합니다.<br>
-                    • 각 주별로 “자녀 유학 루트 + 부모님 거주/비자 + 주거”가
-                    어떻게 연결되는지, 시나리오 A/B/C 형태로 보여드립니다.
-                  </p>
+                  <p class="testimonial-text">• 캘리포니아, 텍사스, 워싱턴, 동부 주요 주 가운데 현실적인 후보 주를 2~3곳 고릅니다.<br> • 주마다 자녀 유학 경로, 부모님 거주와 비자, 주거가 어떻게 이어지는지 시나리오 A/B/C로 보여드립니다.</p>
                 </article>
 
                 <article class="testimonial-card">
                   <div class="testimonial-tag">3단계 – 우리 가족 결론 정리</div>
-                  <p class="testimonial-text">
-                    • 가장 현실적인 시나리오를 1~2개로 좁힙니다.<br>
-                    • “언제, 어디로, 어떤 순서로 움직일지”를 로드맵 형태로
-                    정리해 학부모님께 PDF 요약본으로 드립니다.
-                  </p>
+                  <p class="testimonial-text">• 가장 현실적인 시나리오를 1~2개로 좁힙니다.<br> • 언제, 어디로, 어떤 순서로 움직일지 로드맵으로 정리해 PDF 요약본으로 드립니다.</p>
                 </article>
               </div>
 
-              <div class="highlight">
-                <strong>이민과 주거 세션에서 가장 많이 듣는 말</strong><br><br>
-                • “막연했던 미국 이민/유학 그림이 구체적인 숫자와 지도로 보이니,
-                남편/아내와 대화하기가 훨씬 쉬워졌어요.”<br><br>
-                • “어느 주가 좋은지 인터넷 글만 보다가, 우리 가족 기준으로
-                정리된 표를 보니까 선택이 훨씬 빨라졌습니다.”<br><br>
-                원비전은,
-                <strong>“지금 당장 이민 오세요”가 아니라 “언제, 어떻게 오면
-                  좋은지”</strong>를 함께 고민합니다.
-              </div>
+              <div class="highlight"><strong>이민과 주거 세션 후 들은 이야기</strong><br><br> • “막연했던 미국 이민/유학 그림이 구체적인 숫자와 지도로 보이니, 남편/아내와 대화하기가 훨씬 쉬워졌어요.”<br><br> • “어느 주가 좋은지 인터넷 글만 보다가, 우리 가족 기준으로 정리된 표를 보니까 선택이 훨씬 빨라졌습니다.”<br><br> 원비전은 이민 시기를 서두르기보다 <strong>언제, 어떻게 오면 좋은지</strong>를 함께 고민합니다.</div>
             </div>
           </div>
         </section>
 
         <!-- SNAPSHOTS (White) -->
-        <section class="section-white">
-          <div class="container">
-            <div class="section-badge"><span class="section-badge-dot"></span> 주별 스냅샷</div>
-            <h2 class="section-title">자주 비교되는 주(州) 스냅샷</h2>
-            <p class="section-subtitle">
-              실제 상담에서는, 학부모님께서 관심 있는 주를 중심으로
-              <strong>대학, 학군, 렌트, 세금, 커뮤니티</strong> 정보를
-              맞춤형으로 정리해 드립니다.
-            </p>
-
-            <div class="section-card-grid">
-              <article class="card">
-                <div class="card-tag">CA</div>
-                <h3 class="card-title">캘리포니아, UC/사립 대학 중심</h3>
-                <p class="card-text">
-                  • UC 계열, 사립 Top 대학들이 몰려 있는 주<br>
-                  • 집값과 세금은 높은 편이지만, 교육, 커리어 기회가 풍부<br>
-                  • STEM, 비즈니스, 아트 등 다양한 전공 선택지
-                </p>
-              </article>
-
-              <article class="card">
-                <div class="card-tag">TX</div>
-                <h3 class="card-title">텍사스와 비용 효율 + 성장 도시</h3>
-                <p class="card-text">
-                  • 주립대/공대/비즈니스 강한 대학들<br>
-                  • 상대적으로 낮은 집값과 세금 구조(소득세 無)<br>
-                  • 성장 중인 도시(오스틴, 댈러스 등)와 잡마켓
-                </p>
-              </article>
-
-              <article class="card">
-                <div class="card-tag">WA &amp; 기타</div>
-                <h3 class="card-title">워싱턴 &amp; 기타 인기 주</h3>
-                <p class="card-text">
-                  • 소득세가 없는 워싱턴, 교육, 안전성이 좋은 동부 특정 주 등<br>
-                  • 자녀 전공(특히 CS/테크)과 부모님 커리어를 함께 고려해<br>
-                  • “2번째 선택지”로 자주 검토되는 지역들입니다.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
 
         <!-- PRICING (White) -->
         <section class="section-white">
@@ -1727,13 +1712,7 @@
             <h2 class="section-title">
               우리 가족에게 맞는 이민과 유학 플랜을 함께 그려볼까요?
             </h2>
-            <p class="section-subtitle">
-              인터넷 정보가 아니라,
-              <strong>우리 가족 기준 숫자와 지도를 바탕으로</strong>
-              이민, 비자, 유학, 주거를 한 번에 정리해 드립니다.<br>
-              간단한 정보만 남겨 주시면, 이민과 주거 패밀리 세션이 필요한지부터
-              먼저 안내해 드립니다.
-            </p>
+            <p class="section-subtitle"><strong>우리 가족 상황과 공개 자료를 바탕으로</strong> 이민, 비자, 유학, 주거를 함께 정리해 드립니다.<br> 간단한 정보만 남겨 주시면 이민과 주거 패밀리 세션이 필요한지부터 안내해 드립니다.</p>
 
             <div style="
                 margin-top: 1.5rem;
@@ -1773,201 +1752,37 @@
         </a>
       </div>
     </div>
-    <script src="js/common.js?v=20260928"></script>
+    <script src="js/common.js?v=20260928b"></script>
     <script>
-      /* ==================================================
-       추가 JS: 카운트업 + 주 선택 인터랙션
-       ================================================== */
-
-      // 1) 카운트업 (hero + KPI)
+      // Hero figures count up once when the hero scrolls into view.
       function animateCount(el, to, duration = 900) {
         const from = parseInt(el.textContent || "0", 10);
         const start = performance.now();
         function tick(now) {
           const t = Math.min(1, (now - start) / duration);
-          const val = Math.round(from + (to - from) * (1 - Math.pow(1 - t, 3)));
-          el.textContent = val;
+          el.textContent = Math.round(from + (to - from) * (1 - Math.pow(1 - t, 3)));
           if (t < 1) requestAnimationFrame(tick);
         }
         requestAnimationFrame(tick);
       }
 
-      // 2) State data
-      const STATE = {
-        CA: {
-          kpi: { cost: 90, tax: 85, rent: 92, edu: 88, share: 72 },
-          line: [64, 72, 78, 86, 90, 94],
-          note: "CA는 대학/학군 강점이 크지만, 렌트와 세금 체감이 높은 편입니다.",
-        },
-        TX: {
-          kpi: { cost: 65, tax: 40, rent: 62, edu: 70, share: 18 },
-          line: [52, 56, 58, 61, 64, 66],
-          note: "TX는 소득세가 없고 비용 효율이 좋아, 가족 정착 후보로 자주 검토됩니다.",
-        },
-        WA: {
-          kpi: { cost: 75, tax: 30, rent: 78, edu: 80, share: 10 },
-          line: [55, 61, 66, 70, 74, 76],
-          note: "WA는 소득세가 없고 테크 접근성이 좋아, 특정 전공/커리어 가족에게 강합니다.",
-        },
-      };
-
-      let currentState = "CA";
-
-      function setDonut(percent) {
-        const deg = Math.max(0, Math.min(100, percent)) * 3.6;
-        const donut = document.getElementById("donut");
-        const donutText = document.getElementById("donutText");
-        const donutDesc = document.getElementById("donutDesc");
-        donut.style.setProperty("--donutDeg", deg + "deg");
-        donutText.textContent = percent + "%";
-        donutDesc.textContent =
-          "상담 가정의 " + percent + "%가 이 주를 후보로 검토";
-      }
-
-      function highlightTable(state) {
-        const t = document.getElementById("compareTable");
-        if (!t) return;
-        t.querySelectorAll("[data-col]").forEach((td) =>
-          td.classList.remove("state-hot"),
-        );
-        t.querySelectorAll('[data-col="' + state + '"]').forEach((td) =>
-          td.classList.add("state-hot"),
-        );
-      }
-
-      function buildLinePath(values) {
-        const W = 520,
-          H = 180;
-        const padX = 24,
-          padY = 22;
-        const minV = 45,
-          maxV = 100;
-        const xStep = (W - padX * 2) / (values.length - 1);
-
-        const pts = values.map((v, i) => {
-          const x = padX + xStep * i;
-          const y = padY + (H - padY * 2) * (1 - (v - minV) / (maxV - minV));
-          return { x, y };
-        });
-
-        const d = pts
-          .map((p, i) => (i === 0 ? `M ${p.x} ${p.y}` : `L ${p.x} ${p.y}`))
-          .join(" ");
-        // area
-        const area =
-          `M ${pts[0].x} ${H - padY} L ${pts[0].x} ${pts[0].y} ` +
-          pts
-            .slice(1)
-            .map((p) => `L ${p.x} ${p.y}`)
-            .join(" ") +
-          ` L ${pts[pts.length - 1].x} ${H - padY} Z`;
-        return { d, area };
-      }
-
-      function drawLine(values) {
-        const line = document.getElementById("linePath");
-        const area = document.getElementById("areaPath");
-        const note = document.getElementById("lineNote");
-
-        if (!line || !area) return;
-        const paths = buildLinePath(values);
-
-        //  animation
-        line.classList.remove("draw");
-        area.classList.remove("fade");
-        line.setAttribute("d", paths.d);
-        area.setAttribute("d", paths.area);
-
-        // force reflow then animate
-        void line.getBoundingClientRect();
-        line.classList.add("draw");
-        area.classList.add("fade");
-
-        if (note) note.textContent = "* " + (STATE[currentState].note || "");
-      }
-
-      function setSparks(kpi) {
-        document.getElementById("spCost").style.width = kpi.cost + "%";
-        document.getElementById("spTax").style.width = kpi.tax + "%";
-        document.getElementById("spRent").style.width = kpi.rent + "%";
-        document.getElementById("spEdu").style.width = kpi.edu + "%";
-      }
-
-      function updateMainBars(state) {
-        const map = STATE[state].kpi;
-
-        const f1 = document.getElementById("barFill1");
-        const f2 = document.getElementById("barFill2");
-        const f3 = document.getElementById("barFill3");
-        if (f1) f1.style.width = STATE.CA.kpi.cost + "%";
-        if (f2) f2.style.width = STATE.TX.kpi.cost + "%";
-        if (f3) f3.style.width = STATE.WA.kpi.cost + "%";
-
-        [f1, f2, f3].forEach((el) => {
-          if (el) el.style.opacity = "0.35";
-        });
-        if (state === "CA" && f1) f1.style.opacity = "1";
-        if (state === "TX" && f2) f2.style.opacity = "1";
-        if (state === "WA" && f3) f3.style.opacity = "1";
-
-        highlightTable(state);
-      }
-
-      function applyState(state) {
-        currentState = state;
-        const kpi = STATE[state].kpi;
-
-        // KPI 숫자 카운트
-        document.querySelectorAll("[data-kpi]").forEach((span) => {
-          const key = span.getAttribute("data-kpi");
-          animateCount(span, kpi[key] || 0, 850);
-        });
-
-        setDonut(kpi.share);
-        setSparks(kpi);
-        drawLine(STATE[state].line);
-        updateMainBars(state);
-      }
-
-      document.querySelectorAll(".state-btn").forEach((btn) => {
-        btn.addEventListener("click", () => {
-          document
-            .querySelectorAll(".state-btn")
-            .forEach((b) => b.classList.remove("active"));
-          btn.classList.add("active");
-          applyState(btn.dataset.state);
-        });
-      });
-
-      const io = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((e) => {
-            if (!e.isIntersecting) return;
-
-            // hero counters
-            if (e.target.classList.contains("hero")) {
+      const heroSec = document.querySelector(".hero");
+      if (heroSec) {
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (!e.isIntersecting) return;
               e.target.querySelectorAll("[data-count]").forEach((s) => {
                 const t = parseInt(s.getAttribute("data-count"), 10);
                 if (!isNaN(t)) animateCount(s, t, 900);
               });
-            }
-
-            // state board
-            if (e.target.id === "motionBoard") {
-              applyState("CA");
               io.unobserve(e.target);
-            }
-          });
-        },
-        { threshold: 0.25 },
-      );
-
-      const heroSec = document.querySelector(".hero");
-      const motionBoard = document.getElementById("motionBoard");
-      if (heroSec) io.observe(heroSec);
-      if (motionBoard) io.observe(motionBoard);
-
-      highlightTable("CA");
+            });
+          },
+          { threshold: 0.25 },
+        );
+        io.observe(heroSec);
+      }
     </script>
   
 
