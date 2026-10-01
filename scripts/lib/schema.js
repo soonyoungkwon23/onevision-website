@@ -17,6 +17,11 @@ function organization(config) {
       },
       {
         "@type": "PostalAddress",
+        streetAddress: config.organization.addressUSBranch,
+        addressCountry: "US",
+      },
+      {
+        "@type": "PostalAddress",
         streetAddress: config.organization.addressKR,
         addressCountry: "KR",
       },

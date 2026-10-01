@@ -1,6 +1,7 @@
 <!DOCTYPE html><html lang="ko"><head>
     <meta charset="UTF-8">
     <title>Yun Lee | OneVision Consulting</title>
+    <meta name="description" content="원비전 재정보조 컨설턴트 Yun Lee (이윤재), CPA, CCFC. FAFSA, CSS Profile, 사립 중고등학교 재정보조 신청과 결과 검토를 맡습니다.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -373,6 +374,31 @@
       .full-width {
         grid-column: 1 / -1;
       }
+      .spec-list.one-col {
+        grid-template-columns: 1fr;
+        gap: 0.9rem;
+      }
+      .greeting {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--text-on-dark);
+      }
+      .consult-facts {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.45rem 1.2rem;
+        margin-top: 1.6rem;
+        padding-top: 1.2rem;
+        border-top: 1px solid var(--border-on-dark);
+      }
+      .consult-facts dt {
+        font-weight: 700;
+        color: var(--muted-on-dark);
+      }
+      .consult-facts dd {
+        margin: 0;
+        color: var(--text-on-dark);
+      }
       .pending-note {
         color: var(--muted-on-light);
         font-style: italic;
@@ -429,28 +455,55 @@
 
         <section class="info-content">
           <h1>Yun Lee <span style="font-size: 1.6rem; color: var(--muted-on-dark); font-family: 'Noto Serif KR', serif;">(이윤재)</span></h1>
-          <span class="role-badge">Financial Aid Consultant | 사립 중과 고등학교 &amp; 대학교 재정보조 컨설턴트</span>
+          <span class="role-badge">재정보조 컨설턴트 | CPA, CCFC</span>
 
           <div class="content-block">
-            <h2>담당 업무</h2>
-            <p>
-              대학과 사립 중고등학교 재정보조(Financial Aid) 신청을 설계하고
-              서류를 검토합니다.
+            <h2>인사말</h2>
+            <p class="greeting">
+              은퇴를 미루거나 학비 걱정에 잠 못 이루는 일 없이, 학생과 가족이
+              꿈꾸던 학교에 다닐 수 있도록 학비와 감당할 수 있는 금액 사이의
+              차이를 함께 메워 갑니다.
             </p>
           </div>
 
           <div class="content-block">
-            <h2>주요 자격</h2>
-            <ul class="spec-list">
-              <li>CPA: Certified Public Accountant (미국 공인회계사)</li>
-              <li>CCFC: Certified College Financial Consultant (미국 공인 대학 재정 컨설턴트)</li>
+            <h2>담당 업무</h2>
+            <ul class="spec-list one-col">
+              <li>FAFSA 작성과 제출 (미국 연방 재정보조 신청서)</li>
+              <li>CSS Profile 작성과 제출 (주로 사립대가 학교 자체 재정보조를 심사할 때 쓰는 신청서)</li>
+              <li>SAI(Student Aid Index) 전략. SAI는 FAFSA가 가정의 소득과 자산으로 계산하는 지수로, 재정보조 금액을 정하는 기준이 됩니다.</li>
+              <li>사립 중고등학교 재정보조 신청</li>
+              <li>재정보조 결과 통지서(Award Letter) 검토와 재심 요청(Appeal)</li>
+            </ul>
+            <dl class="consult-facts">
+              <dt>상담 대상</dt>
+              <dd>사립 중고등학교, 대학교 지원 가정</dd>
+              <dt>상담 언어</dt>
+              <dd>한국어, 영어</dd>
+            </dl>
+          </div>
+
+          <div class="content-block">
+            <h2>학력</h2>
+            <ul class="spec-list one-col">
+              <li>Indiana University Kelley School of Business, M.S. in Information Systems (세부 전공: Enterprise Security &amp; Risk Management, Business Intelligence)</li>
+              <li>Indiana University Kelley School of Business, B.S. in Business (회계학, 정보시스템 복수전공)</li>
+            </ul>
+          </div>
+
+          <div class="content-block">
+            <h2>자격과 경력</h2>
+            <ul class="spec-list one-col">
+              <li>CPA (미국 공인회계사), 캘리포니아주, 2021년 취득</li>
+              <li>CCFC (Certified College Financial Consultant, 대학 학비와 재정보조 상담 자격), 2024년 취득</li>
+              <li>2023년부터 재정보조 컨설팅</li>
             </ul>
           </div>
 
         </section>
       </div>
     </main>
-    <script src="js/common.js?v=20260928b"></script>
+    <script src="js/common.js?v=20260930"></script>
     <script>
       const menuBtn = document.getElementById("menuBtn");
       const mobileMenu = document.getElementById("mobileMenu");

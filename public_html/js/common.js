@@ -17,7 +17,7 @@ function loadHeader() {
   // Blog pages ship with the header baked into the HTML (SEO: crawlers see
   // real links). Skip fetching so a relative 404 never replaces it.
   if (headerElement && headerElement.children.length === 0) {
-    fetch("header.html?v=20260928b")
+    fetch("header.html?v=20260930")
       .then((response) => response.text())
       .then((data) => {
         headerElement.innerHTML = data;
@@ -47,7 +47,7 @@ function loadFooter() {
     return;
   }
   if (footerElement) {
-    fetch("footer.html?v=20260928b")
+    fetch("footer.html?v=20260930")
       .then((response) => response.text())
       .then((data) => {
         footerElement.innerHTML = data;

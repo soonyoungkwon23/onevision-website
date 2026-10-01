@@ -145,3 +145,30 @@ table (immigration), the value cards (about), the placeholder profile blocks
 Still to add when the information exists: contact hours, consultation
 format and length, a price range or how pricing is decided, CPA profile
 details (requested from Yun Lee).
+
+## 7. Partner content (2026-09-30)
+
+The CEO asked for more of iminstory.com (KL Legal Services) and ezimmin.com
+(EZ이민) on the site. Rule used: keep only what a OneVision family needs to
+decide or to make contact, and check every rule or number against the
+government or university source before using it.
+
+Taken, on immigration.html#partners:
+- Five family situations with the matching path (OPT to H-1B to EB-2/EB-3,
+  EB-2 NIW/EB-1, EB-3 for a parent, E-2, EB-5), one line on requirements and
+  who handles it.
+- Two facts parents must check first: green cards cover unmarried children
+  under 21 (CSPA protects part of the processing time), and UC resident tuition
+  for permanent residents and some visa holders such as E-2 after a year in
+  California. Sources: USCIS, UC residence rules.
+- Contacts and how consultations work: KL is in person or by phone, booked
+  online with a consultation fee; EZ이민 has U.S. and Seoul offices.
+- EZ이민's EB-3 steps and example employer types from its public list.
+- 최경규's English name is Kyunggu Choi (signed that way on the firm's English
+  page).
+
+Left out: welcome and mission copy, client testimonials, approval-rate and
+"guaranteed" claims, the firm's business and family law practice, the
+half-price document service, blog teasers, and EZ이민's statement that a
+parent of a minor F-1 student may get an F-2 visa (F-2 is for the student's
+spouse and children, not parents).

@@ -30,10 +30,11 @@
   },
   "organization": {
     "name": "OneVision Consulting",
-    "logo": "/images/Onevisionlogo.jpeg",
+    "logo": "/images/onevision-logo.png",
     "ogImage": "/images/Onevisionlogo.jpeg",
     "email": "onevisionconsulting.info@gmail.com",
-    "addressUS": "732 Ogden Ave., Downers Grove, IL 60515",
+    "addressUS": "6131 Orangethorpe Ave. Ste 480, Buena Park, CA 90620",
+    "addressUSBranch": "732 Ogden Ave., Downers Grove, IL 60515",
     "addressKR": "경기도 성남시 분당구 황새울로319번길 8-4 비욘드워크 7층 734호",
     "sameAs": [
       "https://cafe.naver.com/onevisionconsulting",

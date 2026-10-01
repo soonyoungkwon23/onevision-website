@@ -12,7 +12,7 @@
     "Jay Choi", "Charlotte Choi", "Sarah Lee",
     "강지후", "박경준", "박지안", "김건우", "채송이", "강동혁",
     "미국한인유학생협회", "미한유회", "엘코리아에듀그룹", "이피유",
-    "최경규", "EZ이민"
+    "EZ이민", "KLLAW이민법"
   ],
 
   "terms": [
@@ -69,6 +69,9 @@
     { "ko": "한국 사무소", "en": "Korea Office", "strict": false },
     { "ko": "경기도 성남시 분당구 황새울로319번길 8-4 비욘드워크 7층 734호 (서현동)", "en": "Suite 734, 7F, Beyondwork, 8-4 Hwangsaeul-ro 319beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (Seohyeon-dong)", "strict": true },
     { "ko": "해커스 어학원", "en": "Hackers Academia", "strict": true, "note": "Official English name (facebook.com/HackersAcademia)." },
+    { "ko": "최경규", "en": "Kyunggu Choi", "strict": true, "note": "Immigration law advisor (KL Legal Services). Official English name: the firm's English page signs 'Respectfully, Kyunggu Choi' (iminstory.com/en/introduce_en/)." },
+    { "ko": "시카고 지사", "en": "Chicago Branch", "strict": false },
+    { "ko": "한국 지사", "en": "Korea Branch", "strict": false },
     { "ko": "이타미준 건축문화재단", "en": "ITAMI JUN Architecture & Culture Foundation", "strict": true, "note": "Official English name, as the foundation writes it." }
   ]
 }
