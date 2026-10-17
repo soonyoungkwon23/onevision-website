@@ -99,17 +99,18 @@ function localize(html, lang, lookup) {
   return { $, html: $.html(), replaced, missing };
 }
 
-// Rewrites URLs for a page served from /en/: assets become root-absolute, links
-// to pages that exist in English stay relative (so they resolve inside /en/),
-// and links to Korean-only sections (the blog) point back to the root.
-function rewriteForSubdir($, enPages) {
-  const isPage = (p) => enPages.has(p);
+// Rewrites URLs for a page served from a language folder (/en/, /zh/): assets
+// become root-absolute, links to pages that exist in that language stay
+// relative (so they resolve inside the folder), and links to Korean-only
+// sections (the blog) point back to the root.
+function rewriteForSubdir($, localPages, dir = "en") {
+  const isPage = (p) => localPages.has(p);
   const fix = (v) => {
     if (!v || /^(https?:|\/\/|mailto:|tel:|javascript:|data:|#)/i.test(v)) return v;
     if (v.startsWith("/")) {
       const m = v.match(/^\/([^?#]*)(.*)$/);
-      if (m[1] === "") return `/en/${m[2]}`;
-      if (isPage(m[1])) return `/en/${m[1]}${m[2]}`;
+      if (m[1] === "") return `/${dir}/${m[2]}`;
+      if (isPage(m[1])) return `/${dir}/${m[1]}${m[2]}`;
       return v;
     }
     const path = v.split(/[?#]/)[0];
@@ -139,7 +140,7 @@ function rewriteForSubdir($, enPages) {
     const t = (el.children || []).find((c) => c.type === "text");
     if (!t) return;
     t.data = t.data
-      .replace(/(["'`])\/#/g, "$1/en/#")
+      .replace(/(["'`])\/#/g, `$1/${dir}/#`)
       .replace(/(["'`])(images|icons|css|js|blog)\//g, "$1/$2/");
   });
 }

@@ -23,7 +23,7 @@ const {
 } = require("./lib/template");
 const schema = require("./lib/schema");
 const images = require("./lib/images");
-const { buildEnglish, CANONICAL_OVERRIDE } = require("./i18n/build-en");
+const { buildLocale, LOCALES, CANONICAL_OVERRIDE } = require("./i18n/build-locale");
 
 const md = new MarkdownIt({ html: true, linkify: false });
 const CONTENT = path.join(ROOT, "content", "guides");
@@ -286,14 +286,16 @@ function corePages() {
 
 function buildSitemap(config, published) {
   const urls = [];
-  // Every static page exists in Korean (root) and English (/en/). Duplicates that
-  // canonicalise to another page are left out.
+  // Every static page exists in Korean (root), English (/en/) and Simplified
+  // Chinese (/zh/). Duplicates that canonicalise to another page are left out.
   const listed = corePages().filter((f) => !CANONICAL_OVERRIDE[f]);
   for (const f of listed) {
     urls.push({ loc: `${config.baseUrl}/${f === "index.html" ? "" : f}` });
   }
-  for (const f of listed) {
-    urls.push({ loc: `${config.baseUrl}/en/${f === "index.html" ? "" : f}` });
+  for (const loc of Object.values(LOCALES)) {
+    for (const f of listed) {
+      urls.push({ loc: `${config.baseUrl}/${loc.dir}/${f === "index.html" ? "" : f}` });
+    }
   }
   urls.push({ loc: `${config.baseUrl}/${config.blogPathPrefix}/index.html` });
   const cats = [...new Set(published.map((p) => p.category))].sort();
@@ -374,7 +376,7 @@ function main() {
     fs.writeFileSync(path.join(blogDir, c, "index.html"), page.html);
   }
 
-  const english = buildEnglish(config);
+  const locales = Object.keys(LOCALES).map((code) => ({ label: LOCALES[code].label, ...buildLocale(code, config) }));
 
   fs.writeFileSync(path.join(PUBLIC, "sitemap.xml"), buildSitemap(config, published));
   fs.writeFileSync(path.join(PUBLIC, "rss.xml"), buildRss(config, published));
@@ -384,7 +386,7 @@ function main() {
   console.log(
     `Build OK — published: ${published.length}, ready (queued): ${queued}, drafts: ${drafts}. ` +
       `Generated ${published.length} post pages + ${1 + new Set(published.map((p) => p.category)).size} index pages + sitemap + rss. ` +
-      `English site: ${english.pages} pages (${english.missing} untranslated sentence(s)).`
+      locales.map((l) => `${l.label} site: ${l.pages} pages (${l.missing} untranslated sentence(s)).`).join(" ")
   );
 }
 

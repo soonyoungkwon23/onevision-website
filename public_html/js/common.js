@@ -1,23 +1,72 @@
-// Points the Korean/English switch at this page's counterpart. Every static page
-// exists at /page.html (Korean) and /en/page.html (English). The blog is Korean
-// only, so from the blog the switch goes to the English home page.
-function setLangSwitch() {
-  const link = document.querySelector(".lang-switch");
-  if (!link) return;
-  const path = location.pathname;
-  let target;
-  if (/^\/blog(\/|$)/.test(path)) target = "/en/";
-  else if (/^\/en(\/|$)/.test(path)) target = path.replace(/^\/en/, "") || "/";
-  else target = "/en" + (path === "/" ? "/" : path);
-  link.setAttribute("href", target + location.hash);
+// Points the language menu at this page's counterparts. Every static page
+// exists at /page.html (Korean), /en/page.html (English) and /zh/page.html
+// (Simplified Chinese). The blog is Korean only, so from the blog the English
+// and Chinese links go to those home pages.
+const LANG_DIRS = { ko: "", en: "/en", zh: "/zh" };
+
+function currentLangFromPath(path) {
+  if (/^\/en(\/|$)/.test(path)) return "en";
+  if (/^\/zh(\/|$)/.test(path)) return "zh";
+  return "ko";
 }
+
+function setLangSwitch() {
+  const links = document.querySelectorAll(".lang-menu-list a[data-lang]");
+  if (!links.length) return;
+  const path = location.pathname;
+  const current = currentLangFromPath(path);
+  const page = path.replace(/^\/(en|zh)(?=\/|$)/, "") || "/";
+  const isBlog = /^\/blog(\/|$)/.test(page);
+  links.forEach((a) => {
+    const lang = a.getAttribute("data-lang");
+    const target = isBlog && lang !== "ko" ? `${LANG_DIRS[lang]}/` : `${LANG_DIRS[lang]}${page}`;
+    a.setAttribute("href", target + (isBlog ? "" : location.hash));
+    if (lang === current) a.setAttribute("aria-current", "page");
+    else a.removeAttribute("aria-current");
+  });
+}
+
+function closeLangMenu() {
+  const btn = document.querySelector(".lang-menu .lang-switch");
+  const list = document.getElementById("langMenuList");
+  if (!btn || !list || list.hidden) return;
+  list.hidden = true;
+  btn.setAttribute("aria-expanded", "false");
+}
+
+function toggleLangMenu(event) {
+  if (event) event.stopPropagation();
+  const btn = document.querySelector(".lang-menu .lang-switch");
+  const list = document.getElementById("langMenuList");
+  if (!btn || !list) return;
+  const open = list.hidden;
+  list.hidden = !open;
+  btn.setAttribute("aria-expanded", String(open));
+  if (open) {
+    const first = list.querySelector('a[aria-current="page"]') || list.querySelector("a");
+    if (first) first.focus();
+  }
+}
+
+document.addEventListener("click", (e) => {
+  if (!e.target.closest || !e.target.closest(".lang-menu")) closeLangMenu();
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "Escape") return;
+  const list = document.getElementById("langMenuList");
+  if (list && !list.hidden) {
+    closeLangMenu();
+    const btn = document.querySelector(".lang-menu .lang-switch");
+    if (btn) btn.focus();
+  }
+});
 
 function loadHeader() {
   const headerElement = document.querySelector("header");
   // Blog pages ship with the header baked into the HTML (SEO: crawlers see
   // real links). Skip fetching so a relative 404 never replaces it.
   if (headerElement && headerElement.children.length === 0) {
-    fetch("header.html?v=20260930")
+    fetch("header.html?v=20261016")
       .then((response) => response.text())
       .then((data) => {
         headerElement.innerHTML = data;
@@ -47,7 +96,7 @@ function loadFooter() {
     return;
   }
   if (footerElement) {
-    fetch("footer.html?v=20260930")
+    fetch("footer.html?v=20261016")
       .then((response) => response.text())
       .then((data) => {
         footerElement.innerHTML = data;
@@ -102,10 +151,18 @@ const CONSULT_TEXT = {
     sent: "Your consultation request has been received. We will contact you after reviewing it.",
     failed: "We could not send your request. Please try again shortly, or contact onevisionconsulting.info@gmail.com.",
   },
+  zh: {
+    sending: "正在提交……",
+    sent: "咨询申请已收到，我们核对后会与您联系。",
+    failed: "提交没有成功。请稍后再试，或发邮件至 onevisionconsulting.info@gmail.com。",
+  },
 };
 
 function pageLang() {
-  return document.documentElement.lang === "en" ? "en" : "ko";
+  const lang = document.documentElement.lang || "";
+  if (lang === "en") return "en";
+  if (/^zh/.test(lang)) return "zh";
+  return "ko";
 }
 
 function consultText(key) {

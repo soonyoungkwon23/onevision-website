@@ -9,7 +9,7 @@
  * nothing anywhere.)
  *
  * POST, application/json:
- *   { "form": "freshman", "lang": "ko" | "en", "page": "/freshman.html",
+ *   { "form": "freshman", "lang": "ko" | "en" | "zh", "page": "/freshman.html",
  *     "fields": [ { "key": "...", "label": "...", "value": "..." } ], "_hp": "" }
  *
  * Responds with JSON: { "ok": true, "logged": bool, "mailed": bool }
@@ -58,7 +58,8 @@ if (!empty($data['_hp'])) {
 }
 
 $form = preg_replace('/[^a-z0-9_-]/i', '', clean($data['form'] ?? '', 40)) ?: 'unknown';
-$lang = ($data['lang'] ?? '') === 'en' ? 'en' : 'ko';
+$lang = in_array($data['lang'] ?? '', ['en', 'zh'], true) ? $data['lang'] : 'ko';
+$siteNames = ['ko' => 'Korean', 'en' => 'English', 'zh' => 'Chinese'];
 $page = clean($data['page'] ?? '', 200);
 
 $fields = [];
@@ -111,11 +112,16 @@ foreach ($fields as $f) {
 $body = implode("\n", $lines)
     . "\n\n----\n"
     . 'Form: ' . $form . "\n"
-    . 'Site: ' . ($lang === 'en' ? 'English' : 'Korean') . "\n"
+    . 'Site: ' . $siteNames[$lang] . "\n"
     . 'Page: https://onevisionconsulting.us' . $page . "\n"
     . 'Received (UTC): ' . $receivedAt . "\n";
 
-$subjectText = ($lang === 'en' ? '[OneVision] Consultation request (English site)' : '[OneVision] 상담 신청') . ' - ' . $form;
+$subjects = [
+    'ko' => '[OneVision] 상담 신청',
+    'en' => '[OneVision] Consultation request (English site)',
+    'zh' => '[OneVision] 상담 신청 (중국어 사이트)',
+];
+$subjectText = $subjects[$lang] . ' - ' . $form;
 
 $headers = [
     'MIME-Version: 1.0',

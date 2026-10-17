@@ -1,0 +1,541 @@
+{
+  "_about": "Binding Simplified Chinese terms and phrase rules, enforced by scripts/i18n/check-zh.js. `keep`: names and IDs that stay as written (added to the keep list in glossary.json). `terms`: when the Korean source contains `ko`, the Chinese target must contain `zh` or one of `alts` (strict ones are errors). `banned`: errors. `avoid`: warnings above `max` hits per segment. Reasons and sources: i18n/zh-style-notes.md.",
+  "spacing": {
+    "latin": "space",
+    "digits": "none"
+  },
+  "keep": [
+    "KLLAW이민법",
+    "EZIMIN",
+    "이윤재",
+    "윤지용",
+    "조예은",
+    "현서현",
+    "선재신",
+    "정재현",
+    "한상완",
+    "이승주"
+  ],
+  "terms": [
+    {
+      "ko": "원비전",
+      "zh": "OneVision",
+      "alts": [],
+      "strict": true,
+      "note": "brand; also 원비전 컨설팅 → OneVision Consulting"
+    },
+    {
+      "ko": "회사소개",
+      "zh": "关于我们",
+      "alts": [],
+      "strict": true,
+      "note": "nav label"
+    },
+    {
+      "ko": "신입학",
+      "zh": "本科申请",
+      "alts": [
+        "本科新生申请",
+        "新生申请"
+      ],
+      "strict": true,
+      "note": "nav label 本科申请; in running text 本科新生申请 where the contrast with transfer matters"
+    },
+    {
+      "ko": "편입",
+      "zh": "转学",
+      "alts": [],
+      "strict": true,
+      "note": "community-college or university transfer",
+      "ignore_ko": [
+        "편입니다"
+      ]
+    },
+    {
+      "ko": "대학원",
+      "zh": "研究生",
+      "alts": [],
+      "strict": true,
+      "note": "研究生申请 (nav), 研究生院"
+    },
+    {
+      "ko": "입학 가이드",
+      "zh": "申请指南",
+      "alts": [],
+      "strict": true,
+      "note": "nav label"
+    },
+    {
+      "ko": "합격 후기",
+      "zh": "录取案例",
+      "alts": [],
+      "strict": true,
+      "note": "nav label"
+    },
+    {
+      "ko": "이민과 비자",
+      "zh": "移民与签证",
+      "alts": [],
+      "strict": true,
+      "note": "nav label"
+    },
+    {
+      "ko": "무료 상담 신청",
+      "zh": "预约免费咨询",
+      "alts": [
+        "免费咨询"
+      ],
+      "strict": true,
+      "note": "main button"
+    },
+    {
+      "ko": "상담",
+      "zh": "咨询",
+      "alts": [
+        "顾问",
+        "面谈"
+      ],
+      "strict": true,
+      "note": "상담 = consultation; never 相谈",
+      "ignore_ko": [
+        "상담사"
+      ]
+    },
+    {
+      "ko": "합격",
+      "zh": "录取",
+      "alts": [
+        "被录"
+      ],
+      "strict": true,
+      "note": "never 合格/通过"
+    },
+    {
+      "ko": "커뮤니티 칼리지",
+      "zh": "社区大学",
+      "alts": [
+        "社区学院"
+      ],
+      "strict": true,
+      "note": "agencies and parents say 社区大学; official CCC name 加州社区学院"
+    },
+    {
+      "ko": "영주권",
+      "zh": "绿卡",
+      "alts": [
+        "永久居民",
+        "永久居留"
+      ],
+      "strict": true,
+      "note": "绿卡 in running text; 合法永久居民 for the legal status"
+    },
+    {
+      "ko": "취업이민",
+      "zh": "职业移民",
+      "alts": [],
+      "strict": true,
+      "note": "EB-3 职业移民"
+    },
+    {
+      "ko": "투자이민",
+      "zh": "投资移民",
+      "alts": [],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "학부모",
+      "zh": "家长",
+      "alts": [
+        "父母"
+      ],
+      "strict": true,
+      "note": "家长 for parents as a group; 父母 for a particular student's own parents"
+    },
+    {
+      "ko": "에세이",
+      "zh": "文书",
+      "alts": [],
+      "strict": true,
+      "note": "application essays"
+    },
+    {
+      "ko": "추천서",
+      "zh": "推荐信",
+      "alts": [],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "재정보조",
+      "zh": "资助",
+      "alts": [
+        "奖学金",
+        "助学金"
+      ],
+      "strict": true,
+      "note": "financial aid: 经济资助 / 学生资助; FAFSA and CSS Profile keep Latin"
+    },
+    {
+      "ko": "이민법 로펌",
+      "zh": "移民律师事务所",
+      "alts": [
+        "移民律所"
+      ],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "변호사",
+      "zh": "律师",
+      "alts": [],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "튜터",
+      "zh": "辅导老师",
+      "alts": [
+        "老师",
+        "辅导"
+      ],
+      "strict": true,
+      "note": "tutor = 辅导老师 (not 家教); 튜터링 tutoring = 辅导"
+    },
+    {
+      "ko": "컨설턴트",
+      "zh": "顾问",
+      "alts": [],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "주립대",
+      "zh": "州立大学",
+      "alts": [],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "미국 본사",
+      "zh": "美国总部",
+      "alts": [],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "시카고 지사",
+      "zh": "芝加哥分部",
+      "alts": [],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "한국 사무소",
+      "zh": "韩国办事处",
+      "alts": [],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "한국 지사",
+      "zh": "韩国分部",
+      "alts": [],
+      "strict": true,
+      "note": ""
+    },
+    {
+      "ko": "신분 조정",
+      "zh": "调整身份",
+      "alts": [
+        "身份调整"
+      ],
+      "strict": true,
+      "note": "I-485 adjustment of status"
+    },
+    {
+      "ko": "아동신분보호법",
+      "zh": "儿童身份保护法",
+      "alts": [],
+      "strict": true,
+      "note": "CSPA"
+    },
+    {
+      "ko": "사무장",
+      "zh": "办公室主任",
+      "alts": [],
+      "strict": true,
+      "note": "Jay Choi at KL Legal Services: 办公室主任（法律文书助理）"
+    },
+    {
+      "ko": "버클리",
+      "zh": "伯克利分校",
+      "alts": [
+        "伯克利"
+      ],
+      "strict": true,
+      "note": "加州大学伯克利分校"
+    },
+    {
+      "ko": "어바인",
+      "zh": "尔湾",
+      "alts": [],
+      "strict": true,
+      "note": "加州大学尔湾分校"
+    },
+    {
+      "ko": "샌디에이고",
+      "zh": "圣地亚哥",
+      "alts": [],
+      "strict": true,
+      "note": "加州大学圣地亚哥分校"
+    },
+    {
+      "ko": "데이비스",
+      "zh": "戴维斯",
+      "alts": [],
+      "strict": true,
+      "note": "加州大学戴维斯分校"
+    },
+    {
+      "ko": "산타바바라",
+      "zh": "圣塔芭芭拉",
+      "alts": [],
+      "strict": true,
+      "note": "加州大学圣塔芭芭拉分校"
+    },
+    {
+      "ko": "산타크루즈",
+      "zh": "圣克鲁兹",
+      "alts": [],
+      "strict": true,
+      "note": "加州大学圣克鲁兹分校"
+    },
+    {
+      "ko": "리버사이드",
+      "zh": "河滨",
+      "alts": [],
+      "strict": true,
+      "note": "加州大学河滨分校"
+    },
+    {
+      "ko": "머세드",
+      "zh": "默塞德",
+      "alts": [],
+      "strict": true,
+      "note": "加州大学默塞德分校"
+    },
+    {
+      "ko": "최경규",
+      "zh": "Kyunggu Choi",
+      "alts": [],
+      "strict": true,
+      "note": "official English name (the firm signs it); never Hangul or invented characters on /zh/"
+    },
+    {
+      "ko": "김동현",
+      "zh": "Donghyun Kim",
+      "alts": [],
+      "strict": true,
+      "note": "the About page writes only Hangul; his profile page uses Donghyun Kim"
+    },
+    {
+      "ko": "체크인",
+      "zh": "打卡",
+      "alts": [],
+      "strict": true,
+      "note": "daily check-ins in coaching: 每日打卡 (not 每日检查)"
+    },
+    {
+      "ko": "UC 캠퍼스",
+      "zh": "分校",
+      "alts": [],
+      "strict": true,
+      "note": "a UC campus as an institution is 分校 (加州大学伯克利分校, 9所分校); 校区/校园 only for the physical campus"
+    }
+  ],
+  "banned": [
+    {
+      "text": "保录",
+      "re": "(?<![不无])保录|包过|不录全退|保1录1",
+      "why": "admission guarantees: banned in Chinese education advertising (广告法 第二十四条) and a fraud signal"
+    },
+    {
+      "text": "定向录取/内部渠道",
+      "re": "定向录取|内部渠道|特殊渠道|内推名额|捐赠名额",
+      "why": "named by courts and media as fraud signals"
+    },
+    {
+      "text": "成功率",
+      "re": "成功率",
+      "unlessSource": "성공률|success rate",
+      "why": "unsourced success rates are invented statistics"
+    },
+    {
+      "text": "斩获/顶级/国家级",
+      "re": "斩获|顶级|国家级",
+      "why": "ad-law superlatives and agency boasting"
+    },
+    {
+      "text": "互联网黑话",
+      "re": "赋能|助力|打造|闭环|抓手|底层逻辑|赛道|颗粒度|拉通",
+      "why": "business jargon read as AI or agency copy; use a concrete verb"
+    },
+    {
+      "text": "拔高词",
+      "re": "无缝|全方位|至关重要|深入探讨",
+      "why": "inflation words; say which steps are covered"
+    },
+    {
+      "text": "AI 口头禅",
+      "re": "值得注意的是|值得一提的是|总而言之|综上所述|众所周知|不可否认",
+      "why": "empty openers and closers; state the point"
+    },
+    {
+      "text": "宏大开头",
+      "re": "时代背景|随着.{0,12}不断发展|在当今",
+      "why": "grand opener that carries no information"
+    },
+    {
+      "text": "口号",
+      "re": "让我们|之旅|扬帆|起航|拭目以待",
+      "why": "slogan or pep-talk phrasing"
+    },
+    {
+      "text": "圆梦/名校直通车",
+      "re": "圆梦|梦校|直通车|起跑线|直达名校",
+      "why": "implies a promised outcome"
+    },
+    {
+      "text": "尊享/高端",
+      "re": "尊享|高端定制|精英|专属",
+      "why": "luxury signalling"
+    },
+    {
+      "text": "催促",
+      "re": "名额有限|抓紧|立即抢|限时|马上咨询|立即预约",
+      "why": "manufactured urgency"
+    },
+    {
+      "text": "错误称呼",
+      "re": "宝爸|宝妈|家长朋友们|小编|我司|您们|本公司|本机构",
+      "why": "wrong register; use 家长, 您, 我们"
+    },
+    {
+      "text": "量身定制",
+      "re": "量身定制|量身打造",
+      "unlessSource": "맞춤",
+      "why": "every agency says it; say what is individual instead"
+    }
+  ],
+  "avoid": [
+    {
+      "text": "！",
+      "re": "[！!]",
+      "max": 0,
+      "why": "no exclamation marks in body text or headings"
+    },
+    {
+      "text": "进行/作出/加以",
+      "re": "进行|作出|做出|加以|给予",
+      "max": 0,
+      "why": "weak verb + noun; use the verb itself (进行面试 is acceptable)"
+    },
+    {
+      "text": "相关/有关",
+      "re": "相关|有关",
+      "max": 0,
+      "why": "name the thing instead"
+    },
+    {
+      "text": "框架词",
+      "re": "作为|对于|通过|基于|就.{1,8}而言|在.{1,10}方面",
+      "max": 0,
+      "why": "preposition shell; put the real subject first"
+    },
+    {
+      "text": "关于",
+      "re": "关于(?!我们)",
+      "max": 0,
+      "why": "preposition shell (关于我们 as a nav label is fine)"
+    },
+    {
+      "text": "致力于/提供…服务",
+      "re": "致力于|提供.{0,10}服务|为您提供",
+      "max": 0,
+      "why": "use the verb: 我们协助办理…"
+    },
+    {
+      "text": "空洞形容词",
+      "re": "专业(?:的|团队|顾问|服务|水准|能力)|优质|高效|贴心|资深|经验丰富|个性化|全面",
+      "max": 0,
+      "why": "empty praise; only with the fact behind it (专业 alone is fine: it also means a college major)"
+    },
+    {
+      "text": "一站式",
+      "re": "一站式",
+      "max": 1,
+      "why": "at most once per page, followed by what it means"
+    },
+    {
+      "text": "能够/将会",
+      "re": "能够|将会",
+      "max": 0,
+      "why": "能, 会"
+    },
+    {
+      "text": "您",
+      "re": "您",
+      "max": 2,
+      "why": "drop 您 where the sentence is clear without it"
+    },
+    {
+      "text": "你",
+      "re": "你(?!们)",
+      "max": 0,
+      "why": "address parents as 您 (你们 in a parent's FAQ question is fine)"
+    },
+    {
+      "text": "名词+们",
+      "re": "(?<![我你他她它咱])们",
+      "max": 0,
+      "why": "drop 们 when plurality is clear"
+    },
+    {
+      "text": "被",
+      "re": "被(?!录取|拒|退)",
+      "max": 0,
+      "why": "active voice, or 由 + agent; 被录取/被拒签 are fine"
+    },
+    {
+      "text": "的的的",
+      "re": "的[^，。；：？！的]{0,10}的[^，。；：？！的]{0,10}的",
+      "max": 0,
+      "why": "chain of three 的; restructure"
+    },
+    {
+      "text": "一个",
+      "re": "一个",
+      "max": 0,
+      "why": "usually padding (这是一个…的…)"
+    },
+    {
+      "text": "不仅…更…",
+      "re": "不仅.{1,20}更|不是.{1,20}而是",
+      "max": 0,
+      "why": "contrast frame; state the point directly unless the source contrasts two real things"
+    },
+    {
+      "text": "长句",
+      "re": "[^，。；：？！、（）“”\\n]{41,}",
+      "max": 0,
+      "why": "over 40 characters without a break; split"
+    },
+    {
+      "text": "首先/其次/最后",
+      "re": "首先|其次|此外|然而",
+      "max": 0,
+      "why": "logic words at every turn read as generated"
+    }
+  ]
+}

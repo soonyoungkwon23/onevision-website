@@ -1,0 +1,124 @@
+/* Simplified Chinese pages only (added last in <head> by
+   scripts/i18n/build-locale.js, so these rules win over page styles).
+
+   1. Line breaking. The site sets `word-break: keep-all` everywhere for
+      Korean. For Chinese that rule treats a whole run of Han characters as one
+      unbreakable word, so lines could only break at punctuation and long
+      sentences would overflow on phones. Chinese breaks between characters;
+      `line-break: strict` keeps closing punctuation (，。、）) off the start of
+      a line.
+   2. Fonts. The Korean pages use Pretendard and Noto Serif KR, which have no
+      Simplified Chinese glyphs (or draw Han characters in Korean shapes), and
+      both load from CDNs that are unreliable in mainland China. The Chinese
+      build removes those links; text uses the reader's own Chinese system
+      fonts, which every phone and computer has. */
+
+:root:lang(zh) {
+  --zh-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+    "HarmonyOS Sans SC", "MiSans", "Microsoft YaHei", "Microsoft YaHei UI",
+    "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans SC", "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+html:lang(zh) *,
+html:lang(zh) *::before,
+html:lang(zh) *::after {
+  word-break: normal !important;
+  line-break: strict;
+  overflow-wrap: break-word;
+}
+
+html:lang(zh) body,
+html:lang(zh) body *:not(svg):not(svg *) {
+  font-family: var(--zh-sans) !important;
+}
+
+html:lang(zh) body {
+  line-height: 1.75;
+  letter-spacing: 0;
+  /* Spaces between Chinese and Latin letters or digits are typed into the
+     translation. Keep browsers from adding a second gap if their default
+     for this property changes. */
+  text-autospace: no-autospace;
+}
+
+/* Chinese fonts have no true italics. */
+html:lang(zh) em,
+html:lang(zh) i {
+  font-style: normal;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  html:lang(zh) body {
+    line-height: 1.7;
+  }
+}
+
+/* Headings: the Korean design uses a light serif. Chinese system serif fonts
+   (SimSun on Windows) are thin, with no real bold, and look dated at display
+   sizes, so Chinese headings use the sans family in bold, as the W3C Chinese
+   layout requirements (clreq 7.1.3.2) recommend. */
+html:lang(zh) h1,
+html:lang(zh) h2,
+html:lang(zh) h3,
+html:lang(zh) .hero-title,
+html:lang(zh) .section-title {
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.35;
+}
+html:lang(zh) h4 {
+  letter-spacing: 0 !important;
+}
+
+/* Korean labels use negative letter-spacing; Chinese characters should not
+   be squeezed. */
+html:lang(zh) .nav-links a,
+html:lang(zh) .btn,
+html:lang(zh) .section-badge {
+  letter-spacing: 0 !important;
+}
+
+/* Phone layouts (same fixes as css/en.css). Some pages keep a two-column hero
+   and four-across number tiles on phones. Korean fits because it wraps at word
+   boundaries; Chinese wraps between characters, so the narrow columns shrink
+   to one or two characters per line. Stack and widen them instead. */
+@media (max-width: 640px) {
+  html:lang(zh) :has(> h1, > * > h1) {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  html:lang(zh) [style*="grid-template-columns: minmax(0, 1.25fr)"] {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  html:lang(zh) .kpi-grid,
+  html:lang(zh) .kpi-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  html:lang(zh) .mini-charts,
+  html:lang(zh) .data-layout,
+  html:lang(zh) .data-board {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  html:lang(zh) .bar-row,
+  html:lang(zh) .data-bar-row {
+    grid-template-columns: minmax(0, 1fr) auto !important;
+  }
+  html:lang(zh) .bar-row > :first-child,
+  html:lang(zh) .data-bar-row > :first-child {
+    grid-column: 1 / -1;
+  }
+  html:lang(zh) .t-item {
+    grid-template-columns: 12px minmax(0, 1fr) !important;
+  }
+  html:lang(zh) .t-month {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Number and date tiles: keep a figure such as 11月30日 on one line. */
+html:lang(zh) .kpi-num,
+html:lang(zh) .program-hero-stat-number,
+html:lang(zh) .hero-stat-number {
+  white-space: nowrap;
+}

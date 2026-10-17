@@ -1003,6 +1003,7 @@
       <link rel="canonical" href="https://onevisionconsulting.us/admit-gallery.html" />
     <link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/admit-gallery.html" />
     <link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/en/admit-gallery.html" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://onevisionconsulting.us/zh/admit-gallery.html" />
     <link rel="alternate" hreflang="x-default" href="https://onevisionconsulting.us/admit-gallery.html" />
   </head>
 
@@ -1386,7 +1387,7 @@
         </a>
       </div>
     </div>
-    <script src="js/common.js?v=20260930"></script>
+    <script src="js/common.js?v=20261016"></script>
     <script>
       // Year
 
@@ -1474,7 +1475,9 @@
 
           cards.forEach((card) => {
             const tags = normalize(card.getAttribute("data-tags"));
-            const text = normalize(card.getAttribute("data-text"));
+            // Keywords plus the card's visible text, so search also works on
+            // the translated (English, Chinese) pages.
+            const text = normalize(card.getAttribute("data-text") + " " + card.textContent);
 
             const filterOK =
               activeFilter === "all"
