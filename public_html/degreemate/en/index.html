@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DegreeMate | Finish your degree while you work</title>
+<meta name="description" content="1:1 tutoring, writing coaching, thesis deadlines and degree-completion planning for working adults and busy students. In English and Korean.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://onevisionconsulting.us/degreemate/en/">
+<link rel="alternate" hreflang="ko" href="https://onevisionconsulting.us/degreemate/">
+<link rel="alternate" hreflang="en" href="https://onevisionconsulting.us/degreemate/en/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2028%2028%22%3E%3Crect%20x%3D%222%22%20y%3D%2218%22%20width%3D%2224%22%20height%3D%227%22%20rx%3D%221%22%20fill%3D%22%231f5641%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%2210.5%22%20width%3D%2218%22%20height%3D%226%22%20rx%3D%221%22%20fill%3D%22%231f5641%22%2F%3E%3Crect%20x%3D%228.5%22%20y%3D%223.5%22%20width%3D%2211%22%20height%3D%225.5%22%20rx%3D%221%22%20fill%3D%22%23e9de4f%22%20stroke%3D%22%2317221d%22%20stroke-width%3D%221.3%22%2F%3E%3C%2Fsvg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;600;700&family=Schibsted+Grotesk:wght@400;600&family=Gothic+A1:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/dm.css?v=20261101">
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+<div class="preview-bar">Preview version. Prices and details aren't final yet and may change.</div>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><svg viewBox="0 0 28 28" aria-hidden="true"><rect class="b" x="2" y="18" width="24" height="7" rx="1"/><rect class="b" x="5" y="10.5" width="18" height="6" rx="1"/><rect x="8.5" y="3.5" width="11" height="5.5" rx="1" fill="#e9de4f" stroke="#17221d" stroke-width="1.3"/></svg>DegreeMate</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Main"><a href="services.html">Services</a><a href="degree-plan.html">Degree planning</a><a href="pricing.html">Pricing</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a class="btn" href="contact.html">Book a free call</a></nav>
+    <div class="lang"><span>English</span><span class="sep"> / </span><a href=".././" hreflang="ko" lang="ko">한국어</a></div>
+  </div>
+</header>
+<main id="main">
+<section class="hero"><div class="wrap">
+  <div>
+    <h1>Finish the degree you started.</h1>
+    <p class="lede">If work keeps pushing your coursework back a term, start by counting what's left. We help with tutoring, writing coaching, thesis deadlines and planning the shortest route to graduation, in English or Korean.</p>
+    <div class="actions"><a class="btn" href="contact.html">Book a free 15-minute call</a><a class="btn ghost" href="pricing.html">See prices</a></div>
+    <p class="hero-note">We don't do your assignments or exams for you. Our job is helping you get them done yourself.</p>
+  </div>
+  <div class="ledger" id="ledger">
+    <div class="ledger-top"><h2>How much is left?</h2><span>Rough estimate</span></div>
+    <form onsubmit="return false">
+      <div class="field"><label for="degree">Degree</label>
+        <select id="degree" name="degree">
+          <option value="120">U.S. bachelor's (120 credits)</option>
+          <option value="36">U.S. master's (36 credits)</option>
+          <option value="140" data-cap="42">Korean Credit Bank bachelor's (140 credits)</option>
+        </select></div>
+      <div class="field"><div class="row"><label for="earned">Credits you have now</label><output id="earned-out">60</output></div>
+        <input type="range" id="earned" name="earned" min="0" max="120" step="1" value="60"></div>
+      <div class="field"><div class="row"><label for="hours">Hours you can study each week</label><output id="hours-out">15</output></div>
+        <input type="range" id="hours" name="hours" min="3" max="45" step="3" value="15">
+        <p class="hint">A U.S. credit takes about 3 hours a week. This assumes 15-week terms, three a year.</p></div>
+    </form>
+    <div class="bar" aria-hidden="true"><i id="ledger-fill" style="width:50%"></i></div>
+    <div class="bar-legend"><span id="ledger-left">60 credits left</span><span>Needed: <b id="ledger-total">120</b></span></div>
+    <div class="result" aria-live="polite">
+      <div class="big" id="ledger-big">About 4 years</div>
+      <p id="ledger-when"></p>
+      <p>On the call we check whether old credits, credit-by-exam (CLEP and similar) or work experience can cut that down. <a href="degree-plan.html">How degree planning works</a></p>
+    </div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="head"><h2>Who usually comes to us</h2></div>
+  <div class="people">
+    <div><h3>Working while enrolled</h3><p>You get two or three hours after work and the deadlines still come every week. We start with a weekly plan built around the time you actually have.</p></div>
+    <div><h3>Coming back after a break</h3><p>We check which of your old credits still count and which school would accept the most of them.</p></div>
+    <div><h3>Korean speakers studying in English</h3><p>Often you know the material and the English writing is what holds you back. You hear the explanation in Korean and practice revising in English.</p></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="head"><h2>Services</h2><p>Pick only what you need. All prices are estimates until they're confirmed in your plan.</p></div>
+  <div class="catalog">
+<div class="catalog-row">
+  <h3><a href="services.html#tutoring">1:1 tutoring</a><span class="tag">Business, accounting, statistics, nursing, computing, psychology and more</span></h3>
+  <p>We go over the concept that's stuck and work through the problems you need before next class. Online, with evening and weekend slots.</p>
+  <div class="price">$50 / hour<small>starting price, estimate</small></div>
+</div>
+<div class="catalog-row">
+  <h3><a href="services.html#writing">Writing coaching and feedback</a><span class="tag">Essays, reports, discussion posts, emails</span></h3>
+  <p>You send a draft you wrote. We comment on structure, argument, citations and English. You do the revising.</p>
+  <div class="price">$45 / 1,000 words<small>starting price, estimate</small></div>
+</div>
+<div class="catalog-row">
+  <h3><a href="services.html#thesis">Thesis and capstone coaching</a><span class="tag">Master's thesis, capstone, final project</span></h3>
+  <p>We break the work into dated steps, from choosing a topic to submitting, and check progress with you every week.</p>
+  <div class="price">$320 / month<small>starting price, estimate</small></div>
+</div>
+<div class="catalog-row">
+  <h3><a href="services.html#planning">Degree-completion planning</a><span class="tag">Transfer credit, credit by exam, Korean Credit Bank</span></h3>
+  <p>We sort through the credits and work experience you already have, find the shortest route to graduating, and lay the schools side by side.</p>
+  <div class="price">$120 / session<small>estimate</small></div>
+</div>
+<div class="catalog-row">
+  <h3><a href="services.html#coaching">Study planning and check-ins</a><span class="tag">Weekly plan, mid-week check-in</span></h3>
+  <p>We set the week's schedule together and check in by message halfway through. Good if things keep slipping when you work alone.</p>
+  <div class="price">$90 / month<small>starting price, estimate</small></div>
+</div>
+  </div>
+  <p class="small" style="margin-top:18px"><a href="services.html">Service details</a></p>
+</div></section>
+
+<section class="section tint"><div class="wrap">
+  <div class="head"><h2>How it works</h2></div>
+  <ol class="steps">
+    <li><h3>Free 15-minute call</h3><p>Tell us where you are, what's due and what you're aiming for. Phone, video or KakaoTalk, whichever is easiest.</p></li>
+    <li><h3>Get your plan</h3><p>Within two days you get one page with the credits left, a timeline, the help you need and the expected cost.</p></li>
+    <li><h3>Meet your coach</h3><p>We match you with someone who knows the subject and fits your hours. If the first session isn't a fit, you don't pay for it.</p></li>
+    <li><h3>Weekly check-ins</h3><p>Each session ends with your next steps written down, and we adjust the plan at the end of every term.</p></li>
+  </ol>
+</div></section>
+
+<section class="section" id="integrity"><div class="wrap">
+  <div class="head"><h2>What we do and what we don't</h2><p>Your school decides how much outside help is allowed, and we stay inside those rules.</p></div>
+  <div class="integrity">
+  <div class="yes"><h3>What we do</h3><ul>
+    <li>Explain concepts and work through problems with you</li>
+    <li>Give feedback on writing you drafted yourself</li>
+    <li>Break a thesis into steps and check progress weekly</li>
+    <li>Sort out transfer credit and compare schools</li>
+    <li>Practice presentations, office-hour talks and emails in English</li>
+  </ul></div>
+  <div class="no"><h3>What we don't do</h3><ul>
+    <li>Write assignments, essays or theses for you</li>
+    <li>Take exams or quizzes in your place</li>
+    <li>Log in and attend online classes for you</li>
+    <li>Show ways around plagiarism checks</li>
+    <li>Anything else your school's rules forbid</li>
+  </ul></div>
+</div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="head"><h2>Common questions</h2></div>
+  <div class="faq">
+    <details><summary>Will you write my assignment for me?</summary><div><p>No. We don't write assignments, essays or theses, and we don't take exams. We give feedback on work you wrote and help you through the parts where you're stuck.</p></div></details>
+    <details><summary>When can I have sessions?</summary><div><p>Weekday evenings and weekends in Korea time, and weekday evenings in U.S. Pacific time. We'll find exact slots on the call based on coach availability.</p></div></details>
+    <details><summary>Which subjects do you cover?</summary><div><p>Mostly undergraduate and master's courses in business, accounting, statistics, nursing, psychology, education, computing and English composition. If yours isn't listed, we'll check whether we have a coach for it.</p></div></details>
+    <details><summary>How does payment work?</summary><div><p>You pay before each session. A 10-session pack can be used over three months, and unused sessions are refunded. Tutoring starts at $50 a session.</p></div></details>
+  </div>
+  <p class="small" style="margin-top:18px"><a href="faq.html">All questions</a></p>
+</div></section>
+<section class="band"><div class="wrap"><div><h2>Fifteen minutes is enough to sketch the rest of your degree.</h2><p>The call is free, and there's nothing to pay at the end of it.</p></div><a class="btn" href="contact.html">Book a free call</a></div></section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="./"><svg viewBox="0 0 28 28" aria-hidden="true"><rect class="b" x="2" y="18" width="24" height="7" rx="1"/><rect class="b" x="5" y="10.5" width="18" height="6" rx="1"/><rect x="8.5" y="3.5" width="11" height="5.5" rx="1" fill="#e9de4f" stroke="#17221d" stroke-width="1.3"/></svg>DegreeMate</a>
+      <p>Tutoring, writing coaching and degree planning for people finishing a degree while working.</p>
+    </div>
+    <div><h2>Services</h2><ul><li><a href="services.html#tutoring">1:1 tutoring</a></li><li><a href="services.html#writing">Writing coaching and feedback</a></li><li><a href="services.html#thesis">Thesis and capstone coaching</a></li><li><a href="services.html#planning">Degree-completion planning</a></li><li><a href="services.html#coaching">Study planning and check-ins</a></li></ul></div>
+    <div><h2>DegreeMate</h2><ul><li><a href="about.html">About</a></li><li><a href="about.html#integrity">Academic integrity</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Book a free call</a></li><li><a href="/en/">OneVision Consulting</a></li></ul></div>
+    <p class="legal">DegreeMate is a brand of OneVision Consulting. Business registration details will be listed when the full site launches. © 2026 DegreeMate</p>
+  </div>
+</footer>
+<script src="../assets/dm.js?v=20261101"></script>
+</body>
+</html>
