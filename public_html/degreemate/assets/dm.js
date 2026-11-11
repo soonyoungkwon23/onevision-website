@@ -1,4 +1,4 @@
-// DegreeMate: mobile menu, the credit ledger on the home page, the price
+// DegreeMate: mobile menu, the credit ledger on the degree-plan page, the price
 // estimator on the pricing page and the consultation form. No dependencies.
 (function () {
   "use strict";
