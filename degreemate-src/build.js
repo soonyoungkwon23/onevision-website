@@ -19,16 +19,13 @@ const POSTS = require("./posts");
 
 const OUT = path.join(__dirname, "..", "public_html", "degreemate");
 const SITE = "https://onevisionconsulting.us/degreemate/";
-const ASSET_V = "20261111";
+const ASSET_V = "20261115";
 const PAGES = ["index", "services", "degree-plan", "tutors", "pricing", "reviews", "about", "faq", "contact"];
 
 // ------------------------------------------------------------ editable data
-// All prices are placeholders until the CEO signs them off (see the planning
-// doc). Change them here and the tables, catalog and calculator follow.
-const PRICE = {
-  ko: { tutor: 50000, tutor10: 450000, write: 60000, thesis: 400000, plan: 150000, coach: 120000 },
-  en: { tutor: 50, tutor10: 450, write: 45, thesis: 320, plan: 120, coach: 90 },
-};
+// No prices are shown anywhere (decided 2026-11-15): every price, package,
+// payment and refund question is sent to KakaoTalk or the contact form. The
+// old price table, calculator and refund list are in git history (4369d75).
 
 // Contact details for the header button, the KakaoTalk band and the footer.
 // Empty values show as "coming soon" / "to be confirmed" in the preview.
@@ -54,8 +51,6 @@ const TUTORS = [];
 const REVIEWS = [];
 
 // ---------------------------------------------------------------- helpers
-const fmt = (lang, n) => (lang === "ko" ? n.toLocaleString("ko-KR") + "원" : "$" + n.toLocaleString("en-US"));
-const man = (n) => (n % 10000 === 0 ? n / 10000 + "만 원" : n.toLocaleString("ko-KR") + "원");
 const dateText = (lang, iso) => {
   const [y, m, d] = iso.split("-").map(Number);
   return lang === "ko" ? `${y}년 ${m}월 ${d}일` : new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
@@ -77,94 +72,71 @@ const icon = (k) => `<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" str
 // --------------------------------------------------------------- UI strings
 const UI = {
   ko: {
-    nav: { services: "서비스", process: "진행 방식", tutors: "튜터", pricing: "가격", reviews: "후기", blog: "블로그" },
+    nav: { services: "서비스", process: "진행 방식", tutors: "튜터", pricing: "가격 문의", reviews: "후기", blog: "블로그" },
     kakaoBtn: "카카오톡 상담",
     menu: "메뉴",
-    preview: "미리보기 버전입니다. 가격, 튜터, 연락처 같은 세부 내용은 아직 확정 전이라 바뀔 수 있습니다.",
+    preview: "미리보기 버전입니다. 튜터, 연락처 같은 세부 내용은 아직 확정 전이라 바뀔 수 있습니다.",
     svcLine: "서비스 목록",
     tagline: "유학생과 직장인을 위한 학습 코칭",
     footLine: "유학생과 일하면서 학위를 마치는 분을 위한 튜터링, 에세이 첨삭, 논문 코칭, 졸업 설계.",
     footServices: "서비스",
     footGuide: "안내",
     footBiz: "사업자 정보",
-    footLinks: [["about.html", "소개"], ["about.html#integrity", "학업 윤리 원칙"], ["pricing.html#refund", "환불 정책"], ["reviews.html#policy", "후기 정책"], ["faq.html", "자주 묻는 질문"], ["blog/", "블로그"], ["contact.html", "상담 신청"]],
-    biz: { name: "상호", nameVal: "DegreeMate (원비전컨설팅 계열 브랜드)", rep: "대표자", address: "주소", email: "이메일", later: "정식 오픈 때 안내" },
-    legal: "DegreeMate는 원비전컨설팅(OneVision Consulting)의 계열 브랜드입니다.",
+    footLinks: [["about.html", "소개"], ["about.html#integrity", "학업 윤리 원칙"], ["reviews.html#policy", "후기 정책"], ["faq.html", "자주 묻는 질문"], ["blog/", "블로그"], ["pricing.html", "가격 문의"], ["contact.html", "상담 신청"]],
+    biz: { name: "상호", nameVal: "DegreeMate", rep: "대표자", address: "주소", email: "이메일", later: "정식 오픈 때 안내" },
+    legal: "DegreeMate는 원비전컨설팅(OneVision Consulting)과 함께 운영하는 별도 브랜드입니다.",
     ovLabel: "원비전컨설팅 홈페이지",
     current: "한국어",
     other: "English",
     skip: "본문으로 건너뛰기",
     soon: "개설 준비 중",
     tbd: "확정 전",
-    est: "예상가",
-    band: { title: "카카오톡으로 편하게 물어보세요", text: "상담은 무료이고, 상담 후 바로 결제할 필요도 없습니다.", id: "카카오톡 ID", hours: "상담 시간", reply: "답변", form: "상담 신청 양식", open: "카카오톡 채널 열기" },
+    band: { title: "카카오톡으로 편하게 물어보세요", text: "가격, 일정, 맞는 서비스까지 궁금한 건 무엇이든 물어보세요.", id: "카카오톡 ID", hours: "상담 시간", reply: "답변", form: "상담 신청 양식", open: "카카오톡 채널 열기" },
+    ask: "편한 방법으로 물어보세요",
   },
   en: {
     nav: { services: "Services", process: "How it works", tutors: "Tutors", pricing: "Pricing", reviews: "Reviews", blog: "Blog" },
     kakaoBtn: "KakaoTalk",
     menu: "Menu",
-    preview: "Preview version. Prices, tutors and contact details aren't final yet and may change.",
+    preview: "Preview version. Tutor and contact details aren't final yet and may change.",
     svcLine: "Services",
     tagline: "Study support for students abroad and working adults",
     footLine: "Tutoring, essay feedback, thesis coaching and degree planning for international students and people finishing a degree while they work.",
     footServices: "Services",
     footGuide: "Information",
     footBiz: "Business details",
-    footLinks: [["about.html", "About"], ["about.html#integrity", "Academic integrity"], ["pricing.html#refund", "Refund policy"], ["reviews.html#policy", "Review policy"], ["faq.html", "FAQ"], ["blog/", "Blog"], ["contact.html", "Book a free call"]],
-    biz: { name: "Business", nameVal: "DegreeMate, a OneVision Consulting brand", rep: "Representative", address: "Address", email: "Email", later: "listed at full launch" },
-    legal: "DegreeMate is a brand of OneVision Consulting.",
+    footLinks: [["about.html", "About"], ["about.html#integrity", "Academic integrity"], ["reviews.html#policy", "Review policy"], ["faq.html", "FAQ"], ["blog/", "Blog"], ["pricing.html", "Ask about pricing"], ["contact.html", "Book a call"]],
+    biz: { name: "Business", nameVal: "DegreeMate", rep: "Representative", address: "Address", email: "Email", later: "listed at full launch" },
+    legal: "DegreeMate is a separate brand operated alongside OneVision Consulting.",
     ovLabel: "OneVision Consulting",
     current: "English",
     other: "한국어",
     skip: "Skip to content",
     soon: "Coming soon",
     tbd: "To be confirmed",
-    est: "Estimate",
-    band: { title: "Message us on KakaoTalk", text: "The consultation is free, and there's nothing to pay at the end of it.", id: "KakaoTalk ID", hours: "Hours", reply: "Reply", form: "Use the contact form", open: "Open KakaoTalk channel" },
+    band: { title: "Message us on KakaoTalk", text: "Ask us anything: pricing, scheduling or which service fits.", id: "KakaoTalk ID", hours: "Hours", reply: "Reply", form: "Use the contact form", open: "Open KakaoTalk channel" },
+    ask: "Ask whichever way suits you",
   },
 };
 
 // ---------------------------------------------------------------- services
 function services(lang) {
-  const p = PRICE[lang];
   if (lang === "ko")
     return [
-      { id: "tutoring", name: "1:1 과목 튜터링", short: "과목 튜터링", en: "TUTORING", tag: "경영, 회계, 통계, 간호, 컴퓨터, 심리 등, 시험 대비 포함", one: "막히는 개념을 짚고, 시험 대비까지 같이 합니다.", body: "막히는 개념을 짚고, 다음 수업 전까지 풀어야 할 문제를 같이 봅니다. 시험 전에는 범위를 나눠 대비합니다. 화상으로 진행하고 저녁과 주말도 됩니다.", price: `시간당 ${man(p.tutor)}부터` },
-      { id: "writing", name: "에세이 첨삭과 과제 피드백", short: "에세이 첨삭", en: "WRITING", tag: "에세이, 리포트, 랩 리포트, 토론 게시글", one: "직접 쓴 글에 문단별 코멘트와 수정 예시를 드립니다.", body: "직접 쓴 초안에 구조, 논리, 인용, 영어 표현 피드백을 문단별 코멘트와 수정 예시로 남깁니다. 출처 표기와 패러프레이징도 함께 연습합니다. 고쳐 쓰는 건 본인이 합니다.", price: `1,000단어당 ${man(p.write)}부터` },
-      { id: "thesis", name: "논문 코칭", short: "논문 코칭", en: "THESIS", tag: "석사 논문, 캡스톤, 졸업 프로젝트", one: "주제 설정부터 제출까지 매주 진행을 점검합니다.", body: "주제 설정, 연구 설계, 구조 피드백까지 단계를 잘게 나누고, 매주 진행 상황을 같이 점검합니다. 쓰는 건 본인이고, 저희는 일정과 방향을 잡아 드립니다.", price: `월 ${man(p.thesis)}부터` },
-      { id: "planning", name: "졸업 경로 설계", short: "졸업 설계", en: "PLANNING", tag: "편입, 학점 인정, 학점은행제", one: "가진 학점으로 가장 짧게 졸업하는 길을 찾습니다.", body: "가진 학점과 경력을 정리해서 가장 짧게 졸업하는 길을 찾고, 학교별 비교표로 정리해 드립니다.", price: `1회 ${man(p.plan)}` },
-      { id: "coaching", name: "학기 학습 관리", short: "학습 관리", en: "CHECK-INS", tag: "주간 계획, 온라인 수업 일정 관리, 중간 체크인", one: "주간 계획을 같이 짜고, 중간에 진행을 확인합니다.", body: "학기 단위 학습 플랜을 세우고 매주 일정표를 같이 짭니다. 온라인 수업 마감과 과제 일정을 한눈에 정리하고, 중간에 메시지로 진행을 확인합니다. 수업은 본인이 직접 듣고 과제도 직접 제출합니다.", price: `월 ${man(p.coach)}부터` },
+      { id: "tutoring", name: "1:1 과목 튜터링", short: "과목 튜터링", en: "TUTORING", tag: "경영, 회계, 통계, 간호, 컴퓨터, 심리 등, 시험 대비 포함", one: "막히는 개념을 짚고, 시험 대비까지 같이 합니다.", body: "막히는 개념을 짚고, 다음 수업 전까지 풀어야 할 문제를 같이 봅니다. 시험 전에는 범위를 나눠 대비합니다. 화상으로 진행하고 저녁과 주말도 됩니다." },
+      { id: "writing", name: "에세이 첨삭과 과제 피드백", short: "에세이 첨삭", en: "WRITING", tag: "에세이, 리포트, 랩 리포트, 토론 게시글", one: "직접 쓴 글에 문단별 코멘트와 수정 예시를 드립니다.", body: "직접 쓴 초안에 구조, 논리, 인용, 영어 표현 피드백을 문단별 코멘트와 수정 예시로 남깁니다. 출처 표기와 패러프레이징도 함께 연습합니다. 고쳐 쓰는 건 본인이 합니다." },
+      { id: "thesis", name: "논문 코칭", short: "논문 코칭", en: "THESIS", tag: "석사 논문, 캡스톤, 졸업 프로젝트", one: "주제 설정부터 제출까지 매주 진행을 점검합니다.", body: "주제 설정, 연구 설계, 구조 피드백까지 단계를 잘게 나누고, 매주 진행 상황을 같이 점검합니다. 쓰는 건 본인이고, 저희는 일정과 방향을 잡아 드립니다." },
+      { id: "planning", name: "졸업 경로 설계", short: "졸업 설계", en: "PLANNING", tag: "편입, 학점 인정, 학점은행제", one: "가진 학점으로 가장 짧게 졸업하는 길을 찾습니다.", body: "가진 학점과 경력을 정리해서 가장 짧게 졸업하는 길을 찾고, 학교별 비교표로 정리해 드립니다." },
+      { id: "coaching", name: "학기 학습 관리", short: "학습 관리", en: "CHECK-INS", tag: "주간 계획, 온라인 수업 일정 관리, 중간 체크인", one: "주간 계획을 같이 짜고, 중간에 진행을 확인합니다.", body: "학기 단위 학습 플랜을 세우고 매주 일정표를 같이 짭니다. 온라인 수업 마감과 과제 일정을 한눈에 정리하고, 중간에 메시지로 진행을 확인합니다. 수업은 본인이 직접 듣고 과제도 직접 제출합니다." },
     ];
   return [
-    { id: "tutoring", name: "1:1 course tutoring", short: "Tutoring", tag: "Business, accounting, statistics, nursing, computing, psychology and more, including exam prep", one: "We work through the concept that's stuck and prepare for exams with you.", body: "We go over the concept that's stuck and work through the problems you need before next class. Before exams we split the material up and prepare it together. Online, with evening and weekend slots.", price: `from ${fmt(lang, p.tutor)} / hour` },
-    { id: "writing", name: "Essay and assignment feedback", short: "Essay feedback", tag: "Essays, reports, lab reports, discussion posts", one: "Comments on each paragraph and revision examples, on a draft you wrote.", body: "You send a draft you wrote. We comment on structure, argument, citations and English, paragraph by paragraph, with examples of how to revise. We also practice citation and paraphrasing with you. You do the revising.", price: `from ${fmt(lang, p.write)} / 1,000 words` },
-    { id: "thesis", name: "Thesis coaching", short: "Thesis coaching", tag: "Master's thesis, capstone, final project", one: "Weekly check-ins from choosing a topic to submitting.", body: "We break the work into small steps, from choosing a topic and designing the study to structure feedback, and check progress with you every week. You do the writing; we keep the schedule and direction on track.", price: `from ${fmt(lang, p.thesis)} / month` },
-    { id: "planning", name: "Degree-completion planning", short: "Degree planning", tag: "Transfer credit, credit by exam, Korean Credit Bank", one: "The shortest route to graduating with the credits you have.", body: "We sort through the credits and work experience you already have, find the shortest route to graduating, and lay the schools side by side.", price: `${fmt(lang, p.plan)} / session` },
-    { id: "coaching", name: "Term check-ins", short: "Check-ins", tag: "Weekly plan, online-course schedule, mid-week check-in", one: "A weekly plan made together, with a check-in halfway through.", body: "We set up a plan for the term and build each week's schedule with you. Online-course deadlines and assignments go on one page, and we check in by message mid-week. You attend your classes and submit your work yourself.", price: `from ${fmt(lang, p.coach)} / month` },
+    { id: "tutoring", name: "1:1 course tutoring", short: "Tutoring", tag: "Business, accounting, statistics, nursing, computing, psychology and more, including exam prep", one: "We work through the concept that's stuck and prepare for exams with you.", body: "We go over the concept that's stuck and work through the problems you need before next class. Before exams we split the material up and prepare it together. Online, with evening and weekend slots." },
+    { id: "writing", name: "Essay and assignment feedback", short: "Essay feedback", tag: "Essays, reports, lab reports, discussion posts", one: "Comments on each paragraph and revision examples, on a draft you wrote.", body: "You send a draft you wrote. We comment on structure, argument, citations and English, paragraph by paragraph, with examples of how to revise. We also practice citation and paraphrasing with you. You do the revising." },
+    { id: "thesis", name: "Thesis coaching", short: "Thesis coaching", tag: "Master's thesis, capstone, final project", one: "Weekly check-ins from choosing a topic to submitting.", body: "We break the work into small steps, from choosing a topic and designing the study to structure feedback, and check progress with you every week. You do the writing; we keep the schedule and direction on track." },
+    { id: "planning", name: "Degree-completion planning", short: "Degree planning", tag: "Transfer credit, credit by exam, Korean Credit Bank", one: "The shortest route to graduating with the credits you have.", body: "We sort through the credits and work experience you already have, find the shortest route to graduating, and lay the schools side by side." },
+    { id: "coaching", name: "Term check-ins", short: "Check-ins", tag: "Weekly plan, online-course schedule, mid-week check-in", one: "A weekly plan made together, with a check-in halfway through.", body: "We set up a plan for the term and build each week's schedule with you. Online-course deadlines and assignments go on one page, and we check in by message mid-week. You attend your classes and submit your work yourself." },
   ];
 }
-
-// Price rows shared by the home summary and the pricing page.
-function priceRows(lang) {
-  const p = PRICE[lang];
-  const ko = lang === "ko";
-  const fast = ko ? p.write * 1.5 : Math.round(p.write * 1.5);
-  return [
-    { group: 0, home: true, name: ko ? "1:1 과목 튜터링" : "1:1 course tutoring", inc: ko ? "50분 화상 세션, 세션 후 정리 노트와 다음 할 일" : "50-minute video session, notes and next steps afterwards", price: fmt(lang, p.tutor), unit: ko ? "1회" : "per session" },
-    { group: 0, home: true, name: ko ? "튜터링 10회 묶음" : "Tutoring, 10 sessions", inc: ko ? "3개월 안에 사용, 남은 회차는 환불" : "Use within 3 months, unused sessions refunded", price: fmt(lang, p.tutor10), unit: ko ? "10회" : "10 sessions" },
-    { group: 0, home: true, name: ko ? "학기 학습 관리" : "Term check-ins", inc: ko ? "주 1회 20분 계획 세션, 주중 메시지 점검" : "20-minute planning session a week, mid-week message check-in", price: fmt(lang, p.coach), unit: ko ? "한 달" : "per month" },
-    { group: 1, home: true, name: ko ? "에세이 첨삭과 과제 피드백" : "Essay and assignment feedback", inc: ko ? "문단별 코멘트, 수정 예시, 인용 점검, 5일 안에 돌려드림" : "Paragraph comments, revision examples, citation check, back within 5 days", price: fmt(lang, p.write), unit: ko ? "1,000단어당" : "per 1,000 words" },
-    { group: 1, home: false, name: ko ? "빠른 피드백" : "Fast feedback", inc: ko ? "같은 내용, 48시간 안에 돌려드림" : "Same feedback, back within 48 hours", price: fmt(lang, fast), unit: ko ? "1,000단어당" : "per 1,000 words" },
-    { group: 1, home: true, name: ko ? "논문 코칭" : "Thesis coaching", inc: ko ? "주 1회 50분 점검, 장별 초안 피드백, 단계별 일정표" : "50-minute check-in a week, chapter feedback, step-by-step schedule", price: fmt(lang, p.thesis), unit: ko ? "한 달" : "per month" },
-    { group: 2, home: true, name: ko ? "15분 첫 상담" : "First 15-minute call", inc: ko ? "상담 후 이틀 안에 계획서와 예상 비용" : "A plan and estimated cost within two days", price: ko ? "무료" : "Free", unit: "" },
-    { group: 2, home: true, name: ko ? "졸업 경로 설계" : "Degree-completion plan", inc: ko ? "60분 상담, 학교별 비교 보고서 (5일 이내)" : "60-minute call and a school comparison report (within 5 days)", price: fmt(lang, p.plan), unit: ko ? "1회" : "per session" },
-  ];
-}
-
-const refundItems = (lang) =>
-  lang === "ko"
-    ? ["결제는 세션 전에 합니다.", "첫 세션이 맞지 않으면 그 세션 비용은 받지 않습니다.", "10회 묶음은 3개월 안에 쓰면 되고, 남은 회차는 환불됩니다."]
-    : ["You pay before each session.", "If your first session isn't a fit, you don't pay for it.", "A 10-session pack can be used over three months, and unused sessions are refunded."];
 
 const reviewPolicy = (lang) =>
   lang === "ko"
@@ -322,7 +294,7 @@ const rings = (lang, up = "") =>
   `<ul class="rings">${services(lang)
     .map(
       (s) => `<li><a class="ring" href="${up}services.html#${s.id}">${icon(s.id)}<span class="ring-name">${s.short}</span>${lang === "ko" ? `<span class="ring-en" aria-hidden="true">${s.en}</span>` : ""}</a>
-    <p>${s.one}</p><p class="ring-price">${s.price}</p></li>`
+    <p>${s.one}</p></li>`
     )
     .join("")}</ul>`;
 
@@ -349,13 +321,6 @@ function reviewList(lang) {
   return `<div class="empty"><p>${ko ? "정식 오픈 전이라 아직 올린 후기가 없습니다. 후기는 실제 이용자의 동의를 받아 날짜, 이용한 서비스와 함께 올립니다." : "We haven't launched yet, so there are no reviews to show. When there are, they'll be real, posted with consent, and shown with the date and the service used."}</p></div>`;
 }
 
-const priceTable = (lang, rows, caption) => {
-  const ko = lang === "ko";
-  return `<div class="table-scroll"><table class="prices">${caption ? `<caption>${caption}</caption>` : ""}
-<thead><tr><th scope="col">${ko ? "서비스" : "Service"}</th><th scope="col">${ko ? "포함 내용" : "What's included"}</th><th scope="col" class="num">${ko ? "예상가" : "Estimate"}</th></tr></thead>
-<tbody>${rows.map((r) => `<tr><th scope="row">${r.name}</th><td>${r.inc}</td><td class="num">${r.price}${r.unit ? `<small>${r.unit}</small>` : ""}</td></tr>`).join("")}</tbody></table></div>`;
-};
-
 // ------------------------------------------------------------------- copy
 const HOME = {
   ko: {
@@ -364,33 +329,35 @@ const HOME = {
     h1: "시작한 학위, 이번엔 끝까지.",
     strip: "미국 학부 / 대학원 / 한국 학점은행제",
     lede: "영어 과제가 막막하신가요? 미국 대학과 대학원에서 공부하는 유학생, 일하면서 학위를 마치는 분을 1:1로 돕습니다. 설명은 한국어로 듣고, 쓰는 연습은 영어로 합니다.",
-    cta: "15분 무료 상담 신청",
-    second: "가격 먼저 보기",
+    cta: "상담 신청하기",
+    second: "가격 문의하기",
     note: "과제나 시험을 대신 해 드리지는 않습니다. 직접 해낼 수 있게 옆에서 돕습니다.",
     svcH: "서비스",
-    svcP: "필요한 것만 골라서 받으시면 됩니다. 가격은 모두 예상가이고 상담 후 계획서에서 확정됩니다.",
+    svcP: "필요한 것만 골라서 받으시면 됩니다. 어떤 게 맞을지 모르겠다면 상담에서 같이 정합니다.",
+    svcAsk: "가격은 서비스와 일정에 맞춰 상담에서 안내합니다.",
     alert: "과제 대필, 시험 대리 응시, 온라인 수업 대리 수강은 하지 않습니다.",
     svcMore: "서비스 자세히 보기",
     whyH: "확인할 수 있는 약속",
     claims: [
-      ["모든 가격을 사이트에 공개합니다.", "상담을 해야만 알 수 있는 가격은 없습니다.", "pricing.html", "가격표 보기"],
       ["대신 써 드리지 않고, 문단별 코멘트와 수정 예시를 드립니다.", "영어가 모국어가 아니어도 논리는 충분히 전달할 수 있습니다.", "about.html#integrity", "학업 윤리 원칙 보기"],
-      ["첫 세션이 맞지 않으면 그 세션 비용은 받지 않습니다.", "다른 튜터를 연결해 드립니다.", "pricing.html#refund", "환불 정책 보기"],
+      ["튜터마다 학위, 학교, 담당 과목, 경력을 공개합니다.", "어떤 배경의 튜터가 가르치는지 미리 확인할 수 있습니다.", "tutors.html", "튜터 소개 보기"],
+      ["세션마다 다음 할 일을 남기고, 진행 상황을 단계마다 공유합니다.", "튜터가 맞지 않으면 다른 튜터로 바꿀 수 있습니다.", "#process", "진행 방식 보기"],
     ],
     tutorH: "튜터",
     tutorP: "과목별 담당 튜터를 배정합니다. 정식 오픈 때 튜터마다 학위, 학교, 담당 과목, 경력을 공개합니다.",
     tutorMore: "튜터 배정 방식 보기",
     procH: "진행 방식",
     steps: [
-      ["상담", "15분 무료 상담에서 지금 상황, 마감, 목표를 듣습니다. 카카오톡, 전화, 화상 중 편한 방법으로 하시면 됩니다."],
-      ["진단", "과제 안내문, 성적표, 쓰던 초안을 보고 어디서 막히는지 확인합니다. 이틀 안에 계획서와 예상 비용을 보내 드립니다."],
-      ["튜터 배정", "과목과 시간대가 맞는 튜터를 연결합니다. 첫 세션이 맞지 않으면 그 세션 비용은 받지 않습니다."],
+      ["상담", "15분 상담에서 지금 상황, 마감, 목표를 듣습니다. 카카오톡, 전화, 화상 중 편한 방법으로 하시면 됩니다."],
+      ["진단", "과제 안내문, 성적표, 쓰던 초안을 보고 어디서 막히는지 확인합니다. 이틀 안에 계획서와 견적을 보내 드립니다."],
+      ["튜터 배정", "과목과 시간대가 맞는 튜터를 연결합니다. 맞지 않으면 다른 튜터로 바꿀 수 있습니다."],
       ["피드백", "세션마다 다음 할 일을 남기고, 진행 상황을 단계마다 공유합니다. 학기가 끝나면 계획을 다시 맞춥니다."],
     ],
-    priceH: "가격",
-    priceP: "상담을 해야만 알 수 있는 가격은 없습니다. 아래는 정식 오픈 전 예상가입니다.",
-    refundH: "환불 정책",
-    priceMore: "가격표와 비용 계산기 보기",
+    priceH: "가격 문의",
+    priceP: "가격은 서비스, 과정, 분량이나 기간, 마감 일정에 따라 달라서 상담에서 직접 안내해 드립니다.",
+    priceList: ["어떤 서비스가 필요한지", "학부인지 대학원인지", "글 분량이나 코칭 받을 기간", "가장 가까운 마감일"],
+    priceListH: "알려 주시면 견적이 빨라요",
+    priceForm: "양식으로 가격 문의",
     revH: "후기",
     revMore: "후기 정책 보기",
     faqH: "자주 묻는 질문",
@@ -402,33 +369,35 @@ const HOME = {
     h1: "Finish the degree you started.",
     strip: "U.S. undergraduate / Graduate school / Korea's Credit Bank",
     lede: "Stuck on an English assignment? We work one-on-one with international students at U.S. colleges and graduate schools, and with people finishing a degree while they work. Sessions run in Korean or English.",
-    cta: "Book a free 15-minute call",
-    second: "See prices first",
+    cta: "Book a call",
+    second: "Ask about pricing",
     note: "We don't do your assignments or exams for you. We help you get them done yourself.",
     svcH: "Services",
-    svcP: "Pick only what you need. All prices are estimates until they're confirmed in your plan.",
+    svcP: "Pick only what you need. If you're not sure which fits, we'll work it out with you on a call.",
+    svcAsk: "Pricing depends on the service and your schedule, so we share it when you get in touch.",
     alert: "We don't write assignments, take exams or attend online classes for anyone.",
     svcMore: "Service details",
     whyH: "Promises you can check",
     claims: [
-      ["Every price is on the site.", "There's no price you only hear about after a call.", "pricing.html", "See prices"],
       ["We don't write it for you. You get comments on each paragraph and examples of how to revise.", "English doesn't have to be your first language for your argument to come through.", "about.html#integrity", "Academic integrity"],
-      ["If your first session isn't a fit, you don't pay for it.", "We'll match you with another tutor.", "pricing.html#refund", "Refund policy"],
+      ["Every tutor's degree, school, subjects and experience is listed.", "You can see who'll be teaching you before you start.", "tutors.html", "Meet the tutors"],
+      ["Every session ends with your next steps, and we share progress at each stage.", "If a tutor isn't a good fit, you can switch.", "#process", "How it works"],
     ],
     tutorH: "Tutors",
     tutorP: "Each subject gets its own tutor. At full launch every tutor's degree, school, subjects and experience will be listed here.",
     tutorMore: "How we match tutors",
     procH: "How it works",
     steps: [
-      ["Consultation", "On a free 15-minute call we hear where you are, what's due and what you're aiming for. KakaoTalk, phone or video, whichever is easiest."],
-      ["Diagnosis", "We look at the assignment brief, your transcript or the draft you're working on to see where you're stuck. Within two days you get a plan and an estimated cost."],
-      ["Tutor match", "We match you with a tutor who knows the subject and fits your hours. If the first session isn't a fit, you don't pay for it."],
+      ["Consultation", "On a 15-minute call we hear where you are, what's due and what you're aiming for. KakaoTalk, phone or video, whichever is easiest."],
+      ["Diagnosis", "We look at the assignment brief, your transcript or the draft you're working on to see where you're stuck. Within two days you get a plan and a quote."],
+      ["Tutor match", "We match you with a tutor who knows the subject and fits your hours. If it isn't a fit, you can switch."],
       ["Feedback", "Each session ends with your next steps written down, and we share progress at every stage. At the end of each term we adjust the plan."],
     ],
-    priceH: "Pricing",
-    priceP: "You can see every price before you talk to us. These are pre-launch estimates.",
-    refundH: "Refund policy",
-    priceMore: "Full price list and cost estimator",
+    priceH: "Ask about pricing",
+    priceP: "Pricing depends on the service, your level, the length or duration and your deadline, so we quote it directly when you get in touch.",
+    priceList: ["Which service you need", "Undergraduate or graduate level", "Length of the writing, or how long you want coaching", "Your nearest deadline"],
+    priceListH: "Tell us these for a faster quote",
+    priceForm: "Ask through the form",
     revH: "Reviews",
     revMore: "Review policy",
     faqH: "Common questions",
@@ -437,18 +406,17 @@ const HOME = {
 };
 
 function faqItems(lang) {
-  const p = PRICE[lang];
   return lang === "ko"
     ? [
         ["과제를 대신 써 주나요?", "아니요. 과제, 에세이, 논문을 대신 쓰거나 시험을 대신 보는 일은 하지 않습니다. 직접 쓴 글에 피드백을 드리고, 막히는 부분을 같이 풀어 가는 방식입니다."],
         ["AI 도구는 써도 되나요?", `AI 도구 사용은 학교와 수업마다 기준이 달라서, 학교 규정을 먼저 확인하고 안내합니다. 저희가 AI로 글을 만들어 드리는 일은 없습니다. <a href="blog/ai-tools-policy.html">확인하는 방법 보기</a>`],
         ["표절이 걱정돼요.", "출처 표기와 패러프레이징을 함께 연습합니다. 직접 쓴 글을 보면서 어디에 출처가 필요한지 같이 확인합니다. 표절 검사를 피하는 방법은 알려 드리지 않습니다."],
         ["학교에서 외부 첨삭을 받아도 되나요?", "대부분의 학교는 튜터링과 첨삭 피드백을 허용합니다. 다만 수업마다 기준이 다를 수 있어서, 과제 안내문을 같이 확인하고 애매하면 교수님께 먼저 물어보도록 안내합니다."],
-        ["비용은 어떻게 내나요?", `세션 전에 결제합니다. 10회 묶음은 3개월 안에 쓰면 되고, 남은 회차는 환불됩니다. 1:1 튜터링은 회당 ${man(p.tutor)}부터 시작합니다. <a href="pricing.html#refund">환불 정책 보기</a>`],
-        ["첫 상담에서는 무엇을 하나요?", "15분 동안 지금 다니는 학교나 과정, 가장 급한 과제와 마감을 듣습니다. 상담 후 이틀 안에 계획서와 예상 비용을 보내 드리고, 진행 여부는 그다음에 정하시면 됩니다."],
+        ["가격은 얼마인가요?", `서비스, 과정, 분량이나 기간, 마감 일정에 따라 달라서 상담에서 직접 안내해 드립니다. 카카오톡이나 상담 신청 양식으로 편하게 물어보세요. <a href="pricing.html">가격 문의하기</a>`],
+        ["첫 상담에서는 무엇을 하나요?", "15분 동안 지금 다니는 학교나 과정, 가장 급한 과제와 마감을 듣습니다. 상담 후 이틀 안에 계획서와 견적을 보내 드리고, 진행 여부는 그다음에 정하시면 됩니다."],
         ["어떤 과목을 도와주나요?", "경영, 회계, 통계, 간호, 심리, 교육, 컴퓨터, 영어 작문 같은 학부와 석사 과목을 주로 다룹니다. 목록에 없는 과목은 상담에서 맞는 튜터가 있는지 확인해 드립니다."],
         ["수업은 몇 시에 받을 수 있나요?", "모든 세션은 화상이라 한국, 미국 어디서든 받을 수 있습니다. 한국 시간 평일 저녁과 주말, 미국 서부 시간 평일 저녁에 잡을 수 있고, 정확한 시간은 튜터 일정에 맞춰 상담에서 정합니다."],
-        ["튜터가 마음에 안 들면요?", "첫 세션이 맞지 않으면 그 세션 비용은 받지 않고 다른 튜터를 연결해 드립니다. 그 뒤에도 언제든 바꿀 수 있습니다."],
+        ["튜터가 마음에 안 들면요?", "말씀해 주시면 과목과 시간대가 맞는 다른 튜터를 연결해 드립니다. 언제든 바꿀 수 있습니다."],
         ["상담 내용은 비밀이 지켜지나요?", "보내 주신 글, 성적표, 상담 내용은 담당 튜터만 봅니다. 학교나 다른 사람에게 공유하지 않습니다."],
       ]
     : [
@@ -456,11 +424,11 @@ function faqItems(lang) {
         ["Can I use AI tools?", `Rules on AI tools differ by school and by course, so we check yours before giving any guidance. We never produce writing for you with AI. <a href="blog/ai-tools-policy.html">How to check your rules</a>`],
         ["I'm worried about plagiarism.", "We practice citation and paraphrasing together, using writing you drafted, and check where sources are needed. We don't teach ways around plagiarism checkers."],
         ["Is outside editing allowed at my school?", "Most schools allow tutoring and editing feedback. Rules can differ by course, so we read the assignment instructions with you, and if it's unclear we'll suggest asking your instructor first."],
-        ["How does payment work?", `You pay before each session. A 10-session pack can be used over three months, and unused sessions are refunded. Tutoring starts at ${fmt(lang, p.tutor)} a session. <a href="pricing.html#refund">Refund policy</a>`],
-        ["What happens on the free call?", "In 15 minutes we hear about your school or program and your most urgent assignment or deadline. Within two days you get a plan and an estimated cost, and then you decide whether to go ahead."],
+        ["How much does it cost?", `It depends on the service, your level, the length or duration and your deadline, so we quote it directly. Ask us on KakaoTalk or through the contact form. <a href="pricing.html">Ask about pricing</a>`],
+        ["What happens on the first call?", "In 15 minutes we hear about your school or program and your most urgent assignment or deadline. Within two days you get a plan and a quote, and then you decide whether to go ahead."],
         ["Which subjects do you cover?", "Mostly undergraduate and master's courses in business, accounting, statistics, nursing, psychology, education, computing and English composition. If yours isn't listed, we'll check whether we have a tutor for it."],
         ["When can I have sessions?", "Every session is online, so you can join from Korea, the U.S. or anywhere else. Slots run on weekday evenings and weekends in Korea time and weekday evenings in U.S. Pacific time; we set exact times on the call."],
-        ["What if my tutor isn't a good fit?", "If the first session isn't right, you don't pay for it and we match you with someone else. You can switch any time after that too."],
+        ["What if my tutor isn't a good fit?", "Tell us and we'll match you with another tutor who fits your subject and hours. You can switch at any time."],
         ["Is what I share kept private?", "Your writing, transcripts and anything you tell us are seen only by your tutor. We don't share them with your school or anyone else."],
       ];
 }
@@ -491,6 +459,7 @@ function home(lang) {
   ${head(lang, c.svcH, "SERVICE", c.svcP, "h-svc")}
   ${rings(lang)}
   <p class="alert-note">${c.alert}</p>
+  <p class="ask-line">${c.svcAsk} <a href="pricing.html">${c.second}</a></p>
   <p class="more"><a href="services.html">${c.svcMore}</a></p>
 </div></section>
 
@@ -512,9 +481,7 @@ function home(lang) {
 
 <section class="section" aria-labelledby="h-price"><div class="wrap">
   ${head(lang, c.priceH, "PRICING", c.priceP, "h-price")}
-  ${priceTable(lang, priceRows(lang).filter((r) => r.home))}
-  <div class="refund"><h3>${c.refundH}</h3><ul>${refundItems(lang).map((t) => `<li>${t}</li>`).join("")}</ul></div>
-  <p class="more"><a href="pricing.html">${c.priceMore}</a></p>
+  ${askBox(lang)}
 </div></section>
 
 <section class="section tint" aria-labelledby="h-rev"><div class="wrap">
@@ -534,22 +501,21 @@ function home(lang) {
 }
 
 function servicesPage(lang) {
-  const p = PRICE[lang];
   const ko = lang === "ko";
   const detail = ko
     ? {
-        tutoring: { get: ["50분 화상 세션, 화면 공유와 필기 자료 제공", "세션 후 정리 노트와 다음 주 할 일", "시험 전 범위를 나눈 대비 세션"], fit: "수업 진도를 따라가기 버거운 분, 혼자 풀면 시간이 두 배로 드는 분", facts: [["형식", "화상 1:1"], ["시간", "50분"], ["가격", `${man(p.tutor)}부터`]] },
-        writing: { get: ["초안 전체에 대한 구조와 논리 코멘트", "문단별 코멘트와 수정 예시 (변경 내용 추적으로 표시)", "인용 형식(APA, MLA 등) 점검과 패러프레이징 연습", "원하면 피드백 설명 화상 15분"], fit: "생각은 정리됐는데 글로 옮기기 어려운 분, 영어 글에 자신이 없는 분", facts: [["형식", "문서 피드백"], ["기간", "5일, 빠르면 48시간"], ["가격", `1,000단어당 ${man(p.write)}부터`]] },
-        thesis: { get: ["제출일에서 거꾸로 짠 단계별 일정표", "주제 설정과 연구 설계 피드백", "주 1회 50분 점검 세션과 장별 초안 피드백", "지도교수 면담 준비 같이 하기"], fit: "논문 주제는 있는데 몇 달째 진도가 안 나가는 분, 일과 논문을 같이 하는 분", facts: [["형식", "월 4회 세션"], ["기간", "월 단위"], ["가격", `월 ${man(p.thesis)}부터`]] },
-        planning: { get: ["지금까지의 성적표와 학점 정리", "편입, 학점 인정 시험, 경력 인정 가능 여부 확인", "학교별 비용, 기간, 인정 학점 비교표", "지원 일정과 서류 목록"], fit: "몇 년 쉬었다가 다시 시작하려는 분, 어느 학교가 유리한지 모르는 분", facts: [["형식", "60분 상담 + 보고서"], ["기간", "보고서 5일 이내"], ["가격", `1회 ${man(p.plan)}`]] },
-        coaching: { get: ["학기 시작 때 학기 단위 학습 플랜", "매주 월요일 주간 계획 같이 짜기", "수요일쯤 메시지로 중간 점검", "학기 끝에 일정 다시 맞추기"], fit: "할 일은 아는데 자꾸 미뤄지는 분, 온라인 수업 마감이 한꺼번에 몰리는 분", facts: [["형식", "주 1회 20분 + 메시지"], ["기간", "월 단위"], ["가격", `월 ${man(p.coach)}부터`]] },
+        tutoring: { get: ["50분 화상 세션, 화면 공유와 필기 자료 제공", "세션 후 정리 노트와 다음 주 할 일", "시험 전 범위를 나눈 대비 세션"], fit: "수업 진도를 따라가기 버거운 분, 혼자 풀면 시간이 두 배로 드는 분", facts: [["형식", "화상 1:1"], ["시간", "50분"], ["가격", "상담 후 안내"]] },
+        writing: { get: ["초안 전체에 대한 구조와 논리 코멘트", "문단별 코멘트와 수정 예시 (변경 내용 추적으로 표시)", "인용 형식(APA, MLA 등) 점검과 패러프레이징 연습", "원하면 피드백 설명 화상 15분"], fit: "생각은 정리됐는데 글로 옮기기 어려운 분, 영어 글에 자신이 없는 분", facts: [["형식", "문서 피드백"], ["기간", "5일, 빠르면 48시간"], ["가격", "상담 후 안내"]] },
+        thesis: { get: ["제출일에서 거꾸로 짠 단계별 일정표", "주제 설정과 연구 설계 피드백", "주 1회 50분 점검 세션과 장별 초안 피드백", "지도교수 면담 준비 같이 하기"], fit: "논문 주제는 있는데 몇 달째 진도가 안 나가는 분, 일과 논문을 같이 하는 분", facts: [["형식", "월 4회 세션"], ["기간", "월 단위"], ["가격", "상담 후 안내"]] },
+        planning: { get: ["지금까지의 성적표와 학점 정리", "편입, 학점 인정 시험, 경력 인정 가능 여부 확인", "학교별 비용, 기간, 인정 학점 비교표", "지원 일정과 서류 목록"], fit: "몇 년 쉬었다가 다시 시작하려는 분, 어느 학교가 유리한지 모르는 분", facts: [["형식", "60분 상담 + 보고서"], ["기간", "보고서 5일 이내"], ["가격", "상담 후 안내"]] },
+        coaching: { get: ["학기 시작 때 학기 단위 학습 플랜", "매주 월요일 주간 계획 같이 짜기", "수요일쯤 메시지로 중간 점검", "학기 끝에 일정 다시 맞추기"], fit: "할 일은 아는데 자꾸 미뤄지는 분, 온라인 수업 마감이 한꺼번에 몰리는 분", facts: [["형식", "주 1회 20분 + 메시지"], ["기간", "월 단위"], ["가격", "상담 후 안내"]] },
       }
     : {
-        tutoring: { get: ["50-minute video session with screen sharing and notes", "A summary and next week's to-do list after each session", "Exam-prep sessions with the material split up"], fit: "You're falling behind the pace of the class, or problems take twice as long when you work alone.", facts: [["Format", "1:1 video"], ["Length", "50 min"], ["Price", `from ${fmt(lang, p.tutor)}`]] },
-        writing: { get: ["Comments on the structure and argument of the whole draft", "Paragraph comments and revision examples in tracked changes", "A citation check (APA, MLA and others) and paraphrasing practice", "An optional 15-minute call to go over the feedback"], fit: "You know what you want to say but it won't come out on the page, or you're unsure of your English.", facts: [["Format", "Written feedback"], ["Turnaround", "5 days, or 48 hours"], ["Price", `from ${fmt(lang, p.write)} / 1,000 words`]] },
-        thesis: { get: ["A step-by-step schedule worked back from your submission date", "Feedback on your topic and study design", "One 50-minute check-in a week and feedback on each chapter", "Help preparing for meetings with your advisor"], fit: "You have a topic but haven't moved in months, or you're writing a thesis around a full-time job.", facts: [["Format", "4 sessions a month"], ["Term", "Monthly"], ["Price", `from ${fmt(lang, p.thesis)} / month`]] },
-        planning: { get: ["Your transcripts and credits, sorted", "Which transfer, credit-by-exam and prior-learning options apply to you", "Schools compared on cost, time and credits accepted", "Application dates and a document checklist"], fit: "You took a few years off and want to restart, or you're not sure which school would count the most of your credits.", facts: [["Format", "60-min call + report"], ["Report", "Within 5 days"], ["Price", `${fmt(lang, p.plan)} / session`]] },
-        coaching: { get: ["A plan for the whole term at the start", "A weekly plan made together every Monday", "A mid-week check-in by message", "A schedule reset at the end of each term"], fit: "You know what needs doing but it keeps slipping, or your online-course deadlines all land in the same week.", facts: [["Format", "20 min a week + messages"], ["Term", "Monthly"], ["Price", `from ${fmt(lang, p.coach)} / month`]] },
+        tutoring: { get: ["50-minute video session with screen sharing and notes", "A summary and next week's to-do list after each session", "Exam-prep sessions with the material split up"], fit: "You're falling behind the pace of the class, or problems take twice as long when you work alone.", facts: [["Format", "1:1 video"], ["Length", "50 min"], ["Price", "Ask us"]] },
+        writing: { get: ["Comments on the structure and argument of the whole draft", "Paragraph comments and revision examples in tracked changes", "A citation check (APA, MLA and others) and paraphrasing practice", "An optional 15-minute call to go over the feedback"], fit: "You know what you want to say but it won't come out on the page, or you're unsure of your English.", facts: [["Format", "Written feedback"], ["Turnaround", "5 days, or 48 hours"], ["Price", "Ask us"]] },
+        thesis: { get: ["A step-by-step schedule worked back from your submission date", "Feedback on your topic and study design", "One 50-minute check-in a week and feedback on each chapter", "Help preparing for meetings with your advisor"], fit: "You have a topic but haven't moved in months, or you're writing a thesis around a full-time job.", facts: [["Format", "4 sessions a month"], ["Term", "Monthly"], ["Price", "Ask us"]] },
+        planning: { get: ["Your transcripts and credits, sorted", "Which transfer, credit-by-exam and prior-learning options apply to you", "Schools compared on cost, time and credits accepted", "Application dates and a document checklist"], fit: "You took a few years off and want to restart, or you're not sure which school would count the most of your credits.", facts: [["Format", "60-min call + report"], ["Report", "Within 5 days"], ["Price", "Ask us"]] },
+        coaching: { get: ["A plan for the whole term at the start", "A weekly plan made together every Monday", "A mid-week check-in by message", "A schedule reset at the end of each term"], fit: "You know what needs doing but it keeps slipping, or your online-course deadlines all land in the same week.", facts: [["Format", "20 min a week + messages"], ["Term", "Monthly"], ["Price", "Ask us"]] },
       };
   const blocks = services(lang)
     .map((s) => {
@@ -572,7 +538,7 @@ function servicesPage(lang) {
     lang, page: "services", rel: "services.html",
     title: ko ? "서비스 | 과목 튜터링, 에세이 첨삭, 논문 코칭 | DegreeMate" : "Services | DegreeMate",
     desc: ko ? "유학생을 위한 1:1 과목 튜터링, 에세이 첨삭과 과제 피드백, 논문 코칭, 졸업 경로 설계, 학기 학습 관리." : "1:1 course tutoring, essay and assignment feedback, thesis coaching, degree-completion planning and term check-ins.",
-    body: `${pageHead(ko ? "필요한 만큼만 받는 학습 지원" : "Help with the parts that are hard right now", ko ? "영어 에세이와 과제, 어디서부터 손대야 할지 막막하신가요? 다섯 가지 서비스는 따로 받아도 되고 묶어서 받아도 됩니다. 어떤 게 맞을지 모르겠다면 무료 상담에서 같이 정하면 됩니다." : "Not sure where to start on an essay or assignment? Use any of the five services on their own or together. If you're not sure which fits, we can work it out on the free call.")}
+    body: `${pageHead(ko ? "필요한 만큼만 받는 학습 지원" : "Help with the parts that are hard right now", ko ? "영어 에세이와 과제, 어디서부터 손대야 할지 막막하신가요? 다섯 가지 서비스는 따로 받아도 되고 묶어서 받아도 됩니다. 어떤 게 맞을지 모르겠다면 상담에서 같이 정하면 됩니다." : "Not sure where to start on an essay or assignment? Use any of the five services on their own or together. If you're not sure which fits, we can work it out on a call.")}
 <section class="section first"><div class="wrap">
 ${rings(lang)}
 <p class="alert-note">${HOME[lang].alert}</p>
@@ -684,8 +650,8 @@ function degreePlan(lang) {
 function tutorsPage(lang) {
   const ko = lang === "ko";
   const match = ko
-    ? [["과목", "수업 이름과 과제 안내문을 보고 그 과목을 전공했거나 그 분야에서 일하는 튜터를 찾습니다."], ["시간대", "한국 시간, 미국 시간 중 세션이 가능한 시간을 맞춥니다."], ["언어", "설명은 한국어로, 쓰는 연습은 영어로 하는 게 기본입니다. 원하면 영어로만 진행합니다."], ["교체", "첫 세션이 맞지 않으면 비용 없이 다른 튜터를 연결하고, 그 뒤에도 언제든 바꿀 수 있습니다."]]
-    : [["Subject", "We read your course name and assignment brief and find a tutor who studied the subject or works in the field."], ["Hours", "We find times that work in Korea or U.S. time."], ["Language", "By default you hear explanations in Korean and practice writing in English. English-only is fine too."], ["Switching", "If the first session isn't a fit, we match you with someone else at no cost, and you can switch any time after that."]];
+    ? [["과목", "수업 이름과 과제 안내문을 보고 그 과목을 전공했거나 그 분야에서 일하는 튜터를 찾습니다."], ["시간대", "한국 시간, 미국 시간 중 세션이 가능한 시간을 맞춥니다."], ["언어", "설명은 한국어로, 쓰는 연습은 영어로 하는 게 기본입니다. 원하면 영어로만 진행합니다."], ["교체", "맞지 않으면 말씀해 주세요. 다른 튜터를 연결하고, 언제든 다시 바꿀 수 있습니다."]]
+    : [["Subject", "We read your course name and assignment brief and find a tutor who studied the subject or works in the field."], ["Hours", "We find times that work in Korea or U.S. time."], ["Language", "By default you hear explanations in Korean and practice writing in English. English-only is fine too."], ["Switching", "If it isn't a fit, tell us and we'll match you with someone else. You can switch again at any time."]];
   const shows = ko ? ["학위와 전공", "졸업한 학교", "담당 과목", "가르친 경력", "세션 언어"] : ["Degree and major", "School", "Subjects", "Teaching experience", "Session languages"];
   return shell({
     lang, page: "tutors", rel: "tutors.html",
@@ -707,55 +673,41 @@ function tutorsPage(lang) {
   });
 }
 
+// Pricing inquiry box: what to tell us for a quote, plus the two ways to ask.
+// Used on the home page and the pricing page. No amounts anywhere.
+function askBox(lang, up = "") {
+  const c = HOME[lang];
+  const u = UI[lang];
+  const kakaoHref = CONTACT.kakaoUrl || up + "contact.html#kakao";
+  const ext = CONTACT.kakaoUrl ? ' target="_blank" rel="noopener"' : "";
+  return `<div class="ask-box">
+  <div><h3>${c.priceListH}</h3><ul class="checklist">${c.priceList.map((t) => `<li>${t}</li>`).join("")}</ul></div>
+  <div class="ask-actions"><p class="ask-title">${u.ask}</p>
+    <a class="btn kakao" href="${kakaoHref}"${ext}>${KAKAO_ICON}${u.kakaoBtn}</a>
+    <a class="btn dark" href="${up}contact.html">${c.priceForm}</a>
+    <p class="small">${u.band.reply}: ${CONTACT.reply[lang]}</p></div>
+</div>`;
+}
+
 function pricing(lang) {
   const ko = lang === "ko";
-  const p = PRICE[lang];
-  const est = `<span class="est">${UI[lang].est}</span>`;
-  const rows = priceRows(lang);
-  const caps = ko ? ["튜터링과 학습 관리", "글쓰기와 논문", "상담과 졸업 설계"] : ["Tutoring and check-ins", "Writing and thesis", "Consultation and degree planning"];
-  const tableHtml = caps.map((cap, g) => priceTable(lang, rows.filter((r) => r.group === g), cap)).join("\n");
-  const opt = (id, label, rate, unit, unitLabel, min, max, step, per, note, speed) =>
-    `<option value="${id}" data-rate="${rate}" data-unit="${unit}" data-unit-label="${unitLabel}" data-min="${min}" data-max="${max}" data-step="${step}" data-per="${per}" data-speed="${speed ? 1 : 0}" data-note="${note}">${label}</option>`;
-  const options = ko
-    ? [
-        opt("tutoring", "1:1 과목 튜터링", p.tutor, "회", "세션 수", 1, 30, 1, 1, `10회 묶음으로 사면 1회 ${fmt(lang, p.tutor10 / 10)} 꼴입니다.`),
-        opt("writing", "에세이 첨삭과 과제 피드백", p.write, "단어", "글 분량", 500, 15000, 500, 1000, "영어 기준 단어 수입니다. 한글 글은 상담에서 따로 안내합니다.", true),
-        opt("thesis", "논문 코칭", p.thesis, "개월", "기간", 1, 12, 1, 1, "보통 석사 논문은 4~8개월 정도 코칭을 받습니다."),
-        opt("coaching", "학기 학습 관리", p.coach, "개월", "기간", 1, 12, 1, 1, "한 학기 단위(4개월)로 시작하는 분이 많습니다."),
-      ]
-    : [
-        opt("tutoring", "1:1 course tutoring", p.tutor, "sessions", "Sessions", 1, 30, 1, 1, `A 10-session pack brings it to ${fmt(lang, p.tutor10 / 10)} a session.`),
-        opt("writing", "Essay and assignment feedback", p.write, "words", "Length", 500, 15000, 500, 1000, "Word count of the draft you send us.", true),
-        opt("thesis", "Thesis coaching", p.thesis, "months", "Duration", 1, 12, 1, 1, "Master's theses usually take four to eight months of coaching."),
-        opt("coaching", "Term check-ins", p.coach, "months", "Duration", 1, 12, 1, 1, "Most people start with one term, about four months."),
-      ];
+  const c = HOME[lang];
   return shell({
     lang, page: "pricing", rel: "pricing.html",
-    title: ko ? "가격 | DegreeMate" : "Pricing | DegreeMate",
-    desc: ko ? "DegreeMate 과목 튜터링, 에세이 첨삭, 논문 코칭, 졸업 설계 가격표와 포함 내용, 환불 정책, 예상 비용 계산기." : "DegreeMate prices for tutoring, essay feedback, thesis coaching and degree planning, what each includes, the refund policy and a cost estimator.",
-    body: `${pageHead(ko ? "가격은 전부 공개합니다" : "Every price, up front", ko ? "상담을 해야만 알 수 있는 가격은 없습니다. 아래 금액은 정식 오픈 전 예상가이고, 실제 금액은 상담 후 계획서에 적어 드립니다." : "You can see every price before you talk to us. These are pre-launch estimates, and your plan will list the exact amount.")}
+    title: ko ? "가격 문의 | DegreeMate" : "Ask about pricing | DegreeMate",
+    desc: ko ? "DegreeMate 과목 튜터링, 에세이 첨삭, 논문 코칭, 졸업 설계 가격은 상담에서 안내합니다. 카카오톡이나 상담 신청 양식으로 문의하세요." : "Pricing for DegreeMate tutoring, essay feedback, thesis coaching and degree planning is shared on request. Ask on KakaoTalk or through the contact form.",
+    body: `${pageHead(ko ? "가격은 상담에서 안내합니다" : "Ask us for pricing", c.priceP)}
 <section class="section first"><div class="wrap">
-  <div class="sec-head left"><h2>${ko ? "가격표" : "Price list"} ${est}</h2><p>${ko ? "석사 과정은 튜터링과 첨삭이 20% 더 붙습니다." : "Master's-level tutoring and feedback cost 20% more."}</p></div>
-${tableHtml}
-</div></section>
-<section class="section" id="refund"><div class="wrap">
-  <div class="refund big"><h2>${ko ? "환불 정책" : "Refund policy"} ${est}</h2><ul>${refundItems(lang).map((t) => `<li>${t}</li>`).join("")}</ul>
-  <p class="small">${ko ? "정책 세부 내용은 정식 오픈 때 확정해서 이 자리에 올립니다." : "The final policy will be confirmed and posted here at full launch."}</p></div>
+  ${askBox(lang)}
 </div></section>
 <section class="section tint"><div class="wrap">
-  <div class="sec-head left"><h2>${ko ? "예상 비용 계산" : "Estimate your cost"} ${est}</h2></div>
-  <div class="calc" id="calc">
-    <form onsubmit="return false">
-      <div class="field full"><label for="service">${ko ? "서비스" : "Service"}</label><select id="service" name="service">${options.join("")}</select></div>
-      <div class="field"><label for="level">${ko ? "과정" : "Level"}</label><select id="level" name="level">
-        <option data-mult="1">${ko ? "학부" : "Undergraduate"}</option><option data-mult="1.2">${ko ? "석사" : "Master's"}</option></select></div>
-      <div class="field" id="speed-field"><label for="speed">${ko ? "받는 시점" : "Turnaround"}</label><select id="speed" name="speed">
-        <option data-mult="1">${ko ? "5일" : "5 days"}</option><option data-mult="1.5">${ko ? "48시간" : "48 hours"}</option></select></div>
-      <div class="field full"><div class="row"><label for="qty" id="qty-label">${ko ? "세션 수" : "Sessions"}</label><output id="qty-out"></output></div>
-        <input type="range" id="qty" name="qty" min="1" max="30" step="1" value="4"></div>
-    </form>
-    <div class="out" aria-live="polite"><span>${ko ? "예상 금액" : "Estimated total"}</span><div class="big" id="calc-price"></div><p id="calc-note"></p><p><a href="contact.html">${ko ? "이 내용으로 상담 신청" : "Book a call about this"}</a></p></div>
-  </div>
+  ${head(lang, ko ? "견적은 이렇게 받습니다" : "How a quote works", "QUOTE")}
+  <ol class="steps three">
+    <li><h3>${ko ? "문의 남기기" : "Get in touch"}</h3><p>${ko ? "카카오톡이나 상담 신청 양식으로 필요한 도움과 마감을 알려 주세요." : "Tell us what you need and when it's due, on KakaoTalk or through the form."}</p></li>
+    <li><h3>${ko ? "상황 확인" : "Quick check"}</h3><p>${ko ? "과제 안내문이나 수업 계획서를 보고 어떤 도움이 얼마나 필요한지 확인합니다." : "We look at the assignment brief or syllabus to see what help you need and how much."}</p></li>
+    <li><h3>${ko ? "계획서와 견적" : "Plan and quote"}</h3><p>${ko ? "일정과 견적을 함께 보내 드립니다. 진행 여부는 받아 보고 정하시면 됩니다." : "You get a schedule and a quote together, then decide whether to go ahead."}</p></li>
+  </ol>
+  <p class="more"><a href="services.html">${ko ? "서비스별 내용 보기" : "What each service includes"}</a></p>
 </div></section>`,
   });
 }
@@ -782,8 +734,8 @@ function about(lang) {
   return shell({
     lang, page: "about", rel: "about.html",
     title: ko ? "소개 | DegreeMate" : "About | DegreeMate",
-    desc: ko ? "DegreeMate는 원비전컨설팅의 학습 지원 브랜드입니다. 운영 방식과 학업 윤리 원칙을 소개합니다." : "DegreeMate is OneVision Consulting's study-support brand. How we work and our academic-integrity rules.",
-    body: `${pageHead(ko ? "DegreeMate는 이렇게 일합니다" : "Who we are and how we work", ko ? "DegreeMate는 미국 유학과 이민 상담을 해 온 원비전컨설팅이 새로 만든 학습 지원 브랜드입니다. 유학생과 일하면서 공부하는 분들이 학위를 끝까지 마치도록 돕습니다." : "DegreeMate is a new study-support brand from OneVision Consulting, which advises Korean families on U.S. study and immigration. We help international students and people who work while they study finish their degree.")}
+    desc: ko ? "DegreeMate는 원비전컨설팅과 함께 운영하는 학습 지원 브랜드입니다. 운영 방식과 학업 윤리 원칙을 소개합니다." : "DegreeMate is a study-support brand operated alongside OneVision Consulting. How we work and our academic-integrity rules.",
+    body: `${pageHead(ko ? "DegreeMate는 이렇게 일합니다" : "Who we are and how we work", ko ? "DegreeMate는 미국 유학과 이민 상담을 해 온 원비전컨설팅과 함께 운영하는 별도의 학습 지원 브랜드입니다. 유학생과 일하면서 공부하는 분들이 학위를 끝까지 마치도록 돕습니다." : "DegreeMate is a separate study-support brand operated alongside OneVision Consulting, which advises Korean families on U.S. study and immigration. We help international students and people who work while they study finish their degree.")}
 <section class="section first"><div class="wrap">
   <div class="split"><div><h2>${ko ? "운영 방식" : "How we work"}</h2></div><div>
     <ul>
@@ -809,7 +761,7 @@ function faq(lang) {
   return shell({
     lang, page: "faq", rel: "faq.html",
     title: ko ? "자주 묻는 질문 | DegreeMate" : "FAQ | DegreeMate",
-    desc: ko ? "DegreeMate 서비스 범위, AI 도구와 학업 윤리, 일정, 비용에 대해 자주 묻는 질문." : "Common questions about DegreeMate's services, AI tools and academic integrity, scheduling and payment.",
+    desc: ko ? "DegreeMate 서비스 범위, AI 도구와 학업 윤리, 일정, 가격 문의에 대해 자주 묻는 질문." : "Common questions about DegreeMate's services, AI tools and academic integrity, scheduling and pricing.",
     body: `${pageHead(ko ? "자주 묻는 질문" : "Common questions", ko ? "여기 없는 질문은 카카오톡이나 상담 신청 양식으로 남겨 주세요." : "If your question isn't here, send it on KakaoTalk or through the contact form.")}
 <section class="section first"><div class="wrap"><div class="faq">
 ${faqItems(lang).map(faqHtml).join("\n")}
@@ -821,16 +773,16 @@ function contact(lang) {
   const ko = lang === "ko";
   const u = UI[lang];
   const needs = ko
-    ? ["과목 튜터링", "에세이 첨삭", "논문 코칭", "졸업 설계", "학기 학습 관리", "아직 모르겠어요"]
-    : ["Tutoring", "Essay feedback", "Thesis coaching", "Degree planning", "Term check-ins", "Not sure yet"];
+    ? ["과목 튜터링", "에세이 첨삭", "논문 코칭", "졸업 설계", "학기 학습 관리", "가격 문의", "아직 모르겠어요"]
+    : ["Tutoring", "Essay feedback", "Thesis coaching", "Degree planning", "Term check-ins", "Pricing question", "Not sure yet"];
   const kakaoVal = CONTACT.kakaoUrl
     ? `<a href="${CONTACT.kakaoUrl}" target="_blank" rel="noopener">${CONTACT.kakaoId || u.band.open}</a>`
     : CONTACT.kakaoId || (ko ? "개설 준비 중입니다. 지금은 오른쪽 양식으로 남겨 주세요." : "Channel coming soon. For now, please use the form.");
   return shell({
     lang, page: "contact", rel: "contact.html", band: false,
-    title: ko ? "무료 상담 신청 | DegreeMate" : "Book a free call | DegreeMate",
-    desc: ko ? "15분 무료 상담을 신청하세요. 영업일 하루 안에 연락드립니다." : "Book a free 15-minute call. We reply within one business day.",
-    body: `${pageHead(ko ? "15분 무료 상담 신청" : "Book a free 15-minute call", ko ? "아는 만큼만 적어 주셔도 됩니다. 영업일 하루 안에 편한 방법으로 연락드릴게요." : "Fill in what you know. We'll get back to you within one business day, using the contact details you leave.")}
+    title: ko ? "상담 및 가격 문의 | DegreeMate" : "Book a call or ask about pricing | DegreeMate",
+    desc: ko ? "15분 상담 신청과 가격 문의. 영업일 하루 안에 연락드립니다." : "Book a 15-minute call or ask about pricing. We reply within one business day.",
+    body: `${pageHead(ko ? "상담 및 가격 문의" : "Book a call or ask about pricing", ko ? "아는 만큼만 적어 주셔도 됩니다. 영업일 하루 안에 편한 방법으로 연락드릴게요." : "Fill in what you know. We'll get back to you within one business day, using the contact details you leave.")}
 <section class="section first"><div class="wrap"><div class="contact">
   <div>
     <div class="kakao-box" id="kakao">
@@ -845,7 +797,7 @@ function contact(lang) {
     <ul class="ways">
       <li><strong>${ko ? "상담 시간" : "Length"}</strong>${ko ? "15분, 카카오톡이나 전화 또는 화상" : "15 minutes, by KakaoTalk, phone or video"}</li>
       <li><strong>${ko ? "준비하면 좋은 것" : "Helpful to have"}</strong>${ko ? "다니는 학교나 프로그램 이름, 과제 안내문이나 수업 계획서, 가장 급한 마감" : "Your school or program, the assignment brief or syllabus, and your most urgent deadline"}</li>
-      <li><strong>${ko ? "비용" : "Cost"}</strong>${ko ? "상담은 무료이고, 상담 후 결제할 의무가 없습니다." : "The call is free, and there's no obligation to buy anything."}</li>
+      <li><strong>${ko ? "가격" : "Pricing"}</strong>${ko ? "서비스와 일정에 맞춰 상담에서 안내합니다. 양식에 가격 문의라고 적어 주셔도 됩니다." : "We quote it based on the service and your schedule. You can also just tick Pricing question on the form."}</li>
     </ul>
   </div>
   <form id="consult" novalidate>
@@ -873,8 +825,8 @@ const postCta = (lang, up) => {
   const kakao = CONTACT.kakaoUrl ? `<a class="btn kakao" href="${CONTACT.kakaoUrl}" target="_blank" rel="noopener">${KAKAO_ICON}${UI[lang].kakaoBtn}</a>` : "";
   return `<aside class="post-cta">
   <h2>${ko ? "직접 쓴 글로 같이 연습해 보고 싶다면" : "Want to practice on your own writing?"}</h2>
-  <p>${ko ? "15분 무료 상담에서 지금 쓰는 과제와 마감을 알려 주세요. 이틀 안에 계획서와 예상 비용을 보내 드립니다." : "Tell us about the assignment and deadline on a free 15-minute call. Within two days you'll get a plan and an estimated cost."}</p>
-  <div class="kb-actions"><a class="btn dark" href="${up}contact.html">${ko ? "무료 상담 신청" : "Book a free call"}</a>${kakao}</div>
+  <p>${ko ? "상담에서 지금 쓰는 과제와 마감을 알려 주세요. 이틀 안에 계획서와 견적을 보내 드립니다." : "Tell us about the assignment and deadline on a call. Within two days you'll get a plan and a quote."}</p>
+  <div class="kb-actions"><a class="btn dark" href="${up}contact.html">${ko ? "상담 신청" : "Book a call"}</a>${kakao}</div>
 </aside>`;
 };
 

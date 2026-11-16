@@ -245,6 +245,18 @@ html[lang="en"] .ring-name { font-size: 13px; letter-spacing: 0; }
 .refund li { margin-bottom: 4px; }
 .refund .small { margin-top: 14px; }
 
+/* ---------------------------------------------- pricing inquiry (no prices) */
+.ask-line { text-align: center; font-size: 15px; color: var(--muted); margin: 14px 0 0; }
+.ask-line a { font-weight: 700; margin-left: 6px; }
+.ask-box { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: clamp(24px, 4vw, 48px); align-items: center; max-width: 860px; margin: 0 auto; background: var(--panel); border-left: 4px solid var(--green); padding: clamp(24px, 4vw, 36px); }
+.tint .ask-box { background: var(--white); }
+.ask-box h3 { margin-bottom: 14px; }
+.ask-box .checklist { margin: 0; }
+.ask-actions { display: grid; gap: 10px; text-align: center; }
+.ask-title { font-family: var(--display); font-weight: var(--display-w); letter-spacing: var(--display-ls); font-size: 21px; color: var(--ink); margin: 0 0 4px; }
+.ask-actions .small { margin: 4px 0 0; }
+.steps.three { grid-template-columns: repeat(3, 1fr); max-width: 860px; margin: 0 auto; }
+
 /* ---------------------------------------------------------------- reviews */
 .empty { max-width: var(--w-text); margin: 0 auto; text-align: center; border: 2px dashed var(--rule); padding: 30px 28px; color: var(--muted); background: var(--white); }
 .reviews { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
@@ -439,6 +451,7 @@ html[lang="ko"] .foot h2 { font-family: var(--body); font-size: 14px; letter-spa
 @media (max-width: 960px) {
   .steps { grid-template-columns: 1fr 1fr; row-gap: 40px; }
   .steps li:nth-child(2)::after { display: none; }
+  .steps.three li:nth-child(2)::after { display: block; }
   .calc, .plan-calc { grid-template-columns: 1fr; }
   .match { grid-template-columns: 1fr 1fr; }
   .foot .wrap { grid-template-columns: 1fr 1fr; }
@@ -453,7 +466,7 @@ html[lang="ko"] .foot h2 { font-family: var(--body); font-size: 14px; letter-spa
   .nav .btn { margin-top: 14px; justify-content: center; padding: 13px 16px; font-size: 15px; }
   .tutors, .reviews, .routes, .integrity, .split, .contact { grid-template-columns: 1fr; }
   .integrity > div + div { border-left: 0; border-top: 1px solid var(--line); }
-  .kakao-band .wrap { grid-template-columns: 1fr; }
+  .kakao-band .wrap, .ask-box { grid-template-columns: 1fr; }
   .kb-logo { padding: 26px 20px; }
   .kb-logo svg { width: 44px; height: 44px; margin-bottom: 8px; }
   .kb-logo .wm { font-size: 26px; }
@@ -467,8 +480,8 @@ html[lang="ko"] .foot h2 { font-family: var(--body); font-size: 14px; letter-spa
   .ring { width: 124px; border-width: 7px; }
   .ring svg { width: 26px; height: 26px; }
   .ring-name { font-size: 13.5px; padding: 2px 7px; }
-  .steps { grid-template-columns: 1fr; }
-  .steps li::after { display: none; }
+  .steps, .steps.three { grid-template-columns: 1fr; }
+  .steps li::after, .steps.three li:nth-child(2)::after { display: none; }
   .match { grid-template-columns: 1fr; }
   .foot .wrap { grid-template-columns: 1fr; }
   /* Price tables become stacked rows: name and price on one line, what's
